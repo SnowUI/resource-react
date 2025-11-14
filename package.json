@@ -1,0 +1,23 @@
+{
+    "name": "@snowui-design-system/resource-react",
+    "version": "1.0.7",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "generate": "tsx ../../scripts/generate-react.ts"
+    },
+    "dependencies": {
+        "@snowui-design-system/resource-core": "^1.0.7"
+    },
+    "peerDependencies": {
+        "react": ">=18 <21"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0",
+        "tsx": "^4.7.0",
+        "@svgr/core": "^8.1.0"
+    }
+}

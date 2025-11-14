@@ -5,7 +5,7 @@
     "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsup",
-        "generate": "tsx ../../scripts/generate-react.ts"
+        "generate": "tsx scripts/generate-react.ts"
     },
     "dependencies": {
         "@snowui-design-system/resource-core": "^1.0.10"

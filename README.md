@@ -154,6 +154,29 @@ interface AvatarProps {
 
 **Note**: For bitmaps (avatars, backgrounds, images, illustrations), the component automatically selects the closest available size when a non-standard size is requested.
 
+### 🛠️ Development
+
+#### Regenerating Components
+
+If you need to regenerate components (e.g., after updating `@snowui-design-system/resource-core`):
+
+```bash
+# Install dependencies first
+npm install
+
+# Regenerate components
+npm run generate
+
+# Build the package
+npm run build
+```
+
+The generate script will automatically detect whether you're in a monorepo or standalone repository:
+- **Monorepo**: Uses `../resource/core` (if available)
+- **Standalone**: Uses `node_modules/@snowui-design-system/resource-core`
+
+**Note**: The generated components in `src/` are already included in the repository, so you typically don't need to run `generate` unless you're modifying the generation logic or updating resource-core.
+
 ### 🔗 Related Projects
 
 - **[resource-core](https://github.com/snowui/resource-core)** - Core resource package
@@ -314,6 +337,29 @@ interface AvatarProps {
 ```
 
 **注意**：对于位图（头像、背景、图片、插画），当请求非标准尺寸时，组件会自动选择最接近的可用尺寸。
+
+### 🛠️ 开发
+
+#### 重新生成组件
+
+如果需要重新生成组件（例如，更新了 `@snowui-design-system/resource-core` 后）：
+
+```bash
+# 先安装依赖
+npm install
+
+# 重新生成组件
+npm run generate
+
+# 构建包
+npm run build
+```
+
+生成脚本会自动检测你是在 monorepo 还是独立仓库中：
+- **Monorepo**：使用 `../resource/core`（如果存在）
+- **独立仓库**：使用 `node_modules/@snowui-design-system/resource-core`
+
+**注意**：`src/` 中的组件已经包含在仓库中，通常不需要运行 `generate`，除非你正在修改生成逻辑或更新 resource-core。
 
 ### 🔗 相关项目
 

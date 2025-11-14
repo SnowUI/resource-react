@@ -1,19 +1,18 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
 import CursorsZoomOutSrc from '@snowui-design-system/resource-core/assets/cursors/cursors-zoom-out.svg';
-
-export const CursorsZoomOut: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width;
-  const resolvedHeight = size ?? height;
+export const CursorsZoomOut: React.FC<AvatarProps> = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = CursorsZoomOutSrc;
   return (
     <img
       src={CursorsZoomOutSrc}
       alt="CursorsZoomOut"
-      width={resolvedWidth ?? undefined}
-      height={resolvedHeight ?? undefined}
+      width={resolvedWidth}
+      height={resolvedHeight}
       {...rest}
     />
   );
 };
-
 export default CursorsZoomOut;

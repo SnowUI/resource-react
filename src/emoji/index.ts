@@ -1,4 +1,4 @@
-export { default as Bomb } from './Bomb';
+export { default as BombEmoji } from './BombEmoji';
 export { default as FaceBlowingKiss } from './FaceBlowingKiss';
 export { default as FaceSteamFromNose } from './FaceSteamFromNose';
 export { default as FaceTearsJoy } from './FaceTearsJoy';

@@ -1,5 +1,6 @@
 export { default as Humanoid } from './Humanoid';
 export { default as Illustration01 } from './Illustration01';
+export { default as Illustration } from './Illustration';
 export { default as Illustration02 } from './Illustration02';
 export { default as Illustration03 } from './Illustration03';
 export { default as Illustration04 } from './Illustration04';
@@ -27,8 +28,6 @@ export { default as Illustration25 } from './Illustration25';
 export { default as Illustration26 } from './Illustration26';
 export { default as Illustration27 } from './Illustration27';
 export { default as Illustration28 } from './Illustration28';
-export { default as LineDrawing01 } from './LineDrawing01';
-export { default as LineDrawing02 } from './LineDrawing02';
-export { default as LineDrawing03 } from './LineDrawing03';
+export { default as LineDrawing } from './LineDrawing';
 export { default as QrCodeBig } from './QrCodeBig';
 export { default as Voice } from './Voice';

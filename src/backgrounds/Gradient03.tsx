@@ -1,19 +1,47 @@
 import * as React from 'react';
-import type { AvatarProps } from '../lib/types';
-import Gradient03Src from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03.jpg';
+import type { BackgroundProps } from '../lib/types';
+import Gradient03Src from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03-1024.jpg';
+import Gradient03Src320 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03-320.jpg';
+import Gradient03Src640 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03-640.jpg';
+import Gradient03Src1920 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03-1920.jpg';
+const Gradient03WidthMap = {
+    320: Gradient03Src320,
+    640: Gradient03Src640,
+    1024: Gradient03Src,
+    1920: Gradient03Src1920,
+} as const;
+const Gradient03AvailableWidths = [320, 640, 1024, 1920] as const;
 
-export const Gradient03: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width;
-  const resolvedHeight = size ?? height;
+  // 查找最接近的可用宽度
+  const findClosestWidth = (target: number, available: number[]): number => {
+    if (available.length === 0) return target;
+    // 如果目标宽度在可用宽度中，直接返回
+    if (available.includes(target)) return target;
+    // 找到最接近的宽度
+    let closest = available[0];
+    let minDiff = Math.abs(target - closest);
+    for (const width of available) {
+      const diff = Math.abs(target - width);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closest = width;
+      }
+    }
+    return closest;
+  };
+export const Gradient03: React.FC<BackgroundProps> = ({ width = 1024, height, ...rest }) => {
+  const resolvedWidth = width ?? 1024;
+  // 根据 width 选择对应宽度的图片，如果没有精确匹配则使用最接近的宽度
+  const closestWidth = findClosestWidth(resolvedWidth, Gradient03AvailableWidths);
+  const imageSrc = Gradient03WidthMap[closestWidth as keyof typeof Gradient03WidthMap] ?? Gradient03Src;
   return (
     <img
-      src={Gradient03Src}
+      src={imageSrc}
       alt="Gradient03"
-      width={resolvedWidth ?? undefined}
-      height={resolvedHeight ?? undefined}
+      width={resolvedWidth}
+      height={height ?? undefined}
       {...rest}
     />
   );
 };
-
 export default Gradient03;

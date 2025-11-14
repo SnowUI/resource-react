@@ -1773,3 +1773,5 @@ export { default as Xlogo } from './logos/Xlogo';
 export { default as Youtube } from './logos/Youtube';
 export { iconsByName as icons } from './icons/by-name';
 export type { IconName } from './icons/by-name';
+export { componentNames } from './component-names';
+export type { ComponentCategory } from './component-names';

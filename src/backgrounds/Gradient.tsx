@@ -34,7 +34,7 @@ const GradientWidthMap = {
 const GradientAvailableWidths = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] as const;
 
   // 查找最接近的可用宽度
-  const findClosestWidth = (target: number, available: number[]): number => {
+  const findClosestWidth = (target: number, available: readonly number[]): number => {
     if (available.length === 0) return target;
     // 如果目标宽度在可用宽度中，直接返回
     if (available.includes(target)) return target;

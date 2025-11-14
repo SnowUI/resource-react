@@ -31,7 +31,7 @@ const AvatarAbstract04SizeMap = {
 const AvatarAbstract04AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512] as const;
 
   // 查找最接近的可用尺寸
-  const findClosestSize = (target: number, available: number[]): number => {
+  const findClosestSize = (target: number, available: readonly number[]): number => {
     if (available.length === 0) return target;
     // 如果目标尺寸在可用尺寸中，直接返回
     if (available.includes(target)) return target;

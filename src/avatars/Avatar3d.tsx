@@ -14,7 +14,7 @@ const Avatar3dSizeMap = {
 const Avatar3dAvailableSizes = [1, 2, 3, 4] as const;
 
   // 查找最接近的可用尺寸
-  const findClosestSize = (target: number, available: number[]): number => {
+  const findClosestSize = (target: number, available: readonly number[]): number => {
     if (available.length === 0) return target;
     // 如果目标尺寸在可用尺寸中，直接返回
     if (available.includes(target)) return target;

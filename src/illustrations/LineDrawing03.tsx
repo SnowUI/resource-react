@@ -1,19 +1,17 @@
 import * as React from 'react';
-import type { AvatarProps } from '../lib/types';
+import type { BackgroundProps } from '../lib/types';
 import LineDrawing03Src from '@snowui-design-system/resource-core/assets/illustrations/line-drawing-03.svg';
-
-export const LineDrawing03: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width;
-  const resolvedHeight = size ?? height;
+export const LineDrawing03: React.FC<BackgroundProps> = ({ width = 320, height, ...rest }) => {
+  const resolvedWidth = width ?? 320;
+  const imageSrc = LineDrawing03Src;
   return (
     <img
       src={LineDrawing03Src}
       alt="LineDrawing03"
-      width={resolvedWidth ?? undefined}
-      height={resolvedHeight ?? undefined}
+      width={resolvedWidth}
+      height={height ?? undefined}
       {...rest}
     />
   );
 };
-
 export default LineDrawing03;

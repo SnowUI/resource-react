@@ -21030,52 +21030,6 @@ var Avatar3d01 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d01_default = Avatar3d01;
 
-// src/avatars/Avatar3d.tsx
-import Avatar3dSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01.jpg";
-import Avatar3dSrc1 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01.jpg";
-import Avatar3dSrc2 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02.jpg";
-import Avatar3dSrc3 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03.jpg";
-import Avatar3dSrc4 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04.jpg";
-import { jsx as jsx1597 } from "react/jsx-runtime";
-var Avatar3dSizeMap = {
-  1: Avatar3dSrc1,
-  2: Avatar3dSrc2,
-  3: Avatar3dSrc3,
-  4: Avatar3dSrc4
-};
-var Avatar3dAvailableSizes = [1, 2, 3, 4];
-var findClosestSize2 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const size of available) {
-    const diff = Math.abs(target - size);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = size;
-    }
-  }
-  return closest;
-};
-var Avatar3d = ({ size = 32, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width ?? 32;
-  const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize2(resolvedWidth, Avatar3dAvailableSizes);
-  const imageSrc = Avatar3dSizeMap[closestSize] ?? Avatar3dSrc;
-  return /* @__PURE__ */ jsx1597(
-    "img",
-    {
-      src: imageSrc,
-      alt: "Avatar3d",
-      width: resolvedWidth,
-      height: resolvedHeight,
-      ...rest
-    }
-  );
-};
-var Avatar3d_default = Avatar3d;
-
 // src/avatars/Avatar3d02.tsx
 import Avatar3d02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-32.jpg";
 import Avatar3d02Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-16.jpg";
@@ -21090,7 +21044,7 @@ import Avatar3d02Src80 from "@snowui-design-system/resource-core/assets/avatars/
 import Avatar3d02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-128.jpg";
 import Avatar3d02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-256.jpg";
 import Avatar3d02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-512.jpg";
-import { jsx as jsx1598 } from "react/jsx-runtime";
+import { jsx as jsx1597 } from "react/jsx-runtime";
 var Avatar3d02SizeMap = {
   16: Avatar3d02Src16,
   20: Avatar3d02Src20,
@@ -21107,7 +21061,7 @@ var Avatar3d02SizeMap = {
   512: Avatar3d02Src512
 };
 var Avatar3d02AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize3 = (target, available) => {
+var findClosestSize2 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21124,9 +21078,9 @@ var findClosestSize3 = (target, available) => {
 var Avatar3d02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize3(resolvedWidth, Avatar3d02AvailableSizes);
+  const closestSize = findClosestSize2(resolvedWidth, Avatar3d02AvailableSizes);
   const imageSrc = Avatar3d02SizeMap[closestSize] ?? Avatar3d02Src;
-  return /* @__PURE__ */ jsx1598(
+  return /* @__PURE__ */ jsx1597(
     "img",
     {
       src: imageSrc,
@@ -21153,7 +21107,7 @@ import Avatar3d03Src80 from "@snowui-design-system/resource-core/assets/avatars/
 import Avatar3d03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-128.jpg";
 import Avatar3d03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-256.jpg";
 import Avatar3d03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-512.jpg";
-import { jsx as jsx1599 } from "react/jsx-runtime";
+import { jsx as jsx1598 } from "react/jsx-runtime";
 var Avatar3d03SizeMap = {
   16: Avatar3d03Src16,
   20: Avatar3d03Src20,
@@ -21170,7 +21124,7 @@ var Avatar3d03SizeMap = {
   512: Avatar3d03Src512
 };
 var Avatar3d03AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize4 = (target, available) => {
+var findClosestSize3 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21187,9 +21141,9 @@ var findClosestSize4 = (target, available) => {
 var Avatar3d03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize4(resolvedWidth, Avatar3d03AvailableSizes);
+  const closestSize = findClosestSize3(resolvedWidth, Avatar3d03AvailableSizes);
   const imageSrc = Avatar3d03SizeMap[closestSize] ?? Avatar3d03Src;
-  return /* @__PURE__ */ jsx1599(
+  return /* @__PURE__ */ jsx1598(
     "img",
     {
       src: imageSrc,
@@ -21216,7 +21170,7 @@ import Avatar3d04Src80 from "@snowui-design-system/resource-core/assets/avatars/
 import Avatar3d04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-128.jpg";
 import Avatar3d04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-256.jpg";
 import Avatar3d04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-512.jpg";
-import { jsx as jsx1600 } from "react/jsx-runtime";
+import { jsx as jsx1599 } from "react/jsx-runtime";
 var Avatar3d04SizeMap = {
   16: Avatar3d04Src16,
   20: Avatar3d04Src20,
@@ -21233,7 +21187,7 @@ var Avatar3d04SizeMap = {
   512: Avatar3d04Src512
 };
 var Avatar3d04AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize5 = (target, available) => {
+var findClosestSize4 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21250,9 +21204,9 @@ var findClosestSize5 = (target, available) => {
 var Avatar3d04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize5(resolvedWidth, Avatar3d04AvailableSizes);
+  const closestSize = findClosestSize4(resolvedWidth, Avatar3d04AvailableSizes);
   const imageSrc = Avatar3d04SizeMap[closestSize] ?? Avatar3d04Src;
-  return /* @__PURE__ */ jsx1600(
+  return /* @__PURE__ */ jsx1599(
     "img",
     {
       src: imageSrc,
@@ -21279,7 +21233,7 @@ import AvatarAbstract01Src80 from "@snowui-design-system/resource-core/assets/av
 import AvatarAbstract01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-128.jpg";
 import AvatarAbstract01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-256.jpg";
 import AvatarAbstract01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-512.jpg";
-import { jsx as jsx1601 } from "react/jsx-runtime";
+import { jsx as jsx1600 } from "react/jsx-runtime";
 var AvatarAbstract01SizeMap = {
   16: AvatarAbstract01Src16,
   20: AvatarAbstract01Src20,
@@ -21296,7 +21250,7 @@ var AvatarAbstract01SizeMap = {
   512: AvatarAbstract01Src512
 };
 var AvatarAbstract01AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize6 = (target, available) => {
+var findClosestSize5 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21313,9 +21267,9 @@ var findClosestSize6 = (target, available) => {
 var AvatarAbstract01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize6(resolvedWidth, AvatarAbstract01AvailableSizes);
+  const closestSize = findClosestSize5(resolvedWidth, AvatarAbstract01AvailableSizes);
   const imageSrc = AvatarAbstract01SizeMap[closestSize] ?? AvatarAbstract01Src;
-  return /* @__PURE__ */ jsx1601(
+  return /* @__PURE__ */ jsx1600(
     "img",
     {
       src: imageSrc,
@@ -21327,52 +21281,6 @@ var AvatarAbstract01 = ({ size = 32, width, height, ...rest }) => {
   );
 };
 var AvatarAbstract01_default = AvatarAbstract01;
-
-// src/avatars/AvatarAbstract.tsx
-import AvatarAbstractSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01.jpg";
-import AvatarAbstractSrc1 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01.jpg";
-import AvatarAbstractSrc2 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02.jpg";
-import AvatarAbstractSrc3 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03.jpg";
-import AvatarAbstractSrc4 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04.jpg";
-import { jsx as jsx1602 } from "react/jsx-runtime";
-var AvatarAbstractSizeMap = {
-  1: AvatarAbstractSrc1,
-  2: AvatarAbstractSrc2,
-  3: AvatarAbstractSrc3,
-  4: AvatarAbstractSrc4
-};
-var AvatarAbstractAvailableSizes = [1, 2, 3, 4];
-var findClosestSize7 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const size of available) {
-    const diff = Math.abs(target - size);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = size;
-    }
-  }
-  return closest;
-};
-var AvatarAbstract = ({ size = 32, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width ?? 32;
-  const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize7(resolvedWidth, AvatarAbstractAvailableSizes);
-  const imageSrc = AvatarAbstractSizeMap[closestSize] ?? AvatarAbstractSrc;
-  return /* @__PURE__ */ jsx1602(
-    "img",
-    {
-      src: imageSrc,
-      alt: "AvatarAbstract",
-      width: resolvedWidth,
-      height: resolvedHeight,
-      ...rest
-    }
-  );
-};
-var AvatarAbstract_default = AvatarAbstract;
 
 // src/avatars/AvatarAbstract02.tsx
 import AvatarAbstract02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-32.jpg";
@@ -21388,7 +21296,7 @@ import AvatarAbstract02Src80 from "@snowui-design-system/resource-core/assets/av
 import AvatarAbstract02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-128.jpg";
 import AvatarAbstract02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-256.jpg";
 import AvatarAbstract02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-512.jpg";
-import { jsx as jsx1603 } from "react/jsx-runtime";
+import { jsx as jsx1601 } from "react/jsx-runtime";
 var AvatarAbstract02SizeMap = {
   16: AvatarAbstract02Src16,
   20: AvatarAbstract02Src20,
@@ -21405,7 +21313,7 @@ var AvatarAbstract02SizeMap = {
   512: AvatarAbstract02Src512
 };
 var AvatarAbstract02AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize8 = (target, available) => {
+var findClosestSize6 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21422,9 +21330,9 @@ var findClosestSize8 = (target, available) => {
 var AvatarAbstract02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize8(resolvedWidth, AvatarAbstract02AvailableSizes);
+  const closestSize = findClosestSize6(resolvedWidth, AvatarAbstract02AvailableSizes);
   const imageSrc = AvatarAbstract02SizeMap[closestSize] ?? AvatarAbstract02Src;
-  return /* @__PURE__ */ jsx1603(
+  return /* @__PURE__ */ jsx1601(
     "img",
     {
       src: imageSrc,
@@ -21451,7 +21359,7 @@ import AvatarAbstract03Src80 from "@snowui-design-system/resource-core/assets/av
 import AvatarAbstract03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-128.jpg";
 import AvatarAbstract03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-256.jpg";
 import AvatarAbstract03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-512.jpg";
-import { jsx as jsx1604 } from "react/jsx-runtime";
+import { jsx as jsx1602 } from "react/jsx-runtime";
 var AvatarAbstract03SizeMap = {
   16: AvatarAbstract03Src16,
   20: AvatarAbstract03Src20,
@@ -21468,7 +21376,7 @@ var AvatarAbstract03SizeMap = {
   512: AvatarAbstract03Src512
 };
 var AvatarAbstract03AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize9 = (target, available) => {
+var findClosestSize7 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21485,9 +21393,9 @@ var findClosestSize9 = (target, available) => {
 var AvatarAbstract03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize9(resolvedWidth, AvatarAbstract03AvailableSizes);
+  const closestSize = findClosestSize7(resolvedWidth, AvatarAbstract03AvailableSizes);
   const imageSrc = AvatarAbstract03SizeMap[closestSize] ?? AvatarAbstract03Src;
-  return /* @__PURE__ */ jsx1604(
+  return /* @__PURE__ */ jsx1602(
     "img",
     {
       src: imageSrc,
@@ -21514,7 +21422,7 @@ import AvatarAbstract04Src80 from "@snowui-design-system/resource-core/assets/av
 import AvatarAbstract04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-128.jpg";
 import AvatarAbstract04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-256.jpg";
 import AvatarAbstract04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-512.jpg";
-import { jsx as jsx1605 } from "react/jsx-runtime";
+import { jsx as jsx1603 } from "react/jsx-runtime";
 var AvatarAbstract04SizeMap = {
   16: AvatarAbstract04Src16,
   20: AvatarAbstract04Src20,
@@ -21531,7 +21439,7 @@ var AvatarAbstract04SizeMap = {
   512: AvatarAbstract04Src512
 };
 var AvatarAbstract04AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize10 = (target, available) => {
+var findClosestSize8 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21548,9 +21456,9 @@ var findClosestSize10 = (target, available) => {
 var AvatarAbstract04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize10(resolvedWidth, AvatarAbstract04AvailableSizes);
+  const closestSize = findClosestSize8(resolvedWidth, AvatarAbstract04AvailableSizes);
   const imageSrc = AvatarAbstract04SizeMap[closestSize] ?? AvatarAbstract04Src;
-  return /* @__PURE__ */ jsx1605(
+  return /* @__PURE__ */ jsx1603(
     "img",
     {
       src: imageSrc,
@@ -21577,7 +21485,7 @@ import AvatarByewindSrc80 from "@snowui-design-system/resource-core/assets/avata
 import AvatarByewindSrc128 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-128.jpg";
 import AvatarByewindSrc256 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-256.jpg";
 import AvatarByewindSrc512 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-512.jpg";
-import { jsx as jsx1606 } from "react/jsx-runtime";
+import { jsx as jsx1604 } from "react/jsx-runtime";
 var AvatarByewindSizeMap = {
   16: AvatarByewindSrc16,
   20: AvatarByewindSrc20,
@@ -21594,7 +21502,7 @@ var AvatarByewindSizeMap = {
   512: AvatarByewindSrc512
 };
 var AvatarByewindAvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize11 = (target, available) => {
+var findClosestSize9 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21611,9 +21519,9 @@ var findClosestSize11 = (target, available) => {
 var AvatarByewind = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize11(resolvedWidth, AvatarByewindAvailableSizes);
+  const closestSize = findClosestSize9(resolvedWidth, AvatarByewindAvailableSizes);
   const imageSrc = AvatarByewindSizeMap[closestSize] ?? AvatarByewindSrc;
-  return /* @__PURE__ */ jsx1606(
+  return /* @__PURE__ */ jsx1604(
     "img",
     {
       src: imageSrc,
@@ -21640,7 +21548,7 @@ import AvatarDefaultSrc80 from "@snowui-design-system/resource-core/assets/avata
 import AvatarDefaultSrc128 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-128.jpg";
 import AvatarDefaultSrc256 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-256.jpg";
 import AvatarDefaultSrc512 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-512.jpg";
-import { jsx as jsx1607 } from "react/jsx-runtime";
+import { jsx as jsx1605 } from "react/jsx-runtime";
 var AvatarDefaultSizeMap = {
   16: AvatarDefaultSrc16,
   20: AvatarDefaultSrc20,
@@ -21657,7 +21565,7 @@ var AvatarDefaultSizeMap = {
   512: AvatarDefaultSrc512
 };
 var AvatarDefaultAvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize12 = (target, available) => {
+var findClosestSize10 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21674,9 +21582,9 @@ var findClosestSize12 = (target, available) => {
 var AvatarDefault = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize12(resolvedWidth, AvatarDefaultAvailableSizes);
+  const closestSize = findClosestSize10(resolvedWidth, AvatarDefaultAvailableSizes);
   const imageSrc = AvatarDefaultSizeMap[closestSize] ?? AvatarDefaultSrc;
-  return /* @__PURE__ */ jsx1607(
+  return /* @__PURE__ */ jsx1605(
     "img",
     {
       src: imageSrc,
@@ -21703,7 +21611,7 @@ import AvatarFemale01Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-128.jpg";
 import AvatarFemale01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-256.jpg";
 import AvatarFemale01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-512.jpg";
-import { jsx as jsx1608 } from "react/jsx-runtime";
+import { jsx as jsx1606 } from "react/jsx-runtime";
 var AvatarFemale01SizeMap = {
   16: AvatarFemale01Src16,
   20: AvatarFemale01Src20,
@@ -21720,7 +21628,7 @@ var AvatarFemale01SizeMap = {
   512: AvatarFemale01Src512
 };
 var AvatarFemale01AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize13 = (target, available) => {
+var findClosestSize11 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21737,9 +21645,9 @@ var findClosestSize13 = (target, available) => {
 var AvatarFemale01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize13(resolvedWidth, AvatarFemale01AvailableSizes);
+  const closestSize = findClosestSize11(resolvedWidth, AvatarFemale01AvailableSizes);
   const imageSrc = AvatarFemale01SizeMap[closestSize] ?? AvatarFemale01Src;
-  return /* @__PURE__ */ jsx1608(
+  return /* @__PURE__ */ jsx1606(
     "img",
     {
       src: imageSrc,
@@ -21751,56 +21659,6 @@ var AvatarFemale01 = ({ size = 32, width, height, ...rest }) => {
   );
 };
 var AvatarFemale01_default = AvatarFemale01;
-
-// src/avatars/AvatarFemale.tsx
-import AvatarFemaleSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01.jpg";
-import AvatarFemaleSrc1 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01.jpg";
-import AvatarFemaleSrc2 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02.jpg";
-import AvatarFemaleSrc3 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03.jpg";
-import AvatarFemaleSrc4 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04.jpg";
-import AvatarFemaleSrc5 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05.jpg";
-import AvatarFemaleSrc6 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06.jpg";
-import { jsx as jsx1609 } from "react/jsx-runtime";
-var AvatarFemaleSizeMap = {
-  1: AvatarFemaleSrc1,
-  2: AvatarFemaleSrc2,
-  3: AvatarFemaleSrc3,
-  4: AvatarFemaleSrc4,
-  5: AvatarFemaleSrc5,
-  6: AvatarFemaleSrc6
-};
-var AvatarFemaleAvailableSizes = [1, 2, 3, 4, 5, 6];
-var findClosestSize14 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const size of available) {
-    const diff = Math.abs(target - size);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = size;
-    }
-  }
-  return closest;
-};
-var AvatarFemale = ({ size = 32, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width ?? 32;
-  const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize14(resolvedWidth, AvatarFemaleAvailableSizes);
-  const imageSrc = AvatarFemaleSizeMap[closestSize] ?? AvatarFemaleSrc;
-  return /* @__PURE__ */ jsx1609(
-    "img",
-    {
-      src: imageSrc,
-      alt: "AvatarFemale",
-      width: resolvedWidth,
-      height: resolvedHeight,
-      ...rest
-    }
-  );
-};
-var AvatarFemale_default = AvatarFemale;
 
 // src/avatars/AvatarFemale02.tsx
 import AvatarFemale02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-32.jpg";
@@ -21816,7 +21674,7 @@ import AvatarFemale02Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-128.jpg";
 import AvatarFemale02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-256.jpg";
 import AvatarFemale02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-512.jpg";
-import { jsx as jsx1610 } from "react/jsx-runtime";
+import { jsx as jsx1607 } from "react/jsx-runtime";
 var AvatarFemale02SizeMap = {
   16: AvatarFemale02Src16,
   20: AvatarFemale02Src20,
@@ -21833,7 +21691,7 @@ var AvatarFemale02SizeMap = {
   512: AvatarFemale02Src512
 };
 var AvatarFemale02AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize15 = (target, available) => {
+var findClosestSize12 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21850,9 +21708,9 @@ var findClosestSize15 = (target, available) => {
 var AvatarFemale02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize15(resolvedWidth, AvatarFemale02AvailableSizes);
+  const closestSize = findClosestSize12(resolvedWidth, AvatarFemale02AvailableSizes);
   const imageSrc = AvatarFemale02SizeMap[closestSize] ?? AvatarFemale02Src;
-  return /* @__PURE__ */ jsx1610(
+  return /* @__PURE__ */ jsx1607(
     "img",
     {
       src: imageSrc,
@@ -21879,7 +21737,7 @@ import AvatarFemale03Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-128.jpg";
 import AvatarFemale03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-256.jpg";
 import AvatarFemale03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-512.jpg";
-import { jsx as jsx1611 } from "react/jsx-runtime";
+import { jsx as jsx1608 } from "react/jsx-runtime";
 var AvatarFemale03SizeMap = {
   16: AvatarFemale03Src16,
   20: AvatarFemale03Src20,
@@ -21896,7 +21754,7 @@ var AvatarFemale03SizeMap = {
   512: AvatarFemale03Src512
 };
 var AvatarFemale03AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize16 = (target, available) => {
+var findClosestSize13 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21913,9 +21771,9 @@ var findClosestSize16 = (target, available) => {
 var AvatarFemale03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize16(resolvedWidth, AvatarFemale03AvailableSizes);
+  const closestSize = findClosestSize13(resolvedWidth, AvatarFemale03AvailableSizes);
   const imageSrc = AvatarFemale03SizeMap[closestSize] ?? AvatarFemale03Src;
-  return /* @__PURE__ */ jsx1611(
+  return /* @__PURE__ */ jsx1608(
     "img",
     {
       src: imageSrc,
@@ -21942,7 +21800,7 @@ import AvatarFemale04Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-128.jpg";
 import AvatarFemale04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-256.jpg";
 import AvatarFemale04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-512.jpg";
-import { jsx as jsx1612 } from "react/jsx-runtime";
+import { jsx as jsx1609 } from "react/jsx-runtime";
 var AvatarFemale04SizeMap = {
   16: AvatarFemale04Src16,
   20: AvatarFemale04Src20,
@@ -21959,7 +21817,7 @@ var AvatarFemale04SizeMap = {
   512: AvatarFemale04Src512
 };
 var AvatarFemale04AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize17 = (target, available) => {
+var findClosestSize14 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -21976,9 +21834,9 @@ var findClosestSize17 = (target, available) => {
 var AvatarFemale04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize17(resolvedWidth, AvatarFemale04AvailableSizes);
+  const closestSize = findClosestSize14(resolvedWidth, AvatarFemale04AvailableSizes);
   const imageSrc = AvatarFemale04SizeMap[closestSize] ?? AvatarFemale04Src;
-  return /* @__PURE__ */ jsx1612(
+  return /* @__PURE__ */ jsx1609(
     "img",
     {
       src: imageSrc,
@@ -22005,7 +21863,7 @@ import AvatarFemale05Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale05Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-128.jpg";
 import AvatarFemale05Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-256.jpg";
 import AvatarFemale05Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-512.jpg";
-import { jsx as jsx1613 } from "react/jsx-runtime";
+import { jsx as jsx1610 } from "react/jsx-runtime";
 var AvatarFemale05SizeMap = {
   16: AvatarFemale05Src16,
   20: AvatarFemale05Src20,
@@ -22022,7 +21880,7 @@ var AvatarFemale05SizeMap = {
   512: AvatarFemale05Src512
 };
 var AvatarFemale05AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize18 = (target, available) => {
+var findClosestSize15 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22039,9 +21897,9 @@ var findClosestSize18 = (target, available) => {
 var AvatarFemale05 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize18(resolvedWidth, AvatarFemale05AvailableSizes);
+  const closestSize = findClosestSize15(resolvedWidth, AvatarFemale05AvailableSizes);
   const imageSrc = AvatarFemale05SizeMap[closestSize] ?? AvatarFemale05Src;
-  return /* @__PURE__ */ jsx1613(
+  return /* @__PURE__ */ jsx1610(
     "img",
     {
       src: imageSrc,
@@ -22068,7 +21926,7 @@ import AvatarFemale06Src80 from "@snowui-design-system/resource-core/assets/avat
 import AvatarFemale06Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-128.jpg";
 import AvatarFemale06Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-256.jpg";
 import AvatarFemale06Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-512.jpg";
-import { jsx as jsx1614 } from "react/jsx-runtime";
+import { jsx as jsx1611 } from "react/jsx-runtime";
 var AvatarFemale06SizeMap = {
   16: AvatarFemale06Src16,
   20: AvatarFemale06Src20,
@@ -22085,7 +21943,7 @@ var AvatarFemale06SizeMap = {
   512: AvatarFemale06Src512
 };
 var AvatarFemale06AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize19 = (target, available) => {
+var findClosestSize16 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22102,9 +21960,9 @@ var findClosestSize19 = (target, available) => {
 var AvatarFemale06 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize19(resolvedWidth, AvatarFemale06AvailableSizes);
+  const closestSize = findClosestSize16(resolvedWidth, AvatarFemale06AvailableSizes);
   const imageSrc = AvatarFemale06SizeMap[closestSize] ?? AvatarFemale06Src;
-  return /* @__PURE__ */ jsx1614(
+  return /* @__PURE__ */ jsx1611(
     "img",
     {
       src: imageSrc,
@@ -22131,7 +21989,7 @@ import AvatarMale01Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-128.jpg";
 import AvatarMale01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-256.jpg";
 import AvatarMale01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-512.jpg";
-import { jsx as jsx1615 } from "react/jsx-runtime";
+import { jsx as jsx1612 } from "react/jsx-runtime";
 var AvatarMale01SizeMap = {
   16: AvatarMale01Src16,
   20: AvatarMale01Src20,
@@ -22148,7 +22006,7 @@ var AvatarMale01SizeMap = {
   512: AvatarMale01Src512
 };
 var AvatarMale01AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize20 = (target, available) => {
+var findClosestSize17 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22165,9 +22023,9 @@ var findClosestSize20 = (target, available) => {
 var AvatarMale01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize20(resolvedWidth, AvatarMale01AvailableSizes);
+  const closestSize = findClosestSize17(resolvedWidth, AvatarMale01AvailableSizes);
   const imageSrc = AvatarMale01SizeMap[closestSize] ?? AvatarMale01Src;
-  return /* @__PURE__ */ jsx1615(
+  return /* @__PURE__ */ jsx1612(
     "img",
     {
       src: imageSrc,
@@ -22179,56 +22037,6 @@ var AvatarMale01 = ({ size = 32, width, height, ...rest }) => {
   );
 };
 var AvatarMale01_default = AvatarMale01;
-
-// src/avatars/AvatarMale.tsx
-import AvatarMaleSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01.jpg";
-import AvatarMaleSrc1 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01.jpg";
-import AvatarMaleSrc2 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02.jpg";
-import AvatarMaleSrc3 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03.jpg";
-import AvatarMaleSrc4 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04.jpg";
-import AvatarMaleSrc5 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05.jpg";
-import AvatarMaleSrc6 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06.jpg";
-import { jsx as jsx1616 } from "react/jsx-runtime";
-var AvatarMaleSizeMap = {
-  1: AvatarMaleSrc1,
-  2: AvatarMaleSrc2,
-  3: AvatarMaleSrc3,
-  4: AvatarMaleSrc4,
-  5: AvatarMaleSrc5,
-  6: AvatarMaleSrc6
-};
-var AvatarMaleAvailableSizes = [1, 2, 3, 4, 5, 6];
-var findClosestSize21 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const size of available) {
-    const diff = Math.abs(target - size);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = size;
-    }
-  }
-  return closest;
-};
-var AvatarMale = ({ size = 32, width, height, ...rest }) => {
-  const resolvedWidth = size ?? width ?? 32;
-  const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize21(resolvedWidth, AvatarMaleAvailableSizes);
-  const imageSrc = AvatarMaleSizeMap[closestSize] ?? AvatarMaleSrc;
-  return /* @__PURE__ */ jsx1616(
-    "img",
-    {
-      src: imageSrc,
-      alt: "AvatarMale",
-      width: resolvedWidth,
-      height: resolvedHeight,
-      ...rest
-    }
-  );
-};
-var AvatarMale_default = AvatarMale;
 
 // src/avatars/AvatarMale02.tsx
 import AvatarMale02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-32.jpg";
@@ -22244,7 +22052,7 @@ import AvatarMale02Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-128.jpg";
 import AvatarMale02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-256.jpg";
 import AvatarMale02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-512.jpg";
-import { jsx as jsx1617 } from "react/jsx-runtime";
+import { jsx as jsx1613 } from "react/jsx-runtime";
 var AvatarMale02SizeMap = {
   16: AvatarMale02Src16,
   20: AvatarMale02Src20,
@@ -22261,7 +22069,7 @@ var AvatarMale02SizeMap = {
   512: AvatarMale02Src512
 };
 var AvatarMale02AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize22 = (target, available) => {
+var findClosestSize18 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22278,9 +22086,9 @@ var findClosestSize22 = (target, available) => {
 var AvatarMale02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize22(resolvedWidth, AvatarMale02AvailableSizes);
+  const closestSize = findClosestSize18(resolvedWidth, AvatarMale02AvailableSizes);
   const imageSrc = AvatarMale02SizeMap[closestSize] ?? AvatarMale02Src;
-  return /* @__PURE__ */ jsx1617(
+  return /* @__PURE__ */ jsx1613(
     "img",
     {
       src: imageSrc,
@@ -22307,7 +22115,7 @@ import AvatarMale03Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-128.jpg";
 import AvatarMale03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-256.jpg";
 import AvatarMale03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-512.jpg";
-import { jsx as jsx1618 } from "react/jsx-runtime";
+import { jsx as jsx1614 } from "react/jsx-runtime";
 var AvatarMale03SizeMap = {
   16: AvatarMale03Src16,
   20: AvatarMale03Src20,
@@ -22324,7 +22132,7 @@ var AvatarMale03SizeMap = {
   512: AvatarMale03Src512
 };
 var AvatarMale03AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize23 = (target, available) => {
+var findClosestSize19 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22341,9 +22149,9 @@ var findClosestSize23 = (target, available) => {
 var AvatarMale03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize23(resolvedWidth, AvatarMale03AvailableSizes);
+  const closestSize = findClosestSize19(resolvedWidth, AvatarMale03AvailableSizes);
   const imageSrc = AvatarMale03SizeMap[closestSize] ?? AvatarMale03Src;
-  return /* @__PURE__ */ jsx1618(
+  return /* @__PURE__ */ jsx1614(
     "img",
     {
       src: imageSrc,
@@ -22370,7 +22178,7 @@ import AvatarMale04Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-128.jpg";
 import AvatarMale04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-256.jpg";
 import AvatarMale04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-512.jpg";
-import { jsx as jsx1619 } from "react/jsx-runtime";
+import { jsx as jsx1615 } from "react/jsx-runtime";
 var AvatarMale04SizeMap = {
   16: AvatarMale04Src16,
   20: AvatarMale04Src20,
@@ -22387,7 +22195,7 @@ var AvatarMale04SizeMap = {
   512: AvatarMale04Src512
 };
 var AvatarMale04AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize24 = (target, available) => {
+var findClosestSize20 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22404,9 +22212,9 @@ var findClosestSize24 = (target, available) => {
 var AvatarMale04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize24(resolvedWidth, AvatarMale04AvailableSizes);
+  const closestSize = findClosestSize20(resolvedWidth, AvatarMale04AvailableSizes);
   const imageSrc = AvatarMale04SizeMap[closestSize] ?? AvatarMale04Src;
-  return /* @__PURE__ */ jsx1619(
+  return /* @__PURE__ */ jsx1615(
     "img",
     {
       src: imageSrc,
@@ -22433,7 +22241,7 @@ import AvatarMale05Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale05Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-128.jpg";
 import AvatarMale05Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-256.jpg";
 import AvatarMale05Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-512.jpg";
-import { jsx as jsx1620 } from "react/jsx-runtime";
+import { jsx as jsx1616 } from "react/jsx-runtime";
 var AvatarMale05SizeMap = {
   16: AvatarMale05Src16,
   20: AvatarMale05Src20,
@@ -22450,7 +22258,7 @@ var AvatarMale05SizeMap = {
   512: AvatarMale05Src512
 };
 var AvatarMale05AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize25 = (target, available) => {
+var findClosestSize21 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22467,9 +22275,9 @@ var findClosestSize25 = (target, available) => {
 var AvatarMale05 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize25(resolvedWidth, AvatarMale05AvailableSizes);
+  const closestSize = findClosestSize21(resolvedWidth, AvatarMale05AvailableSizes);
   const imageSrc = AvatarMale05SizeMap[closestSize] ?? AvatarMale05Src;
-  return /* @__PURE__ */ jsx1620(
+  return /* @__PURE__ */ jsx1616(
     "img",
     {
       src: imageSrc,
@@ -22496,7 +22304,7 @@ import AvatarMale06Src80 from "@snowui-design-system/resource-core/assets/avatar
 import AvatarMale06Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-128.jpg";
 import AvatarMale06Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-256.jpg";
 import AvatarMale06Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-512.jpg";
-import { jsx as jsx1621 } from "react/jsx-runtime";
+import { jsx as jsx1617 } from "react/jsx-runtime";
 var AvatarMale06SizeMap = {
   16: AvatarMale06Src16,
   20: AvatarMale06Src20,
@@ -22513,7 +22321,7 @@ var AvatarMale06SizeMap = {
   512: AvatarMale06Src512
 };
 var AvatarMale06AvailableSizes = [16, 20, 24, 28, 32, 40, 48, 56, 64, 80, 128, 256, 512];
-var findClosestSize26 = (target, available) => {
+var findClosestSize22 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22530,9 +22338,9 @@ var findClosestSize26 = (target, available) => {
 var AvatarMale06 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
-  const closestSize = findClosestSize26(resolvedWidth, AvatarMale06AvailableSizes);
+  const closestSize = findClosestSize22(resolvedWidth, AvatarMale06AvailableSizes);
   const imageSrc = AvatarMale06SizeMap[closestSize] ?? AvatarMale06Src;
-  return /* @__PURE__ */ jsx1621(
+  return /* @__PURE__ */ jsx1617(
     "img",
     {
       src: imageSrc,
@@ -22550,7 +22358,7 @@ import Geometric01Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-320.jpg";
 import Geometric01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-640.jpg";
 import Geometric01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-1920.jpg";
-import { jsx as jsx1622 } from "react/jsx-runtime";
+import { jsx as jsx1618 } from "react/jsx-runtime";
 var Geometric01WidthMap = {
   320: Geometric01Src320,
   640: Geometric01Src640,
@@ -22576,7 +22384,7 @@ var Geometric01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth(resolvedWidth, Geometric01AvailableWidths);
   const imageSrc = Geometric01WidthMap[closestWidth] ?? Geometric01Src;
-  return /* @__PURE__ */ jsx1622(
+  return /* @__PURE__ */ jsx1618(
     "img",
     {
       src: imageSrc,
@@ -22589,63 +22397,12 @@ var Geometric01 = ({ width = 1024, height, ...rest }) => {
 };
 var Geometric01_default = Geometric01;
 
-// src/backgrounds/Geometric.tsx
-import GeometricSrc from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01.jpg";
-import GeometricSrc1 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01.jpg";
-import GeometricSrc2 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02.jpg";
-import GeometricSrc3 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03.jpg";
-import GeometricSrc4 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04.jpg";
-import GeometricSrc5 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05.jpg";
-import GeometricSrc6 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06.jpg";
-import GeometricSrc7 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07.jpg";
-import { jsx as jsx1623 } from "react/jsx-runtime";
-var GeometricWidthMap = {
-  1: GeometricSrc1,
-  2: GeometricSrc2,
-  3: GeometricSrc3,
-  4: GeometricSrc4,
-  5: GeometricSrc5,
-  6: GeometricSrc6,
-  7: GeometricSrc7
-};
-var GeometricAvailableWidths = [1, 2, 3, 4, 5, 6, 7];
-var findClosestWidth2 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const width of available) {
-    const diff = Math.abs(target - width);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = width;
-    }
-  }
-  return closest;
-};
-var Geometric = ({ width = 1024, height, ...rest }) => {
-  const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth2(resolvedWidth, GeometricAvailableWidths);
-  const imageSrc = GeometricWidthMap[closestWidth] ?? GeometricSrc;
-  return /* @__PURE__ */ jsx1623(
-    "img",
-    {
-      src: imageSrc,
-      alt: "Geometric",
-      width: resolvedWidth,
-      height: height ?? void 0,
-      ...rest
-    }
-  );
-};
-var Geometric_default = Geometric;
-
 // src/backgrounds/Geometric02.tsx
 import Geometric02Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-1024.jpg";
 import Geometric02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-320.jpg";
 import Geometric02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-640.jpg";
 import Geometric02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-1920.jpg";
-import { jsx as jsx1624 } from "react/jsx-runtime";
+import { jsx as jsx1619 } from "react/jsx-runtime";
 var Geometric02WidthMap = {
   320: Geometric02Src320,
   640: Geometric02Src640,
@@ -22653,7 +22410,7 @@ var Geometric02WidthMap = {
   1920: Geometric02Src1920
 };
 var Geometric02AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth3 = (target, available) => {
+var findClosestWidth2 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22669,9 +22426,9 @@ var findClosestWidth3 = (target, available) => {
 };
 var Geometric02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth3(resolvedWidth, Geometric02AvailableWidths);
+  const closestWidth = findClosestWidth2(resolvedWidth, Geometric02AvailableWidths);
   const imageSrc = Geometric02WidthMap[closestWidth] ?? Geometric02Src;
-  return /* @__PURE__ */ jsx1624(
+  return /* @__PURE__ */ jsx1619(
     "img",
     {
       src: imageSrc,
@@ -22689,7 +22446,7 @@ import Geometric03Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-320.jpg";
 import Geometric03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-640.jpg";
 import Geometric03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-1920.jpg";
-import { jsx as jsx1625 } from "react/jsx-runtime";
+import { jsx as jsx1620 } from "react/jsx-runtime";
 var Geometric03WidthMap = {
   320: Geometric03Src320,
   640: Geometric03Src640,
@@ -22697,7 +22454,7 @@ var Geometric03WidthMap = {
   1920: Geometric03Src1920
 };
 var Geometric03AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth4 = (target, available) => {
+var findClosestWidth3 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22713,9 +22470,9 @@ var findClosestWidth4 = (target, available) => {
 };
 var Geometric03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth4(resolvedWidth, Geometric03AvailableWidths);
+  const closestWidth = findClosestWidth3(resolvedWidth, Geometric03AvailableWidths);
   const imageSrc = Geometric03WidthMap[closestWidth] ?? Geometric03Src;
-  return /* @__PURE__ */ jsx1625(
+  return /* @__PURE__ */ jsx1620(
     "img",
     {
       src: imageSrc,
@@ -22733,7 +22490,7 @@ import Geometric04Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric04Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-320.jpg";
 import Geometric04Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-640.jpg";
 import Geometric04Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-1920.jpg";
-import { jsx as jsx1626 } from "react/jsx-runtime";
+import { jsx as jsx1621 } from "react/jsx-runtime";
 var Geometric04WidthMap = {
   320: Geometric04Src320,
   640: Geometric04Src640,
@@ -22741,7 +22498,7 @@ var Geometric04WidthMap = {
   1920: Geometric04Src1920
 };
 var Geometric04AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth5 = (target, available) => {
+var findClosestWidth4 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22757,9 +22514,9 @@ var findClosestWidth5 = (target, available) => {
 };
 var Geometric04 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth5(resolvedWidth, Geometric04AvailableWidths);
+  const closestWidth = findClosestWidth4(resolvedWidth, Geometric04AvailableWidths);
   const imageSrc = Geometric04WidthMap[closestWidth] ?? Geometric04Src;
-  return /* @__PURE__ */ jsx1626(
+  return /* @__PURE__ */ jsx1621(
     "img",
     {
       src: imageSrc,
@@ -22777,7 +22534,7 @@ import Geometric05Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric05Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-320.jpg";
 import Geometric05Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-640.jpg";
 import Geometric05Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-1920.jpg";
-import { jsx as jsx1627 } from "react/jsx-runtime";
+import { jsx as jsx1622 } from "react/jsx-runtime";
 var Geometric05WidthMap = {
   320: Geometric05Src320,
   640: Geometric05Src640,
@@ -22785,7 +22542,7 @@ var Geometric05WidthMap = {
   1920: Geometric05Src1920
 };
 var Geometric05AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth6 = (target, available) => {
+var findClosestWidth5 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22801,9 +22558,9 @@ var findClosestWidth6 = (target, available) => {
 };
 var Geometric05 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth6(resolvedWidth, Geometric05AvailableWidths);
+  const closestWidth = findClosestWidth5(resolvedWidth, Geometric05AvailableWidths);
   const imageSrc = Geometric05WidthMap[closestWidth] ?? Geometric05Src;
-  return /* @__PURE__ */ jsx1627(
+  return /* @__PURE__ */ jsx1622(
     "img",
     {
       src: imageSrc,
@@ -22821,7 +22578,7 @@ import Geometric06Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric06Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-320.jpg";
 import Geometric06Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-640.jpg";
 import Geometric06Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-1920.jpg";
-import { jsx as jsx1628 } from "react/jsx-runtime";
+import { jsx as jsx1623 } from "react/jsx-runtime";
 var Geometric06WidthMap = {
   320: Geometric06Src320,
   640: Geometric06Src640,
@@ -22829,7 +22586,7 @@ var Geometric06WidthMap = {
   1920: Geometric06Src1920
 };
 var Geometric06AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth7 = (target, available) => {
+var findClosestWidth6 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22845,9 +22602,9 @@ var findClosestWidth7 = (target, available) => {
 };
 var Geometric06 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth7(resolvedWidth, Geometric06AvailableWidths);
+  const closestWidth = findClosestWidth6(resolvedWidth, Geometric06AvailableWidths);
   const imageSrc = Geometric06WidthMap[closestWidth] ?? Geometric06Src;
-  return /* @__PURE__ */ jsx1628(
+  return /* @__PURE__ */ jsx1623(
     "img",
     {
       src: imageSrc,
@@ -22865,7 +22622,7 @@ import Geometric07Src from "@snowui-design-system/resource-core/assets/backgroun
 import Geometric07Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-320.jpg";
 import Geometric07Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-640.jpg";
 import Geometric07Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-1920.jpg";
-import { jsx as jsx1629 } from "react/jsx-runtime";
+import { jsx as jsx1624 } from "react/jsx-runtime";
 var Geometric07WidthMap = {
   320: Geometric07Src320,
   640: Geometric07Src640,
@@ -22873,7 +22630,7 @@ var Geometric07WidthMap = {
   1920: Geometric07Src1920
 };
 var Geometric07AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth8 = (target, available) => {
+var findClosestWidth7 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22889,9 +22646,9 @@ var findClosestWidth8 = (target, available) => {
 };
 var Geometric07 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth8(resolvedWidth, Geometric07AvailableWidths);
+  const closestWidth = findClosestWidth7(resolvedWidth, Geometric07AvailableWidths);
   const imageSrc = Geometric07WidthMap[closestWidth] ?? Geometric07Src;
-  return /* @__PURE__ */ jsx1629(
+  return /* @__PURE__ */ jsx1624(
     "img",
     {
       src: imageSrc,
@@ -22909,7 +22666,7 @@ import Gradient01Src from "@snowui-design-system/resource-core/assets/background
 import Gradient01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-320.jpg";
 import Gradient01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-640.jpg";
 import Gradient01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-1920.jpg";
-import { jsx as jsx1630 } from "react/jsx-runtime";
+import { jsx as jsx1625 } from "react/jsx-runtime";
 var Gradient01WidthMap = {
   320: Gradient01Src320,
   640: Gradient01Src640,
@@ -22917,7 +22674,7 @@ var Gradient01WidthMap = {
   1920: Gradient01Src1920
 };
 var Gradient01AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth9 = (target, available) => {
+var findClosestWidth8 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22933,9 +22690,9 @@ var findClosestWidth9 = (target, available) => {
 };
 var Gradient01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth9(resolvedWidth, Gradient01AvailableWidths);
+  const closestWidth = findClosestWidth8(resolvedWidth, Gradient01AvailableWidths);
   const imageSrc = Gradient01WidthMap[closestWidth] ?? Gradient01Src;
-  return /* @__PURE__ */ jsx1630(
+  return /* @__PURE__ */ jsx1625(
     "img",
     {
       src: imageSrc,
@@ -22953,7 +22710,7 @@ import Gradient02Src from "@snowui-design-system/resource-core/assets/background
 import Gradient02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-320.jpg";
 import Gradient02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-640.jpg";
 import Gradient02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-1920.jpg";
-import { jsx as jsx1631 } from "react/jsx-runtime";
+import { jsx as jsx1626 } from "react/jsx-runtime";
 var Gradient02WidthMap = {
   320: Gradient02Src320,
   640: Gradient02Src640,
@@ -22961,7 +22718,7 @@ var Gradient02WidthMap = {
   1920: Gradient02Src1920
 };
 var Gradient02AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth10 = (target, available) => {
+var findClosestWidth9 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -22977,9 +22734,9 @@ var findClosestWidth10 = (target, available) => {
 };
 var Gradient02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth10(resolvedWidth, Gradient02AvailableWidths);
+  const closestWidth = findClosestWidth9(resolvedWidth, Gradient02AvailableWidths);
   const imageSrc = Gradient02WidthMap[closestWidth] ?? Gradient02Src;
-  return /* @__PURE__ */ jsx1631(
+  return /* @__PURE__ */ jsx1626(
     "img",
     {
       src: imageSrc,
@@ -22997,7 +22754,7 @@ import Gradient03Src from "@snowui-design-system/resource-core/assets/background
 import Gradient03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-320.jpg";
 import Gradient03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-640.jpg";
 import Gradient03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-1920.jpg";
-import { jsx as jsx1632 } from "react/jsx-runtime";
+import { jsx as jsx1627 } from "react/jsx-runtime";
 var Gradient03WidthMap = {
   320: Gradient03Src320,
   640: Gradient03Src640,
@@ -23005,7 +22762,7 @@ var Gradient03WidthMap = {
   1920: Gradient03Src1920
 };
 var Gradient03AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth11 = (target, available) => {
+var findClosestWidth10 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23021,9 +22778,9 @@ var findClosestWidth11 = (target, available) => {
 };
 var Gradient03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth11(resolvedWidth, Gradient03AvailableWidths);
+  const closestWidth = findClosestWidth10(resolvedWidth, Gradient03AvailableWidths);
   const imageSrc = Gradient03WidthMap[closestWidth] ?? Gradient03Src;
-  return /* @__PURE__ */ jsx1632(
+  return /* @__PURE__ */ jsx1627(
     "img",
     {
       src: imageSrc,
@@ -23041,7 +22798,7 @@ import Gradient04Src from "@snowui-design-system/resource-core/assets/background
 import Gradient04Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-320.jpg";
 import Gradient04Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-640.jpg";
 import Gradient04Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-1920.jpg";
-import { jsx as jsx1633 } from "react/jsx-runtime";
+import { jsx as jsx1628 } from "react/jsx-runtime";
 var Gradient04WidthMap = {
   320: Gradient04Src320,
   640: Gradient04Src640,
@@ -23049,7 +22806,7 @@ var Gradient04WidthMap = {
   1920: Gradient04Src1920
 };
 var Gradient04AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth12 = (target, available) => {
+var findClosestWidth11 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23065,9 +22822,9 @@ var findClosestWidth12 = (target, available) => {
 };
 var Gradient04 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth12(resolvedWidth, Gradient04AvailableWidths);
+  const closestWidth = findClosestWidth11(resolvedWidth, Gradient04AvailableWidths);
   const imageSrc = Gradient04WidthMap[closestWidth] ?? Gradient04Src;
-  return /* @__PURE__ */ jsx1633(
+  return /* @__PURE__ */ jsx1628(
     "img",
     {
       src: imageSrc,
@@ -23085,7 +22842,7 @@ import Gradient05Src from "@snowui-design-system/resource-core/assets/background
 import Gradient05Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-320.jpg";
 import Gradient05Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-640.jpg";
 import Gradient05Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-1920.jpg";
-import { jsx as jsx1634 } from "react/jsx-runtime";
+import { jsx as jsx1629 } from "react/jsx-runtime";
 var Gradient05WidthMap = {
   320: Gradient05Src320,
   640: Gradient05Src640,
@@ -23093,7 +22850,7 @@ var Gradient05WidthMap = {
   1920: Gradient05Src1920
 };
 var Gradient05AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth13 = (target, available) => {
+var findClosestWidth12 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23109,9 +22866,9 @@ var findClosestWidth13 = (target, available) => {
 };
 var Gradient05 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth13(resolvedWidth, Gradient05AvailableWidths);
+  const closestWidth = findClosestWidth12(resolvedWidth, Gradient05AvailableWidths);
   const imageSrc = Gradient05WidthMap[closestWidth] ?? Gradient05Src;
-  return /* @__PURE__ */ jsx1634(
+  return /* @__PURE__ */ jsx1629(
     "img",
     {
       src: imageSrc,
@@ -23129,7 +22886,7 @@ import Gradient06Src from "@snowui-design-system/resource-core/assets/background
 import Gradient06Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-320.jpg";
 import Gradient06Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-640.jpg";
 import Gradient06Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-1920.jpg";
-import { jsx as jsx1635 } from "react/jsx-runtime";
+import { jsx as jsx1630 } from "react/jsx-runtime";
 var Gradient06WidthMap = {
   320: Gradient06Src320,
   640: Gradient06Src640,
@@ -23137,7 +22894,7 @@ var Gradient06WidthMap = {
   1920: Gradient06Src1920
 };
 var Gradient06AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth14 = (target, available) => {
+var findClosestWidth13 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23153,9 +22910,9 @@ var findClosestWidth14 = (target, available) => {
 };
 var Gradient06 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth14(resolvedWidth, Gradient06AvailableWidths);
+  const closestWidth = findClosestWidth13(resolvedWidth, Gradient06AvailableWidths);
   const imageSrc = Gradient06WidthMap[closestWidth] ?? Gradient06Src;
-  return /* @__PURE__ */ jsx1635(
+  return /* @__PURE__ */ jsx1630(
     "img",
     {
       src: imageSrc,
@@ -23173,7 +22930,7 @@ import Gradient07Src from "@snowui-design-system/resource-core/assets/background
 import Gradient07Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-320.jpg";
 import Gradient07Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-640.jpg";
 import Gradient07Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-1920.jpg";
-import { jsx as jsx1636 } from "react/jsx-runtime";
+import { jsx as jsx1631 } from "react/jsx-runtime";
 var Gradient07WidthMap = {
   320: Gradient07Src320,
   640: Gradient07Src640,
@@ -23181,7 +22938,7 @@ var Gradient07WidthMap = {
   1920: Gradient07Src1920
 };
 var Gradient07AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth15 = (target, available) => {
+var findClosestWidth14 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23197,9 +22954,9 @@ var findClosestWidth15 = (target, available) => {
 };
 var Gradient07 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth15(resolvedWidth, Gradient07AvailableWidths);
+  const closestWidth = findClosestWidth14(resolvedWidth, Gradient07AvailableWidths);
   const imageSrc = Gradient07WidthMap[closestWidth] ?? Gradient07Src;
-  return /* @__PURE__ */ jsx1636(
+  return /* @__PURE__ */ jsx1631(
     "img",
     {
       src: imageSrc,
@@ -23217,7 +22974,7 @@ import Gradient08Src from "@snowui-design-system/resource-core/assets/background
 import Gradient08Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-320.jpg";
 import Gradient08Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-640.jpg";
 import Gradient08Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-1920.jpg";
-import { jsx as jsx1637 } from "react/jsx-runtime";
+import { jsx as jsx1632 } from "react/jsx-runtime";
 var Gradient08WidthMap = {
   320: Gradient08Src320,
   640: Gradient08Src640,
@@ -23225,7 +22982,7 @@ var Gradient08WidthMap = {
   1920: Gradient08Src1920
 };
 var Gradient08AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth16 = (target, available) => {
+var findClosestWidth15 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23241,9 +22998,9 @@ var findClosestWidth16 = (target, available) => {
 };
 var Gradient08 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth16(resolvedWidth, Gradient08AvailableWidths);
+  const closestWidth = findClosestWidth15(resolvedWidth, Gradient08AvailableWidths);
   const imageSrc = Gradient08WidthMap[closestWidth] ?? Gradient08Src;
-  return /* @__PURE__ */ jsx1637(
+  return /* @__PURE__ */ jsx1632(
     "img",
     {
       src: imageSrc,
@@ -23261,7 +23018,7 @@ import Gradient09Src from "@snowui-design-system/resource-core/assets/background
 import Gradient09Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-320.jpg";
 import Gradient09Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-640.jpg";
 import Gradient09Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-1920.jpg";
-import { jsx as jsx1638 } from "react/jsx-runtime";
+import { jsx as jsx1633 } from "react/jsx-runtime";
 var Gradient09WidthMap = {
   320: Gradient09Src320,
   640: Gradient09Src640,
@@ -23269,7 +23026,7 @@ var Gradient09WidthMap = {
   1920: Gradient09Src1920
 };
 var Gradient09AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth17 = (target, available) => {
+var findClosestWidth16 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23285,9 +23042,9 @@ var findClosestWidth17 = (target, available) => {
 };
 var Gradient09 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth17(resolvedWidth, Gradient09AvailableWidths);
+  const closestWidth = findClosestWidth16(resolvedWidth, Gradient09AvailableWidths);
   const imageSrc = Gradient09WidthMap[closestWidth] ?? Gradient09Src;
-  return /* @__PURE__ */ jsx1638(
+  return /* @__PURE__ */ jsx1633(
     "img",
     {
       src: imageSrc,
@@ -23305,7 +23062,7 @@ import Gradient10Src from "@snowui-design-system/resource-core/assets/background
 import Gradient10Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-320.jpg";
 import Gradient10Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-640.jpg";
 import Gradient10Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-1920.jpg";
-import { jsx as jsx1639 } from "react/jsx-runtime";
+import { jsx as jsx1634 } from "react/jsx-runtime";
 var Gradient10WidthMap = {
   320: Gradient10Src320,
   640: Gradient10Src640,
@@ -23313,7 +23070,7 @@ var Gradient10WidthMap = {
   1920: Gradient10Src1920
 };
 var Gradient10AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth18 = (target, available) => {
+var findClosestWidth17 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23329,9 +23086,9 @@ var findClosestWidth18 = (target, available) => {
 };
 var Gradient10 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth18(resolvedWidth, Gradient10AvailableWidths);
+  const closestWidth = findClosestWidth17(resolvedWidth, Gradient10AvailableWidths);
   const imageSrc = Gradient10WidthMap[closestWidth] ?? Gradient10Src;
-  return /* @__PURE__ */ jsx1639(
+  return /* @__PURE__ */ jsx1634(
     "img",
     {
       src: imageSrc,
@@ -23349,7 +23106,7 @@ import Gradient11Src from "@snowui-design-system/resource-core/assets/background
 import Gradient11Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-320.jpg";
 import Gradient11Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-640.jpg";
 import Gradient11Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-1920.jpg";
-import { jsx as jsx1640 } from "react/jsx-runtime";
+import { jsx as jsx1635 } from "react/jsx-runtime";
 var Gradient11WidthMap = {
   320: Gradient11Src320,
   640: Gradient11Src640,
@@ -23357,7 +23114,7 @@ var Gradient11WidthMap = {
   1920: Gradient11Src1920
 };
 var Gradient11AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth19 = (target, available) => {
+var findClosestWidth18 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23373,9 +23130,9 @@ var findClosestWidth19 = (target, available) => {
 };
 var Gradient11 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth19(resolvedWidth, Gradient11AvailableWidths);
+  const closestWidth = findClosestWidth18(resolvedWidth, Gradient11AvailableWidths);
   const imageSrc = Gradient11WidthMap[closestWidth] ?? Gradient11Src;
-  return /* @__PURE__ */ jsx1640(
+  return /* @__PURE__ */ jsx1635(
     "img",
     {
       src: imageSrc,
@@ -23393,7 +23150,7 @@ import Gradient12Src from "@snowui-design-system/resource-core/assets/background
 import Gradient12Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-320.jpg";
 import Gradient12Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-640.jpg";
 import Gradient12Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-1920.jpg";
-import { jsx as jsx1641 } from "react/jsx-runtime";
+import { jsx as jsx1636 } from "react/jsx-runtime";
 var Gradient12WidthMap = {
   320: Gradient12Src320,
   640: Gradient12Src640,
@@ -23401,7 +23158,7 @@ var Gradient12WidthMap = {
   1920: Gradient12Src1920
 };
 var Gradient12AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth20 = (target, available) => {
+var findClosestWidth19 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23417,9 +23174,9 @@ var findClosestWidth20 = (target, available) => {
 };
 var Gradient12 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth20(resolvedWidth, Gradient12AvailableWidths);
+  const closestWidth = findClosestWidth19(resolvedWidth, Gradient12AvailableWidths);
   const imageSrc = Gradient12WidthMap[closestWidth] ?? Gradient12Src;
-  return /* @__PURE__ */ jsx1641(
+  return /* @__PURE__ */ jsx1636(
     "img",
     {
       src: imageSrc,
@@ -23437,7 +23194,7 @@ import Gradient13Src from "@snowui-design-system/resource-core/assets/background
 import Gradient13Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-320.jpg";
 import Gradient13Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-640.jpg";
 import Gradient13Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-1920.jpg";
-import { jsx as jsx1642 } from "react/jsx-runtime";
+import { jsx as jsx1637 } from "react/jsx-runtime";
 var Gradient13WidthMap = {
   320: Gradient13Src320,
   640: Gradient13Src640,
@@ -23445,7 +23202,7 @@ var Gradient13WidthMap = {
   1920: Gradient13Src1920
 };
 var Gradient13AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth21 = (target, available) => {
+var findClosestWidth20 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23461,9 +23218,9 @@ var findClosestWidth21 = (target, available) => {
 };
 var Gradient13 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth21(resolvedWidth, Gradient13AvailableWidths);
+  const closestWidth = findClosestWidth20(resolvedWidth, Gradient13AvailableWidths);
   const imageSrc = Gradient13WidthMap[closestWidth] ?? Gradient13Src;
-  return /* @__PURE__ */ jsx1642(
+  return /* @__PURE__ */ jsx1637(
     "img",
     {
       src: imageSrc,
@@ -23481,7 +23238,7 @@ import Gradient14Src from "@snowui-design-system/resource-core/assets/background
 import Gradient14Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-320.jpg";
 import Gradient14Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-640.jpg";
 import Gradient14Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-1920.jpg";
-import { jsx as jsx1643 } from "react/jsx-runtime";
+import { jsx as jsx1638 } from "react/jsx-runtime";
 var Gradient14WidthMap = {
   320: Gradient14Src320,
   640: Gradient14Src640,
@@ -23489,7 +23246,7 @@ var Gradient14WidthMap = {
   1920: Gradient14Src1920
 };
 var Gradient14AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth22 = (target, available) => {
+var findClosestWidth21 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23505,9 +23262,9 @@ var findClosestWidth22 = (target, available) => {
 };
 var Gradient14 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth22(resolvedWidth, Gradient14AvailableWidths);
+  const closestWidth = findClosestWidth21(resolvedWidth, Gradient14AvailableWidths);
   const imageSrc = Gradient14WidthMap[closestWidth] ?? Gradient14Src;
-  return /* @__PURE__ */ jsx1643(
+  return /* @__PURE__ */ jsx1638(
     "img",
     {
       src: imageSrc,
@@ -23525,7 +23282,7 @@ import Minimal01Src from "@snowui-design-system/resource-core/assets/backgrounds
 import Minimal01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-320.jpg";
 import Minimal01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-640.jpg";
 import Minimal01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-1920.jpg";
-import { jsx as jsx1644 } from "react/jsx-runtime";
+import { jsx as jsx1639 } from "react/jsx-runtime";
 var Minimal01WidthMap = {
   320: Minimal01Src320,
   640: Minimal01Src640,
@@ -23533,7 +23290,7 @@ var Minimal01WidthMap = {
   1920: Minimal01Src1920
 };
 var Minimal01AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth23 = (target, available) => {
+var findClosestWidth22 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23549,9 +23306,9 @@ var findClosestWidth23 = (target, available) => {
 };
 var Minimal01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth23(resolvedWidth, Minimal01AvailableWidths);
+  const closestWidth = findClosestWidth22(resolvedWidth, Minimal01AvailableWidths);
   const imageSrc = Minimal01WidthMap[closestWidth] ?? Minimal01Src;
-  return /* @__PURE__ */ jsx1644(
+  return /* @__PURE__ */ jsx1639(
     "img",
     {
       src: imageSrc,
@@ -23564,55 +23321,12 @@ var Minimal01 = ({ width = 1024, height, ...rest }) => {
 };
 var Minimal01_default = Minimal01;
 
-// src/backgrounds/Minimal.tsx
-import MinimalSrc from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01.jpg";
-import MinimalSrc1 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01.jpg";
-import MinimalSrc2 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02.jpg";
-import MinimalSrc3 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03.jpg";
-import { jsx as jsx1645 } from "react/jsx-runtime";
-var MinimalWidthMap = {
-  1: MinimalSrc1,
-  2: MinimalSrc2,
-  3: MinimalSrc3
-};
-var MinimalAvailableWidths = [1, 2, 3];
-var findClosestWidth24 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const width of available) {
-    const diff = Math.abs(target - width);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = width;
-    }
-  }
-  return closest;
-};
-var Minimal = ({ width = 1024, height, ...rest }) => {
-  const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth24(resolvedWidth, MinimalAvailableWidths);
-  const imageSrc = MinimalWidthMap[closestWidth] ?? MinimalSrc;
-  return /* @__PURE__ */ jsx1645(
-    "img",
-    {
-      src: imageSrc,
-      alt: "Minimal",
-      width: resolvedWidth,
-      height: height ?? void 0,
-      ...rest
-    }
-  );
-};
-var Minimal_default = Minimal;
-
 // src/backgrounds/Minimal02.tsx
 import Minimal02Src from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-1024.jpg";
 import Minimal02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-320.jpg";
 import Minimal02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-640.jpg";
 import Minimal02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-1920.jpg";
-import { jsx as jsx1646 } from "react/jsx-runtime";
+import { jsx as jsx1640 } from "react/jsx-runtime";
 var Minimal02WidthMap = {
   320: Minimal02Src320,
   640: Minimal02Src640,
@@ -23620,7 +23334,7 @@ var Minimal02WidthMap = {
   1920: Minimal02Src1920
 };
 var Minimal02AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth25 = (target, available) => {
+var findClosestWidth23 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23636,9 +23350,9 @@ var findClosestWidth25 = (target, available) => {
 };
 var Minimal02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth25(resolvedWidth, Minimal02AvailableWidths);
+  const closestWidth = findClosestWidth23(resolvedWidth, Minimal02AvailableWidths);
   const imageSrc = Minimal02WidthMap[closestWidth] ?? Minimal02Src;
-  return /* @__PURE__ */ jsx1646(
+  return /* @__PURE__ */ jsx1640(
     "img",
     {
       src: imageSrc,
@@ -23656,7 +23370,7 @@ import Minimal03Src from "@snowui-design-system/resource-core/assets/backgrounds
 import Minimal03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-320.jpg";
 import Minimal03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-640.jpg";
 import Minimal03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-1920.jpg";
-import { jsx as jsx1647 } from "react/jsx-runtime";
+import { jsx as jsx1641 } from "react/jsx-runtime";
 var Minimal03WidthMap = {
   320: Minimal03Src320,
   640: Minimal03Src640,
@@ -23664,7 +23378,7 @@ var Minimal03WidthMap = {
   1920: Minimal03Src1920
 };
 var Minimal03AvailableWidths = [320, 640, 1024, 1920];
-var findClosestWidth26 = (target, available) => {
+var findClosestWidth24 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -23680,9 +23394,9 @@ var findClosestWidth26 = (target, available) => {
 };
 var Minimal03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
-  const closestWidth = findClosestWidth26(resolvedWidth, Minimal03AvailableWidths);
+  const closestWidth = findClosestWidth24(resolvedWidth, Minimal03AvailableWidths);
   const imageSrc = Minimal03WidthMap[closestWidth] ?? Minimal03Src;
-  return /* @__PURE__ */ jsx1647(
+  return /* @__PURE__ */ jsx1641(
     "img",
     {
       src: imageSrc,
@@ -23697,12 +23411,12 @@ var Minimal03_default = Minimal03;
 
 // src/cursors/CursorsBeachball.tsx
 import CursorsBeachballSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-beachball.svg";
-import { jsx as jsx1648 } from "react/jsx-runtime";
+import { jsx as jsx1642 } from "react/jsx-runtime";
 var CursorsBeachball = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsBeachballSrc;
-  return /* @__PURE__ */ jsx1648(
+  return /* @__PURE__ */ jsx1642(
     "img",
     {
       src: CursorsBeachballSrc,
@@ -23717,12 +23431,12 @@ var CursorsBeachball_default = CursorsBeachball;
 
 // src/cursors/CursorsCross.tsx
 import CursorsCrossSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-cross.svg";
-import { jsx as jsx1649 } from "react/jsx-runtime";
+import { jsx as jsx1643 } from "react/jsx-runtime";
 var CursorsCross = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsCrossSrc;
-  return /* @__PURE__ */ jsx1649(
+  return /* @__PURE__ */ jsx1643(
     "img",
     {
       src: CursorsCrossSrc,
@@ -23737,12 +23451,12 @@ var CursorsCross_default = CursorsCross;
 
 // src/cursors/CursorsDefault.tsx
 import CursorsDefaultSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-default.svg";
-import { jsx as jsx1650 } from "react/jsx-runtime";
+import { jsx as jsx1644 } from "react/jsx-runtime";
 var CursorsDefault = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsDefaultSrc;
-  return /* @__PURE__ */ jsx1650(
+  return /* @__PURE__ */ jsx1644(
     "img",
     {
       src: CursorsDefaultSrc,
@@ -23757,12 +23471,12 @@ var CursorsDefault_default = CursorsDefault;
 
 // src/cursors/CursorsHandGrabbing.tsx
 import CursorsHandGrabbingSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-grabbing.svg";
-import { jsx as jsx1651 } from "react/jsx-runtime";
+import { jsx as jsx1645 } from "react/jsx-runtime";
 var CursorsHandGrabbing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsHandGrabbingSrc;
-  return /* @__PURE__ */ jsx1651(
+  return /* @__PURE__ */ jsx1645(
     "img",
     {
       src: CursorsHandGrabbingSrc,
@@ -23777,12 +23491,12 @@ var CursorsHandGrabbing_default = CursorsHandGrabbing;
 
 // src/cursors/CursorsHandOpen.tsx
 import CursorsHandOpenSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-open.svg";
-import { jsx as jsx1652 } from "react/jsx-runtime";
+import { jsx as jsx1646 } from "react/jsx-runtime";
 var CursorsHandOpen = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsHandOpenSrc;
-  return /* @__PURE__ */ jsx1652(
+  return /* @__PURE__ */ jsx1646(
     "img",
     {
       src: CursorsHandOpenSrc,
@@ -23797,12 +23511,12 @@ var CursorsHandOpen_default = CursorsHandOpen;
 
 // src/cursors/CursorsHandPointing.tsx
 import CursorsHandPointingSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-pointing.svg";
-import { jsx as jsx1653 } from "react/jsx-runtime";
+import { jsx as jsx1647 } from "react/jsx-runtime";
 var CursorsHandPointing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsHandPointingSrc;
-  return /* @__PURE__ */ jsx1653(
+  return /* @__PURE__ */ jsx1647(
     "img",
     {
       src: CursorsHandPointingSrc,
@@ -23817,12 +23531,12 @@ var CursorsHandPointing_default = CursorsHandPointing;
 
 // src/cursors/CursorsMenu.tsx
 import CursorsMenuSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-menu.svg";
-import { jsx as jsx1654 } from "react/jsx-runtime";
+import { jsx as jsx1648 } from "react/jsx-runtime";
 var CursorsMenu = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsMenuSrc;
-  return /* @__PURE__ */ jsx1654(
+  return /* @__PURE__ */ jsx1648(
     "img",
     {
       src: CursorsMenuSrc,
@@ -23837,12 +23551,12 @@ var CursorsMenu_default = CursorsMenu;
 
 // src/cursors/CursorsMove.tsx
 import CursorsMoveSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-move.svg";
-import { jsx as jsx1655 } from "react/jsx-runtime";
+import { jsx as jsx1649 } from "react/jsx-runtime";
 var CursorsMove = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsMoveSrc;
-  return /* @__PURE__ */ jsx1655(
+  return /* @__PURE__ */ jsx1649(
     "img",
     {
       src: CursorsMoveSrc,
@@ -23857,12 +23571,12 @@ var CursorsMove_default = CursorsMove;
 
 // src/cursors/CursorsResizeDown.tsx
 import CursorsResizeDownSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-down.svg";
-import { jsx as jsx1656 } from "react/jsx-runtime";
+import { jsx as jsx1650 } from "react/jsx-runtime";
 var CursorsResizeDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeDownSrc;
-  return /* @__PURE__ */ jsx1656(
+  return /* @__PURE__ */ jsx1650(
     "img",
     {
       src: CursorsResizeDownSrc,
@@ -23877,12 +23591,12 @@ var CursorsResizeDown_default = CursorsResizeDown;
 
 // src/cursors/CursorsResizeLeftRight.tsx
 import CursorsResizeLeftRightSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-left-right.svg";
-import { jsx as jsx1657 } from "react/jsx-runtime";
+import { jsx as jsx1651 } from "react/jsx-runtime";
 var CursorsResizeLeftRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeLeftRightSrc;
-  return /* @__PURE__ */ jsx1657(
+  return /* @__PURE__ */ jsx1651(
     "img",
     {
       src: CursorsResizeLeftRightSrc,
@@ -23897,12 +23611,12 @@ var CursorsResizeLeftRight_default = CursorsResizeLeftRight;
 
 // src/cursors/CursorsResizeLeft.tsx
 import CursorsResizeLeftSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-left.svg";
-import { jsx as jsx1658 } from "react/jsx-runtime";
+import { jsx as jsx1652 } from "react/jsx-runtime";
 var CursorsResizeLeft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeLeftSrc;
-  return /* @__PURE__ */ jsx1658(
+  return /* @__PURE__ */ jsx1652(
     "img",
     {
       src: CursorsResizeLeftSrc,
@@ -23917,12 +23631,12 @@ var CursorsResizeLeft_default = CursorsResizeLeft;
 
 // src/cursors/CursorsResizeNorthEastSouthWest.tsx
 import CursorsResizeNorthEastSouthWestSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-east-south-west.svg";
-import { jsx as jsx1659 } from "react/jsx-runtime";
+import { jsx as jsx1653 } from "react/jsx-runtime";
 var CursorsResizeNorthEastSouthWest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeNorthEastSouthWestSrc;
-  return /* @__PURE__ */ jsx1659(
+  return /* @__PURE__ */ jsx1653(
     "img",
     {
       src: CursorsResizeNorthEastSouthWestSrc,
@@ -23937,12 +23651,12 @@ var CursorsResizeNorthEastSouthWest_default = CursorsResizeNorthEastSouthWest;
 
 // src/cursors/CursorsResizeNorthSouth.tsx
 import CursorsResizeNorthSouthSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-south.svg";
-import { jsx as jsx1660 } from "react/jsx-runtime";
+import { jsx as jsx1654 } from "react/jsx-runtime";
 var CursorsResizeNorthSouth = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeNorthSouthSrc;
-  return /* @__PURE__ */ jsx1660(
+  return /* @__PURE__ */ jsx1654(
     "img",
     {
       src: CursorsResizeNorthSouthSrc,
@@ -23957,12 +23671,12 @@ var CursorsResizeNorthSouth_default = CursorsResizeNorthSouth;
 
 // src/cursors/CursorsResizeNorthWestSouthEast.tsx
 import CursorsResizeNorthWestSouthEastSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-west-south-east.svg";
-import { jsx as jsx1661 } from "react/jsx-runtime";
+import { jsx as jsx1655 } from "react/jsx-runtime";
 var CursorsResizeNorthWestSouthEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeNorthWestSouthEastSrc;
-  return /* @__PURE__ */ jsx1661(
+  return /* @__PURE__ */ jsx1655(
     "img",
     {
       src: CursorsResizeNorthWestSouthEastSrc,
@@ -23977,12 +23691,12 @@ var CursorsResizeNorthWestSouthEast_default = CursorsResizeNorthWestSouthEast;
 
 // src/cursors/CursorsResizeRight.tsx
 import CursorsResizeRightSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-right.svg";
-import { jsx as jsx1662 } from "react/jsx-runtime";
+import { jsx as jsx1656 } from "react/jsx-runtime";
 var CursorsResizeRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeRightSrc;
-  return /* @__PURE__ */ jsx1662(
+  return /* @__PURE__ */ jsx1656(
     "img",
     {
       src: CursorsResizeRightSrc,
@@ -23997,12 +23711,12 @@ var CursorsResizeRight_default = CursorsResizeRight;
 
 // src/cursors/CursorsResizeUpDown.tsx
 import CursorsResizeUpDownSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-up-down.svg";
-import { jsx as jsx1663 } from "react/jsx-runtime";
+import { jsx as jsx1657 } from "react/jsx-runtime";
 var CursorsResizeUpDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeUpDownSrc;
-  return /* @__PURE__ */ jsx1663(
+  return /* @__PURE__ */ jsx1657(
     "img",
     {
       src: CursorsResizeUpDownSrc,
@@ -24017,12 +23731,12 @@ var CursorsResizeUpDown_default = CursorsResizeUpDown;
 
 // src/cursors/CursorsResizeUp.tsx
 import CursorsResizeUpSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-up.svg";
-import { jsx as jsx1664 } from "react/jsx-runtime";
+import { jsx as jsx1658 } from "react/jsx-runtime";
 var CursorsResizeUp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeUpSrc;
-  return /* @__PURE__ */ jsx1664(
+  return /* @__PURE__ */ jsx1658(
     "img",
     {
       src: CursorsResizeUpSrc,
@@ -24037,12 +23751,12 @@ var CursorsResizeUp_default = CursorsResizeUp;
 
 // src/cursors/CursorsResizeWestEast.tsx
 import CursorsResizeWestEastSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-west-east.svg";
-import { jsx as jsx1665 } from "react/jsx-runtime";
+import { jsx as jsx1659 } from "react/jsx-runtime";
 var CursorsResizeWestEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsResizeWestEastSrc;
-  return /* @__PURE__ */ jsx1665(
+  return /* @__PURE__ */ jsx1659(
     "img",
     {
       src: CursorsResizeWestEastSrc,
@@ -24057,12 +23771,12 @@ var CursorsResizeWestEast_default = CursorsResizeWestEast;
 
 // src/cursors/CursorsTextCursor.tsx
 import CursorsTextCursorSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-text-cursor.svg";
-import { jsx as jsx1666 } from "react/jsx-runtime";
+import { jsx as jsx1660 } from "react/jsx-runtime";
 var CursorsTextCursor = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsTextCursorSrc;
-  return /* @__PURE__ */ jsx1666(
+  return /* @__PURE__ */ jsx1660(
     "img",
     {
       src: CursorsTextCursorSrc,
@@ -24077,12 +23791,12 @@ var CursorsTextCursor_default = CursorsTextCursor;
 
 // src/cursors/CursorsZoomIn.tsx
 import CursorsZoomInSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-zoom-in.svg";
-import { jsx as jsx1667 } from "react/jsx-runtime";
+import { jsx as jsx1661 } from "react/jsx-runtime";
 var CursorsZoomIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsZoomInSrc;
-  return /* @__PURE__ */ jsx1667(
+  return /* @__PURE__ */ jsx1661(
     "img",
     {
       src: CursorsZoomInSrc,
@@ -24097,12 +23811,12 @@ var CursorsZoomIn_default = CursorsZoomIn;
 
 // src/cursors/CursorsZoomOut.tsx
 import CursorsZoomOutSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-zoom-out.svg";
-import { jsx as jsx1668 } from "react/jsx-runtime";
+import { jsx as jsx1662 } from "react/jsx-runtime";
 var CursorsZoomOut = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CursorsZoomOutSrc;
-  return /* @__PURE__ */ jsx1668(
+  return /* @__PURE__ */ jsx1662(
     "img",
     {
       src: CursorsZoomOutSrc,
@@ -24117,12 +23831,12 @@ var CursorsZoomOut_default = CursorsZoomOut;
 
 // src/emoji/BombEmoji.tsx
 import BombEmojiSrc from "@snowui-design-system/resource-core/assets/emoji/bomb-emoji.svg";
-import { jsx as jsx1669 } from "react/jsx-runtime";
+import { jsx as jsx1663 } from "react/jsx-runtime";
 var BombEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = BombEmojiSrc;
-  return /* @__PURE__ */ jsx1669(
+  return /* @__PURE__ */ jsx1663(
     "img",
     {
       src: BombEmojiSrc,
@@ -24137,12 +23851,12 @@ var BombEmoji_default = BombEmoji;
 
 // src/emoji/FaceBlowingKiss.tsx
 import FaceBlowingKissSrc from "@snowui-design-system/resource-core/assets/emoji/face-blowing-kiss.svg";
-import { jsx as jsx1670 } from "react/jsx-runtime";
+import { jsx as jsx1664 } from "react/jsx-runtime";
 var FaceBlowingKiss = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FaceBlowingKissSrc;
-  return /* @__PURE__ */ jsx1670(
+  return /* @__PURE__ */ jsx1664(
     "img",
     {
       src: FaceBlowingKissSrc,
@@ -24157,12 +23871,12 @@ var FaceBlowingKiss_default = FaceBlowingKiss;
 
 // src/emoji/FaceSteamFromNose.tsx
 import FaceSteamFromNoseSrc from "@snowui-design-system/resource-core/assets/emoji/face-steam-from-nose.svg";
-import { jsx as jsx1671 } from "react/jsx-runtime";
+import { jsx as jsx1665 } from "react/jsx-runtime";
 var FaceSteamFromNose = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FaceSteamFromNoseSrc;
-  return /* @__PURE__ */ jsx1671(
+  return /* @__PURE__ */ jsx1665(
     "img",
     {
       src: FaceSteamFromNoseSrc,
@@ -24177,12 +23891,12 @@ var FaceSteamFromNose_default = FaceSteamFromNose;
 
 // src/emoji/FaceTearsJoy.tsx
 import FaceTearsJoySrc from "@snowui-design-system/resource-core/assets/emoji/face-tears-joy.svg";
-import { jsx as jsx1672 } from "react/jsx-runtime";
+import { jsx as jsx1666 } from "react/jsx-runtime";
 var FaceTearsJoy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FaceTearsJoySrc;
-  return /* @__PURE__ */ jsx1672(
+  return /* @__PURE__ */ jsx1666(
     "img",
     {
       src: FaceTearsJoySrc,
@@ -24197,12 +23911,12 @@ var FaceTearsJoy_default = FaceTearsJoy;
 
 // src/emoji/GrinningCat.tsx
 import GrinningCatSrc from "@snowui-design-system/resource-core/assets/emoji/grinning-cat.svg";
-import { jsx as jsx1673 } from "react/jsx-runtime";
+import { jsx as jsx1667 } from "react/jsx-runtime";
 var GrinningCat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GrinningCatSrc;
-  return /* @__PURE__ */ jsx1673(
+  return /* @__PURE__ */ jsx1667(
     "img",
     {
       src: GrinningCatSrc,
@@ -24217,12 +23931,12 @@ var GrinningCat_default = GrinningCat;
 
 // src/emoji/GrinningFaceSweat.tsx
 import GrinningFaceSweatSrc from "@snowui-design-system/resource-core/assets/emoji/grinning-face-sweat.svg";
-import { jsx as jsx1674 } from "react/jsx-runtime";
+import { jsx as jsx1668 } from "react/jsx-runtime";
 var GrinningFaceSweat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GrinningFaceSweatSrc;
-  return /* @__PURE__ */ jsx1674(
+  return /* @__PURE__ */ jsx1668(
     "img",
     {
       src: GrinningFaceSweatSrc,
@@ -24237,12 +23951,12 @@ var GrinningFaceSweat_default = GrinningFaceSweat;
 
 // src/emoji/HeartArrow.tsx
 import HeartArrowSrc from "@snowui-design-system/resource-core/assets/emoji/heart-arrow.svg";
-import { jsx as jsx1675 } from "react/jsx-runtime";
+import { jsx as jsx1669 } from "react/jsx-runtime";
 var HeartArrow = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = HeartArrowSrc;
-  return /* @__PURE__ */ jsx1675(
+  return /* @__PURE__ */ jsx1669(
     "img",
     {
       src: HeartArrowSrc,
@@ -24257,12 +23971,12 @@ var HeartArrow_default = HeartArrow;
 
 // src/emoji/HundredPoints.tsx
 import HundredPointsSrc from "@snowui-design-system/resource-core/assets/emoji/hundred-points.svg";
-import { jsx as jsx1676 } from "react/jsx-runtime";
+import { jsx as jsx1670 } from "react/jsx-runtime";
 var HundredPoints = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = HundredPointsSrc;
-  return /* @__PURE__ */ jsx1676(
+  return /* @__PURE__ */ jsx1670(
     "img",
     {
       src: HundredPointsSrc,
@@ -24277,12 +23991,12 @@ var HundredPoints_default = HundredPoints;
 
 // src/emoji/LoudlyCryingFace.tsx
 import LoudlyCryingFaceSrc from "@snowui-design-system/resource-core/assets/emoji/loudly-crying-face.svg";
-import { jsx as jsx1677 } from "react/jsx-runtime";
+import { jsx as jsx1671 } from "react/jsx-runtime";
 var LoudlyCryingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LoudlyCryingFaceSrc;
-  return /* @__PURE__ */ jsx1677(
+  return /* @__PURE__ */ jsx1671(
     "img",
     {
       src: LoudlyCryingFaceSrc,
@@ -24297,12 +24011,12 @@ var LoudlyCryingFace_default = LoudlyCryingFace;
 
 // src/emoji/RedHeart.tsx
 import RedHeartSrc from "@snowui-design-system/resource-core/assets/emoji/red-heart.svg";
-import { jsx as jsx1678 } from "react/jsx-runtime";
+import { jsx as jsx1672 } from "react/jsx-runtime";
 var RedHeart = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = RedHeartSrc;
-  return /* @__PURE__ */ jsx1678(
+  return /* @__PURE__ */ jsx1672(
     "img",
     {
       src: RedHeartSrc,
@@ -24317,12 +24031,12 @@ var RedHeart_default = RedHeart;
 
 // src/emoji/SeeMonkey.tsx
 import SeeMonkeySrc from "@snowui-design-system/resource-core/assets/emoji/see-monkey.svg";
-import { jsx as jsx1679 } from "react/jsx-runtime";
+import { jsx as jsx1673 } from "react/jsx-runtime";
 var SeeMonkey = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SeeMonkeySrc;
-  return /* @__PURE__ */ jsx1679(
+  return /* @__PURE__ */ jsx1673(
     "img",
     {
       src: SeeMonkeySrc,
@@ -24337,12 +24051,12 @@ var SeeMonkey_default = SeeMonkey;
 
 // src/emoji/SkullCrossbones.tsx
 import SkullCrossbonesSrc from "@snowui-design-system/resource-core/assets/emoji/skull-crossbones.svg";
-import { jsx as jsx1680 } from "react/jsx-runtime";
+import { jsx as jsx1674 } from "react/jsx-runtime";
 var SkullCrossbones = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SkullCrossbonesSrc;
-  return /* @__PURE__ */ jsx1680(
+  return /* @__PURE__ */ jsx1674(
     "img",
     {
       src: SkullCrossbonesSrc,
@@ -24357,12 +24071,12 @@ var SkullCrossbones_default = SkullCrossbones;
 
 // src/emoji/SmilingFaceHearts.tsx
 import SmilingFaceHeartsSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-hearts.svg";
-import { jsx as jsx1681 } from "react/jsx-runtime";
+import { jsx as jsx1675 } from "react/jsx-runtime";
 var SmilingFaceHearts = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SmilingFaceHeartsSrc;
-  return /* @__PURE__ */ jsx1681(
+  return /* @__PURE__ */ jsx1675(
     "img",
     {
       src: SmilingFaceHeartsSrc,
@@ -24377,12 +24091,12 @@ var SmilingFaceHearts_default = SmilingFaceHearts;
 
 // src/emoji/SmilingFaceHorns.tsx
 import SmilingFaceHornsSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-horns.svg";
-import { jsx as jsx1682 } from "react/jsx-runtime";
+import { jsx as jsx1676 } from "react/jsx-runtime";
 var SmilingFaceHorns = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SmilingFaceHornsSrc;
-  return /* @__PURE__ */ jsx1682(
+  return /* @__PURE__ */ jsx1676(
     "img",
     {
       src: SmilingFaceHornsSrc,
@@ -24397,12 +24111,12 @@ var SmilingFaceHorns_default = SmilingFaceHorns;
 
 // src/emoji/SmilingFaceSunglasses.tsx
 import SmilingFaceSunglassesSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-sunglasses.svg";
-import { jsx as jsx1683 } from "react/jsx-runtime";
+import { jsx as jsx1677 } from "react/jsx-runtime";
 var SmilingFaceSunglasses = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SmilingFaceSunglassesSrc;
-  return /* @__PURE__ */ jsx1683(
+  return /* @__PURE__ */ jsx1677(
     "img",
     {
       src: SmilingFaceSunglassesSrc,
@@ -24417,12 +24131,12 @@ var SmilingFaceSunglasses_default = SmilingFaceSunglasses;
 
 // src/emoji/Snowman.tsx
 import SnowmanSrc from "@snowui-design-system/resource-core/assets/emoji/snowman.svg";
-import { jsx as jsx1684 } from "react/jsx-runtime";
+import { jsx as jsx1678 } from "react/jsx-runtime";
 var Snowman = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SnowmanSrc;
-  return /* @__PURE__ */ jsx1684(
+  return /* @__PURE__ */ jsx1678(
     "img",
     {
       src: SnowmanSrc,
@@ -24437,12 +24151,12 @@ var Snowman_default = Snowman;
 
 // src/emoji/WinkingFaceTongue.tsx
 import WinkingFaceTongueSrc from "@snowui-design-system/resource-core/assets/emoji/winking-face-tongue.svg";
-import { jsx as jsx1685 } from "react/jsx-runtime";
+import { jsx as jsx1679 } from "react/jsx-runtime";
 var WinkingFaceTongue = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WinkingFaceTongueSrc;
-  return /* @__PURE__ */ jsx1685(
+  return /* @__PURE__ */ jsx1679(
     "img",
     {
       src: WinkingFaceTongueSrc,
@@ -24457,12 +24171,12 @@ var WinkingFaceTongue_default = WinkingFaceTongue;
 
 // src/emoji/WinkingFace.tsx
 import WinkingFaceSrc from "@snowui-design-system/resource-core/assets/emoji/winking-face.svg";
-import { jsx as jsx1686 } from "react/jsx-runtime";
+import { jsx as jsx1680 } from "react/jsx-runtime";
 var WinkingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WinkingFaceSrc;
-  return /* @__PURE__ */ jsx1686(
+  return /* @__PURE__ */ jsx1680(
     "img",
     {
       src: WinkingFaceSrc,
@@ -24477,11 +24191,11 @@ var WinkingFace_default = WinkingFace;
 
 // src/illustrations/Humanoid.tsx
 import HumanoidSrc from "@snowui-design-system/resource-core/assets/illustrations/humanoid.svg";
-import { jsx as jsx1687 } from "react/jsx-runtime";
+import { jsx as jsx1681 } from "react/jsx-runtime";
 var Humanoid = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = HumanoidSrc;
-  return /* @__PURE__ */ jsx1687(
+  return /* @__PURE__ */ jsx1681(
     "img",
     {
       src: HumanoidSrc,
@@ -24499,7 +24213,7 @@ import Illustration01Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration01Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-160.png";
 import Illustration01Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-640.png";
 import Illustration01Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-1024.png";
-import { jsx as jsx1688 } from "react/jsx-runtime";
+import { jsx as jsx1682 } from "react/jsx-runtime";
 var Illustration01WidthMap = {
   160: Illustration01Src160,
   320: Illustration01Src,
@@ -24507,7 +24221,7 @@ var Illustration01WidthMap = {
   1024: Illustration01Src1024
 };
 var Illustration01AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth27 = (target, available) => {
+var findClosestWidth25 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24523,9 +24237,9 @@ var findClosestWidth27 = (target, available) => {
 };
 var Illustration01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth27(resolvedWidth, Illustration01AvailableWidths);
+  const closestWidth = findClosestWidth25(resolvedWidth, Illustration01AvailableWidths);
   const imageSrc = Illustration01WidthMap[closestWidth] ?? Illustration01Src;
-  return /* @__PURE__ */ jsx1688(
+  return /* @__PURE__ */ jsx1682(
     "img",
     {
       src: imageSrc,
@@ -24538,105 +24252,12 @@ var Illustration01 = ({ width = 320, height, ...rest }) => {
 };
 var Illustration01_default = Illustration01;
 
-// src/illustrations/Illustration.tsx
-import IllustrationSrc from "@snowui-design-system/resource-core/assets/illustrations/illustration-01.png";
-import IllustrationSrc1 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01.png";
-import IllustrationSrc2 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02.png";
-import IllustrationSrc3 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03.png";
-import IllustrationSrc4 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04.png";
-import IllustrationSrc5 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05.png";
-import IllustrationSrc6 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06.png";
-import IllustrationSrc7 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07.png";
-import IllustrationSrc8 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08.png";
-import IllustrationSrc9 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09.png";
-import IllustrationSrc10 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10.png";
-import IllustrationSrc11 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11.png";
-import IllustrationSrc12 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12.png";
-import IllustrationSrc13 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13.png";
-import IllustrationSrc14 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14.png";
-import IllustrationSrc15 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15.png";
-import IllustrationSrc16 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16.png";
-import IllustrationSrc17 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17.png";
-import IllustrationSrc18 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18.png";
-import IllustrationSrc19 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19.png";
-import IllustrationSrc20 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20.png";
-import IllustrationSrc21 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21.png";
-import IllustrationSrc22 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22.png";
-import IllustrationSrc23 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23.png";
-import IllustrationSrc24 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24.png";
-import IllustrationSrc25 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25.png";
-import IllustrationSrc26 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26.png";
-import IllustrationSrc27 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27.png";
-import IllustrationSrc28 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28.png";
-import { jsx as jsx1689 } from "react/jsx-runtime";
-var IllustrationWidthMap = {
-  1: IllustrationSrc1,
-  2: IllustrationSrc2,
-  3: IllustrationSrc3,
-  4: IllustrationSrc4,
-  5: IllustrationSrc5,
-  6: IllustrationSrc6,
-  7: IllustrationSrc7,
-  8: IllustrationSrc8,
-  9: IllustrationSrc9,
-  10: IllustrationSrc10,
-  11: IllustrationSrc11,
-  12: IllustrationSrc12,
-  13: IllustrationSrc13,
-  14: IllustrationSrc14,
-  15: IllustrationSrc15,
-  16: IllustrationSrc16,
-  17: IllustrationSrc17,
-  18: IllustrationSrc18,
-  19: IllustrationSrc19,
-  20: IllustrationSrc20,
-  21: IllustrationSrc21,
-  22: IllustrationSrc22,
-  23: IllustrationSrc23,
-  24: IllustrationSrc24,
-  25: IllustrationSrc25,
-  26: IllustrationSrc26,
-  27: IllustrationSrc27,
-  28: IllustrationSrc28
-};
-var IllustrationAvailableWidths = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
-var findClosestWidth28 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const width of available) {
-    const diff = Math.abs(target - width);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = width;
-    }
-  }
-  return closest;
-};
-var Illustration = ({ width = 320, height, ...rest }) => {
-  const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth28(resolvedWidth, IllustrationAvailableWidths);
-  const imageSrc = IllustrationWidthMap[closestWidth] ?? IllustrationSrc;
-  return /* @__PURE__ */ jsx1689(
-    "img",
-    {
-      src: imageSrc,
-      alt: "Illustration",
-      width: resolvedWidth,
-      height: height ?? void 0,
-      ...rest
-    }
-  );
-};
-var Illustration_default = Illustration;
-
 // src/illustrations/Illustration02.tsx
 import Illustration02Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-320.png";
 import Illustration02Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-160.png";
 import Illustration02Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-640.png";
 import Illustration02Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-1024.png";
-import { jsx as jsx1690 } from "react/jsx-runtime";
+import { jsx as jsx1683 } from "react/jsx-runtime";
 var Illustration02WidthMap = {
   160: Illustration02Src160,
   320: Illustration02Src,
@@ -24644,7 +24265,7 @@ var Illustration02WidthMap = {
   1024: Illustration02Src1024
 };
 var Illustration02AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth29 = (target, available) => {
+var findClosestWidth26 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24660,9 +24281,9 @@ var findClosestWidth29 = (target, available) => {
 };
 var Illustration02 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth29(resolvedWidth, Illustration02AvailableWidths);
+  const closestWidth = findClosestWidth26(resolvedWidth, Illustration02AvailableWidths);
   const imageSrc = Illustration02WidthMap[closestWidth] ?? Illustration02Src;
-  return /* @__PURE__ */ jsx1690(
+  return /* @__PURE__ */ jsx1683(
     "img",
     {
       src: imageSrc,
@@ -24680,7 +24301,7 @@ import Illustration03Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration03Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-160.png";
 import Illustration03Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-640.png";
 import Illustration03Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-1024.png";
-import { jsx as jsx1691 } from "react/jsx-runtime";
+import { jsx as jsx1684 } from "react/jsx-runtime";
 var Illustration03WidthMap = {
   160: Illustration03Src160,
   320: Illustration03Src,
@@ -24688,7 +24309,7 @@ var Illustration03WidthMap = {
   1024: Illustration03Src1024
 };
 var Illustration03AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth30 = (target, available) => {
+var findClosestWidth27 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24704,9 +24325,9 @@ var findClosestWidth30 = (target, available) => {
 };
 var Illustration03 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth30(resolvedWidth, Illustration03AvailableWidths);
+  const closestWidth = findClosestWidth27(resolvedWidth, Illustration03AvailableWidths);
   const imageSrc = Illustration03WidthMap[closestWidth] ?? Illustration03Src;
-  return /* @__PURE__ */ jsx1691(
+  return /* @__PURE__ */ jsx1684(
     "img",
     {
       src: imageSrc,
@@ -24724,7 +24345,7 @@ import Illustration04Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration04Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-160.png";
 import Illustration04Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-640.png";
 import Illustration04Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-1024.png";
-import { jsx as jsx1692 } from "react/jsx-runtime";
+import { jsx as jsx1685 } from "react/jsx-runtime";
 var Illustration04WidthMap = {
   160: Illustration04Src160,
   320: Illustration04Src,
@@ -24732,7 +24353,7 @@ var Illustration04WidthMap = {
   1024: Illustration04Src1024
 };
 var Illustration04AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth31 = (target, available) => {
+var findClosestWidth28 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24748,9 +24369,9 @@ var findClosestWidth31 = (target, available) => {
 };
 var Illustration04 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth31(resolvedWidth, Illustration04AvailableWidths);
+  const closestWidth = findClosestWidth28(resolvedWidth, Illustration04AvailableWidths);
   const imageSrc = Illustration04WidthMap[closestWidth] ?? Illustration04Src;
-  return /* @__PURE__ */ jsx1692(
+  return /* @__PURE__ */ jsx1685(
     "img",
     {
       src: imageSrc,
@@ -24768,7 +24389,7 @@ import Illustration05Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration05Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-160.png";
 import Illustration05Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-640.png";
 import Illustration05Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-1024.png";
-import { jsx as jsx1693 } from "react/jsx-runtime";
+import { jsx as jsx1686 } from "react/jsx-runtime";
 var Illustration05WidthMap = {
   160: Illustration05Src160,
   320: Illustration05Src,
@@ -24776,7 +24397,7 @@ var Illustration05WidthMap = {
   1024: Illustration05Src1024
 };
 var Illustration05AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth32 = (target, available) => {
+var findClosestWidth29 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24792,9 +24413,9 @@ var findClosestWidth32 = (target, available) => {
 };
 var Illustration05 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth32(resolvedWidth, Illustration05AvailableWidths);
+  const closestWidth = findClosestWidth29(resolvedWidth, Illustration05AvailableWidths);
   const imageSrc = Illustration05WidthMap[closestWidth] ?? Illustration05Src;
-  return /* @__PURE__ */ jsx1693(
+  return /* @__PURE__ */ jsx1686(
     "img",
     {
       src: imageSrc,
@@ -24812,7 +24433,7 @@ import Illustration06Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration06Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-160.png";
 import Illustration06Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-640.png";
 import Illustration06Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-1024.png";
-import { jsx as jsx1694 } from "react/jsx-runtime";
+import { jsx as jsx1687 } from "react/jsx-runtime";
 var Illustration06WidthMap = {
   160: Illustration06Src160,
   320: Illustration06Src,
@@ -24820,7 +24441,7 @@ var Illustration06WidthMap = {
   1024: Illustration06Src1024
 };
 var Illustration06AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth33 = (target, available) => {
+var findClosestWidth30 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24836,9 +24457,9 @@ var findClosestWidth33 = (target, available) => {
 };
 var Illustration06 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth33(resolvedWidth, Illustration06AvailableWidths);
+  const closestWidth = findClosestWidth30(resolvedWidth, Illustration06AvailableWidths);
   const imageSrc = Illustration06WidthMap[closestWidth] ?? Illustration06Src;
-  return /* @__PURE__ */ jsx1694(
+  return /* @__PURE__ */ jsx1687(
     "img",
     {
       src: imageSrc,
@@ -24856,7 +24477,7 @@ import Illustration07Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration07Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-160.png";
 import Illustration07Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-640.png";
 import Illustration07Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-1024.png";
-import { jsx as jsx1695 } from "react/jsx-runtime";
+import { jsx as jsx1688 } from "react/jsx-runtime";
 var Illustration07WidthMap = {
   160: Illustration07Src160,
   320: Illustration07Src,
@@ -24864,7 +24485,7 @@ var Illustration07WidthMap = {
   1024: Illustration07Src1024
 };
 var Illustration07AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth34 = (target, available) => {
+var findClosestWidth31 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24880,9 +24501,9 @@ var findClosestWidth34 = (target, available) => {
 };
 var Illustration07 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth34(resolvedWidth, Illustration07AvailableWidths);
+  const closestWidth = findClosestWidth31(resolvedWidth, Illustration07AvailableWidths);
   const imageSrc = Illustration07WidthMap[closestWidth] ?? Illustration07Src;
-  return /* @__PURE__ */ jsx1695(
+  return /* @__PURE__ */ jsx1688(
     "img",
     {
       src: imageSrc,
@@ -24900,7 +24521,7 @@ import Illustration08Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration08Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-160.png";
 import Illustration08Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-640.png";
 import Illustration08Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-1024.png";
-import { jsx as jsx1696 } from "react/jsx-runtime";
+import { jsx as jsx1689 } from "react/jsx-runtime";
 var Illustration08WidthMap = {
   160: Illustration08Src160,
   320: Illustration08Src,
@@ -24908,7 +24529,7 @@ var Illustration08WidthMap = {
   1024: Illustration08Src1024
 };
 var Illustration08AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth35 = (target, available) => {
+var findClosestWidth32 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24924,9 +24545,9 @@ var findClosestWidth35 = (target, available) => {
 };
 var Illustration08 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth35(resolvedWidth, Illustration08AvailableWidths);
+  const closestWidth = findClosestWidth32(resolvedWidth, Illustration08AvailableWidths);
   const imageSrc = Illustration08WidthMap[closestWidth] ?? Illustration08Src;
-  return /* @__PURE__ */ jsx1696(
+  return /* @__PURE__ */ jsx1689(
     "img",
     {
       src: imageSrc,
@@ -24944,7 +24565,7 @@ import Illustration09Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration09Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-160.png";
 import Illustration09Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-640.png";
 import Illustration09Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-1024.png";
-import { jsx as jsx1697 } from "react/jsx-runtime";
+import { jsx as jsx1690 } from "react/jsx-runtime";
 var Illustration09WidthMap = {
   160: Illustration09Src160,
   320: Illustration09Src,
@@ -24952,7 +24573,7 @@ var Illustration09WidthMap = {
   1024: Illustration09Src1024
 };
 var Illustration09AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth36 = (target, available) => {
+var findClosestWidth33 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -24968,9 +24589,9 @@ var findClosestWidth36 = (target, available) => {
 };
 var Illustration09 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth36(resolvedWidth, Illustration09AvailableWidths);
+  const closestWidth = findClosestWidth33(resolvedWidth, Illustration09AvailableWidths);
   const imageSrc = Illustration09WidthMap[closestWidth] ?? Illustration09Src;
-  return /* @__PURE__ */ jsx1697(
+  return /* @__PURE__ */ jsx1690(
     "img",
     {
       src: imageSrc,
@@ -24988,7 +24609,7 @@ import Illustration10Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration10Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-160.png";
 import Illustration10Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-640.png";
 import Illustration10Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-1024.png";
-import { jsx as jsx1698 } from "react/jsx-runtime";
+import { jsx as jsx1691 } from "react/jsx-runtime";
 var Illustration10WidthMap = {
   160: Illustration10Src160,
   320: Illustration10Src,
@@ -24996,7 +24617,7 @@ var Illustration10WidthMap = {
   1024: Illustration10Src1024
 };
 var Illustration10AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth37 = (target, available) => {
+var findClosestWidth34 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25012,9 +24633,9 @@ var findClosestWidth37 = (target, available) => {
 };
 var Illustration10 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth37(resolvedWidth, Illustration10AvailableWidths);
+  const closestWidth = findClosestWidth34(resolvedWidth, Illustration10AvailableWidths);
   const imageSrc = Illustration10WidthMap[closestWidth] ?? Illustration10Src;
-  return /* @__PURE__ */ jsx1698(
+  return /* @__PURE__ */ jsx1691(
     "img",
     {
       src: imageSrc,
@@ -25032,7 +24653,7 @@ import Illustration11Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration11Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-160.png";
 import Illustration11Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-640.png";
 import Illustration11Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-1024.png";
-import { jsx as jsx1699 } from "react/jsx-runtime";
+import { jsx as jsx1692 } from "react/jsx-runtime";
 var Illustration11WidthMap = {
   160: Illustration11Src160,
   320: Illustration11Src,
@@ -25040,7 +24661,7 @@ var Illustration11WidthMap = {
   1024: Illustration11Src1024
 };
 var Illustration11AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth38 = (target, available) => {
+var findClosestWidth35 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25056,9 +24677,9 @@ var findClosestWidth38 = (target, available) => {
 };
 var Illustration11 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth38(resolvedWidth, Illustration11AvailableWidths);
+  const closestWidth = findClosestWidth35(resolvedWidth, Illustration11AvailableWidths);
   const imageSrc = Illustration11WidthMap[closestWidth] ?? Illustration11Src;
-  return /* @__PURE__ */ jsx1699(
+  return /* @__PURE__ */ jsx1692(
     "img",
     {
       src: imageSrc,
@@ -25076,7 +24697,7 @@ import Illustration12Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration12Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-160.png";
 import Illustration12Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-640.png";
 import Illustration12Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-1024.png";
-import { jsx as jsx1700 } from "react/jsx-runtime";
+import { jsx as jsx1693 } from "react/jsx-runtime";
 var Illustration12WidthMap = {
   160: Illustration12Src160,
   320: Illustration12Src,
@@ -25084,7 +24705,7 @@ var Illustration12WidthMap = {
   1024: Illustration12Src1024
 };
 var Illustration12AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth39 = (target, available) => {
+var findClosestWidth36 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25100,9 +24721,9 @@ var findClosestWidth39 = (target, available) => {
 };
 var Illustration12 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth39(resolvedWidth, Illustration12AvailableWidths);
+  const closestWidth = findClosestWidth36(resolvedWidth, Illustration12AvailableWidths);
   const imageSrc = Illustration12WidthMap[closestWidth] ?? Illustration12Src;
-  return /* @__PURE__ */ jsx1700(
+  return /* @__PURE__ */ jsx1693(
     "img",
     {
       src: imageSrc,
@@ -25120,7 +24741,7 @@ import Illustration13Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration13Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-160.png";
 import Illustration13Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-640.png";
 import Illustration13Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-1024.png";
-import { jsx as jsx1701 } from "react/jsx-runtime";
+import { jsx as jsx1694 } from "react/jsx-runtime";
 var Illustration13WidthMap = {
   160: Illustration13Src160,
   320: Illustration13Src,
@@ -25128,7 +24749,7 @@ var Illustration13WidthMap = {
   1024: Illustration13Src1024
 };
 var Illustration13AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth40 = (target, available) => {
+var findClosestWidth37 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25144,9 +24765,9 @@ var findClosestWidth40 = (target, available) => {
 };
 var Illustration13 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth40(resolvedWidth, Illustration13AvailableWidths);
+  const closestWidth = findClosestWidth37(resolvedWidth, Illustration13AvailableWidths);
   const imageSrc = Illustration13WidthMap[closestWidth] ?? Illustration13Src;
-  return /* @__PURE__ */ jsx1701(
+  return /* @__PURE__ */ jsx1694(
     "img",
     {
       src: imageSrc,
@@ -25164,7 +24785,7 @@ import Illustration14Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration14Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-160.png";
 import Illustration14Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-640.png";
 import Illustration14Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-1024.png";
-import { jsx as jsx1702 } from "react/jsx-runtime";
+import { jsx as jsx1695 } from "react/jsx-runtime";
 var Illustration14WidthMap = {
   160: Illustration14Src160,
   320: Illustration14Src,
@@ -25172,7 +24793,7 @@ var Illustration14WidthMap = {
   1024: Illustration14Src1024
 };
 var Illustration14AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth41 = (target, available) => {
+var findClosestWidth38 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25188,9 +24809,9 @@ var findClosestWidth41 = (target, available) => {
 };
 var Illustration14 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth41(resolvedWidth, Illustration14AvailableWidths);
+  const closestWidth = findClosestWidth38(resolvedWidth, Illustration14AvailableWidths);
   const imageSrc = Illustration14WidthMap[closestWidth] ?? Illustration14Src;
-  return /* @__PURE__ */ jsx1702(
+  return /* @__PURE__ */ jsx1695(
     "img",
     {
       src: imageSrc,
@@ -25208,7 +24829,7 @@ import Illustration15Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration15Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-160.png";
 import Illustration15Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-640.png";
 import Illustration15Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-1024.png";
-import { jsx as jsx1703 } from "react/jsx-runtime";
+import { jsx as jsx1696 } from "react/jsx-runtime";
 var Illustration15WidthMap = {
   160: Illustration15Src160,
   320: Illustration15Src,
@@ -25216,7 +24837,7 @@ var Illustration15WidthMap = {
   1024: Illustration15Src1024
 };
 var Illustration15AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth42 = (target, available) => {
+var findClosestWidth39 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25232,9 +24853,9 @@ var findClosestWidth42 = (target, available) => {
 };
 var Illustration15 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth42(resolvedWidth, Illustration15AvailableWidths);
+  const closestWidth = findClosestWidth39(resolvedWidth, Illustration15AvailableWidths);
   const imageSrc = Illustration15WidthMap[closestWidth] ?? Illustration15Src;
-  return /* @__PURE__ */ jsx1703(
+  return /* @__PURE__ */ jsx1696(
     "img",
     {
       src: imageSrc,
@@ -25252,7 +24873,7 @@ import Illustration16Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration16Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-160.png";
 import Illustration16Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-640.png";
 import Illustration16Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-1024.png";
-import { jsx as jsx1704 } from "react/jsx-runtime";
+import { jsx as jsx1697 } from "react/jsx-runtime";
 var Illustration16WidthMap = {
   160: Illustration16Src160,
   320: Illustration16Src,
@@ -25260,7 +24881,7 @@ var Illustration16WidthMap = {
   1024: Illustration16Src1024
 };
 var Illustration16AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth43 = (target, available) => {
+var findClosestWidth40 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25276,9 +24897,9 @@ var findClosestWidth43 = (target, available) => {
 };
 var Illustration16 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth43(resolvedWidth, Illustration16AvailableWidths);
+  const closestWidth = findClosestWidth40(resolvedWidth, Illustration16AvailableWidths);
   const imageSrc = Illustration16WidthMap[closestWidth] ?? Illustration16Src;
-  return /* @__PURE__ */ jsx1704(
+  return /* @__PURE__ */ jsx1697(
     "img",
     {
       src: imageSrc,
@@ -25291,12 +24912,57 @@ var Illustration16 = ({ width = 320, height, ...rest }) => {
 };
 var Illustration16_default = Illustration16;
 
+// src/illustrations/Illustration.tsx
+import IllustrationSrc from "@snowui-design-system/resource-core/assets/illustrations/illustration-16.png";
+import IllustrationSrc16 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16.png";
+import IllustrationSrc20 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20.png";
+import IllustrationSrc24 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24.png";
+import IllustrationSrc28 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28.png";
+import { jsx as jsx1698 } from "react/jsx-runtime";
+var IllustrationWidthMap = {
+  16: IllustrationSrc16,
+  20: IllustrationSrc20,
+  24: IllustrationSrc24,
+  28: IllustrationSrc28
+};
+var IllustrationAvailableWidths = [16, 20, 24, 28];
+var findClosestWidth41 = (target, available) => {
+  if (available.length === 0) return target;
+  if (available.includes(target)) return target;
+  let closest = available[0];
+  let minDiff = Math.abs(target - closest);
+  for (const width of available) {
+    const diff = Math.abs(target - width);
+    if (diff < minDiff) {
+      minDiff = diff;
+      closest = width;
+    }
+  }
+  return closest;
+};
+var Illustration = ({ width = 320, height, ...rest }) => {
+  const resolvedWidth = width ?? 320;
+  const closestWidth = findClosestWidth41(resolvedWidth, IllustrationAvailableWidths);
+  const imageSrc = IllustrationWidthMap[closestWidth] ?? IllustrationSrc;
+  return /* @__PURE__ */ jsx1698(
+    "img",
+    {
+      src: imageSrc,
+      alt: "Illustration",
+      width: resolvedWidth,
+      height: height ?? void 0,
+      ...rest
+    }
+  );
+};
+var Illustration_default = Illustration;
+
 // src/illustrations/Illustration17.tsx
 import Illustration17Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-320.png";
 import Illustration17Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-160.png";
 import Illustration17Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-640.png";
 import Illustration17Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-1024.png";
-import { jsx as jsx1705 } from "react/jsx-runtime";
+import { jsx as jsx1699 } from "react/jsx-runtime";
 var Illustration17WidthMap = {
   160: Illustration17Src160,
   320: Illustration17Src,
@@ -25304,7 +24970,7 @@ var Illustration17WidthMap = {
   1024: Illustration17Src1024
 };
 var Illustration17AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth44 = (target, available) => {
+var findClosestWidth42 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25320,9 +24986,9 @@ var findClosestWidth44 = (target, available) => {
 };
 var Illustration17 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth44(resolvedWidth, Illustration17AvailableWidths);
+  const closestWidth = findClosestWidth42(resolvedWidth, Illustration17AvailableWidths);
   const imageSrc = Illustration17WidthMap[closestWidth] ?? Illustration17Src;
-  return /* @__PURE__ */ jsx1705(
+  return /* @__PURE__ */ jsx1699(
     "img",
     {
       src: imageSrc,
@@ -25340,7 +25006,7 @@ import Illustration18Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration18Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-160.png";
 import Illustration18Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-640.png";
 import Illustration18Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-1024.png";
-import { jsx as jsx1706 } from "react/jsx-runtime";
+import { jsx as jsx1700 } from "react/jsx-runtime";
 var Illustration18WidthMap = {
   160: Illustration18Src160,
   320: Illustration18Src,
@@ -25348,7 +25014,7 @@ var Illustration18WidthMap = {
   1024: Illustration18Src1024
 };
 var Illustration18AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth45 = (target, available) => {
+var findClosestWidth43 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25364,9 +25030,9 @@ var findClosestWidth45 = (target, available) => {
 };
 var Illustration18 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth45(resolvedWidth, Illustration18AvailableWidths);
+  const closestWidth = findClosestWidth43(resolvedWidth, Illustration18AvailableWidths);
   const imageSrc = Illustration18WidthMap[closestWidth] ?? Illustration18Src;
-  return /* @__PURE__ */ jsx1706(
+  return /* @__PURE__ */ jsx1700(
     "img",
     {
       src: imageSrc,
@@ -25384,7 +25050,7 @@ import Illustration19Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration19Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-160.png";
 import Illustration19Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-640.png";
 import Illustration19Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-1024.png";
-import { jsx as jsx1707 } from "react/jsx-runtime";
+import { jsx as jsx1701 } from "react/jsx-runtime";
 var Illustration19WidthMap = {
   160: Illustration19Src160,
   320: Illustration19Src,
@@ -25392,7 +25058,7 @@ var Illustration19WidthMap = {
   1024: Illustration19Src1024
 };
 var Illustration19AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth46 = (target, available) => {
+var findClosestWidth44 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25408,9 +25074,9 @@ var findClosestWidth46 = (target, available) => {
 };
 var Illustration19 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth46(resolvedWidth, Illustration19AvailableWidths);
+  const closestWidth = findClosestWidth44(resolvedWidth, Illustration19AvailableWidths);
   const imageSrc = Illustration19WidthMap[closestWidth] ?? Illustration19Src;
-  return /* @__PURE__ */ jsx1707(
+  return /* @__PURE__ */ jsx1701(
     "img",
     {
       src: imageSrc,
@@ -25428,7 +25094,7 @@ import Illustration20Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration20Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-160.png";
 import Illustration20Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-640.png";
 import Illustration20Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-1024.png";
-import { jsx as jsx1708 } from "react/jsx-runtime";
+import { jsx as jsx1702 } from "react/jsx-runtime";
 var Illustration20WidthMap = {
   160: Illustration20Src160,
   320: Illustration20Src,
@@ -25436,7 +25102,7 @@ var Illustration20WidthMap = {
   1024: Illustration20Src1024
 };
 var Illustration20AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth47 = (target, available) => {
+var findClosestWidth45 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25452,9 +25118,9 @@ var findClosestWidth47 = (target, available) => {
 };
 var Illustration20 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth47(resolvedWidth, Illustration20AvailableWidths);
+  const closestWidth = findClosestWidth45(resolvedWidth, Illustration20AvailableWidths);
   const imageSrc = Illustration20WidthMap[closestWidth] ?? Illustration20Src;
-  return /* @__PURE__ */ jsx1708(
+  return /* @__PURE__ */ jsx1702(
     "img",
     {
       src: imageSrc,
@@ -25472,7 +25138,7 @@ import Illustration21Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration21Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-160.png";
 import Illustration21Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-640.png";
 import Illustration21Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-1024.png";
-import { jsx as jsx1709 } from "react/jsx-runtime";
+import { jsx as jsx1703 } from "react/jsx-runtime";
 var Illustration21WidthMap = {
   160: Illustration21Src160,
   320: Illustration21Src,
@@ -25480,7 +25146,7 @@ var Illustration21WidthMap = {
   1024: Illustration21Src1024
 };
 var Illustration21AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth48 = (target, available) => {
+var findClosestWidth46 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25496,9 +25162,9 @@ var findClosestWidth48 = (target, available) => {
 };
 var Illustration21 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth48(resolvedWidth, Illustration21AvailableWidths);
+  const closestWidth = findClosestWidth46(resolvedWidth, Illustration21AvailableWidths);
   const imageSrc = Illustration21WidthMap[closestWidth] ?? Illustration21Src;
-  return /* @__PURE__ */ jsx1709(
+  return /* @__PURE__ */ jsx1703(
     "img",
     {
       src: imageSrc,
@@ -25516,7 +25182,7 @@ import Illustration22Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration22Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-160.png";
 import Illustration22Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-640.png";
 import Illustration22Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-1024.png";
-import { jsx as jsx1710 } from "react/jsx-runtime";
+import { jsx as jsx1704 } from "react/jsx-runtime";
 var Illustration22WidthMap = {
   160: Illustration22Src160,
   320: Illustration22Src,
@@ -25524,7 +25190,7 @@ var Illustration22WidthMap = {
   1024: Illustration22Src1024
 };
 var Illustration22AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth49 = (target, available) => {
+var findClosestWidth47 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25540,9 +25206,9 @@ var findClosestWidth49 = (target, available) => {
 };
 var Illustration22 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth49(resolvedWidth, Illustration22AvailableWidths);
+  const closestWidth = findClosestWidth47(resolvedWidth, Illustration22AvailableWidths);
   const imageSrc = Illustration22WidthMap[closestWidth] ?? Illustration22Src;
-  return /* @__PURE__ */ jsx1710(
+  return /* @__PURE__ */ jsx1704(
     "img",
     {
       src: imageSrc,
@@ -25560,7 +25226,7 @@ import Illustration23Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration23Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-160.png";
 import Illustration23Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-640.png";
 import Illustration23Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-1024.png";
-import { jsx as jsx1711 } from "react/jsx-runtime";
+import { jsx as jsx1705 } from "react/jsx-runtime";
 var Illustration23WidthMap = {
   160: Illustration23Src160,
   320: Illustration23Src,
@@ -25568,7 +25234,7 @@ var Illustration23WidthMap = {
   1024: Illustration23Src1024
 };
 var Illustration23AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth50 = (target, available) => {
+var findClosestWidth48 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25584,9 +25250,9 @@ var findClosestWidth50 = (target, available) => {
 };
 var Illustration23 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth50(resolvedWidth, Illustration23AvailableWidths);
+  const closestWidth = findClosestWidth48(resolvedWidth, Illustration23AvailableWidths);
   const imageSrc = Illustration23WidthMap[closestWidth] ?? Illustration23Src;
-  return /* @__PURE__ */ jsx1711(
+  return /* @__PURE__ */ jsx1705(
     "img",
     {
       src: imageSrc,
@@ -25604,7 +25270,7 @@ import Illustration24Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration24Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-160.png";
 import Illustration24Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-640.png";
 import Illustration24Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-1024.png";
-import { jsx as jsx1712 } from "react/jsx-runtime";
+import { jsx as jsx1706 } from "react/jsx-runtime";
 var Illustration24WidthMap = {
   160: Illustration24Src160,
   320: Illustration24Src,
@@ -25612,7 +25278,7 @@ var Illustration24WidthMap = {
   1024: Illustration24Src1024
 };
 var Illustration24AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth51 = (target, available) => {
+var findClosestWidth49 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25628,9 +25294,9 @@ var findClosestWidth51 = (target, available) => {
 };
 var Illustration24 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth51(resolvedWidth, Illustration24AvailableWidths);
+  const closestWidth = findClosestWidth49(resolvedWidth, Illustration24AvailableWidths);
   const imageSrc = Illustration24WidthMap[closestWidth] ?? Illustration24Src;
-  return /* @__PURE__ */ jsx1712(
+  return /* @__PURE__ */ jsx1706(
     "img",
     {
       src: imageSrc,
@@ -25648,7 +25314,7 @@ import Illustration25Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration25Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-160.png";
 import Illustration25Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-640.png";
 import Illustration25Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-1024.png";
-import { jsx as jsx1713 } from "react/jsx-runtime";
+import { jsx as jsx1707 } from "react/jsx-runtime";
 var Illustration25WidthMap = {
   160: Illustration25Src160,
   320: Illustration25Src,
@@ -25656,7 +25322,7 @@ var Illustration25WidthMap = {
   1024: Illustration25Src1024
 };
 var Illustration25AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth52 = (target, available) => {
+var findClosestWidth50 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25672,9 +25338,9 @@ var findClosestWidth52 = (target, available) => {
 };
 var Illustration25 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth52(resolvedWidth, Illustration25AvailableWidths);
+  const closestWidth = findClosestWidth50(resolvedWidth, Illustration25AvailableWidths);
   const imageSrc = Illustration25WidthMap[closestWidth] ?? Illustration25Src;
-  return /* @__PURE__ */ jsx1713(
+  return /* @__PURE__ */ jsx1707(
     "img",
     {
       src: imageSrc,
@@ -25692,7 +25358,7 @@ import Illustration26Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration26Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-160.png";
 import Illustration26Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-640.png";
 import Illustration26Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-1024.png";
-import { jsx as jsx1714 } from "react/jsx-runtime";
+import { jsx as jsx1708 } from "react/jsx-runtime";
 var Illustration26WidthMap = {
   160: Illustration26Src160,
   320: Illustration26Src,
@@ -25700,7 +25366,7 @@ var Illustration26WidthMap = {
   1024: Illustration26Src1024
 };
 var Illustration26AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth53 = (target, available) => {
+var findClosestWidth51 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25716,9 +25382,9 @@ var findClosestWidth53 = (target, available) => {
 };
 var Illustration26 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth53(resolvedWidth, Illustration26AvailableWidths);
+  const closestWidth = findClosestWidth51(resolvedWidth, Illustration26AvailableWidths);
   const imageSrc = Illustration26WidthMap[closestWidth] ?? Illustration26Src;
-  return /* @__PURE__ */ jsx1714(
+  return /* @__PURE__ */ jsx1708(
     "img",
     {
       src: imageSrc,
@@ -25736,7 +25402,7 @@ import Illustration27Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration27Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-160.png";
 import Illustration27Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-640.png";
 import Illustration27Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-1024.png";
-import { jsx as jsx1715 } from "react/jsx-runtime";
+import { jsx as jsx1709 } from "react/jsx-runtime";
 var Illustration27WidthMap = {
   160: Illustration27Src160,
   320: Illustration27Src,
@@ -25744,7 +25410,7 @@ var Illustration27WidthMap = {
   1024: Illustration27Src1024
 };
 var Illustration27AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth54 = (target, available) => {
+var findClosestWidth52 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25760,9 +25426,9 @@ var findClosestWidth54 = (target, available) => {
 };
 var Illustration27 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth54(resolvedWidth, Illustration27AvailableWidths);
+  const closestWidth = findClosestWidth52(resolvedWidth, Illustration27AvailableWidths);
   const imageSrc = Illustration27WidthMap[closestWidth] ?? Illustration27Src;
-  return /* @__PURE__ */ jsx1715(
+  return /* @__PURE__ */ jsx1709(
     "img",
     {
       src: imageSrc,
@@ -25780,7 +25446,7 @@ import Illustration28Src from "@snowui-design-system/resource-core/assets/illust
 import Illustration28Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-160.png";
 import Illustration28Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-640.png";
 import Illustration28Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-1024.png";
-import { jsx as jsx1716 } from "react/jsx-runtime";
+import { jsx as jsx1710 } from "react/jsx-runtime";
 var Illustration28WidthMap = {
   160: Illustration28Src160,
   320: Illustration28Src,
@@ -25788,7 +25454,7 @@ var Illustration28WidthMap = {
   1024: Illustration28Src1024
 };
 var Illustration28AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth55 = (target, available) => {
+var findClosestWidth53 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25804,9 +25470,9 @@ var findClosestWidth55 = (target, available) => {
 };
 var Illustration28 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth55(resolvedWidth, Illustration28AvailableWidths);
+  const closestWidth = findClosestWidth53(resolvedWidth, Illustration28AvailableWidths);
   const imageSrc = Illustration28WidthMap[closestWidth] ?? Illustration28Src;
-  return /* @__PURE__ */ jsx1716(
+  return /* @__PURE__ */ jsx1710(
     "img",
     {
       src: imageSrc,
@@ -25819,56 +25485,70 @@ var Illustration28 = ({ width = 320, height, ...rest }) => {
 };
 var Illustration28_default = Illustration28;
 
-// src/illustrations/LineDrawing.tsx
-import LineDrawingSrc from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg";
-import LineDrawingSrc1 from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg";
-import LineDrawingSrc2 from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-02.svg";
-import LineDrawingSrc3 from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-03.svg";
-import { jsx as jsx1717 } from "react/jsx-runtime";
-var LineDrawingWidthMap = {
-  1: LineDrawingSrc1,
-  2: LineDrawingSrc2,
-  3: LineDrawingSrc3
-};
-var LineDrawingAvailableWidths = [1, 2, 3];
-var findClosestWidth56 = (target, available) => {
-  if (available.length === 0) return target;
-  if (available.includes(target)) return target;
-  let closest = available[0];
-  let minDiff = Math.abs(target - closest);
-  for (const width of available) {
-    const diff = Math.abs(target - width);
-    if (diff < minDiff) {
-      minDiff = diff;
-      closest = width;
-    }
-  }
-  return closest;
-};
-var LineDrawing = ({ width = 320, height, ...rest }) => {
+// src/illustrations/LineDrawing01.tsx
+import LineDrawing01Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg";
+import { jsx as jsx1711 } from "react/jsx-runtime";
+var LineDrawing01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth56(resolvedWidth, LineDrawingAvailableWidths);
-  const imageSrc = LineDrawingWidthMap[closestWidth] ?? LineDrawingSrc;
-  return /* @__PURE__ */ jsx1717(
+  const imageSrc = LineDrawing01Src;
+  return /* @__PURE__ */ jsx1711(
     "img",
     {
-      src: imageSrc,
-      alt: "LineDrawing",
+      src: LineDrawing01Src,
+      alt: "LineDrawing01",
       width: resolvedWidth,
       height: height ?? void 0,
       ...rest
     }
   );
 };
-var LineDrawing_default = LineDrawing;
+var LineDrawing01_default = LineDrawing01;
+
+// src/illustrations/LineDrawing02.tsx
+import LineDrawing02Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-02.svg";
+import { jsx as jsx1712 } from "react/jsx-runtime";
+var LineDrawing02 = ({ width = 320, height, ...rest }) => {
+  const resolvedWidth = width ?? 320;
+  const imageSrc = LineDrawing02Src;
+  return /* @__PURE__ */ jsx1712(
+    "img",
+    {
+      src: LineDrawing02Src,
+      alt: "LineDrawing02",
+      width: resolvedWidth,
+      height: height ?? void 0,
+      ...rest
+    }
+  );
+};
+var LineDrawing02_default = LineDrawing02;
+
+// src/illustrations/LineDrawing03.tsx
+import LineDrawing03Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-03.svg";
+import { jsx as jsx1713 } from "react/jsx-runtime";
+var LineDrawing03 = ({ width = 320, height, ...rest }) => {
+  const resolvedWidth = width ?? 320;
+  const imageSrc = LineDrawing03Src;
+  return /* @__PURE__ */ jsx1713(
+    "img",
+    {
+      src: LineDrawing03Src,
+      alt: "LineDrawing03",
+      width: resolvedWidth,
+      height: height ?? void 0,
+      ...rest
+    }
+  );
+};
+var LineDrawing03_default = LineDrawing03;
 
 // src/illustrations/QrCodeBig.tsx
 import QrCodeBigSrc from "@snowui-design-system/resource-core/assets/illustrations/qr-code-big.svg";
-import { jsx as jsx1718 } from "react/jsx-runtime";
+import { jsx as jsx1714 } from "react/jsx-runtime";
 var QrCodeBig = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = QrCodeBigSrc;
-  return /* @__PURE__ */ jsx1718(
+  return /* @__PURE__ */ jsx1714(
     "img",
     {
       src: QrCodeBigSrc,
@@ -25883,11 +25563,11 @@ var QrCodeBig_default = QrCodeBig;
 
 // src/illustrations/Voice.tsx
 import VoiceSrc from "@snowui-design-system/resource-core/assets/illustrations/voice.svg";
-import { jsx as jsx1719 } from "react/jsx-runtime";
+import { jsx as jsx1715 } from "react/jsx-runtime";
 var Voice = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = VoiceSrc;
-  return /* @__PURE__ */ jsx1719(
+  return /* @__PURE__ */ jsx1715(
     "img",
     {
       src: VoiceSrc,
@@ -25905,7 +25585,7 @@ import Image01Src from "@snowui-design-system/resource-core/assets/images/image-
 import Image01Src160 from "@snowui-design-system/resource-core/assets/images/image-01-160.png";
 import Image01Src640 from "@snowui-design-system/resource-core/assets/images/image-01-640.png";
 import Image01Src1024 from "@snowui-design-system/resource-core/assets/images/image-01-1024.png";
-import { jsx as jsx1720 } from "react/jsx-runtime";
+import { jsx as jsx1716 } from "react/jsx-runtime";
 var Image01WidthMap = {
   160: Image01Src160,
   320: Image01Src,
@@ -25913,7 +25593,7 @@ var Image01WidthMap = {
   1024: Image01Src1024
 };
 var Image01AvailableWidths = [160, 320, 640, 1024];
-var findClosestWidth57 = (target, available) => {
+var findClosestWidth54 = (target, available) => {
   if (available.length === 0) return target;
   if (available.includes(target)) return target;
   let closest = available[0];
@@ -25929,9 +25609,9 @@ var findClosestWidth57 = (target, available) => {
 };
 var Image01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
-  const closestWidth = findClosestWidth57(resolvedWidth, Image01AvailableWidths);
+  const closestWidth = findClosestWidth54(resolvedWidth, Image01AvailableWidths);
   const imageSrc = Image01WidthMap[closestWidth] ?? Image01Src;
-  return /* @__PURE__ */ jsx1720(
+  return /* @__PURE__ */ jsx1716(
     "img",
     {
       src: imageSrc,
@@ -25946,12 +25626,12 @@ var Image01_default = Image01;
 
 // src/logos/Android.tsx
 import AndroidSrc from "@snowui-design-system/resource-core/assets/logos/android.svg";
-import { jsx as jsx1721 } from "react/jsx-runtime";
+import { jsx as jsx1717 } from "react/jsx-runtime";
 var Android = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AndroidSrc;
-  return /* @__PURE__ */ jsx1721(
+  return /* @__PURE__ */ jsx1717(
     "img",
     {
       src: AndroidSrc,
@@ -25966,12 +25646,12 @@ var Android_default = Android;
 
 // src/logos/AppStore.tsx
 import AppStoreSrc from "@snowui-design-system/resource-core/assets/logos/app-store.svg";
-import { jsx as jsx1722 } from "react/jsx-runtime";
+import { jsx as jsx1718 } from "react/jsx-runtime";
 var AppStore = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppStoreSrc;
-  return /* @__PURE__ */ jsx1722(
+  return /* @__PURE__ */ jsx1718(
     "img",
     {
       src: AppStoreSrc,
@@ -25986,12 +25666,12 @@ var AppStore_default = AppStore;
 
 // src/logos/AppleIntelligence2a.tsx
 import AppleIntelligence2aSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-2a.svg";
-import { jsx as jsx1723 } from "react/jsx-runtime";
+import { jsx as jsx1719 } from "react/jsx-runtime";
 var AppleIntelligence2a = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppleIntelligence2aSrc;
-  return /* @__PURE__ */ jsx1723(
+  return /* @__PURE__ */ jsx1719(
     "img",
     {
       src: AppleIntelligence2aSrc,
@@ -26006,12 +25686,12 @@ var AppleIntelligence2a_default = AppleIntelligence2a;
 
 // src/logos/AppleIntelligence2b.tsx
 import AppleIntelligence2bSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-2b.svg";
-import { jsx as jsx1724 } from "react/jsx-runtime";
+import { jsx as jsx1720 } from "react/jsx-runtime";
 var AppleIntelligence2b = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppleIntelligence2bSrc;
-  return /* @__PURE__ */ jsx1724(
+  return /* @__PURE__ */ jsx1720(
     "img",
     {
       src: AppleIntelligence2bSrc,
@@ -26026,12 +25706,12 @@ var AppleIntelligence2b_default = AppleIntelligence2b;
 
 // src/logos/AppleIntelligenceA.tsx
 import AppleIntelligenceASrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-a.svg";
-import { jsx as jsx1725 } from "react/jsx-runtime";
+import { jsx as jsx1721 } from "react/jsx-runtime";
 var AppleIntelligenceA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppleIntelligenceASrc;
-  return /* @__PURE__ */ jsx1725(
+  return /* @__PURE__ */ jsx1721(
     "img",
     {
       src: AppleIntelligenceASrc,
@@ -26046,12 +25726,12 @@ var AppleIntelligenceA_default = AppleIntelligenceA;
 
 // src/logos/AppleIntelligenceB.tsx
 import AppleIntelligenceBSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-b.svg";
-import { jsx as jsx1726 } from "react/jsx-runtime";
+import { jsx as jsx1722 } from "react/jsx-runtime";
 var AppleIntelligenceB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppleIntelligenceBSrc;
-  return /* @__PURE__ */ jsx1726(
+  return /* @__PURE__ */ jsx1722(
     "img",
     {
       src: AppleIntelligenceBSrc,
@@ -26066,12 +25746,12 @@ var AppleIntelligenceB_default = AppleIntelligenceB;
 
 // src/logos/Apple.tsx
 import AppleSrc from "@snowui-design-system/resource-core/assets/logos/apple.svg";
-import { jsx as jsx1727 } from "react/jsx-runtime";
+import { jsx as jsx1723 } from "react/jsx-runtime";
 var Apple = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = AppleSrc;
-  return /* @__PURE__ */ jsx1727(
+  return /* @__PURE__ */ jsx1723(
     "img",
     {
       src: AppleSrc,
@@ -26086,12 +25766,12 @@ var Apple_default = Apple;
 
 // src/logos/Arc.tsx
 import ArcSrc from "@snowui-design-system/resource-core/assets/logos/arc.svg";
-import { jsx as jsx1728 } from "react/jsx-runtime";
+import { jsx as jsx1724 } from "react/jsx-runtime";
 var Arc = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ArcSrc;
-  return /* @__PURE__ */ jsx1728(
+  return /* @__PURE__ */ jsx1724(
     "img",
     {
       src: ArcSrc,
@@ -26106,12 +25786,12 @@ var Arc_default = Arc;
 
 // src/logos/Behance.tsx
 import BehanceSrc from "@snowui-design-system/resource-core/assets/logos/behance.svg";
-import { jsx as jsx1729 } from "react/jsx-runtime";
+import { jsx as jsx1725 } from "react/jsx-runtime";
 var Behance = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = BehanceSrc;
-  return /* @__PURE__ */ jsx1729(
+  return /* @__PURE__ */ jsx1725(
     "img",
     {
       src: BehanceSrc,
@@ -26126,12 +25806,12 @@ var Behance_default = Behance;
 
 // src/logos/ChatGpt.tsx
 import ChatGptSrc from "@snowui-design-system/resource-core/assets/logos/chat-gpt.svg";
-import { jsx as jsx1730 } from "react/jsx-runtime";
+import { jsx as jsx1726 } from "react/jsx-runtime";
 var ChatGpt = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ChatGptSrc;
-  return /* @__PURE__ */ jsx1730(
+  return /* @__PURE__ */ jsx1726(
     "img",
     {
       src: ChatGptSrc,
@@ -26146,12 +25826,12 @@ var ChatGpt_default = ChatGpt;
 
 // src/logos/Claude.tsx
 import ClaudeSrc from "@snowui-design-system/resource-core/assets/logos/claude.svg";
-import { jsx as jsx1731 } from "react/jsx-runtime";
+import { jsx as jsx1727 } from "react/jsx-runtime";
 var Claude = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ClaudeSrc;
-  return /* @__PURE__ */ jsx1731(
+  return /* @__PURE__ */ jsx1727(
     "img",
     {
       src: ClaudeSrc,
@@ -26166,12 +25846,12 @@ var Claude_default = Claude;
 
 // src/logos/Copilot.tsx
 import CopilotSrc from "@snowui-design-system/resource-core/assets/logos/copilot.svg";
-import { jsx as jsx1732 } from "react/jsx-runtime";
+import { jsx as jsx1728 } from "react/jsx-runtime";
 var Copilot = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CopilotSrc;
-  return /* @__PURE__ */ jsx1732(
+  return /* @__PURE__ */ jsx1728(
     "img",
     {
       src: CopilotSrc,
@@ -26186,12 +25866,12 @@ var Copilot_default = Copilot;
 
 // src/logos/Discord.tsx
 import DiscordSrc from "@snowui-design-system/resource-core/assets/logos/discord.svg";
-import { jsx as jsx1733 } from "react/jsx-runtime";
+import { jsx as jsx1729 } from "react/jsx-runtime";
 var Discord = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DiscordSrc;
-  return /* @__PURE__ */ jsx1733(
+  return /* @__PURE__ */ jsx1729(
     "img",
     {
       src: DiscordSrc,
@@ -26206,12 +25886,12 @@ var Discord_default = Discord;
 
 // src/logos/Dribbble.tsx
 import DribbbleSrc from "@snowui-design-system/resource-core/assets/logos/dribbble.svg";
-import { jsx as jsx1734 } from "react/jsx-runtime";
+import { jsx as jsx1730 } from "react/jsx-runtime";
 var Dribbble = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DribbbleSrc;
-  return /* @__PURE__ */ jsx1734(
+  return /* @__PURE__ */ jsx1730(
     "img",
     {
       src: DribbbleSrc,
@@ -26226,12 +25906,12 @@ var Dribbble_default = Dribbble;
 
 // src/logos/Dropbox.tsx
 import DropboxSrc from "@snowui-design-system/resource-core/assets/logos/dropbox.svg";
-import { jsx as jsx1735 } from "react/jsx-runtime";
+import { jsx as jsx1731 } from "react/jsx-runtime";
 var Dropbox = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DropboxSrc;
-  return /* @__PURE__ */ jsx1735(
+  return /* @__PURE__ */ jsx1731(
     "img",
     {
       src: DropboxSrc,
@@ -26246,12 +25926,12 @@ var Dropbox_default = Dropbox;
 
 // src/logos/Excel.tsx
 import ExcelSrc from "@snowui-design-system/resource-core/assets/logos/excel.svg";
-import { jsx as jsx1736 } from "react/jsx-runtime";
+import { jsx as jsx1732 } from "react/jsx-runtime";
 var Excel = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ExcelSrc;
-  return /* @__PURE__ */ jsx1736(
+  return /* @__PURE__ */ jsx1732(
     "img",
     {
       src: ExcelSrc,
@@ -26266,12 +25946,12 @@ var Excel_default = Excel;
 
 // src/logos/Facebook.tsx
 import FacebookSrc from "@snowui-design-system/resource-core/assets/logos/facebook.svg";
-import { jsx as jsx1737 } from "react/jsx-runtime";
+import { jsx as jsx1733 } from "react/jsx-runtime";
 var Facebook = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FacebookSrc;
-  return /* @__PURE__ */ jsx1737(
+  return /* @__PURE__ */ jsx1733(
     "img",
     {
       src: FacebookSrc,
@@ -26286,12 +25966,12 @@ var Facebook_default = Facebook;
 
 // src/logos/FigmaA.tsx
 import FigmaASrc from "@snowui-design-system/resource-core/assets/logos/figma-a.svg";
-import { jsx as jsx1738 } from "react/jsx-runtime";
+import { jsx as jsx1734 } from "react/jsx-runtime";
 var FigmaA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FigmaASrc;
-  return /* @__PURE__ */ jsx1738(
+  return /* @__PURE__ */ jsx1734(
     "img",
     {
       src: FigmaASrc,
@@ -26306,12 +25986,12 @@ var FigmaA_default = FigmaA;
 
 // src/logos/FigmaB.tsx
 import FigmaBSrc from "@snowui-design-system/resource-core/assets/logos/figma-b.svg";
-import { jsx as jsx1739 } from "react/jsx-runtime";
+import { jsx as jsx1735 } from "react/jsx-runtime";
 var FigmaB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FigmaBSrc;
-  return /* @__PURE__ */ jsx1739(
+  return /* @__PURE__ */ jsx1735(
     "img",
     {
       src: FigmaBSrc,
@@ -26326,12 +26006,12 @@ var FigmaB_default = FigmaB;
 
 // src/logos/Framer.tsx
 import FramerSrc from "@snowui-design-system/resource-core/assets/logos/framer.svg";
-import { jsx as jsx1740 } from "react/jsx-runtime";
+import { jsx as jsx1736 } from "react/jsx-runtime";
 var Framer = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FramerSrc;
-  return /* @__PURE__ */ jsx1740(
+  return /* @__PURE__ */ jsx1736(
     "img",
     {
       src: FramerSrc,
@@ -26346,12 +26026,12 @@ var Framer_default = Framer;
 
 // src/logos/Gemini.tsx
 import GeminiSrc from "@snowui-design-system/resource-core/assets/logos/gemini.svg";
-import { jsx as jsx1741 } from "react/jsx-runtime";
+import { jsx as jsx1737 } from "react/jsx-runtime";
 var Gemini = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GeminiSrc;
-  return /* @__PURE__ */ jsx1741(
+  return /* @__PURE__ */ jsx1737(
     "img",
     {
       src: GeminiSrc,
@@ -26366,12 +26046,12 @@ var Gemini_default = Gemini;
 
 // src/logos/Github.tsx
 import GithubSrc from "@snowui-design-system/resource-core/assets/logos/github.svg";
-import { jsx as jsx1742 } from "react/jsx-runtime";
+import { jsx as jsx1738 } from "react/jsx-runtime";
 var Github = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GithubSrc;
-  return /* @__PURE__ */ jsx1742(
+  return /* @__PURE__ */ jsx1738(
     "img",
     {
       src: GithubSrc,
@@ -26386,12 +26066,12 @@ var Github_default = Github;
 
 // src/logos/GoogleDrive.tsx
 import GoogleDriveSrc from "@snowui-design-system/resource-core/assets/logos/google-drive.svg";
-import { jsx as jsx1743 } from "react/jsx-runtime";
+import { jsx as jsx1739 } from "react/jsx-runtime";
 var GoogleDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GoogleDriveSrc;
-  return /* @__PURE__ */ jsx1743(
+  return /* @__PURE__ */ jsx1739(
     "img",
     {
       src: GoogleDriveSrc,
@@ -26406,12 +26086,12 @@ var GoogleDrive_default = GoogleDrive;
 
 // src/logos/GooglePlay.tsx
 import GooglePlaySrc from "@snowui-design-system/resource-core/assets/logos/google-play.svg";
-import { jsx as jsx1744 } from "react/jsx-runtime";
+import { jsx as jsx1740 } from "react/jsx-runtime";
 var GooglePlay = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GooglePlaySrc;
-  return /* @__PURE__ */ jsx1744(
+  return /* @__PURE__ */ jsx1740(
     "img",
     {
       src: GooglePlaySrc,
@@ -26426,12 +26106,12 @@ var GooglePlay_default = GooglePlay;
 
 // src/logos/Google.tsx
 import GoogleSrc from "@snowui-design-system/resource-core/assets/logos/google.svg";
-import { jsx as jsx1745 } from "react/jsx-runtime";
+import { jsx as jsx1741 } from "react/jsx-runtime";
 var Google = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GoogleSrc;
-  return /* @__PURE__ */ jsx1745(
+  return /* @__PURE__ */ jsx1741(
     "img",
     {
       src: GoogleSrc,
@@ -26446,12 +26126,12 @@ var Google_default = Google;
 
 // src/logos/Grok.tsx
 import GrokSrc from "@snowui-design-system/resource-core/assets/logos/grok.svg";
-import { jsx as jsx1746 } from "react/jsx-runtime";
+import { jsx as jsx1742 } from "react/jsx-runtime";
 var Grok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GrokSrc;
-  return /* @__PURE__ */ jsx1746(
+  return /* @__PURE__ */ jsx1742(
     "img",
     {
       src: GrokSrc,
@@ -26466,12 +26146,12 @@ var Grok_default = Grok;
 
 // src/logos/Gumroad.tsx
 import GumroadSrc from "@snowui-design-system/resource-core/assets/logos/gumroad.svg";
-import { jsx as jsx1747 } from "react/jsx-runtime";
+import { jsx as jsx1743 } from "react/jsx-runtime";
 var Gumroad = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GumroadSrc;
-  return /* @__PURE__ */ jsx1747(
+  return /* @__PURE__ */ jsx1743(
     "img",
     {
       src: GumroadSrc,
@@ -26486,12 +26166,12 @@ var Gumroad_default = Gumroad;
 
 // src/logos/ICloud.tsx
 import ICloudSrc from "@snowui-design-system/resource-core/assets/logos/i-cloud.svg";
-import { jsx as jsx1748 } from "react/jsx-runtime";
+import { jsx as jsx1744 } from "react/jsx-runtime";
 var ICloud = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ICloudSrc;
-  return /* @__PURE__ */ jsx1748(
+  return /* @__PURE__ */ jsx1744(
     "img",
     {
       src: ICloudSrc,
@@ -26506,12 +26186,12 @@ var ICloud_default = ICloud;
 
 // src/logos/Instagram.tsx
 import InstagramSrc from "@snowui-design-system/resource-core/assets/logos/instagram.svg";
-import { jsx as jsx1749 } from "react/jsx-runtime";
+import { jsx as jsx1745 } from "react/jsx-runtime";
 var Instagram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = InstagramSrc;
-  return /* @__PURE__ */ jsx1749(
+  return /* @__PURE__ */ jsx1745(
     "img",
     {
       src: InstagramSrc,
@@ -26526,12 +26206,12 @@ var Instagram_default = Instagram;
 
 // src/logos/LemonSqueezy.tsx
 import LemonSqueezySrc from "@snowui-design-system/resource-core/assets/logos/lemon-squeezy.svg";
-import { jsx as jsx1750 } from "react/jsx-runtime";
+import { jsx as jsx1746 } from "react/jsx-runtime";
 var LemonSqueezy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LemonSqueezySrc;
-  return /* @__PURE__ */ jsx1750(
+  return /* @__PURE__ */ jsx1746(
     "img",
     {
       src: LemonSqueezySrc,
@@ -26546,12 +26226,12 @@ var LemonSqueezy_default = LemonSqueezy;
 
 // src/logos/LinkedIn.tsx
 import LinkedInSrc from "@snowui-design-system/resource-core/assets/logos/linked-in.svg";
-import { jsx as jsx1751 } from "react/jsx-runtime";
+import { jsx as jsx1747 } from "react/jsx-runtime";
 var LinkedIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LinkedInSrc;
-  return /* @__PURE__ */ jsx1751(
+  return /* @__PURE__ */ jsx1747(
     "img",
     {
       src: LinkedInSrc,
@@ -26566,12 +26246,12 @@ var LinkedIn_default = LinkedIn;
 
 // src/logos/Loop.tsx
 import LoopSrc from "@snowui-design-system/resource-core/assets/logos/loop.svg";
-import { jsx as jsx1752 } from "react/jsx-runtime";
+import { jsx as jsx1748 } from "react/jsx-runtime";
 var Loop = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LoopSrc;
-  return /* @__PURE__ */ jsx1752(
+  return /* @__PURE__ */ jsx1748(
     "img",
     {
       src: LoopSrc,
@@ -26586,12 +26266,12 @@ var Loop_default = Loop;
 
 // src/logos/Mastercard.tsx
 import MastercardSrc from "@snowui-design-system/resource-core/assets/logos/mastercard.svg";
-import { jsx as jsx1753 } from "react/jsx-runtime";
+import { jsx as jsx1749 } from "react/jsx-runtime";
 var Mastercard = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MastercardSrc;
-  return /* @__PURE__ */ jsx1753(
+  return /* @__PURE__ */ jsx1749(
     "img",
     {
       src: MastercardSrc,
@@ -26606,12 +26286,12 @@ var Mastercard_default = Mastercard;
 
 // src/logos/Medium.tsx
 import MediumSrc from "@snowui-design-system/resource-core/assets/logos/medium.svg";
-import { jsx as jsx1754 } from "react/jsx-runtime";
+import { jsx as jsx1750 } from "react/jsx-runtime";
 var Medium = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MediumSrc;
-  return /* @__PURE__ */ jsx1754(
+  return /* @__PURE__ */ jsx1750(
     "img",
     {
       src: MediumSrc,
@@ -26626,12 +26306,12 @@ var Medium_default = Medium;
 
 // src/logos/Messenger.tsx
 import MessengerSrc from "@snowui-design-system/resource-core/assets/logos/messenger.svg";
-import { jsx as jsx1755 } from "react/jsx-runtime";
+import { jsx as jsx1751 } from "react/jsx-runtime";
 var Messenger = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MessengerSrc;
-  return /* @__PURE__ */ jsx1755(
+  return /* @__PURE__ */ jsx1751(
     "img",
     {
       src: MessengerSrc,
@@ -26646,12 +26326,12 @@ var Messenger_default = Messenger;
 
 // src/logos/Meta.tsx
 import MetaSrc from "@snowui-design-system/resource-core/assets/logos/meta.svg";
-import { jsx as jsx1756 } from "react/jsx-runtime";
+import { jsx as jsx1752 } from "react/jsx-runtime";
 var Meta = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MetaSrc;
-  return /* @__PURE__ */ jsx1756(
+  return /* @__PURE__ */ jsx1752(
     "img",
     {
       src: MetaSrc,
@@ -26666,12 +26346,12 @@ var Meta_default = Meta;
 
 // src/logos/Microsoft.tsx
 import MicrosoftSrc from "@snowui-design-system/resource-core/assets/logos/microsoft.svg";
-import { jsx as jsx1757 } from "react/jsx-runtime";
+import { jsx as jsx1753 } from "react/jsx-runtime";
 var Microsoft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MicrosoftSrc;
-  return /* @__PURE__ */ jsx1757(
+  return /* @__PURE__ */ jsx1753(
     "img",
     {
       src: MicrosoftSrc,
@@ -26686,12 +26366,12 @@ var Microsoft_default = Microsoft;
 
 // src/logos/Midjourney.tsx
 import MidjourneySrc from "@snowui-design-system/resource-core/assets/logos/midjourney.svg";
-import { jsx as jsx1758 } from "react/jsx-runtime";
+import { jsx as jsx1754 } from "react/jsx-runtime";
 var Midjourney = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MidjourneySrc;
-  return /* @__PURE__ */ jsx1758(
+  return /* @__PURE__ */ jsx1754(
     "img",
     {
       src: MidjourneySrc,
@@ -26706,12 +26386,12 @@ var Midjourney_default = Midjourney;
 
 // src/logos/Nintendo.tsx
 import NintendoSrc from "@snowui-design-system/resource-core/assets/logos/nintendo.svg";
-import { jsx as jsx1759 } from "react/jsx-runtime";
+import { jsx as jsx1755 } from "react/jsx-runtime";
 var Nintendo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = NintendoSrc;
-  return /* @__PURE__ */ jsx1759(
+  return /* @__PURE__ */ jsx1755(
     "img",
     {
       src: NintendoSrc,
@@ -26726,12 +26406,12 @@ var Nintendo_default = Nintendo;
 
 // src/logos/Notion.tsx
 import NotionSrc from "@snowui-design-system/resource-core/assets/logos/notion.svg";
-import { jsx as jsx1760 } from "react/jsx-runtime";
+import { jsx as jsx1756 } from "react/jsx-runtime";
 var Notion = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = NotionSrc;
-  return /* @__PURE__ */ jsx1760(
+  return /* @__PURE__ */ jsx1756(
     "img",
     {
       src: NotionSrc,
@@ -26746,12 +26426,12 @@ var Notion_default = Notion;
 
 // src/logos/OneDrive.tsx
 import OneDriveSrc from "@snowui-design-system/resource-core/assets/logos/one-drive.svg";
-import { jsx as jsx1761 } from "react/jsx-runtime";
+import { jsx as jsx1757 } from "react/jsx-runtime";
 var OneDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = OneDriveSrc;
-  return /* @__PURE__ */ jsx1761(
+  return /* @__PURE__ */ jsx1757(
     "img",
     {
       src: OneDriveSrc,
@@ -26766,12 +26446,12 @@ var OneDrive_default = OneDrive;
 
 // src/logos/OneNote.tsx
 import OneNoteSrc from "@snowui-design-system/resource-core/assets/logos/one-note.svg";
-import { jsx as jsx1762 } from "react/jsx-runtime";
+import { jsx as jsx1758 } from "react/jsx-runtime";
 var OneNote = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = OneNoteSrc;
-  return /* @__PURE__ */ jsx1762(
+  return /* @__PURE__ */ jsx1758(
     "img",
     {
       src: OneNoteSrc,
@@ -26786,12 +26466,12 @@ var OneNote_default = OneNote;
 
 // src/logos/PayPal.tsx
 import PayPalSrc from "@snowui-design-system/resource-core/assets/logos/pay-pal.svg";
-import { jsx as jsx1763 } from "react/jsx-runtime";
+import { jsx as jsx1759 } from "react/jsx-runtime";
 var PayPal = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PayPalSrc;
-  return /* @__PURE__ */ jsx1763(
+  return /* @__PURE__ */ jsx1759(
     "img",
     {
       src: PayPalSrc,
@@ -26806,12 +26486,12 @@ var PayPal_default = PayPal;
 
 // src/logos/Perplexity.tsx
 import PerplexitySrc from "@snowui-design-system/resource-core/assets/logos/perplexity.svg";
-import { jsx as jsx1764 } from "react/jsx-runtime";
+import { jsx as jsx1760 } from "react/jsx-runtime";
 var Perplexity = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PerplexitySrc;
-  return /* @__PURE__ */ jsx1764(
+  return /* @__PURE__ */ jsx1760(
     "img",
     {
       src: PerplexitySrc,
@@ -26826,12 +26506,12 @@ var Perplexity_default = Perplexity;
 
 // src/logos/Pinterest.tsx
 import PinterestSrc from "@snowui-design-system/resource-core/assets/logos/pinterest.svg";
-import { jsx as jsx1765 } from "react/jsx-runtime";
+import { jsx as jsx1761 } from "react/jsx-runtime";
 var Pinterest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PinterestSrc;
-  return /* @__PURE__ */ jsx1765(
+  return /* @__PURE__ */ jsx1761(
     "img",
     {
       src: PinterestSrc,
@@ -26846,12 +26526,12 @@ var Pinterest_default = Pinterest;
 
 // src/logos/PowerPoint.tsx
 import PowerPointSrc from "@snowui-design-system/resource-core/assets/logos/power-point.svg";
-import { jsx as jsx1766 } from "react/jsx-runtime";
+import { jsx as jsx1762 } from "react/jsx-runtime";
 var PowerPoint = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PowerPointSrc;
-  return /* @__PURE__ */ jsx1766(
+  return /* @__PURE__ */ jsx1762(
     "img",
     {
       src: PowerPointSrc,
@@ -26866,12 +26546,12 @@ var PowerPoint_default = PowerPoint;
 
 // src/logos/Reddit.tsx
 import RedditSrc from "@snowui-design-system/resource-core/assets/logos/reddit.svg";
-import { jsx as jsx1767 } from "react/jsx-runtime";
+import { jsx as jsx1763 } from "react/jsx-runtime";
 var Reddit = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = RedditSrc;
-  return /* @__PURE__ */ jsx1767(
+  return /* @__PURE__ */ jsx1763(
     "img",
     {
       src: RedditSrc,
@@ -26886,12 +26566,12 @@ var Reddit_default = Reddit;
 
 // src/logos/Slack.tsx
 import SlackSrc from "@snowui-design-system/resource-core/assets/logos/slack.svg";
-import { jsx as jsx1768 } from "react/jsx-runtime";
+import { jsx as jsx1764 } from "react/jsx-runtime";
 var Slack = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SlackSrc;
-  return /* @__PURE__ */ jsx1768(
+  return /* @__PURE__ */ jsx1764(
     "img",
     {
       src: SlackSrc,
@@ -26906,12 +26586,12 @@ var Slack_default = Slack;
 
 // src/logos/Snapchat.tsx
 import SnapchatSrc from "@snowui-design-system/resource-core/assets/logos/snapchat.svg";
-import { jsx as jsx1769 } from "react/jsx-runtime";
+import { jsx as jsx1765 } from "react/jsx-runtime";
 var Snapchat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SnapchatSrc;
-  return /* @__PURE__ */ jsx1769(
+  return /* @__PURE__ */ jsx1765(
     "img",
     {
       src: SnapchatSrc,
@@ -26926,12 +26606,12 @@ var Snapchat_default = Snapchat;
 
 // src/logos/Stripe.tsx
 import StripeSrc from "@snowui-design-system/resource-core/assets/logos/stripe.svg";
-import { jsx as jsx1770 } from "react/jsx-runtime";
+import { jsx as jsx1766 } from "react/jsx-runtime";
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = StripeSrc;
-  return /* @__PURE__ */ jsx1770(
+  return /* @__PURE__ */ jsx1766(
     "img",
     {
       src: StripeSrc,
@@ -26946,12 +26626,12 @@ var Stripe_default = Stripe;
 
 // src/logos/Telegram.tsx
 import TelegramSrc from "@snowui-design-system/resource-core/assets/logos/telegram.svg";
-import { jsx as jsx1771 } from "react/jsx-runtime";
+import { jsx as jsx1767 } from "react/jsx-runtime";
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TelegramSrc;
-  return /* @__PURE__ */ jsx1771(
+  return /* @__PURE__ */ jsx1767(
     "img",
     {
       src: TelegramSrc,
@@ -26966,12 +26646,12 @@ var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
 import ThreadsSrc from "@snowui-design-system/resource-core/assets/logos/threads.svg";
-import { jsx as jsx1772 } from "react/jsx-runtime";
+import { jsx as jsx1768 } from "react/jsx-runtime";
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ThreadsSrc;
-  return /* @__PURE__ */ jsx1772(
+  return /* @__PURE__ */ jsx1768(
     "img",
     {
       src: ThreadsSrc,
@@ -26986,12 +26666,12 @@ var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
 import TikTokSrc from "@snowui-design-system/resource-core/assets/logos/tik-tok.svg";
-import { jsx as jsx1773 } from "react/jsx-runtime";
+import { jsx as jsx1769 } from "react/jsx-runtime";
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TikTokSrc;
-  return /* @__PURE__ */ jsx1773(
+  return /* @__PURE__ */ jsx1769(
     "img",
     {
       src: TikTokSrc,
@@ -27006,12 +26686,12 @@ var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
 import TwitchSrc from "@snowui-design-system/resource-core/assets/logos/twitch.svg";
-import { jsx as jsx1774 } from "react/jsx-runtime";
+import { jsx as jsx1770 } from "react/jsx-runtime";
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitchSrc;
-  return /* @__PURE__ */ jsx1774(
+  return /* @__PURE__ */ jsx1770(
     "img",
     {
       src: TwitchSrc,
@@ -27026,12 +26706,12 @@ var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
 import TwitterSrc from "@snowui-design-system/resource-core/assets/logos/twitter.svg";
-import { jsx as jsx1775 } from "react/jsx-runtime";
+import { jsx as jsx1771 } from "react/jsx-runtime";
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitterSrc;
-  return /* @__PURE__ */ jsx1775(
+  return /* @__PURE__ */ jsx1771(
     "img",
     {
       src: TwitterSrc,
@@ -27046,12 +26726,12 @@ var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
 import VisaSrc from "@snowui-design-system/resource-core/assets/logos/visa.svg";
-import { jsx as jsx1776 } from "react/jsx-runtime";
+import { jsx as jsx1772 } from "react/jsx-runtime";
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = VisaSrc;
-  return /* @__PURE__ */ jsx1776(
+  return /* @__PURE__ */ jsx1772(
     "img",
     {
       src: VisaSrc,
@@ -27066,12 +26746,12 @@ var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
 import WhatsAppSrc from "@snowui-design-system/resource-core/assets/logos/whats-app.svg";
-import { jsx as jsx1777 } from "react/jsx-runtime";
+import { jsx as jsx1773 } from "react/jsx-runtime";
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WhatsAppSrc;
-  return /* @__PURE__ */ jsx1777(
+  return /* @__PURE__ */ jsx1773(
     "img",
     {
       src: WhatsAppSrc,
@@ -27086,12 +26766,12 @@ var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
 import WordSrc from "@snowui-design-system/resource-core/assets/logos/word.svg";
-import { jsx as jsx1778 } from "react/jsx-runtime";
+import { jsx as jsx1774 } from "react/jsx-runtime";
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WordSrc;
-  return /* @__PURE__ */ jsx1778(
+  return /* @__PURE__ */ jsx1774(
     "img",
     {
       src: WordSrc,
@@ -27106,12 +26786,12 @@ var Word_default = Word;
 
 // src/logos/Xlogo.tsx
 import XlogoSrc from "@snowui-design-system/resource-core/assets/logos/xlogo.svg";
-import { jsx as jsx1779 } from "react/jsx-runtime";
+import { jsx as jsx1775 } from "react/jsx-runtime";
 var Xlogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = XlogoSrc;
-  return /* @__PURE__ */ jsx1779(
+  return /* @__PURE__ */ jsx1775(
     "img",
     {
       src: XlogoSrc,
@@ -27126,12 +26806,12 @@ var Xlogo_default = Xlogo;
 
 // src/logos/Youtube.tsx
 import YoutubeSrc from "@snowui-design-system/resource-core/assets/logos/youtube.svg";
-import { jsx as jsx1780 } from "react/jsx-runtime";
+import { jsx as jsx1776 } from "react/jsx-runtime";
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = YoutubeSrc;
-  return /* @__PURE__ */ jsx1780(
+  return /* @__PURE__ */ jsx1776(
     "img",
     {
       src: YoutubeSrc,
@@ -28744,12 +28424,12 @@ var iconsByName = {
 
 // src/component-names.ts
 var componentNames = {
-  avatars: ["Avatar3d", "Avatar3d01", "Avatar3d02", "Avatar3d03", "Avatar3d04", "AvatarAbstract", "AvatarAbstract01", "AvatarAbstract02", "AvatarAbstract03", "AvatarAbstract04", "AvatarByewind", "AvatarDefault", "AvatarFemale", "AvatarFemale01", "AvatarFemale02", "AvatarFemale03", "AvatarFemale04", "AvatarFemale05", "AvatarFemale06", "AvatarMale", "AvatarMale01", "AvatarMale02", "AvatarMale03", "AvatarMale04", "AvatarMale05", "AvatarMale06"],
-  backgrounds: ["Geometric", "Geometric01", "Geometric02", "Geometric03", "Geometric04", "Geometric05", "Geometric06", "Geometric07", "Gradient", "Gradient01", "Gradient02", "Gradient03", "Gradient04", "Gradient05", "Gradient06", "Gradient07", "Gradient08", "Gradient09", "Gradient10", "Gradient11", "Gradient12", "Gradient13", "Gradient14", "Minimal", "Minimal01", "Minimal02", "Minimal03"],
+  avatars: ["Avatar3d01", "Avatar3d02", "Avatar3d03", "Avatar3d04", "AvatarAbstract01", "AvatarAbstract02", "AvatarAbstract03", "AvatarAbstract04", "AvatarByewind", "AvatarDefault", "AvatarFemale01", "AvatarFemale02", "AvatarFemale03", "AvatarFemale04", "AvatarFemale05", "AvatarFemale06", "AvatarMale01", "AvatarMale02", "AvatarMale03", "AvatarMale04", "AvatarMale05", "AvatarMale06"],
+  backgrounds: ["Geometric01", "Geometric02", "Geometric03", "Geometric04", "Geometric05", "Geometric06", "Geometric07", "Gradient01", "Gradient02", "Gradient03", "Gradient04", "Gradient05", "Gradient06", "Gradient07", "Gradient08", "Gradient09", "Gradient10", "Gradient11", "Gradient12", "Gradient13", "Gradient14", "Minimal01", "Minimal02", "Minimal03"],
   cursors: ["CursorsBeachball", "CursorsCross", "CursorsDefault", "CursorsHandGrabbing", "CursorsHandOpen", "CursorsHandPointing", "CursorsMenu", "CursorsMove", "CursorsResizeDown", "CursorsResizeLeft", "CursorsResizeLeftRight", "CursorsResizeNorthEastSouthWest", "CursorsResizeNorthSouth", "CursorsResizeNorthWestSouthEast", "CursorsResizeRight", "CursorsResizeUp", "CursorsResizeUpDown", "CursorsResizeWestEast", "CursorsTextCursor", "CursorsZoomIn", "CursorsZoomOut"],
   emoji: ["BombEmoji", "FaceBlowingKiss", "FaceSteamFromNose", "FaceTearsJoy", "GrinningCat", "GrinningFaceSweat", "HeartArrow", "HundredPoints", "LoudlyCryingFace", "RedHeart", "Robot", "SeeMonkey", "SkullCrossbones", "SmilingFaceHearts", "SmilingFaceHorns", "SmilingFaceSunglasses", "Snowflake", "Snowman", "Umbrella", "WinkingFace", "WinkingFaceTongue"],
-  illustrations: ["Humanoid", "Illustration", "Illustration01", "Illustration02", "Illustration03", "Illustration04", "Illustration05", "Illustration06", "Illustration07", "Illustration08", "Illustration09", "Illustration10", "Illustration11", "Illustration12", "Illustration13", "Illustration14", "Illustration15", "Illustration16", "Illustration17", "Illustration18", "Illustration19", "Illustration20", "Illustration21", "Illustration22", "Illustration23", "Illustration24", "Illustration25", "Illustration26", "Illustration27", "Illustration28", "LineDrawing", "QrCodeBig", "Voice"],
-  images: ["Image", "Image01"],
+  illustrations: ["Humanoid", "Illustration", "Illustration01", "Illustration02", "Illustration03", "Illustration04", "Illustration05", "Illustration06", "Illustration07", "Illustration08", "Illustration09", "Illustration10", "Illustration11", "Illustration12", "Illustration13", "Illustration14", "Illustration15", "Illustration16", "Illustration17", "Illustration18", "Illustration19", "Illustration20", "Illustration21", "Illustration22", "Illustration23", "Illustration24", "Illustration25", "Illustration26", "Illustration27", "Illustration28", "LineDrawing01", "LineDrawing02", "LineDrawing03", "QrCodeBig", "Voice"],
+  images: ["Image01"],
   logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "Rss", "Slack", "Snapchat", "SnowIcon", "Stripe", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "Xlogo", "Youtube"]
 };
 export {
@@ -28918,26 +28598,22 @@ export {
   AsteriskSimple_default as AsteriskSimple,
   At_default as At,
   Atom_default as Atom,
-  Avatar3d_default as Avatar3d,
   Avatar3d01_default as Avatar3d01,
   Avatar3d02_default as Avatar3d02,
   Avatar3d03_default as Avatar3d03,
   Avatar3d04_default as Avatar3d04,
-  AvatarAbstract_default as AvatarAbstract,
   AvatarAbstract01_default as AvatarAbstract01,
   AvatarAbstract02_default as AvatarAbstract02,
   AvatarAbstract03_default as AvatarAbstract03,
   AvatarAbstract04_default as AvatarAbstract04,
   AvatarByewind_default as AvatarByewind,
   AvatarDefault_default as AvatarDefault,
-  AvatarFemale_default as AvatarFemale,
   AvatarFemale01_default as AvatarFemale01,
   AvatarFemale02_default as AvatarFemale02,
   AvatarFemale03_default as AvatarFemale03,
   AvatarFemale04_default as AvatarFemale04,
   AvatarFemale05_default as AvatarFemale05,
   AvatarFemale06_default as AvatarFemale06,
-  AvatarMale_default as AvatarMale,
   AvatarMale01_default as AvatarMale01,
   AvatarMale02_default as AvatarMale02,
   AvatarMale03_default as AvatarMale03,
@@ -29537,7 +29213,6 @@ export {
   GenderNeuter_default as GenderNeuter,
   GenderNonbinary_default as GenderNonbinary,
   GenderTransgender_default as GenderTransgender,
-  Geometric_default as Geometric,
   Geometric01_default as Geometric01,
   Geometric02_default as Geometric02,
   Geometric03_default as Geometric03,
@@ -29773,7 +29448,9 @@ export {
   LightningA_default as LightningA,
   LightningSlash_default as LightningSlash,
   Line_default as Line,
-  LineDrawing_default as LineDrawing,
+  LineDrawing01_default as LineDrawing01,
+  LineDrawing02_default as LineDrawing02,
+  LineDrawing03_default as LineDrawing03,
   LineSegment_default as LineSegment,
   LineSegments_default as LineSegments,
   LineVertical_default as LineVertical,
@@ -29858,7 +29535,6 @@ export {
   MicrosoftTeamsLogo_default as MicrosoftTeamsLogo,
   MicrosoftWordLogo_default as MicrosoftWordLogo,
   Midjourney_default as Midjourney,
-  Minimal_default as Minimal,
   Minimal01_default as Minimal01,
   Minimal02_default as Minimal02,
   Minimal03_default as Minimal03,

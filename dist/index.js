@@ -20921,7 +20921,7 @@ var Tire_default = Tire;
 var React1459 = __toESM(require("react"));
 var import_jsx_runtime1459 = require("react/jsx-runtime");
 var weights1458 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1459.jsxs)(import_jsx_runtime1459.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("g", { filter: "url(#a)", opacity: ".2", children: /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("path", { fill: "currentColor", d: "M16 128c0-35.346 28.654-64 64-64h96c35.346 0 64 28.654 64 64s-28.654 64-64 64H80c-35.346 0-64-28.654-64-64" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("g", { filter: "url(#a)", opacity: ".21", children: /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("path", { fill: "currentColor", d: "M16 128c0-35.346 28.654-64 64-64h96c35.346 0 64 28.654 64 64s-28.654 64-64 64H80c-35.346 0-64-28.654-64-64" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("g", { filter: "url(#b)", children: /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)("path", { fill: "#fff", d: "M128 128c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime1459.jsxs)("defs", { children: [
     /* @__PURE__ */ (0, import_jsx_runtime1459.jsxs)("filter", { id: "a", width: "225", height: "130", x: "16", y: "63.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [

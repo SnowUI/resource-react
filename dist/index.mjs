@@ -19111,7 +19111,7 @@ var Tire_default = Tire;
 import * as React1459 from "react";
 import { Fragment as Fragment1458, jsx as jsx1459, jsxs as jsxs1430 } from "react/jsx-runtime";
 var weights1458 = { "regular": /* @__PURE__ */ jsxs1430(Fragment1458, { children: [
-  /* @__PURE__ */ jsx1459("g", { filter: "url(#a)", opacity: ".2", children: /* @__PURE__ */ jsx1459("path", { fill: "currentColor", d: "M16 128c0-35.346 28.654-64 64-64h96c35.346 0 64 28.654 64 64s-28.654 64-64 64H80c-35.346 0-64-28.654-64-64" }) }),
+  /* @__PURE__ */ jsx1459("g", { filter: "url(#a)", opacity: ".21", children: /* @__PURE__ */ jsx1459("path", { fill: "currentColor", d: "M16 128c0-35.346 28.654-64 64-64h96c35.346 0 64 28.654 64 64s-28.654 64-64 64H80c-35.346 0-64-28.654-64-64" }) }),
   /* @__PURE__ */ jsx1459("g", { filter: "url(#b)", children: /* @__PURE__ */ jsx1459("path", { fill: "#fff", d: "M128 128c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48" }) }),
   /* @__PURE__ */ jsxs1430("defs", { children: [
     /* @__PURE__ */ jsxs1430("filter", { id: "a", width: "225", height: "130", x: "16", y: "63.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [

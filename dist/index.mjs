@@ -26604,14 +26604,34 @@ var Snapchat = ({ size = 32, width, height, ...rest }) => {
 };
 var Snapchat_default = Snapchat;
 
+// src/logos/SnowLogo.tsx
+import SnowLogoSrc from "@snowui-design-system/resource-core/assets/logos/snow-logo.svg";
+import { jsx as jsx1766 } from "react/jsx-runtime";
+var SnowLogo = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = SnowLogoSrc;
+  return /* @__PURE__ */ jsx1766(
+    "img",
+    {
+      src: SnowLogoSrc,
+      alt: "SnowLogo",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var SnowLogo_default = SnowLogo;
+
 // src/logos/Stripe.tsx
 import StripeSrc from "@snowui-design-system/resource-core/assets/logos/stripe.svg";
-import { jsx as jsx1766 } from "react/jsx-runtime";
+import { jsx as jsx1767 } from "react/jsx-runtime";
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = StripeSrc;
-  return /* @__PURE__ */ jsx1766(
+  return /* @__PURE__ */ jsx1767(
     "img",
     {
       src: StripeSrc,
@@ -26626,12 +26646,12 @@ var Stripe_default = Stripe;
 
 // src/logos/Telegram.tsx
 import TelegramSrc from "@snowui-design-system/resource-core/assets/logos/telegram.svg";
-import { jsx as jsx1767 } from "react/jsx-runtime";
+import { jsx as jsx1768 } from "react/jsx-runtime";
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TelegramSrc;
-  return /* @__PURE__ */ jsx1767(
+  return /* @__PURE__ */ jsx1768(
     "img",
     {
       src: TelegramSrc,
@@ -26646,12 +26666,12 @@ var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
 import ThreadsSrc from "@snowui-design-system/resource-core/assets/logos/threads.svg";
-import { jsx as jsx1768 } from "react/jsx-runtime";
+import { jsx as jsx1769 } from "react/jsx-runtime";
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ThreadsSrc;
-  return /* @__PURE__ */ jsx1768(
+  return /* @__PURE__ */ jsx1769(
     "img",
     {
       src: ThreadsSrc,
@@ -26666,12 +26686,12 @@ var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
 import TikTokSrc from "@snowui-design-system/resource-core/assets/logos/tik-tok.svg";
-import { jsx as jsx1769 } from "react/jsx-runtime";
+import { jsx as jsx1770 } from "react/jsx-runtime";
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TikTokSrc;
-  return /* @__PURE__ */ jsx1769(
+  return /* @__PURE__ */ jsx1770(
     "img",
     {
       src: TikTokSrc,
@@ -26686,12 +26706,12 @@ var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
 import TwitchSrc from "@snowui-design-system/resource-core/assets/logos/twitch.svg";
-import { jsx as jsx1770 } from "react/jsx-runtime";
+import { jsx as jsx1771 } from "react/jsx-runtime";
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitchSrc;
-  return /* @__PURE__ */ jsx1770(
+  return /* @__PURE__ */ jsx1771(
     "img",
     {
       src: TwitchSrc,
@@ -26706,12 +26726,12 @@ var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
 import TwitterSrc from "@snowui-design-system/resource-core/assets/logos/twitter.svg";
-import { jsx as jsx1771 } from "react/jsx-runtime";
+import { jsx as jsx1772 } from "react/jsx-runtime";
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitterSrc;
-  return /* @__PURE__ */ jsx1771(
+  return /* @__PURE__ */ jsx1772(
     "img",
     {
       src: TwitterSrc,
@@ -26726,12 +26746,12 @@ var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
 import VisaSrc from "@snowui-design-system/resource-core/assets/logos/visa.svg";
-import { jsx as jsx1772 } from "react/jsx-runtime";
+import { jsx as jsx1773 } from "react/jsx-runtime";
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = VisaSrc;
-  return /* @__PURE__ */ jsx1772(
+  return /* @__PURE__ */ jsx1773(
     "img",
     {
       src: VisaSrc,
@@ -26746,12 +26766,12 @@ var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
 import WhatsAppSrc from "@snowui-design-system/resource-core/assets/logos/whats-app.svg";
-import { jsx as jsx1773 } from "react/jsx-runtime";
+import { jsx as jsx1774 } from "react/jsx-runtime";
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WhatsAppSrc;
-  return /* @__PURE__ */ jsx1773(
+  return /* @__PURE__ */ jsx1774(
     "img",
     {
       src: WhatsAppSrc,
@@ -26766,12 +26786,12 @@ var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
 import WordSrc from "@snowui-design-system/resource-core/assets/logos/word.svg";
-import { jsx as jsx1774 } from "react/jsx-runtime";
+import { jsx as jsx1775 } from "react/jsx-runtime";
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WordSrc;
-  return /* @__PURE__ */ jsx1774(
+  return /* @__PURE__ */ jsx1775(
     "img",
     {
       src: WordSrc,
@@ -26786,12 +26806,12 @@ var Word_default = Word;
 
 // src/logos/Xlogo.tsx
 import XlogoSrc from "@snowui-design-system/resource-core/assets/logos/xlogo.svg";
-import { jsx as jsx1775 } from "react/jsx-runtime";
+import { jsx as jsx1776 } from "react/jsx-runtime";
 var Xlogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = XlogoSrc;
-  return /* @__PURE__ */ jsx1775(
+  return /* @__PURE__ */ jsx1776(
     "img",
     {
       src: XlogoSrc,
@@ -26806,12 +26826,12 @@ var Xlogo_default = Xlogo;
 
 // src/logos/Youtube.tsx
 import YoutubeSrc from "@snowui-design-system/resource-core/assets/logos/youtube.svg";
-import { jsx as jsx1776 } from "react/jsx-runtime";
+import { jsx as jsx1777 } from "react/jsx-runtime";
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = YoutubeSrc;
-  return /* @__PURE__ */ jsx1776(
+  return /* @__PURE__ */ jsx1777(
     "img",
     {
       src: YoutubeSrc,
@@ -28430,7 +28450,7 @@ var componentNames = {
   emoji: ["BombEmoji", "FaceBlowingKiss", "FaceSteamFromNose", "FaceTearsJoy", "GrinningCat", "GrinningFaceSweat", "HeartArrow", "HundredPoints", "LoudlyCryingFace", "RedHeart", "Robot", "SeeMonkey", "SkullCrossbones", "SmilingFaceHearts", "SmilingFaceHorns", "SmilingFaceSunglasses", "Snowflake", "Snowman", "Umbrella", "WinkingFace", "WinkingFaceTongue"],
   illustrations: ["Humanoid", "Illustration", "Illustration01", "Illustration02", "Illustration03", "Illustration04", "Illustration05", "Illustration06", "Illustration07", "Illustration08", "Illustration09", "Illustration10", "Illustration11", "Illustration12", "Illustration13", "Illustration14", "Illustration15", "Illustration16", "Illustration17", "Illustration18", "Illustration19", "Illustration20", "Illustration21", "Illustration22", "Illustration23", "Illustration24", "Illustration25", "Illustration26", "Illustration27", "Illustration28", "LineDrawing01", "LineDrawing02", "LineDrawing03", "QrCodeBig", "Voice"],
   images: ["Image01"],
-  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "Rss", "Slack", "Snapchat", "SnowIcon", "Stripe", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "Xlogo", "Youtube"]
+  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "Rss", "Slack", "Snapchat", "SnowLogo", "Stripe", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "Xlogo", "Youtube"]
 };
 export {
   Acorn_default as Acorn,
@@ -29907,6 +29927,7 @@ export {
   Sneaker_default as Sneaker,
   SneakerMove_default as SneakerMove,
   SnowIcon_default as SnowIcon,
+  SnowLogo_default as SnowLogo,
   Snowflake_default as Snowflake,
   Snowman_default as Snowman,
   SoccerBall_default as SoccerBall,

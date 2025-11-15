@@ -48,7 +48,7 @@ export { default as Reddit } from './Reddit';
 export { default as Rss } from './Rss';
 export { default as Slack } from './Slack';
 export { default as Snapchat } from './Snapchat';
-export { default as SnowIcon } from './SnowIcon';
+export { default as SnowLogo } from './SnowLogo';
 export { default as Stripe } from './Stripe';
 export { default as Telegram } from './Telegram';
 export { default as Threads } from './Threads';

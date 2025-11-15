@@ -44,10 +44,10 @@ async function main() {
   const srcDir = path.join(reactPkgDir, 'src');
   
   // Try to find resource-core directory
-  // 1. First, try monorepo structure: ../resource/core
+  // 1. First, try monorepo structure: ../core (from resource/react/ to resource/core)
   // 2. Then, try npm package: node_modules/@snowui-design-system/resource-core
   const repoRoot = path.resolve(reactPkgDir, '..');
-  const monorepoCoreDir = path.join(repoRoot, 'resource', 'core');
+  const monorepoCoreDir = path.join(repoRoot, 'core');
   const npmCoreDir = path.join(reactPkgDir, 'node_modules', '@snowui-design-system', 'resource-core');
   
   let resourceCoreDir: string;

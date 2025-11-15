@@ -1504,6 +1504,7 @@ __export(index_exports, {
   Sneaker: () => Sneaker_default,
   SneakerMove: () => SneakerMove_default,
   SnowIcon: () => SnowIcon_default,
+  SnowLogo: () => SnowLogo_default,
   Snowflake: () => Snowflake_default,
   Snowman: () => Snowman_default,
   SoccerBall: () => SoccerBall_default,
@@ -28416,14 +28417,34 @@ var Snapchat = ({ size = 32, width, height, ...rest }) => {
 };
 var Snapchat_default = Snapchat;
 
+// src/logos/SnowLogo.tsx
+var import_snow_logo = __toESM(require("@snowui-design-system/resource-core/assets/logos/snow-logo.svg"));
+var import_jsx_runtime1766 = require("react/jsx-runtime");
+var SnowLogo = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_snow_logo.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1766.jsx)(
+    "img",
+    {
+      src: import_snow_logo.default,
+      alt: "SnowLogo",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var SnowLogo_default = SnowLogo;
+
 // src/logos/Stripe.tsx
 var import_stripe = __toESM(require("@snowui-design-system/resource-core/assets/logos/stripe.svg"));
-var import_jsx_runtime1766 = require("react/jsx-runtime");
+var import_jsx_runtime1767 = require("react/jsx-runtime");
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_stripe.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1766.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1767.jsx)(
     "img",
     {
       src: import_stripe.default,
@@ -28438,12 +28459,12 @@ var Stripe_default = Stripe;
 
 // src/logos/Telegram.tsx
 var import_telegram = __toESM(require("@snowui-design-system/resource-core/assets/logos/telegram.svg"));
-var import_jsx_runtime1767 = require("react/jsx-runtime");
+var import_jsx_runtime1768 = require("react/jsx-runtime");
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_telegram.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1767.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1768.jsx)(
     "img",
     {
       src: import_telegram.default,
@@ -28458,12 +28479,12 @@ var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
 var import_threads = __toESM(require("@snowui-design-system/resource-core/assets/logos/threads.svg"));
-var import_jsx_runtime1768 = require("react/jsx-runtime");
+var import_jsx_runtime1769 = require("react/jsx-runtime");
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_threads.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1768.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1769.jsx)(
     "img",
     {
       src: import_threads.default,
@@ -28478,12 +28499,12 @@ var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
 var import_tik_tok = __toESM(require("@snowui-design-system/resource-core/assets/logos/tik-tok.svg"));
-var import_jsx_runtime1769 = require("react/jsx-runtime");
+var import_jsx_runtime1770 = require("react/jsx-runtime");
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_tik_tok.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1769.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1770.jsx)(
     "img",
     {
       src: import_tik_tok.default,
@@ -28498,12 +28519,12 @@ var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
 var import_twitch = __toESM(require("@snowui-design-system/resource-core/assets/logos/twitch.svg"));
-var import_jsx_runtime1770 = require("react/jsx-runtime");
+var import_jsx_runtime1771 = require("react/jsx-runtime");
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_twitch.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1770.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1771.jsx)(
     "img",
     {
       src: import_twitch.default,
@@ -28518,12 +28539,12 @@ var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
 var import_twitter = __toESM(require("@snowui-design-system/resource-core/assets/logos/twitter.svg"));
-var import_jsx_runtime1771 = require("react/jsx-runtime");
+var import_jsx_runtime1772 = require("react/jsx-runtime");
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_twitter.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1771.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1772.jsx)(
     "img",
     {
       src: import_twitter.default,
@@ -28538,12 +28559,12 @@ var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
 var import_visa = __toESM(require("@snowui-design-system/resource-core/assets/logos/visa.svg"));
-var import_jsx_runtime1772 = require("react/jsx-runtime");
+var import_jsx_runtime1773 = require("react/jsx-runtime");
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_visa.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1772.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1773.jsx)(
     "img",
     {
       src: import_visa.default,
@@ -28558,12 +28579,12 @@ var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
 var import_whats_app = __toESM(require("@snowui-design-system/resource-core/assets/logos/whats-app.svg"));
-var import_jsx_runtime1773 = require("react/jsx-runtime");
+var import_jsx_runtime1774 = require("react/jsx-runtime");
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_whats_app.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1773.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1774.jsx)(
     "img",
     {
       src: import_whats_app.default,
@@ -28578,12 +28599,12 @@ var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
 var import_word = __toESM(require("@snowui-design-system/resource-core/assets/logos/word.svg"));
-var import_jsx_runtime1774 = require("react/jsx-runtime");
+var import_jsx_runtime1775 = require("react/jsx-runtime");
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_word.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1774.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1775.jsx)(
     "img",
     {
       src: import_word.default,
@@ -28598,12 +28619,12 @@ var Word_default = Word;
 
 // src/logos/Xlogo.tsx
 var import_xlogo = __toESM(require("@snowui-design-system/resource-core/assets/logos/xlogo.svg"));
-var import_jsx_runtime1775 = require("react/jsx-runtime");
+var import_jsx_runtime1776 = require("react/jsx-runtime");
 var Xlogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_xlogo.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1775.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1776.jsx)(
     "img",
     {
       src: import_xlogo.default,
@@ -28618,12 +28639,12 @@ var Xlogo_default = Xlogo;
 
 // src/logos/Youtube.tsx
 var import_youtube = __toESM(require("@snowui-design-system/resource-core/assets/logos/youtube.svg"));
-var import_jsx_runtime1776 = require("react/jsx-runtime");
+var import_jsx_runtime1777 = require("react/jsx-runtime");
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_youtube.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1776.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1777.jsx)(
     "img",
     {
       src: import_youtube.default,
@@ -30242,7 +30263,7 @@ var componentNames = {
   emoji: ["BombEmoji", "FaceBlowingKiss", "FaceSteamFromNose", "FaceTearsJoy", "GrinningCat", "GrinningFaceSweat", "HeartArrow", "HundredPoints", "LoudlyCryingFace", "RedHeart", "Robot", "SeeMonkey", "SkullCrossbones", "SmilingFaceHearts", "SmilingFaceHorns", "SmilingFaceSunglasses", "Snowflake", "Snowman", "Umbrella", "WinkingFace", "WinkingFaceTongue"],
   illustrations: ["Humanoid", "Illustration", "Illustration01", "Illustration02", "Illustration03", "Illustration04", "Illustration05", "Illustration06", "Illustration07", "Illustration08", "Illustration09", "Illustration10", "Illustration11", "Illustration12", "Illustration13", "Illustration14", "Illustration15", "Illustration16", "Illustration17", "Illustration18", "Illustration19", "Illustration20", "Illustration21", "Illustration22", "Illustration23", "Illustration24", "Illustration25", "Illustration26", "Illustration27", "Illustration28", "LineDrawing01", "LineDrawing02", "LineDrawing03", "QrCodeBig", "Voice"],
   images: ["Image01"],
-  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "Rss", "Slack", "Snapchat", "SnowIcon", "Stripe", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "Xlogo", "Youtube"]
+  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "Rss", "Slack", "Snapchat", "SnowLogo", "Stripe", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "Xlogo", "Youtube"]
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
@@ -31720,6 +31741,7 @@ var componentNames = {
   Sneaker,
   SneakerMove,
   SnowIcon,
+  SnowLogo,
   Snowflake,
   Snowman,
   SoccerBall,

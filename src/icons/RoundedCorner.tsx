@@ -2,7 +2,7 @@ import * as React from 'react';
 import IconBase from '../lib/IconBase';
 import type { IconProps } from '../lib/types';
 
-const weights = { 'regular': <><path fill="currentColor" fillRule="evenodd" d="M184 64a8 8 0 0 1 8 8v32c0 48.601-39.399 88-88 88H72a8 8 0 0 1 0-16h32c39.764 0 72-32.235 72-72V72a8 8 0 0 1 8-8" clipRule="evenodd"/></> } as const;
+const weights = { 'regular': <><path fill="currentColor" fillRule="evenodd" d="M23 8a1 1 0 0 1 1 1v4c0 6.075-4.925 11-11 11H9a1 1 0 1 1 0-2h4a9 9 0 0 0 9-9V9a1 1 0 0 1 1-1" clipRule="evenodd"/></> } as const;
 
 export const RoundedCorner: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {
   return <IconBase ref={ref} {...props} weights={weights as any} />;

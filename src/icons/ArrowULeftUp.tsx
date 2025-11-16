@@ -2,12 +2,12 @@ import * as React from 'react';
 import IconBase from '../lib/IconBase';
 import type { IconProps } from '../lib/types';
 
-const weights = { 'regular': <><path d="M208,80v88a64,64,0,0,1-128,0V51.31L45.66,85.66A8,8,0,0,1,34.34,74.34l48-48a8,8,0,0,1,11.32,0l48,48a8,8,0,0,1-11.32,11.32L96,51.31V168a48,48,0,0,0,96,0V80a8,8,0,0,1,16,0Z"/></>, 'thin': <><path d="M204,80v88a60,60,0,0,1-120,0V41.66L42.83,82.83a4,4,0,0,1-5.66-5.66l48-48a4,4,0,0,1,5.66,0l48,48a4,4,0,0,1-5.66,5.66L92,41.66V168a52,52,0,0,0,104,0V80a4,4,0,0,1,8,0Z"/></>, 'light': <><path d="M206,80v88a62,62,0,0,1-124,0V46.49L44.24,84.24a6,6,0,0,1-8.48-8.48l48-48a6,6,0,0,1,8.48,0l48,48a6,6,0,1,1-8.48,8.48L94,46.49V168a50,50,0,0,0,100,0V80a6,6,0,0,1,12,0Z"/></>, 'bold': <><path d="M212,80v88a68,68,0,0,1-136,0V61L48.49,88.49a12,12,0,0,1-17-17l48-48a12,12,0,0,1,17,0l48,48a12,12,0,0,1-17,17L100,61V168a44,44,0,0,0,88,0V80a12,12,0,0,1,24,0Z"/></>, 'fill': <><path d="M208,80v88a64,64,0,0,1-128,0V88H40a8,8,0,0,1-5.66-13.66l48-48a8,8,0,0,1,11.32,0l48,48A8,8,0,0,1,136,88H96v80a48,48,0,0,0,96,0V80a8,8,0,0,1,16,0Z"/></>, 'duotone': <><path d="M136,80H40L88,32Z" opacity="0.2"/><path d="M200,72a8,8,0,0,0-8,8v88a48,48,0,0,1-96,0V88h40a8,8,0,0,0,5.66-13.66l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,40,88H80v80a64,64,0,0,0,128,0V80A8,8,0,0,0,200,72ZM88,43.31,116.69,72H59.31Z"/></> } as const;
+const weights = { 'regular': <><path fill="currentColor" d="M26 10v11a8 8 0 0 1-16 0V6.414l-4.292 4.294a1 1 0 0 1-1.415-1.415l6-6a1 1 0 0 1 1.415 0l6 6a1 1 0 0 1-1.415 1.415L12 6.414V21a6 6 0 1 0 12 0V10a1 1 0 1 1 2 0"/></>, 'thin': <><path fill="currentColor" d="M25.5 10v11a7.5 7.5 0 1 1-15 0V5.207l-5.146 5.147a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L11.5 5.207V21a6.5 6.5 0 0 0 13 0V10a.5.5 0 0 1 1 0"/></>, 'light': <><path fill="currentColor" d="M25.75 10v11a7.75 7.75 0 0 1-15.5 0V5.811l-4.72 4.72a.75.75 0 0 1-1.06-1.06l6-6a.75.75 0 0 1 1.06 0l6 6a.75.75 0 1 1-1.06 1.06l-4.72-4.72v15.19a6.25 6.25 0 0 0 12.5 0V10a.75.75 0 1 1 1.5 0"/></>, 'bold': <><path fill="currentColor" d="M26.5 10v11a8.5 8.5 0 1 1-17 0V7.625l-3.439 3.436a1.503 1.503 0 1 1-2.125-2.125l6-6a1.5 1.5 0 0 1 2.125 0l6 6a1.503 1.503 0 1 1-2.125 2.125L12.5 7.625V21a5.5 5.5 0 1 0 11 0V10a1.5 1.5 0 0 1 3 0"/></>, 'fill': <><path fill="currentColor" d="M26 10v11a8 8 0 0 1-16 0V11H5a1.001 1.001 0 0 1-.707-1.707l6-6a1 1 0 0 1 1.415 0l6 6A1 1 0 0 1 17 11h-5v10a6 6 0 1 0 12 0V10a1 1 0 1 1 2 0"/></>, 'duotone': <><path fill="currentColor" d="M17 10H5l6-6z" opacity=".08"/><path fill="currentColor" d="M25 9a1 1 0 0 0-1 1v11a6 6 0 0 1-12 0V11h5a1 1 0 0 0 .708-1.707l-6-6a1 1 0 0 0-1.415 0l-6 6A1 1 0 0 0 5 11h5v10a8 8 0 1 0 16 0V10a1 1 0 0 0-1-1M11 5.414 14.586 9H7.414z"/></> } as const;
 
-export const ArrowULeftUp: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {
+export const ArrowUleftUp: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {
   return <IconBase ref={ref} {...props} weights={weights as any} />;
 });
 
-ArrowULeftUp.displayName = 'ArrowULeftUp';
+ArrowUleftUp.displayName = 'ArrowUleftUp';
 
-export default ArrowULeftUp;
+export default ArrowUleftUp;

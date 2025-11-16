@@ -2,7 +2,7 @@ import * as React from 'react';
 import IconBase from '../lib/IconBase';
 import type { IconProps } from '../lib/types';
 
-const weights = { 'regular': <><path d="M48,192v8a8,8,0,0,1-16,0v-8a8,8,0,0,1,16,0Z"/></>, 'thin': <><path d="M44,192v8a4,4,0,0,1-8,0v-8a4,4,0,0,1,8,0Z"/></>, 'light': <><path d="M46,192v8a6,6,0,0,1-12,0v-8a6,6,0,0,1,12,0Z"/></>, 'bold': <><path d="M52,192v8a12,12,0,0,1-24,0v-8a12,12,0,0,1,24,0Z"/></>, 'fill': <><path d="M198.12,25.23a16,16,0,0,0-17.44,3.46l-160,160A16,16,0,0,0,32,216H192a16,16,0,0,0,16-16V40A15.94,15.94,0,0,0,198.12,25.23ZM192,200H32L192,40Z"/></>, 'duotone': <><path d="M198.12,25.23a16,16,0,0,0-17.43,3.47l-160,160A16,16,0,0,0,32,216H192a16,16,0,0,0,16-16V40A16,16,0,0,0,198.12,25.23ZM192,200H32L192,40Z"/></> } as const;
+const weights = { 'regular': <><path fill="currentColor" d="M6 24v1a1 1 0 1 1-2 0v-1a1 1 0 1 1 2 0"/></>, 'thin': <><path fill="currentColor" d="M5.5 24v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 1 0"/></>, 'light': <><path fill="currentColor" d="M5.75 24v1a.75.75 0 1 1-1.5 0v-1a.75.75 0 1 1 1.5 0"/></>, 'bold': <><path fill="currentColor" d="M6.5 24v1a1.5 1.5 0 0 1-3 0v-1a1.5 1.5 0 0 1 3 0"/></>, 'fill': <><path fill="currentColor" d="M24.765 3.154a2 2 0 0 0-2.18.432l-20 20A2 2 0 0 0 4 27h20a2 2 0 0 0 2-2V5a1.99 1.99 0 0 0-1.235-1.846M24 25H4L24 5z"/></>, 'duotone': <><path fill="currentColor" d="M24.765 3.154a2 2 0 0 0-2.179.434l-20 20A2 2 0 0 0 4 27h20a2 2 0 0 0 2-2V5a2 2 0 0 0-1.235-1.846M24 25H4L24 5z"/></> } as const;
 
 export const CellSignalNone: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {
   return <IconBase ref={ref} {...props} weights={weights as any} />;

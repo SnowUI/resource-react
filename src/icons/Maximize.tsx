@@ -2,7 +2,7 @@ import * as React from 'react';
 import IconBase from '../lib/IconBase';
 import type { IconProps } from '../lib/types';
 
-const weights = { 'regular': <><path fill="currentColor" fillRule="evenodd" d="M184 72H72v112h112zM72 56c-8.837 0-16 7.163-16 16v112c0 8.837 7.163 16 16 16h112c8.837 0 16-7.163 16-16V72c0-8.837-7.163-16-16-16z" clipRule="evenodd"/></> } as const;
+const weights = { 'regular': <><path fill="currentColor" fillRule="evenodd" d="M23 9H9v14h14zM9 7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" clipRule="evenodd"/></> } as const;
 
 export const Maximize: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {
   return <IconBase ref={ref} {...props} weights={weights as any} />;

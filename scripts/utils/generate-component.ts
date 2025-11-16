@@ -1,22 +1,32 @@
 import * as path from 'path';
 
-export function generateIconComponentCode(componentName: string, weightsObjectLiteral: string): string {
-  return [
+export function generateIconComponentCode(componentName: string, weightsObjectLiteral: string, viewBox: string | null = null): string {
+  const lines = [
     "import * as React from 'react';",
     "import IconBase from '../lib/IconBase';",
     "import type { IconProps } from '../lib/types';",
     '',
     `const weights = ${weightsObjectLiteral} as const;`,
-    '',
+  ];
+  
+  if (viewBox) {
+    lines.push(`const defaultViewBox = "${viewBox}";`, '');
+  }
+  
+  lines.push(
     `export const ${componentName}: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {`,
-    `  return <IconBase ref={ref} {...props} weights={weights as any} />;`,
+    viewBox 
+      ? `  return <IconBase ref={ref} {...props} viewBox={defaultViewBox} weights={weights as any} />;`
+      : `  return <IconBase ref={ref} {...props} weights={weights as any} />;`,
     `});`,
     '',
     `${componentName}.displayName = '${componentName}';`,
     '',
     `export default ${componentName};`,
     ''
-  ].join('\n');
+  );
+  
+  return lines.join('\n');
 }
 
 const BLACK_COLOR_VALUES = new Set([
@@ -138,8 +148,27 @@ function removeXmlnsAttributes(svgFragment: string): string {
   return svgFragment.replace(/\s+xmlns(:[a-zA-Z0-9_-]+)?=("([^"]*)"|'([^']*)')/gi, '');
 }
 
-export function wrapSvgAsJsx(svgByWeight: Record<string, string>, componentName: string): string {
+export function extractViewBox(svg: string): string | null {
+  const viewBoxMatch = svg.match(/viewBox=["']([^"']+)["']/i);
+  if (viewBoxMatch) {
+    return viewBoxMatch[1];
+  }
+  // 如果没有 viewBox，尝试从 width 和 height 推断
+  const widthMatch = svg.match(/width=["'](\d+)["']/i);
+  const heightMatch = svg.match(/height=["'](\d+)["']/i);
+  if (widthMatch && heightMatch) {
+    return `0 0 ${widthMatch[1]} ${heightMatch[1]}`;
+  }
+  return null;
+}
+
+export function wrapSvgAsJsx(svgByWeight: Record<string, string>, componentName: string): { weightsLiteral: string; viewBox: string | null } {
+  let extractedViewBox: string | null = null;
   const entries = Object.entries(svgByWeight).map(([w, svg]) => {
+    // 提取 viewBox（使用第一个找到的 viewBox，假设所有权重使用相同的 viewBox）
+    if (!extractedViewBox) {
+      extractedViewBox = extractViewBox(svg);
+    }
     // strip xml/doctype and outer <svg ...>...</svg>, keep inner nodes for IconBase
     let cleaned = svg
       .replace(/<\?xml[^>]*>/gi, '')
@@ -156,7 +185,10 @@ export function wrapSvgAsJsx(svgByWeight: Record<string, string>, componentName:
     );
     return `'${w}': <>${normalizedInner}</>`;
   });
-  return `{ ${entries.join(', ')} }`;
+  return {
+    weightsLiteral: `{ ${entries.join(', ')} }`,
+    viewBox: extractedViewBox
+  };
 }
 
 export function generateAvatarComponentCode(

@@ -115,8 +115,8 @@ async function main() {
   for (const icon of icons) {
     const compName = icon.pascalName;
     if (!compName) continue;
-    const weightsLiteral = wrapSvgAsJsx(icon.weights as Record<string, string>, compName);
-    const code = generateIconComponentCode(compName, weightsLiteral);
+    const { weightsLiteral, viewBox } = wrapSvgAsJsx(icon.weights as Record<string, string>, compName);
+    const code = generateIconComponentCode(compName, weightsLiteral, viewBox);
     const outPath = path.join(iconsDir, `${compName}.tsx`);
     await writeFileIfChanged(outPath, code);
     iconExportLines.push(`export { default as ${compName} } from './icons/${compName}';`);

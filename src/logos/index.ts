@@ -45,7 +45,7 @@ export { default as Perplexity } from './Perplexity';
 export { default as Pinterest } from './Pinterest';
 export { default as PowerPoint } from './PowerPoint';
 export { default as Reddit } from './Reddit';
-export { default as Rss } from './Rss';
+export { default as RssLogo } from './RssLogo';
 export { default as Slack } from './Slack';
 export { default as Snapchat } from './Snapchat';
 export { default as SnowLogo } from './SnowLogo';

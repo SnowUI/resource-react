@@ -69,7 +69,7 @@ npm run generate  # ✅ 现在可以正常工作了！
 
 ## 🔍 脚本工作原理
 
-脚本会按以下顺序查找 `resource-core`：
+脚本会按以下顺序查找 `resource-base`：
 
 1. **Monorepo 模式**（如果存在）：
    - 路径：`../resource-base`

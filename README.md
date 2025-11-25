@@ -38,7 +38,7 @@ pnpm add @snowui-design-system/resource-react
 yarn add @snowui-design-system/resource-react
 ```
 
-**Important**: Only install `resource-react`. `resource-core` will be automatically installed as a dependency.
+**Important**: Only install `resource-react`. `resource-base` will be automatically installed as a dependency.
 
 ### 🚀 Usage Examples
 
@@ -175,11 +175,11 @@ The generate script will automatically detect whether you're in a monorepo or st
 - **Monorepo**: Uses `../resource-base` (if available)
 - **Standalone**: Uses `node_modules/@snowui-design-system/resource-base`
 
-**Note**: The generated components in `src/` are already included in the repository, so you typically don't need to run `generate` unless you're modifying the generation logic or updating resource-core.
+**Note**: The generated components in `src/` are already included in the repository, so you typically don't need to run `generate` unless you're modifying the generation logic or updating resource-base.
 
 ### 🔗 Related Projects
 
-- **[resource-core](https://github.com/snowui/resource-core)** - Core resource package
+- **[resource-base](https://github.com/SnowUI/resource-base)** - Core resource package
 - **[example](https://github.com/snowui/example)** - Example website
 - **[Live Demo](https://snowui.github.io/example)** - View the example website
 
@@ -222,7 +222,7 @@ pnpm add @snowui-design-system/resource-react
 yarn add @snowui-design-system/resource-react
 ```
 
-**重要提示**：只需安装 `resource-react` 包即可，`resource-core` 会自动作为依赖安装。
+**重要提示**：只需安装 `resource-react` 包即可，`resource-base` 会自动作为依赖安装。
 
 ### 🚀 使用示例
 
@@ -359,11 +359,11 @@ npm run build
 - **Monorepo**：使用 `../resource-base`（如果存在）
 - **独立仓库**：使用 `node_modules/@snowui-design-system/resource-base`
 
-**注意**：`src/` 中的组件已经包含在仓库中，通常不需要运行 `generate`，除非你正在修改生成逻辑或更新 resource-core。
+**注意**：`src/` 中的组件已经包含在仓库中，通常不需要运行 `generate`，除非你正在修改生成逻辑或更新 resource-base。
 
 ### 🔗 相关项目
 
-- **[resource-core](https://github.com/snowui/resource-core)** - 核心资源包
+- **[resource-base](https://github.com/SnowUI/resource-base)** - 核心资源包
 - **[example](https://github.com/snowui/example)** - 示例网站
 - **[在线演示](https://snowui.github.io/example)** - 查看示例网站
 

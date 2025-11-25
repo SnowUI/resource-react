@@ -23,7 +23,7 @@ The script automatically detects the environment:
 
 1. **Monorepo mode** (when running from `snowui` monorepo):
    - Looks for `../resource-base` directory
-   - Uses local resource-core package
+   - Uses local resource-base package
 
 2. **Standalone mode** (when running from independent repository):
    - Looks for `node_modules/@snowui-design-system/resource-base`
@@ -31,7 +31,7 @@ The script automatically detects the environment:
 
 ## 📝 What It Does
 
-1. Reads all icons and materials from `resource-core`
+1. Reads all icons and materials from `resource-base`
 2. Generates React components for each asset
 3. Creates unified export file (`src/index.ts`)
 4. Creates component name mapping (`src/component-names.ts`)

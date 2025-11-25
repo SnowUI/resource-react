@@ -43,7 +43,7 @@ npm run build
 #### 场景 C: 贡献者（修改组件或添加新素材）
 ```bash
 git clone https://github.com/snowui/resource-react.git
-# 修改了 resource-core，需要重新生成组件
+# 修改了 resource-base，需要重新生成组件
 npm run generate  # ❌ 失败：找不到脚本
 ```
 
@@ -137,7 +137,7 @@ npm run generate  # ❌ 失败：找不到脚本
 - 用户只需要 `npm install` 和 `npm run build`
 
 **需要运行的情况**：
-- 用户修改了 `resource-core` 并需要重新生成
+- 用户修改了 `resource-base` 并需要重新生成
 - 用户想要添加新的素材并生成组件
 - 用户想要修改生成逻辑
 

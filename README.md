@@ -172,7 +172,7 @@ npm run build
 ```
 
 The generate script will automatically detect whether you're in a monorepo or standalone repository:
-- **Monorepo**: Uses `../resource/core` (if available)
+- **Monorepo**: Uses `../resource-base` (if available)
 - **Standalone**: Uses `node_modules/@snowui-design-system/resource-core`
 
 **Note**: The generated components in `src/` are already included in the repository, so you typically don't need to run `generate` unless you're modifying the generation logic or updating resource-core.
@@ -356,7 +356,7 @@ npm run build
 ```
 
 生成脚本会自动检测你是在 monorepo 还是独立仓库中：
-- **Monorepo**：使用 `../resource/core`（如果存在）
+- **Monorepo**：使用 `../resource-base`（如果存在）
 - **独立仓库**：使用 `node_modules/@snowui-design-system/resource-core`
 
 **注意**：`src/` 中的组件已经包含在仓库中，通常不需要运行 `generate`，除非你正在修改生成逻辑或更新 resource-core。

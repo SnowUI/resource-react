@@ -13,7 +13,7 @@ This directory contains scripts for generating React components from `@snowui-de
 ## 🚀 Usage
 
 ```bash
-# From resource/react directory
+# From resource-react directory
 npm run generate
 ```
 
@@ -22,7 +22,7 @@ npm run generate
 The script automatically detects the environment:
 
 1. **Monorepo mode** (when running from `snowui` monorepo):
-   - Looks for `../resource/core` directory
+   - Looks for `../resource-base` directory
    - Uses local resource-core package
 
 2. **Standalone mode** (when running from independent repository):

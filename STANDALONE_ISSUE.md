@@ -2,7 +2,7 @@
 
 ## ⚠️ 问题
 
-如果 `resource/react` 作为独立仓库推送到 GitHub，其他用户克隆后可能会遇到以下问题：
+如果 `resource-react` 作为独立仓库推送到 GitHub，其他用户克隆后可能会遇到以下问题：
 
 ### 1. `generate` 脚本路径不存在
 
@@ -51,7 +51,7 @@ npm run generate  # ❌ 失败：找不到脚本
 
 ## ✅ 解决方案
 
-### 方案 1: 将生成脚本复制到 `resource/react`（推荐）
+### 方案 1: 将生成脚本复制到 `resource-react`（推荐）
 
 **优点**：
 - ✅ 完全自包含，不依赖外部脚本
@@ -59,8 +59,8 @@ npm run generate  # ❌ 失败：找不到脚本
 - ✅ 符合独立仓库的最佳实践
 
 **实施步骤**：
-1. 在 `resource/react` 中创建 `scripts/` 目录
-2. 复制 `scripts/generate-react.ts` 和 `scripts/utils/` 到 `resource/react/scripts/`
+1. 在 `resource-react` 中创建 `scripts/` 目录
+2. 复制 `scripts/generate-react.ts` 和 `scripts/utils/` 到 `resource-react/scripts/`
 3. 更新 `package.json` 中的路径：
    ```json
    {
@@ -94,7 +94,7 @@ npm run generate  # ❌ 失败：找不到脚本
 
 ## 🎯 推荐方案
 
-**强烈推荐方案 1**：将生成脚本复制到 `resource/react/scripts/`
+**强烈推荐方案 1**：将生成脚本复制到 `resource-react/scripts/`
 
 ### 理由：
 1. ✅ **自包含**：独立仓库应该包含所有必要的构建工具
@@ -111,9 +111,9 @@ npm run generate  # ❌ 失败：找不到脚本
 
 ## 📋 实施检查清单
 
-- [ ] 创建 `resource/react/scripts/` 目录
-- [ ] 复制 `generate-react.ts` 到 `resource/react/scripts/`
-- [ ] 复制 `scripts/utils/` 到 `resource/react/scripts/utils/`
+- [ ] 创建 `resource-react/scripts/` 目录
+- [ ] 复制 `generate-react.ts` 到 `resource-react/scripts/`
+- [ ] 复制 `scripts/utils/` 到 `resource-react/scripts/utils/`
 - [ ] 更新 `package.json` 中的 `generate` 脚本路径
 - [ ] 更新 `generate-react.ts` 中的路径引用（如果需要）
 - [ ] 测试 `npm run generate` 是否正常工作
@@ -145,7 +145,7 @@ npm run generate  # ❌ 失败：找不到脚本
 
 ## 💡 建议
 
-1. **立即行动**：将生成脚本复制到 `resource/react/scripts/`
+1. **立即行动**：将生成脚本复制到 `resource-react/scripts/`
 2. **文档说明**：在 README 中说明生成脚本的位置和使用方法
 3. **同步策略**：如果修改了生成逻辑，需要同步更新两个地方的脚本
 

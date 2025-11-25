@@ -2,11 +2,11 @@
 
 ## ✅ 已完成的工作
 
-### 1. 复制生成脚本到 `resource/react/scripts/`
+### 1. 复制生成脚本到 `resource-react/scripts/`
 
-- ✅ 创建了 `resource/react/scripts/` 目录
-- ✅ 复制了 `generate-react.ts` 到 `resource/react/scripts/`
-- ✅ 复制了 `utils/` 目录及其所有文件到 `resource/react/scripts/utils/`
+- ✅ 创建了 `resource-react/scripts/` 目录
+- ✅ 复制了 `generate-react.ts` 到 `resource-react/scripts/`
+- ✅ 复制了 `utils/` 目录及其所有文件到 `resource-react/scripts/utils/`
 
 ### 2. 更新脚本路径
 
@@ -18,7 +18,7 @@
 ### 3. 增强脚本兼容性
 
 - ✅ 更新了 `generate-react.ts`，使其能够自动检测环境：
-  - **Monorepo 模式**：优先使用 `../resource/core`
+  - **Monorepo 模式**：优先使用 `../resource-base`
   - **独立仓库模式**：使用 `node_modules/@snowui-design-system/resource-core`
 - ✅ 添加了清晰的错误提示
 
@@ -30,7 +30,7 @@
 ## 📁 新的目录结构
 
 ```
-resource/react/
+resource-react/
 ├── scripts/
 │   ├── generate-react.ts
 │   ├── README.md
@@ -72,7 +72,7 @@ npm run generate  # ✅ 现在可以正常工作了！
 脚本会按以下顺序查找 `resource-core`：
 
 1. **Monorepo 模式**（如果存在）：
-   - 路径：`../resource/core`
+   - 路径：`../resource-base`
    - 适用于在 `snowui` monorepo 中开发
 
 2. **独立仓库模式**（回退）：
@@ -83,7 +83,7 @@ npm run generate  # ✅ 现在可以正常工作了！
 
 1. **代码同步**：如果修改了生成脚本的逻辑，需要同步更新两个地方：
    - `snowui/scripts/generate-react.ts`（monorepo 版本）
-   - `resource/react/scripts/generate-react.ts`（独立仓库版本）
+   - `resource-react/scripts/generate-react.ts`（独立仓库版本）
 
 2. **依赖要求**：在独立仓库中运行 `generate` 需要：
    - 已安装 `@snowui-design-system/resource-core` 依赖
@@ -99,7 +99,7 @@ npm run generate  # ✅ 现在可以正常工作了！
 
 ## 🎉 完成
 
-现在 `resource/react` 已经是一个完全独立的仓库，可以：
+现在 `resource-react` 已经是一个完全独立的仓库，可以：
 - ✅ 独立推送到 GitHub
 - ✅ 独立开发和维护
 - ✅ 用户可以克隆并正常使用

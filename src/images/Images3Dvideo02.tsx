@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import Images3Dvideo02Src from '@snowui-design-system/resource-core/assets/images/3-dvideo-02.jpg';
+import Images3Dvideo02Src from '@snowui-design-system/resource-base/assets/images/3-dvideo-02.jpg';
 
 export const Images3Dvideo02: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
   const resolvedWidth = size ?? width;

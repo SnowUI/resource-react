@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import DolphinSrc from '@snowui-design-system/resource-core/assets/images/dolphin.jpg';
+import DolphinSrc from '@snowui-design-system/resource-base/assets/images/dolphin.jpg';
 
 export const Dolphin: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
   const resolvedWidth = size ?? width;

@@ -1,6 +1,6 @@
 # Generate Scripts
 
-This directory contains scripts for generating React components from `@snowui-design-system/resource-core`.
+This directory contains scripts for generating React components from `@snowui-design-system/resource-base`.
 
 ## 📁 Files
 
@@ -26,7 +26,7 @@ The script automatically detects the environment:
    - Uses local resource-core package
 
 2. **Standalone mode** (when running from independent repository):
-   - Looks for `node_modules/@snowui-design-system/resource-core`
+   - Looks for `node_modules/@snowui-design-system/resource-base`
    - Uses installed npm package
 
 ## 📝 What It Does
@@ -41,6 +41,6 @@ The script automatically detects the environment:
 
 The generated components in `src/` are already included in the repository. You typically don't need to run this script unless:
 - You're modifying the generation logic
-- You're updating `@snowui-design-system/resource-core` and need to regenerate components
+- You're updating `@snowui-design-system/resource-base` and need to regenerate components
 - You're contributing to the project
 

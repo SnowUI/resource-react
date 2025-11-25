@@ -1,13 +1,13 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import GeometricSrc from '@snowui-design-system/resource-core/assets/backgrounds/geometric-01.jpg';
-import GeometricSrc1 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-01.jpg';
-import GeometricSrc2 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-02.jpg';
-import GeometricSrc3 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-03.jpg';
-import GeometricSrc4 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-04.jpg';
-import GeometricSrc5 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-05.jpg';
-import GeometricSrc6 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-06.jpg';
-import GeometricSrc7 from '@snowui-design-system/resource-core/assets/backgrounds/geometric-07.jpg';
+import GeometricSrc from '@snowui-design-system/resource-base/assets/backgrounds/geometric-01.jpg';
+import GeometricSrc1 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-01.jpg';
+import GeometricSrc2 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-02.jpg';
+import GeometricSrc3 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-03.jpg';
+import GeometricSrc4 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-04.jpg';
+import GeometricSrc5 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-05.jpg';
+import GeometricSrc6 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-06.jpg';
+import GeometricSrc7 from '@snowui-design-system/resource-base/assets/backgrounds/geometric-07.jpg';
 const GeometricWidthMap = {
     1: GeometricSrc1,
     2: GeometricSrc2,

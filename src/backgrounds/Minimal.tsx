@@ -1,9 +1,9 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import MinimalSrc from '@snowui-design-system/resource-core/assets/backgrounds/minimal-01.jpg';
-import MinimalSrc1 from '@snowui-design-system/resource-core/assets/backgrounds/minimal-01.jpg';
-import MinimalSrc2 from '@snowui-design-system/resource-core/assets/backgrounds/minimal-02.jpg';
-import MinimalSrc3 from '@snowui-design-system/resource-core/assets/backgrounds/minimal-03.jpg';
+import MinimalSrc from '@snowui-design-system/resource-base/assets/backgrounds/minimal-01.jpg';
+import MinimalSrc1 from '@snowui-design-system/resource-base/assets/backgrounds/minimal-01.jpg';
+import MinimalSrc2 from '@snowui-design-system/resource-base/assets/backgrounds/minimal-02.jpg';
+import MinimalSrc3 from '@snowui-design-system/resource-base/assets/backgrounds/minimal-03.jpg';
 const MinimalWidthMap = {
     1: MinimalSrc1,
     2: MinimalSrc2,

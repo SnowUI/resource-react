@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import ImageSrc from '@snowui-design-system/resource-core/assets/images/image-01.png';
-import ImageSrc1 from '@snowui-design-system/resource-core/assets/images/image-01.png';
+import ImageSrc from '@snowui-design-system/resource-base/assets/images/image-01.png';
+import ImageSrc1 from '@snowui-design-system/resource-base/assets/images/image-01.png';
 const ImageWidthMap = {
     1: ImageSrc1,
 } as const;

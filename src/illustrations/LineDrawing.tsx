@@ -1,9 +1,9 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import LineDrawingSrc from '@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg';
-import LineDrawingSrc1 from '@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg';
-import LineDrawingSrc2 from '@snowui-design-system/resource-core/assets/illustrations/line-drawing-02.svg';
-import LineDrawingSrc3 from '@snowui-design-system/resource-core/assets/illustrations/line-drawing-03.svg';
+import LineDrawingSrc from '@snowui-design-system/resource-base/assets/illustrations/line-drawing-01.svg';
+import LineDrawingSrc1 from '@snowui-design-system/resource-base/assets/illustrations/line-drawing-01.svg';
+import LineDrawingSrc2 from '@snowui-design-system/resource-base/assets/illustrations/line-drawing-02.svg';
+import LineDrawingSrc3 from '@snowui-design-system/resource-base/assets/illustrations/line-drawing-03.svg';
 const LineDrawingWidthMap = {
     1: LineDrawingSrc1,
     2: LineDrawingSrc2,

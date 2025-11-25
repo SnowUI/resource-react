@@ -19,7 +19,7 @@
 
 - ✅ 更新了 `generate-react.ts`，使其能够自动检测环境：
   - **Monorepo 模式**：优先使用 `../resource-base`
-  - **独立仓库模式**：使用 `node_modules/@snowui-design-system/resource-core`
+  - **独立仓库模式**：使用 `node_modules/@snowui-design-system/resource-base`
 - ✅ 添加了清晰的错误提示
 
 ### 4. 更新文档
@@ -76,7 +76,7 @@ npm run generate  # ✅ 现在可以正常工作了！
    - 适用于在 `snowui` monorepo 中开发
 
 2. **独立仓库模式**（回退）：
-   - 路径：`node_modules/@snowui-design-system/resource-core`
+   - 路径：`node_modules/@snowui-design-system/resource-base`
    - 适用于独立仓库或已安装 npm 包的情况
 
 ## ⚠️ 注意事项
@@ -86,7 +86,7 @@ npm run generate  # ✅ 现在可以正常工作了！
    - `resource-react/scripts/generate-react.ts`（独立仓库版本）
 
 2. **依赖要求**：在独立仓库中运行 `generate` 需要：
-   - 已安装 `@snowui-design-system/resource-core` 依赖
+   - 已安装 `@snowui-design-system/resource-base` 依赖
    - 已安装 `tsx` 开发依赖
 
 3. **生成的组件**：`src/` 中的组件已经包含在仓库中，通常不需要重新生成

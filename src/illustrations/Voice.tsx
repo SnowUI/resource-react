@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import VoiceSrc from '@snowui-design-system/resource-core/assets/illustrations/voice.svg';
+import VoiceSrc from '@snowui-design-system/resource-base/assets/illustrations/voice.svg';
 export const Voice: React.FC<BackgroundProps> = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = VoiceSrc;

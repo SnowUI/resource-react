@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import HumanoidSrc from '@snowui-design-system/resource-core/assets/illustrations/humanoid.svg';
+import HumanoidSrc from '@snowui-design-system/resource-base/assets/illustrations/humanoid.svg';
 export const Humanoid: React.FC<BackgroundProps> = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = HumanoidSrc;

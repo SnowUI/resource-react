@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import QrcodeSrc from '@snowui-design-system/resource-core/assets/illustrations/qrcode.svg';
+import QrcodeSrc from '@snowui-design-system/resource-base/assets/illustrations/qrcode.svg';
 
 export const Qrcode: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
   const resolvedWidth = size ?? width;

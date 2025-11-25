@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import MannequinSrc from '@snowui-design-system/resource-core/assets/illustrations/mannequin.svg';
+import MannequinSrc from '@snowui-design-system/resource-base/assets/illustrations/mannequin.svg';
 
 export const Mannequin: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
   const resolvedWidth = size ?? width;

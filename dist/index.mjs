@@ -18897,19 +18897,19 @@ YoutubeLogo.displayName = "YoutubeLogo";
 var YoutubeLogo_default = YoutubeLogo;
 
 // src/avatars/Avatar3d01.tsx
-import Avatar3d01Src from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-32.jpg";
-import Avatar3d01Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-16.jpg";
-import Avatar3d01Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-20.jpg";
-import Avatar3d01Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-24.jpg";
-import Avatar3d01Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-28.jpg";
-import Avatar3d01Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-40.jpg";
-import Avatar3d01Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-48.jpg";
-import Avatar3d01Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-56.jpg";
-import Avatar3d01Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-64.jpg";
-import Avatar3d01Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-80.jpg";
-import Avatar3d01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-128.jpg";
-import Avatar3d01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-256.jpg";
-import Avatar3d01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-01-512.jpg";
+import Avatar3d01Src from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-32.jpg";
+import Avatar3d01Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-16.jpg";
+import Avatar3d01Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-20.jpg";
+import Avatar3d01Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-24.jpg";
+import Avatar3d01Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-28.jpg";
+import Avatar3d01Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-40.jpg";
+import Avatar3d01Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-48.jpg";
+import Avatar3d01Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-56.jpg";
+import Avatar3d01Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-64.jpg";
+import Avatar3d01Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-80.jpg";
+import Avatar3d01Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-128.jpg";
+import Avatar3d01Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-256.jpg";
+import Avatar3d01Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-512.jpg";
 import { jsx as jsx1334 } from "react/jsx-runtime";
 var Avatar3d01SizeMap = {
   16: Avatar3d01Src16,
@@ -18960,19 +18960,19 @@ var Avatar3d01 = ({ size = 32, width, height, ...rest }) => {
 var Avatar3d01_default = Avatar3d01;
 
 // src/avatars/Avatar3d02.tsx
-import Avatar3d02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-32.jpg";
-import Avatar3d02Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-16.jpg";
-import Avatar3d02Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-20.jpg";
-import Avatar3d02Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-24.jpg";
-import Avatar3d02Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-28.jpg";
-import Avatar3d02Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-40.jpg";
-import Avatar3d02Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-48.jpg";
-import Avatar3d02Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-56.jpg";
-import Avatar3d02Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-64.jpg";
-import Avatar3d02Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-80.jpg";
-import Avatar3d02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-128.jpg";
-import Avatar3d02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-256.jpg";
-import Avatar3d02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-02-512.jpg";
+import Avatar3d02Src from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-32.jpg";
+import Avatar3d02Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-16.jpg";
+import Avatar3d02Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-20.jpg";
+import Avatar3d02Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-24.jpg";
+import Avatar3d02Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-28.jpg";
+import Avatar3d02Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-40.jpg";
+import Avatar3d02Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-48.jpg";
+import Avatar3d02Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-56.jpg";
+import Avatar3d02Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-64.jpg";
+import Avatar3d02Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-80.jpg";
+import Avatar3d02Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-128.jpg";
+import Avatar3d02Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-256.jpg";
+import Avatar3d02Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-512.jpg";
 import { jsx as jsx1335 } from "react/jsx-runtime";
 var Avatar3d02SizeMap = {
   16: Avatar3d02Src16,
@@ -19023,19 +19023,19 @@ var Avatar3d02 = ({ size = 32, width, height, ...rest }) => {
 var Avatar3d02_default = Avatar3d02;
 
 // src/avatars/Avatar3d03.tsx
-import Avatar3d03Src from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-32.jpg";
-import Avatar3d03Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-16.jpg";
-import Avatar3d03Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-20.jpg";
-import Avatar3d03Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-24.jpg";
-import Avatar3d03Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-28.jpg";
-import Avatar3d03Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-40.jpg";
-import Avatar3d03Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-48.jpg";
-import Avatar3d03Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-56.jpg";
-import Avatar3d03Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-64.jpg";
-import Avatar3d03Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-80.jpg";
-import Avatar3d03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-128.jpg";
-import Avatar3d03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-256.jpg";
-import Avatar3d03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-03-512.jpg";
+import Avatar3d03Src from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-32.jpg";
+import Avatar3d03Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-16.jpg";
+import Avatar3d03Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-20.jpg";
+import Avatar3d03Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-24.jpg";
+import Avatar3d03Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-28.jpg";
+import Avatar3d03Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-40.jpg";
+import Avatar3d03Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-48.jpg";
+import Avatar3d03Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-56.jpg";
+import Avatar3d03Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-64.jpg";
+import Avatar3d03Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-80.jpg";
+import Avatar3d03Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-128.jpg";
+import Avatar3d03Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-256.jpg";
+import Avatar3d03Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-512.jpg";
 import { jsx as jsx1336 } from "react/jsx-runtime";
 var Avatar3d03SizeMap = {
   16: Avatar3d03Src16,
@@ -19086,19 +19086,19 @@ var Avatar3d03 = ({ size = 32, width, height, ...rest }) => {
 var Avatar3d03_default = Avatar3d03;
 
 // src/avatars/Avatar3d04.tsx
-import Avatar3d04Src from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-32.jpg";
-import Avatar3d04Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-16.jpg";
-import Avatar3d04Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-20.jpg";
-import Avatar3d04Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-24.jpg";
-import Avatar3d04Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-28.jpg";
-import Avatar3d04Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-40.jpg";
-import Avatar3d04Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-48.jpg";
-import Avatar3d04Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-56.jpg";
-import Avatar3d04Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-64.jpg";
-import Avatar3d04Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-80.jpg";
-import Avatar3d04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-128.jpg";
-import Avatar3d04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-256.jpg";
-import Avatar3d04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-3d-04-512.jpg";
+import Avatar3d04Src from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-32.jpg";
+import Avatar3d04Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-16.jpg";
+import Avatar3d04Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-20.jpg";
+import Avatar3d04Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-24.jpg";
+import Avatar3d04Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-28.jpg";
+import Avatar3d04Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-40.jpg";
+import Avatar3d04Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-48.jpg";
+import Avatar3d04Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-56.jpg";
+import Avatar3d04Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-64.jpg";
+import Avatar3d04Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-80.jpg";
+import Avatar3d04Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-128.jpg";
+import Avatar3d04Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-256.jpg";
+import Avatar3d04Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-512.jpg";
 import { jsx as jsx1337 } from "react/jsx-runtime";
 var Avatar3d04SizeMap = {
   16: Avatar3d04Src16,
@@ -19149,19 +19149,19 @@ var Avatar3d04 = ({ size = 32, width, height, ...rest }) => {
 var Avatar3d04_default = Avatar3d04;
 
 // src/avatars/AvatarAbstract01.tsx
-import AvatarAbstract01Src from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-32.jpg";
-import AvatarAbstract01Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-16.jpg";
-import AvatarAbstract01Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-20.jpg";
-import AvatarAbstract01Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-24.jpg";
-import AvatarAbstract01Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-28.jpg";
-import AvatarAbstract01Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-40.jpg";
-import AvatarAbstract01Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-48.jpg";
-import AvatarAbstract01Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-56.jpg";
-import AvatarAbstract01Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-64.jpg";
-import AvatarAbstract01Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-80.jpg";
-import AvatarAbstract01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-128.jpg";
-import AvatarAbstract01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-256.jpg";
-import AvatarAbstract01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-01-512.jpg";
+import AvatarAbstract01Src from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-32.jpg";
+import AvatarAbstract01Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-16.jpg";
+import AvatarAbstract01Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-20.jpg";
+import AvatarAbstract01Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-24.jpg";
+import AvatarAbstract01Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-28.jpg";
+import AvatarAbstract01Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-40.jpg";
+import AvatarAbstract01Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-48.jpg";
+import AvatarAbstract01Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-56.jpg";
+import AvatarAbstract01Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-64.jpg";
+import AvatarAbstract01Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-80.jpg";
+import AvatarAbstract01Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-128.jpg";
+import AvatarAbstract01Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-256.jpg";
+import AvatarAbstract01Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-512.jpg";
 import { jsx as jsx1338 } from "react/jsx-runtime";
 var AvatarAbstract01SizeMap = {
   16: AvatarAbstract01Src16,
@@ -19212,19 +19212,19 @@ var AvatarAbstract01 = ({ size = 32, width, height, ...rest }) => {
 var AvatarAbstract01_default = AvatarAbstract01;
 
 // src/avatars/AvatarAbstract02.tsx
-import AvatarAbstract02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-32.jpg";
-import AvatarAbstract02Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-16.jpg";
-import AvatarAbstract02Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-20.jpg";
-import AvatarAbstract02Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-24.jpg";
-import AvatarAbstract02Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-28.jpg";
-import AvatarAbstract02Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-40.jpg";
-import AvatarAbstract02Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-48.jpg";
-import AvatarAbstract02Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-56.jpg";
-import AvatarAbstract02Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-64.jpg";
-import AvatarAbstract02Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-80.jpg";
-import AvatarAbstract02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-128.jpg";
-import AvatarAbstract02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-256.jpg";
-import AvatarAbstract02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-02-512.jpg";
+import AvatarAbstract02Src from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-32.jpg";
+import AvatarAbstract02Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-16.jpg";
+import AvatarAbstract02Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-20.jpg";
+import AvatarAbstract02Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-24.jpg";
+import AvatarAbstract02Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-28.jpg";
+import AvatarAbstract02Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-40.jpg";
+import AvatarAbstract02Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-48.jpg";
+import AvatarAbstract02Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-56.jpg";
+import AvatarAbstract02Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-64.jpg";
+import AvatarAbstract02Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-80.jpg";
+import AvatarAbstract02Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-128.jpg";
+import AvatarAbstract02Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-256.jpg";
+import AvatarAbstract02Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-512.jpg";
 import { jsx as jsx1339 } from "react/jsx-runtime";
 var AvatarAbstract02SizeMap = {
   16: AvatarAbstract02Src16,
@@ -19275,19 +19275,19 @@ var AvatarAbstract02 = ({ size = 32, width, height, ...rest }) => {
 var AvatarAbstract02_default = AvatarAbstract02;
 
 // src/avatars/AvatarAbstract03.tsx
-import AvatarAbstract03Src from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-32.jpg";
-import AvatarAbstract03Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-16.jpg";
-import AvatarAbstract03Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-20.jpg";
-import AvatarAbstract03Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-24.jpg";
-import AvatarAbstract03Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-28.jpg";
-import AvatarAbstract03Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-40.jpg";
-import AvatarAbstract03Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-48.jpg";
-import AvatarAbstract03Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-56.jpg";
-import AvatarAbstract03Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-64.jpg";
-import AvatarAbstract03Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-80.jpg";
-import AvatarAbstract03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-128.jpg";
-import AvatarAbstract03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-256.jpg";
-import AvatarAbstract03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-03-512.jpg";
+import AvatarAbstract03Src from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-32.jpg";
+import AvatarAbstract03Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-16.jpg";
+import AvatarAbstract03Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-20.jpg";
+import AvatarAbstract03Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-24.jpg";
+import AvatarAbstract03Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-28.jpg";
+import AvatarAbstract03Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-40.jpg";
+import AvatarAbstract03Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-48.jpg";
+import AvatarAbstract03Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-56.jpg";
+import AvatarAbstract03Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-64.jpg";
+import AvatarAbstract03Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-80.jpg";
+import AvatarAbstract03Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-128.jpg";
+import AvatarAbstract03Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-256.jpg";
+import AvatarAbstract03Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-512.jpg";
 import { jsx as jsx1340 } from "react/jsx-runtime";
 var AvatarAbstract03SizeMap = {
   16: AvatarAbstract03Src16,
@@ -19338,19 +19338,19 @@ var AvatarAbstract03 = ({ size = 32, width, height, ...rest }) => {
 var AvatarAbstract03_default = AvatarAbstract03;
 
 // src/avatars/AvatarAbstract04.tsx
-import AvatarAbstract04Src from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-32.jpg";
-import AvatarAbstract04Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-16.jpg";
-import AvatarAbstract04Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-20.jpg";
-import AvatarAbstract04Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-24.jpg";
-import AvatarAbstract04Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-28.jpg";
-import AvatarAbstract04Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-40.jpg";
-import AvatarAbstract04Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-48.jpg";
-import AvatarAbstract04Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-56.jpg";
-import AvatarAbstract04Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-64.jpg";
-import AvatarAbstract04Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-80.jpg";
-import AvatarAbstract04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-128.jpg";
-import AvatarAbstract04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-256.jpg";
-import AvatarAbstract04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-abstract-04-512.jpg";
+import AvatarAbstract04Src from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-32.jpg";
+import AvatarAbstract04Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-16.jpg";
+import AvatarAbstract04Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-20.jpg";
+import AvatarAbstract04Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-24.jpg";
+import AvatarAbstract04Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-28.jpg";
+import AvatarAbstract04Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-40.jpg";
+import AvatarAbstract04Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-48.jpg";
+import AvatarAbstract04Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-56.jpg";
+import AvatarAbstract04Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-64.jpg";
+import AvatarAbstract04Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-80.jpg";
+import AvatarAbstract04Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-128.jpg";
+import AvatarAbstract04Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-256.jpg";
+import AvatarAbstract04Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-512.jpg";
 import { jsx as jsx1341 } from "react/jsx-runtime";
 var AvatarAbstract04SizeMap = {
   16: AvatarAbstract04Src16,
@@ -19401,19 +19401,19 @@ var AvatarAbstract04 = ({ size = 32, width, height, ...rest }) => {
 var AvatarAbstract04_default = AvatarAbstract04;
 
 // src/avatars/AvatarByewind.tsx
-import AvatarByewindSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-32.jpg";
-import AvatarByewindSrc16 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-16.jpg";
-import AvatarByewindSrc20 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-20.jpg";
-import AvatarByewindSrc24 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-24.jpg";
-import AvatarByewindSrc28 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-28.jpg";
-import AvatarByewindSrc40 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-40.jpg";
-import AvatarByewindSrc48 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-48.jpg";
-import AvatarByewindSrc56 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-56.jpg";
-import AvatarByewindSrc64 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-64.jpg";
-import AvatarByewindSrc80 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-80.jpg";
-import AvatarByewindSrc128 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-128.jpg";
-import AvatarByewindSrc256 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-256.jpg";
-import AvatarByewindSrc512 from "@snowui-design-system/resource-core/assets/avatars/avatar-byewind-512.jpg";
+import AvatarByewindSrc from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-32.jpg";
+import AvatarByewindSrc16 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-16.jpg";
+import AvatarByewindSrc20 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-20.jpg";
+import AvatarByewindSrc24 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-24.jpg";
+import AvatarByewindSrc28 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-28.jpg";
+import AvatarByewindSrc40 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-40.jpg";
+import AvatarByewindSrc48 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-48.jpg";
+import AvatarByewindSrc56 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-56.jpg";
+import AvatarByewindSrc64 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-64.jpg";
+import AvatarByewindSrc80 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-80.jpg";
+import AvatarByewindSrc128 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-128.jpg";
+import AvatarByewindSrc256 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-256.jpg";
+import AvatarByewindSrc512 from "@snowui-design-system/resource-base/assets/avatars/avatar-byewind-512.jpg";
 import { jsx as jsx1342 } from "react/jsx-runtime";
 var AvatarByewindSizeMap = {
   16: AvatarByewindSrc16,
@@ -19464,19 +19464,19 @@ var AvatarByewind = ({ size = 32, width, height, ...rest }) => {
 var AvatarByewind_default = AvatarByewind;
 
 // src/avatars/AvatarDefault.tsx
-import AvatarDefaultSrc from "@snowui-design-system/resource-core/assets/avatars/avatar-default-32.jpg";
-import AvatarDefaultSrc16 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-16.jpg";
-import AvatarDefaultSrc20 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-20.jpg";
-import AvatarDefaultSrc24 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-24.jpg";
-import AvatarDefaultSrc28 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-28.jpg";
-import AvatarDefaultSrc40 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-40.jpg";
-import AvatarDefaultSrc48 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-48.jpg";
-import AvatarDefaultSrc56 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-56.jpg";
-import AvatarDefaultSrc64 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-64.jpg";
-import AvatarDefaultSrc80 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-80.jpg";
-import AvatarDefaultSrc128 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-128.jpg";
-import AvatarDefaultSrc256 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-256.jpg";
-import AvatarDefaultSrc512 from "@snowui-design-system/resource-core/assets/avatars/avatar-default-512.jpg";
+import AvatarDefaultSrc from "@snowui-design-system/resource-base/assets/avatars/avatar-default-32.jpg";
+import AvatarDefaultSrc16 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-16.jpg";
+import AvatarDefaultSrc20 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-20.jpg";
+import AvatarDefaultSrc24 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-24.jpg";
+import AvatarDefaultSrc28 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-28.jpg";
+import AvatarDefaultSrc40 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-40.jpg";
+import AvatarDefaultSrc48 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-48.jpg";
+import AvatarDefaultSrc56 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-56.jpg";
+import AvatarDefaultSrc64 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-64.jpg";
+import AvatarDefaultSrc80 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-80.jpg";
+import AvatarDefaultSrc128 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-128.jpg";
+import AvatarDefaultSrc256 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-256.jpg";
+import AvatarDefaultSrc512 from "@snowui-design-system/resource-base/assets/avatars/avatar-default-512.jpg";
 import { jsx as jsx1343 } from "react/jsx-runtime";
 var AvatarDefaultSizeMap = {
   16: AvatarDefaultSrc16,
@@ -19527,19 +19527,19 @@ var AvatarDefault = ({ size = 32, width, height, ...rest }) => {
 var AvatarDefault_default = AvatarDefault;
 
 // src/avatars/AvatarFemale01.tsx
-import AvatarFemale01Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-32.jpg";
-import AvatarFemale01Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-16.jpg";
-import AvatarFemale01Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-20.jpg";
-import AvatarFemale01Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-24.jpg";
-import AvatarFemale01Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-28.jpg";
-import AvatarFemale01Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-40.jpg";
-import AvatarFemale01Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-48.jpg";
-import AvatarFemale01Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-56.jpg";
-import AvatarFemale01Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-64.jpg";
-import AvatarFemale01Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-80.jpg";
-import AvatarFemale01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-128.jpg";
-import AvatarFemale01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-256.jpg";
-import AvatarFemale01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-01-512.jpg";
+import AvatarFemale01Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-32.jpg";
+import AvatarFemale01Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-16.jpg";
+import AvatarFemale01Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-20.jpg";
+import AvatarFemale01Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-24.jpg";
+import AvatarFemale01Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-28.jpg";
+import AvatarFemale01Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-40.jpg";
+import AvatarFemale01Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-48.jpg";
+import AvatarFemale01Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-56.jpg";
+import AvatarFemale01Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-64.jpg";
+import AvatarFemale01Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-80.jpg";
+import AvatarFemale01Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-128.jpg";
+import AvatarFemale01Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-256.jpg";
+import AvatarFemale01Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-01-512.jpg";
 import { jsx as jsx1344 } from "react/jsx-runtime";
 var AvatarFemale01SizeMap = {
   16: AvatarFemale01Src16,
@@ -19590,19 +19590,19 @@ var AvatarFemale01 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale01_default = AvatarFemale01;
 
 // src/avatars/AvatarFemale02.tsx
-import AvatarFemale02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-32.jpg";
-import AvatarFemale02Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-16.jpg";
-import AvatarFemale02Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-20.jpg";
-import AvatarFemale02Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-24.jpg";
-import AvatarFemale02Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-28.jpg";
-import AvatarFemale02Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-40.jpg";
-import AvatarFemale02Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-48.jpg";
-import AvatarFemale02Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-56.jpg";
-import AvatarFemale02Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-64.jpg";
-import AvatarFemale02Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-80.jpg";
-import AvatarFemale02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-128.jpg";
-import AvatarFemale02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-256.jpg";
-import AvatarFemale02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-02-512.jpg";
+import AvatarFemale02Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-32.jpg";
+import AvatarFemale02Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-16.jpg";
+import AvatarFemale02Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-20.jpg";
+import AvatarFemale02Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-24.jpg";
+import AvatarFemale02Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-28.jpg";
+import AvatarFemale02Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-40.jpg";
+import AvatarFemale02Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-48.jpg";
+import AvatarFemale02Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-56.jpg";
+import AvatarFemale02Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-64.jpg";
+import AvatarFemale02Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-80.jpg";
+import AvatarFemale02Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-128.jpg";
+import AvatarFemale02Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-256.jpg";
+import AvatarFemale02Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-02-512.jpg";
 import { jsx as jsx1345 } from "react/jsx-runtime";
 var AvatarFemale02SizeMap = {
   16: AvatarFemale02Src16,
@@ -19653,19 +19653,19 @@ var AvatarFemale02 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale02_default = AvatarFemale02;
 
 // src/avatars/AvatarFemale03.tsx
-import AvatarFemale03Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-32.jpg";
-import AvatarFemale03Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-16.jpg";
-import AvatarFemale03Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-20.jpg";
-import AvatarFemale03Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-24.jpg";
-import AvatarFemale03Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-28.jpg";
-import AvatarFemale03Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-40.jpg";
-import AvatarFemale03Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-48.jpg";
-import AvatarFemale03Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-56.jpg";
-import AvatarFemale03Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-64.jpg";
-import AvatarFemale03Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-80.jpg";
-import AvatarFemale03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-128.jpg";
-import AvatarFemale03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-256.jpg";
-import AvatarFemale03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-03-512.jpg";
+import AvatarFemale03Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-32.jpg";
+import AvatarFemale03Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-16.jpg";
+import AvatarFemale03Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-20.jpg";
+import AvatarFemale03Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-24.jpg";
+import AvatarFemale03Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-28.jpg";
+import AvatarFemale03Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-40.jpg";
+import AvatarFemale03Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-48.jpg";
+import AvatarFemale03Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-56.jpg";
+import AvatarFemale03Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-64.jpg";
+import AvatarFemale03Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-80.jpg";
+import AvatarFemale03Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-128.jpg";
+import AvatarFemale03Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-256.jpg";
+import AvatarFemale03Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-03-512.jpg";
 import { jsx as jsx1346 } from "react/jsx-runtime";
 var AvatarFemale03SizeMap = {
   16: AvatarFemale03Src16,
@@ -19716,19 +19716,19 @@ var AvatarFemale03 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale03_default = AvatarFemale03;
 
 // src/avatars/AvatarFemale04.tsx
-import AvatarFemale04Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-32.jpg";
-import AvatarFemale04Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-16.jpg";
-import AvatarFemale04Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-20.jpg";
-import AvatarFemale04Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-24.jpg";
-import AvatarFemale04Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-28.jpg";
-import AvatarFemale04Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-40.jpg";
-import AvatarFemale04Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-48.jpg";
-import AvatarFemale04Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-56.jpg";
-import AvatarFemale04Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-64.jpg";
-import AvatarFemale04Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-80.jpg";
-import AvatarFemale04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-128.jpg";
-import AvatarFemale04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-256.jpg";
-import AvatarFemale04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-04-512.jpg";
+import AvatarFemale04Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-32.jpg";
+import AvatarFemale04Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-16.jpg";
+import AvatarFemale04Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-20.jpg";
+import AvatarFemale04Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-24.jpg";
+import AvatarFemale04Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-28.jpg";
+import AvatarFemale04Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-40.jpg";
+import AvatarFemale04Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-48.jpg";
+import AvatarFemale04Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-56.jpg";
+import AvatarFemale04Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-64.jpg";
+import AvatarFemale04Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-80.jpg";
+import AvatarFemale04Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-128.jpg";
+import AvatarFemale04Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-256.jpg";
+import AvatarFemale04Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-04-512.jpg";
 import { jsx as jsx1347 } from "react/jsx-runtime";
 var AvatarFemale04SizeMap = {
   16: AvatarFemale04Src16,
@@ -19779,19 +19779,19 @@ var AvatarFemale04 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale04_default = AvatarFemale04;
 
 // src/avatars/AvatarFemale05.tsx
-import AvatarFemale05Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-32.jpg";
-import AvatarFemale05Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-16.jpg";
-import AvatarFemale05Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-20.jpg";
-import AvatarFemale05Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-24.jpg";
-import AvatarFemale05Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-28.jpg";
-import AvatarFemale05Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-40.jpg";
-import AvatarFemale05Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-48.jpg";
-import AvatarFemale05Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-56.jpg";
-import AvatarFemale05Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-64.jpg";
-import AvatarFemale05Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-80.jpg";
-import AvatarFemale05Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-128.jpg";
-import AvatarFemale05Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-256.jpg";
-import AvatarFemale05Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-05-512.jpg";
+import AvatarFemale05Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-32.jpg";
+import AvatarFemale05Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-16.jpg";
+import AvatarFemale05Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-20.jpg";
+import AvatarFemale05Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-24.jpg";
+import AvatarFemale05Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-28.jpg";
+import AvatarFemale05Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-40.jpg";
+import AvatarFemale05Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-48.jpg";
+import AvatarFemale05Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-56.jpg";
+import AvatarFemale05Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-64.jpg";
+import AvatarFemale05Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-80.jpg";
+import AvatarFemale05Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-128.jpg";
+import AvatarFemale05Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-256.jpg";
+import AvatarFemale05Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-05-512.jpg";
 import { jsx as jsx1348 } from "react/jsx-runtime";
 var AvatarFemale05SizeMap = {
   16: AvatarFemale05Src16,
@@ -19842,19 +19842,19 @@ var AvatarFemale05 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale05_default = AvatarFemale05;
 
 // src/avatars/AvatarFemale06.tsx
-import AvatarFemale06Src from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-32.jpg";
-import AvatarFemale06Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-16.jpg";
-import AvatarFemale06Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-20.jpg";
-import AvatarFemale06Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-24.jpg";
-import AvatarFemale06Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-28.jpg";
-import AvatarFemale06Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-40.jpg";
-import AvatarFemale06Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-48.jpg";
-import AvatarFemale06Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-56.jpg";
-import AvatarFemale06Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-64.jpg";
-import AvatarFemale06Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-80.jpg";
-import AvatarFemale06Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-128.jpg";
-import AvatarFemale06Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-256.jpg";
-import AvatarFemale06Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-female-06-512.jpg";
+import AvatarFemale06Src from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-32.jpg";
+import AvatarFemale06Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-16.jpg";
+import AvatarFemale06Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-20.jpg";
+import AvatarFemale06Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-24.jpg";
+import AvatarFemale06Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-28.jpg";
+import AvatarFemale06Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-40.jpg";
+import AvatarFemale06Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-48.jpg";
+import AvatarFemale06Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-56.jpg";
+import AvatarFemale06Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-64.jpg";
+import AvatarFemale06Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-80.jpg";
+import AvatarFemale06Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-128.jpg";
+import AvatarFemale06Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-256.jpg";
+import AvatarFemale06Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-female-06-512.jpg";
 import { jsx as jsx1349 } from "react/jsx-runtime";
 var AvatarFemale06SizeMap = {
   16: AvatarFemale06Src16,
@@ -19905,19 +19905,19 @@ var AvatarFemale06 = ({ size = 32, width, height, ...rest }) => {
 var AvatarFemale06_default = AvatarFemale06;
 
 // src/avatars/AvatarMale01.tsx
-import AvatarMale01Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-32.jpg";
-import AvatarMale01Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-16.jpg";
-import AvatarMale01Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-20.jpg";
-import AvatarMale01Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-24.jpg";
-import AvatarMale01Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-28.jpg";
-import AvatarMale01Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-40.jpg";
-import AvatarMale01Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-48.jpg";
-import AvatarMale01Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-56.jpg";
-import AvatarMale01Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-64.jpg";
-import AvatarMale01Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-80.jpg";
-import AvatarMale01Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-128.jpg";
-import AvatarMale01Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-256.jpg";
-import AvatarMale01Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-01-512.jpg";
+import AvatarMale01Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-32.jpg";
+import AvatarMale01Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-16.jpg";
+import AvatarMale01Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-20.jpg";
+import AvatarMale01Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-24.jpg";
+import AvatarMale01Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-28.jpg";
+import AvatarMale01Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-40.jpg";
+import AvatarMale01Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-48.jpg";
+import AvatarMale01Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-56.jpg";
+import AvatarMale01Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-64.jpg";
+import AvatarMale01Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-80.jpg";
+import AvatarMale01Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-128.jpg";
+import AvatarMale01Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-256.jpg";
+import AvatarMale01Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-01-512.jpg";
 import { jsx as jsx1350 } from "react/jsx-runtime";
 var AvatarMale01SizeMap = {
   16: AvatarMale01Src16,
@@ -19968,19 +19968,19 @@ var AvatarMale01 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale01_default = AvatarMale01;
 
 // src/avatars/AvatarMale02.tsx
-import AvatarMale02Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-32.jpg";
-import AvatarMale02Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-16.jpg";
-import AvatarMale02Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-20.jpg";
-import AvatarMale02Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-24.jpg";
-import AvatarMale02Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-28.jpg";
-import AvatarMale02Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-40.jpg";
-import AvatarMale02Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-48.jpg";
-import AvatarMale02Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-56.jpg";
-import AvatarMale02Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-64.jpg";
-import AvatarMale02Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-80.jpg";
-import AvatarMale02Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-128.jpg";
-import AvatarMale02Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-256.jpg";
-import AvatarMale02Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-02-512.jpg";
+import AvatarMale02Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-32.jpg";
+import AvatarMale02Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-16.jpg";
+import AvatarMale02Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-20.jpg";
+import AvatarMale02Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-24.jpg";
+import AvatarMale02Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-28.jpg";
+import AvatarMale02Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-40.jpg";
+import AvatarMale02Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-48.jpg";
+import AvatarMale02Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-56.jpg";
+import AvatarMale02Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-64.jpg";
+import AvatarMale02Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-80.jpg";
+import AvatarMale02Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-128.jpg";
+import AvatarMale02Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-256.jpg";
+import AvatarMale02Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-02-512.jpg";
 import { jsx as jsx1351 } from "react/jsx-runtime";
 var AvatarMale02SizeMap = {
   16: AvatarMale02Src16,
@@ -20031,19 +20031,19 @@ var AvatarMale02 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale02_default = AvatarMale02;
 
 // src/avatars/AvatarMale03.tsx
-import AvatarMale03Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-32.jpg";
-import AvatarMale03Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-16.jpg";
-import AvatarMale03Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-20.jpg";
-import AvatarMale03Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-24.jpg";
-import AvatarMale03Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-28.jpg";
-import AvatarMale03Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-40.jpg";
-import AvatarMale03Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-48.jpg";
-import AvatarMale03Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-56.jpg";
-import AvatarMale03Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-64.jpg";
-import AvatarMale03Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-80.jpg";
-import AvatarMale03Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-128.jpg";
-import AvatarMale03Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-256.jpg";
-import AvatarMale03Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-03-512.jpg";
+import AvatarMale03Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-32.jpg";
+import AvatarMale03Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-16.jpg";
+import AvatarMale03Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-20.jpg";
+import AvatarMale03Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-24.jpg";
+import AvatarMale03Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-28.jpg";
+import AvatarMale03Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-40.jpg";
+import AvatarMale03Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-48.jpg";
+import AvatarMale03Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-56.jpg";
+import AvatarMale03Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-64.jpg";
+import AvatarMale03Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-80.jpg";
+import AvatarMale03Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-128.jpg";
+import AvatarMale03Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-256.jpg";
+import AvatarMale03Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-03-512.jpg";
 import { jsx as jsx1352 } from "react/jsx-runtime";
 var AvatarMale03SizeMap = {
   16: AvatarMale03Src16,
@@ -20094,19 +20094,19 @@ var AvatarMale03 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale03_default = AvatarMale03;
 
 // src/avatars/AvatarMale04.tsx
-import AvatarMale04Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-32.jpg";
-import AvatarMale04Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-16.jpg";
-import AvatarMale04Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-20.jpg";
-import AvatarMale04Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-24.jpg";
-import AvatarMale04Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-28.jpg";
-import AvatarMale04Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-40.jpg";
-import AvatarMale04Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-48.jpg";
-import AvatarMale04Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-56.jpg";
-import AvatarMale04Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-64.jpg";
-import AvatarMale04Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-80.jpg";
-import AvatarMale04Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-128.jpg";
-import AvatarMale04Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-256.jpg";
-import AvatarMale04Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-04-512.jpg";
+import AvatarMale04Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-32.jpg";
+import AvatarMale04Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-16.jpg";
+import AvatarMale04Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-20.jpg";
+import AvatarMale04Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-24.jpg";
+import AvatarMale04Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-28.jpg";
+import AvatarMale04Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-40.jpg";
+import AvatarMale04Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-48.jpg";
+import AvatarMale04Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-56.jpg";
+import AvatarMale04Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-64.jpg";
+import AvatarMale04Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-80.jpg";
+import AvatarMale04Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-128.jpg";
+import AvatarMale04Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-256.jpg";
+import AvatarMale04Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-04-512.jpg";
 import { jsx as jsx1353 } from "react/jsx-runtime";
 var AvatarMale04SizeMap = {
   16: AvatarMale04Src16,
@@ -20157,19 +20157,19 @@ var AvatarMale04 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale04_default = AvatarMale04;
 
 // src/avatars/AvatarMale05.tsx
-import AvatarMale05Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-32.jpg";
-import AvatarMale05Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-16.jpg";
-import AvatarMale05Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-20.jpg";
-import AvatarMale05Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-24.jpg";
-import AvatarMale05Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-28.jpg";
-import AvatarMale05Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-40.jpg";
-import AvatarMale05Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-48.jpg";
-import AvatarMale05Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-56.jpg";
-import AvatarMale05Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-64.jpg";
-import AvatarMale05Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-80.jpg";
-import AvatarMale05Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-128.jpg";
-import AvatarMale05Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-256.jpg";
-import AvatarMale05Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-05-512.jpg";
+import AvatarMale05Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-32.jpg";
+import AvatarMale05Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-16.jpg";
+import AvatarMale05Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-20.jpg";
+import AvatarMale05Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-24.jpg";
+import AvatarMale05Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-28.jpg";
+import AvatarMale05Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-40.jpg";
+import AvatarMale05Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-48.jpg";
+import AvatarMale05Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-56.jpg";
+import AvatarMale05Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-64.jpg";
+import AvatarMale05Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-80.jpg";
+import AvatarMale05Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-128.jpg";
+import AvatarMale05Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-256.jpg";
+import AvatarMale05Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-05-512.jpg";
 import { jsx as jsx1354 } from "react/jsx-runtime";
 var AvatarMale05SizeMap = {
   16: AvatarMale05Src16,
@@ -20220,19 +20220,19 @@ var AvatarMale05 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale05_default = AvatarMale05;
 
 // src/avatars/AvatarMale06.tsx
-import AvatarMale06Src from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-32.jpg";
-import AvatarMale06Src16 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-16.jpg";
-import AvatarMale06Src20 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-20.jpg";
-import AvatarMale06Src24 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-24.jpg";
-import AvatarMale06Src28 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-28.jpg";
-import AvatarMale06Src40 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-40.jpg";
-import AvatarMale06Src48 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-48.jpg";
-import AvatarMale06Src56 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-56.jpg";
-import AvatarMale06Src64 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-64.jpg";
-import AvatarMale06Src80 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-80.jpg";
-import AvatarMale06Src128 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-128.jpg";
-import AvatarMale06Src256 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-256.jpg";
-import AvatarMale06Src512 from "@snowui-design-system/resource-core/assets/avatars/avatar-male-06-512.jpg";
+import AvatarMale06Src from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-32.jpg";
+import AvatarMale06Src16 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-16.jpg";
+import AvatarMale06Src20 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-20.jpg";
+import AvatarMale06Src24 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-24.jpg";
+import AvatarMale06Src28 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-28.jpg";
+import AvatarMale06Src40 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-40.jpg";
+import AvatarMale06Src48 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-48.jpg";
+import AvatarMale06Src56 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-56.jpg";
+import AvatarMale06Src64 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-64.jpg";
+import AvatarMale06Src80 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-80.jpg";
+import AvatarMale06Src128 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-128.jpg";
+import AvatarMale06Src256 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-256.jpg";
+import AvatarMale06Src512 from "@snowui-design-system/resource-base/assets/avatars/avatar-male-06-512.jpg";
 import { jsx as jsx1355 } from "react/jsx-runtime";
 var AvatarMale06SizeMap = {
   16: AvatarMale06Src16,
@@ -20283,10 +20283,10 @@ var AvatarMale06 = ({ size = 32, width, height, ...rest }) => {
 var AvatarMale06_default = AvatarMale06;
 
 // src/backgrounds/Geometric01.tsx
-import Geometric01Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-1024.jpg";
-import Geometric01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-320.jpg";
-import Geometric01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-640.jpg";
-import Geometric01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-01-1920.jpg";
+import Geometric01Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-01-1024.jpg";
+import Geometric01Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-01-320.jpg";
+import Geometric01Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-01-640.jpg";
+import Geometric01Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-01-1920.jpg";
 import { jsx as jsx1356 } from "react/jsx-runtime";
 var Geometric01WidthMap = {
   320: Geometric01Src320,
@@ -20327,10 +20327,10 @@ var Geometric01 = ({ width = 1024, height, ...rest }) => {
 var Geometric01_default = Geometric01;
 
 // src/backgrounds/Geometric02.tsx
-import Geometric02Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-1024.jpg";
-import Geometric02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-320.jpg";
-import Geometric02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-640.jpg";
-import Geometric02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-02-1920.jpg";
+import Geometric02Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-02-1024.jpg";
+import Geometric02Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-02-320.jpg";
+import Geometric02Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-02-640.jpg";
+import Geometric02Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-02-1920.jpg";
 import { jsx as jsx1357 } from "react/jsx-runtime";
 var Geometric02WidthMap = {
   320: Geometric02Src320,
@@ -20371,10 +20371,10 @@ var Geometric02 = ({ width = 1024, height, ...rest }) => {
 var Geometric02_default = Geometric02;
 
 // src/backgrounds/Geometric03.tsx
-import Geometric03Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-1024.jpg";
-import Geometric03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-320.jpg";
-import Geometric03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-640.jpg";
-import Geometric03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-03-1920.jpg";
+import Geometric03Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-03-1024.jpg";
+import Geometric03Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-03-320.jpg";
+import Geometric03Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-03-640.jpg";
+import Geometric03Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-03-1920.jpg";
 import { jsx as jsx1358 } from "react/jsx-runtime";
 var Geometric03WidthMap = {
   320: Geometric03Src320,
@@ -20415,10 +20415,10 @@ var Geometric03 = ({ width = 1024, height, ...rest }) => {
 var Geometric03_default = Geometric03;
 
 // src/backgrounds/Geometric04.tsx
-import Geometric04Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-1024.jpg";
-import Geometric04Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-320.jpg";
-import Geometric04Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-640.jpg";
-import Geometric04Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-04-1920.jpg";
+import Geometric04Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-04-1024.jpg";
+import Geometric04Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-04-320.jpg";
+import Geometric04Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-04-640.jpg";
+import Geometric04Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-04-1920.jpg";
 import { jsx as jsx1359 } from "react/jsx-runtime";
 var Geometric04WidthMap = {
   320: Geometric04Src320,
@@ -20459,10 +20459,10 @@ var Geometric04 = ({ width = 1024, height, ...rest }) => {
 var Geometric04_default = Geometric04;
 
 // src/backgrounds/Geometric05.tsx
-import Geometric05Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-1024.jpg";
-import Geometric05Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-320.jpg";
-import Geometric05Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-640.jpg";
-import Geometric05Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-05-1920.jpg";
+import Geometric05Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-05-1024.jpg";
+import Geometric05Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-05-320.jpg";
+import Geometric05Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-05-640.jpg";
+import Geometric05Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-05-1920.jpg";
 import { jsx as jsx1360 } from "react/jsx-runtime";
 var Geometric05WidthMap = {
   320: Geometric05Src320,
@@ -20503,10 +20503,10 @@ var Geometric05 = ({ width = 1024, height, ...rest }) => {
 var Geometric05_default = Geometric05;
 
 // src/backgrounds/Geometric06.tsx
-import Geometric06Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-1024.jpg";
-import Geometric06Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-320.jpg";
-import Geometric06Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-640.jpg";
-import Geometric06Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-06-1920.jpg";
+import Geometric06Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-06-1024.jpg";
+import Geometric06Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-06-320.jpg";
+import Geometric06Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-06-640.jpg";
+import Geometric06Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-06-1920.jpg";
 import { jsx as jsx1361 } from "react/jsx-runtime";
 var Geometric06WidthMap = {
   320: Geometric06Src320,
@@ -20547,10 +20547,10 @@ var Geometric06 = ({ width = 1024, height, ...rest }) => {
 var Geometric06_default = Geometric06;
 
 // src/backgrounds/Geometric07.tsx
-import Geometric07Src from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-1024.jpg";
-import Geometric07Src320 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-320.jpg";
-import Geometric07Src640 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-640.jpg";
-import Geometric07Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/geometric-07-1920.jpg";
+import Geometric07Src from "@snowui-design-system/resource-base/assets/backgrounds/geometric-07-1024.jpg";
+import Geometric07Src320 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-07-320.jpg";
+import Geometric07Src640 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-07-640.jpg";
+import Geometric07Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/geometric-07-1920.jpg";
 import { jsx as jsx1362 } from "react/jsx-runtime";
 var Geometric07WidthMap = {
   320: Geometric07Src320,
@@ -20591,10 +20591,10 @@ var Geometric07 = ({ width = 1024, height, ...rest }) => {
 var Geometric07_default = Geometric07;
 
 // src/backgrounds/Gradient01.tsx
-import Gradient01Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-1024.jpg";
-import Gradient01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-320.jpg";
-import Gradient01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-640.jpg";
-import Gradient01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-01-1920.jpg";
+import Gradient01Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-01-1024.jpg";
+import Gradient01Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-01-320.jpg";
+import Gradient01Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-01-640.jpg";
+import Gradient01Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-01-1920.jpg";
 import { jsx as jsx1363 } from "react/jsx-runtime";
 var Gradient01WidthMap = {
   320: Gradient01Src320,
@@ -20635,10 +20635,10 @@ var Gradient01 = ({ width = 1024, height, ...rest }) => {
 var Gradient01_default = Gradient01;
 
 // src/backgrounds/Gradient02.tsx
-import Gradient02Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-1024.jpg";
-import Gradient02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-320.jpg";
-import Gradient02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-640.jpg";
-import Gradient02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-02-1920.jpg";
+import Gradient02Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-02-1024.jpg";
+import Gradient02Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-02-320.jpg";
+import Gradient02Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-02-640.jpg";
+import Gradient02Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-02-1920.jpg";
 import { jsx as jsx1364 } from "react/jsx-runtime";
 var Gradient02WidthMap = {
   320: Gradient02Src320,
@@ -20679,10 +20679,10 @@ var Gradient02 = ({ width = 1024, height, ...rest }) => {
 var Gradient02_default = Gradient02;
 
 // src/backgrounds/Gradient03.tsx
-import Gradient03Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-1024.jpg";
-import Gradient03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-320.jpg";
-import Gradient03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-640.jpg";
-import Gradient03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-03-1920.jpg";
+import Gradient03Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-03-1024.jpg";
+import Gradient03Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-03-320.jpg";
+import Gradient03Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-03-640.jpg";
+import Gradient03Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-03-1920.jpg";
 import { jsx as jsx1365 } from "react/jsx-runtime";
 var Gradient03WidthMap = {
   320: Gradient03Src320,
@@ -20723,10 +20723,10 @@ var Gradient03 = ({ width = 1024, height, ...rest }) => {
 var Gradient03_default = Gradient03;
 
 // src/backgrounds/Gradient04.tsx
-import Gradient04Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-1024.jpg";
-import Gradient04Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-320.jpg";
-import Gradient04Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-640.jpg";
-import Gradient04Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-04-1920.jpg";
+import Gradient04Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-04-1024.jpg";
+import Gradient04Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-04-320.jpg";
+import Gradient04Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-04-640.jpg";
+import Gradient04Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-04-1920.jpg";
 import { jsx as jsx1366 } from "react/jsx-runtime";
 var Gradient04WidthMap = {
   320: Gradient04Src320,
@@ -20767,10 +20767,10 @@ var Gradient04 = ({ width = 1024, height, ...rest }) => {
 var Gradient04_default = Gradient04;
 
 // src/backgrounds/Gradient05.tsx
-import Gradient05Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-1024.jpg";
-import Gradient05Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-320.jpg";
-import Gradient05Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-640.jpg";
-import Gradient05Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-05-1920.jpg";
+import Gradient05Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-05-1024.jpg";
+import Gradient05Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-05-320.jpg";
+import Gradient05Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-05-640.jpg";
+import Gradient05Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-05-1920.jpg";
 import { jsx as jsx1367 } from "react/jsx-runtime";
 var Gradient05WidthMap = {
   320: Gradient05Src320,
@@ -20811,10 +20811,10 @@ var Gradient05 = ({ width = 1024, height, ...rest }) => {
 var Gradient05_default = Gradient05;
 
 // src/backgrounds/Gradient06.tsx
-import Gradient06Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-1024.jpg";
-import Gradient06Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-320.jpg";
-import Gradient06Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-640.jpg";
-import Gradient06Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-06-1920.jpg";
+import Gradient06Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-06-1024.jpg";
+import Gradient06Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-06-320.jpg";
+import Gradient06Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-06-640.jpg";
+import Gradient06Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-06-1920.jpg";
 import { jsx as jsx1368 } from "react/jsx-runtime";
 var Gradient06WidthMap = {
   320: Gradient06Src320,
@@ -20855,10 +20855,10 @@ var Gradient06 = ({ width = 1024, height, ...rest }) => {
 var Gradient06_default = Gradient06;
 
 // src/backgrounds/Gradient07.tsx
-import Gradient07Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-1024.jpg";
-import Gradient07Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-320.jpg";
-import Gradient07Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-640.jpg";
-import Gradient07Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-07-1920.jpg";
+import Gradient07Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-07-1024.jpg";
+import Gradient07Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-07-320.jpg";
+import Gradient07Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-07-640.jpg";
+import Gradient07Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-07-1920.jpg";
 import { jsx as jsx1369 } from "react/jsx-runtime";
 var Gradient07WidthMap = {
   320: Gradient07Src320,
@@ -20899,10 +20899,10 @@ var Gradient07 = ({ width = 1024, height, ...rest }) => {
 var Gradient07_default = Gradient07;
 
 // src/backgrounds/Gradient08.tsx
-import Gradient08Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-1024.jpg";
-import Gradient08Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-320.jpg";
-import Gradient08Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-640.jpg";
-import Gradient08Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-08-1920.jpg";
+import Gradient08Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-08-1024.jpg";
+import Gradient08Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-08-320.jpg";
+import Gradient08Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-08-640.jpg";
+import Gradient08Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-08-1920.jpg";
 import { jsx as jsx1370 } from "react/jsx-runtime";
 var Gradient08WidthMap = {
   320: Gradient08Src320,
@@ -20943,10 +20943,10 @@ var Gradient08 = ({ width = 1024, height, ...rest }) => {
 var Gradient08_default = Gradient08;
 
 // src/backgrounds/Gradient09.tsx
-import Gradient09Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-1024.jpg";
-import Gradient09Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-320.jpg";
-import Gradient09Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-640.jpg";
-import Gradient09Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-09-1920.jpg";
+import Gradient09Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-09-1024.jpg";
+import Gradient09Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-09-320.jpg";
+import Gradient09Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-09-640.jpg";
+import Gradient09Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-09-1920.jpg";
 import { jsx as jsx1371 } from "react/jsx-runtime";
 var Gradient09WidthMap = {
   320: Gradient09Src320,
@@ -20987,10 +20987,10 @@ var Gradient09 = ({ width = 1024, height, ...rest }) => {
 var Gradient09_default = Gradient09;
 
 // src/backgrounds/Gradient10.tsx
-import Gradient10Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-1024.jpg";
-import Gradient10Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-320.jpg";
-import Gradient10Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-640.jpg";
-import Gradient10Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-10-1920.jpg";
+import Gradient10Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-10-1024.jpg";
+import Gradient10Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-10-320.jpg";
+import Gradient10Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-10-640.jpg";
+import Gradient10Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-10-1920.jpg";
 import { jsx as jsx1372 } from "react/jsx-runtime";
 var Gradient10WidthMap = {
   320: Gradient10Src320,
@@ -21031,10 +21031,10 @@ var Gradient10 = ({ width = 1024, height, ...rest }) => {
 var Gradient10_default = Gradient10;
 
 // src/backgrounds/Gradient11.tsx
-import Gradient11Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-1024.jpg";
-import Gradient11Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-320.jpg";
-import Gradient11Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-640.jpg";
-import Gradient11Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-11-1920.jpg";
+import Gradient11Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-11-1024.jpg";
+import Gradient11Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-11-320.jpg";
+import Gradient11Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-11-640.jpg";
+import Gradient11Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-11-1920.jpg";
 import { jsx as jsx1373 } from "react/jsx-runtime";
 var Gradient11WidthMap = {
   320: Gradient11Src320,
@@ -21075,10 +21075,10 @@ var Gradient11 = ({ width = 1024, height, ...rest }) => {
 var Gradient11_default = Gradient11;
 
 // src/backgrounds/Gradient12.tsx
-import Gradient12Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-1024.jpg";
-import Gradient12Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-320.jpg";
-import Gradient12Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-640.jpg";
-import Gradient12Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-12-1920.jpg";
+import Gradient12Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-12-1024.jpg";
+import Gradient12Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-12-320.jpg";
+import Gradient12Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-12-640.jpg";
+import Gradient12Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-12-1920.jpg";
 import { jsx as jsx1374 } from "react/jsx-runtime";
 var Gradient12WidthMap = {
   320: Gradient12Src320,
@@ -21119,10 +21119,10 @@ var Gradient12 = ({ width = 1024, height, ...rest }) => {
 var Gradient12_default = Gradient12;
 
 // src/backgrounds/Gradient13.tsx
-import Gradient13Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-1024.jpg";
-import Gradient13Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-320.jpg";
-import Gradient13Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-640.jpg";
-import Gradient13Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-13-1920.jpg";
+import Gradient13Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-13-1024.jpg";
+import Gradient13Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-13-320.jpg";
+import Gradient13Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-13-640.jpg";
+import Gradient13Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-13-1920.jpg";
 import { jsx as jsx1375 } from "react/jsx-runtime";
 var Gradient13WidthMap = {
   320: Gradient13Src320,
@@ -21163,10 +21163,10 @@ var Gradient13 = ({ width = 1024, height, ...rest }) => {
 var Gradient13_default = Gradient13;
 
 // src/backgrounds/Gradient14.tsx
-import Gradient14Src from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-1024.jpg";
-import Gradient14Src320 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-320.jpg";
-import Gradient14Src640 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-640.jpg";
-import Gradient14Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/gradient-14-1920.jpg";
+import Gradient14Src from "@snowui-design-system/resource-base/assets/backgrounds/gradient-14-1024.jpg";
+import Gradient14Src320 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-14-320.jpg";
+import Gradient14Src640 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-14-640.jpg";
+import Gradient14Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/gradient-14-1920.jpg";
 import { jsx as jsx1376 } from "react/jsx-runtime";
 var Gradient14WidthMap = {
   320: Gradient14Src320,
@@ -21207,10 +21207,10 @@ var Gradient14 = ({ width = 1024, height, ...rest }) => {
 var Gradient14_default = Gradient14;
 
 // src/backgrounds/Minimal01.tsx
-import Minimal01Src from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-1024.jpg";
-import Minimal01Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-320.jpg";
-import Minimal01Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-640.jpg";
-import Minimal01Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-01-1920.jpg";
+import Minimal01Src from "@snowui-design-system/resource-base/assets/backgrounds/minimal-01-1024.jpg";
+import Minimal01Src320 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-01-320.jpg";
+import Minimal01Src640 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-01-640.jpg";
+import Minimal01Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-01-1920.jpg";
 import { jsx as jsx1377 } from "react/jsx-runtime";
 var Minimal01WidthMap = {
   320: Minimal01Src320,
@@ -21251,10 +21251,10 @@ var Minimal01 = ({ width = 1024, height, ...rest }) => {
 var Minimal01_default = Minimal01;
 
 // src/backgrounds/Minimal02.tsx
-import Minimal02Src from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-1024.jpg";
-import Minimal02Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-320.jpg";
-import Minimal02Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-640.jpg";
-import Minimal02Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-02-1920.jpg";
+import Minimal02Src from "@snowui-design-system/resource-base/assets/backgrounds/minimal-02-1024.jpg";
+import Minimal02Src320 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-02-320.jpg";
+import Minimal02Src640 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-02-640.jpg";
+import Minimal02Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-02-1920.jpg";
 import { jsx as jsx1378 } from "react/jsx-runtime";
 var Minimal02WidthMap = {
   320: Minimal02Src320,
@@ -21295,10 +21295,10 @@ var Minimal02 = ({ width = 1024, height, ...rest }) => {
 var Minimal02_default = Minimal02;
 
 // src/backgrounds/Minimal03.tsx
-import Minimal03Src from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-1024.jpg";
-import Minimal03Src320 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-320.jpg";
-import Minimal03Src640 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-640.jpg";
-import Minimal03Src1920 from "@snowui-design-system/resource-core/assets/backgrounds/minimal-03-1920.jpg";
+import Minimal03Src from "@snowui-design-system/resource-base/assets/backgrounds/minimal-03-1024.jpg";
+import Minimal03Src320 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-03-320.jpg";
+import Minimal03Src640 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-03-640.jpg";
+import Minimal03Src1920 from "@snowui-design-system/resource-base/assets/backgrounds/minimal-03-1920.jpg";
 import { jsx as jsx1379 } from "react/jsx-runtime";
 var Minimal03WidthMap = {
   320: Minimal03Src320,
@@ -21339,7 +21339,7 @@ var Minimal03 = ({ width = 1024, height, ...rest }) => {
 var Minimal03_default = Minimal03;
 
 // src/cursors/CursorsBeachball.tsx
-import CursorsBeachballSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-beachball.svg";
+import CursorsBeachballSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-beachball.svg";
 import { jsx as jsx1380 } from "react/jsx-runtime";
 var CursorsBeachball = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21359,7 +21359,7 @@ var CursorsBeachball = ({ size = 32, width, height, ...rest }) => {
 var CursorsBeachball_default = CursorsBeachball;
 
 // src/cursors/CursorsCross.tsx
-import CursorsCrossSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-cross.svg";
+import CursorsCrossSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-cross.svg";
 import { jsx as jsx1381 } from "react/jsx-runtime";
 var CursorsCross = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21379,7 +21379,7 @@ var CursorsCross = ({ size = 32, width, height, ...rest }) => {
 var CursorsCross_default = CursorsCross;
 
 // src/cursors/CursorsDefault.tsx
-import CursorsDefaultSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-default.svg";
+import CursorsDefaultSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-default.svg";
 import { jsx as jsx1382 } from "react/jsx-runtime";
 var CursorsDefault = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21399,7 +21399,7 @@ var CursorsDefault = ({ size = 32, width, height, ...rest }) => {
 var CursorsDefault_default = CursorsDefault;
 
 // src/cursors/CursorsHandGrabbing.tsx
-import CursorsHandGrabbingSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-grabbing.svg";
+import CursorsHandGrabbingSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-hand-grabbing.svg";
 import { jsx as jsx1383 } from "react/jsx-runtime";
 var CursorsHandGrabbing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21419,7 +21419,7 @@ var CursorsHandGrabbing = ({ size = 32, width, height, ...rest }) => {
 var CursorsHandGrabbing_default = CursorsHandGrabbing;
 
 // src/cursors/CursorsHandOpen.tsx
-import CursorsHandOpenSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-open.svg";
+import CursorsHandOpenSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-hand-open.svg";
 import { jsx as jsx1384 } from "react/jsx-runtime";
 var CursorsHandOpen = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21439,7 +21439,7 @@ var CursorsHandOpen = ({ size = 32, width, height, ...rest }) => {
 var CursorsHandOpen_default = CursorsHandOpen;
 
 // src/cursors/CursorsHandPointing.tsx
-import CursorsHandPointingSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-hand-pointing.svg";
+import CursorsHandPointingSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-hand-pointing.svg";
 import { jsx as jsx1385 } from "react/jsx-runtime";
 var CursorsHandPointing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21459,7 +21459,7 @@ var CursorsHandPointing = ({ size = 32, width, height, ...rest }) => {
 var CursorsHandPointing_default = CursorsHandPointing;
 
 // src/cursors/CursorsMenu.tsx
-import CursorsMenuSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-menu.svg";
+import CursorsMenuSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-menu.svg";
 import { jsx as jsx1386 } from "react/jsx-runtime";
 var CursorsMenu = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21479,7 +21479,7 @@ var CursorsMenu = ({ size = 32, width, height, ...rest }) => {
 var CursorsMenu_default = CursorsMenu;
 
 // src/cursors/CursorsMove.tsx
-import CursorsMoveSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-move.svg";
+import CursorsMoveSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-move.svg";
 import { jsx as jsx1387 } from "react/jsx-runtime";
 var CursorsMove = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21499,7 +21499,7 @@ var CursorsMove = ({ size = 32, width, height, ...rest }) => {
 var CursorsMove_default = CursorsMove;
 
 // src/cursors/CursorsResizeDown.tsx
-import CursorsResizeDownSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-down.svg";
+import CursorsResizeDownSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-down.svg";
 import { jsx as jsx1388 } from "react/jsx-runtime";
 var CursorsResizeDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21519,7 +21519,7 @@ var CursorsResizeDown = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeDown_default = CursorsResizeDown;
 
 // src/cursors/CursorsResizeLeftRight.tsx
-import CursorsResizeLeftRightSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-left-right.svg";
+import CursorsResizeLeftRightSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-left-right.svg";
 import { jsx as jsx1389 } from "react/jsx-runtime";
 var CursorsResizeLeftRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21539,7 +21539,7 @@ var CursorsResizeLeftRight = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeLeftRight_default = CursorsResizeLeftRight;
 
 // src/cursors/CursorsResizeLeft.tsx
-import CursorsResizeLeftSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-left.svg";
+import CursorsResizeLeftSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-left.svg";
 import { jsx as jsx1390 } from "react/jsx-runtime";
 var CursorsResizeLeft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21559,7 +21559,7 @@ var CursorsResizeLeft = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeLeft_default = CursorsResizeLeft;
 
 // src/cursors/CursorsResizeNorthEastSouthWest.tsx
-import CursorsResizeNorthEastSouthWestSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-east-south-west.svg";
+import CursorsResizeNorthEastSouthWestSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-east-south-west.svg";
 import { jsx as jsx1391 } from "react/jsx-runtime";
 var CursorsResizeNorthEastSouthWest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21579,7 +21579,7 @@ var CursorsResizeNorthEastSouthWest = ({ size = 32, width, height, ...rest }) =>
 var CursorsResizeNorthEastSouthWest_default = CursorsResizeNorthEastSouthWest;
 
 // src/cursors/CursorsResizeNorthSouth.tsx
-import CursorsResizeNorthSouthSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-south.svg";
+import CursorsResizeNorthSouthSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-south.svg";
 import { jsx as jsx1392 } from "react/jsx-runtime";
 var CursorsResizeNorthSouth = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21599,7 +21599,7 @@ var CursorsResizeNorthSouth = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeNorthSouth_default = CursorsResizeNorthSouth;
 
 // src/cursors/CursorsResizeNorthWestSouthEast.tsx
-import CursorsResizeNorthWestSouthEastSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-north-west-south-east.svg";
+import CursorsResizeNorthWestSouthEastSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-west-south-east.svg";
 import { jsx as jsx1393 } from "react/jsx-runtime";
 var CursorsResizeNorthWestSouthEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21619,7 +21619,7 @@ var CursorsResizeNorthWestSouthEast = ({ size = 32, width, height, ...rest }) =>
 var CursorsResizeNorthWestSouthEast_default = CursorsResizeNorthWestSouthEast;
 
 // src/cursors/CursorsResizeRight.tsx
-import CursorsResizeRightSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-right.svg";
+import CursorsResizeRightSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-right.svg";
 import { jsx as jsx1394 } from "react/jsx-runtime";
 var CursorsResizeRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21639,7 +21639,7 @@ var CursorsResizeRight = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeRight_default = CursorsResizeRight;
 
 // src/cursors/CursorsResizeUpDown.tsx
-import CursorsResizeUpDownSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-up-down.svg";
+import CursorsResizeUpDownSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-up-down.svg";
 import { jsx as jsx1395 } from "react/jsx-runtime";
 var CursorsResizeUpDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21659,7 +21659,7 @@ var CursorsResizeUpDown = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeUpDown_default = CursorsResizeUpDown;
 
 // src/cursors/CursorsResizeUp.tsx
-import CursorsResizeUpSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-up.svg";
+import CursorsResizeUpSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-up.svg";
 import { jsx as jsx1396 } from "react/jsx-runtime";
 var CursorsResizeUp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21679,7 +21679,7 @@ var CursorsResizeUp = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeUp_default = CursorsResizeUp;
 
 // src/cursors/CursorsResizeWestEast.tsx
-import CursorsResizeWestEastSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-resize-west-east.svg";
+import CursorsResizeWestEastSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-resize-west-east.svg";
 import { jsx as jsx1397 } from "react/jsx-runtime";
 var CursorsResizeWestEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21699,7 +21699,7 @@ var CursorsResizeWestEast = ({ size = 32, width, height, ...rest }) => {
 var CursorsResizeWestEast_default = CursorsResizeWestEast;
 
 // src/cursors/CursorsTextCursor.tsx
-import CursorsTextCursorSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-text-cursor.svg";
+import CursorsTextCursorSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-text-cursor.svg";
 import { jsx as jsx1398 } from "react/jsx-runtime";
 var CursorsTextCursor = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21719,7 +21719,7 @@ var CursorsTextCursor = ({ size = 32, width, height, ...rest }) => {
 var CursorsTextCursor_default = CursorsTextCursor;
 
 // src/cursors/CursorsZoomIn.tsx
-import CursorsZoomInSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-zoom-in.svg";
+import CursorsZoomInSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-zoom-in.svg";
 import { jsx as jsx1399 } from "react/jsx-runtime";
 var CursorsZoomIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21739,7 +21739,7 @@ var CursorsZoomIn = ({ size = 32, width, height, ...rest }) => {
 var CursorsZoomIn_default = CursorsZoomIn;
 
 // src/cursors/CursorsZoomOut.tsx
-import CursorsZoomOutSrc from "@snowui-design-system/resource-core/assets/cursors/cursors-zoom-out.svg";
+import CursorsZoomOutSrc from "@snowui-design-system/resource-base/assets/cursors/cursors-zoom-out.svg";
 import { jsx as jsx1400 } from "react/jsx-runtime";
 var CursorsZoomOut = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21759,7 +21759,7 @@ var CursorsZoomOut = ({ size = 32, width, height, ...rest }) => {
 var CursorsZoomOut_default = CursorsZoomOut;
 
 // src/emoji/BombEmoji.tsx
-import BombEmojiSrc from "@snowui-design-system/resource-core/assets/emoji/bomb-emoji.svg";
+import BombEmojiSrc from "@snowui-design-system/resource-base/assets/emoji/bomb-emoji.svg";
 import { jsx as jsx1401 } from "react/jsx-runtime";
 var BombEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21779,7 +21779,7 @@ var BombEmoji = ({ size = 32, width, height, ...rest }) => {
 var BombEmoji_default = BombEmoji;
 
 // src/emoji/FaceBlowingKiss.tsx
-import FaceBlowingKissSrc from "@snowui-design-system/resource-core/assets/emoji/face-blowing-kiss.svg";
+import FaceBlowingKissSrc from "@snowui-design-system/resource-base/assets/emoji/face-blowing-kiss.svg";
 import { jsx as jsx1402 } from "react/jsx-runtime";
 var FaceBlowingKiss = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21799,7 +21799,7 @@ var FaceBlowingKiss = ({ size = 32, width, height, ...rest }) => {
 var FaceBlowingKiss_default = FaceBlowingKiss;
 
 // src/emoji/FaceSteamFromNose.tsx
-import FaceSteamFromNoseSrc from "@snowui-design-system/resource-core/assets/emoji/face-steam-from-nose.svg";
+import FaceSteamFromNoseSrc from "@snowui-design-system/resource-base/assets/emoji/face-steam-from-nose.svg";
 import { jsx as jsx1403 } from "react/jsx-runtime";
 var FaceSteamFromNose = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21819,7 +21819,7 @@ var FaceSteamFromNose = ({ size = 32, width, height, ...rest }) => {
 var FaceSteamFromNose_default = FaceSteamFromNose;
 
 // src/emoji/FaceTearsJoy.tsx
-import FaceTearsJoySrc from "@snowui-design-system/resource-core/assets/emoji/face-tears-joy.svg";
+import FaceTearsJoySrc from "@snowui-design-system/resource-base/assets/emoji/face-tears-joy.svg";
 import { jsx as jsx1404 } from "react/jsx-runtime";
 var FaceTearsJoy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21839,7 +21839,7 @@ var FaceTearsJoy = ({ size = 32, width, height, ...rest }) => {
 var FaceTearsJoy_default = FaceTearsJoy;
 
 // src/emoji/GrinningCat.tsx
-import GrinningCatSrc from "@snowui-design-system/resource-core/assets/emoji/grinning-cat.svg";
+import GrinningCatSrc from "@snowui-design-system/resource-base/assets/emoji/grinning-cat.svg";
 import { jsx as jsx1405 } from "react/jsx-runtime";
 var GrinningCat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21859,7 +21859,7 @@ var GrinningCat = ({ size = 32, width, height, ...rest }) => {
 var GrinningCat_default = GrinningCat;
 
 // src/emoji/GrinningFaceSweat.tsx
-import GrinningFaceSweatSrc from "@snowui-design-system/resource-core/assets/emoji/grinning-face-sweat.svg";
+import GrinningFaceSweatSrc from "@snowui-design-system/resource-base/assets/emoji/grinning-face-sweat.svg";
 import { jsx as jsx1406 } from "react/jsx-runtime";
 var GrinningFaceSweat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21879,7 +21879,7 @@ var GrinningFaceSweat = ({ size = 32, width, height, ...rest }) => {
 var GrinningFaceSweat_default = GrinningFaceSweat;
 
 // src/emoji/HeartArrow.tsx
-import HeartArrowSrc from "@snowui-design-system/resource-core/assets/emoji/heart-arrow.svg";
+import HeartArrowSrc from "@snowui-design-system/resource-base/assets/emoji/heart-arrow.svg";
 import { jsx as jsx1407 } from "react/jsx-runtime";
 var HeartArrow = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21899,7 +21899,7 @@ var HeartArrow = ({ size = 32, width, height, ...rest }) => {
 var HeartArrow_default = HeartArrow;
 
 // src/emoji/HundredPoints.tsx
-import HundredPointsSrc from "@snowui-design-system/resource-core/assets/emoji/hundred-points.svg";
+import HundredPointsSrc from "@snowui-design-system/resource-base/assets/emoji/hundred-points.svg";
 import { jsx as jsx1408 } from "react/jsx-runtime";
 var HundredPoints = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21919,7 +21919,7 @@ var HundredPoints = ({ size = 32, width, height, ...rest }) => {
 var HundredPoints_default = HundredPoints;
 
 // src/emoji/LoudlyCryingFace.tsx
-import LoudlyCryingFaceSrc from "@snowui-design-system/resource-core/assets/emoji/loudly-crying-face.svg";
+import LoudlyCryingFaceSrc from "@snowui-design-system/resource-base/assets/emoji/loudly-crying-face.svg";
 import { jsx as jsx1409 } from "react/jsx-runtime";
 var LoudlyCryingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21939,7 +21939,7 @@ var LoudlyCryingFace = ({ size = 32, width, height, ...rest }) => {
 var LoudlyCryingFace_default = LoudlyCryingFace;
 
 // src/emoji/RedHeart.tsx
-import RedHeartSrc from "@snowui-design-system/resource-core/assets/emoji/red-heart.svg";
+import RedHeartSrc from "@snowui-design-system/resource-base/assets/emoji/red-heart.svg";
 import { jsx as jsx1410 } from "react/jsx-runtime";
 var RedHeart = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21959,7 +21959,7 @@ var RedHeart = ({ size = 32, width, height, ...rest }) => {
 var RedHeart_default = RedHeart;
 
 // src/emoji/RobotEmoji.tsx
-import RobotEmojiSrc from "@snowui-design-system/resource-core/assets/emoji/robot-emoji.svg";
+import RobotEmojiSrc from "@snowui-design-system/resource-base/assets/emoji/robot-emoji.svg";
 import { jsx as jsx1411 } from "react/jsx-runtime";
 var RobotEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21979,7 +21979,7 @@ var RobotEmoji = ({ size = 32, width, height, ...rest }) => {
 var RobotEmoji_default = RobotEmoji;
 
 // src/emoji/SeeMonkey.tsx
-import SeeMonkeySrc from "@snowui-design-system/resource-core/assets/emoji/see-monkey.svg";
+import SeeMonkeySrc from "@snowui-design-system/resource-base/assets/emoji/see-monkey.svg";
 import { jsx as jsx1412 } from "react/jsx-runtime";
 var SeeMonkey = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -21999,7 +21999,7 @@ var SeeMonkey = ({ size = 32, width, height, ...rest }) => {
 var SeeMonkey_default = SeeMonkey;
 
 // src/emoji/SkullCrossbones.tsx
-import SkullCrossbonesSrc from "@snowui-design-system/resource-core/assets/emoji/skull-crossbones.svg";
+import SkullCrossbonesSrc from "@snowui-design-system/resource-base/assets/emoji/skull-crossbones.svg";
 import { jsx as jsx1413 } from "react/jsx-runtime";
 var SkullCrossbones = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22019,7 +22019,7 @@ var SkullCrossbones = ({ size = 32, width, height, ...rest }) => {
 var SkullCrossbones_default = SkullCrossbones;
 
 // src/emoji/SmilingFaceHearts.tsx
-import SmilingFaceHeartsSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-hearts.svg";
+import SmilingFaceHeartsSrc from "@snowui-design-system/resource-base/assets/emoji/smiling-face-hearts.svg";
 import { jsx as jsx1414 } from "react/jsx-runtime";
 var SmilingFaceHearts = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22039,7 +22039,7 @@ var SmilingFaceHearts = ({ size = 32, width, height, ...rest }) => {
 var SmilingFaceHearts_default = SmilingFaceHearts;
 
 // src/emoji/SmilingFaceHorns.tsx
-import SmilingFaceHornsSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-horns.svg";
+import SmilingFaceHornsSrc from "@snowui-design-system/resource-base/assets/emoji/smiling-face-horns.svg";
 import { jsx as jsx1415 } from "react/jsx-runtime";
 var SmilingFaceHorns = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22059,7 +22059,7 @@ var SmilingFaceHorns = ({ size = 32, width, height, ...rest }) => {
 var SmilingFaceHorns_default = SmilingFaceHorns;
 
 // src/emoji/SmilingFaceSunglasses.tsx
-import SmilingFaceSunglassesSrc from "@snowui-design-system/resource-core/assets/emoji/smiling-face-sunglasses.svg";
+import SmilingFaceSunglassesSrc from "@snowui-design-system/resource-base/assets/emoji/smiling-face-sunglasses.svg";
 import { jsx as jsx1416 } from "react/jsx-runtime";
 var SmilingFaceSunglasses = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22079,7 +22079,7 @@ var SmilingFaceSunglasses = ({ size = 32, width, height, ...rest }) => {
 var SmilingFaceSunglasses_default = SmilingFaceSunglasses;
 
 // src/emoji/SnowflakeEmoji.tsx
-import SnowflakeEmojiSrc from "@snowui-design-system/resource-core/assets/emoji/snowflake-emoji.svg";
+import SnowflakeEmojiSrc from "@snowui-design-system/resource-base/assets/emoji/snowflake-emoji.svg";
 import { jsx as jsx1417 } from "react/jsx-runtime";
 var SnowflakeEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22099,7 +22099,7 @@ var SnowflakeEmoji = ({ size = 32, width, height, ...rest }) => {
 var SnowflakeEmoji_default = SnowflakeEmoji;
 
 // src/emoji/Snowman.tsx
-import SnowmanSrc from "@snowui-design-system/resource-core/assets/emoji/snowman.svg";
+import SnowmanSrc from "@snowui-design-system/resource-base/assets/emoji/snowman.svg";
 import { jsx as jsx1418 } from "react/jsx-runtime";
 var Snowman = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22119,7 +22119,7 @@ var Snowman = ({ size = 32, width, height, ...rest }) => {
 var Snowman_default = Snowman;
 
 // src/emoji/UmbrellaEmoji.tsx
-import UmbrellaEmojiSrc from "@snowui-design-system/resource-core/assets/emoji/umbrella-emoji.svg";
+import UmbrellaEmojiSrc from "@snowui-design-system/resource-base/assets/emoji/umbrella-emoji.svg";
 import { jsx as jsx1419 } from "react/jsx-runtime";
 var UmbrellaEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22139,7 +22139,7 @@ var UmbrellaEmoji = ({ size = 32, width, height, ...rest }) => {
 var UmbrellaEmoji_default = UmbrellaEmoji;
 
 // src/emoji/WinkingFaceTongue.tsx
-import WinkingFaceTongueSrc from "@snowui-design-system/resource-core/assets/emoji/winking-face-tongue.svg";
+import WinkingFaceTongueSrc from "@snowui-design-system/resource-base/assets/emoji/winking-face-tongue.svg";
 import { jsx as jsx1420 } from "react/jsx-runtime";
 var WinkingFaceTongue = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22159,7 +22159,7 @@ var WinkingFaceTongue = ({ size = 32, width, height, ...rest }) => {
 var WinkingFaceTongue_default = WinkingFaceTongue;
 
 // src/emoji/WinkingFace.tsx
-import WinkingFaceSrc from "@snowui-design-system/resource-core/assets/emoji/winking-face.svg";
+import WinkingFaceSrc from "@snowui-design-system/resource-base/assets/emoji/winking-face.svg";
 import { jsx as jsx1421 } from "react/jsx-runtime";
 var WinkingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -22179,7 +22179,7 @@ var WinkingFace = ({ size = 32, width, height, ...rest }) => {
 var WinkingFace_default = WinkingFace;
 
 // src/illustrations/Humanoid.tsx
-import HumanoidSrc from "@snowui-design-system/resource-core/assets/illustrations/humanoid.svg";
+import HumanoidSrc from "@snowui-design-system/resource-base/assets/illustrations/humanoid.svg";
 import { jsx as jsx1422 } from "react/jsx-runtime";
 var Humanoid = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -22198,10 +22198,10 @@ var Humanoid = ({ width = 320, height, ...rest }) => {
 var Humanoid_default = Humanoid;
 
 // src/illustrations/Illustration01.tsx
-import Illustration01Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-320.png";
-import Illustration01Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-160.png";
-import Illustration01Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-640.png";
-import Illustration01Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-01-1024.png";
+import Illustration01Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-01-320.png";
+import Illustration01Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-01-160.png";
+import Illustration01Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-01-640.png";
+import Illustration01Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-01-1024.png";
 import { jsx as jsx1423 } from "react/jsx-runtime";
 var Illustration01WidthMap = {
   160: Illustration01Src160,
@@ -22242,10 +22242,10 @@ var Illustration01 = ({ width = 320, height, ...rest }) => {
 var Illustration01_default = Illustration01;
 
 // src/illustrations/Illustration02.tsx
-import Illustration02Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-320.png";
-import Illustration02Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-160.png";
-import Illustration02Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-640.png";
-import Illustration02Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-02-1024.png";
+import Illustration02Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-02-320.png";
+import Illustration02Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-02-160.png";
+import Illustration02Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-02-640.png";
+import Illustration02Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-02-1024.png";
 import { jsx as jsx1424 } from "react/jsx-runtime";
 var Illustration02WidthMap = {
   160: Illustration02Src160,
@@ -22286,10 +22286,10 @@ var Illustration02 = ({ width = 320, height, ...rest }) => {
 var Illustration02_default = Illustration02;
 
 // src/illustrations/Illustration03.tsx
-import Illustration03Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-320.png";
-import Illustration03Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-160.png";
-import Illustration03Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-640.png";
-import Illustration03Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-03-1024.png";
+import Illustration03Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-03-320.png";
+import Illustration03Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-03-160.png";
+import Illustration03Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-03-640.png";
+import Illustration03Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-03-1024.png";
 import { jsx as jsx1425 } from "react/jsx-runtime";
 var Illustration03WidthMap = {
   160: Illustration03Src160,
@@ -22330,10 +22330,10 @@ var Illustration03 = ({ width = 320, height, ...rest }) => {
 var Illustration03_default = Illustration03;
 
 // src/illustrations/Illustration04.tsx
-import Illustration04Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-320.png";
-import Illustration04Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-160.png";
-import Illustration04Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-640.png";
-import Illustration04Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-04-1024.png";
+import Illustration04Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-04-320.png";
+import Illustration04Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-04-160.png";
+import Illustration04Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-04-640.png";
+import Illustration04Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-04-1024.png";
 import { jsx as jsx1426 } from "react/jsx-runtime";
 var Illustration04WidthMap = {
   160: Illustration04Src160,
@@ -22374,10 +22374,10 @@ var Illustration04 = ({ width = 320, height, ...rest }) => {
 var Illustration04_default = Illustration04;
 
 // src/illustrations/Illustration05.tsx
-import Illustration05Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-320.png";
-import Illustration05Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-160.png";
-import Illustration05Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-640.png";
-import Illustration05Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-05-1024.png";
+import Illustration05Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-05-320.png";
+import Illustration05Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-05-160.png";
+import Illustration05Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-05-640.png";
+import Illustration05Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-05-1024.png";
 import { jsx as jsx1427 } from "react/jsx-runtime";
 var Illustration05WidthMap = {
   160: Illustration05Src160,
@@ -22418,10 +22418,10 @@ var Illustration05 = ({ width = 320, height, ...rest }) => {
 var Illustration05_default = Illustration05;
 
 // src/illustrations/Illustration06.tsx
-import Illustration06Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-320.png";
-import Illustration06Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-160.png";
-import Illustration06Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-640.png";
-import Illustration06Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-06-1024.png";
+import Illustration06Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-06-320.png";
+import Illustration06Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-06-160.png";
+import Illustration06Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-06-640.png";
+import Illustration06Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-06-1024.png";
 import { jsx as jsx1428 } from "react/jsx-runtime";
 var Illustration06WidthMap = {
   160: Illustration06Src160,
@@ -22462,10 +22462,10 @@ var Illustration06 = ({ width = 320, height, ...rest }) => {
 var Illustration06_default = Illustration06;
 
 // src/illustrations/Illustration07.tsx
-import Illustration07Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-320.png";
-import Illustration07Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-160.png";
-import Illustration07Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-640.png";
-import Illustration07Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-07-1024.png";
+import Illustration07Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-07-320.png";
+import Illustration07Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-07-160.png";
+import Illustration07Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-07-640.png";
+import Illustration07Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-07-1024.png";
 import { jsx as jsx1429 } from "react/jsx-runtime";
 var Illustration07WidthMap = {
   160: Illustration07Src160,
@@ -22506,10 +22506,10 @@ var Illustration07 = ({ width = 320, height, ...rest }) => {
 var Illustration07_default = Illustration07;
 
 // src/illustrations/Illustration08.tsx
-import Illustration08Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-320.png";
-import Illustration08Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-160.png";
-import Illustration08Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-640.png";
-import Illustration08Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-08-1024.png";
+import Illustration08Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-08-320.png";
+import Illustration08Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-08-160.png";
+import Illustration08Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-08-640.png";
+import Illustration08Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-08-1024.png";
 import { jsx as jsx1430 } from "react/jsx-runtime";
 var Illustration08WidthMap = {
   160: Illustration08Src160,
@@ -22550,10 +22550,10 @@ var Illustration08 = ({ width = 320, height, ...rest }) => {
 var Illustration08_default = Illustration08;
 
 // src/illustrations/Illustration09.tsx
-import Illustration09Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-320.png";
-import Illustration09Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-160.png";
-import Illustration09Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-640.png";
-import Illustration09Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-09-1024.png";
+import Illustration09Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-09-320.png";
+import Illustration09Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-09-160.png";
+import Illustration09Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-09-640.png";
+import Illustration09Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-09-1024.png";
 import { jsx as jsx1431 } from "react/jsx-runtime";
 var Illustration09WidthMap = {
   160: Illustration09Src160,
@@ -22594,10 +22594,10 @@ var Illustration09 = ({ width = 320, height, ...rest }) => {
 var Illustration09_default = Illustration09;
 
 // src/illustrations/Illustration10.tsx
-import Illustration10Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-320.png";
-import Illustration10Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-160.png";
-import Illustration10Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-640.png";
-import Illustration10Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-10-1024.png";
+import Illustration10Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-10-320.png";
+import Illustration10Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-10-160.png";
+import Illustration10Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-10-640.png";
+import Illustration10Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-10-1024.png";
 import { jsx as jsx1432 } from "react/jsx-runtime";
 var Illustration10WidthMap = {
   160: Illustration10Src160,
@@ -22638,10 +22638,10 @@ var Illustration10 = ({ width = 320, height, ...rest }) => {
 var Illustration10_default = Illustration10;
 
 // src/illustrations/Illustration11.tsx
-import Illustration11Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-320.png";
-import Illustration11Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-160.png";
-import Illustration11Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-640.png";
-import Illustration11Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-11-1024.png";
+import Illustration11Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-11-320.png";
+import Illustration11Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-11-160.png";
+import Illustration11Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-11-640.png";
+import Illustration11Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-11-1024.png";
 import { jsx as jsx1433 } from "react/jsx-runtime";
 var Illustration11WidthMap = {
   160: Illustration11Src160,
@@ -22682,10 +22682,10 @@ var Illustration11 = ({ width = 320, height, ...rest }) => {
 var Illustration11_default = Illustration11;
 
 // src/illustrations/Illustration12.tsx
-import Illustration12Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-320.png";
-import Illustration12Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-160.png";
-import Illustration12Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-640.png";
-import Illustration12Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-12-1024.png";
+import Illustration12Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-12-320.png";
+import Illustration12Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-12-160.png";
+import Illustration12Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-12-640.png";
+import Illustration12Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-12-1024.png";
 import { jsx as jsx1434 } from "react/jsx-runtime";
 var Illustration12WidthMap = {
   160: Illustration12Src160,
@@ -22726,10 +22726,10 @@ var Illustration12 = ({ width = 320, height, ...rest }) => {
 var Illustration12_default = Illustration12;
 
 // src/illustrations/Illustration13.tsx
-import Illustration13Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-320.png";
-import Illustration13Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-160.png";
-import Illustration13Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-640.png";
-import Illustration13Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-13-1024.png";
+import Illustration13Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-13-320.png";
+import Illustration13Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-13-160.png";
+import Illustration13Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-13-640.png";
+import Illustration13Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-13-1024.png";
 import { jsx as jsx1435 } from "react/jsx-runtime";
 var Illustration13WidthMap = {
   160: Illustration13Src160,
@@ -22770,10 +22770,10 @@ var Illustration13 = ({ width = 320, height, ...rest }) => {
 var Illustration13_default = Illustration13;
 
 // src/illustrations/Illustration14.tsx
-import Illustration14Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-320.png";
-import Illustration14Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-160.png";
-import Illustration14Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-640.png";
-import Illustration14Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-14-1024.png";
+import Illustration14Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-14-320.png";
+import Illustration14Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-14-160.png";
+import Illustration14Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-14-640.png";
+import Illustration14Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-14-1024.png";
 import { jsx as jsx1436 } from "react/jsx-runtime";
 var Illustration14WidthMap = {
   160: Illustration14Src160,
@@ -22814,10 +22814,10 @@ var Illustration14 = ({ width = 320, height, ...rest }) => {
 var Illustration14_default = Illustration14;
 
 // src/illustrations/Illustration15.tsx
-import Illustration15Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-320.png";
-import Illustration15Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-160.png";
-import Illustration15Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-640.png";
-import Illustration15Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-15-1024.png";
+import Illustration15Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-15-320.png";
+import Illustration15Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-15-160.png";
+import Illustration15Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-15-640.png";
+import Illustration15Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-15-1024.png";
 import { jsx as jsx1437 } from "react/jsx-runtime";
 var Illustration15WidthMap = {
   160: Illustration15Src160,
@@ -22858,10 +22858,10 @@ var Illustration15 = ({ width = 320, height, ...rest }) => {
 var Illustration15_default = Illustration15;
 
 // src/illustrations/Illustration16.tsx
-import Illustration16Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-320.png";
-import Illustration16Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-160.png";
-import Illustration16Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-640.png";
-import Illustration16Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16-1024.png";
+import Illustration16Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-16-320.png";
+import Illustration16Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-16-160.png";
+import Illustration16Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-16-640.png";
+import Illustration16Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-16-1024.png";
 import { jsx as jsx1438 } from "react/jsx-runtime";
 var Illustration16WidthMap = {
   160: Illustration16Src160,
@@ -22902,11 +22902,11 @@ var Illustration16 = ({ width = 320, height, ...rest }) => {
 var Illustration16_default = Illustration16;
 
 // src/illustrations/Illustration.tsx
-import IllustrationSrc from "@snowui-design-system/resource-core/assets/illustrations/illustration-16.png";
-import IllustrationSrc16 from "@snowui-design-system/resource-core/assets/illustrations/illustration-16.png";
-import IllustrationSrc20 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20.png";
-import IllustrationSrc24 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24.png";
-import IllustrationSrc28 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28.png";
+import IllustrationSrc from "@snowui-design-system/resource-base/assets/illustrations/illustration-16.png";
+import IllustrationSrc16 from "@snowui-design-system/resource-base/assets/illustrations/illustration-16.png";
+import IllustrationSrc20 from "@snowui-design-system/resource-base/assets/illustrations/illustration-20.png";
+import IllustrationSrc24 from "@snowui-design-system/resource-base/assets/illustrations/illustration-24.png";
+import IllustrationSrc28 from "@snowui-design-system/resource-base/assets/illustrations/illustration-28.png";
 import { jsx as jsx1439 } from "react/jsx-runtime";
 var IllustrationWidthMap = {
   16: IllustrationSrc16,
@@ -22947,10 +22947,10 @@ var Illustration = ({ width = 320, height, ...rest }) => {
 var Illustration_default = Illustration;
 
 // src/illustrations/Illustration17.tsx
-import Illustration17Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-320.png";
-import Illustration17Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-160.png";
-import Illustration17Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-640.png";
-import Illustration17Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-17-1024.png";
+import Illustration17Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-17-320.png";
+import Illustration17Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-17-160.png";
+import Illustration17Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-17-640.png";
+import Illustration17Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-17-1024.png";
 import { jsx as jsx1440 } from "react/jsx-runtime";
 var Illustration17WidthMap = {
   160: Illustration17Src160,
@@ -22991,10 +22991,10 @@ var Illustration17 = ({ width = 320, height, ...rest }) => {
 var Illustration17_default = Illustration17;
 
 // src/illustrations/Illustration18.tsx
-import Illustration18Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-320.png";
-import Illustration18Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-160.png";
-import Illustration18Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-640.png";
-import Illustration18Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-18-1024.png";
+import Illustration18Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-18-320.png";
+import Illustration18Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-18-160.png";
+import Illustration18Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-18-640.png";
+import Illustration18Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-18-1024.png";
 import { jsx as jsx1441 } from "react/jsx-runtime";
 var Illustration18WidthMap = {
   160: Illustration18Src160,
@@ -23035,10 +23035,10 @@ var Illustration18 = ({ width = 320, height, ...rest }) => {
 var Illustration18_default = Illustration18;
 
 // src/illustrations/Illustration19.tsx
-import Illustration19Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-320.png";
-import Illustration19Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-160.png";
-import Illustration19Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-640.png";
-import Illustration19Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-19-1024.png";
+import Illustration19Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-19-320.png";
+import Illustration19Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-19-160.png";
+import Illustration19Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-19-640.png";
+import Illustration19Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-19-1024.png";
 import { jsx as jsx1442 } from "react/jsx-runtime";
 var Illustration19WidthMap = {
   160: Illustration19Src160,
@@ -23079,10 +23079,10 @@ var Illustration19 = ({ width = 320, height, ...rest }) => {
 var Illustration19_default = Illustration19;
 
 // src/illustrations/Illustration20.tsx
-import Illustration20Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-320.png";
-import Illustration20Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-160.png";
-import Illustration20Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-640.png";
-import Illustration20Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-20-1024.png";
+import Illustration20Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-20-320.png";
+import Illustration20Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-20-160.png";
+import Illustration20Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-20-640.png";
+import Illustration20Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-20-1024.png";
 import { jsx as jsx1443 } from "react/jsx-runtime";
 var Illustration20WidthMap = {
   160: Illustration20Src160,
@@ -23123,10 +23123,10 @@ var Illustration20 = ({ width = 320, height, ...rest }) => {
 var Illustration20_default = Illustration20;
 
 // src/illustrations/Illustration21.tsx
-import Illustration21Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-320.png";
-import Illustration21Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-160.png";
-import Illustration21Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-640.png";
-import Illustration21Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-21-1024.png";
+import Illustration21Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-21-320.png";
+import Illustration21Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-21-160.png";
+import Illustration21Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-21-640.png";
+import Illustration21Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-21-1024.png";
 import { jsx as jsx1444 } from "react/jsx-runtime";
 var Illustration21WidthMap = {
   160: Illustration21Src160,
@@ -23167,10 +23167,10 @@ var Illustration21 = ({ width = 320, height, ...rest }) => {
 var Illustration21_default = Illustration21;
 
 // src/illustrations/Illustration22.tsx
-import Illustration22Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-320.png";
-import Illustration22Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-160.png";
-import Illustration22Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-640.png";
-import Illustration22Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-22-1024.png";
+import Illustration22Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-22-320.png";
+import Illustration22Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-22-160.png";
+import Illustration22Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-22-640.png";
+import Illustration22Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-22-1024.png";
 import { jsx as jsx1445 } from "react/jsx-runtime";
 var Illustration22WidthMap = {
   160: Illustration22Src160,
@@ -23211,10 +23211,10 @@ var Illustration22 = ({ width = 320, height, ...rest }) => {
 var Illustration22_default = Illustration22;
 
 // src/illustrations/Illustration23.tsx
-import Illustration23Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-320.png";
-import Illustration23Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-160.png";
-import Illustration23Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-640.png";
-import Illustration23Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-23-1024.png";
+import Illustration23Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-23-320.png";
+import Illustration23Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-23-160.png";
+import Illustration23Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-23-640.png";
+import Illustration23Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-23-1024.png";
 import { jsx as jsx1446 } from "react/jsx-runtime";
 var Illustration23WidthMap = {
   160: Illustration23Src160,
@@ -23255,10 +23255,10 @@ var Illustration23 = ({ width = 320, height, ...rest }) => {
 var Illustration23_default = Illustration23;
 
 // src/illustrations/Illustration24.tsx
-import Illustration24Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-320.png";
-import Illustration24Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-160.png";
-import Illustration24Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-640.png";
-import Illustration24Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-24-1024.png";
+import Illustration24Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-24-320.png";
+import Illustration24Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-24-160.png";
+import Illustration24Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-24-640.png";
+import Illustration24Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-24-1024.png";
 import { jsx as jsx1447 } from "react/jsx-runtime";
 var Illustration24WidthMap = {
   160: Illustration24Src160,
@@ -23299,10 +23299,10 @@ var Illustration24 = ({ width = 320, height, ...rest }) => {
 var Illustration24_default = Illustration24;
 
 // src/illustrations/Illustration25.tsx
-import Illustration25Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-320.png";
-import Illustration25Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-160.png";
-import Illustration25Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-640.png";
-import Illustration25Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-25-1024.png";
+import Illustration25Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-25-320.png";
+import Illustration25Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-25-160.png";
+import Illustration25Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-25-640.png";
+import Illustration25Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-25-1024.png";
 import { jsx as jsx1448 } from "react/jsx-runtime";
 var Illustration25WidthMap = {
   160: Illustration25Src160,
@@ -23343,10 +23343,10 @@ var Illustration25 = ({ width = 320, height, ...rest }) => {
 var Illustration25_default = Illustration25;
 
 // src/illustrations/Illustration26.tsx
-import Illustration26Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-320.png";
-import Illustration26Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-160.png";
-import Illustration26Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-640.png";
-import Illustration26Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-26-1024.png";
+import Illustration26Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-26-320.png";
+import Illustration26Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-26-160.png";
+import Illustration26Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-26-640.png";
+import Illustration26Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-26-1024.png";
 import { jsx as jsx1449 } from "react/jsx-runtime";
 var Illustration26WidthMap = {
   160: Illustration26Src160,
@@ -23387,10 +23387,10 @@ var Illustration26 = ({ width = 320, height, ...rest }) => {
 var Illustration26_default = Illustration26;
 
 // src/illustrations/Illustration27.tsx
-import Illustration27Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-320.png";
-import Illustration27Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-160.png";
-import Illustration27Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-640.png";
-import Illustration27Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-27-1024.png";
+import Illustration27Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-27-320.png";
+import Illustration27Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-27-160.png";
+import Illustration27Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-27-640.png";
+import Illustration27Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-27-1024.png";
 import { jsx as jsx1450 } from "react/jsx-runtime";
 var Illustration27WidthMap = {
   160: Illustration27Src160,
@@ -23431,10 +23431,10 @@ var Illustration27 = ({ width = 320, height, ...rest }) => {
 var Illustration27_default = Illustration27;
 
 // src/illustrations/Illustration28.tsx
-import Illustration28Src from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-320.png";
-import Illustration28Src160 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-160.png";
-import Illustration28Src640 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-640.png";
-import Illustration28Src1024 from "@snowui-design-system/resource-core/assets/illustrations/illustration-28-1024.png";
+import Illustration28Src from "@snowui-design-system/resource-base/assets/illustrations/illustration-28-320.png";
+import Illustration28Src160 from "@snowui-design-system/resource-base/assets/illustrations/illustration-28-160.png";
+import Illustration28Src640 from "@snowui-design-system/resource-base/assets/illustrations/illustration-28-640.png";
+import Illustration28Src1024 from "@snowui-design-system/resource-base/assets/illustrations/illustration-28-1024.png";
 import { jsx as jsx1451 } from "react/jsx-runtime";
 var Illustration28WidthMap = {
   160: Illustration28Src160,
@@ -23475,7 +23475,7 @@ var Illustration28 = ({ width = 320, height, ...rest }) => {
 var Illustration28_default = Illustration28;
 
 // src/illustrations/LineDrawing01.tsx
-import LineDrawing01Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-01.svg";
+import LineDrawing01Src from "@snowui-design-system/resource-base/assets/illustrations/line-drawing-01.svg";
 import { jsx as jsx1452 } from "react/jsx-runtime";
 var LineDrawing01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -23494,7 +23494,7 @@ var LineDrawing01 = ({ width = 320, height, ...rest }) => {
 var LineDrawing01_default = LineDrawing01;
 
 // src/illustrations/LineDrawing02.tsx
-import LineDrawing02Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-02.svg";
+import LineDrawing02Src from "@snowui-design-system/resource-base/assets/illustrations/line-drawing-02.svg";
 import { jsx as jsx1453 } from "react/jsx-runtime";
 var LineDrawing02 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -23513,7 +23513,7 @@ var LineDrawing02 = ({ width = 320, height, ...rest }) => {
 var LineDrawing02_default = LineDrawing02;
 
 // src/illustrations/LineDrawing03.tsx
-import LineDrawing03Src from "@snowui-design-system/resource-core/assets/illustrations/line-drawing-03.svg";
+import LineDrawing03Src from "@snowui-design-system/resource-base/assets/illustrations/line-drawing-03.svg";
 import { jsx as jsx1454 } from "react/jsx-runtime";
 var LineDrawing03 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -23532,7 +23532,7 @@ var LineDrawing03 = ({ width = 320, height, ...rest }) => {
 var LineDrawing03_default = LineDrawing03;
 
 // src/illustrations/QrCodeBig.tsx
-import QrCodeBigSrc from "@snowui-design-system/resource-core/assets/illustrations/qr-code-big.svg";
+import QrCodeBigSrc from "@snowui-design-system/resource-base/assets/illustrations/qr-code-big.svg";
 import { jsx as jsx1455 } from "react/jsx-runtime";
 var QrCodeBig = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -23551,7 +23551,7 @@ var QrCodeBig = ({ width = 320, height, ...rest }) => {
 var QrCodeBig_default = QrCodeBig;
 
 // src/illustrations/Voice.tsx
-import VoiceSrc from "@snowui-design-system/resource-core/assets/illustrations/voice.svg";
+import VoiceSrc from "@snowui-design-system/resource-base/assets/illustrations/voice.svg";
 import { jsx as jsx1456 } from "react/jsx-runtime";
 var Voice = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
@@ -23570,10 +23570,10 @@ var Voice = ({ width = 320, height, ...rest }) => {
 var Voice_default = Voice;
 
 // src/images/Image01.tsx
-import Image01Src from "@snowui-design-system/resource-core/assets/images/image-01-320.png";
-import Image01Src160 from "@snowui-design-system/resource-core/assets/images/image-01-160.png";
-import Image01Src640 from "@snowui-design-system/resource-core/assets/images/image-01-640.png";
-import Image01Src1024 from "@snowui-design-system/resource-core/assets/images/image-01-1024.png";
+import Image01Src from "@snowui-design-system/resource-base/assets/images/image-01-320.png";
+import Image01Src160 from "@snowui-design-system/resource-base/assets/images/image-01-160.png";
+import Image01Src640 from "@snowui-design-system/resource-base/assets/images/image-01-640.png";
+import Image01Src1024 from "@snowui-design-system/resource-base/assets/images/image-01-1024.png";
 import { jsx as jsx1457 } from "react/jsx-runtime";
 var Image01WidthMap = {
   160: Image01Src160,
@@ -23614,7 +23614,7 @@ var Image01 = ({ width = 320, height, ...rest }) => {
 var Image01_default = Image01;
 
 // src/logos/Android.tsx
-import AndroidSrc from "@snowui-design-system/resource-core/assets/logos/android.svg";
+import AndroidSrc from "@snowui-design-system/resource-base/assets/logos/android.svg";
 import { jsx as jsx1458 } from "react/jsx-runtime";
 var Android = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23634,7 +23634,7 @@ var Android = ({ size = 32, width, height, ...rest }) => {
 var Android_default = Android;
 
 // src/logos/AppStore.tsx
-import AppStoreSrc from "@snowui-design-system/resource-core/assets/logos/app-store.svg";
+import AppStoreSrc from "@snowui-design-system/resource-base/assets/logos/app-store.svg";
 import { jsx as jsx1459 } from "react/jsx-runtime";
 var AppStore = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23654,7 +23654,7 @@ var AppStore = ({ size = 32, width, height, ...rest }) => {
 var AppStore_default = AppStore;
 
 // src/logos/AppleIntelligence2a.tsx
-import AppleIntelligence2aSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-2a.svg";
+import AppleIntelligence2aSrc from "@snowui-design-system/resource-base/assets/logos/apple-intelligence-2a.svg";
 import { jsx as jsx1460 } from "react/jsx-runtime";
 var AppleIntelligence2a = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23674,7 +23674,7 @@ var AppleIntelligence2a = ({ size = 32, width, height, ...rest }) => {
 var AppleIntelligence2a_default = AppleIntelligence2a;
 
 // src/logos/AppleIntelligence2b.tsx
-import AppleIntelligence2bSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-2b.svg";
+import AppleIntelligence2bSrc from "@snowui-design-system/resource-base/assets/logos/apple-intelligence-2b.svg";
 import { jsx as jsx1461 } from "react/jsx-runtime";
 var AppleIntelligence2b = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23694,7 +23694,7 @@ var AppleIntelligence2b = ({ size = 32, width, height, ...rest }) => {
 var AppleIntelligence2b_default = AppleIntelligence2b;
 
 // src/logos/AppleIntelligenceA.tsx
-import AppleIntelligenceASrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-a.svg";
+import AppleIntelligenceASrc from "@snowui-design-system/resource-base/assets/logos/apple-intelligence-a.svg";
 import { jsx as jsx1462 } from "react/jsx-runtime";
 var AppleIntelligenceA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23714,7 +23714,7 @@ var AppleIntelligenceA = ({ size = 32, width, height, ...rest }) => {
 var AppleIntelligenceA_default = AppleIntelligenceA;
 
 // src/logos/AppleIntelligenceB.tsx
-import AppleIntelligenceBSrc from "@snowui-design-system/resource-core/assets/logos/apple-intelligence-b.svg";
+import AppleIntelligenceBSrc from "@snowui-design-system/resource-base/assets/logos/apple-intelligence-b.svg";
 import { jsx as jsx1463 } from "react/jsx-runtime";
 var AppleIntelligenceB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23734,7 +23734,7 @@ var AppleIntelligenceB = ({ size = 32, width, height, ...rest }) => {
 var AppleIntelligenceB_default = AppleIntelligenceB;
 
 // src/logos/Apple.tsx
-import AppleSrc from "@snowui-design-system/resource-core/assets/logos/apple.svg";
+import AppleSrc from "@snowui-design-system/resource-base/assets/logos/apple.svg";
 import { jsx as jsx1464 } from "react/jsx-runtime";
 var Apple = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23754,7 +23754,7 @@ var Apple = ({ size = 32, width, height, ...rest }) => {
 var Apple_default = Apple;
 
 // src/logos/Arc.tsx
-import ArcSrc from "@snowui-design-system/resource-core/assets/logos/arc.svg";
+import ArcSrc from "@snowui-design-system/resource-base/assets/logos/arc.svg";
 import { jsx as jsx1465 } from "react/jsx-runtime";
 var Arc = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23774,7 +23774,7 @@ var Arc = ({ size = 32, width, height, ...rest }) => {
 var Arc_default = Arc;
 
 // src/logos/Behance.tsx
-import BehanceSrc from "@snowui-design-system/resource-core/assets/logos/behance.svg";
+import BehanceSrc from "@snowui-design-system/resource-base/assets/logos/behance.svg";
 import { jsx as jsx1466 } from "react/jsx-runtime";
 var Behance = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23794,7 +23794,7 @@ var Behance = ({ size = 32, width, height, ...rest }) => {
 var Behance_default = Behance;
 
 // src/logos/ChatGpt.tsx
-import ChatGptSrc from "@snowui-design-system/resource-core/assets/logos/chat-gpt.svg";
+import ChatGptSrc from "@snowui-design-system/resource-base/assets/logos/chat-gpt.svg";
 import { jsx as jsx1467 } from "react/jsx-runtime";
 var ChatGpt = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23814,7 +23814,7 @@ var ChatGpt = ({ size = 32, width, height, ...rest }) => {
 var ChatGpt_default = ChatGpt;
 
 // src/logos/Claude.tsx
-import ClaudeSrc from "@snowui-design-system/resource-core/assets/logos/claude.svg";
+import ClaudeSrc from "@snowui-design-system/resource-base/assets/logos/claude.svg";
 import { jsx as jsx1468 } from "react/jsx-runtime";
 var Claude = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23834,7 +23834,7 @@ var Claude = ({ size = 32, width, height, ...rest }) => {
 var Claude_default = Claude;
 
 // src/logos/Copilot.tsx
-import CopilotSrc from "@snowui-design-system/resource-core/assets/logos/copilot.svg";
+import CopilotSrc from "@snowui-design-system/resource-base/assets/logos/copilot.svg";
 import { jsx as jsx1469 } from "react/jsx-runtime";
 var Copilot = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23854,7 +23854,7 @@ var Copilot = ({ size = 32, width, height, ...rest }) => {
 var Copilot_default = Copilot;
 
 // src/logos/Discord.tsx
-import DiscordSrc from "@snowui-design-system/resource-core/assets/logos/discord.svg";
+import DiscordSrc from "@snowui-design-system/resource-base/assets/logos/discord.svg";
 import { jsx as jsx1470 } from "react/jsx-runtime";
 var Discord = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23874,7 +23874,7 @@ var Discord = ({ size = 32, width, height, ...rest }) => {
 var Discord_default = Discord;
 
 // src/logos/Dribbble.tsx
-import DribbbleSrc from "@snowui-design-system/resource-core/assets/logos/dribbble.svg";
+import DribbbleSrc from "@snowui-design-system/resource-base/assets/logos/dribbble.svg";
 import { jsx as jsx1471 } from "react/jsx-runtime";
 var Dribbble = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23894,7 +23894,7 @@ var Dribbble = ({ size = 32, width, height, ...rest }) => {
 var Dribbble_default = Dribbble;
 
 // src/logos/Dropbox.tsx
-import DropboxSrc from "@snowui-design-system/resource-core/assets/logos/dropbox.svg";
+import DropboxSrc from "@snowui-design-system/resource-base/assets/logos/dropbox.svg";
 import { jsx as jsx1472 } from "react/jsx-runtime";
 var Dropbox = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23914,7 +23914,7 @@ var Dropbox = ({ size = 32, width, height, ...rest }) => {
 var Dropbox_default = Dropbox;
 
 // src/logos/Excel.tsx
-import ExcelSrc from "@snowui-design-system/resource-core/assets/logos/excel.svg";
+import ExcelSrc from "@snowui-design-system/resource-base/assets/logos/excel.svg";
 import { jsx as jsx1473 } from "react/jsx-runtime";
 var Excel = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23934,7 +23934,7 @@ var Excel = ({ size = 32, width, height, ...rest }) => {
 var Excel_default = Excel;
 
 // src/logos/Facebook.tsx
-import FacebookSrc from "@snowui-design-system/resource-core/assets/logos/facebook.svg";
+import FacebookSrc from "@snowui-design-system/resource-base/assets/logos/facebook.svg";
 import { jsx as jsx1474 } from "react/jsx-runtime";
 var Facebook = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23954,7 +23954,7 @@ var Facebook = ({ size = 32, width, height, ...rest }) => {
 var Facebook_default = Facebook;
 
 // src/logos/FigmaA.tsx
-import FigmaASrc from "@snowui-design-system/resource-core/assets/logos/figma-a.svg";
+import FigmaASrc from "@snowui-design-system/resource-base/assets/logos/figma-a.svg";
 import { jsx as jsx1475 } from "react/jsx-runtime";
 var FigmaA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23974,7 +23974,7 @@ var FigmaA = ({ size = 32, width, height, ...rest }) => {
 var FigmaA_default = FigmaA;
 
 // src/logos/FigmaB.tsx
-import FigmaBSrc from "@snowui-design-system/resource-core/assets/logos/figma-b.svg";
+import FigmaBSrc from "@snowui-design-system/resource-base/assets/logos/figma-b.svg";
 import { jsx as jsx1476 } from "react/jsx-runtime";
 var FigmaB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -23994,7 +23994,7 @@ var FigmaB = ({ size = 32, width, height, ...rest }) => {
 var FigmaB_default = FigmaB;
 
 // src/logos/Framer.tsx
-import FramerSrc from "@snowui-design-system/resource-core/assets/logos/framer.svg";
+import FramerSrc from "@snowui-design-system/resource-base/assets/logos/framer.svg";
 import { jsx as jsx1477 } from "react/jsx-runtime";
 var Framer = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24014,7 +24014,7 @@ var Framer = ({ size = 32, width, height, ...rest }) => {
 var Framer_default = Framer;
 
 // src/logos/Gemini.tsx
-import GeminiSrc from "@snowui-design-system/resource-core/assets/logos/gemini.svg";
+import GeminiSrc from "@snowui-design-system/resource-base/assets/logos/gemini.svg";
 import { jsx as jsx1478 } from "react/jsx-runtime";
 var Gemini = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24034,7 +24034,7 @@ var Gemini = ({ size = 32, width, height, ...rest }) => {
 var Gemini_default = Gemini;
 
 // src/logos/Github.tsx
-import GithubSrc from "@snowui-design-system/resource-core/assets/logos/github.svg";
+import GithubSrc from "@snowui-design-system/resource-base/assets/logos/github.svg";
 import { jsx as jsx1479 } from "react/jsx-runtime";
 var Github = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24054,7 +24054,7 @@ var Github = ({ size = 32, width, height, ...rest }) => {
 var Github_default = Github;
 
 // src/logos/GoogleDrive.tsx
-import GoogleDriveSrc from "@snowui-design-system/resource-core/assets/logos/google-drive.svg";
+import GoogleDriveSrc from "@snowui-design-system/resource-base/assets/logos/google-drive.svg";
 import { jsx as jsx1480 } from "react/jsx-runtime";
 var GoogleDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24074,7 +24074,7 @@ var GoogleDrive = ({ size = 32, width, height, ...rest }) => {
 var GoogleDrive_default = GoogleDrive;
 
 // src/logos/GooglePlay.tsx
-import GooglePlaySrc from "@snowui-design-system/resource-core/assets/logos/google-play.svg";
+import GooglePlaySrc from "@snowui-design-system/resource-base/assets/logos/google-play.svg";
 import { jsx as jsx1481 } from "react/jsx-runtime";
 var GooglePlay = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24094,7 +24094,7 @@ var GooglePlay = ({ size = 32, width, height, ...rest }) => {
 var GooglePlay_default = GooglePlay;
 
 // src/logos/Google.tsx
-import GoogleSrc from "@snowui-design-system/resource-core/assets/logos/google.svg";
+import GoogleSrc from "@snowui-design-system/resource-base/assets/logos/google.svg";
 import { jsx as jsx1482 } from "react/jsx-runtime";
 var Google = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24114,7 +24114,7 @@ var Google = ({ size = 32, width, height, ...rest }) => {
 var Google_default = Google;
 
 // src/logos/Grok.tsx
-import GrokSrc from "@snowui-design-system/resource-core/assets/logos/grok.svg";
+import GrokSrc from "@snowui-design-system/resource-base/assets/logos/grok.svg";
 import { jsx as jsx1483 } from "react/jsx-runtime";
 var Grok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24134,7 +24134,7 @@ var Grok = ({ size = 32, width, height, ...rest }) => {
 var Grok_default = Grok;
 
 // src/logos/Gumroad.tsx
-import GumroadSrc from "@snowui-design-system/resource-core/assets/logos/gumroad.svg";
+import GumroadSrc from "@snowui-design-system/resource-base/assets/logos/gumroad.svg";
 import { jsx as jsx1484 } from "react/jsx-runtime";
 var Gumroad = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24154,7 +24154,7 @@ var Gumroad = ({ size = 32, width, height, ...rest }) => {
 var Gumroad_default = Gumroad;
 
 // src/logos/ICloud.tsx
-import ICloudSrc from "@snowui-design-system/resource-core/assets/logos/i-cloud.svg";
+import ICloudSrc from "@snowui-design-system/resource-base/assets/logos/i-cloud.svg";
 import { jsx as jsx1485 } from "react/jsx-runtime";
 var ICloud = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24174,7 +24174,7 @@ var ICloud = ({ size = 32, width, height, ...rest }) => {
 var ICloud_default = ICloud;
 
 // src/logos/Instagram.tsx
-import InstagramSrc from "@snowui-design-system/resource-core/assets/logos/instagram.svg";
+import InstagramSrc from "@snowui-design-system/resource-base/assets/logos/instagram.svg";
 import { jsx as jsx1486 } from "react/jsx-runtime";
 var Instagram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24194,7 +24194,7 @@ var Instagram = ({ size = 32, width, height, ...rest }) => {
 var Instagram_default = Instagram;
 
 // src/logos/LemonSqueezy.tsx
-import LemonSqueezySrc from "@snowui-design-system/resource-core/assets/logos/lemon-squeezy.svg";
+import LemonSqueezySrc from "@snowui-design-system/resource-base/assets/logos/lemon-squeezy.svg";
 import { jsx as jsx1487 } from "react/jsx-runtime";
 var LemonSqueezy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24214,7 +24214,7 @@ var LemonSqueezy = ({ size = 32, width, height, ...rest }) => {
 var LemonSqueezy_default = LemonSqueezy;
 
 // src/logos/LinkedIn.tsx
-import LinkedInSrc from "@snowui-design-system/resource-core/assets/logos/linked-in.svg";
+import LinkedInSrc from "@snowui-design-system/resource-base/assets/logos/linked-in.svg";
 import { jsx as jsx1488 } from "react/jsx-runtime";
 var LinkedIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24234,7 +24234,7 @@ var LinkedIn = ({ size = 32, width, height, ...rest }) => {
 var LinkedIn_default = LinkedIn;
 
 // src/logos/Loop.tsx
-import LoopSrc from "@snowui-design-system/resource-core/assets/logos/loop.svg";
+import LoopSrc from "@snowui-design-system/resource-base/assets/logos/loop.svg";
 import { jsx as jsx1489 } from "react/jsx-runtime";
 var Loop = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24254,7 +24254,7 @@ var Loop = ({ size = 32, width, height, ...rest }) => {
 var Loop_default = Loop;
 
 // src/logos/Mastercard.tsx
-import MastercardSrc from "@snowui-design-system/resource-core/assets/logos/mastercard.svg";
+import MastercardSrc from "@snowui-design-system/resource-base/assets/logos/mastercard.svg";
 import { jsx as jsx1490 } from "react/jsx-runtime";
 var Mastercard = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24274,7 +24274,7 @@ var Mastercard = ({ size = 32, width, height, ...rest }) => {
 var Mastercard_default = Mastercard;
 
 // src/logos/Medium.tsx
-import MediumSrc from "@snowui-design-system/resource-core/assets/logos/medium.svg";
+import MediumSrc from "@snowui-design-system/resource-base/assets/logos/medium.svg";
 import { jsx as jsx1491 } from "react/jsx-runtime";
 var Medium = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24294,7 +24294,7 @@ var Medium = ({ size = 32, width, height, ...rest }) => {
 var Medium_default = Medium;
 
 // src/logos/Messenger.tsx
-import MessengerSrc from "@snowui-design-system/resource-core/assets/logos/messenger.svg";
+import MessengerSrc from "@snowui-design-system/resource-base/assets/logos/messenger.svg";
 import { jsx as jsx1492 } from "react/jsx-runtime";
 var Messenger = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24314,7 +24314,7 @@ var Messenger = ({ size = 32, width, height, ...rest }) => {
 var Messenger_default = Messenger;
 
 // src/logos/Meta.tsx
-import MetaSrc from "@snowui-design-system/resource-core/assets/logos/meta.svg";
+import MetaSrc from "@snowui-design-system/resource-base/assets/logos/meta.svg";
 import { jsx as jsx1493 } from "react/jsx-runtime";
 var Meta = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24334,7 +24334,7 @@ var Meta = ({ size = 32, width, height, ...rest }) => {
 var Meta_default = Meta;
 
 // src/logos/Microsoft.tsx
-import MicrosoftSrc from "@snowui-design-system/resource-core/assets/logos/microsoft.svg";
+import MicrosoftSrc from "@snowui-design-system/resource-base/assets/logos/microsoft.svg";
 import { jsx as jsx1494 } from "react/jsx-runtime";
 var Microsoft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24354,7 +24354,7 @@ var Microsoft = ({ size = 32, width, height, ...rest }) => {
 var Microsoft_default = Microsoft;
 
 // src/logos/Midjourney.tsx
-import MidjourneySrc from "@snowui-design-system/resource-core/assets/logos/midjourney.svg";
+import MidjourneySrc from "@snowui-design-system/resource-base/assets/logos/midjourney.svg";
 import { jsx as jsx1495 } from "react/jsx-runtime";
 var Midjourney = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24374,7 +24374,7 @@ var Midjourney = ({ size = 32, width, height, ...rest }) => {
 var Midjourney_default = Midjourney;
 
 // src/logos/Nintendo.tsx
-import NintendoSrc from "@snowui-design-system/resource-core/assets/logos/nintendo.svg";
+import NintendoSrc from "@snowui-design-system/resource-base/assets/logos/nintendo.svg";
 import { jsx as jsx1496 } from "react/jsx-runtime";
 var Nintendo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24394,7 +24394,7 @@ var Nintendo = ({ size = 32, width, height, ...rest }) => {
 var Nintendo_default = Nintendo;
 
 // src/logos/Notion.tsx
-import NotionSrc from "@snowui-design-system/resource-core/assets/logos/notion.svg";
+import NotionSrc from "@snowui-design-system/resource-base/assets/logos/notion.svg";
 import { jsx as jsx1497 } from "react/jsx-runtime";
 var Notion = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24414,7 +24414,7 @@ var Notion = ({ size = 32, width, height, ...rest }) => {
 var Notion_default = Notion;
 
 // src/logos/OneDrive.tsx
-import OneDriveSrc from "@snowui-design-system/resource-core/assets/logos/one-drive.svg";
+import OneDriveSrc from "@snowui-design-system/resource-base/assets/logos/one-drive.svg";
 import { jsx as jsx1498 } from "react/jsx-runtime";
 var OneDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24434,7 +24434,7 @@ var OneDrive = ({ size = 32, width, height, ...rest }) => {
 var OneDrive_default = OneDrive;
 
 // src/logos/OneNote.tsx
-import OneNoteSrc from "@snowui-design-system/resource-core/assets/logos/one-note.svg";
+import OneNoteSrc from "@snowui-design-system/resource-base/assets/logos/one-note.svg";
 import { jsx as jsx1499 } from "react/jsx-runtime";
 var OneNote = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24454,7 +24454,7 @@ var OneNote = ({ size = 32, width, height, ...rest }) => {
 var OneNote_default = OneNote;
 
 // src/logos/PayPal.tsx
-import PayPalSrc from "@snowui-design-system/resource-core/assets/logos/pay-pal.svg";
+import PayPalSrc from "@snowui-design-system/resource-base/assets/logos/pay-pal.svg";
 import { jsx as jsx1500 } from "react/jsx-runtime";
 var PayPal = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24474,7 +24474,7 @@ var PayPal = ({ size = 32, width, height, ...rest }) => {
 var PayPal_default = PayPal;
 
 // src/logos/Perplexity.tsx
-import PerplexitySrc from "@snowui-design-system/resource-core/assets/logos/perplexity.svg";
+import PerplexitySrc from "@snowui-design-system/resource-base/assets/logos/perplexity.svg";
 import { jsx as jsx1501 } from "react/jsx-runtime";
 var Perplexity = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24494,7 +24494,7 @@ var Perplexity = ({ size = 32, width, height, ...rest }) => {
 var Perplexity_default = Perplexity;
 
 // src/logos/Pinterest.tsx
-import PinterestSrc from "@snowui-design-system/resource-core/assets/logos/pinterest.svg";
+import PinterestSrc from "@snowui-design-system/resource-base/assets/logos/pinterest.svg";
 import { jsx as jsx1502 } from "react/jsx-runtime";
 var Pinterest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24514,7 +24514,7 @@ var Pinterest = ({ size = 32, width, height, ...rest }) => {
 var Pinterest_default = Pinterest;
 
 // src/logos/PowerPoint.tsx
-import PowerPointSrc from "@snowui-design-system/resource-core/assets/logos/power-point.svg";
+import PowerPointSrc from "@snowui-design-system/resource-base/assets/logos/power-point.svg";
 import { jsx as jsx1503 } from "react/jsx-runtime";
 var PowerPoint = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24534,7 +24534,7 @@ var PowerPoint = ({ size = 32, width, height, ...rest }) => {
 var PowerPoint_default = PowerPoint;
 
 // src/logos/Reddit.tsx
-import RedditSrc from "@snowui-design-system/resource-core/assets/logos/reddit.svg";
+import RedditSrc from "@snowui-design-system/resource-base/assets/logos/reddit.svg";
 import { jsx as jsx1504 } from "react/jsx-runtime";
 var Reddit = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24554,7 +24554,7 @@ var Reddit = ({ size = 32, width, height, ...rest }) => {
 var Reddit_default = Reddit;
 
 // src/logos/RssLogo.tsx
-import RssLogoSrc from "@snowui-design-system/resource-core/assets/logos/rss-logo.svg";
+import RssLogoSrc from "@snowui-design-system/resource-base/assets/logos/rss-logo.svg";
 import { jsx as jsx1505 } from "react/jsx-runtime";
 var RssLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24574,7 +24574,7 @@ var RssLogo = ({ size = 32, width, height, ...rest }) => {
 var RssLogo_default = RssLogo;
 
 // src/logos/Slack.tsx
-import SlackSrc from "@snowui-design-system/resource-core/assets/logos/slack.svg";
+import SlackSrc from "@snowui-design-system/resource-base/assets/logos/slack.svg";
 import { jsx as jsx1506 } from "react/jsx-runtime";
 var Slack = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24594,7 +24594,7 @@ var Slack = ({ size = 32, width, height, ...rest }) => {
 var Slack_default = Slack;
 
 // src/logos/Snapchat.tsx
-import SnapchatSrc from "@snowui-design-system/resource-core/assets/logos/snapchat.svg";
+import SnapchatSrc from "@snowui-design-system/resource-base/assets/logos/snapchat.svg";
 import { jsx as jsx1507 } from "react/jsx-runtime";
 var Snapchat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24614,7 +24614,7 @@ var Snapchat = ({ size = 32, width, height, ...rest }) => {
 var Snapchat_default = Snapchat;
 
 // src/logos/SnowLogo.tsx
-import SnowLogoSrc from "@snowui-design-system/resource-core/assets/logos/snow-logo.svg";
+import SnowLogoSrc from "@snowui-design-system/resource-base/assets/logos/snow-logo.svg";
 import { jsx as jsx1508 } from "react/jsx-runtime";
 var SnowLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24634,7 +24634,7 @@ var SnowLogo = ({ size = 32, width, height, ...rest }) => {
 var SnowLogo_default = SnowLogo;
 
 // src/logos/Stripe.tsx
-import StripeSrc from "@snowui-design-system/resource-core/assets/logos/stripe.svg";
+import StripeSrc from "@snowui-design-system/resource-base/assets/logos/stripe.svg";
 import { jsx as jsx1509 } from "react/jsx-runtime";
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24654,7 +24654,7 @@ var Stripe = ({ size = 32, width, height, ...rest }) => {
 var Stripe_default = Stripe;
 
 // src/logos/Telegram.tsx
-import TelegramSrc from "@snowui-design-system/resource-core/assets/logos/telegram.svg";
+import TelegramSrc from "@snowui-design-system/resource-base/assets/logos/telegram.svg";
 import { jsx as jsx1510 } from "react/jsx-runtime";
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24674,7 +24674,7 @@ var Telegram = ({ size = 32, width, height, ...rest }) => {
 var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
-import ThreadsSrc from "@snowui-design-system/resource-core/assets/logos/threads.svg";
+import ThreadsSrc from "@snowui-design-system/resource-base/assets/logos/threads.svg";
 import { jsx as jsx1511 } from "react/jsx-runtime";
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24694,7 +24694,7 @@ var Threads = ({ size = 32, width, height, ...rest }) => {
 var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
-import TikTokSrc from "@snowui-design-system/resource-core/assets/logos/tik-tok.svg";
+import TikTokSrc from "@snowui-design-system/resource-base/assets/logos/tik-tok.svg";
 import { jsx as jsx1512 } from "react/jsx-runtime";
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24714,7 +24714,7 @@ var TikTok = ({ size = 32, width, height, ...rest }) => {
 var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
-import TwitchSrc from "@snowui-design-system/resource-core/assets/logos/twitch.svg";
+import TwitchSrc from "@snowui-design-system/resource-base/assets/logos/twitch.svg";
 import { jsx as jsx1513 } from "react/jsx-runtime";
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24734,7 +24734,7 @@ var Twitch = ({ size = 32, width, height, ...rest }) => {
 var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
-import TwitterSrc from "@snowui-design-system/resource-core/assets/logos/twitter.svg";
+import TwitterSrc from "@snowui-design-system/resource-base/assets/logos/twitter.svg";
 import { jsx as jsx1514 } from "react/jsx-runtime";
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24754,7 +24754,7 @@ var Twitter = ({ size = 32, width, height, ...rest }) => {
 var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
-import VisaSrc from "@snowui-design-system/resource-core/assets/logos/visa.svg";
+import VisaSrc from "@snowui-design-system/resource-base/assets/logos/visa.svg";
 import { jsx as jsx1515 } from "react/jsx-runtime";
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24774,7 +24774,7 @@ var Visa = ({ size = 32, width, height, ...rest }) => {
 var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
-import WhatsAppSrc from "@snowui-design-system/resource-core/assets/logos/whats-app.svg";
+import WhatsAppSrc from "@snowui-design-system/resource-base/assets/logos/whats-app.svg";
 import { jsx as jsx1516 } from "react/jsx-runtime";
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24794,7 +24794,7 @@ var WhatsApp = ({ size = 32, width, height, ...rest }) => {
 var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
-import WordSrc from "@snowui-design-system/resource-core/assets/logos/word.svg";
+import WordSrc from "@snowui-design-system/resource-base/assets/logos/word.svg";
 import { jsx as jsx1517 } from "react/jsx-runtime";
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24814,7 +24814,7 @@ var Word = ({ size = 32, width, height, ...rest }) => {
 var Word_default = Word;
 
 // src/logos/Xlogo.tsx
-import XlogoSrc from "@snowui-design-system/resource-core/assets/logos/xlogo.svg";
+import XlogoSrc from "@snowui-design-system/resource-base/assets/logos/xlogo.svg";
 import { jsx as jsx1518 } from "react/jsx-runtime";
 var Xlogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
@@ -24834,7 +24834,7 @@ var Xlogo = ({ size = 32, width, height, ...rest }) => {
 var Xlogo_default = Xlogo;
 
 // src/logos/Youtube.tsx
-import YoutubeSrc from "@snowui-design-system/resource-core/assets/logos/youtube.svg";
+import YoutubeSrc from "@snowui-design-system/resource-base/assets/logos/youtube.svg";
 import { jsx as jsx1519 } from "react/jsx-runtime";
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;

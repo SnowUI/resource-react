@@ -1,20 +1,20 @@
 import * as React from 'react';
 import type { BackgroundProps } from '../lib/types';
-import GradientSrc from '@snowui-design-system/resource-core/assets/backgrounds/gradient-01.jpg';
-import GradientSrc1 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-01.jpg';
-import GradientSrc2 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-02.jpg';
-import GradientSrc3 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-03.jpg';
-import GradientSrc4 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-04.jpg';
-import GradientSrc5 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-05.jpg';
-import GradientSrc6 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-06.jpg';
-import GradientSrc7 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-07.jpg';
-import GradientSrc8 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-08.jpg';
-import GradientSrc9 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-09.jpg';
-import GradientSrc10 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-10.jpg';
-import GradientSrc11 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-11.jpg';
-import GradientSrc12 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-12.jpg';
-import GradientSrc13 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-13.jpg';
-import GradientSrc14 from '@snowui-design-system/resource-core/assets/backgrounds/gradient-14.jpg';
+import GradientSrc from '@snowui-design-system/resource-base/assets/backgrounds/gradient-01.jpg';
+import GradientSrc1 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-01.jpg';
+import GradientSrc2 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-02.jpg';
+import GradientSrc3 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-03.jpg';
+import GradientSrc4 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-04.jpg';
+import GradientSrc5 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-05.jpg';
+import GradientSrc6 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-06.jpg';
+import GradientSrc7 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-07.jpg';
+import GradientSrc8 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-08.jpg';
+import GradientSrc9 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-09.jpg';
+import GradientSrc10 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-10.jpg';
+import GradientSrc11 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-11.jpg';
+import GradientSrc12 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-12.jpg';
+import GradientSrc13 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-13.jpg';
+import GradientSrc14 from '@snowui-design-system/resource-base/assets/backgrounds/gradient-14.jpg';
 const GradientWidthMap = {
     1: GradientSrc1,
     2: GradientSrc2,

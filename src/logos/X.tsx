@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import XSrc from '@snowui-design-system/resource-core/assets/logos/x.svg';
+import XSrc from '@snowui-design-system/resource-base/assets/logos/x.svg';
 
 export const X: React.FC<AvatarProps> = ({ size, width, height, ...rest }) => {
   const resolvedWidth = size ?? width;

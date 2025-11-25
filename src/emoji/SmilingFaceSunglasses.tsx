@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { AvatarProps } from '../lib/types';
-import SmilingFaceSunglassesSrc from '@snowui-design-system/resource-core/assets/emoji/smiling-face-sunglasses.svg';
+import SmilingFaceSunglassesSrc from '@snowui-design-system/resource-base/assets/emoji/smiling-face-sunglasses.svg';
 export const SmilingFaceSunglasses: React.FC<AvatarProps> = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;

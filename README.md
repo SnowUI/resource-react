@@ -12,7 +12,7 @@
 
 ## English
 
-A lightweight React component package that automatically generates icon, avatar, background, and other components from processed assets in `@snowui-design-system/resource-core`. Ready to use out of the box with TypeScript support and Tree-shaking.
+A lightweight React component package that automatically generates icon, avatar, background, and other components from processed assets in `@snowui-design-system/resource-base`. Ready to use out of the box with TypeScript support and Tree-shaking.
 
 ### ✨ Features
 
@@ -158,7 +158,7 @@ interface AvatarProps {
 
 #### Regenerating Components
 
-If you need to regenerate components (e.g., after updating `@snowui-design-system/resource-core`):
+If you need to regenerate components (e.g., after updating `@snowui-design-system/resource-base`):
 
 ```bash
 # Install dependencies first
@@ -173,7 +173,7 @@ npm run build
 
 The generate script will automatically detect whether you're in a monorepo or standalone repository:
 - **Monorepo**: Uses `../resource-base` (if available)
-- **Standalone**: Uses `node_modules/@snowui-design-system/resource-core`
+- **Standalone**: Uses `node_modules/@snowui-design-system/resource-base`
 
 **Note**: The generated components in `src/` are already included in the repository, so you typically don't need to run `generate` unless you're modifying the generation logic or updating resource-core.
 
@@ -196,7 +196,7 @@ MIT
 
 ## 中文
 
-轻量的 React 组件包，通过从 `@snowui-design-system/resource-core` 中的已处理素材自动生成图标、头像、背景等组件，开箱即用，支持 TypeScript 与 Tree-shaking。
+轻量的 React 组件包，通过从 `@snowui-design-system/resource-base` 中的已处理素材自动生成图标、头像、背景等组件，开箱即用，支持 TypeScript 与 Tree-shaking。
 
 ### ✨ 功能特点
 
@@ -342,7 +342,7 @@ interface AvatarProps {
 
 #### 重新生成组件
 
-如果需要重新生成组件（例如，更新了 `@snowui-design-system/resource-core` 后）：
+如果需要重新生成组件（例如，更新了 `@snowui-design-system/resource-base` 后）：
 
 ```bash
 # 先安装依赖
@@ -357,7 +357,7 @@ npm run build
 
 生成脚本会自动检测你是在 monorepo 还是独立仓库中：
 - **Monorepo**：使用 `../resource-base`（如果存在）
-- **独立仓库**：使用 `node_modules/@snowui-design-system/resource-core`
+- **独立仓库**：使用 `node_modules/@snowui-design-system/resource-base`
 
 **注意**：`src/` 中的组件已经包含在仓库中，通常不需要运行 `generate`，除非你正在修改生成逻辑或更新 resource-core。
 

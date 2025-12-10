@@ -9,7 +9,7 @@
         "generate": "tsx scripts/generate-react.ts"
     },
     "dependencies": {
-        "@snowui-design-system/resource-base": "^1.0.23"
+        "@snowui-design-system/resource-base": "^1.0.24"
     },
     "peerDependencies": {
         "react": ">=18 <21"

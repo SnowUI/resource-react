@@ -191,12 +191,14 @@ __export(index_exports, {
   At: () => At_default,
   Atom: () => Atom_default,
   Avatar3d01: () => Avatar3d01_default,
+  Avatar3d0112: () => Avatar3d0112_default,
   Avatar3d01120: () => Avatar3d01120_default,
   Avatar3d01144: () => Avatar3d01144_default,
   Avatar3d011536: () => Avatar3d011536_default,
   Avatar3d01168: () => Avatar3d01168_default,
   Avatar3d01192: () => Avatar3d01192_default,
   Avatar3d01240: () => Avatar3d01240_default,
+  Avatar3d0136: () => Avatar3d0136_default,
   Avatar3d01384: () => Avatar3d01384_default,
   Avatar3d0160: () => Avatar3d0160_default,
   Avatar3d0172: () => Avatar3d0172_default,
@@ -204,12 +206,14 @@ __export(index_exports, {
   Avatar3d0184: () => Avatar3d0184_default,
   Avatar3d0196: () => Avatar3d0196_default,
   Avatar3d02: () => Avatar3d02_default,
+  Avatar3d0212: () => Avatar3d0212_default,
   Avatar3d02120: () => Avatar3d02120_default,
   Avatar3d02144: () => Avatar3d02144_default,
   Avatar3d021536: () => Avatar3d021536_default,
   Avatar3d02168: () => Avatar3d02168_default,
   Avatar3d02192: () => Avatar3d02192_default,
   Avatar3d02240: () => Avatar3d02240_default,
+  Avatar3d0236: () => Avatar3d0236_default,
   Avatar3d02384: () => Avatar3d02384_default,
   Avatar3d0260: () => Avatar3d0260_default,
   Avatar3d0272: () => Avatar3d0272_default,
@@ -217,12 +221,14 @@ __export(index_exports, {
   Avatar3d0284: () => Avatar3d0284_default,
   Avatar3d0296: () => Avatar3d0296_default,
   Avatar3d03: () => Avatar3d03_default,
+  Avatar3d0312: () => Avatar3d0312_default,
   Avatar3d03120: () => Avatar3d03120_default,
   Avatar3d03144: () => Avatar3d03144_default,
   Avatar3d031536: () => Avatar3d031536_default,
   Avatar3d03168: () => Avatar3d03168_default,
   Avatar3d03192: () => Avatar3d03192_default,
   Avatar3d03240: () => Avatar3d03240_default,
+  Avatar3d0336: () => Avatar3d0336_default,
   Avatar3d03384: () => Avatar3d03384_default,
   Avatar3d0360: () => Avatar3d0360_default,
   Avatar3d0372: () => Avatar3d0372_default,
@@ -230,12 +236,14 @@ __export(index_exports, {
   Avatar3d0384: () => Avatar3d0384_default,
   Avatar3d0396: () => Avatar3d0396_default,
   Avatar3d04: () => Avatar3d04_default,
+  Avatar3d0412: () => Avatar3d0412_default,
   Avatar3d04120: () => Avatar3d04120_default,
   Avatar3d04144: () => Avatar3d04144_default,
   Avatar3d041536: () => Avatar3d041536_default,
   Avatar3d04168: () => Avatar3d04168_default,
   Avatar3d04192: () => Avatar3d04192_default,
   Avatar3d04240: () => Avatar3d04240_default,
+  Avatar3d0436: () => Avatar3d0436_default,
   Avatar3d04384: () => Avatar3d04384_default,
   Avatar3d0460: () => Avatar3d0460_default,
   Avatar3d0472: () => Avatar3d0472_default,
@@ -243,12 +251,14 @@ __export(index_exports, {
   Avatar3d0484: () => Avatar3d0484_default,
   Avatar3d0496: () => Avatar3d0496_default,
   AvatarAbstract01: () => AvatarAbstract01_default,
+  AvatarAbstract0112: () => AvatarAbstract0112_default,
   AvatarAbstract01120: () => AvatarAbstract01120_default,
   AvatarAbstract01144: () => AvatarAbstract01144_default,
   AvatarAbstract011536: () => AvatarAbstract011536_default,
   AvatarAbstract01168: () => AvatarAbstract01168_default,
   AvatarAbstract01192: () => AvatarAbstract01192_default,
   AvatarAbstract01240: () => AvatarAbstract01240_default,
+  AvatarAbstract0136: () => AvatarAbstract0136_default,
   AvatarAbstract01384: () => AvatarAbstract01384_default,
   AvatarAbstract0160: () => AvatarAbstract0160_default,
   AvatarAbstract0172: () => AvatarAbstract0172_default,
@@ -256,12 +266,14 @@ __export(index_exports, {
   AvatarAbstract0184: () => AvatarAbstract0184_default,
   AvatarAbstract0196: () => AvatarAbstract0196_default,
   AvatarAbstract02: () => AvatarAbstract02_default,
+  AvatarAbstract0212: () => AvatarAbstract0212_default,
   AvatarAbstract02120: () => AvatarAbstract02120_default,
   AvatarAbstract02144: () => AvatarAbstract02144_default,
   AvatarAbstract021536: () => AvatarAbstract021536_default,
   AvatarAbstract02168: () => AvatarAbstract02168_default,
   AvatarAbstract02192: () => AvatarAbstract02192_default,
   AvatarAbstract02240: () => AvatarAbstract02240_default,
+  AvatarAbstract0236: () => AvatarAbstract0236_default,
   AvatarAbstract02384: () => AvatarAbstract02384_default,
   AvatarAbstract0260: () => AvatarAbstract0260_default,
   AvatarAbstract0272: () => AvatarAbstract0272_default,
@@ -269,12 +281,14 @@ __export(index_exports, {
   AvatarAbstract0284: () => AvatarAbstract0284_default,
   AvatarAbstract0296: () => AvatarAbstract0296_default,
   AvatarAbstract03: () => AvatarAbstract03_default,
+  AvatarAbstract0312: () => AvatarAbstract0312_default,
   AvatarAbstract03120: () => AvatarAbstract03120_default,
   AvatarAbstract03144: () => AvatarAbstract03144_default,
   AvatarAbstract031536: () => AvatarAbstract031536_default,
   AvatarAbstract03168: () => AvatarAbstract03168_default,
   AvatarAbstract03192: () => AvatarAbstract03192_default,
   AvatarAbstract03240: () => AvatarAbstract03240_default,
+  AvatarAbstract0336: () => AvatarAbstract0336_default,
   AvatarAbstract03384: () => AvatarAbstract03384_default,
   AvatarAbstract0360: () => AvatarAbstract0360_default,
   AvatarAbstract0372: () => AvatarAbstract0372_default,
@@ -282,12 +296,14 @@ __export(index_exports, {
   AvatarAbstract0384: () => AvatarAbstract0384_default,
   AvatarAbstract0396: () => AvatarAbstract0396_default,
   AvatarAbstract04: () => AvatarAbstract04_default,
+  AvatarAbstract0412: () => AvatarAbstract0412_default,
   AvatarAbstract04120: () => AvatarAbstract04120_default,
   AvatarAbstract04144: () => AvatarAbstract04144_default,
   AvatarAbstract041536: () => AvatarAbstract041536_default,
   AvatarAbstract04168: () => AvatarAbstract04168_default,
   AvatarAbstract04192: () => AvatarAbstract04192_default,
   AvatarAbstract04240: () => AvatarAbstract04240_default,
+  AvatarAbstract0436: () => AvatarAbstract0436_default,
   AvatarAbstract04384: () => AvatarAbstract04384_default,
   AvatarAbstract0460: () => AvatarAbstract0460_default,
   AvatarAbstract0472: () => AvatarAbstract0472_default,
@@ -295,12 +311,14 @@ __export(index_exports, {
   AvatarAbstract0484: () => AvatarAbstract0484_default,
   AvatarAbstract0496: () => AvatarAbstract0496_default,
   AvatarByewind: () => AvatarByewind_default,
+  AvatarByewind12: () => AvatarByewind12_default,
   AvatarByewind120: () => AvatarByewind120_default,
   AvatarByewind144: () => AvatarByewind144_default,
   AvatarByewind1536: () => AvatarByewind1536_default,
   AvatarByewind168: () => AvatarByewind168_default,
   AvatarByewind192: () => AvatarByewind192_default,
   AvatarByewind240: () => AvatarByewind240_default,
+  AvatarByewind36: () => AvatarByewind36_default,
   AvatarByewind384: () => AvatarByewind384_default,
   AvatarByewind60: () => AvatarByewind60_default,
   AvatarByewind72: () => AvatarByewind72_default,
@@ -308,12 +326,14 @@ __export(index_exports, {
   AvatarByewind84: () => AvatarByewind84_default,
   AvatarByewind96: () => AvatarByewind96_default,
   AvatarDefault: () => AvatarDefault_default,
+  AvatarDefault12: () => AvatarDefault12_default,
   AvatarDefault120: () => AvatarDefault120_default,
   AvatarDefault144: () => AvatarDefault144_default,
   AvatarDefault1536: () => AvatarDefault1536_default,
   AvatarDefault168: () => AvatarDefault168_default,
   AvatarDefault192: () => AvatarDefault192_default,
   AvatarDefault240: () => AvatarDefault240_default,
+  AvatarDefault36: () => AvatarDefault36_default,
   AvatarDefault384: () => AvatarDefault384_default,
   AvatarDefault60: () => AvatarDefault60_default,
   AvatarDefault72: () => AvatarDefault72_default,
@@ -321,12 +341,14 @@ __export(index_exports, {
   AvatarDefault84: () => AvatarDefault84_default,
   AvatarDefault96: () => AvatarDefault96_default,
   AvatarFemale01: () => AvatarFemale01_default,
+  AvatarFemale0112: () => AvatarFemale0112_default,
   AvatarFemale01120: () => AvatarFemale01120_default,
   AvatarFemale01144: () => AvatarFemale01144_default,
   AvatarFemale011536: () => AvatarFemale011536_default,
   AvatarFemale01168: () => AvatarFemale01168_default,
   AvatarFemale01192: () => AvatarFemale01192_default,
   AvatarFemale01240: () => AvatarFemale01240_default,
+  AvatarFemale0136: () => AvatarFemale0136_default,
   AvatarFemale01384: () => AvatarFemale01384_default,
   AvatarFemale0160: () => AvatarFemale0160_default,
   AvatarFemale0172: () => AvatarFemale0172_default,
@@ -334,12 +356,14 @@ __export(index_exports, {
   AvatarFemale0184: () => AvatarFemale0184_default,
   AvatarFemale0196: () => AvatarFemale0196_default,
   AvatarFemale02: () => AvatarFemale02_default,
+  AvatarFemale0212: () => AvatarFemale0212_default,
   AvatarFemale02120: () => AvatarFemale02120_default,
   AvatarFemale02144: () => AvatarFemale02144_default,
   AvatarFemale021536: () => AvatarFemale021536_default,
   AvatarFemale02168: () => AvatarFemale02168_default,
   AvatarFemale02192: () => AvatarFemale02192_default,
   AvatarFemale02240: () => AvatarFemale02240_default,
+  AvatarFemale0236: () => AvatarFemale0236_default,
   AvatarFemale02384: () => AvatarFemale02384_default,
   AvatarFemale0260: () => AvatarFemale0260_default,
   AvatarFemale0272: () => AvatarFemale0272_default,
@@ -347,12 +371,14 @@ __export(index_exports, {
   AvatarFemale0284: () => AvatarFemale0284_default,
   AvatarFemale0296: () => AvatarFemale0296_default,
   AvatarFemale03: () => AvatarFemale03_default,
+  AvatarFemale0312: () => AvatarFemale0312_default,
   AvatarFemale03120: () => AvatarFemale03120_default,
   AvatarFemale03144: () => AvatarFemale03144_default,
   AvatarFemale031536: () => AvatarFemale031536_default,
   AvatarFemale03168: () => AvatarFemale03168_default,
   AvatarFemale03192: () => AvatarFemale03192_default,
   AvatarFemale03240: () => AvatarFemale03240_default,
+  AvatarFemale0336: () => AvatarFemale0336_default,
   AvatarFemale03384: () => AvatarFemale03384_default,
   AvatarFemale0360: () => AvatarFemale0360_default,
   AvatarFemale0372: () => AvatarFemale0372_default,
@@ -360,12 +386,14 @@ __export(index_exports, {
   AvatarFemale0384: () => AvatarFemale0384_default,
   AvatarFemale0396: () => AvatarFemale0396_default,
   AvatarFemale04: () => AvatarFemale04_default,
+  AvatarFemale0412: () => AvatarFemale0412_default,
   AvatarFemale04120: () => AvatarFemale04120_default,
   AvatarFemale04144: () => AvatarFemale04144_default,
   AvatarFemale041536: () => AvatarFemale041536_default,
   AvatarFemale04168: () => AvatarFemale04168_default,
   AvatarFemale04192: () => AvatarFemale04192_default,
   AvatarFemale04240: () => AvatarFemale04240_default,
+  AvatarFemale0436: () => AvatarFemale0436_default,
   AvatarFemale04384: () => AvatarFemale04384_default,
   AvatarFemale0460: () => AvatarFemale0460_default,
   AvatarFemale0472: () => AvatarFemale0472_default,
@@ -373,12 +401,14 @@ __export(index_exports, {
   AvatarFemale0484: () => AvatarFemale0484_default,
   AvatarFemale0496: () => AvatarFemale0496_default,
   AvatarFemale05: () => AvatarFemale05_default,
+  AvatarFemale0512: () => AvatarFemale0512_default,
   AvatarFemale05120: () => AvatarFemale05120_default,
   AvatarFemale05144: () => AvatarFemale05144_default,
   AvatarFemale051536: () => AvatarFemale051536_default,
   AvatarFemale05168: () => AvatarFemale05168_default,
   AvatarFemale05192: () => AvatarFemale05192_default,
   AvatarFemale05240: () => AvatarFemale05240_default,
+  AvatarFemale0536: () => AvatarFemale0536_default,
   AvatarFemale05384: () => AvatarFemale05384_default,
   AvatarFemale0560: () => AvatarFemale0560_default,
   AvatarFemale0572: () => AvatarFemale0572_default,
@@ -386,12 +416,14 @@ __export(index_exports, {
   AvatarFemale0584: () => AvatarFemale0584_default,
   AvatarFemale0596: () => AvatarFemale0596_default,
   AvatarFemale06: () => AvatarFemale06_default,
+  AvatarFemale0612: () => AvatarFemale0612_default,
   AvatarFemale06120: () => AvatarFemale06120_default,
   AvatarFemale06144: () => AvatarFemale06144_default,
   AvatarFemale061536: () => AvatarFemale061536_default,
   AvatarFemale06168: () => AvatarFemale06168_default,
   AvatarFemale06192: () => AvatarFemale06192_default,
   AvatarFemale06240: () => AvatarFemale06240_default,
+  AvatarFemale0636: () => AvatarFemale0636_default,
   AvatarFemale06384: () => AvatarFemale06384_default,
   AvatarFemale0660: () => AvatarFemale0660_default,
   AvatarFemale0672: () => AvatarFemale0672_default,
@@ -399,12 +431,14 @@ __export(index_exports, {
   AvatarFemale0684: () => AvatarFemale0684_default,
   AvatarFemale0696: () => AvatarFemale0696_default,
   AvatarMale01: () => AvatarMale01_default,
+  AvatarMale0112: () => AvatarMale0112_default,
   AvatarMale01120: () => AvatarMale01120_default,
   AvatarMale01144: () => AvatarMale01144_default,
   AvatarMale011536: () => AvatarMale011536_default,
   AvatarMale01168: () => AvatarMale01168_default,
   AvatarMale01192: () => AvatarMale01192_default,
   AvatarMale01240: () => AvatarMale01240_default,
+  AvatarMale0136: () => AvatarMale0136_default,
   AvatarMale01384: () => AvatarMale01384_default,
   AvatarMale0160: () => AvatarMale0160_default,
   AvatarMale0172: () => AvatarMale0172_default,
@@ -412,12 +446,14 @@ __export(index_exports, {
   AvatarMale0184: () => AvatarMale0184_default,
   AvatarMale0196: () => AvatarMale0196_default,
   AvatarMale02: () => AvatarMale02_default,
+  AvatarMale0212: () => AvatarMale0212_default,
   AvatarMale02120: () => AvatarMale02120_default,
   AvatarMale02144: () => AvatarMale02144_default,
   AvatarMale021536: () => AvatarMale021536_default,
   AvatarMale02168: () => AvatarMale02168_default,
   AvatarMale02192: () => AvatarMale02192_default,
   AvatarMale02240: () => AvatarMale02240_default,
+  AvatarMale0236: () => AvatarMale0236_default,
   AvatarMale02384: () => AvatarMale02384_default,
   AvatarMale0260: () => AvatarMale0260_default,
   AvatarMale0272: () => AvatarMale0272_default,
@@ -425,12 +461,14 @@ __export(index_exports, {
   AvatarMale0284: () => AvatarMale0284_default,
   AvatarMale0296: () => AvatarMale0296_default,
   AvatarMale03: () => AvatarMale03_default,
+  AvatarMale0312: () => AvatarMale0312_default,
   AvatarMale03120: () => AvatarMale03120_default,
   AvatarMale03144: () => AvatarMale03144_default,
   AvatarMale031536: () => AvatarMale031536_default,
   AvatarMale03168: () => AvatarMale03168_default,
   AvatarMale03192: () => AvatarMale03192_default,
   AvatarMale03240: () => AvatarMale03240_default,
+  AvatarMale0336: () => AvatarMale0336_default,
   AvatarMale03384: () => AvatarMale03384_default,
   AvatarMale0360: () => AvatarMale0360_default,
   AvatarMale0372: () => AvatarMale0372_default,
@@ -438,12 +476,14 @@ __export(index_exports, {
   AvatarMale0384: () => AvatarMale0384_default,
   AvatarMale0396: () => AvatarMale0396_default,
   AvatarMale04: () => AvatarMale04_default,
+  AvatarMale0412: () => AvatarMale0412_default,
   AvatarMale04120: () => AvatarMale04120_default,
   AvatarMale04144: () => AvatarMale04144_default,
   AvatarMale041536: () => AvatarMale041536_default,
   AvatarMale04168: () => AvatarMale04168_default,
   AvatarMale04192: () => AvatarMale04192_default,
   AvatarMale04240: () => AvatarMale04240_default,
+  AvatarMale0436: () => AvatarMale0436_default,
   AvatarMale04384: () => AvatarMale04384_default,
   AvatarMale0460: () => AvatarMale0460_default,
   AvatarMale0472: () => AvatarMale0472_default,
@@ -451,12 +491,14 @@ __export(index_exports, {
   AvatarMale0484: () => AvatarMale0484_default,
   AvatarMale0496: () => AvatarMale0496_default,
   AvatarMale05: () => AvatarMale05_default,
+  AvatarMale0512: () => AvatarMale0512_default,
   AvatarMale05120: () => AvatarMale05120_default,
   AvatarMale05144: () => AvatarMale05144_default,
   AvatarMale051536: () => AvatarMale051536_default,
   AvatarMale05168: () => AvatarMale05168_default,
   AvatarMale05192: () => AvatarMale05192_default,
   AvatarMale05240: () => AvatarMale05240_default,
+  AvatarMale0536: () => AvatarMale0536_default,
   AvatarMale05384: () => AvatarMale05384_default,
   AvatarMale0560: () => AvatarMale0560_default,
   AvatarMale0572: () => AvatarMale0572_default,
@@ -464,12 +506,14 @@ __export(index_exports, {
   AvatarMale0584: () => AvatarMale0584_default,
   AvatarMale0596: () => AvatarMale0596_default,
   AvatarMale06: () => AvatarMale06_default,
+  AvatarMale0612: () => AvatarMale0612_default,
   AvatarMale06120: () => AvatarMale06120_default,
   AvatarMale06144: () => AvatarMale06144_default,
   AvatarMale061536: () => AvatarMale061536_default,
   AvatarMale06168: () => AvatarMale06168_default,
   AvatarMale06192: () => AvatarMale06192_default,
   AvatarMale06240: () => AvatarMale06240_default,
+  AvatarMale0636: () => AvatarMale0636_default,
   AvatarMale06384: () => AvatarMale06384_default,
   AvatarMale0660: () => AvatarMale0660_default,
   AvatarMale0672: () => AvatarMale0672_default,
@@ -6381,36 +6425,8 @@ var CheckboxFalse_default = CheckboxFalse;
 var React327 = __toESM(require("react"));
 var import_jsx_runtime327 = require("react/jsx-runtime");
 var weights326 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime327.jsxs)(import_jsx_runtime327.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("g", { filter: "url(#a)", children: /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("path", { fill: "currentColor", d: "M2 14.8c0-4.48 0-6.72.872-8.432a8 8 0 0 1 3.496-3.496C8.08 2 10.32 2 14.8 2h2.4c4.48 0 6.72 0 8.432.872a8 8 0 0 1 3.496 3.496C30 8.08 30 10.32 30 14.8v2.4c0 4.48 0 6.72-.872 8.432a8 8 0 0 1-3.496 3.496C23.92 30 21.68 30 17.2 30h-2.4c-4.48 0-6.72 0-8.432-.872a8 8 0 0 1-3.496-3.496C2 23.92 2 21.68 2 17.2z" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("path", { fill: "#fff", fillRule: "evenodd", d: "M9.5 16a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 0 3H11A1.5 1.5 0 0 1 9.5 16", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime327.jsxs)("filter", { id: "a", width: "29", height: "30", x: "2", y: "1.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feBlend", { in2: "shape", result: "effect1_innerShadow_7214_3728" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feBlend", { in2: "effect1_innerShadow_7214_3728", mode: "overlay", result: "effect2_innerShadow_7214_3728" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feBlend", { in2: "effect2_innerShadow_7214_3728", result: "effect3_innerShadow_7214_3728" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("feBlend", { in2: "effect3_innerShadow_7214_3728", mode: "overlay", result: "effect4_innerShadow_7214_3728" })
-  ] }) })
+  /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("path", { fill: "currentColor", d: "M2 14.8c0-4.48 0-6.72.872-8.432a8 8 0 0 1 3.496-3.496C8.08 2 10.32 2 14.8 2h2.4c4.48 0 6.72 0 8.432.872a8 8 0 0 1 3.496 3.496C30 8.08 30 10.32 30 14.8v2.4c0 4.48 0 6.72-.872 8.432a8 8 0 0 1-3.496 3.496C23.92 30 21.68 30 17.2 30h-2.4c-4.48 0-6.72 0-8.432-.872a8 8 0 0 1-3.496-3.496C2 23.92 2 21.68 2 17.2z" }),
+  /* @__PURE__ */ (0, import_jsx_runtime327.jsx)("path", { fill: "#fff", fillRule: "evenodd", d: "M9.5 16a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 0 3H11A1.5 1.5 0 0 1 9.5 16", clipRule: "evenodd" })
 ] }) };
 var defaultViewBox326 = "0 0 32 32";
 var CheckboxMultiple = React327.forwardRef((props, ref) => {
@@ -6423,36 +6439,8 @@ var CheckboxMultiple_default = CheckboxMultiple;
 var React328 = __toESM(require("react"));
 var import_jsx_runtime328 = require("react/jsx-runtime");
 var weights327 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime328.jsxs)(import_jsx_runtime328.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("g", { filter: "url(#a)", children: /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("path", { fill: "currentColor", d: "M2 14.8c0-4.48 0-6.72.872-8.432a8 8 0 0 1 3.496-3.496C8.08 2 10.32 2 14.8 2h2.4c4.48 0 6.72 0 8.432.872a8 8 0 0 1 3.496 3.496C30 8.08 30 10.32 30 14.8v2.4c0 4.48 0 6.72-.872 8.432a8 8 0 0 1-3.496 3.496C23.92 30 21.68 30 17.2 30h-2.4c-4.48 0-6.72 0-8.432-.872a8 8 0 0 1-3.496-3.496C2 23.92 2 21.68 2 17.2z" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("path", { fill: "#fff", fillRule: "evenodd", d: "M22.017 12.398a1.5 1.5 0 0 1 .085 2.12l-5.622 6.09a2 2 0 0 1-2.975-.039l-3.134-3.581a1.5 1.5 0 0 1 2.258-1.976l2.4 2.744 4.869-5.273a1.5 1.5 0 0 1 2.12-.085", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime328.jsxs)("filter", { id: "a", width: "29", height: "30", x: "2", y: "1.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feBlend", { in2: "shape", result: "effect1_innerShadow_7214_3730" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feBlend", { in2: "effect1_innerShadow_7214_3730", mode: "overlay", result: "effect2_innerShadow_7214_3730" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feBlend", { in2: "effect2_innerShadow_7214_3730", result: "effect3_innerShadow_7214_3730" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("feBlend", { in2: "effect3_innerShadow_7214_3730", mode: "overlay", result: "effect4_innerShadow_7214_3730" })
-  ] }) })
+  /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("path", { fill: "currentColor", d: "M2 14.8c0-4.48 0-6.72.872-8.432a8 8 0 0 1 3.496-3.496C8.08 2 10.32 2 14.8 2h2.4c4.48 0 6.72 0 8.432.872a8 8 0 0 1 3.496 3.496C30 8.08 30 10.32 30 14.8v2.4c0 4.48 0 6.72-.872 8.432a8 8 0 0 1-3.496 3.496C23.92 30 21.68 30 17.2 30h-2.4c-4.48 0-6.72 0-8.432-.872a8 8 0 0 1-3.496-3.496C2 23.92 2 21.68 2 17.2z" }),
+  /* @__PURE__ */ (0, import_jsx_runtime328.jsx)("path", { fill: "#fff", fillRule: "evenodd", d: "M22.017 12.398a1.5 1.5 0 0 1 .085 2.12l-5.622 6.09a2 2 0 0 1-2.975-.039l-3.134-3.581a1.5 1.5 0 1 1 2.258-1.976l2.4 2.744 4.869-5.273a1.5 1.5 0 0 1 2.12-.085", clipRule: "evenodd" })
 ] }) };
 var defaultViewBox327 = "0 0 32 32";
 var CheckboxTrue = React328.forwardRef((props, ref) => {
@@ -8142,12 +8130,17 @@ var Dna_default = Dna;
 var React449 = __toESM(require("react"));
 var import_jsx_runtime449 = require("react/jsx-runtime");
 var weights448 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime449.jsxs)(import_jsx_runtime449.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M8 2.794v26.412C8 30.75 9.231 32 10.75 32h18.5c1.519 0 2.75-1.25 2.75-2.794V7.351c0-.746-.294-1.461-.816-1.986L26.648.807A2.73 2.73 0 0 0 24.714 0H10.75C9.231 0 8 1.25 8 2.794m1.75 26.412V2.794c0-.561.448-1.016 1-1.016h13.625v6.095c0 1.052.84 1.905 1.875 1.905h4v19.428c0 .561-.448 1.016-1 1.016h-18.5c-.552 0-1-.455-1-1.016M30.25 8v-.649c0-.271-.107-.531-.297-.722l-3.828-3.846v5.09c0 .07.056.127.125.127z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#6BB3EC", fillRule: "evenodd", d: "M20.5 13.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#508FD6", fillRule: "evenodd", d: "M20.5 17.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#3770C3", fillRule: "evenodd", d: "M20.5 21.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#3770C3", d: "M0 9.25a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fill: "#fff", d: "M5.462 21.522 3.5 11.5h1.702l1.23 6.884L7.938 11.5h1.975l1.442 7 1.265-7h1.668l-1.996 10.022h-1.764l-1.64-7.493-1.627 7.493z" })
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 2.79365V29.2064C8 30.7492 9.23122 32 10.75 32H29.25C30.7688 32 32 30.7492 32 29.2064V7.35127C32 6.60502 31.7061 5.88979 31.1838 5.36503L26.6478 0.807413C26.133 0.29013 25.4381 0 24.714 0H10.75C9.23122 0 8 1.25076 8 2.79365ZM9.75 29.2064V2.79365C9.75 2.2326 10.1977 1.77778 10.75 1.77778H24.375V7.87302C24.375 8.92499 25.2145 9.77778 26.25 9.77778H30.25V29.2064C30.25 29.7674 29.8023 30.2222 29.25 30.2222H10.75C10.1977 30.2222 9.75 29.7674 9.75 29.2064ZM30.25 8V7.35127C30.25 7.07991 30.1431 6.81982 29.9532 6.629L26.125 2.78254V7.87302C26.125 7.94315 26.181 8 26.25 8H30.25Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 13.125C20.5 12.6418 20.8918 12.25 21.375 12.25H27.125C27.6082 12.25 28 12.6418 28 13.125C28 13.6082 27.6082 14 27.125 14H21.375C20.8918 14 20.5 13.6082 20.5 13.125Z", fill: "#6BB3EC" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 17.125C20.5 16.6418 20.8918 16.25 21.375 16.25H27.125C27.6082 16.25 28 16.6418 28 17.125C28 17.6082 27.6082 18 27.125 18H21.375C20.8918 18 20.5 17.6082 20.5 17.125Z", fill: "#508FD6" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 21.125C20.5 20.6418 20.8918 20.25 21.375 20.25H27.125C27.6082 20.25 28 20.6418 28 21.125C28 21.6082 27.6082 22 27.125 22H21.375C20.8918 22 20.5 21.6082 20.5 21.125Z", fill: "#3770C3" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { d: "M0 9.25C0 8.42157 0.671573 7.75 1.5 7.75H16.5C17.3284 7.75 18 8.42157 18 9.25V24.25C18 25.0784 17.3284 25.75 16.5 25.75H1.5C0.671573 25.75 0 25.0784 0 24.25V9.25Z", fill: "#3770C3" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime449.jsx)("path", { d: "M5.46191 21.5215L3.5 11.5H5.20215L6.43262 18.3838L7.93652 11.5H9.91211L11.3545 18.5L12.6191 11.5H14.2871L12.291 21.5215H10.5273L8.88672 14.0293L7.25977 21.5215H5.46191Z", fill: "white" })
 ] }) };
 var defaultViewBox448 = "0 0 32 32";
 var DocxIcon = React449.forwardRef((props, ref) => {
@@ -10226,11 +10219,15 @@ var ForkKnife_default = ForkKnife;
 var React598 = __toESM(require("react"));
 var import_jsx_runtime598 = require("react/jsx-runtime");
 var weights597 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime598.jsxs)(import_jsx_runtime598.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M8 2.794v26.412C8 30.75 9.231 32 10.75 32h18.5c1.519 0 2.75-1.25 2.75-2.794V7.351c0-.746-.294-1.461-.816-1.986L26.648.807A2.73 2.73 0 0 0 24.714 0H10.75C9.231 0 8 1.25 8 2.794m1.75 26.412V2.794c0-.561.448-1.016 1-1.016h13.625v6.095c0 1.052.84 1.905 1.875 1.905h4v19.428c0 .561-.448 1.016-1 1.016h-18.5c-.552 0-1-.455-1-1.016M30.25 8v-.649c0-.271-.107-.531-.297-.722l-3.828-3.846v5.09c0 .07.056.127.125.127z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fill: "#4EA7AF", fillRule: "evenodd", d: "M25 14h-5v-2h5a3 3 0 1 1 0 6h-5v-2h5a1 1 0 1 0 0-2", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fill: "#3D9298", fillRule: "evenodd", d: "M25 22h-5v-2h5a3 3 0 1 1 0 6h-5v-2h5a1 1 0 1 0 0-2", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fill: "#3D9298", d: "M0 9.25a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fill: "#fff", d: "M6.5 21.522V11.5H12v2H8.5v2H12v2H8.5l.023 4.021z" })
+  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 2.79365V29.2064C8 30.7492 9.23122 32 10.75 32H29.25C30.7688 32 32 30.7492 32 29.2064V7.35127C32 6.60502 31.7061 5.88979 31.1838 5.36503L26.6478 0.807413C26.133 0.29013 25.4381 0 24.714 0H10.75C9.23122 0 8 1.25076 8 2.79365ZM9.75 29.2064V2.79365C9.75 2.2326 10.1977 1.77778 10.75 1.77778H24.375V7.87302C24.375 8.92499 25.2145 9.77778 26.25 9.77778H30.25V29.2064C30.25 29.7674 29.8023 30.2222 29.25 30.2222H10.75C10.1977 30.2222 9.75 29.7674 9.75 29.2064ZM30.25 8V7.35127C30.25 7.07991 30.1431 6.81982 29.9532 6.629L26.125 2.78254V7.87302C26.125 7.94315 26.181 8 26.25 8H30.25Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M25 14H20V12H25C26.6569 12 28 13.3431 28 15C28 16.6569 26.6569 18 25 18H20V16H25C25.5523 16 26 15.5523 26 15C26 14.4477 25.5523 14 25 14Z", fill: "#4EA7AF" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M25 22H20V20H25C26.6569 20 28 21.3431 28 23C28 24.6569 26.6569 26 25 26H20V24H25C25.5523 24 26 23.5523 26 23C26 22.4477 25.5523 22 25 22Z", fill: "#3D9298" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { d: "M0 9.25C0 8.42157 0.671573 7.75 1.5 7.75H16.5C17.3284 7.75 18 8.42157 18 9.25V24.25C18 25.0784 17.3284 25.75 16.5 25.75H1.5C0.671573 25.75 0 25.0784 0 24.25V9.25Z", fill: "#3D9298" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime598.jsx)("path", { d: "M6.5 21.5215V11.5H12V13.5H8.5V15.5H12V17.5H8.5L8.52344 21.5215H6.5Z", fill: "white" })
 ] }) };
 var defaultViewBox597 = "0 0 32 32";
 var FormIcon = React598.forwardRef((props, ref) => {
@@ -10242,11 +10239,8 @@ var FormIcon_default = FormIcon;
 // src/icons/FourLeafClover.tsx
 var React599 = __toESM(require("react"));
 var import_jsx_runtime599 = require("react/jsx-runtime");
-var weights598 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime599.jsxs)(import_jsx_runtime599.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("g", { fill: "currentColor", opacity: ".04", children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { d: "M9.5 4a5.5 5.5 0 1 0 0 11h3.3a2.2 2.2 0 0 0 2.2-2.2V9.5A5.5 5.5 0 0 0 9.5 4M9.5 17a5.5 5.5 0 1 0 5.5 5.5v-3.3a2.2 2.2 0 0 0-2.2-2.2zM17 9.5a5.5 5.5 0 1 1 5.5 5.5h-3.3a2.2 2.2 0 0 1-2.2-2.2zM19.2 17a2.2 2.2 0 0 0-2.2 2.2v3.3a5.5 5.5 0 1 0 5.5-5.5z" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m9 0v3.3a.2.2 0 0 1-.2.2H9.5A3.5 3.5 0 1 1 13 9.5M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M9.5 19h3.3c.11 0 .2.09.2.2v3.3A3.5 3.5 0 1 1 9.5 19M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 9h3.3A3.5 3.5 0 1 0 19 9.5v3.3c0 .11.09.2.2.2M17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5zm2.2-.2h3.3a3.5 3.5 0 1 1-3.5 3.5v-3.3c0-.11.09-.2.2-.2", clipRule: "evenodd" })
-] }), "thin": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 9.5v3.3a1.2 1.2 0 0 1-1.2 1.2H9.5A4.5 4.5 0 1 1 14 9.5m-10 0a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5M9.5 18h3.3a1.2 1.2 0 0 1 1.2 1.2v3.3A4.5 4.5 0 1 1 9.5 18M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M19.2 14h3.3A4.5 4.5 0 1 0 18 9.5v3.3a1.2 1.2 0 0 0 1.2 1.2m3.3-10A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 14h3.3a4.5 4.5 0 1 1-4.5 4.5v-3.3a1.2 1.2 0 0 1 1.2-1.2M17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5z", clipRule: "evenodd" }) }), "light": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.5 9.5v3.3a.7.7 0 0 1-.7.7H9.5a4 4 0 1 1 4-4M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m5.5 9h3.3a.7.7 0 0 1 .7.7v3.3a4 4 0 1 1-4-4m-5.5 4A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0m15.2-9h3.3a4 4 0 1 0-4-4v3.3a.7.7 0 0 0 .7.7M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 14.5h3.3a4 4 0 1 1-4 4v-3.3a.7.7 0 0 1 .7-.7m-2.2.7a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5z", clipRule: "evenodd" }) }), "bold": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m8 0V12H9.5A2.5 2.5 0 1 1 12 9.5M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M9.5 20H12v2.5A2.5 2.5 0 1 1 9.5 20M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11M20 12h2.5A2.5 2.5 0 1 0 20 9.5zM17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5zm3 3.3V20h2.5a2.5 2.5 0 1 1-2.5 2.5", clipRule: "evenodd" }) }), "fill": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.5 4a5.5 5.5 0 1 0 0 11h3.3a2.2 2.2 0 0 0 2.2-2.2V9.5A5.5 5.5 0 0 0 9.5 4m0 13a5.5 5.5 0 1 0 5.5 5.5v-3.3a2.2 2.2 0 0 0-2.2-2.2zM17 9.5a5.5 5.5 0 1 1 5.5 5.5h-3.3a2.2 2.2 0 0 1-2.2-2.2zm2.2 7.5a2.2 2.2 0 0 0-2.2 2.2v3.3a5.5 5.5 0 1 0 5.5-5.5z", clipRule: "evenodd" }) }), "duotone": /* @__PURE__ */ (0, import_jsx_runtime599.jsxs)(import_jsx_runtime599.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { d: "M9.5 4a5.5 5.5 0 1 0 0 11h3.3a2.2 2.2 0 0 0 2.2-2.2V9.5A5.5 5.5 0 0 0 9.5 4M9.5 17a5.5 5.5 0 1 0 5.5 5.5v-3.3a2.2 2.2 0 0 0-2.2-2.2zM17 9.5a5.5 5.5 0 1 1 5.5 5.5h-3.3a2.2 2.2 0 0 1-2.2-2.2zM19.2 17a2.2 2.2 0 0 0-2.2 2.2v3.3a5.5 5.5 0 1 0 5.5-5.5z" }) }),
+var weights598 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m9 0v3.3a.2.2 0 0 1-.2.2H9.5A3.5 3.5 0 1 1 13 9.5M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M9.5 19h3.3c.11 0 .2.09.2.2v3.3A3.5 3.5 0 1 1 9.5 19M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 9h3.3A3.5 3.5 0 1 0 19 9.5v3.3c0 .11.09.2.2.2M17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5zm2.2-.2h3.3a3.5 3.5 0 1 1-3.5 3.5v-3.3c0-.11.09-.2.2-.2", clipRule: "evenodd" }) }), "thin": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 9.5v3.3a1.2 1.2 0 0 1-1.2 1.2H9.5A4.5 4.5 0 1 1 14 9.5m-10 0a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5M9.5 18h3.3a1.2 1.2 0 0 1 1.2 1.2v3.3A4.5 4.5 0 1 1 9.5 18M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M19.2 14h3.3A4.5 4.5 0 1 0 18 9.5v3.3a1.2 1.2 0 0 0 1.2 1.2m3.3-10A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 14h3.3a4.5 4.5 0 1 1-4.5 4.5v-3.3a1.2 1.2 0 0 1 1.2-1.2M17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5z", clipRule: "evenodd" }) }), "light": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.5 9.5v3.3a.7.7 0 0 1-.7.7H9.5a4 4 0 1 1 4-4M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m5.5 9h3.3a.7.7 0 0 1 .7.7v3.3a4 4 0 1 1-4-4m-5.5 4A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0m15.2-9h3.3a4 4 0 1 0-4-4v3.3a.7.7 0 0 0 .7.7M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 14.5h3.3a4 4 0 1 1-4 4v-3.3a.7.7 0 0 1 .7-.7m-2.2.7a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5z", clipRule: "evenodd" }) }), "bold": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m8 0V12H9.5A2.5 2.5 0 1 1 12 9.5M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M9.5 20H12v2.5A2.5 2.5 0 1 1 9.5 20M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11M20 12h2.5A2.5 2.5 0 1 0 20 9.5zM17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5zm3 3.3V20h2.5a2.5 2.5 0 1 1-2.5 2.5", clipRule: "evenodd" }) }), "fill": /* @__PURE__ */ (0, import_jsx_runtime599.jsx)(import_jsx_runtime599.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.5 4a5.5 5.5 0 1 0 0 11h3.3a2.2 2.2 0 0 0 2.2-2.2V9.5A5.5 5.5 0 0 0 9.5 4m0 13a5.5 5.5 0 1 0 5.5 5.5v-3.3a2.2 2.2 0 0 0-2.2-2.2zM17 9.5a5.5 5.5 0 1 1 5.5 5.5h-3.3a2.2 2.2 0 0 1-2.2-2.2zm2.2 7.5a2.2 2.2 0 0 0-2.2 2.2v3.3a5.5 5.5 0 1 0 5.5-5.5z", clipRule: "evenodd" }) }), "duotone": /* @__PURE__ */ (0, import_jsx_runtime599.jsxs)(import_jsx_runtime599.Fragment, { children: [
+  /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", d: "M9.5 4a5.5 5.5 0 1 0 0 11h3.3a2.2 2.2 0 0 0 2.2-2.2V9.5A5.5 5.5 0 0 0 9.5 4M9.5 17a5.5 5.5 0 1 0 5.5 5.5v-3.3a2.2 2.2 0 0 0-2.2-2.2zM17 9.5a5.5 5.5 0 1 1 5.5 5.5h-3.3a2.2 2.2 0 0 1-2.2-2.2zM19.2 17a2.2 2.2 0 0 0-2.2 2.2v3.3a5.5 5.5 0 1 0 5.5-5.5z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime599.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4 9.5a5.5 5.5 0 1 1 11 0v3.3a2.2 2.2 0 0 1-2.2 2.2H9.5A5.5 5.5 0 0 1 4 9.5m9 0v3.3a.2.2 0 0 1-.2.2H9.5A3.5 3.5 0 1 1 13 9.5M4 22.5A5.5 5.5 0 0 1 9.5 17h3.3a2.2 2.2 0 0 1 2.2 2.2v3.3a5.5 5.5 0 1 1-11 0M9.5 19h3.3c.11 0 .2.09.2.2v3.3A3.5 3.5 0 1 1 9.5 19M22.5 4A5.5 5.5 0 0 0 17 9.5v3.3a2.2 2.2 0 0 0 2.2 2.2h3.3a5.5 5.5 0 1 0 0-11m-3.3 9h3.3A3.5 3.5 0 1 0 19 9.5v3.3c0 .11.09.2.2.2M17 19.2a2.2 2.2 0 0 1 2.2-2.2h3.3a5.5 5.5 0 1 1-5.5 5.5zm2.2-.2h3.3a3.5 3.5 0 1 1-3.5 3.5v-3.3c0-.11.09-.2.2-.2", clipRule: "evenodd" })
 ] }) };
 var defaultViewBox598 = "0 0 32 32";
@@ -11789,7 +11783,7 @@ var IconSet_default = IconSet;
 var React709 = __toESM(require("react"));
 var import_jsx_runtime709 = require("react/jsx-runtime");
 var weights708 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime709.jsxs)(import_jsx_runtime709.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime709.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime709.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime709.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime709.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime709.jsx)("path", { fill: "currentColor", d: "M13.966 12v8.727h-1.057v-7.193h-.068q-.06.12-.307.273a2.7 2.7 0 0 1-.64.264q-.39.11-.894.11v-.885q.506 0 .878-.184.37-.183.618-.43.251-.247.379-.448.133-.2.153-.234zM16.263 17.966q.008-.41.123-.848.115-.44.388-.976.273-.537.75-1.244L19.484 12h1.16l-2.302 3.358q.154-.05.316-.085.165-.034.332-.034.793 0 1.415.366.627.366.984 1.002.363.634.363 1.444t-.358 1.44a2.6 2.6 0 0 1-.976.993 2.74 2.74 0 0 1-1.41.363 2.73 2.73 0 0 1-1.424-.371 2.66 2.66 0 0 1-.976-1.023q-.353-.651-.345-1.487m1.005.068q0 .555.222.98.221.426.614.67.392.242.903.242t.903-.238a1.7 1.7 0 0 0 .614-.665q.222-.426.222-.972 0-.554-.222-.976a1.66 1.66 0 0 0-.614-.66 1.7 1.7 0 0 0-.903-.239q-.51 0-.903.239a1.63 1.63 0 0 0-.614.656q-.221.418-.221.963" })
 ] }) };
 var defaultViewBox708 = "0 0 32 32";
@@ -11803,7 +11797,7 @@ var IconSize16_default = IconSize16;
 var React710 = __toESM(require("react"));
 var import_jsx_runtime710 = require("react/jsx-runtime");
 var weights709 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime710.jsxs)(import_jsx_runtime710.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime710.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime710.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime710.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime710.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime710.jsx)("path", { fill: "currentColor", d: "M9 20.847v-.768l2.88-3.153q.508-.554.836-.963.328-.413.486-.775.162-.367.162-.768 0-.46-.222-.796a1.44 1.44 0 0 0-.596-.52 1.9 1.9 0 0 0-.853-.183q-.503 0-.878.208a1.44 1.44 0 0 0-.575.575q-.2.371-.2.87H9.034q0-.766.354-1.347.354-.579.963-.903.614-.324 1.376-.324.768 0 1.36.324t.929.873q.336.55.336 1.224 0 .48-.174.941-.171.456-.597 1.019-.422.558-1.172 1.363l-1.96 2.097v.068h4.057v.938zM19.112 20.966q-.963 0-1.64-.524-.678-.529-1.036-1.53-.357-1.005-.358-2.429 0-1.415.358-2.416.363-1.005 1.04-1.534.682-.533 1.636-.533.955 0 1.632.533.683.528 1.04 1.534.363 1.001.362 2.416 0 1.423-.358 2.429-.357 1.002-1.035 1.53-.678.525-1.64.524m0-.938q.955 0 1.483-.92.53-.921.529-2.625 0-1.135-.243-1.93-.24-.798-.69-1.215a1.52 1.52 0 0 0-1.079-.417q-.945 0-1.478.933-.533.928-.533 2.629 0 1.134.239 1.926.238.793.686 1.206.45.413 1.086.413" })
 ] }) };
 var defaultViewBox709 = "0 0 32 32";
@@ -11817,7 +11811,7 @@ var IconSize20_default = IconSize20;
 var React711 = __toESM(require("react"));
 var import_jsx_runtime711 = require("react/jsx-runtime");
 var weights710 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime711.jsxs)(import_jsx_runtime711.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime711.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime711.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime711.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime711.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime711.jsx)("path", { fill: "currentColor", d: "M9 20.847v-.768l2.88-3.153q.508-.554.836-.963.328-.413.486-.775.162-.367.162-.768 0-.46-.222-.796a1.44 1.44 0 0 0-.596-.52 1.9 1.9 0 0 0-.853-.183q-.503 0-.878.208a1.44 1.44 0 0 0-.575.575q-.2.371-.2.87H9.034q0-.766.354-1.347.354-.579.963-.903.614-.324 1.376-.324.768 0 1.36.324t.929.873q.336.55.336 1.224 0 .48-.174.941-.171.456-.597 1.019-.422.558-1.172 1.363l-1.96 2.097v.068h4.057v.938zM15.874 19.057v-.87l3.494-6.068h1.04l-3.41 5.932v.068h5.182v.938zm4.108 1.79v-5.455h1.005v5.455z" })
 ] }) };
 var defaultViewBox710 = "0 0 32 32";
@@ -11831,7 +11825,7 @@ var IconSize24_default = IconSize24;
 var React712 = __toESM(require("react"));
 var import_jsx_runtime712 = require("react/jsx-runtime");
 var weights711 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime712.jsxs)(import_jsx_runtime712.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime712.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime712.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime712.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime712.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime712.jsx)("path", { fill: "currentColor", d: "M9 20.847v-.768l2.88-3.153q.508-.554.836-.963.328-.413.486-.775.162-.367.162-.768 0-.46-.222-.796a1.44 1.44 0 0 0-.596-.52 1.9 1.9 0 0 0-.853-.183q-.503 0-.878.208a1.44 1.44 0 0 0-.575.575q-.2.371-.2.87H9.034q0-.766.354-1.347.354-.579.963-.903.614-.324 1.376-.324.768 0 1.36.324t.929.873q.336.55.336 1.224 0 .48-.174.941-.171.456-.597 1.019-.422.558-1.172 1.363l-1.96 2.097v.068h4.057v.938zM19.061 20.966q-.877 0-1.551-.311a2.54 2.54 0 0 1-1.044-.865q-.375-.554-.37-1.262a2.32 2.32 0 0 1 .822-1.81q.387-.321.865-.405v-.052a1.69 1.69 0 0 1-.997-.703 2.13 2.13 0 0 1-.367-1.24q-.004-.665.337-1.189.341-.525.937-.826A3 3 0 0 1 19.061 12q.76 0 1.355.303.596.302.938.826.345.524.35 1.19a2.16 2.16 0 0 1-.38 1.24q-.37.54-.984.702v.052q.473.084.852.404.379.315.605.789.225.468.23 1.022-.004.708-.383 1.262-.375.55-1.044.865-.665.31-1.539.31m0-.938q.593 0 1.023-.191.43-.193.665-.541.234-.35.238-.819a1.57 1.57 0 0 0-.255-.873 1.74 1.74 0 0 0-.686-.597 2.15 2.15 0 0 0-.985-.217q-.558 0-.997.217-.434.218-.686.597a1.54 1.54 0 0 0-.243.873 1.43 1.43 0 0 0 .226.819q.235.349.669.54.434.193 1.031.192m0-4.142q.47 0 .831-.187.367-.188.575-.524.21-.338.213-.789a1.46 1.46 0 0 0-.208-.77 1.36 1.36 0 0 0-.567-.512 1.85 1.85 0 0 0-.844-.183q-.49 0-.856.183-.367.179-.567.511a1.4 1.4 0 0 0-.196.771 1.46 1.46 0 0 0 .2.789q.21.336.575.524.367.187.844.187" })
 ] }) };
 var defaultViewBox711 = "0 0 32 32";
@@ -11845,7 +11839,7 @@ var IconSize28_default = IconSize28;
 var React713 = __toESM(require("react"));
 var import_jsx_runtime713 = require("react/jsx-runtime");
 var weights712 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime713.jsxs)(import_jsx_runtime713.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime713.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime713.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime713.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime713.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime713.jsx)("path", { fill: "currentColor", d: "M9 18.665h1.074q.047.443.302.75.26.302.674.46.412.153.916.153.545 0 .98-.183t.69-.545q.256-.367.256-.908 0-.473-.222-.878-.22-.41-.711-.66-.49-.252-1.3-.252h-.699v-.852l2.182-2.625v-.068H9.426v-.938h5.165v.767l-2.335 2.83v.068q.562.026 1.048.23.49.205.852.554.367.35.571.814.205.465.205 1.01 0 .745-.384 1.33-.379.579-1.052.912-.67.332-1.547.332-.775 0-1.428-.273a2.6 2.6 0 0 1-1.06-.788A2.2 2.2 0 0 1 9 18.665M16.672 20.847v-.768l2.88-3.153q.508-.554.835-.963.33-.413.486-.775.162-.367.162-.768 0-.46-.221-.796a1.44 1.44 0 0 0-.597-.52 1.9 1.9 0 0 0-.852-.183q-.503 0-.878.208a1.44 1.44 0 0 0-.575.575q-.2.371-.2.87h-1.006q0-.766.353-1.347.354-.579.963-.903Q18.636 12 19.4 12q.766 0 1.36.324.592.324.928.873.336.55.337 1.224 0 .48-.175.941-.17.456-.596 1.019-.422.558-1.172 1.363l-1.96 2.097v.068h4.056v.938z" })
 ] }) };
 var defaultViewBox712 = "0 0 32 32";
@@ -11859,7 +11853,7 @@ var IconSize32_default = IconSize32;
 var React714 = __toESM(require("react"));
 var import_jsx_runtime714 = require("react/jsx-runtime");
 var weights713 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime714.jsxs)(import_jsx_runtime714.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime714.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime714.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime714.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime714.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime714.jsx)("path", { fill: "currentColor", d: "M9 19.057v-.87l3.494-6.068h1.04l-3.41 5.932v.068h5.183v.938zm4.108 1.79v-5.455h1.005v5.455zM19.75 20.966q-.963 0-1.64-.524-.678-.529-1.036-1.53-.358-1.005-.358-2.429 0-1.415.358-2.416.363-1.005 1.04-1.534Q18.795 12 19.75 12t1.632.533q.682.528 1.04 1.534.363 1.001.362 2.416 0 1.423-.358 2.429-.357 1.002-1.035 1.53-.678.525-1.64.524m0-.938q.954 0 1.483-.92.528-.921.529-2.625 0-1.135-.243-1.93-.24-.798-.69-1.215a1.52 1.52 0 0 0-1.079-.417q-.945 0-1.479.933-.532.928-.532 2.629 0 1.134.238 1.926.24.793.687 1.206.45.413 1.086.413" })
 ] }) };
 var defaultViewBox713 = "0 0 32 32";
@@ -11873,7 +11867,7 @@ var IconSize40_default = IconSize40;
 var React715 = __toESM(require("react"));
 var import_jsx_runtime715 = require("react/jsx-runtime");
 var weights714 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime715.jsxs)(import_jsx_runtime715.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime715.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime715.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime715.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime715.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime715.jsx)("path", { fill: "currentColor", d: "M9 19.057v-.87l3.494-6.068h1.04l-3.41 5.932v.068h5.183v.938zm4.108 1.79v-5.455h1.005v5.455zM19.7 20.966q-.879 0-1.552-.311a2.54 2.54 0 0 1-1.044-.865q-.375-.554-.37-1.262a2.32 2.32 0 0 1 .822-1.81q.387-.321.865-.405v-.052a1.69 1.69 0 0 1-.997-.703 2.13 2.13 0 0 1-.367-1.24q-.004-.665.337-1.189.341-.525.937-.826A3 3 0 0 1 19.7 12q.759 0 1.355.303.596.302.938.826.345.524.35 1.19a2.16 2.16 0 0 1-.38 1.24q-.37.54-.985.702v.052q.474.084.853.404.379.315.605.789.225.468.23 1.022-.004.708-.383 1.262-.375.55-1.045.865-.664.31-1.538.31m0-.938q.591 0 1.022-.191.43-.193.665-.541.234-.35.238-.819a1.57 1.57 0 0 0-.255-.873 1.74 1.74 0 0 0-.687-.597 2.15 2.15 0 0 0-.984-.217q-.558 0-.997.217-.435.218-.686.597a1.54 1.54 0 0 0-.243.873q-.005.469.226.819.235.349.669.54.434.193 1.031.192m0-4.142q.468 0 .83-.187.366-.188.575-.524.21-.338.213-.789a1.45 1.45 0 0 0-.208-.77 1.36 1.36 0 0 0-.567-.512 1.85 1.85 0 0 0-.844-.183q-.49 0-.856.183a1.3 1.3 0 0 0-.567.511 1.4 1.4 0 0 0-.196.771 1.46 1.46 0 0 0 .2.789q.21.336.575.524.367.187.844.187" })
 ] }) };
 var defaultViewBox714 = "0 0 32 32";
@@ -11887,7 +11881,7 @@ var IconSize48_default = IconSize48;
 var React716 = __toESM(require("react"));
 var import_jsx_runtime716 = require("react/jsx-runtime");
 var weights715 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime716.jsxs)(import_jsx_runtime716.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime716.jsx)("g", { fill: "currentColor", opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime716.jsx)("path", { d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
+  /* @__PURE__ */ (0, import_jsx_runtime716.jsx)("g", { opacity: ".08", children: /* @__PURE__ */ (0, import_jsx_runtime716.jsx)("path", { fill: "currentColor", d: "M19.75 4a.75.75 0 0 0 0 1.5h4A2.25 2.25 0 0 1 26 7.75v4a.75.75 0 0 0 1.5 0v-4A3.75 3.75 0 0 0 23.75 4zM11.75 27.5a.75.75 0 0 0 0-1.5h-4a2.25 2.25 0 0 1-2.25-2.25v-4a.75.75 0 0 0-1.5 0v4a3.75 3.75 0 0 0 3.75 3.75zM4.75 12.5a.75.75 0 0 1-.75-.75v-4A3.75 3.75 0 0 1 7.75 4h4a.75.75 0 0 1 0 1.5h-4A2.25 2.25 0 0 0 5.5 7.75v4a.75.75 0 0 1-.75.75M27.5 19.75a.75.75 0 0 0-1.5 0v4A2.25 2.25 0 0 1 23.75 26h-4a.75.75 0 0 0 0 1.5h4a3.75 3.75 0 0 0 3.75-3.75z" }) }),
   /* @__PURE__ */ (0, import_jsx_runtime716.jsx)("path", { fill: "currentColor", d: "M11.966 20.966q-.877 0-1.551-.311a2.54 2.54 0 0 1-1.044-.865q-.375-.554-.371-1.262a2.32 2.32 0 0 1 .822-1.81q.388-.321.866-.405v-.052a1.69 1.69 0 0 1-.998-.703 2.13 2.13 0 0 1-.366-1.24q-.004-.665.337-1.189.341-.525.937-.826A3 3 0 0 1 11.966 12q.759 0 1.355.303.596.302.938.826.345.524.349 1.19-.005.694-.38 1.24-.37.54-.984.702v.052q.474.084.853.404.379.315.605.789.225.468.23 1.022-.004.708-.384 1.262-.375.55-1.044.865-.665.31-1.538.31m0-.938q.592 0 1.023-.191.43-.193.664-.541.235-.35.24-.819a1.57 1.57 0 0 0-.257-.873 1.74 1.74 0 0 0-.686-.597 2.15 2.15 0 0 0-.984-.217q-.558 0-.997.217-.435.218-.686.597a1.54 1.54 0 0 0-.243.873 1.43 1.43 0 0 0 .226.819q.234.349.669.54.435.193 1.03.192m0-4.142q.469 0 .83-.187.367-.188.576-.524.21-.338.213-.789a1.45 1.45 0 0 0-.209-.77 1.35 1.35 0 0 0-.566-.512 1.85 1.85 0 0 0-.844-.183q-.49 0-.857.183-.366.179-.566.511a1.42 1.42 0 0 0-.196.771 1.46 1.46 0 0 0 .2.789q.209.336.575.524.367.187.844.187M19.412 20.966q-.964 0-1.641-.524-.678-.529-1.036-1.53-.357-1.005-.357-2.429 0-1.415.357-2.416.363-1.005 1.04-1.534.682-.533 1.637-.533.954 0 1.632.533.68.528 1.04 1.534.361 1.001.362 2.416 0 1.423-.358 2.429-.358 1.002-1.036 1.53-.677.525-1.64.524m0-.938q.954 0 1.483-.92.528-.921.528-2.625 0-1.135-.243-1.93-.24-.798-.69-1.215a1.52 1.52 0 0 0-1.078-.417q-.946 0-1.48.933-.532.928-.532 2.629 0 1.134.239 1.926.239.793.686 1.206.451.413 1.087.413" })
 ] }) };
 var defaultViewBox715 = "0 0 32 32";
@@ -13588,31 +13582,56 @@ var Notebook_default = Notebook;
 var React838 = __toESM(require("react"));
 var import_jsx_runtime838 = require("react/jsx-runtime");
 var weights837 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)(import_jsx_runtime838.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "url(#a)", d: "M6 5a2 2 0 0 1 2-2h12l6 6v18a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "#DCCFE8", d: "m26 9-6-6v4a2 2 0 0 0 2 2z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "#A1A2CD", fillRule: "evenodd", d: "M9.5 13a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1zM9 19.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "url(#b)", d: "M24.85 12.707a1 1 0 0 1 1.413 0l2.829 2.829a1 1 0 0 1 0 1.414L16.364 29.678l-4.243-4.243z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "url(#c)", d: "M12.121 29.678v-4.242l4.243 4.242z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "#1C1C1C", d: "M12.121 29.678v-1.414l1.415 1.414z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fill: "url(#d)", d: "M23.435 14.121h6v3h-6z", transform: "rotate(45 23.435 14.121)" }),
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { d: "M6 5C6 3.89543 6.89543 3 8 3H20L26 9V27C26 28.1046 25.1046 29 24 29H8C6.89543 29 6 28.1046 6 27V5Z", fill: "url(#paint0_linear_7421_2768)" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { d: "M26 9L20 3V7C20 8.10457 20.8954 9 22 9H26Z", fill: "#DCCFE8" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M9.5 13C9.22386 13 9 13.2239 9 13.5C9 13.7761 9.22386 14 9.5 14H22.5C22.7761 14 23 13.7761 23 13.5C23 13.2239 22.7761 13 22.5 13H9.5ZM9.5 16C9.22386 16 9 16.2239 9 16.5C9 16.7761 9.22386 17 9.5 17H22.5C22.7761 17 23 16.7761 23 16.5C23 16.2239 22.7761 16 22.5 16H9.5ZM9 19.5C9 19.2239 9.22386 19 9.5 19H22.5C22.7761 19 23 19.2239 23 19.5C23 19.7761 22.7761 20 22.5 20H9.5C9.22386 20 9 19.7761 9 19.5ZM9.5 22C9.22386 22 9 22.2239 9 22.5C9 22.7761 9.22386 23 9.5 23H22.5C22.7761 23 23 22.7761 23 22.5C23 22.2239 22.7761 22 22.5 22H9.5Z", fill: "#A1A2CD" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { d: "M24.8493 12.7071C25.2398 12.3166 25.873 12.3166 26.2635 12.7071L29.0919 15.5355C29.4825 15.9261 29.4825 16.5592 29.0919 16.9497L16.364 29.6777L12.1214 25.435L24.8493 12.7071Z", fill: "url(#paint1_linear_7421_2768)" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { d: "M12.1213 29.6772V25.4346L16.364 29.6772H12.1213Z", fill: "url(#paint2_linear_7421_2768)" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("path", { d: "M12.1213 29.6779V28.2637L13.5356 29.6779H12.1213Z", fill: "#1C1C1C" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("rect", { x: "23.4351", y: "14.1211", width: "6", height: "3", transform: "rotate(45 23.4351 14.1211)", fill: "url(#paint3_linear_7421_2768)" }),
+  " ",
   /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("defs", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "a", x1: "16", x2: "16", y1: "3", y2: "31", gradientUnits: "userSpaceOnUse", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "paint0_linear_7421_2768", x1: "16", y1: "3", x2: "16", y2: "31", gradientUnits: "userSpaceOnUse", children: [
+      " ",
       /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { stopColor: "#F1ECF7" }),
-      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#E8DEF2" })
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#E8DEF2" }),
+      " "
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "b", x1: "27.678", x2: "14.243", y1: "14.121", y2: "27.556", gradientUnits: "userSpaceOnUse", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "paint1_linear_7421_2768", x1: "27.6777", y1: "14.1213", x2: "14.2427", y2: "27.5563", gradientUnits: "userSpaceOnUse", children: [
+      " ",
       /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { stopColor: "#FF6659" }),
-      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#FF8749" })
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#FF8749" }),
+      " "
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "c", x1: "14.243", x2: "12.121", y1: "27.557", y2: "29.678", gradientUnits: "userSpaceOnUse", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "paint2_linear_7421_2768", x1: "14.2427", y1: "27.5559", x2: "12.1213", y2: "29.6772", gradientUnits: "userSpaceOnUse", children: [
+      " ",
       /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { stopColor: "#FFBA9F" }),
-      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#DE8893" })
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#DE8893" }),
+      " "
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "d", x1: "23.749", x2: "30.82", y1: "15.05", y2: "15.05", gradientUnits: "userSpaceOnUse", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime838.jsxs)("linearGradient", { id: "paint3_linear_7421_2768", x1: "23.7487", y1: "15.05", x2: "30.8198", y2: "15.05", gradientUnits: "userSpaceOnUse", children: [
+      " ",
       /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { stopColor: "#E3DBEF" }),
-      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: ".807", stopColor: "#F6F1FE" }),
-      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#EADEFC" })
-    ] })
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "0.807292", stopColor: "#F6F1FE" }),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime838.jsx)("stop", { offset: "1", stopColor: "#EADEFC" }),
+      " "
+    ] }),
+    " "
   ] })
 ] }) };
 var defaultViewBox837 = "0 0 32 32";
@@ -14144,12 +14163,17 @@ var OfficeChair_default = OfficeChair;
 var React876 = __toESM(require("react"));
 var import_jsx_runtime876 = require("react/jsx-runtime");
 var weights875 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime876.jsxs)(import_jsx_runtime876.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#AE4BD5", d: "M28 3.5A1.5 1.5 0 0 1 29.5 2h1A1.5 1.5 0 0 1 32 3.5v5a1.5 1.5 0 0 1-1.5 1.5h-1A1.5 1.5 0 0 1 28 8.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#9332BF", d: "M28 13.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#7719AA", d: "M28 23.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M7.5 29.206V2.794C7.5 1.25 8.731 0 10.25 0h16.5c1.519 0 2.75 1.25 2.75 2.794v26.412C29.5 30.75 28.269 32 26.75 32h-16.5c-1.519 0-2.75-1.25-2.75-2.794M9.25 2.794v26.412c0 .561.448 1.016 1 1.016h16.5c.552 0 1-.455 1-1.016V2.794c0-.561-.448-1.016-1-1.016h-16.5c-.552 0-1 .455-1 1.016", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#7719AA", d: "M0 9.25a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fill: "#fff", d: "M4 21.5V12h1.75l6.5 6.5V12H14v9.5h-1.75L5.75 15v6.5z" })
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { d: "M28 3.5C28 2.67157 28.6716 2 29.5 2H30.5C31.3284 2 32 2.67157 32 3.5V8.5C32 9.32843 31.3284 10 30.5 10H29.5C28.6716 10 28 9.32843 28 8.5V3.5Z", fill: "#AE4BD5" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { d: "M28 13.5C28 12.6716 28.6716 12 29.5 12H30.5C31.3284 12 32 12.6716 32 13.5V18.5C32 19.3284 31.3284 20 30.5 20H29.5C28.6716 20 28 19.3284 28 18.5V13.5Z", fill: "#9332BF" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { d: "M28 23.5C28 22.6716 28.6716 22 29.5 22H30.5C31.3284 22 32 22.6716 32 23.5V28.5C32 29.3284 31.3284 30 30.5 30H29.5C28.6716 30 28 29.3284 28 28.5V23.5Z", fill: "#7719AA" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M7.5 29.2064V2.79365C7.5 1.25076 8.73122 0 10.25 0H26.75C28.2688 0 29.5 1.25076 29.5 2.79365V29.2064C29.5 30.7492 28.2688 32 26.75 32H10.25C8.73122 32 7.5 30.7492 7.5 29.2064ZM9.25 2.79365V29.2064C9.25 29.7674 9.69772 30.2222 10.25 30.2222H26.75C27.3023 30.2222 27.75 29.7674 27.75 29.2064V2.79365C27.75 2.2326 27.3023 1.77778 26.75 1.77778H10.25C9.69772 1.77778 9.25 2.2326 9.25 2.79365Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { d: "M0 9.25C0 8.42157 0.671573 7.75 1.5 7.75H16.5C17.3284 7.75 18 8.42157 18 9.25V24.25C18 25.0784 17.3284 25.75 16.5 25.75H1.5C0.671573 25.75 0 25.0784 0 24.25V9.25Z", fill: "#7719AA" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime876.jsx)("path", { d: "M4 21.5V12H5.75L12.25 18.5V12H14V21.5H12.25L5.75 15V21.5H4Z", fill: "white" })
 ] }) };
 var defaultViewBox875 = "0 0 32 32";
 var OnenoteIcon = React876.forwardRef((props, ref) => {
@@ -15377,11 +15401,15 @@ var Power_default = Power;
 var React964 = __toESM(require("react"));
 var import_jsx_runtime964 = require("react/jsx-runtime");
 var weights963 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime964.jsxs)(import_jsx_runtime964.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M8 2.794v26.412C8 30.75 9.231 32 10.75 32h18.5c1.519 0 2.75-1.25 2.75-2.794V7.351c0-.746-.294-1.461-.816-1.986L26.648.807A2.73 2.73 0 0 0 24.714 0H10.75C9.231 0 8 1.25 8 2.794m1.75 26.412V2.794c0-.561.448-1.016 1-1.016h13.625v6.095c0 1.052.84 1.905 1.875 1.905h4v19.428c0 .561-.448 1.016-1 1.016h-18.5c-.552 0-1-.455-1-1.016M30.25 8v-.649c0-.271-.107-.531-.297-.722l-3.828-3.846v5.09c0 .07.056.127.125.127z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fill: "#E48762", d: "M20 24q6 0 6-6h-4v-4h-2v10" }),
-  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fill: "#F9D4C4", d: "M24 16v-4c1.5 0 4 2.5 4 4z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fill: "#C25B33", d: "M0 9.25a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fill: "#fff", d: "M6 21.522V11.5h2.666q1.49 0 1.948.144.732.232 1.203.99.48.76.479 1.956 0 1.087-.41 1.825-.41.732-1.026 1.032-.615.294-2.119.294H7.654v3.78zm1.654-8.327v2.844h.916q.924 0 1.251-.13a1.12 1.12 0 0 0 .547-.465q.212-.342.212-.834 0-.499-.219-.84a1.08 1.08 0 0 0-.54-.458q-.32-.117-1.36-.117z" })
+  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 2.79365V29.2064C8 30.7492 9.23122 32 10.75 32H29.25C30.7688 32 32 30.7492 32 29.2064V7.35127C32 6.60502 31.7061 5.88979 31.1838 5.36503L26.6478 0.807413C26.133 0.29013 25.4381 0 24.714 0H10.75C9.23122 0 8 1.25076 8 2.79365ZM9.75 29.2064V2.79365C9.75 2.2326 10.1977 1.77778 10.75 1.77778H24.375V7.87302C24.375 8.92499 25.2145 9.77778 26.25 9.77778H30.25V29.2064C30.25 29.7674 29.8023 30.2222 29.25 30.2222H10.75C10.1977 30.2222 9.75 29.7674 9.75 29.2064ZM30.25 8V7.35127C30.25 7.07991 30.1431 6.81982 29.9532 6.629L26.125 2.78254V7.87302C26.125 7.94315 26.181 8 26.25 8H30.25Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { d: "M20 24C24 24 26 22 26 18H22V14H20V18V24Z", fill: "#E48762" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { d: "M24 16V12C25.5 12 28 14.5 28 16H24Z", fill: "#F9D4C4" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { d: "M0 9.25C0 8.42157 0.671573 7.75 1.5 7.75H16.5C17.3284 7.75 18 8.42157 18 9.25V24.25C18 25.0784 17.3284 25.75 16.5 25.75H1.5C0.671573 25.75 0 25.0784 0 24.25V9.25Z", fill: "#C25B33" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime964.jsx)("path", { d: "M6 21.5215V11.5H8.66602C9.65951 11.5 10.3089 11.5479 10.6143 11.6436C11.1019 11.7985 11.5029 12.1289 11.8174 12.6348C12.1364 13.1406 12.2959 13.7923 12.2959 14.5898C12.2959 15.3145 12.1592 15.9229 11.8857 16.415C11.6123 16.9027 11.2705 17.2467 10.8604 17.4473C10.4502 17.6432 9.74381 17.7412 8.74121 17.7412H7.6543V21.5215H6ZM7.6543 13.1953V16.0391H8.57031C9.18555 16.0391 9.60254 15.9958 9.82129 15.9092C10.0446 15.8226 10.2269 15.6676 10.3682 15.4443C10.5094 15.2165 10.5801 14.9385 10.5801 14.6104C10.5801 14.2777 10.5072 13.9974 10.3613 13.7695C10.2155 13.5417 10.0355 13.389 9.82129 13.3115C9.6071 13.234 9.15365 13.1953 8.46094 13.1953H7.6543Z", fill: "white" })
 ] }) };
 var defaultViewBox963 = "0 0 32 32";
 var PptIcon = React964.forwardRef((props, ref) => {
@@ -15662,37 +15690,7 @@ var Radical_default = Radical;
 // src/icons/Radio2true.tsx
 var React984 = __toESM(require("react"));
 var import_jsx_runtime984 = require("react/jsx-runtime");
-var weights983 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime984.jsxs)(import_jsx_runtime984.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("g", { filter: "url(#a)", children: /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 8c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14", clipRule: "evenodd" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime984.jsxs)("filter", { id: "a", width: "29", height: "30", x: "2", y: "1.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feBlend", { in2: "shape", result: "effect1_innerShadow_7214_3733" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feBlend", { in2: "effect1_innerShadow_7214_3733", mode: "overlay", result: "effect2_innerShadow_7214_3733" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feBlend", { in2: "effect2_innerShadow_7214_3733", result: "effect3_innerShadow_7214_3733" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feOffset", { dy: "-.5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("feBlend", { in2: "effect3_innerShadow_7214_3733", mode: "overlay", result: "effect4_innerShadow_7214_3733" })
-  ] }) })
-] }) };
+var weights983 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime984.jsx)(import_jsx_runtime984.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime984.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 8c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14", clipRule: "evenodd" }) }) };
 var defaultViewBox983 = "0 0 32 32";
 var Radio2true = React984.forwardRef((props, ref) => {
   return /* @__PURE__ */ (0, import_jsx_runtime984.jsx)(IconBase_default, { ref, ...props, viewBox: defaultViewBox983, weights: weights983 });
@@ -15828,7 +15826,7 @@ var React992 = __toESM(require("react"));
 var import_jsx_runtime992 = require("react/jsx-runtime");
 var weights991 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime992.jsxs)(import_jsx_runtime992.Fragment, { children: [
   /* @__PURE__ */ (0, import_jsx_runtime992.jsx)("path", { fill: "currentColor", d: "m29.313 14.298-5.638 4.92 1.689 7.325a2 2 0 0 1-2.98 2.167l-6.389-3.875L9.62 28.71a2 2 0 0 1-2.98-2.167l1.686-7.318-5.639-4.927a2 2 0 0 1 1.14-3.508l7.432-.643 2.901-6.92a1.994 1.994 0 0 1 3.68 0l2.91 6.92 7.43.643a2 2 0 0 1 1.139 3.508z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime992.jsx)("path", { fill: "#fff", d: "M17.05 12.273V21h-1.056v-7.193h-.069q-.06.12-.306.273-.247.15-.64.264-.391.11-.894.11v-.886q.507 0 .877-.183.372-.183.618-.43.251-.247.38-.448l.153-.234z" })
+  /* @__PURE__ */ (0, import_jsx_runtime992.jsx)("path", { fill: "#fff", d: "M17.05 12.273V21h-1.056v-7.193h-.069q-.06.12-.306.273-.247.15-.64.264a3.3 3.3 0 0 1-.894.11v-.886q.507 0 .877-.183.372-.183.618-.43.252-.247.38-.448l.153-.234z" })
 ] }) };
 var defaultViewBox991 = "0 0 32 32";
 var Rating1 = React992.forwardRef((props, ref) => {
@@ -15842,7 +15840,7 @@ var React993 = __toESM(require("react"));
 var import_jsx_runtime993 = require("react/jsx-runtime");
 var weights992 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime993.jsxs)(import_jsx_runtime993.Fragment, { children: [
   /* @__PURE__ */ (0, import_jsx_runtime993.jsx)("path", { fill: "currentColor", d: "m29.313 14.298-5.638 4.92 1.689 7.325a2 2 0 0 1-2.98 2.167l-6.389-3.875L9.62 28.71a2 2 0 0 1-2.98-2.167l1.686-7.318-5.639-4.927a2 2 0 0 1 1.14-3.508l7.432-.643 2.901-6.92a1.994 1.994 0 0 1 3.68 0l2.91 6.92 7.43.643a2 2 0 0 1 1.139 3.508z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime993.jsx)("path", { fill: "#fff", d: "M13.27 21v-.767l2.881-3.154q.508-.553.835-.963.33-.413.486-.775.162-.366.162-.767 0-.46-.221-.797a1.44 1.44 0 0 0-.597-.52 1.9 1.9 0 0 0-.852-.183q-.503 0-.878.209a1.44 1.44 0 0 0-.575.575q-.2.37-.2.87h-1.006q0-.768.353-1.347.354-.58.963-.904.614-.324 1.377-.324.766 0 1.36.324.591.324.928.874t.337 1.223q0 .481-.175.941-.17.456-.596 1.019a18 18 0 0 1-1.172 1.364l-1.96 2.096v.068h4.056V21z" })
+  /* @__PURE__ */ (0, import_jsx_runtime993.jsx)("path", { fill: "#fff", d: "M13.27 21v-.767l2.881-3.154q.508-.553.835-.963.33-.413.486-.775.162-.366.162-.767 0-.46-.221-.797a1.44 1.44 0 0 0-.597-.52 1.9 1.9 0 0 0-.852-.183q-.503 0-.878.209a1.44 1.44 0 0 0-.575.575 1.8 1.8 0 0 0-.2.87h-1.006q0-.768.353-1.347.354-.58.963-.904a2.9 2.9 0 0 1 1.377-.324q.766 0 1.36.324.591.324.928.874t.337 1.223q0 .481-.175.941-.17.456-.596 1.019-.422.558-1.172 1.364l-1.96 2.096v.068h4.056V21z" })
 ] }) };
 var defaultViewBox992 = "0 0 32 32";
 var Rating2 = React993.forwardRef((props, ref) => {
@@ -15856,7 +15854,7 @@ var React994 = __toESM(require("react"));
 var import_jsx_runtime994 = require("react/jsx-runtime");
 var weights993 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime994.jsxs)(import_jsx_runtime994.Fragment, { children: [
   /* @__PURE__ */ (0, import_jsx_runtime994.jsx)("path", { fill: "currentColor", d: "m29.313 14.298-5.638 4.92 1.689 7.325a2 2 0 0 1-2.98 2.167l-6.389-3.875L9.62 28.71a2 2 0 0 1-2.98-2.167l1.686-7.318-5.639-4.927a2 2 0 0 1 1.14-3.508l7.432-.643 2.901-6.92a1.994 1.994 0 0 1 3.68 0l2.91 6.92 7.43.643a2 2 0 0 1 1.139 3.508z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime994.jsx)("path", { fill: "#fff", d: "M13 18.818h1.073q.047.444.303.75.26.303.673.46.414.154.916.154a2.5 2.5 0 0 0 .98-.183q.435-.183.69-.546.256-.366.256-.907a1.8 1.8 0 0 0-.221-.878q-.222-.41-.712-.66-.49-.252-1.3-.252h-.698v-.852l2.182-2.625v-.069h-3.716v-.937h5.164v.767l-2.335 2.83v.068q.563.026 1.048.23.49.204.853.554.366.35.57.814.205.465.205 1.01 0 .745-.383 1.33-.38.58-1.053.911-.67.333-1.547.332-.776 0-1.427-.272a2.6 2.6 0 0 1-1.061-.789 2.2 2.2 0 0 1-.46-1.24" })
+  /* @__PURE__ */ (0, import_jsx_runtime994.jsx)("path", { fill: "#fff", d: "M13 18.818h1.073q.047.444.303.75.26.303.673.46.414.154.916.154a2.5 2.5 0 0 0 .98-.183q.435-.183.69-.546.256-.366.256-.907 0-.474-.221-.878-.222-.41-.712-.66-.49-.252-1.3-.252h-.698v-.852l2.182-2.625v-.069h-3.716v-.937h5.164v.767l-2.335 2.83v.068q.563.026 1.049.23.489.204.852.554.366.35.57.814.205.465.205 1.01 0 .745-.383 1.33-.38.58-1.053.911-.668.333-1.547.332-.776 0-1.427-.272a2.6 2.6 0 0 1-1.061-.789 2.2 2.2 0 0 1-.46-1.24" })
 ] }) };
 var defaultViewBox993 = "0 0 32 32";
 var Rating3 = React994.forwardRef((props, ref) => {
@@ -16147,20 +16145,8 @@ var Rocket_default = Rocket;
 // src/icons/Round2.tsx
 var React1015 = __toESM(require("react"));
 var import_jsx_runtime1015 = require("react/jsx-runtime");
-var weights1014 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1015.jsxs)(import_jsx_runtime1015.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("g", { filter: "url(#a)", children: /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("circle", { cx: "22", cy: "20", r: "14", fill: "#fff" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("defs", { children: /* @__PURE__ */ (0, import_jsx_runtime1015.jsxs)("filter", { id: "a", width: "44", height: "44", x: "0", y: "0", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feOffset", { dy: "2" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feGaussianBlur", { stdDeviation: "4" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feComposite", { in2: "hardAlpha", operator: "out" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow_7159_6029" }),
-    /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("feBlend", { in: "SourceGraphic", in2: "effect1_dropShadow_7159_6029", result: "shape" })
-  ] }) })
-] }) };
-var defaultViewBox1014 = "0 0 44 44";
+var weights1014 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)(import_jsx_runtime1015.Fragment, { children: /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)("circle", { cx: "16.25", cy: "16", r: "14", fill: "#fff" }) }) };
+var defaultViewBox1014 = "0 0 32 32";
 var Round2 = React1015.forwardRef((props, ref) => {
   return /* @__PURE__ */ (0, import_jsx_runtime1015.jsx)(IconBase_default, { ref, ...props, viewBox: defaultViewBox1014, weights: weights1014 });
 });
@@ -16420,29 +16406,56 @@ var SealWarning_default = SealWarning;
 var React1034 = __toESM(require("react"));
 var import_jsx_runtime1034 = require("react/jsx-runtime");
 var weights1033 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)(import_jsx_runtime1034.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fill: "url(#a)", d: "M28.071 14.4c0 5.744-4.656 10.4-10.4 10.4-5.743 0-10.4-4.656-10.4-10.4S11.928 4 17.671 4s10.4 4.656 10.4 10.4" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.671 23.3a8.9 8.9 0 1 0 0-17.8 8.9 8.9 0 0 0 0 17.8m0 1.5c5.744 0 10.4-4.656 10.4-10.4S23.415 4 17.671 4c-5.743 0-10.4 4.656-10.4 10.4s4.657 10.4 10.4 10.4", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("g", { filter: "url(#b)", children: /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("ellipse", { cx: "22.373", cy: "10.302", fill: "url(#c)", rx: "2", ry: "1.5", transform: "rotate(45 22.373 10.302)" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fill: "url(#d)", d: "M11.567 20.918a3 3 0 0 1 0 4.242l-3.203 3.203a3 3 0 1 1-4.243-4.242l3.203-3.203a3 3 0 0 1 4.243 0" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m7.303 27.303 3.203-3.203a1.5 1.5 0 1 0-2.121-2.122l-3.203 3.203a1.5 1.5 0 0 0 2.121 2.122m4.264-2.143a3 3 0 0 0-4.243-4.242L4.121 24.12a3 3 0 1 0 4.243 4.243z", clipRule: "evenodd" }),
+  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { d: "M28.0712 14.4C28.0712 20.1437 23.4149 24.7999 17.6712 24.7999C11.9275 24.7999 7.27124 20.1437 7.27124 14.4C7.27124 8.65622 11.9275 4 17.6712 4C23.4149 4 28.0712 8.65622 28.0712 14.4Z", fill: "url(#paint0_radial_7159_6037)" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M17.6712 23.2999C22.5865 23.2999 26.5712 19.3153 26.5712 14.4C26.5712 9.48465 22.5865 5.5 17.6712 5.5C12.7559 5.5 8.77124 9.48465 8.77124 14.4C8.77124 19.3153 12.7559 23.2999 17.6712 23.2999ZM17.6712 24.7999C23.4149 24.7999 28.0712 20.1437 28.0712 14.4C28.0712 8.65622 23.4149 4 17.6712 4C11.9275 4 7.27124 8.65622 7.27124 14.4C7.27124 20.1437 11.9275 24.7999 17.6712 24.7999Z", fill: "currentColor" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("g", { filter: "url(#filter0_f_7159_6037)", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("ellipse", { cx: "22.3733", cy: "10.302", rx: "2", ry: "1.5", transform: "rotate(45 22.3733 10.302)", fill: "url(#paint1_linear_7159_6037)" }),
+    " "
+  ] }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { d: "M11.567 20.9177C12.7386 22.0893 12.7386 23.9888 11.567 25.1604L8.3639 28.3635C7.19233 29.5351 5.29283 29.5351 4.12126 28.3635C2.94968 27.1919 2.94968 25.2925 4.12126 24.1209L7.32439 20.9177C8.49596 19.7462 10.3955 19.7462 11.567 20.9177Z", fill: "url(#paint2_linear_7159_6037)" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M7.30324 27.3029L10.5064 24.0997C11.0922 23.5139 11.0922 22.5642 10.5064 21.9784C9.92059 21.3926 8.97084 21.3926 8.38505 21.9784L5.18192 25.1815C4.59613 25.7673 4.59613 26.7171 5.18192 27.3029C5.7677 27.8886 6.71745 27.8886 7.30324 27.3029ZM11.567 25.1604C12.7386 23.9888 12.7386 22.0893 11.567 20.9177C10.3955 19.7462 8.49596 19.7462 7.32439 20.9177L4.12126 24.1209C2.94968 25.2925 2.94968 27.1919 4.12126 28.3635C5.29283 29.5351 7.19233 29.5351 8.3639 28.3635L11.567 25.1604Z", fill: "currentColor" }),
+  " ",
   /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("defs", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("linearGradient", { id: "c", x1: "22.373", x2: "22.373", y1: "8.802", y2: "11.802", gradientUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { stopColor: "#fff" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "#fff", stopOpacity: "0" })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("linearGradient", { id: "d", x1: "9.965", x2: "5.723", y1: "26.762", y2: "22.519", gradientUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: ".599", stopColor: "#B5B7F9" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "#EBEBFF" })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("radialGradient", { id: "a", cx: "0", cy: "0", r: "1", gradientTransform: "rotate(90 1.636 16.036)scale(10.4)", gradientUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: ".583", stopColor: "#83D0FC" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "#D6F0FF" })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("filter", { id: "b", width: "5.536", height: "5.536", x: "19.605", y: "7.534", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("filter", { id: "filter0_f_7159_6037", x: "19.6055", y: "7.53418", width: "5.53571", height: "5.53613", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
+      " ",
       /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("feGaussianBlur", { result: "effect1_foregroundBlur_7159_6037", stdDeviation: ".5" })
-    ] })
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("feGaussianBlur", { stdDeviation: "0.5", result: "effect1_foregroundBlur_7159_6037" }),
+      " "
+    ] }),
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("radialGradient", { id: "paint0_radial_7159_6037", cx: "0", cy: "0", r: "1", gradientUnits: "userSpaceOnUse", gradientTransform: "translate(17.6712 14.4) rotate(90) scale(10.4)", children: [
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "0.583333", stopColor: "#83D0FC" }),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "#D6F0FF" }),
+      " "
+    ] }),
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("linearGradient", { id: "paint1_linear_7159_6037", x1: "22.3733", y1: "8.80202", x2: "22.3733", y2: "11.802", gradientUnits: "userSpaceOnUse", children: [
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { stopColor: "white" }),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "white", stopOpacity: "0" }),
+      " "
+    ] }),
+    " ",
+    /* @__PURE__ */ (0, import_jsx_runtime1034.jsxs)("linearGradient", { id: "paint2_linear_7159_6037", x1: "9.96547", y1: "26.762", x2: "5.72283", y2: "22.5193", gradientUnits: "userSpaceOnUse", children: [
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "0.598958", stopColor: "#B5B7F9" }),
+      " ",
+      /* @__PURE__ */ (0, import_jsx_runtime1034.jsx)("stop", { offset: "1", stopColor: "#EBEBFF" }),
+      " "
+    ] }),
+    " "
   ] })
 ] }) };
 var defaultViewBox1033 = "0 0 32 32";
@@ -19066,48 +19079,8 @@ var Tipi_default = Tipi;
 var React1222 = __toESM(require("react"));
 var import_jsx_runtime1222 = require("react/jsx-runtime");
 var weights1221 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1222.jsxs)(import_jsx_runtime1222.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("g", { filter: "url(#a)", opacity: ".21", children: /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("path", { fill: "currentColor", d: "M2 16a8 8 0 0 1 8-8h12a8 8 0 1 1 0 16H10a8 8 0 0 1-8-8" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("g", { filter: "url(#b)", children: /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("path", { fill: "#fff", d: "M16 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1222.jsxs)("defs", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime1222.jsxs)("filter", { id: "a", width: "29", height: "18", x: "2", y: "7.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in2: "shape", result: "effect1_innerShadow_7214_3731" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in2: "effect1_innerShadow_7214_3731", mode: "overlay", result: "effect2_innerShadow_7214_3731" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feOffset", { dy: "-.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in2: "effect2_innerShadow_7214_3731", result: "effect3_innerShadow_7214_3731" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feOffset", { dy: "-.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in2: "effect3_innerShadow_7214_3731", mode: "overlay", result: "effect4_innerShadow_7214_3731" })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime1222.jsxs)("filter", { id: "b", width: "20", height: "20", x: "0", y: "8", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feOffset", { dy: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feComposite", { in2: "hardAlpha", operator: "out" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow_7214_3731" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("feBlend", { in: "SourceGraphic", in2: "effect1_dropShadow_7214_3731", result: "shape" })
-    ] })
-  ] })
+  /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("path", { fill: "currentColor", d: "M2 16a8 8 0 0 1 8-8h12a8 8 0 1 1 0 16H10a8 8 0 0 1-8-8", opacity: ".2" }),
+  /* @__PURE__ */ (0, import_jsx_runtime1222.jsx)("path", { fill: "#fff", d: "M16 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0" })
 ] }) };
 var defaultViewBox1221 = "0 0 32 32";
 var ToggleFalse = React1222.forwardRef((props, ref) => {
@@ -19149,48 +19122,8 @@ var React1225 = __toESM(require("react"));
 var import_jsx_runtime1225 = require("react/jsx-runtime");
 var weights1224 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1225.jsxs)(import_jsx_runtime1225.Fragment, { children: [
   /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("path", { fill: "currentColor", d: "M2 16a8 8 0 0 1 8-8h12a8 8 0 1 1 0 16H10a8 8 0 0 1-8-8", opacity: ".2" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("g", { filter: "url(#a)", children: /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("path", { fill: "currentColor", d: "M2 16a8 8 0 0 1 8-8h12a8 8 0 1 1 0 16H10a8 8 0 0 1-8-8" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("g", { filter: "url(#b)", children: /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("path", { fill: "#fff", d: "M28 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0" }) }),
-  /* @__PURE__ */ (0, import_jsx_runtime1225.jsxs)("defs", { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime1225.jsxs)("filter", { id: "a", width: "29", height: "18", x: "2", y: "7.5", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in2: "shape", result: "effect1_innerShadow_7214_3732" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feOffset", { dx: "1", dy: "1.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in2: "effect1_innerShadow_7214_3732", mode: "overlay", result: "effect2_innerShadow_7214_3732" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feOffset", { dy: "-.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in2: "effect2_innerShadow_7214_3732", result: "effect3_innerShadow_7214_3732" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feOffset", { dy: "-.5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feGaussianBlur", { stdDeviation: ".5" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feComposite", { in2: "hardAlpha", k2: "-1", k3: "1", operator: "arithmetic" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in2: "effect3_innerShadow_7214_3732", mode: "overlay", result: "effect4_innerShadow_7214_3732" })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime1225.jsxs)("filter", { id: "b", width: "20", height: "20", x: "12", y: "8", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { in: "SourceAlpha", result: "hardAlpha", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feOffset", { dy: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feGaussianBlur", { stdDeviation: "2" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feComposite", { in2: "hardAlpha", operator: "out" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feColorMatrix", { values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in2: "BackgroundImageFix", result: "effect1_dropShadow_7214_3732" }),
-      /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("feBlend", { in: "SourceGraphic", in2: "effect1_dropShadow_7214_3732", result: "shape" })
-    ] })
-  ] })
+  /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("path", { fill: "currentColor", d: "M2 16a8 8 0 0 1 8-8h12a8 8 0 1 1 0 16H10a8 8 0 0 1-8-8" }),
+  /* @__PURE__ */ (0, import_jsx_runtime1225.jsx)("path", { fill: "#fff", d: "M28 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0" })
 ] }) };
 var defaultViewBox1224 = "0 0 32 32";
 var ToggleTrue = React1225.forwardRef((props, ref) => {
@@ -19640,8 +19573,15 @@ var TwitterLogo_default = TwitterLogo;
 var React1257 = __toESM(require("react"));
 var import_jsx_runtime1257 = require("react/jsx-runtime");
 var weights1256 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1257.jsxs)(import_jsx_runtime1257.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M4 2.794v26.412C4 30.75 5.231 32 6.75 32h18.5c1.519 0 2.75-1.25 2.75-2.794V7.351c0-.746-.294-1.461-.816-1.986L22.648.807A2.73 2.73 0 0 0 20.714 0H6.75C5.231 0 4 1.25 4 2.794m1.75 26.412V2.794c0-.561.448-1.016 1-1.016h13.625v6.095c0 1.052.84 1.905 1.875 1.905h4v19.428c0 .561-.448 1.016-1 1.016H6.75c-.552 0-1-.455-1-1.016M26.25 8v-.649c0-.271-.107-.531-.297-.722l-3.828-3.846v5.09c0 .07.056.127.125.127z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fill: "#C9C7C5", fillRule: "evenodd", d: "M8 13c0-.75.25-1 1-1h14c.75 0 1 .25 1 1s-.25 1-1 1H9c-.75 0-1-.25-1-1M8 17c0-.75.25-1 1-1h14c.75 0 1 .25 1 1s-.25 1-1 1H9c-.75 0-1-.25-1-1M8 21c0-.75.25-1 1-1h14c.75 0 1 .25 1 1s-.25 1-1 1H9c-.75 0-1-.25-1-1M8 25c0-.75.25-1 1-1h14c.75 0 1 .25 1 1s-.25 1-1 1H9c-.75 0-1-.25-1-1", clipRule: "evenodd" })
+  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M4 2.79365V29.2064C4 30.7492 5.23122 32 6.75 32H25.25C26.7688 32 28 30.7492 28 29.2064V7.35127C28 6.60502 27.7061 5.88979 27.1838 5.36503L22.6478 0.807413C22.133 0.29013 21.4381 0 20.714 0H6.75C5.23122 0 4 1.25076 4 2.79365ZM5.75 29.2064V2.79365C5.75 2.2326 6.19772 1.77778 6.75 1.77778H20.375V7.87302C20.375 8.92499 21.2145 9.77778 22.25 9.77778H26.25V29.2064C26.25 29.7674 25.8023 30.2222 25.25 30.2222H6.75C6.19772 30.2222 5.75 29.7674 5.75 29.2064ZM26.25 8V7.35127C26.25 7.07991 26.1431 6.81982 25.9532 6.629L22.125 2.78254V7.87302C22.125 7.94315 22.181 8 22.25 8H26.25Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 13C8 12.25 8.25 12 9 12H23C23.75 12 24 12.25 24 13C24 13.75 23.75 14 23 14H9C8.25 14 8 13.75 8 13Z", fill: "#C9C7C5" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 17C8 16.25 8.25 16 9 16H23C23.75 16 24 16.25 24 17C24 17.75 23.75 18 23 18H9C8.25 18 8 17.75 8 17Z", fill: "#C9C7C5" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 21C8 20.25 8.25 20 9 20H23C23.75 20 24 20.25 24 21C24 21.75 23.75 22 23 22H9C8.25 22 8 21.75 8 21Z", fill: "#C9C7C5" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1257.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 25C8 24.25 8.25 24 9 24H23C23.75 24 24 24.25 24 25C24 25.75 23.75 26 23 26H9C8.25 26 8 25.75 8 25Z", fill: "#C9C7C5" })
 ] }) };
 var defaultViewBox1256 = "0 0 32 32";
 var TxtIcon = React1257.forwardRef((props, ref) => {
@@ -20656,12 +20596,17 @@ var Xcircle_default = Xcircle;
 var React1330 = __toESM(require("react"));
 var import_jsx_runtime1330 = require("react/jsx-runtime");
 var weights1329 = { "regular": /* @__PURE__ */ (0, import_jsx_runtime1330.jsxs)(import_jsx_runtime1330.Fragment, { children: [
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#9D9C9B", fillRule: "evenodd", d: "M8 2.794v26.412C8 30.75 9.231 32 10.75 32h18.5c1.519 0 2.75-1.25 2.75-2.794V7.351c0-.746-.294-1.461-.816-1.986L26.648.807A2.73 2.73 0 0 0 24.714 0H10.75C9.231 0 8 1.25 8 2.794m1.75 26.412V2.794c0-.561.448-1.016 1-1.016h13.625v6.095c0 1.052.84 1.905 1.875 1.905h4v19.428c0 .561-.448 1.016-1 1.016h-18.5c-.552 0-1-.455-1-1.016M30.25 8v-.649c0-.271-.107-.531-.297-.722l-3.828-3.846v5.09c0 .07.056.127.125.127z", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#69C997", fillRule: "evenodd", d: "M20.5 13.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#54AD7D", fillRule: "evenodd", d: "M20.5 17.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#2B593D", fillRule: "evenodd", d: "M20.5 21.125c0-.483.392-.875.875-.875h5.75a.875.875 0 0 1 0 1.75h-5.75a.875.875 0 0 1-.875-.875", clipRule: "evenodd" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#3D8A58", d: "M0 9.25a1.5 1.5 0 0 1 1.5-1.5h15a1.5 1.5 0 0 1 1.5 1.5v15a1.5 1.5 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.5-1.5z" }),
-  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fill: "#fff", d: "m5 21.772 2.81-5.23-2.55-4.792H7.2l1.648 3.22 1.613-3.22h1.92l-2.549 4.867 2.81 5.154H10.64l-1.826-3.465L6.99 21.77z" })
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M8 2.79365V29.2064C8 30.7492 9.23122 32 10.75 32H29.25C30.7688 32 32 30.7492 32 29.2064V7.35127C32 6.60502 31.7061 5.88979 31.1838 5.36503L26.6478 0.807413C26.133 0.29013 25.4381 0 24.714 0H10.75C9.23122 0 8 1.25076 8 2.79365ZM9.75 29.2064V2.79365C9.75 2.2326 10.1977 1.77778 10.75 1.77778H24.375V7.87302C24.375 8.92499 25.2145 9.77778 26.25 9.77778H30.25V29.2064C30.25 29.7674 29.8023 30.2222 29.25 30.2222H10.75C10.1977 30.2222 9.75 29.7674 9.75 29.2064ZM30.25 8V7.35127C30.25 7.07991 30.1431 6.81982 29.9532 6.629L26.125 2.78254V7.87302C26.125 7.94315 26.181 8 26.25 8H30.25Z", fill: "#9D9C9B" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 13.125C20.5 12.6418 20.8918 12.25 21.375 12.25H27.125C27.6082 12.25 28 12.6418 28 13.125C28 13.6082 27.6082 14 27.125 14H21.375C20.8918 14 20.5 13.6082 20.5 13.125Z", fill: "#69C997" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 17.125C20.5 16.6418 20.8918 16.25 21.375 16.25H27.125C27.6082 16.25 28 16.6418 28 17.125C28 17.6082 27.6082 18 27.125 18H21.375C20.8918 18 20.5 17.6082 20.5 17.125Z", fill: "#54AD7D" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.5 21.125C20.5 20.6418 20.8918 20.25 21.375 20.25H27.125C27.6082 20.25 28 20.6418 28 21.125C28 21.6082 27.6082 22 27.125 22H21.375C20.8918 22 20.5 21.6082 20.5 21.125Z", fill: "#2B593D" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { d: "M0 9.25C0 8.42157 0.671573 7.75 1.5 7.75H16.5C17.3284 7.75 18 8.42157 18 9.25V24.25C18 25.0784 17.3284 25.75 16.5 25.75H1.5C0.671573 25.75 0 25.0784 0 24.25V9.25Z", fill: "#3D8A58" }),
+  " ",
+  /* @__PURE__ */ (0, import_jsx_runtime1330.jsx)("path", { d: "M5 21.7715L7.80957 16.542L5.25977 11.75H7.20117L8.84863 14.9697L10.4619 11.75H12.3828L9.83301 16.6172L12.6426 21.7715H10.6396L8.81445 18.3057L6.98926 21.7715H5Z", fill: "white" })
 ] }) };
 var defaultViewBox1329 = "0 0 32 32";
 var XlsxIcon = React1330.forwardRef((props, ref) => {
@@ -20715,14 +20660,34 @@ var YoutubeLogo = React1333.forwardRef((props, ref) => {
 YoutubeLogo.displayName = "YoutubeLogo";
 var YoutubeLogo_default = YoutubeLogo;
 
+// src/avatars/Avatar3d0112.tsx
+var import_avatar_3d_01_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-12.jpg"));
+var import_jsx_runtime1334 = require("react/jsx-runtime");
+var Avatar3d0112 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_01_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1334.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_01_12.default,
+      alt: "Avatar3d0112",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0112_default = Avatar3d0112;
+
 // src/avatars/Avatar3d01120.tsx
 var import_avatar_3d_01_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-120.jpg"));
-var import_jsx_runtime1334 = require("react/jsx-runtime");
+var import_jsx_runtime1335 = require("react/jsx-runtime");
 var Avatar3d01120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1334.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1335.jsx)(
     "img",
     {
       src: import_avatar_3d_01_120.default,
@@ -20749,7 +20714,7 @@ var import_avatar_3d_01_80 = __toESM(require("@snowui-design-system/resource-bas
 var import_avatar_3d_01_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-128.jpg"));
 var import_avatar_3d_01_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-256.jpg"));
 var import_avatar_3d_01_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-512.jpg"));
-var import_jsx_runtime1335 = require("react/jsx-runtime");
+var import_jsx_runtime1336 = require("react/jsx-runtime");
 var Avatar3d01SizeMap = {
   16: import_avatar_3d_01_16.default,
   20: import_avatar_3d_01_20.default,
@@ -20785,7 +20750,7 @@ var Avatar3d01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize(resolvedWidth, Avatar3d01AvailableSizes);
   const imageSrc = Avatar3d01SizeMap[closestSize] ?? import_avatar_3d_01_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1335.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1336.jsx)(
     "img",
     {
       src: imageSrc,
@@ -20800,12 +20765,12 @@ var Avatar3d01_default = Avatar3d01;
 
 // src/avatars/Avatar3d01144.tsx
 var import_avatar_3d_01_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-144.jpg"));
-var import_jsx_runtime1336 = require("react/jsx-runtime");
+var import_jsx_runtime1337 = require("react/jsx-runtime");
 var Avatar3d01144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1336.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1337.jsx)(
     "img",
     {
       src: import_avatar_3d_01_144.default,
@@ -20820,12 +20785,12 @@ var Avatar3d01144_default = Avatar3d01144;
 
 // src/avatars/Avatar3d011536.tsx
 var import_avatar_3d_01_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-1536.jpg"));
-var import_jsx_runtime1337 = require("react/jsx-runtime");
+var import_jsx_runtime1338 = require("react/jsx-runtime");
 var Avatar3d011536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1337.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1338.jsx)(
     "img",
     {
       src: import_avatar_3d_01_1536.default,
@@ -20840,12 +20805,12 @@ var Avatar3d011536_default = Avatar3d011536;
 
 // src/avatars/Avatar3d01168.tsx
 var import_avatar_3d_01_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-168.jpg"));
-var import_jsx_runtime1338 = require("react/jsx-runtime");
+var import_jsx_runtime1339 = require("react/jsx-runtime");
 var Avatar3d01168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1338.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1339.jsx)(
     "img",
     {
       src: import_avatar_3d_01_168.default,
@@ -20860,12 +20825,12 @@ var Avatar3d01168_default = Avatar3d01168;
 
 // src/avatars/Avatar3d01192.tsx
 var import_avatar_3d_01_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-192.jpg"));
-var import_jsx_runtime1339 = require("react/jsx-runtime");
+var import_jsx_runtime1340 = require("react/jsx-runtime");
 var Avatar3d01192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1339.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1340.jsx)(
     "img",
     {
       src: import_avatar_3d_01_192.default,
@@ -20880,12 +20845,12 @@ var Avatar3d01192_default = Avatar3d01192;
 
 // src/avatars/Avatar3d01240.tsx
 var import_avatar_3d_01_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-240.jpg"));
-var import_jsx_runtime1340 = require("react/jsx-runtime");
+var import_jsx_runtime1341 = require("react/jsx-runtime");
 var Avatar3d01240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1340.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1341.jsx)(
     "img",
     {
       src: import_avatar_3d_01_240.default,
@@ -20898,14 +20863,34 @@ var Avatar3d01240 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d01240_default = Avatar3d01240;
 
+// src/avatars/Avatar3d0136.tsx
+var import_avatar_3d_01_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-36.jpg"));
+var import_jsx_runtime1342 = require("react/jsx-runtime");
+var Avatar3d0136 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_01_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1342.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_01_36.default,
+      alt: "Avatar3d0136",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0136_default = Avatar3d0136;
+
 // src/avatars/Avatar3d01384.tsx
 var import_avatar_3d_01_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-384.jpg"));
-var import_jsx_runtime1341 = require("react/jsx-runtime");
+var import_jsx_runtime1343 = require("react/jsx-runtime");
 var Avatar3d01384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1341.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1343.jsx)(
     "img",
     {
       src: import_avatar_3d_01_384.default,
@@ -20920,12 +20905,12 @@ var Avatar3d01384_default = Avatar3d01384;
 
 // src/avatars/Avatar3d0160.tsx
 var import_avatar_3d_01_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-60.jpg"));
-var import_jsx_runtime1342 = require("react/jsx-runtime");
+var import_jsx_runtime1344 = require("react/jsx-runtime");
 var Avatar3d0160 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1342.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1344.jsx)(
     "img",
     {
       src: import_avatar_3d_01_60.default,
@@ -20940,12 +20925,12 @@ var Avatar3d0160_default = Avatar3d0160;
 
 // src/avatars/Avatar3d0172.tsx
 var import_avatar_3d_01_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-72.jpg"));
-var import_jsx_runtime1343 = require("react/jsx-runtime");
+var import_jsx_runtime1345 = require("react/jsx-runtime");
 var Avatar3d0172 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1343.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1345.jsx)(
     "img",
     {
       src: import_avatar_3d_01_72.default,
@@ -20960,12 +20945,12 @@ var Avatar3d0172_default = Avatar3d0172;
 
 // src/avatars/Avatar3d01768.tsx
 var import_avatar_3d_01_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-768.jpg"));
-var import_jsx_runtime1344 = require("react/jsx-runtime");
+var import_jsx_runtime1346 = require("react/jsx-runtime");
 var Avatar3d01768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1344.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1346.jsx)(
     "img",
     {
       src: import_avatar_3d_01_768.default,
@@ -20980,12 +20965,12 @@ var Avatar3d01768_default = Avatar3d01768;
 
 // src/avatars/Avatar3d0184.tsx
 var import_avatar_3d_01_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-84.jpg"));
-var import_jsx_runtime1345 = require("react/jsx-runtime");
+var import_jsx_runtime1347 = require("react/jsx-runtime");
 var Avatar3d0184 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1345.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1347.jsx)(
     "img",
     {
       src: import_avatar_3d_01_84.default,
@@ -21000,12 +20985,12 @@ var Avatar3d0184_default = Avatar3d0184;
 
 // src/avatars/Avatar3d0196.tsx
 var import_avatar_3d_01_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-01-96.jpg"));
-var import_jsx_runtime1346 = require("react/jsx-runtime");
+var import_jsx_runtime1348 = require("react/jsx-runtime");
 var Avatar3d0196 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_01_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1346.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1348.jsx)(
     "img",
     {
       src: import_avatar_3d_01_96.default,
@@ -21018,14 +21003,34 @@ var Avatar3d0196 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d0196_default = Avatar3d0196;
 
+// src/avatars/Avatar3d0212.tsx
+var import_avatar_3d_02_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-12.jpg"));
+var import_jsx_runtime1349 = require("react/jsx-runtime");
+var Avatar3d0212 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_02_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1349.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_02_12.default,
+      alt: "Avatar3d0212",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0212_default = Avatar3d0212;
+
 // src/avatars/Avatar3d02120.tsx
 var import_avatar_3d_02_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-120.jpg"));
-var import_jsx_runtime1347 = require("react/jsx-runtime");
+var import_jsx_runtime1350 = require("react/jsx-runtime");
 var Avatar3d02120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1347.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1350.jsx)(
     "img",
     {
       src: import_avatar_3d_02_120.default,
@@ -21052,7 +21057,7 @@ var import_avatar_3d_02_80 = __toESM(require("@snowui-design-system/resource-bas
 var import_avatar_3d_02_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-128.jpg"));
 var import_avatar_3d_02_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-256.jpg"));
 var import_avatar_3d_02_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-512.jpg"));
-var import_jsx_runtime1348 = require("react/jsx-runtime");
+var import_jsx_runtime1351 = require("react/jsx-runtime");
 var Avatar3d02SizeMap = {
   16: import_avatar_3d_02_16.default,
   20: import_avatar_3d_02_20.default,
@@ -21088,7 +21093,7 @@ var Avatar3d02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize2(resolvedWidth, Avatar3d02AvailableSizes);
   const imageSrc = Avatar3d02SizeMap[closestSize] ?? import_avatar_3d_02_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1348.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1351.jsx)(
     "img",
     {
       src: imageSrc,
@@ -21103,12 +21108,12 @@ var Avatar3d02_default = Avatar3d02;
 
 // src/avatars/Avatar3d02144.tsx
 var import_avatar_3d_02_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-144.jpg"));
-var import_jsx_runtime1349 = require("react/jsx-runtime");
+var import_jsx_runtime1352 = require("react/jsx-runtime");
 var Avatar3d02144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1349.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1352.jsx)(
     "img",
     {
       src: import_avatar_3d_02_144.default,
@@ -21123,12 +21128,12 @@ var Avatar3d02144_default = Avatar3d02144;
 
 // src/avatars/Avatar3d021536.tsx
 var import_avatar_3d_02_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-1536.jpg"));
-var import_jsx_runtime1350 = require("react/jsx-runtime");
+var import_jsx_runtime1353 = require("react/jsx-runtime");
 var Avatar3d021536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1350.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1353.jsx)(
     "img",
     {
       src: import_avatar_3d_02_1536.default,
@@ -21143,12 +21148,12 @@ var Avatar3d021536_default = Avatar3d021536;
 
 // src/avatars/Avatar3d02168.tsx
 var import_avatar_3d_02_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-168.jpg"));
-var import_jsx_runtime1351 = require("react/jsx-runtime");
+var import_jsx_runtime1354 = require("react/jsx-runtime");
 var Avatar3d02168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1351.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1354.jsx)(
     "img",
     {
       src: import_avatar_3d_02_168.default,
@@ -21163,12 +21168,12 @@ var Avatar3d02168_default = Avatar3d02168;
 
 // src/avatars/Avatar3d02192.tsx
 var import_avatar_3d_02_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-192.jpg"));
-var import_jsx_runtime1352 = require("react/jsx-runtime");
+var import_jsx_runtime1355 = require("react/jsx-runtime");
 var Avatar3d02192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1352.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1355.jsx)(
     "img",
     {
       src: import_avatar_3d_02_192.default,
@@ -21183,12 +21188,12 @@ var Avatar3d02192_default = Avatar3d02192;
 
 // src/avatars/Avatar3d02240.tsx
 var import_avatar_3d_02_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-240.jpg"));
-var import_jsx_runtime1353 = require("react/jsx-runtime");
+var import_jsx_runtime1356 = require("react/jsx-runtime");
 var Avatar3d02240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1353.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1356.jsx)(
     "img",
     {
       src: import_avatar_3d_02_240.default,
@@ -21201,14 +21206,34 @@ var Avatar3d02240 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d02240_default = Avatar3d02240;
 
+// src/avatars/Avatar3d0236.tsx
+var import_avatar_3d_02_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-36.jpg"));
+var import_jsx_runtime1357 = require("react/jsx-runtime");
+var Avatar3d0236 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_02_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1357.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_02_36.default,
+      alt: "Avatar3d0236",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0236_default = Avatar3d0236;
+
 // src/avatars/Avatar3d02384.tsx
 var import_avatar_3d_02_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-384.jpg"));
-var import_jsx_runtime1354 = require("react/jsx-runtime");
+var import_jsx_runtime1358 = require("react/jsx-runtime");
 var Avatar3d02384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1354.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1358.jsx)(
     "img",
     {
       src: import_avatar_3d_02_384.default,
@@ -21223,12 +21248,12 @@ var Avatar3d02384_default = Avatar3d02384;
 
 // src/avatars/Avatar3d0260.tsx
 var import_avatar_3d_02_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-60.jpg"));
-var import_jsx_runtime1355 = require("react/jsx-runtime");
+var import_jsx_runtime1359 = require("react/jsx-runtime");
 var Avatar3d0260 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1355.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1359.jsx)(
     "img",
     {
       src: import_avatar_3d_02_60.default,
@@ -21243,12 +21268,12 @@ var Avatar3d0260_default = Avatar3d0260;
 
 // src/avatars/Avatar3d0272.tsx
 var import_avatar_3d_02_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-72.jpg"));
-var import_jsx_runtime1356 = require("react/jsx-runtime");
+var import_jsx_runtime1360 = require("react/jsx-runtime");
 var Avatar3d0272 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1356.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1360.jsx)(
     "img",
     {
       src: import_avatar_3d_02_72.default,
@@ -21263,12 +21288,12 @@ var Avatar3d0272_default = Avatar3d0272;
 
 // src/avatars/Avatar3d02768.tsx
 var import_avatar_3d_02_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-768.jpg"));
-var import_jsx_runtime1357 = require("react/jsx-runtime");
+var import_jsx_runtime1361 = require("react/jsx-runtime");
 var Avatar3d02768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1357.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1361.jsx)(
     "img",
     {
       src: import_avatar_3d_02_768.default,
@@ -21283,12 +21308,12 @@ var Avatar3d02768_default = Avatar3d02768;
 
 // src/avatars/Avatar3d0284.tsx
 var import_avatar_3d_02_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-84.jpg"));
-var import_jsx_runtime1358 = require("react/jsx-runtime");
+var import_jsx_runtime1362 = require("react/jsx-runtime");
 var Avatar3d0284 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1358.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1362.jsx)(
     "img",
     {
       src: import_avatar_3d_02_84.default,
@@ -21303,12 +21328,12 @@ var Avatar3d0284_default = Avatar3d0284;
 
 // src/avatars/Avatar3d0296.tsx
 var import_avatar_3d_02_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-02-96.jpg"));
-var import_jsx_runtime1359 = require("react/jsx-runtime");
+var import_jsx_runtime1363 = require("react/jsx-runtime");
 var Avatar3d0296 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_02_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1359.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1363.jsx)(
     "img",
     {
       src: import_avatar_3d_02_96.default,
@@ -21321,14 +21346,34 @@ var Avatar3d0296 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d0296_default = Avatar3d0296;
 
+// src/avatars/Avatar3d0312.tsx
+var import_avatar_3d_03_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-12.jpg"));
+var import_jsx_runtime1364 = require("react/jsx-runtime");
+var Avatar3d0312 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_03_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1364.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_03_12.default,
+      alt: "Avatar3d0312",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0312_default = Avatar3d0312;
+
 // src/avatars/Avatar3d03120.tsx
 var import_avatar_3d_03_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-120.jpg"));
-var import_jsx_runtime1360 = require("react/jsx-runtime");
+var import_jsx_runtime1365 = require("react/jsx-runtime");
 var Avatar3d03120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1360.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1365.jsx)(
     "img",
     {
       src: import_avatar_3d_03_120.default,
@@ -21355,7 +21400,7 @@ var import_avatar_3d_03_80 = __toESM(require("@snowui-design-system/resource-bas
 var import_avatar_3d_03_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-128.jpg"));
 var import_avatar_3d_03_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-256.jpg"));
 var import_avatar_3d_03_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-512.jpg"));
-var import_jsx_runtime1361 = require("react/jsx-runtime");
+var import_jsx_runtime1366 = require("react/jsx-runtime");
 var Avatar3d03SizeMap = {
   16: import_avatar_3d_03_16.default,
   20: import_avatar_3d_03_20.default,
@@ -21391,7 +21436,7 @@ var Avatar3d03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize3(resolvedWidth, Avatar3d03AvailableSizes);
   const imageSrc = Avatar3d03SizeMap[closestSize] ?? import_avatar_3d_03_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1361.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1366.jsx)(
     "img",
     {
       src: imageSrc,
@@ -21406,12 +21451,12 @@ var Avatar3d03_default = Avatar3d03;
 
 // src/avatars/Avatar3d03144.tsx
 var import_avatar_3d_03_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-144.jpg"));
-var import_jsx_runtime1362 = require("react/jsx-runtime");
+var import_jsx_runtime1367 = require("react/jsx-runtime");
 var Avatar3d03144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1362.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1367.jsx)(
     "img",
     {
       src: import_avatar_3d_03_144.default,
@@ -21426,12 +21471,12 @@ var Avatar3d03144_default = Avatar3d03144;
 
 // src/avatars/Avatar3d031536.tsx
 var import_avatar_3d_03_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-1536.jpg"));
-var import_jsx_runtime1363 = require("react/jsx-runtime");
+var import_jsx_runtime1368 = require("react/jsx-runtime");
 var Avatar3d031536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1363.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1368.jsx)(
     "img",
     {
       src: import_avatar_3d_03_1536.default,
@@ -21446,12 +21491,12 @@ var Avatar3d031536_default = Avatar3d031536;
 
 // src/avatars/Avatar3d03168.tsx
 var import_avatar_3d_03_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-168.jpg"));
-var import_jsx_runtime1364 = require("react/jsx-runtime");
+var import_jsx_runtime1369 = require("react/jsx-runtime");
 var Avatar3d03168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1364.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1369.jsx)(
     "img",
     {
       src: import_avatar_3d_03_168.default,
@@ -21466,12 +21511,12 @@ var Avatar3d03168_default = Avatar3d03168;
 
 // src/avatars/Avatar3d03192.tsx
 var import_avatar_3d_03_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-192.jpg"));
-var import_jsx_runtime1365 = require("react/jsx-runtime");
+var import_jsx_runtime1370 = require("react/jsx-runtime");
 var Avatar3d03192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1365.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1370.jsx)(
     "img",
     {
       src: import_avatar_3d_03_192.default,
@@ -21486,12 +21531,12 @@ var Avatar3d03192_default = Avatar3d03192;
 
 // src/avatars/Avatar3d03240.tsx
 var import_avatar_3d_03_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-240.jpg"));
-var import_jsx_runtime1366 = require("react/jsx-runtime");
+var import_jsx_runtime1371 = require("react/jsx-runtime");
 var Avatar3d03240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1366.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1371.jsx)(
     "img",
     {
       src: import_avatar_3d_03_240.default,
@@ -21504,14 +21549,34 @@ var Avatar3d03240 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d03240_default = Avatar3d03240;
 
+// src/avatars/Avatar3d0336.tsx
+var import_avatar_3d_03_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-36.jpg"));
+var import_jsx_runtime1372 = require("react/jsx-runtime");
+var Avatar3d0336 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_03_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1372.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_03_36.default,
+      alt: "Avatar3d0336",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0336_default = Avatar3d0336;
+
 // src/avatars/Avatar3d03384.tsx
 var import_avatar_3d_03_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-384.jpg"));
-var import_jsx_runtime1367 = require("react/jsx-runtime");
+var import_jsx_runtime1373 = require("react/jsx-runtime");
 var Avatar3d03384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1367.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1373.jsx)(
     "img",
     {
       src: import_avatar_3d_03_384.default,
@@ -21526,12 +21591,12 @@ var Avatar3d03384_default = Avatar3d03384;
 
 // src/avatars/Avatar3d0360.tsx
 var import_avatar_3d_03_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-60.jpg"));
-var import_jsx_runtime1368 = require("react/jsx-runtime");
+var import_jsx_runtime1374 = require("react/jsx-runtime");
 var Avatar3d0360 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1368.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1374.jsx)(
     "img",
     {
       src: import_avatar_3d_03_60.default,
@@ -21546,12 +21611,12 @@ var Avatar3d0360_default = Avatar3d0360;
 
 // src/avatars/Avatar3d0372.tsx
 var import_avatar_3d_03_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-72.jpg"));
-var import_jsx_runtime1369 = require("react/jsx-runtime");
+var import_jsx_runtime1375 = require("react/jsx-runtime");
 var Avatar3d0372 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1369.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1375.jsx)(
     "img",
     {
       src: import_avatar_3d_03_72.default,
@@ -21566,12 +21631,12 @@ var Avatar3d0372_default = Avatar3d0372;
 
 // src/avatars/Avatar3d03768.tsx
 var import_avatar_3d_03_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-768.jpg"));
-var import_jsx_runtime1370 = require("react/jsx-runtime");
+var import_jsx_runtime1376 = require("react/jsx-runtime");
 var Avatar3d03768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1370.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1376.jsx)(
     "img",
     {
       src: import_avatar_3d_03_768.default,
@@ -21586,12 +21651,12 @@ var Avatar3d03768_default = Avatar3d03768;
 
 // src/avatars/Avatar3d0384.tsx
 var import_avatar_3d_03_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-84.jpg"));
-var import_jsx_runtime1371 = require("react/jsx-runtime");
+var import_jsx_runtime1377 = require("react/jsx-runtime");
 var Avatar3d0384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1371.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1377.jsx)(
     "img",
     {
       src: import_avatar_3d_03_84.default,
@@ -21606,12 +21671,12 @@ var Avatar3d0384_default = Avatar3d0384;
 
 // src/avatars/Avatar3d0396.tsx
 var import_avatar_3d_03_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-03-96.jpg"));
-var import_jsx_runtime1372 = require("react/jsx-runtime");
+var import_jsx_runtime1378 = require("react/jsx-runtime");
 var Avatar3d0396 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_03_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1372.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1378.jsx)(
     "img",
     {
       src: import_avatar_3d_03_96.default,
@@ -21624,14 +21689,34 @@ var Avatar3d0396 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d0396_default = Avatar3d0396;
 
+// src/avatars/Avatar3d0412.tsx
+var import_avatar_3d_04_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-12.jpg"));
+var import_jsx_runtime1379 = require("react/jsx-runtime");
+var Avatar3d0412 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_04_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1379.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_04_12.default,
+      alt: "Avatar3d0412",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0412_default = Avatar3d0412;
+
 // src/avatars/Avatar3d04120.tsx
 var import_avatar_3d_04_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-120.jpg"));
-var import_jsx_runtime1373 = require("react/jsx-runtime");
+var import_jsx_runtime1380 = require("react/jsx-runtime");
 var Avatar3d04120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1373.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1380.jsx)(
     "img",
     {
       src: import_avatar_3d_04_120.default,
@@ -21658,7 +21743,7 @@ var import_avatar_3d_04_80 = __toESM(require("@snowui-design-system/resource-bas
 var import_avatar_3d_04_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-128.jpg"));
 var import_avatar_3d_04_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-256.jpg"));
 var import_avatar_3d_04_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-512.jpg"));
-var import_jsx_runtime1374 = require("react/jsx-runtime");
+var import_jsx_runtime1381 = require("react/jsx-runtime");
 var Avatar3d04SizeMap = {
   16: import_avatar_3d_04_16.default,
   20: import_avatar_3d_04_20.default,
@@ -21694,7 +21779,7 @@ var Avatar3d04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize4(resolvedWidth, Avatar3d04AvailableSizes);
   const imageSrc = Avatar3d04SizeMap[closestSize] ?? import_avatar_3d_04_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1374.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1381.jsx)(
     "img",
     {
       src: imageSrc,
@@ -21709,12 +21794,12 @@ var Avatar3d04_default = Avatar3d04;
 
 // src/avatars/Avatar3d04144.tsx
 var import_avatar_3d_04_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-144.jpg"));
-var import_jsx_runtime1375 = require("react/jsx-runtime");
+var import_jsx_runtime1382 = require("react/jsx-runtime");
 var Avatar3d04144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1375.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1382.jsx)(
     "img",
     {
       src: import_avatar_3d_04_144.default,
@@ -21729,12 +21814,12 @@ var Avatar3d04144_default = Avatar3d04144;
 
 // src/avatars/Avatar3d041536.tsx
 var import_avatar_3d_04_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-1536.jpg"));
-var import_jsx_runtime1376 = require("react/jsx-runtime");
+var import_jsx_runtime1383 = require("react/jsx-runtime");
 var Avatar3d041536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1376.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1383.jsx)(
     "img",
     {
       src: import_avatar_3d_04_1536.default,
@@ -21749,12 +21834,12 @@ var Avatar3d041536_default = Avatar3d041536;
 
 // src/avatars/Avatar3d04168.tsx
 var import_avatar_3d_04_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-168.jpg"));
-var import_jsx_runtime1377 = require("react/jsx-runtime");
+var import_jsx_runtime1384 = require("react/jsx-runtime");
 var Avatar3d04168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1377.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1384.jsx)(
     "img",
     {
       src: import_avatar_3d_04_168.default,
@@ -21769,12 +21854,12 @@ var Avatar3d04168_default = Avatar3d04168;
 
 // src/avatars/Avatar3d04192.tsx
 var import_avatar_3d_04_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-192.jpg"));
-var import_jsx_runtime1378 = require("react/jsx-runtime");
+var import_jsx_runtime1385 = require("react/jsx-runtime");
 var Avatar3d04192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1378.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1385.jsx)(
     "img",
     {
       src: import_avatar_3d_04_192.default,
@@ -21789,12 +21874,12 @@ var Avatar3d04192_default = Avatar3d04192;
 
 // src/avatars/Avatar3d04240.tsx
 var import_avatar_3d_04_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-240.jpg"));
-var import_jsx_runtime1379 = require("react/jsx-runtime");
+var import_jsx_runtime1386 = require("react/jsx-runtime");
 var Avatar3d04240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1379.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1386.jsx)(
     "img",
     {
       src: import_avatar_3d_04_240.default,
@@ -21807,14 +21892,34 @@ var Avatar3d04240 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d04240_default = Avatar3d04240;
 
+// src/avatars/Avatar3d0436.tsx
+var import_avatar_3d_04_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-36.jpg"));
+var import_jsx_runtime1387 = require("react/jsx-runtime");
+var Avatar3d0436 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_3d_04_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1387.jsx)(
+    "img",
+    {
+      src: import_avatar_3d_04_36.default,
+      alt: "Avatar3d0436",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Avatar3d0436_default = Avatar3d0436;
+
 // src/avatars/Avatar3d04384.tsx
 var import_avatar_3d_04_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-384.jpg"));
-var import_jsx_runtime1380 = require("react/jsx-runtime");
+var import_jsx_runtime1388 = require("react/jsx-runtime");
 var Avatar3d04384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1380.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1388.jsx)(
     "img",
     {
       src: import_avatar_3d_04_384.default,
@@ -21829,12 +21934,12 @@ var Avatar3d04384_default = Avatar3d04384;
 
 // src/avatars/Avatar3d0460.tsx
 var import_avatar_3d_04_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-60.jpg"));
-var import_jsx_runtime1381 = require("react/jsx-runtime");
+var import_jsx_runtime1389 = require("react/jsx-runtime");
 var Avatar3d0460 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1381.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1389.jsx)(
     "img",
     {
       src: import_avatar_3d_04_60.default,
@@ -21849,12 +21954,12 @@ var Avatar3d0460_default = Avatar3d0460;
 
 // src/avatars/Avatar3d0472.tsx
 var import_avatar_3d_04_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-72.jpg"));
-var import_jsx_runtime1382 = require("react/jsx-runtime");
+var import_jsx_runtime1390 = require("react/jsx-runtime");
 var Avatar3d0472 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1382.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1390.jsx)(
     "img",
     {
       src: import_avatar_3d_04_72.default,
@@ -21869,12 +21974,12 @@ var Avatar3d0472_default = Avatar3d0472;
 
 // src/avatars/Avatar3d04768.tsx
 var import_avatar_3d_04_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-768.jpg"));
-var import_jsx_runtime1383 = require("react/jsx-runtime");
+var import_jsx_runtime1391 = require("react/jsx-runtime");
 var Avatar3d04768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1383.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1391.jsx)(
     "img",
     {
       src: import_avatar_3d_04_768.default,
@@ -21889,12 +21994,12 @@ var Avatar3d04768_default = Avatar3d04768;
 
 // src/avatars/Avatar3d0484.tsx
 var import_avatar_3d_04_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-84.jpg"));
-var import_jsx_runtime1384 = require("react/jsx-runtime");
+var import_jsx_runtime1392 = require("react/jsx-runtime");
 var Avatar3d0484 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1384.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1392.jsx)(
     "img",
     {
       src: import_avatar_3d_04_84.default,
@@ -21909,12 +22014,12 @@ var Avatar3d0484_default = Avatar3d0484;
 
 // src/avatars/Avatar3d0496.tsx
 var import_avatar_3d_04_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-3d-04-96.jpg"));
-var import_jsx_runtime1385 = require("react/jsx-runtime");
+var import_jsx_runtime1393 = require("react/jsx-runtime");
 var Avatar3d0496 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_3d_04_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1385.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1393.jsx)(
     "img",
     {
       src: import_avatar_3d_04_96.default,
@@ -21927,14 +22032,34 @@ var Avatar3d0496 = ({ size = 32, width, height, ...rest }) => {
 };
 var Avatar3d0496_default = Avatar3d0496;
 
+// src/avatars/AvatarAbstract0112.tsx
+var import_avatar_abstract_01_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-12.jpg"));
+var import_jsx_runtime1394 = require("react/jsx-runtime");
+var AvatarAbstract0112 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_01_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1394.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_01_12.default,
+      alt: "AvatarAbstract0112",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0112_default = AvatarAbstract0112;
+
 // src/avatars/AvatarAbstract01120.tsx
 var import_avatar_abstract_01_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-120.jpg"));
-var import_jsx_runtime1386 = require("react/jsx-runtime");
+var import_jsx_runtime1395 = require("react/jsx-runtime");
 var AvatarAbstract01120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1386.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1395.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_120.default,
@@ -21961,7 +22086,7 @@ var import_avatar_abstract_01_80 = __toESM(require("@snowui-design-system/resour
 var import_avatar_abstract_01_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-128.jpg"));
 var import_avatar_abstract_01_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-256.jpg"));
 var import_avatar_abstract_01_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-512.jpg"));
-var import_jsx_runtime1387 = require("react/jsx-runtime");
+var import_jsx_runtime1396 = require("react/jsx-runtime");
 var AvatarAbstract01SizeMap = {
   16: import_avatar_abstract_01_16.default,
   20: import_avatar_abstract_01_20.default,
@@ -21997,7 +22122,7 @@ var AvatarAbstract01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize5(resolvedWidth, AvatarAbstract01AvailableSizes);
   const imageSrc = AvatarAbstract01SizeMap[closestSize] ?? import_avatar_abstract_01_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1387.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1396.jsx)(
     "img",
     {
       src: imageSrc,
@@ -22012,12 +22137,12 @@ var AvatarAbstract01_default = AvatarAbstract01;
 
 // src/avatars/AvatarAbstract01144.tsx
 var import_avatar_abstract_01_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-144.jpg"));
-var import_jsx_runtime1388 = require("react/jsx-runtime");
+var import_jsx_runtime1397 = require("react/jsx-runtime");
 var AvatarAbstract01144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1388.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1397.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_144.default,
@@ -22032,12 +22157,12 @@ var AvatarAbstract01144_default = AvatarAbstract01144;
 
 // src/avatars/AvatarAbstract011536.tsx
 var import_avatar_abstract_01_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-1536.jpg"));
-var import_jsx_runtime1389 = require("react/jsx-runtime");
+var import_jsx_runtime1398 = require("react/jsx-runtime");
 var AvatarAbstract011536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1389.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1398.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_1536.default,
@@ -22052,12 +22177,12 @@ var AvatarAbstract011536_default = AvatarAbstract011536;
 
 // src/avatars/AvatarAbstract01168.tsx
 var import_avatar_abstract_01_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-168.jpg"));
-var import_jsx_runtime1390 = require("react/jsx-runtime");
+var import_jsx_runtime1399 = require("react/jsx-runtime");
 var AvatarAbstract01168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1390.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1399.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_168.default,
@@ -22072,12 +22197,12 @@ var AvatarAbstract01168_default = AvatarAbstract01168;
 
 // src/avatars/AvatarAbstract01192.tsx
 var import_avatar_abstract_01_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-192.jpg"));
-var import_jsx_runtime1391 = require("react/jsx-runtime");
+var import_jsx_runtime1400 = require("react/jsx-runtime");
 var AvatarAbstract01192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1391.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1400.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_192.default,
@@ -22092,12 +22217,12 @@ var AvatarAbstract01192_default = AvatarAbstract01192;
 
 // src/avatars/AvatarAbstract01240.tsx
 var import_avatar_abstract_01_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-240.jpg"));
-var import_jsx_runtime1392 = require("react/jsx-runtime");
+var import_jsx_runtime1401 = require("react/jsx-runtime");
 var AvatarAbstract01240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1392.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1401.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_240.default,
@@ -22110,14 +22235,34 @@ var AvatarAbstract01240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract01240_default = AvatarAbstract01240;
 
+// src/avatars/AvatarAbstract0136.tsx
+var import_avatar_abstract_01_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-36.jpg"));
+var import_jsx_runtime1402 = require("react/jsx-runtime");
+var AvatarAbstract0136 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_01_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1402.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_01_36.default,
+      alt: "AvatarAbstract0136",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0136_default = AvatarAbstract0136;
+
 // src/avatars/AvatarAbstract01384.tsx
 var import_avatar_abstract_01_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-384.jpg"));
-var import_jsx_runtime1393 = require("react/jsx-runtime");
+var import_jsx_runtime1403 = require("react/jsx-runtime");
 var AvatarAbstract01384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1393.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1403.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_384.default,
@@ -22132,12 +22277,12 @@ var AvatarAbstract01384_default = AvatarAbstract01384;
 
 // src/avatars/AvatarAbstract0160.tsx
 var import_avatar_abstract_01_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-60.jpg"));
-var import_jsx_runtime1394 = require("react/jsx-runtime");
+var import_jsx_runtime1404 = require("react/jsx-runtime");
 var AvatarAbstract0160 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1394.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1404.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_60.default,
@@ -22152,12 +22297,12 @@ var AvatarAbstract0160_default = AvatarAbstract0160;
 
 // src/avatars/AvatarAbstract0172.tsx
 var import_avatar_abstract_01_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-72.jpg"));
-var import_jsx_runtime1395 = require("react/jsx-runtime");
+var import_jsx_runtime1405 = require("react/jsx-runtime");
 var AvatarAbstract0172 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1395.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1405.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_72.default,
@@ -22172,12 +22317,12 @@ var AvatarAbstract0172_default = AvatarAbstract0172;
 
 // src/avatars/AvatarAbstract01768.tsx
 var import_avatar_abstract_01_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-768.jpg"));
-var import_jsx_runtime1396 = require("react/jsx-runtime");
+var import_jsx_runtime1406 = require("react/jsx-runtime");
 var AvatarAbstract01768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1396.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1406.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_768.default,
@@ -22192,12 +22337,12 @@ var AvatarAbstract01768_default = AvatarAbstract01768;
 
 // src/avatars/AvatarAbstract0184.tsx
 var import_avatar_abstract_01_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-84.jpg"));
-var import_jsx_runtime1397 = require("react/jsx-runtime");
+var import_jsx_runtime1407 = require("react/jsx-runtime");
 var AvatarAbstract0184 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1397.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1407.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_84.default,
@@ -22212,12 +22357,12 @@ var AvatarAbstract0184_default = AvatarAbstract0184;
 
 // src/avatars/AvatarAbstract0196.tsx
 var import_avatar_abstract_01_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-01-96.jpg"));
-var import_jsx_runtime1398 = require("react/jsx-runtime");
+var import_jsx_runtime1408 = require("react/jsx-runtime");
 var AvatarAbstract0196 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_01_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1398.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1408.jsx)(
     "img",
     {
       src: import_avatar_abstract_01_96.default,
@@ -22230,14 +22375,34 @@ var AvatarAbstract0196 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract0196_default = AvatarAbstract0196;
 
+// src/avatars/AvatarAbstract0212.tsx
+var import_avatar_abstract_02_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-12.jpg"));
+var import_jsx_runtime1409 = require("react/jsx-runtime");
+var AvatarAbstract0212 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_02_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1409.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_02_12.default,
+      alt: "AvatarAbstract0212",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0212_default = AvatarAbstract0212;
+
 // src/avatars/AvatarAbstract02120.tsx
 var import_avatar_abstract_02_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-120.jpg"));
-var import_jsx_runtime1399 = require("react/jsx-runtime");
+var import_jsx_runtime1410 = require("react/jsx-runtime");
 var AvatarAbstract02120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1399.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1410.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_120.default,
@@ -22264,7 +22429,7 @@ var import_avatar_abstract_02_80 = __toESM(require("@snowui-design-system/resour
 var import_avatar_abstract_02_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-128.jpg"));
 var import_avatar_abstract_02_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-256.jpg"));
 var import_avatar_abstract_02_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-512.jpg"));
-var import_jsx_runtime1400 = require("react/jsx-runtime");
+var import_jsx_runtime1411 = require("react/jsx-runtime");
 var AvatarAbstract02SizeMap = {
   16: import_avatar_abstract_02_16.default,
   20: import_avatar_abstract_02_20.default,
@@ -22300,7 +22465,7 @@ var AvatarAbstract02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize6(resolvedWidth, AvatarAbstract02AvailableSizes);
   const imageSrc = AvatarAbstract02SizeMap[closestSize] ?? import_avatar_abstract_02_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1400.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1411.jsx)(
     "img",
     {
       src: imageSrc,
@@ -22315,12 +22480,12 @@ var AvatarAbstract02_default = AvatarAbstract02;
 
 // src/avatars/AvatarAbstract02144.tsx
 var import_avatar_abstract_02_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-144.jpg"));
-var import_jsx_runtime1401 = require("react/jsx-runtime");
+var import_jsx_runtime1412 = require("react/jsx-runtime");
 var AvatarAbstract02144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1401.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1412.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_144.default,
@@ -22335,12 +22500,12 @@ var AvatarAbstract02144_default = AvatarAbstract02144;
 
 // src/avatars/AvatarAbstract021536.tsx
 var import_avatar_abstract_02_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-1536.jpg"));
-var import_jsx_runtime1402 = require("react/jsx-runtime");
+var import_jsx_runtime1413 = require("react/jsx-runtime");
 var AvatarAbstract021536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1402.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1413.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_1536.default,
@@ -22355,12 +22520,12 @@ var AvatarAbstract021536_default = AvatarAbstract021536;
 
 // src/avatars/AvatarAbstract02168.tsx
 var import_avatar_abstract_02_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-168.jpg"));
-var import_jsx_runtime1403 = require("react/jsx-runtime");
+var import_jsx_runtime1414 = require("react/jsx-runtime");
 var AvatarAbstract02168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1403.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1414.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_168.default,
@@ -22375,12 +22540,12 @@ var AvatarAbstract02168_default = AvatarAbstract02168;
 
 // src/avatars/AvatarAbstract02192.tsx
 var import_avatar_abstract_02_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-192.jpg"));
-var import_jsx_runtime1404 = require("react/jsx-runtime");
+var import_jsx_runtime1415 = require("react/jsx-runtime");
 var AvatarAbstract02192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1404.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1415.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_192.default,
@@ -22395,12 +22560,12 @@ var AvatarAbstract02192_default = AvatarAbstract02192;
 
 // src/avatars/AvatarAbstract02240.tsx
 var import_avatar_abstract_02_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-240.jpg"));
-var import_jsx_runtime1405 = require("react/jsx-runtime");
+var import_jsx_runtime1416 = require("react/jsx-runtime");
 var AvatarAbstract02240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1405.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1416.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_240.default,
@@ -22413,14 +22578,34 @@ var AvatarAbstract02240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract02240_default = AvatarAbstract02240;
 
+// src/avatars/AvatarAbstract0236.tsx
+var import_avatar_abstract_02_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-36.jpg"));
+var import_jsx_runtime1417 = require("react/jsx-runtime");
+var AvatarAbstract0236 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_02_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1417.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_02_36.default,
+      alt: "AvatarAbstract0236",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0236_default = AvatarAbstract0236;
+
 // src/avatars/AvatarAbstract02384.tsx
 var import_avatar_abstract_02_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-384.jpg"));
-var import_jsx_runtime1406 = require("react/jsx-runtime");
+var import_jsx_runtime1418 = require("react/jsx-runtime");
 var AvatarAbstract02384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1406.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1418.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_384.default,
@@ -22435,12 +22620,12 @@ var AvatarAbstract02384_default = AvatarAbstract02384;
 
 // src/avatars/AvatarAbstract0260.tsx
 var import_avatar_abstract_02_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-60.jpg"));
-var import_jsx_runtime1407 = require("react/jsx-runtime");
+var import_jsx_runtime1419 = require("react/jsx-runtime");
 var AvatarAbstract0260 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1407.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1419.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_60.default,
@@ -22455,12 +22640,12 @@ var AvatarAbstract0260_default = AvatarAbstract0260;
 
 // src/avatars/AvatarAbstract0272.tsx
 var import_avatar_abstract_02_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-72.jpg"));
-var import_jsx_runtime1408 = require("react/jsx-runtime");
+var import_jsx_runtime1420 = require("react/jsx-runtime");
 var AvatarAbstract0272 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1408.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1420.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_72.default,
@@ -22475,12 +22660,12 @@ var AvatarAbstract0272_default = AvatarAbstract0272;
 
 // src/avatars/AvatarAbstract02768.tsx
 var import_avatar_abstract_02_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-768.jpg"));
-var import_jsx_runtime1409 = require("react/jsx-runtime");
+var import_jsx_runtime1421 = require("react/jsx-runtime");
 var AvatarAbstract02768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1409.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1421.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_768.default,
@@ -22495,12 +22680,12 @@ var AvatarAbstract02768_default = AvatarAbstract02768;
 
 // src/avatars/AvatarAbstract0284.tsx
 var import_avatar_abstract_02_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-84.jpg"));
-var import_jsx_runtime1410 = require("react/jsx-runtime");
+var import_jsx_runtime1422 = require("react/jsx-runtime");
 var AvatarAbstract0284 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1410.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1422.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_84.default,
@@ -22515,12 +22700,12 @@ var AvatarAbstract0284_default = AvatarAbstract0284;
 
 // src/avatars/AvatarAbstract0296.tsx
 var import_avatar_abstract_02_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-02-96.jpg"));
-var import_jsx_runtime1411 = require("react/jsx-runtime");
+var import_jsx_runtime1423 = require("react/jsx-runtime");
 var AvatarAbstract0296 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_02_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1411.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1423.jsx)(
     "img",
     {
       src: import_avatar_abstract_02_96.default,
@@ -22533,14 +22718,34 @@ var AvatarAbstract0296 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract0296_default = AvatarAbstract0296;
 
+// src/avatars/AvatarAbstract0312.tsx
+var import_avatar_abstract_03_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-12.jpg"));
+var import_jsx_runtime1424 = require("react/jsx-runtime");
+var AvatarAbstract0312 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_03_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1424.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_03_12.default,
+      alt: "AvatarAbstract0312",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0312_default = AvatarAbstract0312;
+
 // src/avatars/AvatarAbstract03120.tsx
 var import_avatar_abstract_03_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-120.jpg"));
-var import_jsx_runtime1412 = require("react/jsx-runtime");
+var import_jsx_runtime1425 = require("react/jsx-runtime");
 var AvatarAbstract03120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1412.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1425.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_120.default,
@@ -22567,7 +22772,7 @@ var import_avatar_abstract_03_80 = __toESM(require("@snowui-design-system/resour
 var import_avatar_abstract_03_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-128.jpg"));
 var import_avatar_abstract_03_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-256.jpg"));
 var import_avatar_abstract_03_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-512.jpg"));
-var import_jsx_runtime1413 = require("react/jsx-runtime");
+var import_jsx_runtime1426 = require("react/jsx-runtime");
 var AvatarAbstract03SizeMap = {
   16: import_avatar_abstract_03_16.default,
   20: import_avatar_abstract_03_20.default,
@@ -22603,7 +22808,7 @@ var AvatarAbstract03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize7(resolvedWidth, AvatarAbstract03AvailableSizes);
   const imageSrc = AvatarAbstract03SizeMap[closestSize] ?? import_avatar_abstract_03_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1413.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1426.jsx)(
     "img",
     {
       src: imageSrc,
@@ -22618,12 +22823,12 @@ var AvatarAbstract03_default = AvatarAbstract03;
 
 // src/avatars/AvatarAbstract03144.tsx
 var import_avatar_abstract_03_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-144.jpg"));
-var import_jsx_runtime1414 = require("react/jsx-runtime");
+var import_jsx_runtime1427 = require("react/jsx-runtime");
 var AvatarAbstract03144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1414.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1427.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_144.default,
@@ -22638,12 +22843,12 @@ var AvatarAbstract03144_default = AvatarAbstract03144;
 
 // src/avatars/AvatarAbstract031536.tsx
 var import_avatar_abstract_03_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-1536.jpg"));
-var import_jsx_runtime1415 = require("react/jsx-runtime");
+var import_jsx_runtime1428 = require("react/jsx-runtime");
 var AvatarAbstract031536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1415.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1428.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_1536.default,
@@ -22658,12 +22863,12 @@ var AvatarAbstract031536_default = AvatarAbstract031536;
 
 // src/avatars/AvatarAbstract03168.tsx
 var import_avatar_abstract_03_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-168.jpg"));
-var import_jsx_runtime1416 = require("react/jsx-runtime");
+var import_jsx_runtime1429 = require("react/jsx-runtime");
 var AvatarAbstract03168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1416.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1429.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_168.default,
@@ -22678,12 +22883,12 @@ var AvatarAbstract03168_default = AvatarAbstract03168;
 
 // src/avatars/AvatarAbstract03192.tsx
 var import_avatar_abstract_03_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-192.jpg"));
-var import_jsx_runtime1417 = require("react/jsx-runtime");
+var import_jsx_runtime1430 = require("react/jsx-runtime");
 var AvatarAbstract03192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1417.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1430.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_192.default,
@@ -22698,12 +22903,12 @@ var AvatarAbstract03192_default = AvatarAbstract03192;
 
 // src/avatars/AvatarAbstract03240.tsx
 var import_avatar_abstract_03_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-240.jpg"));
-var import_jsx_runtime1418 = require("react/jsx-runtime");
+var import_jsx_runtime1431 = require("react/jsx-runtime");
 var AvatarAbstract03240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1418.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1431.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_240.default,
@@ -22716,14 +22921,34 @@ var AvatarAbstract03240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract03240_default = AvatarAbstract03240;
 
+// src/avatars/AvatarAbstract0336.tsx
+var import_avatar_abstract_03_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-36.jpg"));
+var import_jsx_runtime1432 = require("react/jsx-runtime");
+var AvatarAbstract0336 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_03_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1432.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_03_36.default,
+      alt: "AvatarAbstract0336",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0336_default = AvatarAbstract0336;
+
 // src/avatars/AvatarAbstract03384.tsx
 var import_avatar_abstract_03_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-384.jpg"));
-var import_jsx_runtime1419 = require("react/jsx-runtime");
+var import_jsx_runtime1433 = require("react/jsx-runtime");
 var AvatarAbstract03384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1419.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1433.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_384.default,
@@ -22738,12 +22963,12 @@ var AvatarAbstract03384_default = AvatarAbstract03384;
 
 // src/avatars/AvatarAbstract0360.tsx
 var import_avatar_abstract_03_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-60.jpg"));
-var import_jsx_runtime1420 = require("react/jsx-runtime");
+var import_jsx_runtime1434 = require("react/jsx-runtime");
 var AvatarAbstract0360 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1420.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1434.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_60.default,
@@ -22758,12 +22983,12 @@ var AvatarAbstract0360_default = AvatarAbstract0360;
 
 // src/avatars/AvatarAbstract0372.tsx
 var import_avatar_abstract_03_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-72.jpg"));
-var import_jsx_runtime1421 = require("react/jsx-runtime");
+var import_jsx_runtime1435 = require("react/jsx-runtime");
 var AvatarAbstract0372 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1421.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1435.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_72.default,
@@ -22778,12 +23003,12 @@ var AvatarAbstract0372_default = AvatarAbstract0372;
 
 // src/avatars/AvatarAbstract03768.tsx
 var import_avatar_abstract_03_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-768.jpg"));
-var import_jsx_runtime1422 = require("react/jsx-runtime");
+var import_jsx_runtime1436 = require("react/jsx-runtime");
 var AvatarAbstract03768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1422.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1436.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_768.default,
@@ -22798,12 +23023,12 @@ var AvatarAbstract03768_default = AvatarAbstract03768;
 
 // src/avatars/AvatarAbstract0384.tsx
 var import_avatar_abstract_03_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-84.jpg"));
-var import_jsx_runtime1423 = require("react/jsx-runtime");
+var import_jsx_runtime1437 = require("react/jsx-runtime");
 var AvatarAbstract0384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1423.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1437.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_84.default,
@@ -22818,12 +23043,12 @@ var AvatarAbstract0384_default = AvatarAbstract0384;
 
 // src/avatars/AvatarAbstract0396.tsx
 var import_avatar_abstract_03_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-03-96.jpg"));
-var import_jsx_runtime1424 = require("react/jsx-runtime");
+var import_jsx_runtime1438 = require("react/jsx-runtime");
 var AvatarAbstract0396 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_03_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1424.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1438.jsx)(
     "img",
     {
       src: import_avatar_abstract_03_96.default,
@@ -22836,14 +23061,34 @@ var AvatarAbstract0396 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract0396_default = AvatarAbstract0396;
 
+// src/avatars/AvatarAbstract0412.tsx
+var import_avatar_abstract_04_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-12.jpg"));
+var import_jsx_runtime1439 = require("react/jsx-runtime");
+var AvatarAbstract0412 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_04_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1439.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_04_12.default,
+      alt: "AvatarAbstract0412",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0412_default = AvatarAbstract0412;
+
 // src/avatars/AvatarAbstract04120.tsx
 var import_avatar_abstract_04_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-120.jpg"));
-var import_jsx_runtime1425 = require("react/jsx-runtime");
+var import_jsx_runtime1440 = require("react/jsx-runtime");
 var AvatarAbstract04120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1425.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1440.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_120.default,
@@ -22870,7 +23115,7 @@ var import_avatar_abstract_04_80 = __toESM(require("@snowui-design-system/resour
 var import_avatar_abstract_04_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-128.jpg"));
 var import_avatar_abstract_04_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-256.jpg"));
 var import_avatar_abstract_04_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-512.jpg"));
-var import_jsx_runtime1426 = require("react/jsx-runtime");
+var import_jsx_runtime1441 = require("react/jsx-runtime");
 var AvatarAbstract04SizeMap = {
   16: import_avatar_abstract_04_16.default,
   20: import_avatar_abstract_04_20.default,
@@ -22906,7 +23151,7 @@ var AvatarAbstract04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize8(resolvedWidth, AvatarAbstract04AvailableSizes);
   const imageSrc = AvatarAbstract04SizeMap[closestSize] ?? import_avatar_abstract_04_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1426.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1441.jsx)(
     "img",
     {
       src: imageSrc,
@@ -22921,12 +23166,12 @@ var AvatarAbstract04_default = AvatarAbstract04;
 
 // src/avatars/AvatarAbstract04144.tsx
 var import_avatar_abstract_04_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-144.jpg"));
-var import_jsx_runtime1427 = require("react/jsx-runtime");
+var import_jsx_runtime1442 = require("react/jsx-runtime");
 var AvatarAbstract04144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1427.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1442.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_144.default,
@@ -22941,12 +23186,12 @@ var AvatarAbstract04144_default = AvatarAbstract04144;
 
 // src/avatars/AvatarAbstract041536.tsx
 var import_avatar_abstract_04_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-1536.jpg"));
-var import_jsx_runtime1428 = require("react/jsx-runtime");
+var import_jsx_runtime1443 = require("react/jsx-runtime");
 var AvatarAbstract041536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1428.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1443.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_1536.default,
@@ -22961,12 +23206,12 @@ var AvatarAbstract041536_default = AvatarAbstract041536;
 
 // src/avatars/AvatarAbstract04168.tsx
 var import_avatar_abstract_04_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-168.jpg"));
-var import_jsx_runtime1429 = require("react/jsx-runtime");
+var import_jsx_runtime1444 = require("react/jsx-runtime");
 var AvatarAbstract04168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1429.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1444.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_168.default,
@@ -22981,12 +23226,12 @@ var AvatarAbstract04168_default = AvatarAbstract04168;
 
 // src/avatars/AvatarAbstract04192.tsx
 var import_avatar_abstract_04_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-192.jpg"));
-var import_jsx_runtime1430 = require("react/jsx-runtime");
+var import_jsx_runtime1445 = require("react/jsx-runtime");
 var AvatarAbstract04192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1430.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1445.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_192.default,
@@ -23001,12 +23246,12 @@ var AvatarAbstract04192_default = AvatarAbstract04192;
 
 // src/avatars/AvatarAbstract04240.tsx
 var import_avatar_abstract_04_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-240.jpg"));
-var import_jsx_runtime1431 = require("react/jsx-runtime");
+var import_jsx_runtime1446 = require("react/jsx-runtime");
 var AvatarAbstract04240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1431.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1446.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_240.default,
@@ -23019,14 +23264,34 @@ var AvatarAbstract04240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract04240_default = AvatarAbstract04240;
 
+// src/avatars/AvatarAbstract0436.tsx
+var import_avatar_abstract_04_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-36.jpg"));
+var import_jsx_runtime1447 = require("react/jsx-runtime");
+var AvatarAbstract0436 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_abstract_04_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1447.jsx)(
+    "img",
+    {
+      src: import_avatar_abstract_04_36.default,
+      alt: "AvatarAbstract0436",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarAbstract0436_default = AvatarAbstract0436;
+
 // src/avatars/AvatarAbstract04384.tsx
 var import_avatar_abstract_04_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-384.jpg"));
-var import_jsx_runtime1432 = require("react/jsx-runtime");
+var import_jsx_runtime1448 = require("react/jsx-runtime");
 var AvatarAbstract04384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1432.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1448.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_384.default,
@@ -23041,12 +23306,12 @@ var AvatarAbstract04384_default = AvatarAbstract04384;
 
 // src/avatars/AvatarAbstract0460.tsx
 var import_avatar_abstract_04_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-60.jpg"));
-var import_jsx_runtime1433 = require("react/jsx-runtime");
+var import_jsx_runtime1449 = require("react/jsx-runtime");
 var AvatarAbstract0460 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1433.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1449.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_60.default,
@@ -23061,12 +23326,12 @@ var AvatarAbstract0460_default = AvatarAbstract0460;
 
 // src/avatars/AvatarAbstract0472.tsx
 var import_avatar_abstract_04_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-72.jpg"));
-var import_jsx_runtime1434 = require("react/jsx-runtime");
+var import_jsx_runtime1450 = require("react/jsx-runtime");
 var AvatarAbstract0472 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1434.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1450.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_72.default,
@@ -23081,12 +23346,12 @@ var AvatarAbstract0472_default = AvatarAbstract0472;
 
 // src/avatars/AvatarAbstract04768.tsx
 var import_avatar_abstract_04_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-768.jpg"));
-var import_jsx_runtime1435 = require("react/jsx-runtime");
+var import_jsx_runtime1451 = require("react/jsx-runtime");
 var AvatarAbstract04768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1435.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1451.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_768.default,
@@ -23101,12 +23366,12 @@ var AvatarAbstract04768_default = AvatarAbstract04768;
 
 // src/avatars/AvatarAbstract0484.tsx
 var import_avatar_abstract_04_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-84.jpg"));
-var import_jsx_runtime1436 = require("react/jsx-runtime");
+var import_jsx_runtime1452 = require("react/jsx-runtime");
 var AvatarAbstract0484 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1436.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1452.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_84.default,
@@ -23121,12 +23386,12 @@ var AvatarAbstract0484_default = AvatarAbstract0484;
 
 // src/avatars/AvatarAbstract0496.tsx
 var import_avatar_abstract_04_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-abstract-04-96.jpg"));
-var import_jsx_runtime1437 = require("react/jsx-runtime");
+var import_jsx_runtime1453 = require("react/jsx-runtime");
 var AvatarAbstract0496 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_abstract_04_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1437.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1453.jsx)(
     "img",
     {
       src: import_avatar_abstract_04_96.default,
@@ -23139,14 +23404,34 @@ var AvatarAbstract0496 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarAbstract0496_default = AvatarAbstract0496;
 
+// src/avatars/AvatarByewind12.tsx
+var import_avatar_byewind_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-12.jpg"));
+var import_jsx_runtime1454 = require("react/jsx-runtime");
+var AvatarByewind12 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_byewind_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1454.jsx)(
+    "img",
+    {
+      src: import_avatar_byewind_12.default,
+      alt: "AvatarByewind12",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarByewind12_default = AvatarByewind12;
+
 // src/avatars/AvatarByewind120.tsx
 var import_avatar_byewind_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-120.jpg"));
-var import_jsx_runtime1438 = require("react/jsx-runtime");
+var import_jsx_runtime1455 = require("react/jsx-runtime");
 var AvatarByewind120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1438.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1455.jsx)(
     "img",
     {
       src: import_avatar_byewind_120.default,
@@ -23173,7 +23458,7 @@ var import_avatar_byewind_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_byewind_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-128.jpg"));
 var import_avatar_byewind_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-256.jpg"));
 var import_avatar_byewind_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-512.jpg"));
-var import_jsx_runtime1439 = require("react/jsx-runtime");
+var import_jsx_runtime1456 = require("react/jsx-runtime");
 var AvatarByewindSizeMap = {
   16: import_avatar_byewind_16.default,
   20: import_avatar_byewind_20.default,
@@ -23209,7 +23494,7 @@ var AvatarByewind = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize9(resolvedWidth, AvatarByewindAvailableSizes);
   const imageSrc = AvatarByewindSizeMap[closestSize] ?? import_avatar_byewind_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1439.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1456.jsx)(
     "img",
     {
       src: imageSrc,
@@ -23224,12 +23509,12 @@ var AvatarByewind_default = AvatarByewind;
 
 // src/avatars/AvatarByewind144.tsx
 var import_avatar_byewind_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-144.jpg"));
-var import_jsx_runtime1440 = require("react/jsx-runtime");
+var import_jsx_runtime1457 = require("react/jsx-runtime");
 var AvatarByewind144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1440.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1457.jsx)(
     "img",
     {
       src: import_avatar_byewind_144.default,
@@ -23244,12 +23529,12 @@ var AvatarByewind144_default = AvatarByewind144;
 
 // src/avatars/AvatarByewind1536.tsx
 var import_avatar_byewind_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-1536.jpg"));
-var import_jsx_runtime1441 = require("react/jsx-runtime");
+var import_jsx_runtime1458 = require("react/jsx-runtime");
 var AvatarByewind1536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1441.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1458.jsx)(
     "img",
     {
       src: import_avatar_byewind_1536.default,
@@ -23264,12 +23549,12 @@ var AvatarByewind1536_default = AvatarByewind1536;
 
 // src/avatars/AvatarByewind168.tsx
 var import_avatar_byewind_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-168.jpg"));
-var import_jsx_runtime1442 = require("react/jsx-runtime");
+var import_jsx_runtime1459 = require("react/jsx-runtime");
 var AvatarByewind168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1442.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)(
     "img",
     {
       src: import_avatar_byewind_168.default,
@@ -23284,12 +23569,12 @@ var AvatarByewind168_default = AvatarByewind168;
 
 // src/avatars/AvatarByewind192.tsx
 var import_avatar_byewind_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-192.jpg"));
-var import_jsx_runtime1443 = require("react/jsx-runtime");
+var import_jsx_runtime1460 = require("react/jsx-runtime");
 var AvatarByewind192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1443.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1460.jsx)(
     "img",
     {
       src: import_avatar_byewind_192.default,
@@ -23304,12 +23589,12 @@ var AvatarByewind192_default = AvatarByewind192;
 
 // src/avatars/AvatarByewind240.tsx
 var import_avatar_byewind_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-240.jpg"));
-var import_jsx_runtime1444 = require("react/jsx-runtime");
+var import_jsx_runtime1461 = require("react/jsx-runtime");
 var AvatarByewind240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1444.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1461.jsx)(
     "img",
     {
       src: import_avatar_byewind_240.default,
@@ -23322,14 +23607,34 @@ var AvatarByewind240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarByewind240_default = AvatarByewind240;
 
+// src/avatars/AvatarByewind36.tsx
+var import_avatar_byewind_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-36.jpg"));
+var import_jsx_runtime1462 = require("react/jsx-runtime");
+var AvatarByewind36 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_byewind_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1462.jsx)(
+    "img",
+    {
+      src: import_avatar_byewind_36.default,
+      alt: "AvatarByewind36",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarByewind36_default = AvatarByewind36;
+
 // src/avatars/AvatarByewind384.tsx
 var import_avatar_byewind_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-384.jpg"));
-var import_jsx_runtime1445 = require("react/jsx-runtime");
+var import_jsx_runtime1463 = require("react/jsx-runtime");
 var AvatarByewind384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1445.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1463.jsx)(
     "img",
     {
       src: import_avatar_byewind_384.default,
@@ -23344,12 +23649,12 @@ var AvatarByewind384_default = AvatarByewind384;
 
 // src/avatars/AvatarByewind60.tsx
 var import_avatar_byewind_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-60.jpg"));
-var import_jsx_runtime1446 = require("react/jsx-runtime");
+var import_jsx_runtime1464 = require("react/jsx-runtime");
 var AvatarByewind60 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1446.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1464.jsx)(
     "img",
     {
       src: import_avatar_byewind_60.default,
@@ -23364,12 +23669,12 @@ var AvatarByewind60_default = AvatarByewind60;
 
 // src/avatars/AvatarByewind72.tsx
 var import_avatar_byewind_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-72.jpg"));
-var import_jsx_runtime1447 = require("react/jsx-runtime");
+var import_jsx_runtime1465 = require("react/jsx-runtime");
 var AvatarByewind72 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1447.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1465.jsx)(
     "img",
     {
       src: import_avatar_byewind_72.default,
@@ -23384,12 +23689,12 @@ var AvatarByewind72_default = AvatarByewind72;
 
 // src/avatars/AvatarByewind768.tsx
 var import_avatar_byewind_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-768.jpg"));
-var import_jsx_runtime1448 = require("react/jsx-runtime");
+var import_jsx_runtime1466 = require("react/jsx-runtime");
 var AvatarByewind768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1448.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1466.jsx)(
     "img",
     {
       src: import_avatar_byewind_768.default,
@@ -23404,12 +23709,12 @@ var AvatarByewind768_default = AvatarByewind768;
 
 // src/avatars/AvatarByewind84.tsx
 var import_avatar_byewind_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-84.jpg"));
-var import_jsx_runtime1449 = require("react/jsx-runtime");
+var import_jsx_runtime1467 = require("react/jsx-runtime");
 var AvatarByewind84 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1449.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1467.jsx)(
     "img",
     {
       src: import_avatar_byewind_84.default,
@@ -23424,12 +23729,12 @@ var AvatarByewind84_default = AvatarByewind84;
 
 // src/avatars/AvatarByewind96.tsx
 var import_avatar_byewind_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-byewind-96.jpg"));
-var import_jsx_runtime1450 = require("react/jsx-runtime");
+var import_jsx_runtime1468 = require("react/jsx-runtime");
 var AvatarByewind96 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_byewind_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1450.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1468.jsx)(
     "img",
     {
       src: import_avatar_byewind_96.default,
@@ -23442,14 +23747,34 @@ var AvatarByewind96 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarByewind96_default = AvatarByewind96;
 
+// src/avatars/AvatarDefault12.tsx
+var import_avatar_default_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-12.jpg"));
+var import_jsx_runtime1469 = require("react/jsx-runtime");
+var AvatarDefault12 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_default_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1469.jsx)(
+    "img",
+    {
+      src: import_avatar_default_12.default,
+      alt: "AvatarDefault12",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarDefault12_default = AvatarDefault12;
+
 // src/avatars/AvatarDefault120.tsx
 var import_avatar_default_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-120.jpg"));
-var import_jsx_runtime1451 = require("react/jsx-runtime");
+var import_jsx_runtime1470 = require("react/jsx-runtime");
 var AvatarDefault120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1451.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1470.jsx)(
     "img",
     {
       src: import_avatar_default_120.default,
@@ -23476,7 +23801,7 @@ var import_avatar_default_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_default_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-128.jpg"));
 var import_avatar_default_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-256.jpg"));
 var import_avatar_default_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-512.jpg"));
-var import_jsx_runtime1452 = require("react/jsx-runtime");
+var import_jsx_runtime1471 = require("react/jsx-runtime");
 var AvatarDefaultSizeMap = {
   16: import_avatar_default_16.default,
   20: import_avatar_default_20.default,
@@ -23512,7 +23837,7 @@ var AvatarDefault = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize10(resolvedWidth, AvatarDefaultAvailableSizes);
   const imageSrc = AvatarDefaultSizeMap[closestSize] ?? import_avatar_default_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1452.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1471.jsx)(
     "img",
     {
       src: imageSrc,
@@ -23527,12 +23852,12 @@ var AvatarDefault_default = AvatarDefault;
 
 // src/avatars/AvatarDefault144.tsx
 var import_avatar_default_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-144.jpg"));
-var import_jsx_runtime1453 = require("react/jsx-runtime");
+var import_jsx_runtime1472 = require("react/jsx-runtime");
 var AvatarDefault144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1453.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1472.jsx)(
     "img",
     {
       src: import_avatar_default_144.default,
@@ -23547,12 +23872,12 @@ var AvatarDefault144_default = AvatarDefault144;
 
 // src/avatars/AvatarDefault1536.tsx
 var import_avatar_default_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-1536.jpg"));
-var import_jsx_runtime1454 = require("react/jsx-runtime");
+var import_jsx_runtime1473 = require("react/jsx-runtime");
 var AvatarDefault1536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1454.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1473.jsx)(
     "img",
     {
       src: import_avatar_default_1536.default,
@@ -23567,12 +23892,12 @@ var AvatarDefault1536_default = AvatarDefault1536;
 
 // src/avatars/AvatarDefault168.tsx
 var import_avatar_default_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-168.jpg"));
-var import_jsx_runtime1455 = require("react/jsx-runtime");
+var import_jsx_runtime1474 = require("react/jsx-runtime");
 var AvatarDefault168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1455.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1474.jsx)(
     "img",
     {
       src: import_avatar_default_168.default,
@@ -23587,12 +23912,12 @@ var AvatarDefault168_default = AvatarDefault168;
 
 // src/avatars/AvatarDefault192.tsx
 var import_avatar_default_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-192.jpg"));
-var import_jsx_runtime1456 = require("react/jsx-runtime");
+var import_jsx_runtime1475 = require("react/jsx-runtime");
 var AvatarDefault192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1456.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1475.jsx)(
     "img",
     {
       src: import_avatar_default_192.default,
@@ -23607,12 +23932,12 @@ var AvatarDefault192_default = AvatarDefault192;
 
 // src/avatars/AvatarDefault240.tsx
 var import_avatar_default_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-240.jpg"));
-var import_jsx_runtime1457 = require("react/jsx-runtime");
+var import_jsx_runtime1476 = require("react/jsx-runtime");
 var AvatarDefault240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1457.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1476.jsx)(
     "img",
     {
       src: import_avatar_default_240.default,
@@ -23625,14 +23950,34 @@ var AvatarDefault240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarDefault240_default = AvatarDefault240;
 
+// src/avatars/AvatarDefault36.tsx
+var import_avatar_default_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-36.jpg"));
+var import_jsx_runtime1477 = require("react/jsx-runtime");
+var AvatarDefault36 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_default_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1477.jsx)(
+    "img",
+    {
+      src: import_avatar_default_36.default,
+      alt: "AvatarDefault36",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarDefault36_default = AvatarDefault36;
+
 // src/avatars/AvatarDefault384.tsx
 var import_avatar_default_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-384.jpg"));
-var import_jsx_runtime1458 = require("react/jsx-runtime");
+var import_jsx_runtime1478 = require("react/jsx-runtime");
 var AvatarDefault384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1458.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1478.jsx)(
     "img",
     {
       src: import_avatar_default_384.default,
@@ -23647,12 +23992,12 @@ var AvatarDefault384_default = AvatarDefault384;
 
 // src/avatars/AvatarDefault60.tsx
 var import_avatar_default_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-60.jpg"));
-var import_jsx_runtime1459 = require("react/jsx-runtime");
+var import_jsx_runtime1479 = require("react/jsx-runtime");
 var AvatarDefault60 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1459.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1479.jsx)(
     "img",
     {
       src: import_avatar_default_60.default,
@@ -23667,12 +24012,12 @@ var AvatarDefault60_default = AvatarDefault60;
 
 // src/avatars/AvatarDefault72.tsx
 var import_avatar_default_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-72.jpg"));
-var import_jsx_runtime1460 = require("react/jsx-runtime");
+var import_jsx_runtime1480 = require("react/jsx-runtime");
 var AvatarDefault72 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1460.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1480.jsx)(
     "img",
     {
       src: import_avatar_default_72.default,
@@ -23687,12 +24032,12 @@ var AvatarDefault72_default = AvatarDefault72;
 
 // src/avatars/AvatarDefault768.tsx
 var import_avatar_default_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-768.jpg"));
-var import_jsx_runtime1461 = require("react/jsx-runtime");
+var import_jsx_runtime1481 = require("react/jsx-runtime");
 var AvatarDefault768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1461.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1481.jsx)(
     "img",
     {
       src: import_avatar_default_768.default,
@@ -23707,12 +24052,12 @@ var AvatarDefault768_default = AvatarDefault768;
 
 // src/avatars/AvatarDefault84.tsx
 var import_avatar_default_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-84.jpg"));
-var import_jsx_runtime1462 = require("react/jsx-runtime");
+var import_jsx_runtime1482 = require("react/jsx-runtime");
 var AvatarDefault84 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1462.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1482.jsx)(
     "img",
     {
       src: import_avatar_default_84.default,
@@ -23727,12 +24072,12 @@ var AvatarDefault84_default = AvatarDefault84;
 
 // src/avatars/AvatarDefault96.tsx
 var import_avatar_default_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-default-96.jpg"));
-var import_jsx_runtime1463 = require("react/jsx-runtime");
+var import_jsx_runtime1483 = require("react/jsx-runtime");
 var AvatarDefault96 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_default_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1463.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1483.jsx)(
     "img",
     {
       src: import_avatar_default_96.default,
@@ -23745,14 +24090,34 @@ var AvatarDefault96 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarDefault96_default = AvatarDefault96;
 
+// src/avatars/AvatarFemale0112.tsx
+var import_avatar_female_01_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-12.jpg"));
+var import_jsx_runtime1484 = require("react/jsx-runtime");
+var AvatarFemale0112 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_01_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1484.jsx)(
+    "img",
+    {
+      src: import_avatar_female_01_12.default,
+      alt: "AvatarFemale0112",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0112_default = AvatarFemale0112;
+
 // src/avatars/AvatarFemale01120.tsx
 var import_avatar_female_01_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-120.jpg"));
-var import_jsx_runtime1464 = require("react/jsx-runtime");
+var import_jsx_runtime1485 = require("react/jsx-runtime");
 var AvatarFemale01120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1464.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1485.jsx)(
     "img",
     {
       src: import_avatar_female_01_120.default,
@@ -23779,7 +24144,7 @@ var import_avatar_female_01_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_01_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-128.jpg"));
 var import_avatar_female_01_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-256.jpg"));
 var import_avatar_female_01_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-512.jpg"));
-var import_jsx_runtime1465 = require("react/jsx-runtime");
+var import_jsx_runtime1486 = require("react/jsx-runtime");
 var AvatarFemale01SizeMap = {
   16: import_avatar_female_01_16.default,
   20: import_avatar_female_01_20.default,
@@ -23815,7 +24180,7 @@ var AvatarFemale01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize11(resolvedWidth, AvatarFemale01AvailableSizes);
   const imageSrc = AvatarFemale01SizeMap[closestSize] ?? import_avatar_female_01_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1465.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1486.jsx)(
     "img",
     {
       src: imageSrc,
@@ -23830,12 +24195,12 @@ var AvatarFemale01_default = AvatarFemale01;
 
 // src/avatars/AvatarFemale01144.tsx
 var import_avatar_female_01_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-144.jpg"));
-var import_jsx_runtime1466 = require("react/jsx-runtime");
+var import_jsx_runtime1487 = require("react/jsx-runtime");
 var AvatarFemale01144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1466.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1487.jsx)(
     "img",
     {
       src: import_avatar_female_01_144.default,
@@ -23850,12 +24215,12 @@ var AvatarFemale01144_default = AvatarFemale01144;
 
 // src/avatars/AvatarFemale011536.tsx
 var import_avatar_female_01_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-1536.jpg"));
-var import_jsx_runtime1467 = require("react/jsx-runtime");
+var import_jsx_runtime1488 = require("react/jsx-runtime");
 var AvatarFemale011536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1467.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1488.jsx)(
     "img",
     {
       src: import_avatar_female_01_1536.default,
@@ -23870,12 +24235,12 @@ var AvatarFemale011536_default = AvatarFemale011536;
 
 // src/avatars/AvatarFemale01168.tsx
 var import_avatar_female_01_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-168.jpg"));
-var import_jsx_runtime1468 = require("react/jsx-runtime");
+var import_jsx_runtime1489 = require("react/jsx-runtime");
 var AvatarFemale01168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1468.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1489.jsx)(
     "img",
     {
       src: import_avatar_female_01_168.default,
@@ -23890,12 +24255,12 @@ var AvatarFemale01168_default = AvatarFemale01168;
 
 // src/avatars/AvatarFemale01192.tsx
 var import_avatar_female_01_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-192.jpg"));
-var import_jsx_runtime1469 = require("react/jsx-runtime");
+var import_jsx_runtime1490 = require("react/jsx-runtime");
 var AvatarFemale01192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1469.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1490.jsx)(
     "img",
     {
       src: import_avatar_female_01_192.default,
@@ -23910,12 +24275,12 @@ var AvatarFemale01192_default = AvatarFemale01192;
 
 // src/avatars/AvatarFemale01240.tsx
 var import_avatar_female_01_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-240.jpg"));
-var import_jsx_runtime1470 = require("react/jsx-runtime");
+var import_jsx_runtime1491 = require("react/jsx-runtime");
 var AvatarFemale01240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1470.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1491.jsx)(
     "img",
     {
       src: import_avatar_female_01_240.default,
@@ -23928,14 +24293,34 @@ var AvatarFemale01240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale01240_default = AvatarFemale01240;
 
+// src/avatars/AvatarFemale0136.tsx
+var import_avatar_female_01_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-36.jpg"));
+var import_jsx_runtime1492 = require("react/jsx-runtime");
+var AvatarFemale0136 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_01_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1492.jsx)(
+    "img",
+    {
+      src: import_avatar_female_01_36.default,
+      alt: "AvatarFemale0136",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0136_default = AvatarFemale0136;
+
 // src/avatars/AvatarFemale01384.tsx
 var import_avatar_female_01_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-384.jpg"));
-var import_jsx_runtime1471 = require("react/jsx-runtime");
+var import_jsx_runtime1493 = require("react/jsx-runtime");
 var AvatarFemale01384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1471.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1493.jsx)(
     "img",
     {
       src: import_avatar_female_01_384.default,
@@ -23950,12 +24335,12 @@ var AvatarFemale01384_default = AvatarFemale01384;
 
 // src/avatars/AvatarFemale0160.tsx
 var import_avatar_female_01_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-60.jpg"));
-var import_jsx_runtime1472 = require("react/jsx-runtime");
+var import_jsx_runtime1494 = require("react/jsx-runtime");
 var AvatarFemale0160 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1472.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1494.jsx)(
     "img",
     {
       src: import_avatar_female_01_60.default,
@@ -23970,12 +24355,12 @@ var AvatarFemale0160_default = AvatarFemale0160;
 
 // src/avatars/AvatarFemale0172.tsx
 var import_avatar_female_01_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-72.jpg"));
-var import_jsx_runtime1473 = require("react/jsx-runtime");
+var import_jsx_runtime1495 = require("react/jsx-runtime");
 var AvatarFemale0172 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1473.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1495.jsx)(
     "img",
     {
       src: import_avatar_female_01_72.default,
@@ -23990,12 +24375,12 @@ var AvatarFemale0172_default = AvatarFemale0172;
 
 // src/avatars/AvatarFemale01768.tsx
 var import_avatar_female_01_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-768.jpg"));
-var import_jsx_runtime1474 = require("react/jsx-runtime");
+var import_jsx_runtime1496 = require("react/jsx-runtime");
 var AvatarFemale01768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1474.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1496.jsx)(
     "img",
     {
       src: import_avatar_female_01_768.default,
@@ -24010,12 +24395,12 @@ var AvatarFemale01768_default = AvatarFemale01768;
 
 // src/avatars/AvatarFemale0184.tsx
 var import_avatar_female_01_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-84.jpg"));
-var import_jsx_runtime1475 = require("react/jsx-runtime");
+var import_jsx_runtime1497 = require("react/jsx-runtime");
 var AvatarFemale0184 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1475.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1497.jsx)(
     "img",
     {
       src: import_avatar_female_01_84.default,
@@ -24030,12 +24415,12 @@ var AvatarFemale0184_default = AvatarFemale0184;
 
 // src/avatars/AvatarFemale0196.tsx
 var import_avatar_female_01_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-01-96.jpg"));
-var import_jsx_runtime1476 = require("react/jsx-runtime");
+var import_jsx_runtime1498 = require("react/jsx-runtime");
 var AvatarFemale0196 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_01_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1476.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1498.jsx)(
     "img",
     {
       src: import_avatar_female_01_96.default,
@@ -24048,14 +24433,34 @@ var AvatarFemale0196 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0196_default = AvatarFemale0196;
 
+// src/avatars/AvatarFemale0212.tsx
+var import_avatar_female_02_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-12.jpg"));
+var import_jsx_runtime1499 = require("react/jsx-runtime");
+var AvatarFemale0212 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_02_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1499.jsx)(
+    "img",
+    {
+      src: import_avatar_female_02_12.default,
+      alt: "AvatarFemale0212",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0212_default = AvatarFemale0212;
+
 // src/avatars/AvatarFemale02120.tsx
 var import_avatar_female_02_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-120.jpg"));
-var import_jsx_runtime1477 = require("react/jsx-runtime");
+var import_jsx_runtime1500 = require("react/jsx-runtime");
 var AvatarFemale02120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1477.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1500.jsx)(
     "img",
     {
       src: import_avatar_female_02_120.default,
@@ -24082,7 +24487,7 @@ var import_avatar_female_02_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_02_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-128.jpg"));
 var import_avatar_female_02_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-256.jpg"));
 var import_avatar_female_02_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-512.jpg"));
-var import_jsx_runtime1478 = require("react/jsx-runtime");
+var import_jsx_runtime1501 = require("react/jsx-runtime");
 var AvatarFemale02SizeMap = {
   16: import_avatar_female_02_16.default,
   20: import_avatar_female_02_20.default,
@@ -24118,7 +24523,7 @@ var AvatarFemale02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize12(resolvedWidth, AvatarFemale02AvailableSizes);
   const imageSrc = AvatarFemale02SizeMap[closestSize] ?? import_avatar_female_02_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1478.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1501.jsx)(
     "img",
     {
       src: imageSrc,
@@ -24133,12 +24538,12 @@ var AvatarFemale02_default = AvatarFemale02;
 
 // src/avatars/AvatarFemale02144.tsx
 var import_avatar_female_02_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-144.jpg"));
-var import_jsx_runtime1479 = require("react/jsx-runtime");
+var import_jsx_runtime1502 = require("react/jsx-runtime");
 var AvatarFemale02144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1479.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1502.jsx)(
     "img",
     {
       src: import_avatar_female_02_144.default,
@@ -24153,12 +24558,12 @@ var AvatarFemale02144_default = AvatarFemale02144;
 
 // src/avatars/AvatarFemale021536.tsx
 var import_avatar_female_02_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-1536.jpg"));
-var import_jsx_runtime1480 = require("react/jsx-runtime");
+var import_jsx_runtime1503 = require("react/jsx-runtime");
 var AvatarFemale021536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1480.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1503.jsx)(
     "img",
     {
       src: import_avatar_female_02_1536.default,
@@ -24173,12 +24578,12 @@ var AvatarFemale021536_default = AvatarFemale021536;
 
 // src/avatars/AvatarFemale02168.tsx
 var import_avatar_female_02_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-168.jpg"));
-var import_jsx_runtime1481 = require("react/jsx-runtime");
+var import_jsx_runtime1504 = require("react/jsx-runtime");
 var AvatarFemale02168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1481.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1504.jsx)(
     "img",
     {
       src: import_avatar_female_02_168.default,
@@ -24193,12 +24598,12 @@ var AvatarFemale02168_default = AvatarFemale02168;
 
 // src/avatars/AvatarFemale02192.tsx
 var import_avatar_female_02_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-192.jpg"));
-var import_jsx_runtime1482 = require("react/jsx-runtime");
+var import_jsx_runtime1505 = require("react/jsx-runtime");
 var AvatarFemale02192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1482.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1505.jsx)(
     "img",
     {
       src: import_avatar_female_02_192.default,
@@ -24213,12 +24618,12 @@ var AvatarFemale02192_default = AvatarFemale02192;
 
 // src/avatars/AvatarFemale02240.tsx
 var import_avatar_female_02_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-240.jpg"));
-var import_jsx_runtime1483 = require("react/jsx-runtime");
+var import_jsx_runtime1506 = require("react/jsx-runtime");
 var AvatarFemale02240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1483.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1506.jsx)(
     "img",
     {
       src: import_avatar_female_02_240.default,
@@ -24231,14 +24636,34 @@ var AvatarFemale02240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale02240_default = AvatarFemale02240;
 
+// src/avatars/AvatarFemale0236.tsx
+var import_avatar_female_02_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-36.jpg"));
+var import_jsx_runtime1507 = require("react/jsx-runtime");
+var AvatarFemale0236 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_02_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1507.jsx)(
+    "img",
+    {
+      src: import_avatar_female_02_36.default,
+      alt: "AvatarFemale0236",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0236_default = AvatarFemale0236;
+
 // src/avatars/AvatarFemale02384.tsx
 var import_avatar_female_02_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-384.jpg"));
-var import_jsx_runtime1484 = require("react/jsx-runtime");
+var import_jsx_runtime1508 = require("react/jsx-runtime");
 var AvatarFemale02384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1484.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1508.jsx)(
     "img",
     {
       src: import_avatar_female_02_384.default,
@@ -24253,12 +24678,12 @@ var AvatarFemale02384_default = AvatarFemale02384;
 
 // src/avatars/AvatarFemale0260.tsx
 var import_avatar_female_02_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-60.jpg"));
-var import_jsx_runtime1485 = require("react/jsx-runtime");
+var import_jsx_runtime1509 = require("react/jsx-runtime");
 var AvatarFemale0260 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1485.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1509.jsx)(
     "img",
     {
       src: import_avatar_female_02_60.default,
@@ -24273,12 +24698,12 @@ var AvatarFemale0260_default = AvatarFemale0260;
 
 // src/avatars/AvatarFemale0272.tsx
 var import_avatar_female_02_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-72.jpg"));
-var import_jsx_runtime1486 = require("react/jsx-runtime");
+var import_jsx_runtime1510 = require("react/jsx-runtime");
 var AvatarFemale0272 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1486.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1510.jsx)(
     "img",
     {
       src: import_avatar_female_02_72.default,
@@ -24293,12 +24718,12 @@ var AvatarFemale0272_default = AvatarFemale0272;
 
 // src/avatars/AvatarFemale02768.tsx
 var import_avatar_female_02_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-768.jpg"));
-var import_jsx_runtime1487 = require("react/jsx-runtime");
+var import_jsx_runtime1511 = require("react/jsx-runtime");
 var AvatarFemale02768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1487.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1511.jsx)(
     "img",
     {
       src: import_avatar_female_02_768.default,
@@ -24313,12 +24738,12 @@ var AvatarFemale02768_default = AvatarFemale02768;
 
 // src/avatars/AvatarFemale0284.tsx
 var import_avatar_female_02_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-84.jpg"));
-var import_jsx_runtime1488 = require("react/jsx-runtime");
+var import_jsx_runtime1512 = require("react/jsx-runtime");
 var AvatarFemale0284 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1488.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1512.jsx)(
     "img",
     {
       src: import_avatar_female_02_84.default,
@@ -24333,12 +24758,12 @@ var AvatarFemale0284_default = AvatarFemale0284;
 
 // src/avatars/AvatarFemale0296.tsx
 var import_avatar_female_02_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-02-96.jpg"));
-var import_jsx_runtime1489 = require("react/jsx-runtime");
+var import_jsx_runtime1513 = require("react/jsx-runtime");
 var AvatarFemale0296 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_02_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1489.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1513.jsx)(
     "img",
     {
       src: import_avatar_female_02_96.default,
@@ -24351,14 +24776,34 @@ var AvatarFemale0296 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0296_default = AvatarFemale0296;
 
+// src/avatars/AvatarFemale0312.tsx
+var import_avatar_female_03_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-12.jpg"));
+var import_jsx_runtime1514 = require("react/jsx-runtime");
+var AvatarFemale0312 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_03_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1514.jsx)(
+    "img",
+    {
+      src: import_avatar_female_03_12.default,
+      alt: "AvatarFemale0312",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0312_default = AvatarFemale0312;
+
 // src/avatars/AvatarFemale03120.tsx
 var import_avatar_female_03_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-120.jpg"));
-var import_jsx_runtime1490 = require("react/jsx-runtime");
+var import_jsx_runtime1515 = require("react/jsx-runtime");
 var AvatarFemale03120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1490.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1515.jsx)(
     "img",
     {
       src: import_avatar_female_03_120.default,
@@ -24385,7 +24830,7 @@ var import_avatar_female_03_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_03_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-128.jpg"));
 var import_avatar_female_03_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-256.jpg"));
 var import_avatar_female_03_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-512.jpg"));
-var import_jsx_runtime1491 = require("react/jsx-runtime");
+var import_jsx_runtime1516 = require("react/jsx-runtime");
 var AvatarFemale03SizeMap = {
   16: import_avatar_female_03_16.default,
   20: import_avatar_female_03_20.default,
@@ -24421,7 +24866,7 @@ var AvatarFemale03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize13(resolvedWidth, AvatarFemale03AvailableSizes);
   const imageSrc = AvatarFemale03SizeMap[closestSize] ?? import_avatar_female_03_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1491.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1516.jsx)(
     "img",
     {
       src: imageSrc,
@@ -24436,12 +24881,12 @@ var AvatarFemale03_default = AvatarFemale03;
 
 // src/avatars/AvatarFemale03144.tsx
 var import_avatar_female_03_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-144.jpg"));
-var import_jsx_runtime1492 = require("react/jsx-runtime");
+var import_jsx_runtime1517 = require("react/jsx-runtime");
 var AvatarFemale03144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1492.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1517.jsx)(
     "img",
     {
       src: import_avatar_female_03_144.default,
@@ -24456,12 +24901,12 @@ var AvatarFemale03144_default = AvatarFemale03144;
 
 // src/avatars/AvatarFemale031536.tsx
 var import_avatar_female_03_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-1536.jpg"));
-var import_jsx_runtime1493 = require("react/jsx-runtime");
+var import_jsx_runtime1518 = require("react/jsx-runtime");
 var AvatarFemale031536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1493.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1518.jsx)(
     "img",
     {
       src: import_avatar_female_03_1536.default,
@@ -24476,12 +24921,12 @@ var AvatarFemale031536_default = AvatarFemale031536;
 
 // src/avatars/AvatarFemale03168.tsx
 var import_avatar_female_03_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-168.jpg"));
-var import_jsx_runtime1494 = require("react/jsx-runtime");
+var import_jsx_runtime1519 = require("react/jsx-runtime");
 var AvatarFemale03168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1494.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1519.jsx)(
     "img",
     {
       src: import_avatar_female_03_168.default,
@@ -24496,12 +24941,12 @@ var AvatarFemale03168_default = AvatarFemale03168;
 
 // src/avatars/AvatarFemale03192.tsx
 var import_avatar_female_03_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-192.jpg"));
-var import_jsx_runtime1495 = require("react/jsx-runtime");
+var import_jsx_runtime1520 = require("react/jsx-runtime");
 var AvatarFemale03192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1495.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1520.jsx)(
     "img",
     {
       src: import_avatar_female_03_192.default,
@@ -24516,12 +24961,12 @@ var AvatarFemale03192_default = AvatarFemale03192;
 
 // src/avatars/AvatarFemale03240.tsx
 var import_avatar_female_03_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-240.jpg"));
-var import_jsx_runtime1496 = require("react/jsx-runtime");
+var import_jsx_runtime1521 = require("react/jsx-runtime");
 var AvatarFemale03240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1496.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1521.jsx)(
     "img",
     {
       src: import_avatar_female_03_240.default,
@@ -24534,14 +24979,34 @@ var AvatarFemale03240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale03240_default = AvatarFemale03240;
 
+// src/avatars/AvatarFemale0336.tsx
+var import_avatar_female_03_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-36.jpg"));
+var import_jsx_runtime1522 = require("react/jsx-runtime");
+var AvatarFemale0336 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_03_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1522.jsx)(
+    "img",
+    {
+      src: import_avatar_female_03_36.default,
+      alt: "AvatarFemale0336",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0336_default = AvatarFemale0336;
+
 // src/avatars/AvatarFemale03384.tsx
 var import_avatar_female_03_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-384.jpg"));
-var import_jsx_runtime1497 = require("react/jsx-runtime");
+var import_jsx_runtime1523 = require("react/jsx-runtime");
 var AvatarFemale03384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1497.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1523.jsx)(
     "img",
     {
       src: import_avatar_female_03_384.default,
@@ -24556,12 +25021,12 @@ var AvatarFemale03384_default = AvatarFemale03384;
 
 // src/avatars/AvatarFemale0360.tsx
 var import_avatar_female_03_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-60.jpg"));
-var import_jsx_runtime1498 = require("react/jsx-runtime");
+var import_jsx_runtime1524 = require("react/jsx-runtime");
 var AvatarFemale0360 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1498.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1524.jsx)(
     "img",
     {
       src: import_avatar_female_03_60.default,
@@ -24576,12 +25041,12 @@ var AvatarFemale0360_default = AvatarFemale0360;
 
 // src/avatars/AvatarFemale0372.tsx
 var import_avatar_female_03_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-72.jpg"));
-var import_jsx_runtime1499 = require("react/jsx-runtime");
+var import_jsx_runtime1525 = require("react/jsx-runtime");
 var AvatarFemale0372 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1499.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1525.jsx)(
     "img",
     {
       src: import_avatar_female_03_72.default,
@@ -24596,12 +25061,12 @@ var AvatarFemale0372_default = AvatarFemale0372;
 
 // src/avatars/AvatarFemale03768.tsx
 var import_avatar_female_03_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-768.jpg"));
-var import_jsx_runtime1500 = require("react/jsx-runtime");
+var import_jsx_runtime1526 = require("react/jsx-runtime");
 var AvatarFemale03768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1500.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1526.jsx)(
     "img",
     {
       src: import_avatar_female_03_768.default,
@@ -24616,12 +25081,12 @@ var AvatarFemale03768_default = AvatarFemale03768;
 
 // src/avatars/AvatarFemale0384.tsx
 var import_avatar_female_03_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-84.jpg"));
-var import_jsx_runtime1501 = require("react/jsx-runtime");
+var import_jsx_runtime1527 = require("react/jsx-runtime");
 var AvatarFemale0384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1501.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1527.jsx)(
     "img",
     {
       src: import_avatar_female_03_84.default,
@@ -24636,12 +25101,12 @@ var AvatarFemale0384_default = AvatarFemale0384;
 
 // src/avatars/AvatarFemale0396.tsx
 var import_avatar_female_03_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-03-96.jpg"));
-var import_jsx_runtime1502 = require("react/jsx-runtime");
+var import_jsx_runtime1528 = require("react/jsx-runtime");
 var AvatarFemale0396 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_03_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1502.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1528.jsx)(
     "img",
     {
       src: import_avatar_female_03_96.default,
@@ -24654,14 +25119,34 @@ var AvatarFemale0396 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0396_default = AvatarFemale0396;
 
+// src/avatars/AvatarFemale0412.tsx
+var import_avatar_female_04_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-12.jpg"));
+var import_jsx_runtime1529 = require("react/jsx-runtime");
+var AvatarFemale0412 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_04_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1529.jsx)(
+    "img",
+    {
+      src: import_avatar_female_04_12.default,
+      alt: "AvatarFemale0412",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0412_default = AvatarFemale0412;
+
 // src/avatars/AvatarFemale04120.tsx
 var import_avatar_female_04_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-120.jpg"));
-var import_jsx_runtime1503 = require("react/jsx-runtime");
+var import_jsx_runtime1530 = require("react/jsx-runtime");
 var AvatarFemale04120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1503.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1530.jsx)(
     "img",
     {
       src: import_avatar_female_04_120.default,
@@ -24688,7 +25173,7 @@ var import_avatar_female_04_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_04_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-128.jpg"));
 var import_avatar_female_04_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-256.jpg"));
 var import_avatar_female_04_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-512.jpg"));
-var import_jsx_runtime1504 = require("react/jsx-runtime");
+var import_jsx_runtime1531 = require("react/jsx-runtime");
 var AvatarFemale04SizeMap = {
   16: import_avatar_female_04_16.default,
   20: import_avatar_female_04_20.default,
@@ -24724,7 +25209,7 @@ var AvatarFemale04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize14(resolvedWidth, AvatarFemale04AvailableSizes);
   const imageSrc = AvatarFemale04SizeMap[closestSize] ?? import_avatar_female_04_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1504.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1531.jsx)(
     "img",
     {
       src: imageSrc,
@@ -24739,12 +25224,12 @@ var AvatarFemale04_default = AvatarFemale04;
 
 // src/avatars/AvatarFemale04144.tsx
 var import_avatar_female_04_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-144.jpg"));
-var import_jsx_runtime1505 = require("react/jsx-runtime");
+var import_jsx_runtime1532 = require("react/jsx-runtime");
 var AvatarFemale04144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1505.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1532.jsx)(
     "img",
     {
       src: import_avatar_female_04_144.default,
@@ -24759,12 +25244,12 @@ var AvatarFemale04144_default = AvatarFemale04144;
 
 // src/avatars/AvatarFemale041536.tsx
 var import_avatar_female_04_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-1536.jpg"));
-var import_jsx_runtime1506 = require("react/jsx-runtime");
+var import_jsx_runtime1533 = require("react/jsx-runtime");
 var AvatarFemale041536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1506.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1533.jsx)(
     "img",
     {
       src: import_avatar_female_04_1536.default,
@@ -24779,12 +25264,12 @@ var AvatarFemale041536_default = AvatarFemale041536;
 
 // src/avatars/AvatarFemale04168.tsx
 var import_avatar_female_04_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-168.jpg"));
-var import_jsx_runtime1507 = require("react/jsx-runtime");
+var import_jsx_runtime1534 = require("react/jsx-runtime");
 var AvatarFemale04168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1507.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1534.jsx)(
     "img",
     {
       src: import_avatar_female_04_168.default,
@@ -24799,12 +25284,12 @@ var AvatarFemale04168_default = AvatarFemale04168;
 
 // src/avatars/AvatarFemale04192.tsx
 var import_avatar_female_04_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-192.jpg"));
-var import_jsx_runtime1508 = require("react/jsx-runtime");
+var import_jsx_runtime1535 = require("react/jsx-runtime");
 var AvatarFemale04192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1508.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1535.jsx)(
     "img",
     {
       src: import_avatar_female_04_192.default,
@@ -24819,12 +25304,12 @@ var AvatarFemale04192_default = AvatarFemale04192;
 
 // src/avatars/AvatarFemale04240.tsx
 var import_avatar_female_04_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-240.jpg"));
-var import_jsx_runtime1509 = require("react/jsx-runtime");
+var import_jsx_runtime1536 = require("react/jsx-runtime");
 var AvatarFemale04240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1509.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1536.jsx)(
     "img",
     {
       src: import_avatar_female_04_240.default,
@@ -24837,14 +25322,34 @@ var AvatarFemale04240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale04240_default = AvatarFemale04240;
 
+// src/avatars/AvatarFemale0436.tsx
+var import_avatar_female_04_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-36.jpg"));
+var import_jsx_runtime1537 = require("react/jsx-runtime");
+var AvatarFemale0436 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_04_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1537.jsx)(
+    "img",
+    {
+      src: import_avatar_female_04_36.default,
+      alt: "AvatarFemale0436",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0436_default = AvatarFemale0436;
+
 // src/avatars/AvatarFemale04384.tsx
 var import_avatar_female_04_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-384.jpg"));
-var import_jsx_runtime1510 = require("react/jsx-runtime");
+var import_jsx_runtime1538 = require("react/jsx-runtime");
 var AvatarFemale04384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1510.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1538.jsx)(
     "img",
     {
       src: import_avatar_female_04_384.default,
@@ -24859,12 +25364,12 @@ var AvatarFemale04384_default = AvatarFemale04384;
 
 // src/avatars/AvatarFemale0460.tsx
 var import_avatar_female_04_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-60.jpg"));
-var import_jsx_runtime1511 = require("react/jsx-runtime");
+var import_jsx_runtime1539 = require("react/jsx-runtime");
 var AvatarFemale0460 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1511.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1539.jsx)(
     "img",
     {
       src: import_avatar_female_04_60.default,
@@ -24879,12 +25384,12 @@ var AvatarFemale0460_default = AvatarFemale0460;
 
 // src/avatars/AvatarFemale0472.tsx
 var import_avatar_female_04_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-72.jpg"));
-var import_jsx_runtime1512 = require("react/jsx-runtime");
+var import_jsx_runtime1540 = require("react/jsx-runtime");
 var AvatarFemale0472 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1512.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1540.jsx)(
     "img",
     {
       src: import_avatar_female_04_72.default,
@@ -24899,12 +25404,12 @@ var AvatarFemale0472_default = AvatarFemale0472;
 
 // src/avatars/AvatarFemale04768.tsx
 var import_avatar_female_04_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-768.jpg"));
-var import_jsx_runtime1513 = require("react/jsx-runtime");
+var import_jsx_runtime1541 = require("react/jsx-runtime");
 var AvatarFemale04768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1513.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1541.jsx)(
     "img",
     {
       src: import_avatar_female_04_768.default,
@@ -24919,12 +25424,12 @@ var AvatarFemale04768_default = AvatarFemale04768;
 
 // src/avatars/AvatarFemale0484.tsx
 var import_avatar_female_04_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-84.jpg"));
-var import_jsx_runtime1514 = require("react/jsx-runtime");
+var import_jsx_runtime1542 = require("react/jsx-runtime");
 var AvatarFemale0484 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1514.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1542.jsx)(
     "img",
     {
       src: import_avatar_female_04_84.default,
@@ -24939,12 +25444,12 @@ var AvatarFemale0484_default = AvatarFemale0484;
 
 // src/avatars/AvatarFemale0496.tsx
 var import_avatar_female_04_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-04-96.jpg"));
-var import_jsx_runtime1515 = require("react/jsx-runtime");
+var import_jsx_runtime1543 = require("react/jsx-runtime");
 var AvatarFemale0496 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_04_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1515.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1543.jsx)(
     "img",
     {
       src: import_avatar_female_04_96.default,
@@ -24957,14 +25462,34 @@ var AvatarFemale0496 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0496_default = AvatarFemale0496;
 
+// src/avatars/AvatarFemale0512.tsx
+var import_avatar_female_05_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-12.jpg"));
+var import_jsx_runtime1544 = require("react/jsx-runtime");
+var AvatarFemale0512 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_05_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1544.jsx)(
+    "img",
+    {
+      src: import_avatar_female_05_12.default,
+      alt: "AvatarFemale0512",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0512_default = AvatarFemale0512;
+
 // src/avatars/AvatarFemale05120.tsx
 var import_avatar_female_05_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-120.jpg"));
-var import_jsx_runtime1516 = require("react/jsx-runtime");
+var import_jsx_runtime1545 = require("react/jsx-runtime");
 var AvatarFemale05120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1516.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1545.jsx)(
     "img",
     {
       src: import_avatar_female_05_120.default,
@@ -24991,7 +25516,7 @@ var import_avatar_female_05_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_05_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-128.jpg"));
 var import_avatar_female_05_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-256.jpg"));
 var import_avatar_female_05_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-512.jpg"));
-var import_jsx_runtime1517 = require("react/jsx-runtime");
+var import_jsx_runtime1546 = require("react/jsx-runtime");
 var AvatarFemale05SizeMap = {
   16: import_avatar_female_05_16.default,
   20: import_avatar_female_05_20.default,
@@ -25027,7 +25552,7 @@ var AvatarFemale05 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize15(resolvedWidth, AvatarFemale05AvailableSizes);
   const imageSrc = AvatarFemale05SizeMap[closestSize] ?? import_avatar_female_05_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1517.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1546.jsx)(
     "img",
     {
       src: imageSrc,
@@ -25042,12 +25567,12 @@ var AvatarFemale05_default = AvatarFemale05;
 
 // src/avatars/AvatarFemale05144.tsx
 var import_avatar_female_05_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-144.jpg"));
-var import_jsx_runtime1518 = require("react/jsx-runtime");
+var import_jsx_runtime1547 = require("react/jsx-runtime");
 var AvatarFemale05144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1518.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1547.jsx)(
     "img",
     {
       src: import_avatar_female_05_144.default,
@@ -25062,12 +25587,12 @@ var AvatarFemale05144_default = AvatarFemale05144;
 
 // src/avatars/AvatarFemale051536.tsx
 var import_avatar_female_05_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-1536.jpg"));
-var import_jsx_runtime1519 = require("react/jsx-runtime");
+var import_jsx_runtime1548 = require("react/jsx-runtime");
 var AvatarFemale051536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1519.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1548.jsx)(
     "img",
     {
       src: import_avatar_female_05_1536.default,
@@ -25082,12 +25607,12 @@ var AvatarFemale051536_default = AvatarFemale051536;
 
 // src/avatars/AvatarFemale05168.tsx
 var import_avatar_female_05_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-168.jpg"));
-var import_jsx_runtime1520 = require("react/jsx-runtime");
+var import_jsx_runtime1549 = require("react/jsx-runtime");
 var AvatarFemale05168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1520.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1549.jsx)(
     "img",
     {
       src: import_avatar_female_05_168.default,
@@ -25102,12 +25627,12 @@ var AvatarFemale05168_default = AvatarFemale05168;
 
 // src/avatars/AvatarFemale05192.tsx
 var import_avatar_female_05_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-192.jpg"));
-var import_jsx_runtime1521 = require("react/jsx-runtime");
+var import_jsx_runtime1550 = require("react/jsx-runtime");
 var AvatarFemale05192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1521.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1550.jsx)(
     "img",
     {
       src: import_avatar_female_05_192.default,
@@ -25122,12 +25647,12 @@ var AvatarFemale05192_default = AvatarFemale05192;
 
 // src/avatars/AvatarFemale05240.tsx
 var import_avatar_female_05_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-240.jpg"));
-var import_jsx_runtime1522 = require("react/jsx-runtime");
+var import_jsx_runtime1551 = require("react/jsx-runtime");
 var AvatarFemale05240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1522.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1551.jsx)(
     "img",
     {
       src: import_avatar_female_05_240.default,
@@ -25140,14 +25665,34 @@ var AvatarFemale05240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale05240_default = AvatarFemale05240;
 
+// src/avatars/AvatarFemale0536.tsx
+var import_avatar_female_05_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-36.jpg"));
+var import_jsx_runtime1552 = require("react/jsx-runtime");
+var AvatarFemale0536 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_05_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1552.jsx)(
+    "img",
+    {
+      src: import_avatar_female_05_36.default,
+      alt: "AvatarFemale0536",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0536_default = AvatarFemale0536;
+
 // src/avatars/AvatarFemale05384.tsx
 var import_avatar_female_05_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-384.jpg"));
-var import_jsx_runtime1523 = require("react/jsx-runtime");
+var import_jsx_runtime1553 = require("react/jsx-runtime");
 var AvatarFemale05384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1523.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1553.jsx)(
     "img",
     {
       src: import_avatar_female_05_384.default,
@@ -25162,12 +25707,12 @@ var AvatarFemale05384_default = AvatarFemale05384;
 
 // src/avatars/AvatarFemale0560.tsx
 var import_avatar_female_05_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-60.jpg"));
-var import_jsx_runtime1524 = require("react/jsx-runtime");
+var import_jsx_runtime1554 = require("react/jsx-runtime");
 var AvatarFemale0560 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1524.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1554.jsx)(
     "img",
     {
       src: import_avatar_female_05_60.default,
@@ -25182,12 +25727,12 @@ var AvatarFemale0560_default = AvatarFemale0560;
 
 // src/avatars/AvatarFemale0572.tsx
 var import_avatar_female_05_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-72.jpg"));
-var import_jsx_runtime1525 = require("react/jsx-runtime");
+var import_jsx_runtime1555 = require("react/jsx-runtime");
 var AvatarFemale0572 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1525.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1555.jsx)(
     "img",
     {
       src: import_avatar_female_05_72.default,
@@ -25202,12 +25747,12 @@ var AvatarFemale0572_default = AvatarFemale0572;
 
 // src/avatars/AvatarFemale05768.tsx
 var import_avatar_female_05_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-768.jpg"));
-var import_jsx_runtime1526 = require("react/jsx-runtime");
+var import_jsx_runtime1556 = require("react/jsx-runtime");
 var AvatarFemale05768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1526.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1556.jsx)(
     "img",
     {
       src: import_avatar_female_05_768.default,
@@ -25222,12 +25767,12 @@ var AvatarFemale05768_default = AvatarFemale05768;
 
 // src/avatars/AvatarFemale0584.tsx
 var import_avatar_female_05_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-84.jpg"));
-var import_jsx_runtime1527 = require("react/jsx-runtime");
+var import_jsx_runtime1557 = require("react/jsx-runtime");
 var AvatarFemale0584 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1527.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1557.jsx)(
     "img",
     {
       src: import_avatar_female_05_84.default,
@@ -25242,12 +25787,12 @@ var AvatarFemale0584_default = AvatarFemale0584;
 
 // src/avatars/AvatarFemale0596.tsx
 var import_avatar_female_05_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-05-96.jpg"));
-var import_jsx_runtime1528 = require("react/jsx-runtime");
+var import_jsx_runtime1558 = require("react/jsx-runtime");
 var AvatarFemale0596 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_05_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1528.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1558.jsx)(
     "img",
     {
       src: import_avatar_female_05_96.default,
@@ -25260,14 +25805,34 @@ var AvatarFemale0596 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0596_default = AvatarFemale0596;
 
+// src/avatars/AvatarFemale0612.tsx
+var import_avatar_female_06_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-12.jpg"));
+var import_jsx_runtime1559 = require("react/jsx-runtime");
+var AvatarFemale0612 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_06_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1559.jsx)(
+    "img",
+    {
+      src: import_avatar_female_06_12.default,
+      alt: "AvatarFemale0612",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0612_default = AvatarFemale0612;
+
 // src/avatars/AvatarFemale06120.tsx
 var import_avatar_female_06_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-120.jpg"));
-var import_jsx_runtime1529 = require("react/jsx-runtime");
+var import_jsx_runtime1560 = require("react/jsx-runtime");
 var AvatarFemale06120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1529.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1560.jsx)(
     "img",
     {
       src: import_avatar_female_06_120.default,
@@ -25294,7 +25859,7 @@ var import_avatar_female_06_80 = __toESM(require("@snowui-design-system/resource
 var import_avatar_female_06_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-128.jpg"));
 var import_avatar_female_06_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-256.jpg"));
 var import_avatar_female_06_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-512.jpg"));
-var import_jsx_runtime1530 = require("react/jsx-runtime");
+var import_jsx_runtime1561 = require("react/jsx-runtime");
 var AvatarFemale06SizeMap = {
   16: import_avatar_female_06_16.default,
   20: import_avatar_female_06_20.default,
@@ -25330,7 +25895,7 @@ var AvatarFemale06 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize16(resolvedWidth, AvatarFemale06AvailableSizes);
   const imageSrc = AvatarFemale06SizeMap[closestSize] ?? import_avatar_female_06_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1530.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1561.jsx)(
     "img",
     {
       src: imageSrc,
@@ -25345,12 +25910,12 @@ var AvatarFemale06_default = AvatarFemale06;
 
 // src/avatars/AvatarFemale06144.tsx
 var import_avatar_female_06_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-144.jpg"));
-var import_jsx_runtime1531 = require("react/jsx-runtime");
+var import_jsx_runtime1562 = require("react/jsx-runtime");
 var AvatarFemale06144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1531.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1562.jsx)(
     "img",
     {
       src: import_avatar_female_06_144.default,
@@ -25365,12 +25930,12 @@ var AvatarFemale06144_default = AvatarFemale06144;
 
 // src/avatars/AvatarFemale061536.tsx
 var import_avatar_female_06_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-1536.jpg"));
-var import_jsx_runtime1532 = require("react/jsx-runtime");
+var import_jsx_runtime1563 = require("react/jsx-runtime");
 var AvatarFemale061536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1532.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1563.jsx)(
     "img",
     {
       src: import_avatar_female_06_1536.default,
@@ -25385,12 +25950,12 @@ var AvatarFemale061536_default = AvatarFemale061536;
 
 // src/avatars/AvatarFemale06168.tsx
 var import_avatar_female_06_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-168.jpg"));
-var import_jsx_runtime1533 = require("react/jsx-runtime");
+var import_jsx_runtime1564 = require("react/jsx-runtime");
 var AvatarFemale06168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1533.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1564.jsx)(
     "img",
     {
       src: import_avatar_female_06_168.default,
@@ -25405,12 +25970,12 @@ var AvatarFemale06168_default = AvatarFemale06168;
 
 // src/avatars/AvatarFemale06192.tsx
 var import_avatar_female_06_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-192.jpg"));
-var import_jsx_runtime1534 = require("react/jsx-runtime");
+var import_jsx_runtime1565 = require("react/jsx-runtime");
 var AvatarFemale06192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1534.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1565.jsx)(
     "img",
     {
       src: import_avatar_female_06_192.default,
@@ -25425,12 +25990,12 @@ var AvatarFemale06192_default = AvatarFemale06192;
 
 // src/avatars/AvatarFemale06240.tsx
 var import_avatar_female_06_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-240.jpg"));
-var import_jsx_runtime1535 = require("react/jsx-runtime");
+var import_jsx_runtime1566 = require("react/jsx-runtime");
 var AvatarFemale06240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1535.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1566.jsx)(
     "img",
     {
       src: import_avatar_female_06_240.default,
@@ -25443,14 +26008,34 @@ var AvatarFemale06240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale06240_default = AvatarFemale06240;
 
+// src/avatars/AvatarFemale0636.tsx
+var import_avatar_female_06_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-36.jpg"));
+var import_jsx_runtime1567 = require("react/jsx-runtime");
+var AvatarFemale0636 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_female_06_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1567.jsx)(
+    "img",
+    {
+      src: import_avatar_female_06_36.default,
+      alt: "AvatarFemale0636",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarFemale0636_default = AvatarFemale0636;
+
 // src/avatars/AvatarFemale06384.tsx
 var import_avatar_female_06_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-384.jpg"));
-var import_jsx_runtime1536 = require("react/jsx-runtime");
+var import_jsx_runtime1568 = require("react/jsx-runtime");
 var AvatarFemale06384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1536.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1568.jsx)(
     "img",
     {
       src: import_avatar_female_06_384.default,
@@ -25465,12 +26050,12 @@ var AvatarFemale06384_default = AvatarFemale06384;
 
 // src/avatars/AvatarFemale0660.tsx
 var import_avatar_female_06_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-60.jpg"));
-var import_jsx_runtime1537 = require("react/jsx-runtime");
+var import_jsx_runtime1569 = require("react/jsx-runtime");
 var AvatarFemale0660 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1537.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1569.jsx)(
     "img",
     {
       src: import_avatar_female_06_60.default,
@@ -25485,12 +26070,12 @@ var AvatarFemale0660_default = AvatarFemale0660;
 
 // src/avatars/AvatarFemale0672.tsx
 var import_avatar_female_06_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-72.jpg"));
-var import_jsx_runtime1538 = require("react/jsx-runtime");
+var import_jsx_runtime1570 = require("react/jsx-runtime");
 var AvatarFemale0672 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1538.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1570.jsx)(
     "img",
     {
       src: import_avatar_female_06_72.default,
@@ -25505,12 +26090,12 @@ var AvatarFemale0672_default = AvatarFemale0672;
 
 // src/avatars/AvatarFemale06768.tsx
 var import_avatar_female_06_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-768.jpg"));
-var import_jsx_runtime1539 = require("react/jsx-runtime");
+var import_jsx_runtime1571 = require("react/jsx-runtime");
 var AvatarFemale06768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1539.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1571.jsx)(
     "img",
     {
       src: import_avatar_female_06_768.default,
@@ -25525,12 +26110,12 @@ var AvatarFemale06768_default = AvatarFemale06768;
 
 // src/avatars/AvatarFemale0684.tsx
 var import_avatar_female_06_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-84.jpg"));
-var import_jsx_runtime1540 = require("react/jsx-runtime");
+var import_jsx_runtime1572 = require("react/jsx-runtime");
 var AvatarFemale0684 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1540.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1572.jsx)(
     "img",
     {
       src: import_avatar_female_06_84.default,
@@ -25545,12 +26130,12 @@ var AvatarFemale0684_default = AvatarFemale0684;
 
 // src/avatars/AvatarFemale0696.tsx
 var import_avatar_female_06_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-female-06-96.jpg"));
-var import_jsx_runtime1541 = require("react/jsx-runtime");
+var import_jsx_runtime1573 = require("react/jsx-runtime");
 var AvatarFemale0696 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_female_06_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1541.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1573.jsx)(
     "img",
     {
       src: import_avatar_female_06_96.default,
@@ -25563,14 +26148,34 @@ var AvatarFemale0696 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarFemale0696_default = AvatarFemale0696;
 
+// src/avatars/AvatarMale0112.tsx
+var import_avatar_male_01_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-12.jpg"));
+var import_jsx_runtime1574 = require("react/jsx-runtime");
+var AvatarMale0112 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_01_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1574.jsx)(
+    "img",
+    {
+      src: import_avatar_male_01_12.default,
+      alt: "AvatarMale0112",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0112_default = AvatarMale0112;
+
 // src/avatars/AvatarMale01120.tsx
 var import_avatar_male_01_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-120.jpg"));
-var import_jsx_runtime1542 = require("react/jsx-runtime");
+var import_jsx_runtime1575 = require("react/jsx-runtime");
 var AvatarMale01120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1542.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1575.jsx)(
     "img",
     {
       src: import_avatar_male_01_120.default,
@@ -25597,7 +26202,7 @@ var import_avatar_male_01_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_01_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-128.jpg"));
 var import_avatar_male_01_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-256.jpg"));
 var import_avatar_male_01_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-512.jpg"));
-var import_jsx_runtime1543 = require("react/jsx-runtime");
+var import_jsx_runtime1576 = require("react/jsx-runtime");
 var AvatarMale01SizeMap = {
   16: import_avatar_male_01_16.default,
   20: import_avatar_male_01_20.default,
@@ -25633,7 +26238,7 @@ var AvatarMale01 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize17(resolvedWidth, AvatarMale01AvailableSizes);
   const imageSrc = AvatarMale01SizeMap[closestSize] ?? import_avatar_male_01_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1543.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1576.jsx)(
     "img",
     {
       src: imageSrc,
@@ -25648,12 +26253,12 @@ var AvatarMale01_default = AvatarMale01;
 
 // src/avatars/AvatarMale01144.tsx
 var import_avatar_male_01_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-144.jpg"));
-var import_jsx_runtime1544 = require("react/jsx-runtime");
+var import_jsx_runtime1577 = require("react/jsx-runtime");
 var AvatarMale01144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1544.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1577.jsx)(
     "img",
     {
       src: import_avatar_male_01_144.default,
@@ -25668,12 +26273,12 @@ var AvatarMale01144_default = AvatarMale01144;
 
 // src/avatars/AvatarMale011536.tsx
 var import_avatar_male_01_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-1536.jpg"));
-var import_jsx_runtime1545 = require("react/jsx-runtime");
+var import_jsx_runtime1578 = require("react/jsx-runtime");
 var AvatarMale011536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1545.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1578.jsx)(
     "img",
     {
       src: import_avatar_male_01_1536.default,
@@ -25688,12 +26293,12 @@ var AvatarMale011536_default = AvatarMale011536;
 
 // src/avatars/AvatarMale01168.tsx
 var import_avatar_male_01_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-168.jpg"));
-var import_jsx_runtime1546 = require("react/jsx-runtime");
+var import_jsx_runtime1579 = require("react/jsx-runtime");
 var AvatarMale01168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1546.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1579.jsx)(
     "img",
     {
       src: import_avatar_male_01_168.default,
@@ -25708,12 +26313,12 @@ var AvatarMale01168_default = AvatarMale01168;
 
 // src/avatars/AvatarMale01192.tsx
 var import_avatar_male_01_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-192.jpg"));
-var import_jsx_runtime1547 = require("react/jsx-runtime");
+var import_jsx_runtime1580 = require("react/jsx-runtime");
 var AvatarMale01192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1547.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1580.jsx)(
     "img",
     {
       src: import_avatar_male_01_192.default,
@@ -25728,12 +26333,12 @@ var AvatarMale01192_default = AvatarMale01192;
 
 // src/avatars/AvatarMale01240.tsx
 var import_avatar_male_01_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-240.jpg"));
-var import_jsx_runtime1548 = require("react/jsx-runtime");
+var import_jsx_runtime1581 = require("react/jsx-runtime");
 var AvatarMale01240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1548.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1581.jsx)(
     "img",
     {
       src: import_avatar_male_01_240.default,
@@ -25746,14 +26351,34 @@ var AvatarMale01240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale01240_default = AvatarMale01240;
 
+// src/avatars/AvatarMale0136.tsx
+var import_avatar_male_01_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-36.jpg"));
+var import_jsx_runtime1582 = require("react/jsx-runtime");
+var AvatarMale0136 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_01_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1582.jsx)(
+    "img",
+    {
+      src: import_avatar_male_01_36.default,
+      alt: "AvatarMale0136",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0136_default = AvatarMale0136;
+
 // src/avatars/AvatarMale01384.tsx
 var import_avatar_male_01_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-384.jpg"));
-var import_jsx_runtime1549 = require("react/jsx-runtime");
+var import_jsx_runtime1583 = require("react/jsx-runtime");
 var AvatarMale01384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1549.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1583.jsx)(
     "img",
     {
       src: import_avatar_male_01_384.default,
@@ -25768,12 +26393,12 @@ var AvatarMale01384_default = AvatarMale01384;
 
 // src/avatars/AvatarMale0160.tsx
 var import_avatar_male_01_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-60.jpg"));
-var import_jsx_runtime1550 = require("react/jsx-runtime");
+var import_jsx_runtime1584 = require("react/jsx-runtime");
 var AvatarMale0160 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1550.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1584.jsx)(
     "img",
     {
       src: import_avatar_male_01_60.default,
@@ -25788,12 +26413,12 @@ var AvatarMale0160_default = AvatarMale0160;
 
 // src/avatars/AvatarMale0172.tsx
 var import_avatar_male_01_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-72.jpg"));
-var import_jsx_runtime1551 = require("react/jsx-runtime");
+var import_jsx_runtime1585 = require("react/jsx-runtime");
 var AvatarMale0172 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1551.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1585.jsx)(
     "img",
     {
       src: import_avatar_male_01_72.default,
@@ -25808,12 +26433,12 @@ var AvatarMale0172_default = AvatarMale0172;
 
 // src/avatars/AvatarMale01768.tsx
 var import_avatar_male_01_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-768.jpg"));
-var import_jsx_runtime1552 = require("react/jsx-runtime");
+var import_jsx_runtime1586 = require("react/jsx-runtime");
 var AvatarMale01768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1552.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1586.jsx)(
     "img",
     {
       src: import_avatar_male_01_768.default,
@@ -25828,12 +26453,12 @@ var AvatarMale01768_default = AvatarMale01768;
 
 // src/avatars/AvatarMale0184.tsx
 var import_avatar_male_01_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-84.jpg"));
-var import_jsx_runtime1553 = require("react/jsx-runtime");
+var import_jsx_runtime1587 = require("react/jsx-runtime");
 var AvatarMale0184 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1553.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1587.jsx)(
     "img",
     {
       src: import_avatar_male_01_84.default,
@@ -25848,12 +26473,12 @@ var AvatarMale0184_default = AvatarMale0184;
 
 // src/avatars/AvatarMale0196.tsx
 var import_avatar_male_01_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-01-96.jpg"));
-var import_jsx_runtime1554 = require("react/jsx-runtime");
+var import_jsx_runtime1588 = require("react/jsx-runtime");
 var AvatarMale0196 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_01_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1554.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1588.jsx)(
     "img",
     {
       src: import_avatar_male_01_96.default,
@@ -25866,14 +26491,34 @@ var AvatarMale0196 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale0196_default = AvatarMale0196;
 
+// src/avatars/AvatarMale0212.tsx
+var import_avatar_male_02_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-12.jpg"));
+var import_jsx_runtime1589 = require("react/jsx-runtime");
+var AvatarMale0212 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_02_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1589.jsx)(
+    "img",
+    {
+      src: import_avatar_male_02_12.default,
+      alt: "AvatarMale0212",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0212_default = AvatarMale0212;
+
 // src/avatars/AvatarMale02120.tsx
 var import_avatar_male_02_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-120.jpg"));
-var import_jsx_runtime1555 = require("react/jsx-runtime");
+var import_jsx_runtime1590 = require("react/jsx-runtime");
 var AvatarMale02120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1555.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1590.jsx)(
     "img",
     {
       src: import_avatar_male_02_120.default,
@@ -25900,7 +26545,7 @@ var import_avatar_male_02_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_02_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-128.jpg"));
 var import_avatar_male_02_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-256.jpg"));
 var import_avatar_male_02_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-512.jpg"));
-var import_jsx_runtime1556 = require("react/jsx-runtime");
+var import_jsx_runtime1591 = require("react/jsx-runtime");
 var AvatarMale02SizeMap = {
   16: import_avatar_male_02_16.default,
   20: import_avatar_male_02_20.default,
@@ -25936,7 +26581,7 @@ var AvatarMale02 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize18(resolvedWidth, AvatarMale02AvailableSizes);
   const imageSrc = AvatarMale02SizeMap[closestSize] ?? import_avatar_male_02_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1556.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1591.jsx)(
     "img",
     {
       src: imageSrc,
@@ -25951,12 +26596,12 @@ var AvatarMale02_default = AvatarMale02;
 
 // src/avatars/AvatarMale02144.tsx
 var import_avatar_male_02_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-144.jpg"));
-var import_jsx_runtime1557 = require("react/jsx-runtime");
+var import_jsx_runtime1592 = require("react/jsx-runtime");
 var AvatarMale02144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1557.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1592.jsx)(
     "img",
     {
       src: import_avatar_male_02_144.default,
@@ -25971,12 +26616,12 @@ var AvatarMale02144_default = AvatarMale02144;
 
 // src/avatars/AvatarMale021536.tsx
 var import_avatar_male_02_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-1536.jpg"));
-var import_jsx_runtime1558 = require("react/jsx-runtime");
+var import_jsx_runtime1593 = require("react/jsx-runtime");
 var AvatarMale021536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1558.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1593.jsx)(
     "img",
     {
       src: import_avatar_male_02_1536.default,
@@ -25991,12 +26636,12 @@ var AvatarMale021536_default = AvatarMale021536;
 
 // src/avatars/AvatarMale02168.tsx
 var import_avatar_male_02_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-168.jpg"));
-var import_jsx_runtime1559 = require("react/jsx-runtime");
+var import_jsx_runtime1594 = require("react/jsx-runtime");
 var AvatarMale02168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1559.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1594.jsx)(
     "img",
     {
       src: import_avatar_male_02_168.default,
@@ -26011,12 +26656,12 @@ var AvatarMale02168_default = AvatarMale02168;
 
 // src/avatars/AvatarMale02192.tsx
 var import_avatar_male_02_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-192.jpg"));
-var import_jsx_runtime1560 = require("react/jsx-runtime");
+var import_jsx_runtime1595 = require("react/jsx-runtime");
 var AvatarMale02192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1560.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1595.jsx)(
     "img",
     {
       src: import_avatar_male_02_192.default,
@@ -26031,12 +26676,12 @@ var AvatarMale02192_default = AvatarMale02192;
 
 // src/avatars/AvatarMale02240.tsx
 var import_avatar_male_02_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-240.jpg"));
-var import_jsx_runtime1561 = require("react/jsx-runtime");
+var import_jsx_runtime1596 = require("react/jsx-runtime");
 var AvatarMale02240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1561.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1596.jsx)(
     "img",
     {
       src: import_avatar_male_02_240.default,
@@ -26049,14 +26694,34 @@ var AvatarMale02240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale02240_default = AvatarMale02240;
 
+// src/avatars/AvatarMale0236.tsx
+var import_avatar_male_02_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-36.jpg"));
+var import_jsx_runtime1597 = require("react/jsx-runtime");
+var AvatarMale0236 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_02_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1597.jsx)(
+    "img",
+    {
+      src: import_avatar_male_02_36.default,
+      alt: "AvatarMale0236",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0236_default = AvatarMale0236;
+
 // src/avatars/AvatarMale02384.tsx
 var import_avatar_male_02_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-384.jpg"));
-var import_jsx_runtime1562 = require("react/jsx-runtime");
+var import_jsx_runtime1598 = require("react/jsx-runtime");
 var AvatarMale02384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1562.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1598.jsx)(
     "img",
     {
       src: import_avatar_male_02_384.default,
@@ -26071,12 +26736,12 @@ var AvatarMale02384_default = AvatarMale02384;
 
 // src/avatars/AvatarMale0260.tsx
 var import_avatar_male_02_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-60.jpg"));
-var import_jsx_runtime1563 = require("react/jsx-runtime");
+var import_jsx_runtime1599 = require("react/jsx-runtime");
 var AvatarMale0260 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1563.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1599.jsx)(
     "img",
     {
       src: import_avatar_male_02_60.default,
@@ -26091,12 +26756,12 @@ var AvatarMale0260_default = AvatarMale0260;
 
 // src/avatars/AvatarMale0272.tsx
 var import_avatar_male_02_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-72.jpg"));
-var import_jsx_runtime1564 = require("react/jsx-runtime");
+var import_jsx_runtime1600 = require("react/jsx-runtime");
 var AvatarMale0272 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1564.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1600.jsx)(
     "img",
     {
       src: import_avatar_male_02_72.default,
@@ -26111,12 +26776,12 @@ var AvatarMale0272_default = AvatarMale0272;
 
 // src/avatars/AvatarMale02768.tsx
 var import_avatar_male_02_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-768.jpg"));
-var import_jsx_runtime1565 = require("react/jsx-runtime");
+var import_jsx_runtime1601 = require("react/jsx-runtime");
 var AvatarMale02768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1565.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1601.jsx)(
     "img",
     {
       src: import_avatar_male_02_768.default,
@@ -26131,12 +26796,12 @@ var AvatarMale02768_default = AvatarMale02768;
 
 // src/avatars/AvatarMale0284.tsx
 var import_avatar_male_02_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-84.jpg"));
-var import_jsx_runtime1566 = require("react/jsx-runtime");
+var import_jsx_runtime1602 = require("react/jsx-runtime");
 var AvatarMale0284 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1566.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1602.jsx)(
     "img",
     {
       src: import_avatar_male_02_84.default,
@@ -26151,12 +26816,12 @@ var AvatarMale0284_default = AvatarMale0284;
 
 // src/avatars/AvatarMale0296.tsx
 var import_avatar_male_02_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-02-96.jpg"));
-var import_jsx_runtime1567 = require("react/jsx-runtime");
+var import_jsx_runtime1603 = require("react/jsx-runtime");
 var AvatarMale0296 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_02_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1567.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1603.jsx)(
     "img",
     {
       src: import_avatar_male_02_96.default,
@@ -26169,14 +26834,34 @@ var AvatarMale0296 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale0296_default = AvatarMale0296;
 
+// src/avatars/AvatarMale0312.tsx
+var import_avatar_male_03_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-12.jpg"));
+var import_jsx_runtime1604 = require("react/jsx-runtime");
+var AvatarMale0312 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_03_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1604.jsx)(
+    "img",
+    {
+      src: import_avatar_male_03_12.default,
+      alt: "AvatarMale0312",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0312_default = AvatarMale0312;
+
 // src/avatars/AvatarMale03120.tsx
 var import_avatar_male_03_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-120.jpg"));
-var import_jsx_runtime1568 = require("react/jsx-runtime");
+var import_jsx_runtime1605 = require("react/jsx-runtime");
 var AvatarMale03120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1568.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1605.jsx)(
     "img",
     {
       src: import_avatar_male_03_120.default,
@@ -26203,7 +26888,7 @@ var import_avatar_male_03_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_03_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-128.jpg"));
 var import_avatar_male_03_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-256.jpg"));
 var import_avatar_male_03_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-512.jpg"));
-var import_jsx_runtime1569 = require("react/jsx-runtime");
+var import_jsx_runtime1606 = require("react/jsx-runtime");
 var AvatarMale03SizeMap = {
   16: import_avatar_male_03_16.default,
   20: import_avatar_male_03_20.default,
@@ -26239,7 +26924,7 @@ var AvatarMale03 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize19(resolvedWidth, AvatarMale03AvailableSizes);
   const imageSrc = AvatarMale03SizeMap[closestSize] ?? import_avatar_male_03_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1569.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1606.jsx)(
     "img",
     {
       src: imageSrc,
@@ -26254,12 +26939,12 @@ var AvatarMale03_default = AvatarMale03;
 
 // src/avatars/AvatarMale03144.tsx
 var import_avatar_male_03_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-144.jpg"));
-var import_jsx_runtime1570 = require("react/jsx-runtime");
+var import_jsx_runtime1607 = require("react/jsx-runtime");
 var AvatarMale03144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1570.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1607.jsx)(
     "img",
     {
       src: import_avatar_male_03_144.default,
@@ -26274,12 +26959,12 @@ var AvatarMale03144_default = AvatarMale03144;
 
 // src/avatars/AvatarMale031536.tsx
 var import_avatar_male_03_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-1536.jpg"));
-var import_jsx_runtime1571 = require("react/jsx-runtime");
+var import_jsx_runtime1608 = require("react/jsx-runtime");
 var AvatarMale031536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1571.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1608.jsx)(
     "img",
     {
       src: import_avatar_male_03_1536.default,
@@ -26294,12 +26979,12 @@ var AvatarMale031536_default = AvatarMale031536;
 
 // src/avatars/AvatarMale03168.tsx
 var import_avatar_male_03_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-168.jpg"));
-var import_jsx_runtime1572 = require("react/jsx-runtime");
+var import_jsx_runtime1609 = require("react/jsx-runtime");
 var AvatarMale03168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1572.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1609.jsx)(
     "img",
     {
       src: import_avatar_male_03_168.default,
@@ -26314,12 +26999,12 @@ var AvatarMale03168_default = AvatarMale03168;
 
 // src/avatars/AvatarMale03192.tsx
 var import_avatar_male_03_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-192.jpg"));
-var import_jsx_runtime1573 = require("react/jsx-runtime");
+var import_jsx_runtime1610 = require("react/jsx-runtime");
 var AvatarMale03192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1573.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1610.jsx)(
     "img",
     {
       src: import_avatar_male_03_192.default,
@@ -26334,12 +27019,12 @@ var AvatarMale03192_default = AvatarMale03192;
 
 // src/avatars/AvatarMale03240.tsx
 var import_avatar_male_03_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-240.jpg"));
-var import_jsx_runtime1574 = require("react/jsx-runtime");
+var import_jsx_runtime1611 = require("react/jsx-runtime");
 var AvatarMale03240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1574.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1611.jsx)(
     "img",
     {
       src: import_avatar_male_03_240.default,
@@ -26352,14 +27037,34 @@ var AvatarMale03240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale03240_default = AvatarMale03240;
 
+// src/avatars/AvatarMale0336.tsx
+var import_avatar_male_03_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-36.jpg"));
+var import_jsx_runtime1612 = require("react/jsx-runtime");
+var AvatarMale0336 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_03_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1612.jsx)(
+    "img",
+    {
+      src: import_avatar_male_03_36.default,
+      alt: "AvatarMale0336",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0336_default = AvatarMale0336;
+
 // src/avatars/AvatarMale03384.tsx
 var import_avatar_male_03_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-384.jpg"));
-var import_jsx_runtime1575 = require("react/jsx-runtime");
+var import_jsx_runtime1613 = require("react/jsx-runtime");
 var AvatarMale03384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1575.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1613.jsx)(
     "img",
     {
       src: import_avatar_male_03_384.default,
@@ -26374,12 +27079,12 @@ var AvatarMale03384_default = AvatarMale03384;
 
 // src/avatars/AvatarMale0360.tsx
 var import_avatar_male_03_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-60.jpg"));
-var import_jsx_runtime1576 = require("react/jsx-runtime");
+var import_jsx_runtime1614 = require("react/jsx-runtime");
 var AvatarMale0360 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1576.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1614.jsx)(
     "img",
     {
       src: import_avatar_male_03_60.default,
@@ -26394,12 +27099,12 @@ var AvatarMale0360_default = AvatarMale0360;
 
 // src/avatars/AvatarMale0372.tsx
 var import_avatar_male_03_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-72.jpg"));
-var import_jsx_runtime1577 = require("react/jsx-runtime");
+var import_jsx_runtime1615 = require("react/jsx-runtime");
 var AvatarMale0372 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1577.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1615.jsx)(
     "img",
     {
       src: import_avatar_male_03_72.default,
@@ -26414,12 +27119,12 @@ var AvatarMale0372_default = AvatarMale0372;
 
 // src/avatars/AvatarMale03768.tsx
 var import_avatar_male_03_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-768.jpg"));
-var import_jsx_runtime1578 = require("react/jsx-runtime");
+var import_jsx_runtime1616 = require("react/jsx-runtime");
 var AvatarMale03768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1578.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1616.jsx)(
     "img",
     {
       src: import_avatar_male_03_768.default,
@@ -26434,12 +27139,12 @@ var AvatarMale03768_default = AvatarMale03768;
 
 // src/avatars/AvatarMale0384.tsx
 var import_avatar_male_03_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-84.jpg"));
-var import_jsx_runtime1579 = require("react/jsx-runtime");
+var import_jsx_runtime1617 = require("react/jsx-runtime");
 var AvatarMale0384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1579.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1617.jsx)(
     "img",
     {
       src: import_avatar_male_03_84.default,
@@ -26454,12 +27159,12 @@ var AvatarMale0384_default = AvatarMale0384;
 
 // src/avatars/AvatarMale0396.tsx
 var import_avatar_male_03_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-03-96.jpg"));
-var import_jsx_runtime1580 = require("react/jsx-runtime");
+var import_jsx_runtime1618 = require("react/jsx-runtime");
 var AvatarMale0396 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_03_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1580.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1618.jsx)(
     "img",
     {
       src: import_avatar_male_03_96.default,
@@ -26472,14 +27177,34 @@ var AvatarMale0396 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale0396_default = AvatarMale0396;
 
+// src/avatars/AvatarMale0412.tsx
+var import_avatar_male_04_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-12.jpg"));
+var import_jsx_runtime1619 = require("react/jsx-runtime");
+var AvatarMale0412 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_04_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1619.jsx)(
+    "img",
+    {
+      src: import_avatar_male_04_12.default,
+      alt: "AvatarMale0412",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0412_default = AvatarMale0412;
+
 // src/avatars/AvatarMale04120.tsx
 var import_avatar_male_04_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-120.jpg"));
-var import_jsx_runtime1581 = require("react/jsx-runtime");
+var import_jsx_runtime1620 = require("react/jsx-runtime");
 var AvatarMale04120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1581.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1620.jsx)(
     "img",
     {
       src: import_avatar_male_04_120.default,
@@ -26506,7 +27231,7 @@ var import_avatar_male_04_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_04_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-128.jpg"));
 var import_avatar_male_04_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-256.jpg"));
 var import_avatar_male_04_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-512.jpg"));
-var import_jsx_runtime1582 = require("react/jsx-runtime");
+var import_jsx_runtime1621 = require("react/jsx-runtime");
 var AvatarMale04SizeMap = {
   16: import_avatar_male_04_16.default,
   20: import_avatar_male_04_20.default,
@@ -26542,7 +27267,7 @@ var AvatarMale04 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize20(resolvedWidth, AvatarMale04AvailableSizes);
   const imageSrc = AvatarMale04SizeMap[closestSize] ?? import_avatar_male_04_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1582.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1621.jsx)(
     "img",
     {
       src: imageSrc,
@@ -26557,12 +27282,12 @@ var AvatarMale04_default = AvatarMale04;
 
 // src/avatars/AvatarMale04144.tsx
 var import_avatar_male_04_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-144.jpg"));
-var import_jsx_runtime1583 = require("react/jsx-runtime");
+var import_jsx_runtime1622 = require("react/jsx-runtime");
 var AvatarMale04144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1583.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1622.jsx)(
     "img",
     {
       src: import_avatar_male_04_144.default,
@@ -26577,12 +27302,12 @@ var AvatarMale04144_default = AvatarMale04144;
 
 // src/avatars/AvatarMale041536.tsx
 var import_avatar_male_04_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-1536.jpg"));
-var import_jsx_runtime1584 = require("react/jsx-runtime");
+var import_jsx_runtime1623 = require("react/jsx-runtime");
 var AvatarMale041536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1584.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1623.jsx)(
     "img",
     {
       src: import_avatar_male_04_1536.default,
@@ -26597,12 +27322,12 @@ var AvatarMale041536_default = AvatarMale041536;
 
 // src/avatars/AvatarMale04168.tsx
 var import_avatar_male_04_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-168.jpg"));
-var import_jsx_runtime1585 = require("react/jsx-runtime");
+var import_jsx_runtime1624 = require("react/jsx-runtime");
 var AvatarMale04168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1585.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1624.jsx)(
     "img",
     {
       src: import_avatar_male_04_168.default,
@@ -26617,12 +27342,12 @@ var AvatarMale04168_default = AvatarMale04168;
 
 // src/avatars/AvatarMale04192.tsx
 var import_avatar_male_04_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-192.jpg"));
-var import_jsx_runtime1586 = require("react/jsx-runtime");
+var import_jsx_runtime1625 = require("react/jsx-runtime");
 var AvatarMale04192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1586.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1625.jsx)(
     "img",
     {
       src: import_avatar_male_04_192.default,
@@ -26637,12 +27362,12 @@ var AvatarMale04192_default = AvatarMale04192;
 
 // src/avatars/AvatarMale04240.tsx
 var import_avatar_male_04_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-240.jpg"));
-var import_jsx_runtime1587 = require("react/jsx-runtime");
+var import_jsx_runtime1626 = require("react/jsx-runtime");
 var AvatarMale04240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1587.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1626.jsx)(
     "img",
     {
       src: import_avatar_male_04_240.default,
@@ -26655,14 +27380,34 @@ var AvatarMale04240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale04240_default = AvatarMale04240;
 
+// src/avatars/AvatarMale0436.tsx
+var import_avatar_male_04_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-36.jpg"));
+var import_jsx_runtime1627 = require("react/jsx-runtime");
+var AvatarMale0436 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_04_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1627.jsx)(
+    "img",
+    {
+      src: import_avatar_male_04_36.default,
+      alt: "AvatarMale0436",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0436_default = AvatarMale0436;
+
 // src/avatars/AvatarMale04384.tsx
 var import_avatar_male_04_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-384.jpg"));
-var import_jsx_runtime1588 = require("react/jsx-runtime");
+var import_jsx_runtime1628 = require("react/jsx-runtime");
 var AvatarMale04384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1588.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1628.jsx)(
     "img",
     {
       src: import_avatar_male_04_384.default,
@@ -26677,12 +27422,12 @@ var AvatarMale04384_default = AvatarMale04384;
 
 // src/avatars/AvatarMale0460.tsx
 var import_avatar_male_04_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-60.jpg"));
-var import_jsx_runtime1589 = require("react/jsx-runtime");
+var import_jsx_runtime1629 = require("react/jsx-runtime");
 var AvatarMale0460 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1589.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1629.jsx)(
     "img",
     {
       src: import_avatar_male_04_60.default,
@@ -26697,12 +27442,12 @@ var AvatarMale0460_default = AvatarMale0460;
 
 // src/avatars/AvatarMale0472.tsx
 var import_avatar_male_04_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-72.jpg"));
-var import_jsx_runtime1590 = require("react/jsx-runtime");
+var import_jsx_runtime1630 = require("react/jsx-runtime");
 var AvatarMale0472 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1590.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1630.jsx)(
     "img",
     {
       src: import_avatar_male_04_72.default,
@@ -26717,12 +27462,12 @@ var AvatarMale0472_default = AvatarMale0472;
 
 // src/avatars/AvatarMale04768.tsx
 var import_avatar_male_04_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-768.jpg"));
-var import_jsx_runtime1591 = require("react/jsx-runtime");
+var import_jsx_runtime1631 = require("react/jsx-runtime");
 var AvatarMale04768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1591.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1631.jsx)(
     "img",
     {
       src: import_avatar_male_04_768.default,
@@ -26737,12 +27482,12 @@ var AvatarMale04768_default = AvatarMale04768;
 
 // src/avatars/AvatarMale0484.tsx
 var import_avatar_male_04_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-84.jpg"));
-var import_jsx_runtime1592 = require("react/jsx-runtime");
+var import_jsx_runtime1632 = require("react/jsx-runtime");
 var AvatarMale0484 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1592.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1632.jsx)(
     "img",
     {
       src: import_avatar_male_04_84.default,
@@ -26757,12 +27502,12 @@ var AvatarMale0484_default = AvatarMale0484;
 
 // src/avatars/AvatarMale0496.tsx
 var import_avatar_male_04_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-04-96.jpg"));
-var import_jsx_runtime1593 = require("react/jsx-runtime");
+var import_jsx_runtime1633 = require("react/jsx-runtime");
 var AvatarMale0496 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_04_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1593.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1633.jsx)(
     "img",
     {
       src: import_avatar_male_04_96.default,
@@ -26775,14 +27520,34 @@ var AvatarMale0496 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale0496_default = AvatarMale0496;
 
+// src/avatars/AvatarMale0512.tsx
+var import_avatar_male_05_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-12.jpg"));
+var import_jsx_runtime1634 = require("react/jsx-runtime");
+var AvatarMale0512 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_05_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1634.jsx)(
+    "img",
+    {
+      src: import_avatar_male_05_12.default,
+      alt: "AvatarMale0512",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0512_default = AvatarMale0512;
+
 // src/avatars/AvatarMale05120.tsx
 var import_avatar_male_05_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-120.jpg"));
-var import_jsx_runtime1594 = require("react/jsx-runtime");
+var import_jsx_runtime1635 = require("react/jsx-runtime");
 var AvatarMale05120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1594.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1635.jsx)(
     "img",
     {
       src: import_avatar_male_05_120.default,
@@ -26809,7 +27574,7 @@ var import_avatar_male_05_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_05_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-128.jpg"));
 var import_avatar_male_05_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-256.jpg"));
 var import_avatar_male_05_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-512.jpg"));
-var import_jsx_runtime1595 = require("react/jsx-runtime");
+var import_jsx_runtime1636 = require("react/jsx-runtime");
 var AvatarMale05SizeMap = {
   16: import_avatar_male_05_16.default,
   20: import_avatar_male_05_20.default,
@@ -26845,7 +27610,7 @@ var AvatarMale05 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize21(resolvedWidth, AvatarMale05AvailableSizes);
   const imageSrc = AvatarMale05SizeMap[closestSize] ?? import_avatar_male_05_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1595.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1636.jsx)(
     "img",
     {
       src: imageSrc,
@@ -26860,12 +27625,12 @@ var AvatarMale05_default = AvatarMale05;
 
 // src/avatars/AvatarMale05144.tsx
 var import_avatar_male_05_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-144.jpg"));
-var import_jsx_runtime1596 = require("react/jsx-runtime");
+var import_jsx_runtime1637 = require("react/jsx-runtime");
 var AvatarMale05144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1596.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1637.jsx)(
     "img",
     {
       src: import_avatar_male_05_144.default,
@@ -26880,12 +27645,12 @@ var AvatarMale05144_default = AvatarMale05144;
 
 // src/avatars/AvatarMale051536.tsx
 var import_avatar_male_05_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-1536.jpg"));
-var import_jsx_runtime1597 = require("react/jsx-runtime");
+var import_jsx_runtime1638 = require("react/jsx-runtime");
 var AvatarMale051536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1597.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1638.jsx)(
     "img",
     {
       src: import_avatar_male_05_1536.default,
@@ -26900,12 +27665,12 @@ var AvatarMale051536_default = AvatarMale051536;
 
 // src/avatars/AvatarMale05168.tsx
 var import_avatar_male_05_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-168.jpg"));
-var import_jsx_runtime1598 = require("react/jsx-runtime");
+var import_jsx_runtime1639 = require("react/jsx-runtime");
 var AvatarMale05168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1598.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1639.jsx)(
     "img",
     {
       src: import_avatar_male_05_168.default,
@@ -26920,12 +27685,12 @@ var AvatarMale05168_default = AvatarMale05168;
 
 // src/avatars/AvatarMale05192.tsx
 var import_avatar_male_05_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-192.jpg"));
-var import_jsx_runtime1599 = require("react/jsx-runtime");
+var import_jsx_runtime1640 = require("react/jsx-runtime");
 var AvatarMale05192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1599.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1640.jsx)(
     "img",
     {
       src: import_avatar_male_05_192.default,
@@ -26940,12 +27705,12 @@ var AvatarMale05192_default = AvatarMale05192;
 
 // src/avatars/AvatarMale05240.tsx
 var import_avatar_male_05_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-240.jpg"));
-var import_jsx_runtime1600 = require("react/jsx-runtime");
+var import_jsx_runtime1641 = require("react/jsx-runtime");
 var AvatarMale05240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1600.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1641.jsx)(
     "img",
     {
       src: import_avatar_male_05_240.default,
@@ -26958,14 +27723,34 @@ var AvatarMale05240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale05240_default = AvatarMale05240;
 
+// src/avatars/AvatarMale0536.tsx
+var import_avatar_male_05_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-36.jpg"));
+var import_jsx_runtime1642 = require("react/jsx-runtime");
+var AvatarMale0536 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_05_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1642.jsx)(
+    "img",
+    {
+      src: import_avatar_male_05_36.default,
+      alt: "AvatarMale0536",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0536_default = AvatarMale0536;
+
 // src/avatars/AvatarMale05384.tsx
 var import_avatar_male_05_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-384.jpg"));
-var import_jsx_runtime1601 = require("react/jsx-runtime");
+var import_jsx_runtime1643 = require("react/jsx-runtime");
 var AvatarMale05384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1601.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1643.jsx)(
     "img",
     {
       src: import_avatar_male_05_384.default,
@@ -26980,12 +27765,12 @@ var AvatarMale05384_default = AvatarMale05384;
 
 // src/avatars/AvatarMale0560.tsx
 var import_avatar_male_05_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-60.jpg"));
-var import_jsx_runtime1602 = require("react/jsx-runtime");
+var import_jsx_runtime1644 = require("react/jsx-runtime");
 var AvatarMale0560 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1602.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1644.jsx)(
     "img",
     {
       src: import_avatar_male_05_60.default,
@@ -27000,12 +27785,12 @@ var AvatarMale0560_default = AvatarMale0560;
 
 // src/avatars/AvatarMale0572.tsx
 var import_avatar_male_05_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-72.jpg"));
-var import_jsx_runtime1603 = require("react/jsx-runtime");
+var import_jsx_runtime1645 = require("react/jsx-runtime");
 var AvatarMale0572 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1603.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1645.jsx)(
     "img",
     {
       src: import_avatar_male_05_72.default,
@@ -27020,12 +27805,12 @@ var AvatarMale0572_default = AvatarMale0572;
 
 // src/avatars/AvatarMale05768.tsx
 var import_avatar_male_05_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-768.jpg"));
-var import_jsx_runtime1604 = require("react/jsx-runtime");
+var import_jsx_runtime1646 = require("react/jsx-runtime");
 var AvatarMale05768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1604.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1646.jsx)(
     "img",
     {
       src: import_avatar_male_05_768.default,
@@ -27040,12 +27825,12 @@ var AvatarMale05768_default = AvatarMale05768;
 
 // src/avatars/AvatarMale0584.tsx
 var import_avatar_male_05_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-84.jpg"));
-var import_jsx_runtime1605 = require("react/jsx-runtime");
+var import_jsx_runtime1647 = require("react/jsx-runtime");
 var AvatarMale0584 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1605.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1647.jsx)(
     "img",
     {
       src: import_avatar_male_05_84.default,
@@ -27060,12 +27845,12 @@ var AvatarMale0584_default = AvatarMale0584;
 
 // src/avatars/AvatarMale0596.tsx
 var import_avatar_male_05_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-05-96.jpg"));
-var import_jsx_runtime1606 = require("react/jsx-runtime");
+var import_jsx_runtime1648 = require("react/jsx-runtime");
 var AvatarMale0596 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_05_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1606.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1648.jsx)(
     "img",
     {
       src: import_avatar_male_05_96.default,
@@ -27078,14 +27863,34 @@ var AvatarMale0596 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale0596_default = AvatarMale0596;
 
+// src/avatars/AvatarMale0612.tsx
+var import_avatar_male_06_12 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-12.jpg"));
+var import_jsx_runtime1649 = require("react/jsx-runtime");
+var AvatarMale0612 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_06_12.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1649.jsx)(
+    "img",
+    {
+      src: import_avatar_male_06_12.default,
+      alt: "AvatarMale0612",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0612_default = AvatarMale0612;
+
 // src/avatars/AvatarMale06120.tsx
 var import_avatar_male_06_120 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-120.jpg"));
-var import_jsx_runtime1607 = require("react/jsx-runtime");
+var import_jsx_runtime1650 = require("react/jsx-runtime");
 var AvatarMale06120 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_120.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1607.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1650.jsx)(
     "img",
     {
       src: import_avatar_male_06_120.default,
@@ -27112,7 +27917,7 @@ var import_avatar_male_06_80 = __toESM(require("@snowui-design-system/resource-b
 var import_avatar_male_06_128 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-128.jpg"));
 var import_avatar_male_06_256 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-256.jpg"));
 var import_avatar_male_06_512 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-512.jpg"));
-var import_jsx_runtime1608 = require("react/jsx-runtime");
+var import_jsx_runtime1651 = require("react/jsx-runtime");
 var AvatarMale06SizeMap = {
   16: import_avatar_male_06_16.default,
   20: import_avatar_male_06_20.default,
@@ -27148,7 +27953,7 @@ var AvatarMale06 = ({ size = 32, width, height, ...rest }) => {
   const resolvedHeight = size ?? height ?? 32;
   const closestSize = findClosestSize22(resolvedWidth, AvatarMale06AvailableSizes);
   const imageSrc = AvatarMale06SizeMap[closestSize] ?? import_avatar_male_06_32.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1608.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1651.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27163,12 +27968,12 @@ var AvatarMale06_default = AvatarMale06;
 
 // src/avatars/AvatarMale06144.tsx
 var import_avatar_male_06_144 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-144.jpg"));
-var import_jsx_runtime1609 = require("react/jsx-runtime");
+var import_jsx_runtime1652 = require("react/jsx-runtime");
 var AvatarMale06144 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_144.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1609.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1652.jsx)(
     "img",
     {
       src: import_avatar_male_06_144.default,
@@ -27183,12 +27988,12 @@ var AvatarMale06144_default = AvatarMale06144;
 
 // src/avatars/AvatarMale061536.tsx
 var import_avatar_male_06_1536 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-1536.jpg"));
-var import_jsx_runtime1610 = require("react/jsx-runtime");
+var import_jsx_runtime1653 = require("react/jsx-runtime");
 var AvatarMale061536 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_1536.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1610.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1653.jsx)(
     "img",
     {
       src: import_avatar_male_06_1536.default,
@@ -27203,12 +28008,12 @@ var AvatarMale061536_default = AvatarMale061536;
 
 // src/avatars/AvatarMale06168.tsx
 var import_avatar_male_06_168 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-168.jpg"));
-var import_jsx_runtime1611 = require("react/jsx-runtime");
+var import_jsx_runtime1654 = require("react/jsx-runtime");
 var AvatarMale06168 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_168.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1611.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1654.jsx)(
     "img",
     {
       src: import_avatar_male_06_168.default,
@@ -27223,12 +28028,12 @@ var AvatarMale06168_default = AvatarMale06168;
 
 // src/avatars/AvatarMale06192.tsx
 var import_avatar_male_06_192 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-192.jpg"));
-var import_jsx_runtime1612 = require("react/jsx-runtime");
+var import_jsx_runtime1655 = require("react/jsx-runtime");
 var AvatarMale06192 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_192.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1612.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1655.jsx)(
     "img",
     {
       src: import_avatar_male_06_192.default,
@@ -27243,12 +28048,12 @@ var AvatarMale06192_default = AvatarMale06192;
 
 // src/avatars/AvatarMale06240.tsx
 var import_avatar_male_06_240 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-240.jpg"));
-var import_jsx_runtime1613 = require("react/jsx-runtime");
+var import_jsx_runtime1656 = require("react/jsx-runtime");
 var AvatarMale06240 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_240.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1613.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1656.jsx)(
     "img",
     {
       src: import_avatar_male_06_240.default,
@@ -27261,14 +28066,34 @@ var AvatarMale06240 = ({ size = 32, width, height, ...rest }) => {
 };
 var AvatarMale06240_default = AvatarMale06240;
 
+// src/avatars/AvatarMale0636.tsx
+var import_avatar_male_06_36 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-36.jpg"));
+var import_jsx_runtime1657 = require("react/jsx-runtime");
+var AvatarMale0636 = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = import_avatar_male_06_36.default;
+  return /* @__PURE__ */ (0, import_jsx_runtime1657.jsx)(
+    "img",
+    {
+      src: import_avatar_male_06_36.default,
+      alt: "AvatarMale0636",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var AvatarMale0636_default = AvatarMale0636;
+
 // src/avatars/AvatarMale06384.tsx
 var import_avatar_male_06_384 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-384.jpg"));
-var import_jsx_runtime1614 = require("react/jsx-runtime");
+var import_jsx_runtime1658 = require("react/jsx-runtime");
 var AvatarMale06384 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_384.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1614.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1658.jsx)(
     "img",
     {
       src: import_avatar_male_06_384.default,
@@ -27283,12 +28108,12 @@ var AvatarMale06384_default = AvatarMale06384;
 
 // src/avatars/AvatarMale0660.tsx
 var import_avatar_male_06_60 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-60.jpg"));
-var import_jsx_runtime1615 = require("react/jsx-runtime");
+var import_jsx_runtime1659 = require("react/jsx-runtime");
 var AvatarMale0660 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_60.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1615.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1659.jsx)(
     "img",
     {
       src: import_avatar_male_06_60.default,
@@ -27303,12 +28128,12 @@ var AvatarMale0660_default = AvatarMale0660;
 
 // src/avatars/AvatarMale0672.tsx
 var import_avatar_male_06_72 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-72.jpg"));
-var import_jsx_runtime1616 = require("react/jsx-runtime");
+var import_jsx_runtime1660 = require("react/jsx-runtime");
 var AvatarMale0672 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_72.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1616.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1660.jsx)(
     "img",
     {
       src: import_avatar_male_06_72.default,
@@ -27323,12 +28148,12 @@ var AvatarMale0672_default = AvatarMale0672;
 
 // src/avatars/AvatarMale06768.tsx
 var import_avatar_male_06_768 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-768.jpg"));
-var import_jsx_runtime1617 = require("react/jsx-runtime");
+var import_jsx_runtime1661 = require("react/jsx-runtime");
 var AvatarMale06768 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_768.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1617.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1661.jsx)(
     "img",
     {
       src: import_avatar_male_06_768.default,
@@ -27343,12 +28168,12 @@ var AvatarMale06768_default = AvatarMale06768;
 
 // src/avatars/AvatarMale0684.tsx
 var import_avatar_male_06_84 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-84.jpg"));
-var import_jsx_runtime1618 = require("react/jsx-runtime");
+var import_jsx_runtime1662 = require("react/jsx-runtime");
 var AvatarMale0684 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_84.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1618.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1662.jsx)(
     "img",
     {
       src: import_avatar_male_06_84.default,
@@ -27363,12 +28188,12 @@ var AvatarMale0684_default = AvatarMale0684;
 
 // src/avatars/AvatarMale0696.tsx
 var import_avatar_male_06_96 = __toESM(require("@snowui-design-system/resource-base/assets/avatars/avatar-male-06-96.jpg"));
-var import_jsx_runtime1619 = require("react/jsx-runtime");
+var import_jsx_runtime1663 = require("react/jsx-runtime");
 var AvatarMale0696 = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_avatar_male_06_96.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1619.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1663.jsx)(
     "img",
     {
       src: import_avatar_male_06_96.default,
@@ -27386,7 +28211,7 @@ var import_geometric_01_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_01_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-01-320.jpg"));
 var import_geometric_01_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-01-640.jpg"));
 var import_geometric_01_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-01-1920.jpg"));
-var import_jsx_runtime1620 = require("react/jsx-runtime");
+var import_jsx_runtime1664 = require("react/jsx-runtime");
 var Geometric01WidthMap = {
   320: import_geometric_01_320.default,
   640: import_geometric_01_640.default,
@@ -27412,7 +28237,7 @@ var Geometric01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth(resolvedWidth, Geometric01AvailableWidths);
   const imageSrc = Geometric01WidthMap[closestWidth] ?? import_geometric_01_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1620.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1664.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27430,7 +28255,7 @@ var import_geometric_02_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_02_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-02-320.jpg"));
 var import_geometric_02_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-02-640.jpg"));
 var import_geometric_02_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-02-1920.jpg"));
-var import_jsx_runtime1621 = require("react/jsx-runtime");
+var import_jsx_runtime1665 = require("react/jsx-runtime");
 var Geometric02WidthMap = {
   320: import_geometric_02_320.default,
   640: import_geometric_02_640.default,
@@ -27456,7 +28281,7 @@ var Geometric02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth2(resolvedWidth, Geometric02AvailableWidths);
   const imageSrc = Geometric02WidthMap[closestWidth] ?? import_geometric_02_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1621.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1665.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27474,7 +28299,7 @@ var import_geometric_03_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_03_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-03-320.jpg"));
 var import_geometric_03_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-03-640.jpg"));
 var import_geometric_03_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-03-1920.jpg"));
-var import_jsx_runtime1622 = require("react/jsx-runtime");
+var import_jsx_runtime1666 = require("react/jsx-runtime");
 var Geometric03WidthMap = {
   320: import_geometric_03_320.default,
   640: import_geometric_03_640.default,
@@ -27500,7 +28325,7 @@ var Geometric03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth3(resolvedWidth, Geometric03AvailableWidths);
   const imageSrc = Geometric03WidthMap[closestWidth] ?? import_geometric_03_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1622.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1666.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27518,7 +28343,7 @@ var import_geometric_04_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_04_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-04-320.jpg"));
 var import_geometric_04_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-04-640.jpg"));
 var import_geometric_04_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-04-1920.jpg"));
-var import_jsx_runtime1623 = require("react/jsx-runtime");
+var import_jsx_runtime1667 = require("react/jsx-runtime");
 var Geometric04WidthMap = {
   320: import_geometric_04_320.default,
   640: import_geometric_04_640.default,
@@ -27544,7 +28369,7 @@ var Geometric04 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth4(resolvedWidth, Geometric04AvailableWidths);
   const imageSrc = Geometric04WidthMap[closestWidth] ?? import_geometric_04_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1623.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1667.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27562,7 +28387,7 @@ var import_geometric_05_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_05_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-05-320.jpg"));
 var import_geometric_05_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-05-640.jpg"));
 var import_geometric_05_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-05-1920.jpg"));
-var import_jsx_runtime1624 = require("react/jsx-runtime");
+var import_jsx_runtime1668 = require("react/jsx-runtime");
 var Geometric05WidthMap = {
   320: import_geometric_05_320.default,
   640: import_geometric_05_640.default,
@@ -27588,7 +28413,7 @@ var Geometric05 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth5(resolvedWidth, Geometric05AvailableWidths);
   const imageSrc = Geometric05WidthMap[closestWidth] ?? import_geometric_05_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1624.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1668.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27606,7 +28431,7 @@ var import_geometric_06_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_06_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-06-320.jpg"));
 var import_geometric_06_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-06-640.jpg"));
 var import_geometric_06_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-06-1920.jpg"));
-var import_jsx_runtime1625 = require("react/jsx-runtime");
+var import_jsx_runtime1669 = require("react/jsx-runtime");
 var Geometric06WidthMap = {
   320: import_geometric_06_320.default,
   640: import_geometric_06_640.default,
@@ -27632,7 +28457,7 @@ var Geometric06 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth6(resolvedWidth, Geometric06AvailableWidths);
   const imageSrc = Geometric06WidthMap[closestWidth] ?? import_geometric_06_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1625.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1669.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27650,7 +28475,7 @@ var import_geometric_07_1024 = __toESM(require("@snowui-design-system/resource-b
 var import_geometric_07_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-07-320.jpg"));
 var import_geometric_07_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-07-640.jpg"));
 var import_geometric_07_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/geometric-07-1920.jpg"));
-var import_jsx_runtime1626 = require("react/jsx-runtime");
+var import_jsx_runtime1670 = require("react/jsx-runtime");
 var Geometric07WidthMap = {
   320: import_geometric_07_320.default,
   640: import_geometric_07_640.default,
@@ -27676,7 +28501,7 @@ var Geometric07 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth7(resolvedWidth, Geometric07AvailableWidths);
   const imageSrc = Geometric07WidthMap[closestWidth] ?? import_geometric_07_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1626.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1670.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27694,7 +28519,7 @@ var import_gradient_01_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_01_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-01-320.jpg"));
 var import_gradient_01_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-01-640.jpg"));
 var import_gradient_01_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-01-1920.jpg"));
-var import_jsx_runtime1627 = require("react/jsx-runtime");
+var import_jsx_runtime1671 = require("react/jsx-runtime");
 var Gradient01WidthMap = {
   320: import_gradient_01_320.default,
   640: import_gradient_01_640.default,
@@ -27720,7 +28545,7 @@ var Gradient01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth8(resolvedWidth, Gradient01AvailableWidths);
   const imageSrc = Gradient01WidthMap[closestWidth] ?? import_gradient_01_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1627.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1671.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27738,7 +28563,7 @@ var import_gradient_02_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_02_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-02-320.jpg"));
 var import_gradient_02_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-02-640.jpg"));
 var import_gradient_02_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-02-1920.jpg"));
-var import_jsx_runtime1628 = require("react/jsx-runtime");
+var import_jsx_runtime1672 = require("react/jsx-runtime");
 var Gradient02WidthMap = {
   320: import_gradient_02_320.default,
   640: import_gradient_02_640.default,
@@ -27764,7 +28589,7 @@ var Gradient02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth9(resolvedWidth, Gradient02AvailableWidths);
   const imageSrc = Gradient02WidthMap[closestWidth] ?? import_gradient_02_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1628.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1672.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27782,7 +28607,7 @@ var import_gradient_03_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_03_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-03-320.jpg"));
 var import_gradient_03_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-03-640.jpg"));
 var import_gradient_03_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-03-1920.jpg"));
-var import_jsx_runtime1629 = require("react/jsx-runtime");
+var import_jsx_runtime1673 = require("react/jsx-runtime");
 var Gradient03WidthMap = {
   320: import_gradient_03_320.default,
   640: import_gradient_03_640.default,
@@ -27808,7 +28633,7 @@ var Gradient03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth10(resolvedWidth, Gradient03AvailableWidths);
   const imageSrc = Gradient03WidthMap[closestWidth] ?? import_gradient_03_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1629.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1673.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27826,7 +28651,7 @@ var import_gradient_04_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_04_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-04-320.jpg"));
 var import_gradient_04_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-04-640.jpg"));
 var import_gradient_04_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-04-1920.jpg"));
-var import_jsx_runtime1630 = require("react/jsx-runtime");
+var import_jsx_runtime1674 = require("react/jsx-runtime");
 var Gradient04WidthMap = {
   320: import_gradient_04_320.default,
   640: import_gradient_04_640.default,
@@ -27852,7 +28677,7 @@ var Gradient04 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth11(resolvedWidth, Gradient04AvailableWidths);
   const imageSrc = Gradient04WidthMap[closestWidth] ?? import_gradient_04_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1630.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1674.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27870,7 +28695,7 @@ var import_gradient_05_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_05_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-05-320.jpg"));
 var import_gradient_05_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-05-640.jpg"));
 var import_gradient_05_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-05-1920.jpg"));
-var import_jsx_runtime1631 = require("react/jsx-runtime");
+var import_jsx_runtime1675 = require("react/jsx-runtime");
 var Gradient05WidthMap = {
   320: import_gradient_05_320.default,
   640: import_gradient_05_640.default,
@@ -27896,7 +28721,7 @@ var Gradient05 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth12(resolvedWidth, Gradient05AvailableWidths);
   const imageSrc = Gradient05WidthMap[closestWidth] ?? import_gradient_05_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1631.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1675.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27914,7 +28739,7 @@ var import_gradient_06_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_06_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-06-320.jpg"));
 var import_gradient_06_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-06-640.jpg"));
 var import_gradient_06_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-06-1920.jpg"));
-var import_jsx_runtime1632 = require("react/jsx-runtime");
+var import_jsx_runtime1676 = require("react/jsx-runtime");
 var Gradient06WidthMap = {
   320: import_gradient_06_320.default,
   640: import_gradient_06_640.default,
@@ -27940,7 +28765,7 @@ var Gradient06 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth13(resolvedWidth, Gradient06AvailableWidths);
   const imageSrc = Gradient06WidthMap[closestWidth] ?? import_gradient_06_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1632.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1676.jsx)(
     "img",
     {
       src: imageSrc,
@@ -27958,7 +28783,7 @@ var import_gradient_07_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_07_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-07-320.jpg"));
 var import_gradient_07_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-07-640.jpg"));
 var import_gradient_07_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-07-1920.jpg"));
-var import_jsx_runtime1633 = require("react/jsx-runtime");
+var import_jsx_runtime1677 = require("react/jsx-runtime");
 var Gradient07WidthMap = {
   320: import_gradient_07_320.default,
   640: import_gradient_07_640.default,
@@ -27984,7 +28809,7 @@ var Gradient07 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth14(resolvedWidth, Gradient07AvailableWidths);
   const imageSrc = Gradient07WidthMap[closestWidth] ?? import_gradient_07_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1633.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1677.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28002,7 +28827,7 @@ var import_gradient_08_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_08_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-08-320.jpg"));
 var import_gradient_08_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-08-640.jpg"));
 var import_gradient_08_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-08-1920.jpg"));
-var import_jsx_runtime1634 = require("react/jsx-runtime");
+var import_jsx_runtime1678 = require("react/jsx-runtime");
 var Gradient08WidthMap = {
   320: import_gradient_08_320.default,
   640: import_gradient_08_640.default,
@@ -28028,7 +28853,7 @@ var Gradient08 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth15(resolvedWidth, Gradient08AvailableWidths);
   const imageSrc = Gradient08WidthMap[closestWidth] ?? import_gradient_08_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1634.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1678.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28046,7 +28871,7 @@ var import_gradient_09_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_09_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-09-320.jpg"));
 var import_gradient_09_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-09-640.jpg"));
 var import_gradient_09_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-09-1920.jpg"));
-var import_jsx_runtime1635 = require("react/jsx-runtime");
+var import_jsx_runtime1679 = require("react/jsx-runtime");
 var Gradient09WidthMap = {
   320: import_gradient_09_320.default,
   640: import_gradient_09_640.default,
@@ -28072,7 +28897,7 @@ var Gradient09 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth16(resolvedWidth, Gradient09AvailableWidths);
   const imageSrc = Gradient09WidthMap[closestWidth] ?? import_gradient_09_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1635.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1679.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28090,7 +28915,7 @@ var import_gradient_10_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_10_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-10-320.jpg"));
 var import_gradient_10_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-10-640.jpg"));
 var import_gradient_10_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-10-1920.jpg"));
-var import_jsx_runtime1636 = require("react/jsx-runtime");
+var import_jsx_runtime1680 = require("react/jsx-runtime");
 var Gradient10WidthMap = {
   320: import_gradient_10_320.default,
   640: import_gradient_10_640.default,
@@ -28116,7 +28941,7 @@ var Gradient10 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth17(resolvedWidth, Gradient10AvailableWidths);
   const imageSrc = Gradient10WidthMap[closestWidth] ?? import_gradient_10_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1636.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1680.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28134,7 +28959,7 @@ var import_gradient_11_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_11_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-11-320.jpg"));
 var import_gradient_11_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-11-640.jpg"));
 var import_gradient_11_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-11-1920.jpg"));
-var import_jsx_runtime1637 = require("react/jsx-runtime");
+var import_jsx_runtime1681 = require("react/jsx-runtime");
 var Gradient11WidthMap = {
   320: import_gradient_11_320.default,
   640: import_gradient_11_640.default,
@@ -28160,7 +28985,7 @@ var Gradient11 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth18(resolvedWidth, Gradient11AvailableWidths);
   const imageSrc = Gradient11WidthMap[closestWidth] ?? import_gradient_11_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1637.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1681.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28178,7 +29003,7 @@ var import_gradient_12_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_12_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-12-320.jpg"));
 var import_gradient_12_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-12-640.jpg"));
 var import_gradient_12_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-12-1920.jpg"));
-var import_jsx_runtime1638 = require("react/jsx-runtime");
+var import_jsx_runtime1682 = require("react/jsx-runtime");
 var Gradient12WidthMap = {
   320: import_gradient_12_320.default,
   640: import_gradient_12_640.default,
@@ -28204,7 +29029,7 @@ var Gradient12 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth19(resolvedWidth, Gradient12AvailableWidths);
   const imageSrc = Gradient12WidthMap[closestWidth] ?? import_gradient_12_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1638.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1682.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28222,7 +29047,7 @@ var import_gradient_13_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_13_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-13-320.jpg"));
 var import_gradient_13_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-13-640.jpg"));
 var import_gradient_13_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-13-1920.jpg"));
-var import_jsx_runtime1639 = require("react/jsx-runtime");
+var import_jsx_runtime1683 = require("react/jsx-runtime");
 var Gradient13WidthMap = {
   320: import_gradient_13_320.default,
   640: import_gradient_13_640.default,
@@ -28248,7 +29073,7 @@ var Gradient13 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth20(resolvedWidth, Gradient13AvailableWidths);
   const imageSrc = Gradient13WidthMap[closestWidth] ?? import_gradient_13_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1639.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1683.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28266,7 +29091,7 @@ var import_gradient_14_1024 = __toESM(require("@snowui-design-system/resource-ba
 var import_gradient_14_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-14-320.jpg"));
 var import_gradient_14_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-14-640.jpg"));
 var import_gradient_14_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/gradient-14-1920.jpg"));
-var import_jsx_runtime1640 = require("react/jsx-runtime");
+var import_jsx_runtime1684 = require("react/jsx-runtime");
 var Gradient14WidthMap = {
   320: import_gradient_14_320.default,
   640: import_gradient_14_640.default,
@@ -28292,7 +29117,7 @@ var Gradient14 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth21(resolvedWidth, Gradient14AvailableWidths);
   const imageSrc = Gradient14WidthMap[closestWidth] ?? import_gradient_14_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1640.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1684.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28310,7 +29135,7 @@ var import_minimal_01_1024 = __toESM(require("@snowui-design-system/resource-bas
 var import_minimal_01_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-01-320.jpg"));
 var import_minimal_01_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-01-640.jpg"));
 var import_minimal_01_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-01-1920.jpg"));
-var import_jsx_runtime1641 = require("react/jsx-runtime");
+var import_jsx_runtime1685 = require("react/jsx-runtime");
 var Minimal01WidthMap = {
   320: import_minimal_01_320.default,
   640: import_minimal_01_640.default,
@@ -28336,7 +29161,7 @@ var Minimal01 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth22(resolvedWidth, Minimal01AvailableWidths);
   const imageSrc = Minimal01WidthMap[closestWidth] ?? import_minimal_01_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1641.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1685.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28354,7 +29179,7 @@ var import_minimal_02_1024 = __toESM(require("@snowui-design-system/resource-bas
 var import_minimal_02_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-02-320.jpg"));
 var import_minimal_02_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-02-640.jpg"));
 var import_minimal_02_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-02-1920.jpg"));
-var import_jsx_runtime1642 = require("react/jsx-runtime");
+var import_jsx_runtime1686 = require("react/jsx-runtime");
 var Minimal02WidthMap = {
   320: import_minimal_02_320.default,
   640: import_minimal_02_640.default,
@@ -28380,7 +29205,7 @@ var Minimal02 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth23(resolvedWidth, Minimal02AvailableWidths);
   const imageSrc = Minimal02WidthMap[closestWidth] ?? import_minimal_02_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1642.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1686.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28398,7 +29223,7 @@ var import_minimal_03_1024 = __toESM(require("@snowui-design-system/resource-bas
 var import_minimal_03_320 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-03-320.jpg"));
 var import_minimal_03_640 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-03-640.jpg"));
 var import_minimal_03_1920 = __toESM(require("@snowui-design-system/resource-base/assets/backgrounds/minimal-03-1920.jpg"));
-var import_jsx_runtime1643 = require("react/jsx-runtime");
+var import_jsx_runtime1687 = require("react/jsx-runtime");
 var Minimal03WidthMap = {
   320: import_minimal_03_320.default,
   640: import_minimal_03_640.default,
@@ -28424,7 +29249,7 @@ var Minimal03 = ({ width = 1024, height, ...rest }) => {
   const resolvedWidth = width ?? 1024;
   const closestWidth = findClosestWidth24(resolvedWidth, Minimal03AvailableWidths);
   const imageSrc = Minimal03WidthMap[closestWidth] ?? import_minimal_03_1024.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1643.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1687.jsx)(
     "img",
     {
       src: imageSrc,
@@ -28439,12 +29264,12 @@ var Minimal03_default = Minimal03;
 
 // src/cursors/CursorsBeachball.tsx
 var import_cursors_beachball = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-beachball.svg"));
-var import_jsx_runtime1644 = require("react/jsx-runtime");
+var import_jsx_runtime1688 = require("react/jsx-runtime");
 var CursorsBeachball = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_beachball.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1644.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1688.jsx)(
     "img",
     {
       src: import_cursors_beachball.default,
@@ -28459,12 +29284,12 @@ var CursorsBeachball_default = CursorsBeachball;
 
 // src/cursors/CursorsCross.tsx
 var import_cursors_cross = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-cross.svg"));
-var import_jsx_runtime1645 = require("react/jsx-runtime");
+var import_jsx_runtime1689 = require("react/jsx-runtime");
 var CursorsCross = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_cross.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1645.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1689.jsx)(
     "img",
     {
       src: import_cursors_cross.default,
@@ -28479,12 +29304,12 @@ var CursorsCross_default = CursorsCross;
 
 // src/cursors/CursorsDefault.tsx
 var import_cursors_default = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-default.svg"));
-var import_jsx_runtime1646 = require("react/jsx-runtime");
+var import_jsx_runtime1690 = require("react/jsx-runtime");
 var CursorsDefault = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_default.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1646.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1690.jsx)(
     "img",
     {
       src: import_cursors_default.default,
@@ -28499,12 +29324,12 @@ var CursorsDefault_default = CursorsDefault;
 
 // src/cursors/CursorsHandGrabbing.tsx
 var import_cursors_hand_grabbing = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-hand-grabbing.svg"));
-var import_jsx_runtime1647 = require("react/jsx-runtime");
+var import_jsx_runtime1691 = require("react/jsx-runtime");
 var CursorsHandGrabbing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_hand_grabbing.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1647.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1691.jsx)(
     "img",
     {
       src: import_cursors_hand_grabbing.default,
@@ -28519,12 +29344,12 @@ var CursorsHandGrabbing_default = CursorsHandGrabbing;
 
 // src/cursors/CursorsHandOpen.tsx
 var import_cursors_hand_open = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-hand-open.svg"));
-var import_jsx_runtime1648 = require("react/jsx-runtime");
+var import_jsx_runtime1692 = require("react/jsx-runtime");
 var CursorsHandOpen = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_hand_open.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1648.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1692.jsx)(
     "img",
     {
       src: import_cursors_hand_open.default,
@@ -28539,12 +29364,12 @@ var CursorsHandOpen_default = CursorsHandOpen;
 
 // src/cursors/CursorsHandPointing.tsx
 var import_cursors_hand_pointing = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-hand-pointing.svg"));
-var import_jsx_runtime1649 = require("react/jsx-runtime");
+var import_jsx_runtime1693 = require("react/jsx-runtime");
 var CursorsHandPointing = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_hand_pointing.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1649.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1693.jsx)(
     "img",
     {
       src: import_cursors_hand_pointing.default,
@@ -28559,12 +29384,12 @@ var CursorsHandPointing_default = CursorsHandPointing;
 
 // src/cursors/CursorsMenu.tsx
 var import_cursors_menu = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-menu.svg"));
-var import_jsx_runtime1650 = require("react/jsx-runtime");
+var import_jsx_runtime1694 = require("react/jsx-runtime");
 var CursorsMenu = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_menu.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1650.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1694.jsx)(
     "img",
     {
       src: import_cursors_menu.default,
@@ -28579,12 +29404,12 @@ var CursorsMenu_default = CursorsMenu;
 
 // src/cursors/CursorsMove.tsx
 var import_cursors_move = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-move.svg"));
-var import_jsx_runtime1651 = require("react/jsx-runtime");
+var import_jsx_runtime1695 = require("react/jsx-runtime");
 var CursorsMove = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_move.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1651.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1695.jsx)(
     "img",
     {
       src: import_cursors_move.default,
@@ -28599,12 +29424,12 @@ var CursorsMove_default = CursorsMove;
 
 // src/cursors/CursorsResizeDown.tsx
 var import_cursors_resize_down = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-down.svg"));
-var import_jsx_runtime1652 = require("react/jsx-runtime");
+var import_jsx_runtime1696 = require("react/jsx-runtime");
 var CursorsResizeDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_down.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1652.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1696.jsx)(
     "img",
     {
       src: import_cursors_resize_down.default,
@@ -28619,12 +29444,12 @@ var CursorsResizeDown_default = CursorsResizeDown;
 
 // src/cursors/CursorsResizeLeftRight.tsx
 var import_cursors_resize_left_right = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-left-right.svg"));
-var import_jsx_runtime1653 = require("react/jsx-runtime");
+var import_jsx_runtime1697 = require("react/jsx-runtime");
 var CursorsResizeLeftRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_left_right.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1653.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1697.jsx)(
     "img",
     {
       src: import_cursors_resize_left_right.default,
@@ -28639,12 +29464,12 @@ var CursorsResizeLeftRight_default = CursorsResizeLeftRight;
 
 // src/cursors/CursorsResizeLeft.tsx
 var import_cursors_resize_left = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-left.svg"));
-var import_jsx_runtime1654 = require("react/jsx-runtime");
+var import_jsx_runtime1698 = require("react/jsx-runtime");
 var CursorsResizeLeft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_left.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1654.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1698.jsx)(
     "img",
     {
       src: import_cursors_resize_left.default,
@@ -28659,12 +29484,12 @@ var CursorsResizeLeft_default = CursorsResizeLeft;
 
 // src/cursors/CursorsResizeNorthEastSouthWest.tsx
 var import_cursors_resize_north_east_south_west = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-east-south-west.svg"));
-var import_jsx_runtime1655 = require("react/jsx-runtime");
+var import_jsx_runtime1699 = require("react/jsx-runtime");
 var CursorsResizeNorthEastSouthWest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_north_east_south_west.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1655.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1699.jsx)(
     "img",
     {
       src: import_cursors_resize_north_east_south_west.default,
@@ -28679,12 +29504,12 @@ var CursorsResizeNorthEastSouthWest_default = CursorsResizeNorthEastSouthWest;
 
 // src/cursors/CursorsResizeNorthSouth.tsx
 var import_cursors_resize_north_south = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-south.svg"));
-var import_jsx_runtime1656 = require("react/jsx-runtime");
+var import_jsx_runtime1700 = require("react/jsx-runtime");
 var CursorsResizeNorthSouth = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_north_south.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1656.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1700.jsx)(
     "img",
     {
       src: import_cursors_resize_north_south.default,
@@ -28699,12 +29524,12 @@ var CursorsResizeNorthSouth_default = CursorsResizeNorthSouth;
 
 // src/cursors/CursorsResizeNorthWestSouthEast.tsx
 var import_cursors_resize_north_west_south_east = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-north-west-south-east.svg"));
-var import_jsx_runtime1657 = require("react/jsx-runtime");
+var import_jsx_runtime1701 = require("react/jsx-runtime");
 var CursorsResizeNorthWestSouthEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_north_west_south_east.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1657.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1701.jsx)(
     "img",
     {
       src: import_cursors_resize_north_west_south_east.default,
@@ -28719,12 +29544,12 @@ var CursorsResizeNorthWestSouthEast_default = CursorsResizeNorthWestSouthEast;
 
 // src/cursors/CursorsResizeRight.tsx
 var import_cursors_resize_right = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-right.svg"));
-var import_jsx_runtime1658 = require("react/jsx-runtime");
+var import_jsx_runtime1702 = require("react/jsx-runtime");
 var CursorsResizeRight = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_right.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1658.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1702.jsx)(
     "img",
     {
       src: import_cursors_resize_right.default,
@@ -28739,12 +29564,12 @@ var CursorsResizeRight_default = CursorsResizeRight;
 
 // src/cursors/CursorsResizeUpDown.tsx
 var import_cursors_resize_up_down = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-up-down.svg"));
-var import_jsx_runtime1659 = require("react/jsx-runtime");
+var import_jsx_runtime1703 = require("react/jsx-runtime");
 var CursorsResizeUpDown = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_up_down.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1659.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1703.jsx)(
     "img",
     {
       src: import_cursors_resize_up_down.default,
@@ -28759,12 +29584,12 @@ var CursorsResizeUpDown_default = CursorsResizeUpDown;
 
 // src/cursors/CursorsResizeUp.tsx
 var import_cursors_resize_up = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-up.svg"));
-var import_jsx_runtime1660 = require("react/jsx-runtime");
+var import_jsx_runtime1704 = require("react/jsx-runtime");
 var CursorsResizeUp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_up.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1660.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1704.jsx)(
     "img",
     {
       src: import_cursors_resize_up.default,
@@ -28779,12 +29604,12 @@ var CursorsResizeUp_default = CursorsResizeUp;
 
 // src/cursors/CursorsResizeWestEast.tsx
 var import_cursors_resize_west_east = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-resize-west-east.svg"));
-var import_jsx_runtime1661 = require("react/jsx-runtime");
+var import_jsx_runtime1705 = require("react/jsx-runtime");
 var CursorsResizeWestEast = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_resize_west_east.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1661.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1705.jsx)(
     "img",
     {
       src: import_cursors_resize_west_east.default,
@@ -28799,12 +29624,12 @@ var CursorsResizeWestEast_default = CursorsResizeWestEast;
 
 // src/cursors/CursorsTextCursor.tsx
 var import_cursors_text_cursor = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-text-cursor.svg"));
-var import_jsx_runtime1662 = require("react/jsx-runtime");
+var import_jsx_runtime1706 = require("react/jsx-runtime");
 var CursorsTextCursor = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_text_cursor.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1662.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1706.jsx)(
     "img",
     {
       src: import_cursors_text_cursor.default,
@@ -28819,12 +29644,12 @@ var CursorsTextCursor_default = CursorsTextCursor;
 
 // src/cursors/CursorsZoomIn.tsx
 var import_cursors_zoom_in = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-zoom-in.svg"));
-var import_jsx_runtime1663 = require("react/jsx-runtime");
+var import_jsx_runtime1707 = require("react/jsx-runtime");
 var CursorsZoomIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_zoom_in.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1663.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1707.jsx)(
     "img",
     {
       src: import_cursors_zoom_in.default,
@@ -28839,12 +29664,12 @@ var CursorsZoomIn_default = CursorsZoomIn;
 
 // src/cursors/CursorsZoomOut.tsx
 var import_cursors_zoom_out = __toESM(require("@snowui-design-system/resource-base/assets/cursors/cursors-zoom-out.svg"));
-var import_jsx_runtime1664 = require("react/jsx-runtime");
+var import_jsx_runtime1708 = require("react/jsx-runtime");
 var CursorsZoomOut = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_cursors_zoom_out.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1664.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1708.jsx)(
     "img",
     {
       src: import_cursors_zoom_out.default,
@@ -28859,12 +29684,12 @@ var CursorsZoomOut_default = CursorsZoomOut;
 
 // src/emoji/BombEmoji.tsx
 var import_bomb_emoji = __toESM(require("@snowui-design-system/resource-base/assets/emoji/bomb-emoji.svg"));
-var import_jsx_runtime1665 = require("react/jsx-runtime");
+var import_jsx_runtime1709 = require("react/jsx-runtime");
 var BombEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_bomb_emoji.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1665.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1709.jsx)(
     "img",
     {
       src: import_bomb_emoji.default,
@@ -28879,12 +29704,12 @@ var BombEmoji_default = BombEmoji;
 
 // src/emoji/FaceBlowingKiss.tsx
 var import_face_blowing_kiss = __toESM(require("@snowui-design-system/resource-base/assets/emoji/face-blowing-kiss.svg"));
-var import_jsx_runtime1666 = require("react/jsx-runtime");
+var import_jsx_runtime1710 = require("react/jsx-runtime");
 var FaceBlowingKiss = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_face_blowing_kiss.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1666.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1710.jsx)(
     "img",
     {
       src: import_face_blowing_kiss.default,
@@ -28899,12 +29724,12 @@ var FaceBlowingKiss_default = FaceBlowingKiss;
 
 // src/emoji/FaceSteamFromNose.tsx
 var import_face_steam_from_nose = __toESM(require("@snowui-design-system/resource-base/assets/emoji/face-steam-from-nose.svg"));
-var import_jsx_runtime1667 = require("react/jsx-runtime");
+var import_jsx_runtime1711 = require("react/jsx-runtime");
 var FaceSteamFromNose = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_face_steam_from_nose.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1667.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1711.jsx)(
     "img",
     {
       src: import_face_steam_from_nose.default,
@@ -28919,12 +29744,12 @@ var FaceSteamFromNose_default = FaceSteamFromNose;
 
 // src/emoji/FaceTearsJoy.tsx
 var import_face_tears_joy = __toESM(require("@snowui-design-system/resource-base/assets/emoji/face-tears-joy.svg"));
-var import_jsx_runtime1668 = require("react/jsx-runtime");
+var import_jsx_runtime1712 = require("react/jsx-runtime");
 var FaceTearsJoy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_face_tears_joy.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1668.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1712.jsx)(
     "img",
     {
       src: import_face_tears_joy.default,
@@ -28939,12 +29764,12 @@ var FaceTearsJoy_default = FaceTearsJoy;
 
 // src/emoji/GrinningCat.tsx
 var import_grinning_cat = __toESM(require("@snowui-design-system/resource-base/assets/emoji/grinning-cat.svg"));
-var import_jsx_runtime1669 = require("react/jsx-runtime");
+var import_jsx_runtime1713 = require("react/jsx-runtime");
 var GrinningCat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_grinning_cat.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1669.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1713.jsx)(
     "img",
     {
       src: import_grinning_cat.default,
@@ -28959,12 +29784,12 @@ var GrinningCat_default = GrinningCat;
 
 // src/emoji/GrinningFaceSweat.tsx
 var import_grinning_face_sweat = __toESM(require("@snowui-design-system/resource-base/assets/emoji/grinning-face-sweat.svg"));
-var import_jsx_runtime1670 = require("react/jsx-runtime");
+var import_jsx_runtime1714 = require("react/jsx-runtime");
 var GrinningFaceSweat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_grinning_face_sweat.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1670.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1714.jsx)(
     "img",
     {
       src: import_grinning_face_sweat.default,
@@ -28979,12 +29804,12 @@ var GrinningFaceSweat_default = GrinningFaceSweat;
 
 // src/emoji/HeartArrow.tsx
 var import_heart_arrow = __toESM(require("@snowui-design-system/resource-base/assets/emoji/heart-arrow.svg"));
-var import_jsx_runtime1671 = require("react/jsx-runtime");
+var import_jsx_runtime1715 = require("react/jsx-runtime");
 var HeartArrow = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_heart_arrow.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1671.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1715.jsx)(
     "img",
     {
       src: import_heart_arrow.default,
@@ -28999,12 +29824,12 @@ var HeartArrow_default = HeartArrow;
 
 // src/emoji/HundredPoints.tsx
 var import_hundred_points = __toESM(require("@snowui-design-system/resource-base/assets/emoji/hundred-points.svg"));
-var import_jsx_runtime1672 = require("react/jsx-runtime");
+var import_jsx_runtime1716 = require("react/jsx-runtime");
 var HundredPoints = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_hundred_points.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1672.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1716.jsx)(
     "img",
     {
       src: import_hundred_points.default,
@@ -29019,12 +29844,12 @@ var HundredPoints_default = HundredPoints;
 
 // src/emoji/LoudlyCryingFace.tsx
 var import_loudly_crying_face = __toESM(require("@snowui-design-system/resource-base/assets/emoji/loudly-crying-face.svg"));
-var import_jsx_runtime1673 = require("react/jsx-runtime");
+var import_jsx_runtime1717 = require("react/jsx-runtime");
 var LoudlyCryingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_loudly_crying_face.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1673.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1717.jsx)(
     "img",
     {
       src: import_loudly_crying_face.default,
@@ -29039,12 +29864,12 @@ var LoudlyCryingFace_default = LoudlyCryingFace;
 
 // src/emoji/RedHeart.tsx
 var import_red_heart = __toESM(require("@snowui-design-system/resource-base/assets/emoji/red-heart.svg"));
-var import_jsx_runtime1674 = require("react/jsx-runtime");
+var import_jsx_runtime1718 = require("react/jsx-runtime");
 var RedHeart = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_red_heart.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1674.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1718.jsx)(
     "img",
     {
       src: import_red_heart.default,
@@ -29059,12 +29884,12 @@ var RedHeart_default = RedHeart;
 
 // src/emoji/RobotEmoji.tsx
 var import_robot_emoji = __toESM(require("@snowui-design-system/resource-base/assets/emoji/robot-emoji.svg"));
-var import_jsx_runtime1675 = require("react/jsx-runtime");
+var import_jsx_runtime1719 = require("react/jsx-runtime");
 var RobotEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_robot_emoji.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1675.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1719.jsx)(
     "img",
     {
       src: import_robot_emoji.default,
@@ -29079,12 +29904,12 @@ var RobotEmoji_default = RobotEmoji;
 
 // src/emoji/SeeMonkey.tsx
 var import_see_monkey = __toESM(require("@snowui-design-system/resource-base/assets/emoji/see-monkey.svg"));
-var import_jsx_runtime1676 = require("react/jsx-runtime");
+var import_jsx_runtime1720 = require("react/jsx-runtime");
 var SeeMonkey = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_see_monkey.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1676.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1720.jsx)(
     "img",
     {
       src: import_see_monkey.default,
@@ -29099,12 +29924,12 @@ var SeeMonkey_default = SeeMonkey;
 
 // src/emoji/SkullCrossbones.tsx
 var import_skull_crossbones = __toESM(require("@snowui-design-system/resource-base/assets/emoji/skull-crossbones.svg"));
-var import_jsx_runtime1677 = require("react/jsx-runtime");
+var import_jsx_runtime1721 = require("react/jsx-runtime");
 var SkullCrossbones = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_skull_crossbones.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1677.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1721.jsx)(
     "img",
     {
       src: import_skull_crossbones.default,
@@ -29119,12 +29944,12 @@ var SkullCrossbones_default = SkullCrossbones;
 
 // src/emoji/SmilingFaceHearts.tsx
 var import_smiling_face_hearts = __toESM(require("@snowui-design-system/resource-base/assets/emoji/smiling-face-hearts.svg"));
-var import_jsx_runtime1678 = require("react/jsx-runtime");
+var import_jsx_runtime1722 = require("react/jsx-runtime");
 var SmilingFaceHearts = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_smiling_face_hearts.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1678.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1722.jsx)(
     "img",
     {
       src: import_smiling_face_hearts.default,
@@ -29139,12 +29964,12 @@ var SmilingFaceHearts_default = SmilingFaceHearts;
 
 // src/emoji/SmilingFaceHorns.tsx
 var import_smiling_face_horns = __toESM(require("@snowui-design-system/resource-base/assets/emoji/smiling-face-horns.svg"));
-var import_jsx_runtime1679 = require("react/jsx-runtime");
+var import_jsx_runtime1723 = require("react/jsx-runtime");
 var SmilingFaceHorns = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_smiling_face_horns.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1679.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1723.jsx)(
     "img",
     {
       src: import_smiling_face_horns.default,
@@ -29159,12 +29984,12 @@ var SmilingFaceHorns_default = SmilingFaceHorns;
 
 // src/emoji/SmilingFaceSunglasses.tsx
 var import_smiling_face_sunglasses = __toESM(require("@snowui-design-system/resource-base/assets/emoji/smiling-face-sunglasses.svg"));
-var import_jsx_runtime1680 = require("react/jsx-runtime");
+var import_jsx_runtime1724 = require("react/jsx-runtime");
 var SmilingFaceSunglasses = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_smiling_face_sunglasses.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1680.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1724.jsx)(
     "img",
     {
       src: import_smiling_face_sunglasses.default,
@@ -29179,12 +30004,12 @@ var SmilingFaceSunglasses_default = SmilingFaceSunglasses;
 
 // src/emoji/SnowflakeEmoji.tsx
 var import_snowflake_emoji = __toESM(require("@snowui-design-system/resource-base/assets/emoji/snowflake-emoji.svg"));
-var import_jsx_runtime1681 = require("react/jsx-runtime");
+var import_jsx_runtime1725 = require("react/jsx-runtime");
 var SnowflakeEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_snowflake_emoji.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1681.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1725.jsx)(
     "img",
     {
       src: import_snowflake_emoji.default,
@@ -29199,12 +30024,12 @@ var SnowflakeEmoji_default = SnowflakeEmoji;
 
 // src/emoji/Snowman.tsx
 var import_snowman = __toESM(require("@snowui-design-system/resource-base/assets/emoji/snowman.svg"));
-var import_jsx_runtime1682 = require("react/jsx-runtime");
+var import_jsx_runtime1726 = require("react/jsx-runtime");
 var Snowman = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_snowman.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1682.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1726.jsx)(
     "img",
     {
       src: import_snowman.default,
@@ -29219,12 +30044,12 @@ var Snowman_default = Snowman;
 
 // src/emoji/UmbrellaEmoji.tsx
 var import_umbrella_emoji = __toESM(require("@snowui-design-system/resource-base/assets/emoji/umbrella-emoji.svg"));
-var import_jsx_runtime1683 = require("react/jsx-runtime");
+var import_jsx_runtime1727 = require("react/jsx-runtime");
 var UmbrellaEmoji = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_umbrella_emoji.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1683.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1727.jsx)(
     "img",
     {
       src: import_umbrella_emoji.default,
@@ -29239,12 +30064,12 @@ var UmbrellaEmoji_default = UmbrellaEmoji;
 
 // src/emoji/WinkingFaceTongue.tsx
 var import_winking_face_tongue = __toESM(require("@snowui-design-system/resource-base/assets/emoji/winking-face-tongue.svg"));
-var import_jsx_runtime1684 = require("react/jsx-runtime");
+var import_jsx_runtime1728 = require("react/jsx-runtime");
 var WinkingFaceTongue = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_winking_face_tongue.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1684.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1728.jsx)(
     "img",
     {
       src: import_winking_face_tongue.default,
@@ -29259,12 +30084,12 @@ var WinkingFaceTongue_default = WinkingFaceTongue;
 
 // src/emoji/WinkingFace.tsx
 var import_winking_face = __toESM(require("@snowui-design-system/resource-base/assets/emoji/winking-face.svg"));
-var import_jsx_runtime1685 = require("react/jsx-runtime");
+var import_jsx_runtime1729 = require("react/jsx-runtime");
 var WinkingFace = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_winking_face.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1685.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1729.jsx)(
     "img",
     {
       src: import_winking_face.default,
@@ -29279,11 +30104,11 @@ var WinkingFace_default = WinkingFace;
 
 // src/illustrations/Humanoid.tsx
 var import_humanoid = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/humanoid.svg"));
-var import_jsx_runtime1686 = require("react/jsx-runtime");
+var import_jsx_runtime1730 = require("react/jsx-runtime");
 var Humanoid = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_humanoid.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1686.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1730.jsx)(
     "img",
     {
       src: import_humanoid.default,
@@ -29301,7 +30126,7 @@ var import_illustration_01_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_01_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-01-160.png"));
 var import_illustration_01_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-01-640.png"));
 var import_illustration_01_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-01-1024.png"));
-var import_jsx_runtime1687 = require("react/jsx-runtime");
+var import_jsx_runtime1731 = require("react/jsx-runtime");
 var Illustration01WidthMap = {
   160: import_illustration_01_160.default,
   320: import_illustration_01_320.default,
@@ -29327,7 +30152,7 @@ var Illustration01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth25(resolvedWidth, Illustration01AvailableWidths);
   const imageSrc = Illustration01WidthMap[closestWidth] ?? import_illustration_01_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1687.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1731.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29345,7 +30170,7 @@ var import_illustration_02_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_02_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-02-160.png"));
 var import_illustration_02_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-02-640.png"));
 var import_illustration_02_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-02-1024.png"));
-var import_jsx_runtime1688 = require("react/jsx-runtime");
+var import_jsx_runtime1732 = require("react/jsx-runtime");
 var Illustration02WidthMap = {
   160: import_illustration_02_160.default,
   320: import_illustration_02_320.default,
@@ -29371,7 +30196,7 @@ var Illustration02 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth26(resolvedWidth, Illustration02AvailableWidths);
   const imageSrc = Illustration02WidthMap[closestWidth] ?? import_illustration_02_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1688.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1732.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29389,7 +30214,7 @@ var import_illustration_03_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_03_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-03-160.png"));
 var import_illustration_03_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-03-640.png"));
 var import_illustration_03_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-03-1024.png"));
-var import_jsx_runtime1689 = require("react/jsx-runtime");
+var import_jsx_runtime1733 = require("react/jsx-runtime");
 var Illustration03WidthMap = {
   160: import_illustration_03_160.default,
   320: import_illustration_03_320.default,
@@ -29415,7 +30240,7 @@ var Illustration03 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth27(resolvedWidth, Illustration03AvailableWidths);
   const imageSrc = Illustration03WidthMap[closestWidth] ?? import_illustration_03_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1689.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1733.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29433,7 +30258,7 @@ var import_illustration_04_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_04_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-04-160.png"));
 var import_illustration_04_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-04-640.png"));
 var import_illustration_04_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-04-1024.png"));
-var import_jsx_runtime1690 = require("react/jsx-runtime");
+var import_jsx_runtime1734 = require("react/jsx-runtime");
 var Illustration04WidthMap = {
   160: import_illustration_04_160.default,
   320: import_illustration_04_320.default,
@@ -29459,7 +30284,7 @@ var Illustration04 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth28(resolvedWidth, Illustration04AvailableWidths);
   const imageSrc = Illustration04WidthMap[closestWidth] ?? import_illustration_04_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1690.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1734.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29477,7 +30302,7 @@ var import_illustration_05_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_05_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-05-160.png"));
 var import_illustration_05_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-05-640.png"));
 var import_illustration_05_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-05-1024.png"));
-var import_jsx_runtime1691 = require("react/jsx-runtime");
+var import_jsx_runtime1735 = require("react/jsx-runtime");
 var Illustration05WidthMap = {
   160: import_illustration_05_160.default,
   320: import_illustration_05_320.default,
@@ -29503,7 +30328,7 @@ var Illustration05 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth29(resolvedWidth, Illustration05AvailableWidths);
   const imageSrc = Illustration05WidthMap[closestWidth] ?? import_illustration_05_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1691.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1735.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29521,7 +30346,7 @@ var import_illustration_06_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_06_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-06-160.png"));
 var import_illustration_06_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-06-640.png"));
 var import_illustration_06_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-06-1024.png"));
-var import_jsx_runtime1692 = require("react/jsx-runtime");
+var import_jsx_runtime1736 = require("react/jsx-runtime");
 var Illustration06WidthMap = {
   160: import_illustration_06_160.default,
   320: import_illustration_06_320.default,
@@ -29547,7 +30372,7 @@ var Illustration06 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth30(resolvedWidth, Illustration06AvailableWidths);
   const imageSrc = Illustration06WidthMap[closestWidth] ?? import_illustration_06_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1692.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1736.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29565,7 +30390,7 @@ var import_illustration_07_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_07_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-07-160.png"));
 var import_illustration_07_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-07-640.png"));
 var import_illustration_07_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-07-1024.png"));
-var import_jsx_runtime1693 = require("react/jsx-runtime");
+var import_jsx_runtime1737 = require("react/jsx-runtime");
 var Illustration07WidthMap = {
   160: import_illustration_07_160.default,
   320: import_illustration_07_320.default,
@@ -29591,7 +30416,7 @@ var Illustration07 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth31(resolvedWidth, Illustration07AvailableWidths);
   const imageSrc = Illustration07WidthMap[closestWidth] ?? import_illustration_07_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1693.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1737.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29609,7 +30434,7 @@ var import_illustration_08_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_08_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-08-160.png"));
 var import_illustration_08_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-08-640.png"));
 var import_illustration_08_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-08-1024.png"));
-var import_jsx_runtime1694 = require("react/jsx-runtime");
+var import_jsx_runtime1738 = require("react/jsx-runtime");
 var Illustration08WidthMap = {
   160: import_illustration_08_160.default,
   320: import_illustration_08_320.default,
@@ -29635,7 +30460,7 @@ var Illustration08 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth32(resolvedWidth, Illustration08AvailableWidths);
   const imageSrc = Illustration08WidthMap[closestWidth] ?? import_illustration_08_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1694.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1738.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29653,7 +30478,7 @@ var import_illustration_09_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_09_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-09-160.png"));
 var import_illustration_09_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-09-640.png"));
 var import_illustration_09_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-09-1024.png"));
-var import_jsx_runtime1695 = require("react/jsx-runtime");
+var import_jsx_runtime1739 = require("react/jsx-runtime");
 var Illustration09WidthMap = {
   160: import_illustration_09_160.default,
   320: import_illustration_09_320.default,
@@ -29679,7 +30504,7 @@ var Illustration09 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth33(resolvedWidth, Illustration09AvailableWidths);
   const imageSrc = Illustration09WidthMap[closestWidth] ?? import_illustration_09_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1695.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1739.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29697,7 +30522,7 @@ var import_illustration_10_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_10_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-10-160.png"));
 var import_illustration_10_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-10-640.png"));
 var import_illustration_10_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-10-1024.png"));
-var import_jsx_runtime1696 = require("react/jsx-runtime");
+var import_jsx_runtime1740 = require("react/jsx-runtime");
 var Illustration10WidthMap = {
   160: import_illustration_10_160.default,
   320: import_illustration_10_320.default,
@@ -29723,7 +30548,7 @@ var Illustration10 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth34(resolvedWidth, Illustration10AvailableWidths);
   const imageSrc = Illustration10WidthMap[closestWidth] ?? import_illustration_10_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1696.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1740.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29741,7 +30566,7 @@ var import_illustration_11_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_11_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-11-160.png"));
 var import_illustration_11_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-11-640.png"));
 var import_illustration_11_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-11-1024.png"));
-var import_jsx_runtime1697 = require("react/jsx-runtime");
+var import_jsx_runtime1741 = require("react/jsx-runtime");
 var Illustration11WidthMap = {
   160: import_illustration_11_160.default,
   320: import_illustration_11_320.default,
@@ -29767,7 +30592,7 @@ var Illustration11 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth35(resolvedWidth, Illustration11AvailableWidths);
   const imageSrc = Illustration11WidthMap[closestWidth] ?? import_illustration_11_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1697.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1741.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29785,7 +30610,7 @@ var import_illustration_12_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_12_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-12-160.png"));
 var import_illustration_12_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-12-640.png"));
 var import_illustration_12_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-12-1024.png"));
-var import_jsx_runtime1698 = require("react/jsx-runtime");
+var import_jsx_runtime1742 = require("react/jsx-runtime");
 var Illustration12WidthMap = {
   160: import_illustration_12_160.default,
   320: import_illustration_12_320.default,
@@ -29811,7 +30636,7 @@ var Illustration12 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth36(resolvedWidth, Illustration12AvailableWidths);
   const imageSrc = Illustration12WidthMap[closestWidth] ?? import_illustration_12_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1698.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1742.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29829,7 +30654,7 @@ var import_illustration_13_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_13_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-13-160.png"));
 var import_illustration_13_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-13-640.png"));
 var import_illustration_13_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-13-1024.png"));
-var import_jsx_runtime1699 = require("react/jsx-runtime");
+var import_jsx_runtime1743 = require("react/jsx-runtime");
 var Illustration13WidthMap = {
   160: import_illustration_13_160.default,
   320: import_illustration_13_320.default,
@@ -29855,7 +30680,7 @@ var Illustration13 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth37(resolvedWidth, Illustration13AvailableWidths);
   const imageSrc = Illustration13WidthMap[closestWidth] ?? import_illustration_13_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1699.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1743.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29873,7 +30698,7 @@ var import_illustration_14_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_14_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-14-160.png"));
 var import_illustration_14_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-14-640.png"));
 var import_illustration_14_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-14-1024.png"));
-var import_jsx_runtime1700 = require("react/jsx-runtime");
+var import_jsx_runtime1744 = require("react/jsx-runtime");
 var Illustration14WidthMap = {
   160: import_illustration_14_160.default,
   320: import_illustration_14_320.default,
@@ -29899,7 +30724,7 @@ var Illustration14 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth38(resolvedWidth, Illustration14AvailableWidths);
   const imageSrc = Illustration14WidthMap[closestWidth] ?? import_illustration_14_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1700.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1744.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29917,7 +30742,7 @@ var import_illustration_15_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_15_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-15-160.png"));
 var import_illustration_15_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-15-640.png"));
 var import_illustration_15_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-15-1024.png"));
-var import_jsx_runtime1701 = require("react/jsx-runtime");
+var import_jsx_runtime1745 = require("react/jsx-runtime");
 var Illustration15WidthMap = {
   160: import_illustration_15_160.default,
   320: import_illustration_15_320.default,
@@ -29943,7 +30768,7 @@ var Illustration15 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth39(resolvedWidth, Illustration15AvailableWidths);
   const imageSrc = Illustration15WidthMap[closestWidth] ?? import_illustration_15_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1701.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1745.jsx)(
     "img",
     {
       src: imageSrc,
@@ -29961,7 +30786,7 @@ var import_illustration_16_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_16_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-16-160.png"));
 var import_illustration_16_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-16-640.png"));
 var import_illustration_16_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-16-1024.png"));
-var import_jsx_runtime1702 = require("react/jsx-runtime");
+var import_jsx_runtime1746 = require("react/jsx-runtime");
 var Illustration16WidthMap = {
   160: import_illustration_16_160.default,
   320: import_illustration_16_320.default,
@@ -29987,7 +30812,7 @@ var Illustration16 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth40(resolvedWidth, Illustration16AvailableWidths);
   const imageSrc = Illustration16WidthMap[closestWidth] ?? import_illustration_16_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1702.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1746.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30006,7 +30831,7 @@ var import_illustration_162 = __toESM(require("@snowui-design-system/resource-ba
 var import_illustration_20 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-20.png"));
 var import_illustration_24 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-24.png"));
 var import_illustration_28 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-28.png"));
-var import_jsx_runtime1703 = require("react/jsx-runtime");
+var import_jsx_runtime1747 = require("react/jsx-runtime");
 var IllustrationWidthMap = {
   16: import_illustration_162.default,
   20: import_illustration_20.default,
@@ -30032,7 +30857,7 @@ var Illustration = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth41(resolvedWidth, IllustrationAvailableWidths);
   const imageSrc = IllustrationWidthMap[closestWidth] ?? import_illustration_16.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1703.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1747.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30050,7 +30875,7 @@ var import_illustration_17_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_17_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-17-160.png"));
 var import_illustration_17_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-17-640.png"));
 var import_illustration_17_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-17-1024.png"));
-var import_jsx_runtime1704 = require("react/jsx-runtime");
+var import_jsx_runtime1748 = require("react/jsx-runtime");
 var Illustration17WidthMap = {
   160: import_illustration_17_160.default,
   320: import_illustration_17_320.default,
@@ -30076,7 +30901,7 @@ var Illustration17 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth42(resolvedWidth, Illustration17AvailableWidths);
   const imageSrc = Illustration17WidthMap[closestWidth] ?? import_illustration_17_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1704.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1748.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30094,7 +30919,7 @@ var import_illustration_18_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_18_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-18-160.png"));
 var import_illustration_18_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-18-640.png"));
 var import_illustration_18_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-18-1024.png"));
-var import_jsx_runtime1705 = require("react/jsx-runtime");
+var import_jsx_runtime1749 = require("react/jsx-runtime");
 var Illustration18WidthMap = {
   160: import_illustration_18_160.default,
   320: import_illustration_18_320.default,
@@ -30120,7 +30945,7 @@ var Illustration18 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth43(resolvedWidth, Illustration18AvailableWidths);
   const imageSrc = Illustration18WidthMap[closestWidth] ?? import_illustration_18_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1705.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1749.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30138,7 +30963,7 @@ var import_illustration_19_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_19_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-19-160.png"));
 var import_illustration_19_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-19-640.png"));
 var import_illustration_19_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-19-1024.png"));
-var import_jsx_runtime1706 = require("react/jsx-runtime");
+var import_jsx_runtime1750 = require("react/jsx-runtime");
 var Illustration19WidthMap = {
   160: import_illustration_19_160.default,
   320: import_illustration_19_320.default,
@@ -30164,7 +30989,7 @@ var Illustration19 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth44(resolvedWidth, Illustration19AvailableWidths);
   const imageSrc = Illustration19WidthMap[closestWidth] ?? import_illustration_19_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1706.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1750.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30182,7 +31007,7 @@ var import_illustration_20_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_20_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-20-160.png"));
 var import_illustration_20_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-20-640.png"));
 var import_illustration_20_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-20-1024.png"));
-var import_jsx_runtime1707 = require("react/jsx-runtime");
+var import_jsx_runtime1751 = require("react/jsx-runtime");
 var Illustration20WidthMap = {
   160: import_illustration_20_160.default,
   320: import_illustration_20_320.default,
@@ -30208,7 +31033,7 @@ var Illustration20 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth45(resolvedWidth, Illustration20AvailableWidths);
   const imageSrc = Illustration20WidthMap[closestWidth] ?? import_illustration_20_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1707.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1751.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30226,7 +31051,7 @@ var import_illustration_21_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_21_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-21-160.png"));
 var import_illustration_21_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-21-640.png"));
 var import_illustration_21_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-21-1024.png"));
-var import_jsx_runtime1708 = require("react/jsx-runtime");
+var import_jsx_runtime1752 = require("react/jsx-runtime");
 var Illustration21WidthMap = {
   160: import_illustration_21_160.default,
   320: import_illustration_21_320.default,
@@ -30252,7 +31077,7 @@ var Illustration21 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth46(resolvedWidth, Illustration21AvailableWidths);
   const imageSrc = Illustration21WidthMap[closestWidth] ?? import_illustration_21_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1708.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1752.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30270,7 +31095,7 @@ var import_illustration_22_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_22_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-22-160.png"));
 var import_illustration_22_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-22-640.png"));
 var import_illustration_22_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-22-1024.png"));
-var import_jsx_runtime1709 = require("react/jsx-runtime");
+var import_jsx_runtime1753 = require("react/jsx-runtime");
 var Illustration22WidthMap = {
   160: import_illustration_22_160.default,
   320: import_illustration_22_320.default,
@@ -30296,7 +31121,7 @@ var Illustration22 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth47(resolvedWidth, Illustration22AvailableWidths);
   const imageSrc = Illustration22WidthMap[closestWidth] ?? import_illustration_22_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1709.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1753.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30314,7 +31139,7 @@ var import_illustration_23_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_23_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-23-160.png"));
 var import_illustration_23_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-23-640.png"));
 var import_illustration_23_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-23-1024.png"));
-var import_jsx_runtime1710 = require("react/jsx-runtime");
+var import_jsx_runtime1754 = require("react/jsx-runtime");
 var Illustration23WidthMap = {
   160: import_illustration_23_160.default,
   320: import_illustration_23_320.default,
@@ -30340,7 +31165,7 @@ var Illustration23 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth48(resolvedWidth, Illustration23AvailableWidths);
   const imageSrc = Illustration23WidthMap[closestWidth] ?? import_illustration_23_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1710.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1754.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30358,7 +31183,7 @@ var import_illustration_24_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_24_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-24-160.png"));
 var import_illustration_24_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-24-640.png"));
 var import_illustration_24_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-24-1024.png"));
-var import_jsx_runtime1711 = require("react/jsx-runtime");
+var import_jsx_runtime1755 = require("react/jsx-runtime");
 var Illustration24WidthMap = {
   160: import_illustration_24_160.default,
   320: import_illustration_24_320.default,
@@ -30384,7 +31209,7 @@ var Illustration24 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth49(resolvedWidth, Illustration24AvailableWidths);
   const imageSrc = Illustration24WidthMap[closestWidth] ?? import_illustration_24_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1711.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1755.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30402,7 +31227,7 @@ var import_illustration_25_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_25_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-25-160.png"));
 var import_illustration_25_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-25-640.png"));
 var import_illustration_25_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-25-1024.png"));
-var import_jsx_runtime1712 = require("react/jsx-runtime");
+var import_jsx_runtime1756 = require("react/jsx-runtime");
 var Illustration25WidthMap = {
   160: import_illustration_25_160.default,
   320: import_illustration_25_320.default,
@@ -30428,7 +31253,7 @@ var Illustration25 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth50(resolvedWidth, Illustration25AvailableWidths);
   const imageSrc = Illustration25WidthMap[closestWidth] ?? import_illustration_25_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1712.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1756.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30446,7 +31271,7 @@ var import_illustration_26_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_26_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-26-160.png"));
 var import_illustration_26_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-26-640.png"));
 var import_illustration_26_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-26-1024.png"));
-var import_jsx_runtime1713 = require("react/jsx-runtime");
+var import_jsx_runtime1757 = require("react/jsx-runtime");
 var Illustration26WidthMap = {
   160: import_illustration_26_160.default,
   320: import_illustration_26_320.default,
@@ -30472,7 +31297,7 @@ var Illustration26 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth51(resolvedWidth, Illustration26AvailableWidths);
   const imageSrc = Illustration26WidthMap[closestWidth] ?? import_illustration_26_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1713.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1757.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30490,7 +31315,7 @@ var import_illustration_27_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_27_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-27-160.png"));
 var import_illustration_27_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-27-640.png"));
 var import_illustration_27_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-27-1024.png"));
-var import_jsx_runtime1714 = require("react/jsx-runtime");
+var import_jsx_runtime1758 = require("react/jsx-runtime");
 var Illustration27WidthMap = {
   160: import_illustration_27_160.default,
   320: import_illustration_27_320.default,
@@ -30516,7 +31341,7 @@ var Illustration27 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth52(resolvedWidth, Illustration27AvailableWidths);
   const imageSrc = Illustration27WidthMap[closestWidth] ?? import_illustration_27_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1714.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1758.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30534,7 +31359,7 @@ var import_illustration_28_320 = __toESM(require("@snowui-design-system/resource
 var import_illustration_28_160 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-28-160.png"));
 var import_illustration_28_640 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-28-640.png"));
 var import_illustration_28_1024 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/illustration-28-1024.png"));
-var import_jsx_runtime1715 = require("react/jsx-runtime");
+var import_jsx_runtime1759 = require("react/jsx-runtime");
 var Illustration28WidthMap = {
   160: import_illustration_28_160.default,
   320: import_illustration_28_320.default,
@@ -30560,7 +31385,7 @@ var Illustration28 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth53(resolvedWidth, Illustration28AvailableWidths);
   const imageSrc = Illustration28WidthMap[closestWidth] ?? import_illustration_28_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1715.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1759.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30575,11 +31400,11 @@ var Illustration28_default = Illustration28;
 
 // src/illustrations/LineDrawing01.tsx
 var import_line_drawing_01 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/line-drawing-01.svg"));
-var import_jsx_runtime1716 = require("react/jsx-runtime");
+var import_jsx_runtime1760 = require("react/jsx-runtime");
 var LineDrawing01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_line_drawing_01.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1716.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1760.jsx)(
     "img",
     {
       src: import_line_drawing_01.default,
@@ -30594,11 +31419,11 @@ var LineDrawing01_default = LineDrawing01;
 
 // src/illustrations/LineDrawing02.tsx
 var import_line_drawing_02 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/line-drawing-02.svg"));
-var import_jsx_runtime1717 = require("react/jsx-runtime");
+var import_jsx_runtime1761 = require("react/jsx-runtime");
 var LineDrawing02 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_line_drawing_02.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1717.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1761.jsx)(
     "img",
     {
       src: import_line_drawing_02.default,
@@ -30613,11 +31438,11 @@ var LineDrawing02_default = LineDrawing02;
 
 // src/illustrations/LineDrawing03.tsx
 var import_line_drawing_03 = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/line-drawing-03.svg"));
-var import_jsx_runtime1718 = require("react/jsx-runtime");
+var import_jsx_runtime1762 = require("react/jsx-runtime");
 var LineDrawing03 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_line_drawing_03.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1718.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1762.jsx)(
     "img",
     {
       src: import_line_drawing_03.default,
@@ -30632,11 +31457,11 @@ var LineDrawing03_default = LineDrawing03;
 
 // src/illustrations/QrCodeBig.tsx
 var import_qr_code_big = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/qr-code-big.svg"));
-var import_jsx_runtime1719 = require("react/jsx-runtime");
+var import_jsx_runtime1763 = require("react/jsx-runtime");
 var QrCodeBig = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_qr_code_big.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1719.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1763.jsx)(
     "img",
     {
       src: import_qr_code_big.default,
@@ -30651,11 +31476,11 @@ var QrCodeBig_default = QrCodeBig;
 
 // src/illustrations/Voice.tsx
 var import_voice = __toESM(require("@snowui-design-system/resource-base/assets/illustrations/voice.svg"));
-var import_jsx_runtime1720 = require("react/jsx-runtime");
+var import_jsx_runtime1764 = require("react/jsx-runtime");
 var Voice = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const imageSrc = import_voice.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1720.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1764.jsx)(
     "img",
     {
       src: import_voice.default,
@@ -30673,7 +31498,7 @@ var import_image_01_320 = __toESM(require("@snowui-design-system/resource-base/a
 var import_image_01_160 = __toESM(require("@snowui-design-system/resource-base/assets/images/image-01-160.png"));
 var import_image_01_640 = __toESM(require("@snowui-design-system/resource-base/assets/images/image-01-640.png"));
 var import_image_01_1024 = __toESM(require("@snowui-design-system/resource-base/assets/images/image-01-1024.png"));
-var import_jsx_runtime1721 = require("react/jsx-runtime");
+var import_jsx_runtime1765 = require("react/jsx-runtime");
 var Image01WidthMap = {
   160: import_image_01_160.default,
   320: import_image_01_320.default,
@@ -30699,7 +31524,7 @@ var Image01 = ({ width = 320, height, ...rest }) => {
   const resolvedWidth = width ?? 320;
   const closestWidth = findClosestWidth54(resolvedWidth, Image01AvailableWidths);
   const imageSrc = Image01WidthMap[closestWidth] ?? import_image_01_320.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1721.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1765.jsx)(
     "img",
     {
       src: imageSrc,
@@ -30714,12 +31539,12 @@ var Image01_default = Image01;
 
 // src/logos/Android.tsx
 var import_android = __toESM(require("@snowui-design-system/resource-base/assets/logos/android.svg"));
-var import_jsx_runtime1722 = require("react/jsx-runtime");
+var import_jsx_runtime1766 = require("react/jsx-runtime");
 var Android = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_android.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1722.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1766.jsx)(
     "img",
     {
       src: import_android.default,
@@ -30734,12 +31559,12 @@ var Android_default = Android;
 
 // src/logos/AppStore.tsx
 var import_app_store = __toESM(require("@snowui-design-system/resource-base/assets/logos/app-store.svg"));
-var import_jsx_runtime1723 = require("react/jsx-runtime");
+var import_jsx_runtime1767 = require("react/jsx-runtime");
 var AppStore = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_app_store.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1723.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1767.jsx)(
     "img",
     {
       src: import_app_store.default,
@@ -30754,12 +31579,12 @@ var AppStore_default = AppStore;
 
 // src/logos/AppleIntelligence2a.tsx
 var import_apple_intelligence_2a = __toESM(require("@snowui-design-system/resource-base/assets/logos/apple-intelligence-2a.svg"));
-var import_jsx_runtime1724 = require("react/jsx-runtime");
+var import_jsx_runtime1768 = require("react/jsx-runtime");
 var AppleIntelligence2a = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_apple_intelligence_2a.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1724.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1768.jsx)(
     "img",
     {
       src: import_apple_intelligence_2a.default,
@@ -30774,12 +31599,12 @@ var AppleIntelligence2a_default = AppleIntelligence2a;
 
 // src/logos/AppleIntelligence2b.tsx
 var import_apple_intelligence_2b = __toESM(require("@snowui-design-system/resource-base/assets/logos/apple-intelligence-2b.svg"));
-var import_jsx_runtime1725 = require("react/jsx-runtime");
+var import_jsx_runtime1769 = require("react/jsx-runtime");
 var AppleIntelligence2b = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_apple_intelligence_2b.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1725.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1769.jsx)(
     "img",
     {
       src: import_apple_intelligence_2b.default,
@@ -30794,12 +31619,12 @@ var AppleIntelligence2b_default = AppleIntelligence2b;
 
 // src/logos/AppleIntelligenceA.tsx
 var import_apple_intelligence_a = __toESM(require("@snowui-design-system/resource-base/assets/logos/apple-intelligence-a.svg"));
-var import_jsx_runtime1726 = require("react/jsx-runtime");
+var import_jsx_runtime1770 = require("react/jsx-runtime");
 var AppleIntelligenceA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_apple_intelligence_a.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1726.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1770.jsx)(
     "img",
     {
       src: import_apple_intelligence_a.default,
@@ -30814,12 +31639,12 @@ var AppleIntelligenceA_default = AppleIntelligenceA;
 
 // src/logos/AppleIntelligenceB.tsx
 var import_apple_intelligence_b = __toESM(require("@snowui-design-system/resource-base/assets/logos/apple-intelligence-b.svg"));
-var import_jsx_runtime1727 = require("react/jsx-runtime");
+var import_jsx_runtime1771 = require("react/jsx-runtime");
 var AppleIntelligenceB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_apple_intelligence_b.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1727.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1771.jsx)(
     "img",
     {
       src: import_apple_intelligence_b.default,
@@ -30834,12 +31659,12 @@ var AppleIntelligenceB_default = AppleIntelligenceB;
 
 // src/logos/Apple.tsx
 var import_apple = __toESM(require("@snowui-design-system/resource-base/assets/logos/apple.svg"));
-var import_jsx_runtime1728 = require("react/jsx-runtime");
+var import_jsx_runtime1772 = require("react/jsx-runtime");
 var Apple = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_apple.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1728.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1772.jsx)(
     "img",
     {
       src: import_apple.default,
@@ -30854,12 +31679,12 @@ var Apple_default = Apple;
 
 // src/logos/Arc.tsx
 var import_arc = __toESM(require("@snowui-design-system/resource-base/assets/logos/arc.svg"));
-var import_jsx_runtime1729 = require("react/jsx-runtime");
+var import_jsx_runtime1773 = require("react/jsx-runtime");
 var Arc = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_arc.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1729.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1773.jsx)(
     "img",
     {
       src: import_arc.default,
@@ -30874,12 +31699,12 @@ var Arc_default = Arc;
 
 // src/logos/Behance.tsx
 var import_behance = __toESM(require("@snowui-design-system/resource-base/assets/logos/behance.svg"));
-var import_jsx_runtime1730 = require("react/jsx-runtime");
+var import_jsx_runtime1774 = require("react/jsx-runtime");
 var Behance = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_behance.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1730.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1774.jsx)(
     "img",
     {
       src: import_behance.default,
@@ -30894,12 +31719,12 @@ var Behance_default = Behance;
 
 // src/logos/ChatGpt.tsx
 var import_chat_gpt = __toESM(require("@snowui-design-system/resource-base/assets/logos/chat-gpt.svg"));
-var import_jsx_runtime1731 = require("react/jsx-runtime");
+var import_jsx_runtime1775 = require("react/jsx-runtime");
 var ChatGpt = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_chat_gpt.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1731.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1775.jsx)(
     "img",
     {
       src: import_chat_gpt.default,
@@ -30914,12 +31739,12 @@ var ChatGpt_default = ChatGpt;
 
 // src/logos/Claude.tsx
 var import_claude = __toESM(require("@snowui-design-system/resource-base/assets/logos/claude.svg"));
-var import_jsx_runtime1732 = require("react/jsx-runtime");
+var import_jsx_runtime1776 = require("react/jsx-runtime");
 var Claude = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_claude.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1732.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1776.jsx)(
     "img",
     {
       src: import_claude.default,
@@ -30934,12 +31759,12 @@ var Claude_default = Claude;
 
 // src/logos/Copilot.tsx
 var import_copilot = __toESM(require("@snowui-design-system/resource-base/assets/logos/copilot.svg"));
-var import_jsx_runtime1733 = require("react/jsx-runtime");
+var import_jsx_runtime1777 = require("react/jsx-runtime");
 var Copilot = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_copilot.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1733.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1777.jsx)(
     "img",
     {
       src: import_copilot.default,
@@ -30954,12 +31779,12 @@ var Copilot_default = Copilot;
 
 // src/logos/Discord.tsx
 var import_discord = __toESM(require("@snowui-design-system/resource-base/assets/logos/discord.svg"));
-var import_jsx_runtime1734 = require("react/jsx-runtime");
+var import_jsx_runtime1778 = require("react/jsx-runtime");
 var Discord = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_discord.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1734.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1778.jsx)(
     "img",
     {
       src: import_discord.default,
@@ -30974,12 +31799,12 @@ var Discord_default = Discord;
 
 // src/logos/Dribbble.tsx
 var import_dribbble = __toESM(require("@snowui-design-system/resource-base/assets/logos/dribbble.svg"));
-var import_jsx_runtime1735 = require("react/jsx-runtime");
+var import_jsx_runtime1779 = require("react/jsx-runtime");
 var Dribbble = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_dribbble.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1735.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1779.jsx)(
     "img",
     {
       src: import_dribbble.default,
@@ -30994,12 +31819,12 @@ var Dribbble_default = Dribbble;
 
 // src/logos/Dropbox.tsx
 var import_dropbox = __toESM(require("@snowui-design-system/resource-base/assets/logos/dropbox.svg"));
-var import_jsx_runtime1736 = require("react/jsx-runtime");
+var import_jsx_runtime1780 = require("react/jsx-runtime");
 var Dropbox = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_dropbox.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1736.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1780.jsx)(
     "img",
     {
       src: import_dropbox.default,
@@ -31014,12 +31839,12 @@ var Dropbox_default = Dropbox;
 
 // src/logos/Excel.tsx
 var import_excel = __toESM(require("@snowui-design-system/resource-base/assets/logos/excel.svg"));
-var import_jsx_runtime1737 = require("react/jsx-runtime");
+var import_jsx_runtime1781 = require("react/jsx-runtime");
 var Excel = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_excel.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1737.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1781.jsx)(
     "img",
     {
       src: import_excel.default,
@@ -31034,12 +31859,12 @@ var Excel_default = Excel;
 
 // src/logos/Facebook.tsx
 var import_facebook = __toESM(require("@snowui-design-system/resource-base/assets/logos/facebook.svg"));
-var import_jsx_runtime1738 = require("react/jsx-runtime");
+var import_jsx_runtime1782 = require("react/jsx-runtime");
 var Facebook = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_facebook.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1738.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1782.jsx)(
     "img",
     {
       src: import_facebook.default,
@@ -31054,12 +31879,12 @@ var Facebook_default = Facebook;
 
 // src/logos/FigmaA.tsx
 var import_figma_a = __toESM(require("@snowui-design-system/resource-base/assets/logos/figma-a.svg"));
-var import_jsx_runtime1739 = require("react/jsx-runtime");
+var import_jsx_runtime1783 = require("react/jsx-runtime");
 var FigmaA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_figma_a.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1739.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1783.jsx)(
     "img",
     {
       src: import_figma_a.default,
@@ -31074,12 +31899,12 @@ var FigmaA_default = FigmaA;
 
 // src/logos/FigmaB.tsx
 var import_figma_b = __toESM(require("@snowui-design-system/resource-base/assets/logos/figma-b.svg"));
-var import_jsx_runtime1740 = require("react/jsx-runtime");
+var import_jsx_runtime1784 = require("react/jsx-runtime");
 var FigmaB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_figma_b.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1740.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1784.jsx)(
     "img",
     {
       src: import_figma_b.default,
@@ -31094,12 +31919,12 @@ var FigmaB_default = FigmaB;
 
 // src/logos/Framer.tsx
 var import_framer = __toESM(require("@snowui-design-system/resource-base/assets/logos/framer.svg"));
-var import_jsx_runtime1741 = require("react/jsx-runtime");
+var import_jsx_runtime1785 = require("react/jsx-runtime");
 var Framer = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_framer.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1741.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1785.jsx)(
     "img",
     {
       src: import_framer.default,
@@ -31114,12 +31939,12 @@ var Framer_default = Framer;
 
 // src/logos/Gemini.tsx
 var import_gemini = __toESM(require("@snowui-design-system/resource-base/assets/logos/gemini.svg"));
-var import_jsx_runtime1742 = require("react/jsx-runtime");
+var import_jsx_runtime1786 = require("react/jsx-runtime");
 var Gemini = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_gemini.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1742.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1786.jsx)(
     "img",
     {
       src: import_gemini.default,
@@ -31134,12 +31959,12 @@ var Gemini_default = Gemini;
 
 // src/logos/Github.tsx
 var import_github = __toESM(require("@snowui-design-system/resource-base/assets/logos/github.svg"));
-var import_jsx_runtime1743 = require("react/jsx-runtime");
+var import_jsx_runtime1787 = require("react/jsx-runtime");
 var Github = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_github.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1743.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1787.jsx)(
     "img",
     {
       src: import_github.default,
@@ -31154,12 +31979,12 @@ var Github_default = Github;
 
 // src/logos/GoogleDrive.tsx
 var import_google_drive = __toESM(require("@snowui-design-system/resource-base/assets/logos/google-drive.svg"));
-var import_jsx_runtime1744 = require("react/jsx-runtime");
+var import_jsx_runtime1788 = require("react/jsx-runtime");
 var GoogleDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_google_drive.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1744.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1788.jsx)(
     "img",
     {
       src: import_google_drive.default,
@@ -31174,12 +31999,12 @@ var GoogleDrive_default = GoogleDrive;
 
 // src/logos/GooglePlay.tsx
 var import_google_play = __toESM(require("@snowui-design-system/resource-base/assets/logos/google-play.svg"));
-var import_jsx_runtime1745 = require("react/jsx-runtime");
+var import_jsx_runtime1789 = require("react/jsx-runtime");
 var GooglePlay = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_google_play.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1745.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1789.jsx)(
     "img",
     {
       src: import_google_play.default,
@@ -31194,12 +32019,12 @@ var GooglePlay_default = GooglePlay;
 
 // src/logos/Google.tsx
 var import_google = __toESM(require("@snowui-design-system/resource-base/assets/logos/google.svg"));
-var import_jsx_runtime1746 = require("react/jsx-runtime");
+var import_jsx_runtime1790 = require("react/jsx-runtime");
 var Google = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_google.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1746.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1790.jsx)(
     "img",
     {
       src: import_google.default,
@@ -31214,12 +32039,12 @@ var Google_default = Google;
 
 // src/logos/Grok.tsx
 var import_grok = __toESM(require("@snowui-design-system/resource-base/assets/logos/grok.svg"));
-var import_jsx_runtime1747 = require("react/jsx-runtime");
+var import_jsx_runtime1791 = require("react/jsx-runtime");
 var Grok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_grok.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1747.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1791.jsx)(
     "img",
     {
       src: import_grok.default,
@@ -31234,12 +32059,12 @@ var Grok_default = Grok;
 
 // src/logos/Gumroad.tsx
 var import_gumroad = __toESM(require("@snowui-design-system/resource-base/assets/logos/gumroad.svg"));
-var import_jsx_runtime1748 = require("react/jsx-runtime");
+var import_jsx_runtime1792 = require("react/jsx-runtime");
 var Gumroad = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_gumroad.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1748.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1792.jsx)(
     "img",
     {
       src: import_gumroad.default,
@@ -31254,12 +32079,12 @@ var Gumroad_default = Gumroad;
 
 // src/logos/ICloud.tsx
 var import_i_cloud = __toESM(require("@snowui-design-system/resource-base/assets/logos/i-cloud.svg"));
-var import_jsx_runtime1749 = require("react/jsx-runtime");
+var import_jsx_runtime1793 = require("react/jsx-runtime");
 var ICloud = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_i_cloud.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1749.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1793.jsx)(
     "img",
     {
       src: import_i_cloud.default,
@@ -31274,12 +32099,12 @@ var ICloud_default = ICloud;
 
 // src/logos/Instagram.tsx
 var import_instagram = __toESM(require("@snowui-design-system/resource-base/assets/logos/instagram.svg"));
-var import_jsx_runtime1750 = require("react/jsx-runtime");
+var import_jsx_runtime1794 = require("react/jsx-runtime");
 var Instagram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_instagram.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1750.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1794.jsx)(
     "img",
     {
       src: import_instagram.default,
@@ -31294,12 +32119,12 @@ var Instagram_default = Instagram;
 
 // src/logos/LemonSqueezy.tsx
 var import_lemon_squeezy = __toESM(require("@snowui-design-system/resource-base/assets/logos/lemon-squeezy.svg"));
-var import_jsx_runtime1751 = require("react/jsx-runtime");
+var import_jsx_runtime1795 = require("react/jsx-runtime");
 var LemonSqueezy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_lemon_squeezy.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1751.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1795.jsx)(
     "img",
     {
       src: import_lemon_squeezy.default,
@@ -31314,12 +32139,12 @@ var LemonSqueezy_default = LemonSqueezy;
 
 // src/logos/LinkedIn.tsx
 var import_linked_in = __toESM(require("@snowui-design-system/resource-base/assets/logos/linked-in.svg"));
-var import_jsx_runtime1752 = require("react/jsx-runtime");
+var import_jsx_runtime1796 = require("react/jsx-runtime");
 var LinkedIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_linked_in.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1752.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1796.jsx)(
     "img",
     {
       src: import_linked_in.default,
@@ -31334,12 +32159,12 @@ var LinkedIn_default = LinkedIn;
 
 // src/logos/Loop.tsx
 var import_loop = __toESM(require("@snowui-design-system/resource-base/assets/logos/loop.svg"));
-var import_jsx_runtime1753 = require("react/jsx-runtime");
+var import_jsx_runtime1797 = require("react/jsx-runtime");
 var Loop = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_loop.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1753.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1797.jsx)(
     "img",
     {
       src: import_loop.default,
@@ -31354,12 +32179,12 @@ var Loop_default = Loop;
 
 // src/logos/Mastercard.tsx
 var import_mastercard = __toESM(require("@snowui-design-system/resource-base/assets/logos/mastercard.svg"));
-var import_jsx_runtime1754 = require("react/jsx-runtime");
+var import_jsx_runtime1798 = require("react/jsx-runtime");
 var Mastercard = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_mastercard.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1754.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1798.jsx)(
     "img",
     {
       src: import_mastercard.default,
@@ -31374,12 +32199,12 @@ var Mastercard_default = Mastercard;
 
 // src/logos/Medium.tsx
 var import_medium = __toESM(require("@snowui-design-system/resource-base/assets/logos/medium.svg"));
-var import_jsx_runtime1755 = require("react/jsx-runtime");
+var import_jsx_runtime1799 = require("react/jsx-runtime");
 var Medium = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_medium.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1755.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1799.jsx)(
     "img",
     {
       src: import_medium.default,
@@ -31394,12 +32219,12 @@ var Medium_default = Medium;
 
 // src/logos/Messenger.tsx
 var import_messenger = __toESM(require("@snowui-design-system/resource-base/assets/logos/messenger.svg"));
-var import_jsx_runtime1756 = require("react/jsx-runtime");
+var import_jsx_runtime1800 = require("react/jsx-runtime");
 var Messenger = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_messenger.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1756.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1800.jsx)(
     "img",
     {
       src: import_messenger.default,
@@ -31414,12 +32239,12 @@ var Messenger_default = Messenger;
 
 // src/logos/Meta.tsx
 var import_meta = __toESM(require("@snowui-design-system/resource-base/assets/logos/meta.svg"));
-var import_jsx_runtime1757 = require("react/jsx-runtime");
+var import_jsx_runtime1801 = require("react/jsx-runtime");
 var Meta = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_meta.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1757.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1801.jsx)(
     "img",
     {
       src: import_meta.default,
@@ -31434,12 +32259,12 @@ var Meta_default = Meta;
 
 // src/logos/Microsoft.tsx
 var import_microsoft = __toESM(require("@snowui-design-system/resource-base/assets/logos/microsoft.svg"));
-var import_jsx_runtime1758 = require("react/jsx-runtime");
+var import_jsx_runtime1802 = require("react/jsx-runtime");
 var Microsoft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_microsoft.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1758.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1802.jsx)(
     "img",
     {
       src: import_microsoft.default,
@@ -31454,12 +32279,12 @@ var Microsoft_default = Microsoft;
 
 // src/logos/Midjourney.tsx
 var import_midjourney = __toESM(require("@snowui-design-system/resource-base/assets/logos/midjourney.svg"));
-var import_jsx_runtime1759 = require("react/jsx-runtime");
+var import_jsx_runtime1803 = require("react/jsx-runtime");
 var Midjourney = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_midjourney.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1759.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1803.jsx)(
     "img",
     {
       src: import_midjourney.default,
@@ -31474,12 +32299,12 @@ var Midjourney_default = Midjourney;
 
 // src/logos/Nintendo.tsx
 var import_nintendo = __toESM(require("@snowui-design-system/resource-base/assets/logos/nintendo.svg"));
-var import_jsx_runtime1760 = require("react/jsx-runtime");
+var import_jsx_runtime1804 = require("react/jsx-runtime");
 var Nintendo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_nintendo.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1760.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1804.jsx)(
     "img",
     {
       src: import_nintendo.default,
@@ -31494,12 +32319,12 @@ var Nintendo_default = Nintendo;
 
 // src/logos/Notion.tsx
 var import_notion = __toESM(require("@snowui-design-system/resource-base/assets/logos/notion.svg"));
-var import_jsx_runtime1761 = require("react/jsx-runtime");
+var import_jsx_runtime1805 = require("react/jsx-runtime");
 var Notion = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_notion.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1761.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1805.jsx)(
     "img",
     {
       src: import_notion.default,
@@ -31514,12 +32339,12 @@ var Notion_default = Notion;
 
 // src/logos/OneDrive.tsx
 var import_one_drive = __toESM(require("@snowui-design-system/resource-base/assets/logos/one-drive.svg"));
-var import_jsx_runtime1762 = require("react/jsx-runtime");
+var import_jsx_runtime1806 = require("react/jsx-runtime");
 var OneDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_one_drive.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1762.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1806.jsx)(
     "img",
     {
       src: import_one_drive.default,
@@ -31534,12 +32359,12 @@ var OneDrive_default = OneDrive;
 
 // src/logos/OneNote.tsx
 var import_one_note = __toESM(require("@snowui-design-system/resource-base/assets/logos/one-note.svg"));
-var import_jsx_runtime1763 = require("react/jsx-runtime");
+var import_jsx_runtime1807 = require("react/jsx-runtime");
 var OneNote = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_one_note.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1763.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1807.jsx)(
     "img",
     {
       src: import_one_note.default,
@@ -31554,12 +32379,12 @@ var OneNote_default = OneNote;
 
 // src/logos/PayPal.tsx
 var import_pay_pal = __toESM(require("@snowui-design-system/resource-base/assets/logos/pay-pal.svg"));
-var import_jsx_runtime1764 = require("react/jsx-runtime");
+var import_jsx_runtime1808 = require("react/jsx-runtime");
 var PayPal = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_pay_pal.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1764.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1808.jsx)(
     "img",
     {
       src: import_pay_pal.default,
@@ -31574,12 +32399,12 @@ var PayPal_default = PayPal;
 
 // src/logos/Perplexity.tsx
 var import_perplexity = __toESM(require("@snowui-design-system/resource-base/assets/logos/perplexity.svg"));
-var import_jsx_runtime1765 = require("react/jsx-runtime");
+var import_jsx_runtime1809 = require("react/jsx-runtime");
 var Perplexity = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_perplexity.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1765.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1809.jsx)(
     "img",
     {
       src: import_perplexity.default,
@@ -31594,12 +32419,12 @@ var Perplexity_default = Perplexity;
 
 // src/logos/Pinterest.tsx
 var import_pinterest = __toESM(require("@snowui-design-system/resource-base/assets/logos/pinterest.svg"));
-var import_jsx_runtime1766 = require("react/jsx-runtime");
+var import_jsx_runtime1810 = require("react/jsx-runtime");
 var Pinterest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_pinterest.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1766.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1810.jsx)(
     "img",
     {
       src: import_pinterest.default,
@@ -31614,12 +32439,12 @@ var Pinterest_default = Pinterest;
 
 // src/logos/PowerPoint.tsx
 var import_power_point = __toESM(require("@snowui-design-system/resource-base/assets/logos/power-point.svg"));
-var import_jsx_runtime1767 = require("react/jsx-runtime");
+var import_jsx_runtime1811 = require("react/jsx-runtime");
 var PowerPoint = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_power_point.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1767.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1811.jsx)(
     "img",
     {
       src: import_power_point.default,
@@ -31634,12 +32459,12 @@ var PowerPoint_default = PowerPoint;
 
 // src/logos/Reddit.tsx
 var import_reddit = __toESM(require("@snowui-design-system/resource-base/assets/logos/reddit.svg"));
-var import_jsx_runtime1768 = require("react/jsx-runtime");
+var import_jsx_runtime1812 = require("react/jsx-runtime");
 var Reddit = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_reddit.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1768.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1812.jsx)(
     "img",
     {
       src: import_reddit.default,
@@ -31654,12 +32479,12 @@ var Reddit_default = Reddit;
 
 // src/logos/RssLogo.tsx
 var import_rss_logo = __toESM(require("@snowui-design-system/resource-base/assets/logos/rss-logo.svg"));
-var import_jsx_runtime1769 = require("react/jsx-runtime");
+var import_jsx_runtime1813 = require("react/jsx-runtime");
 var RssLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_rss_logo.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1769.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1813.jsx)(
     "img",
     {
       src: import_rss_logo.default,
@@ -31674,12 +32499,12 @@ var RssLogo_default = RssLogo;
 
 // src/logos/Slack.tsx
 var import_slack = __toESM(require("@snowui-design-system/resource-base/assets/logos/slack.svg"));
-var import_jsx_runtime1770 = require("react/jsx-runtime");
+var import_jsx_runtime1814 = require("react/jsx-runtime");
 var Slack = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_slack.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1770.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1814.jsx)(
     "img",
     {
       src: import_slack.default,
@@ -31694,12 +32519,12 @@ var Slack_default = Slack;
 
 // src/logos/Snapchat.tsx
 var import_snapchat = __toESM(require("@snowui-design-system/resource-base/assets/logos/snapchat.svg"));
-var import_jsx_runtime1771 = require("react/jsx-runtime");
+var import_jsx_runtime1815 = require("react/jsx-runtime");
 var Snapchat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_snapchat.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1771.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1815.jsx)(
     "img",
     {
       src: import_snapchat.default,
@@ -31714,12 +32539,12 @@ var Snapchat_default = Snapchat;
 
 // src/logos/SnowLogo.tsx
 var import_snow_logo = __toESM(require("@snowui-design-system/resource-base/assets/logos/snow-logo.svg"));
-var import_jsx_runtime1772 = require("react/jsx-runtime");
+var import_jsx_runtime1816 = require("react/jsx-runtime");
 var SnowLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_snow_logo.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1772.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1816.jsx)(
     "img",
     {
       src: import_snow_logo.default,
@@ -31734,12 +32559,12 @@ var SnowLogo_default = SnowLogo;
 
 // src/logos/Stripe.tsx
 var import_stripe = __toESM(require("@snowui-design-system/resource-base/assets/logos/stripe.svg"));
-var import_jsx_runtime1773 = require("react/jsx-runtime");
+var import_jsx_runtime1817 = require("react/jsx-runtime");
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_stripe.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1773.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1817.jsx)(
     "img",
     {
       src: import_stripe.default,
@@ -31754,12 +32579,12 @@ var Stripe_default = Stripe;
 
 // src/logos/Telegram.tsx
 var import_telegram = __toESM(require("@snowui-design-system/resource-base/assets/logos/telegram.svg"));
-var import_jsx_runtime1774 = require("react/jsx-runtime");
+var import_jsx_runtime1818 = require("react/jsx-runtime");
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_telegram.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1774.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1818.jsx)(
     "img",
     {
       src: import_telegram.default,
@@ -31774,12 +32599,12 @@ var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
 var import_threads = __toESM(require("@snowui-design-system/resource-base/assets/logos/threads.svg"));
-var import_jsx_runtime1775 = require("react/jsx-runtime");
+var import_jsx_runtime1819 = require("react/jsx-runtime");
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_threads.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1775.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1819.jsx)(
     "img",
     {
       src: import_threads.default,
@@ -31794,12 +32619,12 @@ var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
 var import_tik_tok = __toESM(require("@snowui-design-system/resource-base/assets/logos/tik-tok.svg"));
-var import_jsx_runtime1776 = require("react/jsx-runtime");
+var import_jsx_runtime1820 = require("react/jsx-runtime");
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_tik_tok.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1776.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1820.jsx)(
     "img",
     {
       src: import_tik_tok.default,
@@ -31814,12 +32639,12 @@ var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
 var import_twitch = __toESM(require("@snowui-design-system/resource-base/assets/logos/twitch.svg"));
-var import_jsx_runtime1777 = require("react/jsx-runtime");
+var import_jsx_runtime1821 = require("react/jsx-runtime");
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_twitch.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1777.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1821.jsx)(
     "img",
     {
       src: import_twitch.default,
@@ -31834,12 +32659,12 @@ var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
 var import_twitter = __toESM(require("@snowui-design-system/resource-base/assets/logos/twitter.svg"));
-var import_jsx_runtime1778 = require("react/jsx-runtime");
+var import_jsx_runtime1822 = require("react/jsx-runtime");
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_twitter.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1778.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1822.jsx)(
     "img",
     {
       src: import_twitter.default,
@@ -31854,12 +32679,12 @@ var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
 var import_visa = __toESM(require("@snowui-design-system/resource-base/assets/logos/visa.svg"));
-var import_jsx_runtime1779 = require("react/jsx-runtime");
+var import_jsx_runtime1823 = require("react/jsx-runtime");
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_visa.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1779.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1823.jsx)(
     "img",
     {
       src: import_visa.default,
@@ -31874,12 +32699,12 @@ var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
 var import_whats_app = __toESM(require("@snowui-design-system/resource-base/assets/logos/whats-app.svg"));
-var import_jsx_runtime1780 = require("react/jsx-runtime");
+var import_jsx_runtime1824 = require("react/jsx-runtime");
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_whats_app.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1780.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1824.jsx)(
     "img",
     {
       src: import_whats_app.default,
@@ -31894,12 +32719,12 @@ var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
 var import_word = __toESM(require("@snowui-design-system/resource-base/assets/logos/word.svg"));
-var import_jsx_runtime1781 = require("react/jsx-runtime");
+var import_jsx_runtime1825 = require("react/jsx-runtime");
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_word.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1781.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1825.jsx)(
     "img",
     {
       src: import_word.default,
@@ -31914,12 +32739,12 @@ var Word_default = Word;
 
 // src/logos/Xlogo.tsx
 var import_xlogo = __toESM(require("@snowui-design-system/resource-base/assets/logos/xlogo.svg"));
-var import_jsx_runtime1782 = require("react/jsx-runtime");
+var import_jsx_runtime1826 = require("react/jsx-runtime");
 var Xlogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_xlogo.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1782.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1826.jsx)(
     "img",
     {
       src: import_xlogo.default,
@@ -31934,12 +32759,12 @@ var Xlogo_default = Xlogo;
 
 // src/logos/Youtube.tsx
 var import_youtube = __toESM(require("@snowui-design-system/resource-base/assets/logos/youtube.svg"));
-var import_jsx_runtime1783 = require("react/jsx-runtime");
+var import_jsx_runtime1827 = require("react/jsx-runtime");
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = import_youtube.default;
-  return /* @__PURE__ */ (0, import_jsx_runtime1783.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime1827.jsx)(
     "img",
     {
       src: import_youtube.default,
@@ -33290,7 +34115,7 @@ var iconsByName = {
 
 // src/component-names.ts
 var componentNames = {
-  avatars: ["Avatar3d01", "Avatar3d01120", "Avatar3d01144", "Avatar3d011536", "Avatar3d01168", "Avatar3d01192", "Avatar3d01240", "Avatar3d01384", "Avatar3d0160", "Avatar3d0172", "Avatar3d01768", "Avatar3d0184", "Avatar3d0196", "Avatar3d02", "Avatar3d02120", "Avatar3d02144", "Avatar3d021536", "Avatar3d02168", "Avatar3d02192", "Avatar3d02240", "Avatar3d02384", "Avatar3d0260", "Avatar3d0272", "Avatar3d02768", "Avatar3d0284", "Avatar3d0296", "Avatar3d03", "Avatar3d03120", "Avatar3d03144", "Avatar3d031536", "Avatar3d03168", "Avatar3d03192", "Avatar3d03240", "Avatar3d03384", "Avatar3d0360", "Avatar3d0372", "Avatar3d03768", "Avatar3d0384", "Avatar3d0396", "Avatar3d04", "Avatar3d04120", "Avatar3d04144", "Avatar3d041536", "Avatar3d04168", "Avatar3d04192", "Avatar3d04240", "Avatar3d04384", "Avatar3d0460", "Avatar3d0472", "Avatar3d04768", "Avatar3d0484", "Avatar3d0496", "AvatarAbstract01", "AvatarAbstract01120", "AvatarAbstract01144", "AvatarAbstract011536", "AvatarAbstract01168", "AvatarAbstract01192", "AvatarAbstract01240", "AvatarAbstract01384", "AvatarAbstract0160", "AvatarAbstract0172", "AvatarAbstract01768", "AvatarAbstract0184", "AvatarAbstract0196", "AvatarAbstract02", "AvatarAbstract02120", "AvatarAbstract02144", "AvatarAbstract021536", "AvatarAbstract02168", "AvatarAbstract02192", "AvatarAbstract02240", "AvatarAbstract02384", "AvatarAbstract0260", "AvatarAbstract0272", "AvatarAbstract02768", "AvatarAbstract0284", "AvatarAbstract0296", "AvatarAbstract03", "AvatarAbstract03120", "AvatarAbstract03144", "AvatarAbstract031536", "AvatarAbstract03168", "AvatarAbstract03192", "AvatarAbstract03240", "AvatarAbstract03384", "AvatarAbstract0360", "AvatarAbstract0372", "AvatarAbstract03768", "AvatarAbstract0384", "AvatarAbstract0396", "AvatarAbstract04", "AvatarAbstract04120", "AvatarAbstract04144", "AvatarAbstract041536", "AvatarAbstract04168", "AvatarAbstract04192", "AvatarAbstract04240", "AvatarAbstract04384", "AvatarAbstract0460", "AvatarAbstract0472", "AvatarAbstract04768", "AvatarAbstract0484", "AvatarAbstract0496", "AvatarByewind", "AvatarByewind120", "AvatarByewind144", "AvatarByewind1536", "AvatarByewind168", "AvatarByewind192", "AvatarByewind240", "AvatarByewind384", "AvatarByewind60", "AvatarByewind72", "AvatarByewind768", "AvatarByewind84", "AvatarByewind96", "AvatarDefault", "AvatarDefault120", "AvatarDefault144", "AvatarDefault1536", "AvatarDefault168", "AvatarDefault192", "AvatarDefault240", "AvatarDefault384", "AvatarDefault60", "AvatarDefault72", "AvatarDefault768", "AvatarDefault84", "AvatarDefault96", "AvatarFemale01", "AvatarFemale01120", "AvatarFemale01144", "AvatarFemale011536", "AvatarFemale01168", "AvatarFemale01192", "AvatarFemale01240", "AvatarFemale01384", "AvatarFemale0160", "AvatarFemale0172", "AvatarFemale01768", "AvatarFemale0184", "AvatarFemale0196", "AvatarFemale02", "AvatarFemale02120", "AvatarFemale02144", "AvatarFemale021536", "AvatarFemale02168", "AvatarFemale02192", "AvatarFemale02240", "AvatarFemale02384", "AvatarFemale0260", "AvatarFemale0272", "AvatarFemale02768", "AvatarFemale0284", "AvatarFemale0296", "AvatarFemale03", "AvatarFemale03120", "AvatarFemale03144", "AvatarFemale031536", "AvatarFemale03168", "AvatarFemale03192", "AvatarFemale03240", "AvatarFemale03384", "AvatarFemale0360", "AvatarFemale0372", "AvatarFemale03768", "AvatarFemale0384", "AvatarFemale0396", "AvatarFemale04", "AvatarFemale04120", "AvatarFemale04144", "AvatarFemale041536", "AvatarFemale04168", "AvatarFemale04192", "AvatarFemale04240", "AvatarFemale04384", "AvatarFemale0460", "AvatarFemale0472", "AvatarFemale04768", "AvatarFemale0484", "AvatarFemale0496", "AvatarFemale05", "AvatarFemale05120", "AvatarFemale05144", "AvatarFemale051536", "AvatarFemale05168", "AvatarFemale05192", "AvatarFemale05240", "AvatarFemale05384", "AvatarFemale0560", "AvatarFemale0572", "AvatarFemale05768", "AvatarFemale0584", "AvatarFemale0596", "AvatarFemale06", "AvatarFemale06120", "AvatarFemale06144", "AvatarFemale061536", "AvatarFemale06168", "AvatarFemale06192", "AvatarFemale06240", "AvatarFemale06384", "AvatarFemale0660", "AvatarFemale0672", "AvatarFemale06768", "AvatarFemale0684", "AvatarFemale0696", "AvatarMale01", "AvatarMale01120", "AvatarMale01144", "AvatarMale011536", "AvatarMale01168", "AvatarMale01192", "AvatarMale01240", "AvatarMale01384", "AvatarMale0160", "AvatarMale0172", "AvatarMale01768", "AvatarMale0184", "AvatarMale0196", "AvatarMale02", "AvatarMale02120", "AvatarMale02144", "AvatarMale021536", "AvatarMale02168", "AvatarMale02192", "AvatarMale02240", "AvatarMale02384", "AvatarMale0260", "AvatarMale0272", "AvatarMale02768", "AvatarMale0284", "AvatarMale0296", "AvatarMale03", "AvatarMale03120", "AvatarMale03144", "AvatarMale031536", "AvatarMale03168", "AvatarMale03192", "AvatarMale03240", "AvatarMale03384", "AvatarMale0360", "AvatarMale0372", "AvatarMale03768", "AvatarMale0384", "AvatarMale0396", "AvatarMale04", "AvatarMale04120", "AvatarMale04144", "AvatarMale041536", "AvatarMale04168", "AvatarMale04192", "AvatarMale04240", "AvatarMale04384", "AvatarMale0460", "AvatarMale0472", "AvatarMale04768", "AvatarMale0484", "AvatarMale0496", "AvatarMale05", "AvatarMale05120", "AvatarMale05144", "AvatarMale051536", "AvatarMale05168", "AvatarMale05192", "AvatarMale05240", "AvatarMale05384", "AvatarMale0560", "AvatarMale0572", "AvatarMale05768", "AvatarMale0584", "AvatarMale0596", "AvatarMale06", "AvatarMale06120", "AvatarMale06144", "AvatarMale061536", "AvatarMale06168", "AvatarMale06192", "AvatarMale06240", "AvatarMale06384", "AvatarMale0660", "AvatarMale0672", "AvatarMale06768", "AvatarMale0684", "AvatarMale0696"],
+  avatars: ["Avatar3d01", "Avatar3d0112", "Avatar3d01120", "Avatar3d01144", "Avatar3d011536", "Avatar3d01168", "Avatar3d01192", "Avatar3d01240", "Avatar3d0136", "Avatar3d01384", "Avatar3d0160", "Avatar3d0172", "Avatar3d01768", "Avatar3d0184", "Avatar3d0196", "Avatar3d02", "Avatar3d0212", "Avatar3d02120", "Avatar3d02144", "Avatar3d021536", "Avatar3d02168", "Avatar3d02192", "Avatar3d02240", "Avatar3d0236", "Avatar3d02384", "Avatar3d0260", "Avatar3d0272", "Avatar3d02768", "Avatar3d0284", "Avatar3d0296", "Avatar3d03", "Avatar3d0312", "Avatar3d03120", "Avatar3d03144", "Avatar3d031536", "Avatar3d03168", "Avatar3d03192", "Avatar3d03240", "Avatar3d0336", "Avatar3d03384", "Avatar3d0360", "Avatar3d0372", "Avatar3d03768", "Avatar3d0384", "Avatar3d0396", "Avatar3d04", "Avatar3d0412", "Avatar3d04120", "Avatar3d04144", "Avatar3d041536", "Avatar3d04168", "Avatar3d04192", "Avatar3d04240", "Avatar3d0436", "Avatar3d04384", "Avatar3d0460", "Avatar3d0472", "Avatar3d04768", "Avatar3d0484", "Avatar3d0496", "AvatarAbstract01", "AvatarAbstract0112", "AvatarAbstract01120", "AvatarAbstract01144", "AvatarAbstract011536", "AvatarAbstract01168", "AvatarAbstract01192", "AvatarAbstract01240", "AvatarAbstract0136", "AvatarAbstract01384", "AvatarAbstract0160", "AvatarAbstract0172", "AvatarAbstract01768", "AvatarAbstract0184", "AvatarAbstract0196", "AvatarAbstract02", "AvatarAbstract0212", "AvatarAbstract02120", "AvatarAbstract02144", "AvatarAbstract021536", "AvatarAbstract02168", "AvatarAbstract02192", "AvatarAbstract02240", "AvatarAbstract0236", "AvatarAbstract02384", "AvatarAbstract0260", "AvatarAbstract0272", "AvatarAbstract02768", "AvatarAbstract0284", "AvatarAbstract0296", "AvatarAbstract03", "AvatarAbstract0312", "AvatarAbstract03120", "AvatarAbstract03144", "AvatarAbstract031536", "AvatarAbstract03168", "AvatarAbstract03192", "AvatarAbstract03240", "AvatarAbstract0336", "AvatarAbstract03384", "AvatarAbstract0360", "AvatarAbstract0372", "AvatarAbstract03768", "AvatarAbstract0384", "AvatarAbstract0396", "AvatarAbstract04", "AvatarAbstract0412", "AvatarAbstract04120", "AvatarAbstract04144", "AvatarAbstract041536", "AvatarAbstract04168", "AvatarAbstract04192", "AvatarAbstract04240", "AvatarAbstract0436", "AvatarAbstract04384", "AvatarAbstract0460", "AvatarAbstract0472", "AvatarAbstract04768", "AvatarAbstract0484", "AvatarAbstract0496", "AvatarByewind", "AvatarByewind12", "AvatarByewind120", "AvatarByewind144", "AvatarByewind1536", "AvatarByewind168", "AvatarByewind192", "AvatarByewind240", "AvatarByewind36", "AvatarByewind384", "AvatarByewind60", "AvatarByewind72", "AvatarByewind768", "AvatarByewind84", "AvatarByewind96", "AvatarDefault", "AvatarDefault12", "AvatarDefault120", "AvatarDefault144", "AvatarDefault1536", "AvatarDefault168", "AvatarDefault192", "AvatarDefault240", "AvatarDefault36", "AvatarDefault384", "AvatarDefault60", "AvatarDefault72", "AvatarDefault768", "AvatarDefault84", "AvatarDefault96", "AvatarFemale01", "AvatarFemale0112", "AvatarFemale01120", "AvatarFemale01144", "AvatarFemale011536", "AvatarFemale01168", "AvatarFemale01192", "AvatarFemale01240", "AvatarFemale0136", "AvatarFemale01384", "AvatarFemale0160", "AvatarFemale0172", "AvatarFemale01768", "AvatarFemale0184", "AvatarFemale0196", "AvatarFemale02", "AvatarFemale0212", "AvatarFemale02120", "AvatarFemale02144", "AvatarFemale021536", "AvatarFemale02168", "AvatarFemale02192", "AvatarFemale02240", "AvatarFemale0236", "AvatarFemale02384", "AvatarFemale0260", "AvatarFemale0272", "AvatarFemale02768", "AvatarFemale0284", "AvatarFemale0296", "AvatarFemale03", "AvatarFemale0312", "AvatarFemale03120", "AvatarFemale03144", "AvatarFemale031536", "AvatarFemale03168", "AvatarFemale03192", "AvatarFemale03240", "AvatarFemale0336", "AvatarFemale03384", "AvatarFemale0360", "AvatarFemale0372", "AvatarFemale03768", "AvatarFemale0384", "AvatarFemale0396", "AvatarFemale04", "AvatarFemale0412", "AvatarFemale04120", "AvatarFemale04144", "AvatarFemale041536", "AvatarFemale04168", "AvatarFemale04192", "AvatarFemale04240", "AvatarFemale0436", "AvatarFemale04384", "AvatarFemale0460", "AvatarFemale0472", "AvatarFemale04768", "AvatarFemale0484", "AvatarFemale0496", "AvatarFemale05", "AvatarFemale0512", "AvatarFemale05120", "AvatarFemale05144", "AvatarFemale051536", "AvatarFemale05168", "AvatarFemale05192", "AvatarFemale05240", "AvatarFemale0536", "AvatarFemale05384", "AvatarFemale0560", "AvatarFemale0572", "AvatarFemale05768", "AvatarFemale0584", "AvatarFemale0596", "AvatarFemale06", "AvatarFemale0612", "AvatarFemale06120", "AvatarFemale06144", "AvatarFemale061536", "AvatarFemale06168", "AvatarFemale06192", "AvatarFemale06240", "AvatarFemale0636", "AvatarFemale06384", "AvatarFemale0660", "AvatarFemale0672", "AvatarFemale06768", "AvatarFemale0684", "AvatarFemale0696", "AvatarMale01", "AvatarMale0112", "AvatarMale01120", "AvatarMale01144", "AvatarMale011536", "AvatarMale01168", "AvatarMale01192", "AvatarMale01240", "AvatarMale0136", "AvatarMale01384", "AvatarMale0160", "AvatarMale0172", "AvatarMale01768", "AvatarMale0184", "AvatarMale0196", "AvatarMale02", "AvatarMale0212", "AvatarMale02120", "AvatarMale02144", "AvatarMale021536", "AvatarMale02168", "AvatarMale02192", "AvatarMale02240", "AvatarMale0236", "AvatarMale02384", "AvatarMale0260", "AvatarMale0272", "AvatarMale02768", "AvatarMale0284", "AvatarMale0296", "AvatarMale03", "AvatarMale0312", "AvatarMale03120", "AvatarMale03144", "AvatarMale031536", "AvatarMale03168", "AvatarMale03192", "AvatarMale03240", "AvatarMale0336", "AvatarMale03384", "AvatarMale0360", "AvatarMale0372", "AvatarMale03768", "AvatarMale0384", "AvatarMale0396", "AvatarMale04", "AvatarMale0412", "AvatarMale04120", "AvatarMale04144", "AvatarMale041536", "AvatarMale04168", "AvatarMale04192", "AvatarMale04240", "AvatarMale0436", "AvatarMale04384", "AvatarMale0460", "AvatarMale0472", "AvatarMale04768", "AvatarMale0484", "AvatarMale0496", "AvatarMale05", "AvatarMale0512", "AvatarMale05120", "AvatarMale05144", "AvatarMale051536", "AvatarMale05168", "AvatarMale05192", "AvatarMale05240", "AvatarMale0536", "AvatarMale05384", "AvatarMale0560", "AvatarMale0572", "AvatarMale05768", "AvatarMale0584", "AvatarMale0596", "AvatarMale06", "AvatarMale0612", "AvatarMale06120", "AvatarMale06144", "AvatarMale061536", "AvatarMale06168", "AvatarMale06192", "AvatarMale06240", "AvatarMale0636", "AvatarMale06384", "AvatarMale0660", "AvatarMale0672", "AvatarMale06768", "AvatarMale0684", "AvatarMale0696"],
   backgrounds: ["Geometric01", "Geometric02", "Geometric03", "Geometric04", "Geometric05", "Geometric06", "Geometric07", "Gradient01", "Gradient02", "Gradient03", "Gradient04", "Gradient05", "Gradient06", "Gradient07", "Gradient08", "Gradient09", "Gradient10", "Gradient11", "Gradient12", "Gradient13", "Gradient14", "Minimal01", "Minimal02", "Minimal03"],
   cursors: ["CursorsBeachball", "CursorsCross", "CursorsDefault", "CursorsHandGrabbing", "CursorsHandOpen", "CursorsHandPointing", "CursorsMenu", "CursorsMove", "CursorsResizeDown", "CursorsResizeLeft", "CursorsResizeLeftRight", "CursorsResizeNorthEastSouthWest", "CursorsResizeNorthSouth", "CursorsResizeNorthWestSouthEast", "CursorsResizeRight", "CursorsResizeUp", "CursorsResizeUpDown", "CursorsResizeWestEast", "CursorsTextCursor", "CursorsZoomIn", "CursorsZoomOut"],
   emoji: ["BombEmoji", "FaceBlowingKiss", "FaceSteamFromNose", "FaceTearsJoy", "GrinningCat", "GrinningFaceSweat", "HeartArrow", "HundredPoints", "LoudlyCryingFace", "RedHeart", "RobotEmoji", "SeeMonkey", "SkullCrossbones", "SmilingFaceHearts", "SmilingFaceHorns", "SmilingFaceSunglasses", "SnowflakeEmoji", "Snowman", "UmbrellaEmoji", "WinkingFace", "WinkingFaceTongue"],
@@ -33461,12 +34286,14 @@ var componentNames = {
   At,
   Atom,
   Avatar3d01,
+  Avatar3d0112,
   Avatar3d01120,
   Avatar3d01144,
   Avatar3d011536,
   Avatar3d01168,
   Avatar3d01192,
   Avatar3d01240,
+  Avatar3d0136,
   Avatar3d01384,
   Avatar3d0160,
   Avatar3d0172,
@@ -33474,12 +34301,14 @@ var componentNames = {
   Avatar3d0184,
   Avatar3d0196,
   Avatar3d02,
+  Avatar3d0212,
   Avatar3d02120,
   Avatar3d02144,
   Avatar3d021536,
   Avatar3d02168,
   Avatar3d02192,
   Avatar3d02240,
+  Avatar3d0236,
   Avatar3d02384,
   Avatar3d0260,
   Avatar3d0272,
@@ -33487,12 +34316,14 @@ var componentNames = {
   Avatar3d0284,
   Avatar3d0296,
   Avatar3d03,
+  Avatar3d0312,
   Avatar3d03120,
   Avatar3d03144,
   Avatar3d031536,
   Avatar3d03168,
   Avatar3d03192,
   Avatar3d03240,
+  Avatar3d0336,
   Avatar3d03384,
   Avatar3d0360,
   Avatar3d0372,
@@ -33500,12 +34331,14 @@ var componentNames = {
   Avatar3d0384,
   Avatar3d0396,
   Avatar3d04,
+  Avatar3d0412,
   Avatar3d04120,
   Avatar3d04144,
   Avatar3d041536,
   Avatar3d04168,
   Avatar3d04192,
   Avatar3d04240,
+  Avatar3d0436,
   Avatar3d04384,
   Avatar3d0460,
   Avatar3d0472,
@@ -33513,12 +34346,14 @@ var componentNames = {
   Avatar3d0484,
   Avatar3d0496,
   AvatarAbstract01,
+  AvatarAbstract0112,
   AvatarAbstract01120,
   AvatarAbstract01144,
   AvatarAbstract011536,
   AvatarAbstract01168,
   AvatarAbstract01192,
   AvatarAbstract01240,
+  AvatarAbstract0136,
   AvatarAbstract01384,
   AvatarAbstract0160,
   AvatarAbstract0172,
@@ -33526,12 +34361,14 @@ var componentNames = {
   AvatarAbstract0184,
   AvatarAbstract0196,
   AvatarAbstract02,
+  AvatarAbstract0212,
   AvatarAbstract02120,
   AvatarAbstract02144,
   AvatarAbstract021536,
   AvatarAbstract02168,
   AvatarAbstract02192,
   AvatarAbstract02240,
+  AvatarAbstract0236,
   AvatarAbstract02384,
   AvatarAbstract0260,
   AvatarAbstract0272,
@@ -33539,12 +34376,14 @@ var componentNames = {
   AvatarAbstract0284,
   AvatarAbstract0296,
   AvatarAbstract03,
+  AvatarAbstract0312,
   AvatarAbstract03120,
   AvatarAbstract03144,
   AvatarAbstract031536,
   AvatarAbstract03168,
   AvatarAbstract03192,
   AvatarAbstract03240,
+  AvatarAbstract0336,
   AvatarAbstract03384,
   AvatarAbstract0360,
   AvatarAbstract0372,
@@ -33552,12 +34391,14 @@ var componentNames = {
   AvatarAbstract0384,
   AvatarAbstract0396,
   AvatarAbstract04,
+  AvatarAbstract0412,
   AvatarAbstract04120,
   AvatarAbstract04144,
   AvatarAbstract041536,
   AvatarAbstract04168,
   AvatarAbstract04192,
   AvatarAbstract04240,
+  AvatarAbstract0436,
   AvatarAbstract04384,
   AvatarAbstract0460,
   AvatarAbstract0472,
@@ -33565,12 +34406,14 @@ var componentNames = {
   AvatarAbstract0484,
   AvatarAbstract0496,
   AvatarByewind,
+  AvatarByewind12,
   AvatarByewind120,
   AvatarByewind144,
   AvatarByewind1536,
   AvatarByewind168,
   AvatarByewind192,
   AvatarByewind240,
+  AvatarByewind36,
   AvatarByewind384,
   AvatarByewind60,
   AvatarByewind72,
@@ -33578,12 +34421,14 @@ var componentNames = {
   AvatarByewind84,
   AvatarByewind96,
   AvatarDefault,
+  AvatarDefault12,
   AvatarDefault120,
   AvatarDefault144,
   AvatarDefault1536,
   AvatarDefault168,
   AvatarDefault192,
   AvatarDefault240,
+  AvatarDefault36,
   AvatarDefault384,
   AvatarDefault60,
   AvatarDefault72,
@@ -33591,12 +34436,14 @@ var componentNames = {
   AvatarDefault84,
   AvatarDefault96,
   AvatarFemale01,
+  AvatarFemale0112,
   AvatarFemale01120,
   AvatarFemale01144,
   AvatarFemale011536,
   AvatarFemale01168,
   AvatarFemale01192,
   AvatarFemale01240,
+  AvatarFemale0136,
   AvatarFemale01384,
   AvatarFemale0160,
   AvatarFemale0172,
@@ -33604,12 +34451,14 @@ var componentNames = {
   AvatarFemale0184,
   AvatarFemale0196,
   AvatarFemale02,
+  AvatarFemale0212,
   AvatarFemale02120,
   AvatarFemale02144,
   AvatarFemale021536,
   AvatarFemale02168,
   AvatarFemale02192,
   AvatarFemale02240,
+  AvatarFemale0236,
   AvatarFemale02384,
   AvatarFemale0260,
   AvatarFemale0272,
@@ -33617,12 +34466,14 @@ var componentNames = {
   AvatarFemale0284,
   AvatarFemale0296,
   AvatarFemale03,
+  AvatarFemale0312,
   AvatarFemale03120,
   AvatarFemale03144,
   AvatarFemale031536,
   AvatarFemale03168,
   AvatarFemale03192,
   AvatarFemale03240,
+  AvatarFemale0336,
   AvatarFemale03384,
   AvatarFemale0360,
   AvatarFemale0372,
@@ -33630,12 +34481,14 @@ var componentNames = {
   AvatarFemale0384,
   AvatarFemale0396,
   AvatarFemale04,
+  AvatarFemale0412,
   AvatarFemale04120,
   AvatarFemale04144,
   AvatarFemale041536,
   AvatarFemale04168,
   AvatarFemale04192,
   AvatarFemale04240,
+  AvatarFemale0436,
   AvatarFemale04384,
   AvatarFemale0460,
   AvatarFemale0472,
@@ -33643,12 +34496,14 @@ var componentNames = {
   AvatarFemale0484,
   AvatarFemale0496,
   AvatarFemale05,
+  AvatarFemale0512,
   AvatarFemale05120,
   AvatarFemale05144,
   AvatarFemale051536,
   AvatarFemale05168,
   AvatarFemale05192,
   AvatarFemale05240,
+  AvatarFemale0536,
   AvatarFemale05384,
   AvatarFemale0560,
   AvatarFemale0572,
@@ -33656,12 +34511,14 @@ var componentNames = {
   AvatarFemale0584,
   AvatarFemale0596,
   AvatarFemale06,
+  AvatarFemale0612,
   AvatarFemale06120,
   AvatarFemale06144,
   AvatarFemale061536,
   AvatarFemale06168,
   AvatarFemale06192,
   AvatarFemale06240,
+  AvatarFemale0636,
   AvatarFemale06384,
   AvatarFemale0660,
   AvatarFemale0672,
@@ -33669,12 +34526,14 @@ var componentNames = {
   AvatarFemale0684,
   AvatarFemale0696,
   AvatarMale01,
+  AvatarMale0112,
   AvatarMale01120,
   AvatarMale01144,
   AvatarMale011536,
   AvatarMale01168,
   AvatarMale01192,
   AvatarMale01240,
+  AvatarMale0136,
   AvatarMale01384,
   AvatarMale0160,
   AvatarMale0172,
@@ -33682,12 +34541,14 @@ var componentNames = {
   AvatarMale0184,
   AvatarMale0196,
   AvatarMale02,
+  AvatarMale0212,
   AvatarMale02120,
   AvatarMale02144,
   AvatarMale021536,
   AvatarMale02168,
   AvatarMale02192,
   AvatarMale02240,
+  AvatarMale0236,
   AvatarMale02384,
   AvatarMale0260,
   AvatarMale0272,
@@ -33695,12 +34556,14 @@ var componentNames = {
   AvatarMale0284,
   AvatarMale0296,
   AvatarMale03,
+  AvatarMale0312,
   AvatarMale03120,
   AvatarMale03144,
   AvatarMale031536,
   AvatarMale03168,
   AvatarMale03192,
   AvatarMale03240,
+  AvatarMale0336,
   AvatarMale03384,
   AvatarMale0360,
   AvatarMale0372,
@@ -33708,12 +34571,14 @@ var componentNames = {
   AvatarMale0384,
   AvatarMale0396,
   AvatarMale04,
+  AvatarMale0412,
   AvatarMale04120,
   AvatarMale04144,
   AvatarMale041536,
   AvatarMale04168,
   AvatarMale04192,
   AvatarMale04240,
+  AvatarMale0436,
   AvatarMale04384,
   AvatarMale0460,
   AvatarMale0472,
@@ -33721,12 +34586,14 @@ var componentNames = {
   AvatarMale0484,
   AvatarMale0496,
   AvatarMale05,
+  AvatarMale0512,
   AvatarMale05120,
   AvatarMale05144,
   AvatarMale051536,
   AvatarMale05168,
   AvatarMale05192,
   AvatarMale05240,
+  AvatarMale0536,
   AvatarMale05384,
   AvatarMale0560,
   AvatarMale0572,
@@ -33734,12 +34601,14 @@ var componentNames = {
   AvatarMale0584,
   AvatarMale0596,
   AvatarMale06,
+  AvatarMale0612,
   AvatarMale06120,
   AvatarMale06144,
   AvatarMale061536,
   AvatarMale06168,
   AvatarMale06192,
   AvatarMale06240,
+  AvatarMale0636,
   AvatarMale06384,
   AvatarMale0660,
   AvatarMale0672,

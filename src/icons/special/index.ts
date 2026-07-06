@@ -1,0 +1,10 @@
+export { default as DefaultIcon } from './DefaultIcon';
+export { default as DocxIcon } from './DocxIcon';
+export { default as FormIcon } from './FormIcon';
+export { default as Notepad } from './Notepad';
+export { default as OnenoteIcon } from './OnenoteIcon';
+export { default as PptIcon } from './PptIcon';
+export { default as RoundAlt } from './RoundAlt';
+export { default as SearchIcon } from './SearchIcon';
+export { default as TxtIcon } from './TxtIcon';
+export { default as XlsxIcon } from './XlsxIcon';

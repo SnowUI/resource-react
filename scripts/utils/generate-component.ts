@@ -1,31 +1,49 @@
 import * as path from 'path';
 
-export function generateIconComponentCode(componentName: string, weightsObjectLiteral: string, viewBox: string | null = null): string {
+export function generateIconComponentCode(
+  componentName: string,
+  weightsObjectLiteral: string,
+  viewBox: string | null = null,
+  meta?: { collection: string; usageName: string },
+): string {
+  // 组件物理位置：src/icons/{collection}/{Name}.tsx，所以 lib 是 ../../lib
   const lines = [
     "import * as React from 'react';",
-    "import IconBase from '../lib/IconBase';",
-    "import type { IconProps } from '../lib/types';",
+    "import IconBase from '../../lib/IconBase';",
+    "import type { IconProps } from '../../lib/types';",
     '',
     `const weights = ${weightsObjectLiteral} as const;`,
   ];
-  
+
+  if (meta) {
+    lines.push(
+      `const meta = { collection: '${meta.collection}', usageName: '${meta.usageName}', componentName: '${componentName}' } as const;`,
+    );
+  }
+
   if (viewBox) {
     lines.push(`const defaultViewBox = "${viewBox}";`, '');
   }
-  
+
+  const baseProps = [
+    meta ? 'meta={meta}' : '',
+    viewBox ? 'viewBox={defaultViewBox}' : '',
+    'weights={weights as any}',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   lines.push(
     `export const ${componentName}: React.FC<IconProps> = React.forwardRef<SVGSVGElement, IconProps>((props, ref) => {`,
-    viewBox 
-      ? `  return <IconBase ref={ref} {...props} viewBox={defaultViewBox} weights={weights as any} />;`
-      : `  return <IconBase ref={ref} {...props} weights={weights as any} />;`,
+    `  return <IconBase ref={ref} {...props} ${baseProps} />;`,
     `});`,
     '',
     `${componentName}.displayName = '${componentName}';`,
     '',
     `export default ${componentName};`,
-    ''
+    '',
   );
-  
+
   return lines.join('\n');
 }
 

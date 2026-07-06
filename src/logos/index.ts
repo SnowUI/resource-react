@@ -58,5 +58,5 @@ export { default as Twitter } from './Twitter';
 export { default as Visa } from './Visa';
 export { default as WhatsApp } from './WhatsApp';
 export { default as Word } from './Word';
-export { default as Xlogo } from './Xlogo';
+export { default as XLogo } from './XLogo';
 export { default as Youtube } from './Youtube';

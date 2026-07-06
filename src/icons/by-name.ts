@@ -1,2669 +1,4026 @@
-import Add from './Add';
-import AddressBook from './AddressBook';
-import Ai from './Ai';
-import AirTrafficControl from './AirTrafficControl';
-import Airplane from './Airplane';
-import AirplaneInFlight from './AirplaneInFlight';
-import AirplaneLanding from './AirplaneLanding';
-import AirplaneTakeoff from './AirplaneTakeoff';
-import AirplaneTilt from './AirplaneTilt';
-import Airplay from './Airplay';
-import Alarm from './Alarm';
-import Alien from './Alien';
-import AlignBottom from './AlignBottom';
-import AlignBottomSimple from './AlignBottomSimple';
-import AlignCenterHorizontal from './AlignCenterHorizontal';
-import AlignCenterHorizontalSimple from './AlignCenterHorizontalSimple';
-import AlignCenterVertical from './AlignCenterVertical';
-import AlignCenterVerticalSimple from './AlignCenterVerticalSimple';
-import AlignLeft from './AlignLeft';
-import AlignLeftSimple from './AlignLeftSimple';
-import AlignRight from './AlignRight';
-import AlignRightSimple from './AlignRightSimple';
-import AlignTop from './AlignTop';
-import AlignTopSimple from './AlignTopSimple';
-import AmazonLogo from './AmazonLogo';
-import Anchor from './Anchor';
-import AnchorSimple from './AnchorSimple';
-import AndroidLogo from './AndroidLogo';
-import AngularLogo from './AngularLogo';
-import Aperture from './Aperture';
-import AppStoreLogo from './AppStoreLogo';
-import AppWindow from './AppWindow';
-import AppleLogo from './AppleLogo';
-import ApplePodcastsLogo from './ApplePodcastsLogo';
-import Archive from './Archive';
-import ArchiveBox from './ArchiveBox';
-import ArchiveTray from './ArchiveTray';
-import Armchair from './Armchair';
-import ArrowArcLeft from './ArrowArcLeft';
-import ArrowArcRight from './ArrowArcRight';
-import ArrowBendDoubleUpLeft from './ArrowBendDoubleUpLeft';
-import ArrowBendDoubleUpRight from './ArrowBendDoubleUpRight';
-import ArrowBendDownLeft from './ArrowBendDownLeft';
-import ArrowBendDownRight from './ArrowBendDownRight';
-import ArrowBendLeftDown from './ArrowBendLeftDown';
-import ArrowBendLeftUp from './ArrowBendLeftUp';
-import ArrowBendRightDown from './ArrowBendRightDown';
-import ArrowBendRightUp from './ArrowBendRightUp';
-import ArrowBendUpLeft from './ArrowBendUpLeft';
-import ArrowBendUpRight from './ArrowBendUpRight';
-import ArrowCircleDown from './ArrowCircleDown';
-import ArrowCircleDownLeft from './ArrowCircleDownLeft';
-import ArrowCircleDownRight from './ArrowCircleDownRight';
-import ArrowCircleLeft from './ArrowCircleLeft';
-import ArrowCircleRight from './ArrowCircleRight';
-import ArrowCircleUp from './ArrowCircleUp';
-import ArrowCircleUpLeft from './ArrowCircleUpLeft';
-import ArrowCircleUpRight from './ArrowCircleUpRight';
-import ArrowClockwise from './ArrowClockwise';
-import ArrowCounterClockwise from './ArrowCounterClockwise';
-import ArrowDown from './ArrowDown';
-import ArrowDownLeft from './ArrowDownLeft';
-import ArrowDownRight from './ArrowDownRight';
-import ArrowElbowDownLeft from './ArrowElbowDownLeft';
-import ArrowElbowDownRight from './ArrowElbowDownRight';
-import ArrowElbowLeft from './ArrowElbowLeft';
-import ArrowElbowLeftDown from './ArrowElbowLeftDown';
-import ArrowElbowLeftUp from './ArrowElbowLeftUp';
-import ArrowElbowRight from './ArrowElbowRight';
-import ArrowElbowRightDown from './ArrowElbowRightDown';
-import ArrowElbowRightUp from './ArrowElbowRightUp';
-import ArrowElbowUpLeft from './ArrowElbowUpLeft';
-import ArrowElbowUpRight from './ArrowElbowUpRight';
-import ArrowFall from './ArrowFall';
-import ArrowFatDown from './ArrowFatDown';
-import ArrowFatLeft from './ArrowFatLeft';
-import ArrowFatLineDown from './ArrowFatLineDown';
-import ArrowFatLineLeft from './ArrowFatLineLeft';
-import ArrowFatLineRight from './ArrowFatLineRight';
-import ArrowFatLineUp from './ArrowFatLineUp';
-import ArrowFatLinesDown from './ArrowFatLinesDown';
-import ArrowFatLinesLeft from './ArrowFatLinesLeft';
-import ArrowFatLinesRight from './ArrowFatLinesRight';
-import ArrowFatLinesUp from './ArrowFatLinesUp';
-import ArrowFatRight from './ArrowFatRight';
-import ArrowFatUp from './ArrowFatUp';
-import ArrowLeft from './ArrowLeft';
-import ArrowLineDown from './ArrowLineDown';
-import ArrowLineDown2 from './ArrowLineDown2';
-import ArrowLineDownLeft from './ArrowLineDownLeft';
-import ArrowLineDownRight from './ArrowLineDownRight';
-import ArrowLineLeft from './ArrowLineLeft';
-import ArrowLineLeft2 from './ArrowLineLeft2';
-import ArrowLineRight from './ArrowLineRight';
-import ArrowLineRight2 from './ArrowLineRight2';
-import ArrowLineUp from './ArrowLineUp';
-import ArrowLineUp2 from './ArrowLineUp2';
-import ArrowLineUpDown from './ArrowLineUpDown';
-import ArrowLineUpLeft from './ArrowLineUpLeft';
-import ArrowLineUpRight from './ArrowLineUpRight';
-import ArrowRight from './ArrowRight';
-import ArrowRight2 from './ArrowRight2';
-import ArrowRise from './ArrowRise';
-import ArrowSquareDown from './ArrowSquareDown';
-import ArrowSquareDownLeft from './ArrowSquareDownLeft';
-import ArrowSquareDownRight from './ArrowSquareDownRight';
-import ArrowSquareIn from './ArrowSquareIn';
-import ArrowSquareLeft from './ArrowSquareLeft';
-import ArrowSquareOut from './ArrowSquareOut';
-import ArrowSquareRight from './ArrowSquareRight';
-import ArrowSquareUp from './ArrowSquareUp';
-import ArrowSquareUpLeft from './ArrowSquareUpLeft';
-import ArrowSquareUpRight from './ArrowSquareUpRight';
-import ArrowUdownLeft from './ArrowUdownLeft';
-import ArrowUdownRight from './ArrowUdownRight';
-import ArrowUleftDown from './ArrowUleftDown';
-import ArrowUleftUp from './ArrowUleftUp';
-import ArrowUp from './ArrowUp';
-import ArrowUpLeft from './ArrowUpLeft';
-import ArrowUpRight from './ArrowUpRight';
-import ArrowUrightDown from './ArrowUrightDown';
-import ArrowUrightUp from './ArrowUrightUp';
-import ArrowUupLeft from './ArrowUupLeft';
-import ArrowUupRight from './ArrowUupRight';
-import ArrowsClockwise from './ArrowsClockwise';
-import ArrowsCounterClockwise from './ArrowsCounterClockwise';
-import ArrowsDown from './ArrowsDown';
-import ArrowsDownUp from './ArrowsDownUp';
-import ArrowsDownUp2 from './ArrowsDownUp2';
-import ArrowsHorizontal from './ArrowsHorizontal';
-import ArrowsIn from './ArrowsIn';
-import ArrowsInCardinal from './ArrowsInCardinal';
-import ArrowsInLineHorizontal from './ArrowsInLineHorizontal';
-import ArrowsInLineVertical from './ArrowsInLineVertical';
-import ArrowsInSimple from './ArrowsInSimple';
-import ArrowsLeftRight from './ArrowsLeftRight';
-import ArrowsMerge from './ArrowsMerge';
-import ArrowsOut from './ArrowsOut';
-import ArrowsOutCardinal from './ArrowsOutCardinal';
-import ArrowsOutLineHorizontal from './ArrowsOutLineHorizontal';
-import ArrowsOutLineVertical from './ArrowsOutLineVertical';
-import ArrowsOutSimple from './ArrowsOutSimple';
-import ArrowsSplit from './ArrowsSplit';
-import ArrowsUp from './ArrowsUp';
-import ArrowsVertical from './ArrowsVertical';
-import Article from './Article';
-import ArticleMedium from './ArticleMedium';
-import ArticleNyTimes from './ArticleNyTimes';
-import Asterisk from './Asterisk';
-import AsteriskSimple from './AsteriskSimple';
-import At from './At';
-import Atom from './Atom';
-import Baby from './Baby';
-import Backpack from './Backpack';
-import Backspace from './Backspace';
-import BadgeIcon from './BadgeIcon';
-import Bag from './Bag';
-import BagSimple from './BagSimple';
-import Balloon from './Balloon';
-import Bandaids from './Bandaids';
-import Bank from './Bank';
-import Barbell from './Barbell';
-import Barcode from './Barcode';
-import Barricade from './Barricade';
-import Baseball from './Baseball';
-import BaseballCap from './BaseballCap';
-import Basket from './Basket';
-import Basketball from './Basketball';
-import Bathtub from './Bathtub';
-import BatteryCharging from './BatteryCharging';
-import BatteryChargingVertical from './BatteryChargingVertical';
-import BatteryEmpty from './BatteryEmpty';
-import BatteryFull from './BatteryFull';
-import BatteryHigh from './BatteryHigh';
-import BatteryLow from './BatteryLow';
-import BatteryMedium from './BatteryMedium';
-import BatteryPlus from './BatteryPlus';
-import BatteryPlusVertical from './BatteryPlusVertical';
-import BatteryVerticalEmpty from './BatteryVerticalEmpty';
-import BatteryVerticalFull from './BatteryVerticalFull';
-import BatteryVerticalHigh from './BatteryVerticalHigh';
-import BatteryVerticalLow from './BatteryVerticalLow';
-import BatteryVerticalMedium from './BatteryVerticalMedium';
-import BatteryWarning from './BatteryWarning';
-import BatteryWarningVertical from './BatteryWarningVertical';
-import Bed from './Bed';
-import BeerBottle from './BeerBottle';
-import BeerStein from './BeerStein';
-import BehanceLogo from './BehanceLogo';
-import Bell from './Bell';
-import BellRinging from './BellRinging';
-import BellSimple from './BellSimple';
-import BellSimpleRinging from './BellSimpleRinging';
-import BellSimpleSlash from './BellSimpleSlash';
-import BellSimpleZ from './BellSimpleZ';
-import BellSlash from './BellSlash';
-import BellZ from './BellZ';
-import BezierCurve from './BezierCurve';
-import Bicycle from './Bicycle';
-import Binoculars from './Binoculars';
-import Bird from './Bird';
-import Bluetooth from './Bluetooth';
-import BluetoothConnected from './BluetoothConnected';
-import BluetoothSlash from './BluetoothSlash';
-import BluetoothX from './BluetoothX';
-import Boat from './Boat';
-import Bone from './Bone';
-import Book from './Book';
-import BookBookmark from './BookBookmark';
-import BookOpen from './BookOpen';
-import BookOpenText from './BookOpenText';
-import Bookmark from './Bookmark';
-import BookmarkSimple from './BookmarkSimple';
-import Bookmarks from './Bookmarks';
-import BookmarksSimple from './BookmarksSimple';
-import Books from './Books';
-import Boot from './Boot';
-import BoundingBox from './BoundingBox';
-import BowlFood from './BowlFood';
-import BracketsAngle from './BracketsAngle';
-import BracketsCurly from './BracketsCurly';
-import BracketsRound from './BracketsRound';
-import BracketsSquare from './BracketsSquare';
-import Brain from './Brain';
-import Brandy from './Brandy';
-import Bridge from './Bridge';
-import Briefcase from './Briefcase';
-import BriefcaseMetal from './BriefcaseMetal';
-import Broadcast from './Broadcast';
-import Broom from './Broom';
-import Browser from './Browser';
-import Browsers from './Browsers';
-import Bug from './Bug';
-import BugBeetle from './BugBeetle';
-import BugDroid from './BugDroid';
-import Buildings from './Buildings';
-import Bus from './Bus';
-import Butterfly from './Butterfly';
-import Cactus from './Cactus';
-import Cake from './Cake';
-import Calculator from './Calculator';
-import Calendar from './Calendar';
-import CalendarBlank from './CalendarBlank';
-import CalendarCheck from './CalendarCheck';
-import CalendarPlus from './CalendarPlus';
-import CalendarX from './CalendarX';
-import CallBell from './CallBell';
-import Camera from './Camera';
-import CameraPlus from './CameraPlus';
-import CameraRotate from './CameraRotate';
-import CameraSlash from './CameraSlash';
-import Campfire from './Campfire';
-import Car from './Car';
-import CarProfile from './CarProfile';
-import CarSimple from './CarSimple';
-import Cardholder from './Cardholder';
-import Cards from './Cards';
-import CaretCircleDoubleDown from './CaretCircleDoubleDown';
-import CaretCircleDoubleLeft from './CaretCircleDoubleLeft';
-import CaretCircleDoubleRight from './CaretCircleDoubleRight';
-import CaretCircleDoubleUp from './CaretCircleDoubleUp';
-import CaretCircleDown from './CaretCircleDown';
-import CaretCircleLeft from './CaretCircleLeft';
-import CaretCircleRight from './CaretCircleRight';
-import CaretCircleUp from './CaretCircleUp';
-import CaretCircleUpDown from './CaretCircleUpDown';
-import CaretDoubleDown from './CaretDoubleDown';
-import CaretDoubleLeft from './CaretDoubleLeft';
-import CaretDoubleRight from './CaretDoubleRight';
-import CaretDoubleUp from './CaretDoubleUp';
-import CaretDown from './CaretDown';
-import CaretLeft from './CaretLeft';
-import CaretRight from './CaretRight';
-import CaretUp from './CaretUp';
-import CaretUpDown from './CaretUpDown';
-import Carrot from './Carrot';
-import CassetteTape from './CassetteTape';
-import CastleTurret from './CastleTurret';
-import Cat from './Cat';
-import CellSignalFull from './CellSignalFull';
-import CellSignalHigh from './CellSignalHigh';
-import CellSignalLow from './CellSignalLow';
-import CellSignalMedium from './CellSignalMedium';
-import CellSignalNone from './CellSignalNone';
-import CellSignalSlash from './CellSignalSlash';
-import CellSignalX from './CellSignalX';
-import Certificate from './Certificate';
-import Chair from './Chair';
-import Chalkboard from './Chalkboard';
-import ChalkboardSimple from './ChalkboardSimple';
-import ChalkboardTeacher from './ChalkboardTeacher';
-import Champagne from './Champagne';
-import ChargingStation from './ChargingStation';
-import ChartBar from './ChartBar';
-import ChartBarHorizontal from './ChartBarHorizontal';
-import ChartDonut from './ChartDonut';
-import ChartLine from './ChartLine';
-import ChartLineDown from './ChartLineDown';
-import ChartLineUp from './ChartLineUp';
-import ChartPie from './ChartPie';
-import ChartPieSlice from './ChartPieSlice';
-import ChartPolar from './ChartPolar';
-import ChartScatter from './ChartScatter';
-import Chat from './Chat';
-import ChatCentered from './ChatCentered';
-import ChatCenteredDots from './ChatCenteredDots';
-import ChatCenteredText from './ChatCenteredText';
-import ChatCircle from './ChatCircle';
-import ChatCircleDots from './ChatCircleDots';
-import ChatCircleText from './ChatCircleText';
-import ChatDashed from './ChatDashed';
-import ChatDots from './ChatDots';
-import ChatTeardrop from './ChatTeardrop';
-import ChatTeardropDots from './ChatTeardropDots';
-import ChatTeardropText from './ChatTeardropText';
-import ChatText from './ChatText';
-import Chats from './Chats';
-import ChatsCircle from './ChatsCircle';
-import ChatsTeardrop from './ChatsTeardrop';
-import Check from './Check';
-import CheckCircle from './CheckCircle';
-import CheckFat from './CheckFat';
-import CheckSquare from './CheckSquare';
-import CheckSquareOffset from './CheckSquareOffset';
-import CheckboxFalse from './CheckboxFalse';
-import CheckboxMultiple from './CheckboxMultiple';
-import CheckboxTrue from './CheckboxTrue';
-import Checks from './Checks';
-import Chip from './Chip';
-import Church from './Church';
-import Circle from './Circle';
-import CircleDashed from './CircleDashed';
-import CircleHalf from './CircleHalf';
-import CircleHalfTilt from './CircleHalfTilt';
-import CircleNotch from './CircleNotch';
-import CirclesFour from './CirclesFour';
-import CirclesThree from './CirclesThree';
-import CirclesThreePlus from './CirclesThreePlus';
-import Circuitry from './Circuitry';
-import Clipboard from './Clipboard';
-import Clipboard2 from './Clipboard2';
-import ClipboardText from './ClipboardText';
-import Clock from './Clock';
-import ClockAfternoon from './ClockAfternoon';
-import ClockClockwise from './ClockClockwise';
-import ClockCountdown from './ClockCountdown';
-import ClockCounterClockwise from './ClockCounterClockwise';
-import Close from './Close';
-import ClosedCaptioning from './ClosedCaptioning';
-import Cloud from './Cloud';
-import CloudArrowDown from './CloudArrowDown';
-import CloudArrowUp from './CloudArrowUp';
-import CloudCheck from './CloudCheck';
-import CloudFog from './CloudFog';
-import CloudLightning from './CloudLightning';
-import CloudMoon from './CloudMoon';
-import CloudRain from './CloudRain';
-import CloudSlash from './CloudSlash';
-import CloudSnow from './CloudSnow';
-import CloudSun from './CloudSun';
-import CloudWarning from './CloudWarning';
-import CloudX from './CloudX';
-import Club from './Club';
-import CoatHanger from './CoatHanger';
-import CodaLogo from './CodaLogo';
-import Code from './Code';
-import CodeBlock from './CodeBlock';
-import CodeSimple from './CodeSimple';
-import CodepenLogo from './CodepenLogo';
-import CodesandboxLogo from './CodesandboxLogo';
-import Coffee from './Coffee';
-import Coin from './Coin';
-import CoinVertical from './CoinVertical';
-import Coins from './Coins';
-import Columns from './Columns';
-import Command from './Command';
-import Compass from './Compass';
-import CompassOff from './CompassOff';
-import CompassTool from './CompassTool';
-import ComputerTower from './ComputerTower';
-import Confetti from './Confetti';
-import ContactlessPayment from './ContactlessPayment';
-import Control from './Control';
-import Cookie from './Cookie';
-import CookingPot from './CookingPot';
-import Copy from './Copy';
-import Copy2 from './Copy2';
-import CopySimple from './CopySimple';
-import Copyleft from './Copyleft';
-import Copyright from './Copyright';
-import CornersIn from './CornersIn';
-import CornersOut from './CornersOut';
-import Couch from './Couch';
-import Cpu from './Cpu';
-import CreditCard from './CreditCard';
-import Crop from './Crop';
-import Cross from './Cross';
-import Crosshair from './Crosshair';
-import CrosshairSimple from './CrosshairSimple';
-import Crown from './Crown';
-import CrownSimple from './CrownSimple';
-import Cube from './Cube';
-import CubeFocus from './CubeFocus';
-import CubeTransparent from './CubeTransparent';
-import CurrencyBtc from './CurrencyBtc';
-import CurrencyCircleDollar from './CurrencyCircleDollar';
-import CurrencyCny from './CurrencyCny';
-import CurrencyDollar from './CurrencyDollar';
-import CurrencyDollarSimple from './CurrencyDollarSimple';
-import CurrencyEth from './CurrencyEth';
-import CurrencyEur from './CurrencyEur';
-import CurrencyGbp from './CurrencyGbp';
-import CurrencyInr from './CurrencyInr';
-import CurrencyJpy from './CurrencyJpy';
-import CurrencyKrw from './CurrencyKrw';
-import CurrencyKzt from './CurrencyKzt';
-import CurrencyNgn from './CurrencyNgn';
-import CurrencyRub from './CurrencyRub';
-import Cursor from './Cursor';
-import CursorClick from './CursorClick';
-import CursorText from './CursorText';
-import Cylinder from './Cylinder';
-import Database from './Database';
-import DefaultIcon from './DefaultIcon';
-import Desktop from './Desktop';
-import DesktopTower from './DesktopTower';
-import Detective from './Detective';
-import DevToLogo from './DevToLogo';
-import DeviceMobile from './DeviceMobile';
-import DeviceMobileCamera from './DeviceMobileCamera';
-import DeviceMobileSpeaker from './DeviceMobileSpeaker';
-import DeviceTablet from './DeviceTablet';
-import DeviceTabletCamera from './DeviceTabletCamera';
-import DeviceTabletSpeaker from './DeviceTabletSpeaker';
-import Devices from './Devices';
-import Diamond from './Diamond';
-import DiamondsFour from './DiamondsFour';
-import DiceFive from './DiceFive';
-import DiceFour from './DiceFour';
-import DiceOne from './DiceOne';
-import DiceSix from './DiceSix';
-import DiceThree from './DiceThree';
-import DiceTwo from './DiceTwo';
-import Disc from './Disc';
-import DiscordLogo from './DiscordLogo';
-import Divide from './Divide';
-import Dna from './Dna';
-import DocxIcon from './DocxIcon';
-import Dog from './Dog';
-import Door from './Door';
-import DoorOpen from './DoorOpen';
-import Dot from './Dot';
-import DotCircle from './DotCircle';
-import DotOutline from './DotOutline';
-import DotSquare from './DotSquare';
-import DotsNine from './DotsNine';
-import DotsSix from './DotsSix';
-import DotsSixVertical from './DotsSixVertical';
-import DotsThree from './DotsThree';
-import DotsThreeCircle from './DotsThreeCircle';
-import DotsThreeCircleVertical from './DotsThreeCircleVertical';
-import DotsThreeOutline from './DotsThreeOutline';
-import DotsThreeOutlineVertical from './DotsThreeOutlineVertical';
-import DotsThreeVertical from './DotsThreeVertical';
-import Download from './Download';
-import DownloadSimple from './DownloadSimple';
-import Dress from './Dress';
-import DribbbleLogo from './DribbbleLogo';
-import Drop from './Drop';
-import DropHalf from './DropHalf';
-import DropHalfBottom from './DropHalfBottom';
-import DropboxLogo from './DropboxLogo';
-import Ear from './Ear';
-import EarSlash from './EarSlash';
-import Egg from './Egg';
-import EggCrack from './EggCrack';
-import Eject from './Eject';
-import EjectSimple from './EjectSimple';
-import Elevator from './Elevator';
-import Engine from './Engine';
-import Envelope from './Envelope';
-import EnvelopeOpen from './EnvelopeOpen';
-import EnvelopeSimple from './EnvelopeSimple';
-import EnvelopeSimpleOpen from './EnvelopeSimpleOpen';
-import Equalizer from './Equalizer';
-import Equals from './Equals';
-import Eraser from './Eraser';
-import EscalatorDown from './EscalatorDown';
-import EscalatorUp from './EscalatorUp';
-import Exam from './Exam';
-import Exclude from './Exclude';
-import ExcludeSquare from './ExcludeSquare';
-import Explain from './Explain';
-import Export from './Export';
-import Eye from './Eye';
-import EyeClosed from './EyeClosed';
-import EyeSlash from './EyeSlash';
-import Eyedropper from './Eyedropper';
-import EyedropperSample from './EyedropperSample';
-import Eyeglasses from './Eyeglasses';
-import FaceMask from './FaceMask';
-import FacebookLogo from './FacebookLogo';
-import Factory from './Factory';
-import Faders from './Faders';
-import FadersHorizontal from './FadersHorizontal';
-import Fan from './Fan';
-import FastForward from './FastForward';
-import FastForwardCircle from './FastForwardCircle';
-import Feather from './Feather';
-import FigmaLogo from './FigmaLogo';
-import File from './File';
-import FileArchive from './FileArchive';
-import FileArrowDown from './FileArrowDown';
-import FileArrowUp from './FileArrowUp';
-import FileAudio from './FileAudio';
-import FileCloud from './FileCloud';
-import FileCode from './FileCode';
-import FileCss from './FileCss';
-import FileCsv from './FileCsv';
-import FileDashed from './FileDashed';
-import FileDoc from './FileDoc';
-import FileHtml from './FileHtml';
-import FileImage from './FileImage';
-import FileJpg from './FileJpg';
-import FileJs from './FileJs';
-import FileJsx from './FileJsx';
-import FileLock from './FileLock';
-import FileMinus from './FileMinus';
-import FilePdf from './FilePdf';
-import FilePlus from './FilePlus';
-import FilePng from './FilePng';
-import FilePpt from './FilePpt';
-import FileRs from './FileRs';
-import FileSearch from './FileSearch';
-import FileSql from './FileSql';
-import FileSvg from './FileSvg';
-import FileText from './FileText';
-import FileTs from './FileTs';
-import FileTsx from './FileTsx';
-import FileVideo from './FileVideo';
-import FileVue from './FileVue';
-import FileX from './FileX';
-import FileXls from './FileXls';
-import FileZip from './FileZip';
-import Files from './Files';
-import FilmReel from './FilmReel';
-import FilmScript from './FilmScript';
-import FilmSlate from './FilmSlate';
-import FilmStrip from './FilmStrip';
-import Fingerprint from './Fingerprint';
-import FingerprintSimple from './FingerprintSimple';
-import FinnTheHuman from './FinnTheHuman';
-import Fire from './Fire';
-import FireExtinguisher from './FireExtinguisher';
-import FireSimple from './FireSimple';
-import FirstAid from './FirstAid';
-import FirstAidKit from './FirstAidKit';
-import Fish from './Fish';
-import FishSimple from './FishSimple';
-import Flag from './Flag';
-import FlagBanner from './FlagBanner';
-import FlagCheckered from './FlagCheckered';
-import FlagPennant from './FlagPennant';
-import Flame from './Flame';
-import Flashlight from './Flashlight';
-import Flask from './Flask';
-import FloppyDisk from './FloppyDisk';
-import FloppyDiskBack from './FloppyDiskBack';
-import FlowArrow from './FlowArrow';
-import Flower from './Flower';
-import FlowerLotus from './FlowerLotus';
-import FlowerTulip from './FlowerTulip';
-import FlyingSaucer from './FlyingSaucer';
-import Folder from './Folder';
-import FolderDashed from './FolderDashed';
-import FolderLock from './FolderLock';
-import FolderMinus from './FolderMinus';
-import FolderNotch from './FolderNotch';
-import FolderNotchMinus from './FolderNotchMinus';
-import FolderNotchOpen from './FolderNotchOpen';
-import FolderNotchPlus from './FolderNotchPlus';
-import FolderOpen from './FolderOpen';
-import FolderPlus from './FolderPlus';
-import FolderSimple from './FolderSimple';
-import FolderSimpleDashed from './FolderSimpleDashed';
-import FolderSimpleLock from './FolderSimpleLock';
-import FolderSimpleMinus from './FolderSimpleMinus';
-import FolderSimplePlus from './FolderSimplePlus';
-import FolderSimpleStar from './FolderSimpleStar';
-import FolderSimpleUser from './FolderSimpleUser';
-import FolderStar from './FolderStar';
-import FolderUser from './FolderUser';
-import Folders from './Folders';
-import Football from './Football';
-import Footprints from './Footprints';
-import ForkKnife from './ForkKnife';
-import FormIcon from './FormIcon';
-import FourLeafClover from './FourLeafClover';
-import FourPointedStar from './FourPointedStar';
-import FrameCorners from './FrameCorners';
-import FramerLogo from './FramerLogo';
-import Function from './Function';
-import Funnel from './Funnel';
-import FunnelSimple from './FunnelSimple';
-import GameController from './GameController';
-import Garage from './Garage';
-import GasCan from './GasCan';
-import GasPump from './GasPump';
-import Gauge from './Gauge';
-import Gavel from './Gavel';
-import Gear from './Gear';
-import GearFine from './GearFine';
-import GearSix from './GearSix';
-import GenderFemale from './GenderFemale';
-import GenderIntersex from './GenderIntersex';
-import GenderMale from './GenderMale';
-import GenderNeuter from './GenderNeuter';
-import GenderNonbinary from './GenderNonbinary';
-import GenderTransgender from './GenderTransgender';
-import Ghost from './Ghost';
-import Gif from './Gif';
-import Gift from './Gift';
-import GitBranch from './GitBranch';
-import GitCommit from './GitCommit';
-import GitDiff from './GitDiff';
-import GitFork from './GitFork';
-import GitMerge from './GitMerge';
-import GitPullRequest from './GitPullRequest';
-import GithubLogo from './GithubLogo';
-import GitlabLogo from './GitlabLogo';
-import GitlabLogoSimple from './GitlabLogoSimple';
-import Globe from './Globe';
-import GlobeHemisphereEast from './GlobeHemisphereEast';
-import GlobeHemisphereWest from './GlobeHemisphereWest';
-import GlobeSimple from './GlobeSimple';
-import GlobeStand from './GlobeStand';
-import Goggles from './Goggles';
-import GoodreadsLogo from './GoodreadsLogo';
-import GoogleCardboardLogo from './GoogleCardboardLogo';
-import GoogleChromeLogo from './GoogleChromeLogo';
-import GoogleDriveLogo from './GoogleDriveLogo';
-import GoogleLogo from './GoogleLogo';
-import GooglePhotosLogo from './GooglePhotosLogo';
-import GooglePlayLogo from './GooglePlayLogo';
-import GooglePodcastsLogo from './GooglePodcastsLogo';
-import Goto from './Goto';
-import Gradient from './Gradient';
-import GraduationCap from './GraduationCap';
-import Grains from './Grains';
-import GrainsSlash from './GrainsSlash';
-import Graph from './Graph';
-import GridFour from './GridFour';
-import GridNine from './GridNine';
-import Guitar from './Guitar';
-import Hamburger from './Hamburger';
-import Hammer from './Hammer';
-import Hand from './Hand';
-import HandCoins from './HandCoins';
-import HandEye from './HandEye';
-import HandFist from './HandFist';
-import HandGrabbing from './HandGrabbing';
-import HandHeart from './HandHeart';
-import HandPalm from './HandPalm';
-import HandPointing from './HandPointing';
-import HandSoap from './HandSoap';
-import HandSwipeLeft from './HandSwipeLeft';
-import HandSwipeRight from './HandSwipeRight';
-import HandTap from './HandTap';
-import HandWaving from './HandWaving';
-import Handbag from './Handbag';
-import HandbagSimple from './HandbagSimple';
-import HandsClapping from './HandsClapping';
-import HandsPraying from './HandsPraying';
-import Handshake from './Handshake';
-import HardDrive from './HardDrive';
-import HardDrives from './HardDrives';
-import Hash from './Hash';
-import HashStraight from './HashStraight';
-import Headlights from './Headlights';
-import Headphones from './Headphones';
-import Headset from './Headset';
-import Heart from './Heart';
-import HeartBreak from './HeartBreak';
-import HeartHalf from './HeartHalf';
-import HeartStraight from './HeartStraight';
-import HeartStraightBreak from './HeartStraightBreak';
-import Heartbeat from './Heartbeat';
-import Help from './Help';
-import Hexagon from './Hexagon';
-import HighHeel from './HighHeel';
-import HighlighterCircle from './HighlighterCircle';
-import Hoodie from './Hoodie';
-import HorizontalScreen from './HorizontalScreen';
-import Horse from './Horse';
-import Hourglass from './Hourglass';
-import HourglassHigh from './HourglassHigh';
-import HourglassLow from './HourglassLow';
-import HourglassMedium from './HourglassMedium';
-import HourglassSimple from './HourglassSimple';
-import HourglassSimpleHigh from './HourglassSimpleHigh';
-import HourglassSimpleLow from './HourglassSimpleLow';
-import HourglassSimpleMedium from './HourglassSimpleMedium';
-import House from './House';
-import HouseLine from './HouseLine';
-import HouseSimple from './HouseSimple';
-import IceCream from './IceCream';
-import IconSet from './IconSet';
-import IconSize16 from './IconSize16';
-import IconSize20 from './IconSize20';
-import IconSize24 from './IconSize24';
-import IconSize28 from './IconSize28';
-import IconSize32 from './IconSize32';
-import IconSize40 from './IconSize40';
-import IconSize48 from './IconSize48';
-import IconSize80 from './IconSize80';
-import IdentificationBadge from './IdentificationBadge';
-import IdentificationCard from './IdentificationCard';
-import Image from './Image';
-import ImageLoading from './ImageLoading';
-import ImageSquare from './ImageSquare';
-import Images from './Images';
-import ImagesSquare from './ImagesSquare';
-import Infinity from './Infinity';
-import Info from './Info';
-import InstagramLogo from './InstagramLogo';
-import Intersect from './Intersect';
-import IntersectSquare from './IntersectSquare';
-import IntersectThree from './IntersectThree';
-import Jeep from './Jeep';
-import Kanban from './Kanban';
-import Key from './Key';
-import KeyReturn from './KeyReturn';
-import Keyboard from './Keyboard';
-import Keyhole from './Keyhole';
-import Knife from './Knife';
-import Ladder from './Ladder';
-import LadderSimple from './LadderSimple';
-import Lamp from './Lamp';
-import Laptop from './Laptop';
-import Layout from './Layout';
-import Leaf from './Leaf';
-import Lifebuoy from './Lifebuoy';
-import Lightbulb from './Lightbulb';
-import LightbulbFilament from './LightbulbFilament';
-import Lighthouse from './Lighthouse';
-import Lightning from './Lightning';
-import LightningA from './LightningA';
-import LightningSlash from './LightningSlash';
-import Line from './Line';
-import LineSegment from './LineSegment';
-import LineSegments from './LineSegments';
-import Link from './Link';
-import LinkBreak from './LinkBreak';
-import LinkSimple from './LinkSimple';
-import LinkSimpleBreak from './LinkSimpleBreak';
-import LinkSimpleHorizontal from './LinkSimpleHorizontal';
-import LinkSimpleHorizontalBreak from './LinkSimpleHorizontalBreak';
-import LinkedinLogo from './LinkedinLogo';
-import LinuxLogo from './LinuxLogo';
-import List from './List';
-import ListBullets from './ListBullets';
-import ListChecks from './ListChecks';
-import ListDashes from './ListDashes';
-import ListMagnifyingGlass from './ListMagnifyingGlass';
-import ListNumbers from './ListNumbers';
-import ListPlus from './ListPlus';
-import Lock from './Lock';
-import LockKey from './LockKey';
-import LockKeyOpen from './LockKeyOpen';
-import LockLaminated from './LockLaminated';
-import LockLaminatedOpen from './LockLaminatedOpen';
-import LockOpen from './LockOpen';
-import LockSimple from './LockSimple';
-import LockSimpleOpen from './LockSimpleOpen';
-import Lockers from './Lockers';
-import MagicWand from './MagicWand';
-import Magnet from './Magnet';
-import MagnetStraight from './MagnetStraight';
-import MagnifyingGlass from './MagnifyingGlass';
-import MagnifyingGlassMinus from './MagnifyingGlassMinus';
-import MagnifyingGlassPlus from './MagnifyingGlassPlus';
-import MapPin from './MapPin';
-import MapPinLine from './MapPinLine';
-import MapTrifold from './MapTrifold';
-import MarkerCircle from './MarkerCircle';
-import Martini from './Martini';
-import MaskHappy from './MaskHappy';
-import MaskSad from './MaskSad';
-import MathOperations from './MathOperations';
-import Maximize from './Maximize';
-import Medal from './Medal';
-import MedalMilitary from './MedalMilitary';
-import MediumLogo from './MediumLogo';
-import Megaphone from './Megaphone';
-import MegaphoneSimple from './MegaphoneSimple';
-import MessengerLogo from './MessengerLogo';
-import MetaLogo from './MetaLogo';
-import Metronome from './Metronome';
-import Microphone from './Microphone';
-import MicrophoneSlash from './MicrophoneSlash';
-import MicrophoneStage from './MicrophoneStage';
-import MicrosoftExcelLogo from './MicrosoftExcelLogo';
-import MicrosoftOutlookLogo from './MicrosoftOutlookLogo';
-import MicrosoftPowerpointLogo from './MicrosoftPowerpointLogo';
-import MicrosoftTeamsLogo from './MicrosoftTeamsLogo';
-import MicrosoftWordLogo from './MicrosoftWordLogo';
-import Minimize from './Minimize';
-import Minus from './Minus';
-import MinusCircle from './MinusCircle';
-import MinusSquare from './MinusSquare';
-import Money from './Money';
-import Monitor from './Monitor';
-import MonitorPlay from './MonitorPlay';
-import Moon from './Moon';
-import MoonStars from './MoonStars';
-import Moped from './Moped';
-import MopedFront from './MopedFront';
-import Mosque from './Mosque';
-import Motorcycle from './Motorcycle';
-import Mountains from './Mountains';
-import Mouse from './Mouse';
-import MouseSimple from './MouseSimple';
-import MusicNote from './MusicNote';
-import MusicNoteSimple from './MusicNoteSimple';
-import MusicNotes from './MusicNotes';
-import MusicNotesPlus from './MusicNotesPlus';
-import MusicNotesSimple from './MusicNotesSimple';
-import NavigationArrow from './NavigationArrow';
-import Needle from './Needle';
-import Newspaper from './Newspaper';
-import NewspaperClipping from './NewspaperClipping';
-import Notches from './Notches';
-import Note from './Note';
-import NoteBlank from './NoteBlank';
-import NotePencil from './NotePencil';
-import Notebook from './Notebook';
-import Notepad from './Notepad';
-import Notepad2 from './Notepad2';
-import Notification from './Notification';
-import NotionLogo from './NotionLogo';
-import NumberCircleEight from './NumberCircleEight';
-import NumberCircleFive from './NumberCircleFive';
-import NumberCircleFour from './NumberCircleFour';
-import NumberCircleNine from './NumberCircleNine';
-import NumberCircleOne from './NumberCircleOne';
-import NumberCircleSeven from './NumberCircleSeven';
-import NumberCircleSix from './NumberCircleSix';
-import NumberCircleThree from './NumberCircleThree';
-import NumberCircleTwo from './NumberCircleTwo';
-import NumberCircleZero from './NumberCircleZero';
-import NumberEight from './NumberEight';
-import NumberFive from './NumberFive';
-import NumberFour from './NumberFour';
-import NumberNine from './NumberNine';
-import NumberOne from './NumberOne';
-import NumberSeven from './NumberSeven';
-import NumberSix from './NumberSix';
-import NumberSquareEight from './NumberSquareEight';
-import NumberSquareFive from './NumberSquareFive';
-import NumberSquareFour from './NumberSquareFour';
-import NumberSquareNine from './NumberSquareNine';
-import NumberSquareOne from './NumberSquareOne';
-import NumberSquareSeven from './NumberSquareSeven';
-import NumberSquareSix from './NumberSquareSix';
-import NumberSquareThree from './NumberSquareThree';
-import NumberSquareTwo from './NumberSquareTwo';
-import NumberSquareZero from './NumberSquareZero';
-import NumberThree from './NumberThree';
-import NumberTwo from './NumberTwo';
-import NumberZero from './NumberZero';
-import Nut from './Nut';
-import NyTimesLogo from './NyTimesLogo';
-import Octagon from './Octagon';
-import OfficeChair from './OfficeChair';
-import OnenoteIcon from './OnenoteIcon';
-import Option from './Option';
-import OrangeSlice from './OrangeSlice';
-import Package from './Package';
-import PaintBrush from './PaintBrush';
-import PaintBrushBroad from './PaintBrushBroad';
-import PaintBrushHousehold from './PaintBrushHousehold';
-import PaintBucket from './PaintBucket';
-import PaintRoller from './PaintRoller';
-import Palette from './Palette';
-import Pants from './Pants';
-import PaperPlane from './PaperPlane';
-import PaperPlaneRight from './PaperPlaneRight';
-import PaperPlaneTilt from './PaperPlaneTilt';
-import Paperclip from './Paperclip';
-import PaperclipHorizontal from './PaperclipHorizontal';
-import Parachute from './Parachute';
-import Paragraph from './Paragraph';
-import Parallelogram from './Parallelogram';
-import Park from './Park';
-import Password from './Password';
-import Path from './Path';
-import PatreonLogo from './PatreonLogo';
-import Pause from './Pause';
-import PauseCircle from './PauseCircle';
-import PawPrint from './PawPrint';
-import PayWave from './PayWave';
-import PaypalLogo from './PaypalLogo';
-import Peace from './Peace';
-import Pen from './Pen';
-import PenNib from './PenNib';
-import PenNibStraight from './PenNibStraight';
-import Pencil from './Pencil';
-import PencilCircle from './PencilCircle';
-import PencilLine from './PencilLine';
-import PencilSimple from './PencilSimple';
-import PencilSimpleLine from './PencilSimpleLine';
-import PencilSimpleSlash from './PencilSimpleSlash';
-import PencilSlash from './PencilSlash';
-import Pentagram from './Pentagram';
-import Pepper from './Pepper';
-import Percent from './Percent';
-import Person from './Person';
-import PersonArmsSpread from './PersonArmsSpread';
-import PersonSimple from './PersonSimple';
-import PersonSimpleBike from './PersonSimpleBike';
-import PersonSimpleRun from './PersonSimpleRun';
-import PersonSimpleThrow from './PersonSimpleThrow';
-import PersonSimpleWalk from './PersonSimpleWalk';
-import Perspective from './Perspective';
-import Phone from './Phone';
-import PhoneCall from './PhoneCall';
-import PhoneDisconnect from './PhoneDisconnect';
-import PhoneIncoming from './PhoneIncoming';
-import PhoneOutgoing from './PhoneOutgoing';
-import PhonePlus from './PhonePlus';
-import PhoneSlash from './PhoneSlash';
-import PhoneX from './PhoneX';
-import PhosphorLogo from './PhosphorLogo';
-import Pi from './Pi';
-import PianoKeys from './PianoKeys';
-import PictureInPicture from './PictureInPicture';
-import PiggyBank from './PiggyBank';
-import Pill from './Pill';
-import PinterestLogo from './PinterestLogo';
-import Pinwheel from './Pinwheel';
-import Pizza from './Pizza';
-import Placeholder from './Placeholder';
-import Planet from './Planet';
-import Plant from './Plant';
-import Play from './Play';
-import PlayCircle from './PlayCircle';
-import PlayPause from './PlayPause';
-import Playlist from './Playlist';
-import Plug from './Plug';
-import PlugCharging from './PlugCharging';
-import Plugs from './Plugs';
-import PlugsConnected from './PlugsConnected';
-import Plus from './Plus';
-import PlusCircle from './PlusCircle';
-import PlusMinus from './PlusMinus';
-import PlusSquare from './PlusSquare';
-import PokerChip from './PokerChip';
-import PoliceCar from './PoliceCar';
-import Polygon from './Polygon';
-import Popcorn from './Popcorn';
-import PottedPlant from './PottedPlant';
-import Power from './Power';
-import PptIcon from './PptIcon';
-import Prescription from './Prescription';
-import Presentation from './Presentation';
-import PresentationChart from './PresentationChart';
-import Printer from './Printer';
-import Prohibit from './Prohibit';
-import ProhibitInset from './ProhibitInset';
-import ProjectorScreen from './ProjectorScreen';
-import ProjectorScreenChart from './ProjectorScreenChart';
-import Pulse from './Pulse';
-import PushPin from './PushPin';
-import PushPinSimple from './PushPinSimple';
-import PushPinSimpleSlash from './PushPinSimpleSlash';
-import PushPinSlash from './PushPinSlash';
-import PuzzlePiece from './PuzzlePiece';
-import QrCode from './QrCode';
-import Question from './Question';
-import Queue from './Queue';
-import Quotes from './Quotes';
-import Radical from './Radical';
-import Radio from './Radio';
-import Radio2true from './Radio2true';
-import RadioButton from './RadioButton';
-import RadioFalse from './RadioFalse';
-import RadioTrue from './RadioTrue';
-import Radioactive from './Radioactive';
-import Rainbow from './Rainbow';
-import RainbowCloud from './RainbowCloud';
-import Rating1 from './Rating1';
-import Rating2 from './Rating2';
-import Rating3 from './Rating3';
-import Rating4 from './Rating4';
-import Rating5 from './Rating5';
-import ReadCvLogo from './ReadCvLogo';
-import Receipt from './Receipt';
-import ReceiptX from './ReceiptX';
-import Record from './Record';
-import Rectangle from './Rectangle';
-import Recycle from './Recycle';
-import RedditLogo from './RedditLogo';
-import Repeat from './Repeat';
-import RepeatOnce from './RepeatOnce';
-import Repost from './Repost';
-import Rewind from './Rewind';
-import RewindCircle from './RewindCircle';
-import RightbarIcon from './RightbarIcon';
-import RightbarMode from './RightbarMode';
-import RoadHorizon from './RoadHorizon';
-import Robot from './Robot';
-import Rocket from './Rocket';
-import RocketLaunch from './RocketLaunch';
-import Round from './Round';
-import Round2 from './Round2';
-import RoundedCorner from './RoundedCorner';
-import Rows from './Rows';
-import Rss from './Rss';
-import RssSimple from './RssSimple';
-import Rug from './Rug';
-import Ruler from './Ruler';
-import Scales from './Scales';
-import Scan from './Scan';
-import Scissors from './Scissors';
-import Scooter from './Scooter';
-import Screencast from './Screencast';
-import ScribbleLoop from './ScribbleLoop';
-import Scroll from './Scroll';
-import Seal from './Seal';
-import SealCheck from './SealCheck';
-import SealQuestion from './SealQuestion';
-import SealWarning from './SealWarning';
-import SearchIcon from './SearchIcon';
-import SearchIcon2 from './SearchIcon2';
-import Selected from './Selected';
-import Selection from './Selection';
-import SelectionAll from './SelectionAll';
-import SelectionBackground from './SelectionBackground';
-import SelectionForeground from './SelectionForeground';
-import SelectionInverse from './SelectionInverse';
-import SelectionPlus from './SelectionPlus';
-import SelectionSlash from './SelectionSlash';
-import Shapes from './Shapes';
-import Share from './Share';
-import ShareFat from './ShareFat';
-import ShareNetwork from './ShareNetwork';
-import Shield from './Shield';
-import ShieldCheck from './ShieldCheck';
-import ShieldCheckered from './ShieldCheckered';
-import ShieldChevron from './ShieldChevron';
-import ShieldPlus from './ShieldPlus';
-import ShieldSlash from './ShieldSlash';
-import ShieldStar from './ShieldStar';
-import ShieldWarning from './ShieldWarning';
-import ShirtFolded from './ShirtFolded';
-import ShootingStar from './ShootingStar';
-import ShoppingBag from './ShoppingBag';
-import ShoppingBagOpen from './ShoppingBagOpen';
-import ShoppingCart from './ShoppingCart';
-import ShoppingCartSimple from './ShoppingCartSimple';
-import Shower from './Shower';
-import Shrimp from './Shrimp';
-import Shuffle from './Shuffle';
-import ShuffleAngular from './ShuffleAngular';
-import ShuffleSimple from './ShuffleSimple';
-import Sidebar from './Sidebar';
-import SidebarSimple from './SidebarSimple';
-import Sigma from './Sigma';
-import SignIn from './SignIn';
-import SignOut from './SignOut';
-import Signature from './Signature';
-import Signpost from './Signpost';
-import SimCard from './SimCard';
-import Siren from './Siren';
-import SketchLogo from './SketchLogo';
-import SkipBack from './SkipBack';
-import SkipBackCircle from './SkipBackCircle';
-import SkipForward from './SkipForward';
-import SkipForwardCircle from './SkipForwardCircle';
-import Skull from './Skull';
-import SlackLogo from './SlackLogo';
-import Sliders from './Sliders';
-import SlidersHorizontal from './SlidersHorizontal';
-import Slideshow from './Slideshow';
-import Smiley from './Smiley';
-import SmileyAngry from './SmileyAngry';
-import SmileyBlank from './SmileyBlank';
-import SmileyMeh from './SmileyMeh';
-import SmileyNervous from './SmileyNervous';
-import SmileySad from './SmileySad';
-import SmileySticker from './SmileySticker';
-import SmileyWink from './SmileyWink';
-import SmileyXeyes from './SmileyXeyes';
-import SnapchatLogo from './SnapchatLogo';
-import Sneaker from './Sneaker';
-import SneakerMove from './SneakerMove';
-import SnowIcon from './SnowIcon';
-import Snowflake from './Snowflake';
-import SoccerBall from './SoccerBall';
-import SortAscending from './SortAscending';
-import SortDescending from './SortDescending';
-import SoundcloudLogo from './SoundcloudLogo';
-import Spade from './Spade';
-import Sparkle from './Sparkle';
-import SpeakerHifi from './SpeakerHifi';
-import SpeakerHigh from './SpeakerHigh';
-import SpeakerLow from './SpeakerLow';
-import SpeakerNone from './SpeakerNone';
-import SpeakerSimpleHigh from './SpeakerSimpleHigh';
-import SpeakerSimpleLow from './SpeakerSimpleLow';
-import SpeakerSimpleNone from './SpeakerSimpleNone';
-import SpeakerSimpleSlash from './SpeakerSimpleSlash';
-import SpeakerSimpleX from './SpeakerSimpleX';
-import SpeakerSlash from './SpeakerSlash';
-import SpeakerX from './SpeakerX';
-import Spinner from './Spinner';
-import SpinnerGap from './SpinnerGap';
-import Spiral from './Spiral';
-import SplitHorizontal from './SplitHorizontal';
-import SplitVertical from './SplitVertical';
-import SpotifyLogo from './SpotifyLogo';
-import Square from './Square';
-import SquareHalf from './SquareHalf';
-import SquareHalfBottom from './SquareHalfBottom';
-import SquareLogo from './SquareLogo';
-import SquareSplitHorizontal from './SquareSplitHorizontal';
-import SquareSplitVertical from './SquareSplitVertical';
-import SquaresFour from './SquaresFour';
-import Stack from './Stack';
-import StackOverflowLogo from './StackOverflowLogo';
-import StackSimple from './StackSimple';
-import Stairs from './Stairs';
-import Stamp from './Stamp';
-import Star from './Star';
-import StarAndCrescent from './StarAndCrescent';
-import StarFour from './StarFour';
-import StarFour2 from './StarFour2';
-import StarHalf from './StarHalf';
-import StarOfDavid from './StarOfDavid';
-import Stars from './Stars';
-import SteeringWheel from './SteeringWheel';
-import Steps from './Steps';
-import Stethoscope from './Stethoscope';
-import Sticker from './Sticker';
-import Stool from './Stool';
-import Stop from './Stop';
-import Stop2 from './Stop2';
-import Stop3 from './Stop3';
-import StopCircle from './StopCircle';
-import Storefront from './Storefront';
-import Strategy from './Strategy';
-import StripeLogo from './StripeLogo';
-import Student from './Student';
-import Subtitles from './Subtitles';
-import Subtract from './Subtract';
-import SubtractSquare from './SubtractSquare';
-import Suitcase from './Suitcase';
-import SuitcaseRolling from './SuitcaseRolling';
-import SuitcaseSimple from './SuitcaseSimple';
-import Sun from './Sun';
-import SunDim from './SunDim';
-import SunHorizon from './SunHorizon';
-import Sunglasses from './Sunglasses';
-import Swap from './Swap';
-import Swatches from './Swatches';
-import SwimmingPool from './SwimmingPool';
-import SwitchPoint from './SwitchPoint';
-import Sword from './Sword';
-import Synagogue from './Synagogue';
-import Syringe from './Syringe';
-import Table from './Table';
-import Tabs from './Tabs';
-import Tag from './Tag';
-import TagChevron from './TagChevron';
-import TagSimple from './TagSimple';
-import Target from './Target';
-import Taxi from './Taxi';
-import TelegramLogo from './TelegramLogo';
-import Television from './Television';
-import TelevisionSimple from './TelevisionSimple';
-import TennisBall from './TennisBall';
-import Tent from './Tent';
-import Terminal from './Terminal';
-import TerminalWindow from './TerminalWindow';
-import TestTube from './TestTube';
-import TextA from './TextA';
-import TextAa from './TextAa';
-import TextAlignCenter from './TextAlignCenter';
-import TextAlignJustify from './TextAlignJustify';
-import TextAlignLeft from './TextAlignLeft';
-import TextAlignRight from './TextAlignRight';
-import TextAunderline from './TextAunderline';
-import TextB from './TextB';
-import TextColumns from './TextColumns';
-import TextH from './TextH';
-import TextHfive from './TextHfive';
-import TextHfour from './TextHfour';
-import TextHone from './TextHone';
-import TextHsix from './TextHsix';
-import TextHthree from './TextHthree';
-import TextHtwo from './TextHtwo';
-import TextIndent from './TextIndent';
-import TextItalic from './TextItalic';
-import TextOutdent from './TextOutdent';
-import TextStrikethrough from './TextStrikethrough';
-import TextT from './TextT';
-import TextUnderline from './TextUnderline';
-import Textbox from './Textbox';
-import Thermometer from './Thermometer';
-import ThermometerCold from './ThermometerCold';
-import ThermometerHot from './ThermometerHot';
-import ThermometerSimple from './ThermometerSimple';
-import ThreeDots from './ThreeDots';
-import ThumbsDown from './ThumbsDown';
-import ThumbsUp from './ThumbsUp';
-import Ticket from './Ticket';
-import TidalLogo from './TidalLogo';
-import TiktokLogo from './TiktokLogo';
-import Timer from './Timer';
-import Tipi from './Tipi';
-import ToggleFalse from './ToggleFalse';
-import ToggleLeft from './ToggleLeft';
-import ToggleRight from './ToggleRight';
-import ToggleTrue from './ToggleTrue';
-import Toilet from './Toilet';
-import ToiletPaper from './ToiletPaper';
-import Toolbox from './Toolbox';
-import Tooth from './Tooth';
-import Tote from './Tote';
-import ToteSimple from './ToteSimple';
-import Trademark from './Trademark';
-import TrademarkRegistered from './TrademarkRegistered';
-import TrafficCone from './TrafficCone';
-import TrafficSign from './TrafficSign';
-import TrafficSignal from './TrafficSignal';
-import Train from './Train';
-import TrainRegional from './TrainRegional';
-import TrainSimple from './TrainSimple';
-import Tram from './Tram';
-import Translate from './Translate';
-import Trash from './Trash';
-import TrashSimple from './TrashSimple';
-import Tray from './Tray';
-import Tree from './Tree';
-import TreeEvergreen from './TreeEvergreen';
-import TreePalm from './TreePalm';
-import TreeStructure from './TreeStructure';
-import TrendDown from './TrendDown';
-import TrendUp from './TrendUp';
-import Triangle from './Triangle';
-import Trophy from './Trophy';
-import Truck from './Truck';
-import Tshirt from './Tshirt';
-import TwitchLogo from './TwitchLogo';
-import TwitterLogo from './TwitterLogo';
-import TxtIcon from './TxtIcon';
-import Umbrella from './Umbrella';
-import UmbrellaSimple from './UmbrellaSimple';
-import Unite from './Unite';
-import UniteSquare from './UniteSquare';
-import Upload from './Upload';
-import UploadSimple from './UploadSimple';
-import Usb from './Usb';
-import User from './User';
-import UserCircle from './UserCircle';
-import UserCircleGear from './UserCircleGear';
-import UserCircleMinus from './UserCircleMinus';
-import UserCirclePlus from './UserCirclePlus';
-import UserFocus from './UserFocus';
-import UserGear from './UserGear';
-import UserList from './UserList';
-import UserMinus from './UserMinus';
-import UserPlus from './UserPlus';
-import UserRectangle from './UserRectangle';
-import UserSquare from './UserSquare';
-import UserSwitch from './UserSwitch';
-import Users from './Users';
-import UsersFour from './UsersFour';
-import UsersThree from './UsersThree';
-import Van from './Van';
-import Variables from './Variables';
-import Vault from './Vault';
-import VerticalScreen from './VerticalScreen';
-import Vibrate from './Vibrate';
-import Video from './Video';
-import VideoCamera from './VideoCamera';
-import VideoCameraSlash from './VideoCameraSlash';
-import Vignette from './Vignette';
-import VinylRecord from './VinylRecord';
-import VirtualReality from './VirtualReality';
-import Virus from './Virus';
-import Voicemail from './Voicemail';
-import Volleyball from './Volleyball';
-import Wall from './Wall';
-import Wallet from './Wallet';
-import Warehouse from './Warehouse';
-import Warning from './Warning';
-import WarningCircle from './WarningCircle';
-import WarningDiamond from './WarningDiamond';
-import WarningOctagon from './WarningOctagon';
-import Watch from './Watch';
-import WaveSawtooth from './WaveSawtooth';
-import WaveSine from './WaveSine';
-import WaveSquare from './WaveSquare';
-import WaveTriangle from './WaveTriangle';
-import Waveform from './Waveform';
-import Waves from './Waves';
-import Webcam from './Webcam';
-import WebcamSlash from './WebcamSlash';
-import WebhooksLogo from './WebhooksLogo';
-import WechatLogo from './WechatLogo';
-import WhatsappLogo from './WhatsappLogo';
-import Wheelchair from './Wheelchair';
-import WheelchairMotion from './WheelchairMotion';
-import WifiHigh from './WifiHigh';
-import WifiLow from './WifiLow';
-import WifiMedium from './WifiMedium';
-import WifiNone from './WifiNone';
-import WifiSlash from './WifiSlash';
-import WifiX from './WifiX';
-import Wind from './Wind';
-import Windowed from './Windowed';
-import WindowsLogo from './WindowsLogo';
-import Wine from './Wine';
-import Wrench from './Wrench';
-import X from './X';
-import Xcircle from './Xcircle';
-import Xcircle2 from './Xcircle2';
-import XlsxIcon from './XlsxIcon';
-import Xsquare from './Xsquare';
-import YinYang from './YinYang';
-import YoutubeLogo from './YoutubeLogo';
+// Auto-generated by scripts/generate-react.ts. Do not edit.
+import phosphor_AddressBook from './phosphor/AddressBook';
+import phosphor_AirTrafficControl from './phosphor/AirTrafficControl';
+import phosphor_Airplane from './phosphor/Airplane';
+import phosphor_AirplaneInFlight from './phosphor/AirplaneInFlight';
+import phosphor_AirplaneLanding from './phosphor/AirplaneLanding';
+import phosphor_AirplaneTakeoff from './phosphor/AirplaneTakeoff';
+import phosphor_AirplaneTilt from './phosphor/AirplaneTilt';
+import phosphor_Airplay from './phosphor/Airplay';
+import phosphor_Alarm from './phosphor/Alarm';
+import phosphor_Alien from './phosphor/Alien';
+import phosphor_AlignBottom from './phosphor/AlignBottom';
+import phosphor_AlignBottomSimple from './phosphor/AlignBottomSimple';
+import phosphor_AlignCenterHorizontal from './phosphor/AlignCenterHorizontal';
+import phosphor_AlignCenterHorizontalSimple from './phosphor/AlignCenterHorizontalSimple';
+import phosphor_AlignCenterVertical from './phosphor/AlignCenterVertical';
+import phosphor_AlignCenterVerticalSimple from './phosphor/AlignCenterVerticalSimple';
+import phosphor_AlignLeft from './phosphor/AlignLeft';
+import phosphor_AlignLeftSimple from './phosphor/AlignLeftSimple';
+import phosphor_AlignRight from './phosphor/AlignRight';
+import phosphor_AlignRightSimple from './phosphor/AlignRightSimple';
+import phosphor_AlignTop from './phosphor/AlignTop';
+import phosphor_AlignTopSimple from './phosphor/AlignTopSimple';
+import phosphor_AmazonLogo from './phosphor/AmazonLogo';
+import phosphor_Anchor from './phosphor/Anchor';
+import phosphor_AnchorSimple from './phosphor/AnchorSimple';
+import phosphor_AndroidLogo from './phosphor/AndroidLogo';
+import phosphor_AngularLogo from './phosphor/AngularLogo';
+import phosphor_Aperture from './phosphor/Aperture';
+import phosphor_AppStoreLogo from './phosphor/AppStoreLogo';
+import phosphor_AppWindow from './phosphor/AppWindow';
+import phosphor_AppleLogo from './phosphor/AppleLogo';
+import phosphor_ApplePodcastsLogo from './phosphor/ApplePodcastsLogo';
+import phosphor_Archive from './phosphor/Archive';
+import phosphor_ArchiveBox from './phosphor/ArchiveBox';
+import phosphor_ArchiveTray from './phosphor/ArchiveTray';
+import phosphor_Armchair from './phosphor/Armchair';
+import phosphor_ArrowArcLeft from './phosphor/ArrowArcLeft';
+import phosphor_ArrowArcRight from './phosphor/ArrowArcRight';
+import phosphor_ArrowBendDoubleUpLeft from './phosphor/ArrowBendDoubleUpLeft';
+import phosphor_ArrowBendDoubleUpRight from './phosphor/ArrowBendDoubleUpRight';
+import phosphor_ArrowBendDownLeft from './phosphor/ArrowBendDownLeft';
+import phosphor_ArrowBendDownRight from './phosphor/ArrowBendDownRight';
+import phosphor_ArrowBendLeftDown from './phosphor/ArrowBendLeftDown';
+import phosphor_ArrowBendLeftUp from './phosphor/ArrowBendLeftUp';
+import phosphor_ArrowBendRightDown from './phosphor/ArrowBendRightDown';
+import phosphor_ArrowBendRightUp from './phosphor/ArrowBendRightUp';
+import phosphor_ArrowBendUpLeft from './phosphor/ArrowBendUpLeft';
+import phosphor_ArrowBendUpRight from './phosphor/ArrowBendUpRight';
+import phosphor_ArrowCircleDown from './phosphor/ArrowCircleDown';
+import phosphor_ArrowCircleDownLeft from './phosphor/ArrowCircleDownLeft';
+import phosphor_ArrowCircleDownRight from './phosphor/ArrowCircleDownRight';
+import phosphor_ArrowCircleLeft from './phosphor/ArrowCircleLeft';
+import phosphor_ArrowCircleRight from './phosphor/ArrowCircleRight';
+import phosphor_ArrowCircleUp from './phosphor/ArrowCircleUp';
+import phosphor_ArrowCircleUpLeft from './phosphor/ArrowCircleUpLeft';
+import phosphor_ArrowCircleUpRight from './phosphor/ArrowCircleUpRight';
+import phosphor_ArrowClockwise from './phosphor/ArrowClockwise';
+import phosphor_ArrowCounterClockwise from './phosphor/ArrowCounterClockwise';
+import phosphor_ArrowDown from './phosphor/ArrowDown';
+import phosphor_ArrowDownLeft from './phosphor/ArrowDownLeft';
+import phosphor_ArrowDownRight from './phosphor/ArrowDownRight';
+import phosphor_ArrowElbowDownLeft from './phosphor/ArrowElbowDownLeft';
+import phosphor_ArrowElbowDownRight from './phosphor/ArrowElbowDownRight';
+import phosphor_ArrowElbowLeft from './phosphor/ArrowElbowLeft';
+import phosphor_ArrowElbowLeftDown from './phosphor/ArrowElbowLeftDown';
+import phosphor_ArrowElbowLeftUp from './phosphor/ArrowElbowLeftUp';
+import phosphor_ArrowElbowRight from './phosphor/ArrowElbowRight';
+import phosphor_ArrowElbowRightDown from './phosphor/ArrowElbowRightDown';
+import phosphor_ArrowElbowRightUp from './phosphor/ArrowElbowRightUp';
+import phosphor_ArrowElbowUpLeft from './phosphor/ArrowElbowUpLeft';
+import phosphor_ArrowElbowUpRight from './phosphor/ArrowElbowUpRight';
+import phosphor_ArrowFatDown from './phosphor/ArrowFatDown';
+import phosphor_ArrowFatLeft from './phosphor/ArrowFatLeft';
+import phosphor_ArrowFatLineDown from './phosphor/ArrowFatLineDown';
+import phosphor_ArrowFatLineLeft from './phosphor/ArrowFatLineLeft';
+import phosphor_ArrowFatLineRight from './phosphor/ArrowFatLineRight';
+import phosphor_ArrowFatLineUp from './phosphor/ArrowFatLineUp';
+import phosphor_ArrowFatLinesDown from './phosphor/ArrowFatLinesDown';
+import phosphor_ArrowFatLinesLeft from './phosphor/ArrowFatLinesLeft';
+import phosphor_ArrowFatLinesRight from './phosphor/ArrowFatLinesRight';
+import phosphor_ArrowFatLinesUp from './phosphor/ArrowFatLinesUp';
+import phosphor_ArrowFatRight from './phosphor/ArrowFatRight';
+import phosphor_ArrowFatUp from './phosphor/ArrowFatUp';
+import phosphor_ArrowLeft from './phosphor/ArrowLeft';
+import phosphor_ArrowLineDown from './phosphor/ArrowLineDown';
+import phosphor_ArrowLineDownLeft from './phosphor/ArrowLineDownLeft';
+import phosphor_ArrowLineDownRight from './phosphor/ArrowLineDownRight';
+import phosphor_ArrowLineLeft from './phosphor/ArrowLineLeft';
+import phosphor_ArrowLineRight from './phosphor/ArrowLineRight';
+import phosphor_ArrowLineUp from './phosphor/ArrowLineUp';
+import phosphor_ArrowLineUpLeft from './phosphor/ArrowLineUpLeft';
+import phosphor_ArrowLineUpRight from './phosphor/ArrowLineUpRight';
+import phosphor_ArrowRight from './phosphor/ArrowRight';
+import phosphor_ArrowSquareDown from './phosphor/ArrowSquareDown';
+import phosphor_ArrowSquareDownLeft from './phosphor/ArrowSquareDownLeft';
+import phosphor_ArrowSquareDownRight from './phosphor/ArrowSquareDownRight';
+import phosphor_ArrowSquareIn from './phosphor/ArrowSquareIn';
+import phosphor_ArrowSquareLeft from './phosphor/ArrowSquareLeft';
+import phosphor_ArrowSquareOut from './phosphor/ArrowSquareOut';
+import phosphor_ArrowSquareRight from './phosphor/ArrowSquareRight';
+import phosphor_ArrowSquareUp from './phosphor/ArrowSquareUp';
+import phosphor_ArrowSquareUpLeft from './phosphor/ArrowSquareUpLeft';
+import phosphor_ArrowSquareUpRight from './phosphor/ArrowSquareUpRight';
+import phosphor_ArrowUDownLeft from './phosphor/ArrowUDownLeft';
+import phosphor_ArrowUDownRight from './phosphor/ArrowUDownRight';
+import phosphor_ArrowULeftDown from './phosphor/ArrowULeftDown';
+import phosphor_ArrowULeftUp from './phosphor/ArrowULeftUp';
+import phosphor_ArrowURightDown from './phosphor/ArrowURightDown';
+import phosphor_ArrowURightUp from './phosphor/ArrowURightUp';
+import phosphor_ArrowUUpLeft from './phosphor/ArrowUUpLeft';
+import phosphor_ArrowUUpRight from './phosphor/ArrowUUpRight';
+import phosphor_ArrowUp from './phosphor/ArrowUp';
+import phosphor_ArrowUpLeft from './phosphor/ArrowUpLeft';
+import phosphor_ArrowUpRight from './phosphor/ArrowUpRight';
+import phosphor_ArrowsClockwise from './phosphor/ArrowsClockwise';
+import phosphor_ArrowsCounterClockwise from './phosphor/ArrowsCounterClockwise';
+import phosphor_ArrowsDownUp from './phosphor/ArrowsDownUp';
+import phosphor_ArrowsHorizontal from './phosphor/ArrowsHorizontal';
+import phosphor_ArrowsIn from './phosphor/ArrowsIn';
+import phosphor_ArrowsInCardinal from './phosphor/ArrowsInCardinal';
+import phosphor_ArrowsInLineHorizontal from './phosphor/ArrowsInLineHorizontal';
+import phosphor_ArrowsInLineVertical from './phosphor/ArrowsInLineVertical';
+import phosphor_ArrowsInSimple from './phosphor/ArrowsInSimple';
+import phosphor_ArrowsLeftRight from './phosphor/ArrowsLeftRight';
+import phosphor_ArrowsMerge from './phosphor/ArrowsMerge';
+import phosphor_ArrowsOut from './phosphor/ArrowsOut';
+import phosphor_ArrowsOutCardinal from './phosphor/ArrowsOutCardinal';
+import phosphor_ArrowsOutLineHorizontal from './phosphor/ArrowsOutLineHorizontal';
+import phosphor_ArrowsOutLineVertical from './phosphor/ArrowsOutLineVertical';
+import phosphor_ArrowsOutSimple from './phosphor/ArrowsOutSimple';
+import phosphor_ArrowsSplit from './phosphor/ArrowsSplit';
+import phosphor_ArrowsVertical from './phosphor/ArrowsVertical';
+import phosphor_Article from './phosphor/Article';
+import phosphor_ArticleMedium from './phosphor/ArticleMedium';
+import phosphor_ArticleNyTimes from './phosphor/ArticleNyTimes';
+import phosphor_Asterisk from './phosphor/Asterisk';
+import phosphor_AsteriskSimple from './phosphor/AsteriskSimple';
+import phosphor_At from './phosphor/At';
+import phosphor_Atom from './phosphor/Atom';
+import phosphor_Baby from './phosphor/Baby';
+import phosphor_Backpack from './phosphor/Backpack';
+import phosphor_Backspace from './phosphor/Backspace';
+import phosphor_Bag from './phosphor/Bag';
+import phosphor_BagSimple from './phosphor/BagSimple';
+import phosphor_Balloon from './phosphor/Balloon';
+import phosphor_Bandaids from './phosphor/Bandaids';
+import phosphor_Bank from './phosphor/Bank';
+import phosphor_Barbell from './phosphor/Barbell';
+import phosphor_Barcode from './phosphor/Barcode';
+import phosphor_Barricade from './phosphor/Barricade';
+import phosphor_Baseball from './phosphor/Baseball';
+import phosphor_BaseballCap from './phosphor/BaseballCap';
+import phosphor_Basket from './phosphor/Basket';
+import phosphor_Basketball from './phosphor/Basketball';
+import phosphor_Bathtub from './phosphor/Bathtub';
+import phosphor_BatteryCharging from './phosphor/BatteryCharging';
+import phosphor_BatteryChargingVertical from './phosphor/BatteryChargingVertical';
+import phosphor_BatteryEmpty from './phosphor/BatteryEmpty';
+import phosphor_BatteryFull from './phosphor/BatteryFull';
+import phosphor_BatteryHigh from './phosphor/BatteryHigh';
+import phosphor_BatteryLow from './phosphor/BatteryLow';
+import phosphor_BatteryMedium from './phosphor/BatteryMedium';
+import phosphor_BatteryPlus from './phosphor/BatteryPlus';
+import phosphor_BatteryPlusVertical from './phosphor/BatteryPlusVertical';
+import phosphor_BatteryVerticalEmpty from './phosphor/BatteryVerticalEmpty';
+import phosphor_BatteryVerticalFull from './phosphor/BatteryVerticalFull';
+import phosphor_BatteryVerticalHigh from './phosphor/BatteryVerticalHigh';
+import phosphor_BatteryVerticalLow from './phosphor/BatteryVerticalLow';
+import phosphor_BatteryVerticalMedium from './phosphor/BatteryVerticalMedium';
+import phosphor_BatteryWarning from './phosphor/BatteryWarning';
+import phosphor_BatteryWarningVertical from './phosphor/BatteryWarningVertical';
+import phosphor_Bed from './phosphor/Bed';
+import phosphor_BeerBottle from './phosphor/BeerBottle';
+import phosphor_BeerStein from './phosphor/BeerStein';
+import phosphor_BehanceLogo from './phosphor/BehanceLogo';
+import phosphor_Bell from './phosphor/Bell';
+import phosphor_BellRinging from './phosphor/BellRinging';
+import phosphor_BellSimple from './phosphor/BellSimple';
+import phosphor_BellSimpleRinging from './phosphor/BellSimpleRinging';
+import phosphor_BellSimpleSlash from './phosphor/BellSimpleSlash';
+import phosphor_BellSimpleZ from './phosphor/BellSimpleZ';
+import phosphor_BellSlash from './phosphor/BellSlash';
+import phosphor_BellZ from './phosphor/BellZ';
+import phosphor_BezierCurve from './phosphor/BezierCurve';
+import phosphor_Bicycle from './phosphor/Bicycle';
+import phosphor_Binoculars from './phosphor/Binoculars';
+import phosphor_Bird from './phosphor/Bird';
+import phosphor_Bluetooth from './phosphor/Bluetooth';
+import phosphor_BluetoothConnected from './phosphor/BluetoothConnected';
+import phosphor_BluetoothSlash from './phosphor/BluetoothSlash';
+import phosphor_BluetoothX from './phosphor/BluetoothX';
+import phosphor_Boat from './phosphor/Boat';
+import phosphor_Bone from './phosphor/Bone';
+import phosphor_Book from './phosphor/Book';
+import phosphor_BookBookmark from './phosphor/BookBookmark';
+import phosphor_BookOpen from './phosphor/BookOpen';
+import phosphor_BookOpenText from './phosphor/BookOpenText';
+import phosphor_Bookmark from './phosphor/Bookmark';
+import phosphor_BookmarkSimple from './phosphor/BookmarkSimple';
+import phosphor_Bookmarks from './phosphor/Bookmarks';
+import phosphor_BookmarksSimple from './phosphor/BookmarksSimple';
+import phosphor_Books from './phosphor/Books';
+import phosphor_Boot from './phosphor/Boot';
+import phosphor_BoundingBox from './phosphor/BoundingBox';
+import phosphor_BowlFood from './phosphor/BowlFood';
+import phosphor_BracketsAngle from './phosphor/BracketsAngle';
+import phosphor_BracketsCurly from './phosphor/BracketsCurly';
+import phosphor_BracketsRound from './phosphor/BracketsRound';
+import phosphor_BracketsSquare from './phosphor/BracketsSquare';
+import phosphor_Brain from './phosphor/Brain';
+import phosphor_Brandy from './phosphor/Brandy';
+import phosphor_Bridge from './phosphor/Bridge';
+import phosphor_Briefcase from './phosphor/Briefcase';
+import phosphor_BriefcaseMetal from './phosphor/BriefcaseMetal';
+import phosphor_Broadcast from './phosphor/Broadcast';
+import phosphor_Broom from './phosphor/Broom';
+import phosphor_Browser from './phosphor/Browser';
+import phosphor_Browsers from './phosphor/Browsers';
+import phosphor_Bug from './phosphor/Bug';
+import phosphor_BugBeetle from './phosphor/BugBeetle';
+import phosphor_BugDroid from './phosphor/BugDroid';
+import phosphor_Buildings from './phosphor/Buildings';
+import phosphor_Bus from './phosphor/Bus';
+import phosphor_Butterfly from './phosphor/Butterfly';
+import phosphor_Cactus from './phosphor/Cactus';
+import phosphor_Cake from './phosphor/Cake';
+import phosphor_Calculator from './phosphor/Calculator';
+import phosphor_Calendar from './phosphor/Calendar';
+import phosphor_CalendarBlank from './phosphor/CalendarBlank';
+import phosphor_CalendarCheck from './phosphor/CalendarCheck';
+import phosphor_CalendarPlus from './phosphor/CalendarPlus';
+import phosphor_CalendarX from './phosphor/CalendarX';
+import phosphor_CallBell from './phosphor/CallBell';
+import phosphor_Camera from './phosphor/Camera';
+import phosphor_CameraPlus from './phosphor/CameraPlus';
+import phosphor_CameraRotate from './phosphor/CameraRotate';
+import phosphor_CameraSlash from './phosphor/CameraSlash';
+import phosphor_Campfire from './phosphor/Campfire';
+import phosphor_Car from './phosphor/Car';
+import phosphor_CarProfile from './phosphor/CarProfile';
+import phosphor_CarSimple from './phosphor/CarSimple';
+import phosphor_Cardholder from './phosphor/Cardholder';
+import phosphor_Cards from './phosphor/Cards';
+import phosphor_CaretCircleDoubleDown from './phosphor/CaretCircleDoubleDown';
+import phosphor_CaretCircleDoubleLeft from './phosphor/CaretCircleDoubleLeft';
+import phosphor_CaretCircleDoubleRight from './phosphor/CaretCircleDoubleRight';
+import phosphor_CaretCircleDoubleUp from './phosphor/CaretCircleDoubleUp';
+import phosphor_CaretCircleDown from './phosphor/CaretCircleDown';
+import phosphor_CaretCircleLeft from './phosphor/CaretCircleLeft';
+import phosphor_CaretCircleRight from './phosphor/CaretCircleRight';
+import phosphor_CaretCircleUp from './phosphor/CaretCircleUp';
+import phosphor_CaretCircleUpDown from './phosphor/CaretCircleUpDown';
+import phosphor_CaretDoubleDown from './phosphor/CaretDoubleDown';
+import phosphor_CaretDoubleLeft from './phosphor/CaretDoubleLeft';
+import phosphor_CaretDoubleRight from './phosphor/CaretDoubleRight';
+import phosphor_CaretDoubleUp from './phosphor/CaretDoubleUp';
+import phosphor_CaretDown from './phosphor/CaretDown';
+import phosphor_CaretLeft from './phosphor/CaretLeft';
+import phosphor_CaretRight from './phosphor/CaretRight';
+import phosphor_CaretUp from './phosphor/CaretUp';
+import phosphor_CaretUpDown from './phosphor/CaretUpDown';
+import phosphor_Carrot from './phosphor/Carrot';
+import phosphor_CassetteTape from './phosphor/CassetteTape';
+import phosphor_CastleTurret from './phosphor/CastleTurret';
+import phosphor_Cat from './phosphor/Cat';
+import phosphor_CellSignalFull from './phosphor/CellSignalFull';
+import phosphor_CellSignalHigh from './phosphor/CellSignalHigh';
+import phosphor_CellSignalLow from './phosphor/CellSignalLow';
+import phosphor_CellSignalMedium from './phosphor/CellSignalMedium';
+import phosphor_CellSignalNone from './phosphor/CellSignalNone';
+import phosphor_CellSignalSlash from './phosphor/CellSignalSlash';
+import phosphor_CellSignalX from './phosphor/CellSignalX';
+import phosphor_Certificate from './phosphor/Certificate';
+import phosphor_Chair from './phosphor/Chair';
+import phosphor_Chalkboard from './phosphor/Chalkboard';
+import phosphor_ChalkboardSimple from './phosphor/ChalkboardSimple';
+import phosphor_ChalkboardTeacher from './phosphor/ChalkboardTeacher';
+import phosphor_Champagne from './phosphor/Champagne';
+import phosphor_ChargingStation from './phosphor/ChargingStation';
+import phosphor_ChartBar from './phosphor/ChartBar';
+import phosphor_ChartBarHorizontal from './phosphor/ChartBarHorizontal';
+import phosphor_ChartDonut from './phosphor/ChartDonut';
+import phosphor_ChartLine from './phosphor/ChartLine';
+import phosphor_ChartLineDown from './phosphor/ChartLineDown';
+import phosphor_ChartLineUp from './phosphor/ChartLineUp';
+import phosphor_ChartPie from './phosphor/ChartPie';
+import phosphor_ChartPieSlice from './phosphor/ChartPieSlice';
+import phosphor_ChartPolar from './phosphor/ChartPolar';
+import phosphor_ChartScatter from './phosphor/ChartScatter';
+import phosphor_Chat from './phosphor/Chat';
+import phosphor_ChatCentered from './phosphor/ChatCentered';
+import phosphor_ChatCenteredDots from './phosphor/ChatCenteredDots';
+import phosphor_ChatCenteredText from './phosphor/ChatCenteredText';
+import phosphor_ChatCircle from './phosphor/ChatCircle';
+import phosphor_ChatCircleDots from './phosphor/ChatCircleDots';
+import phosphor_ChatCircleText from './phosphor/ChatCircleText';
+import phosphor_ChatDots from './phosphor/ChatDots';
+import phosphor_ChatTeardrop from './phosphor/ChatTeardrop';
+import phosphor_ChatTeardropDots from './phosphor/ChatTeardropDots';
+import phosphor_ChatTeardropText from './phosphor/ChatTeardropText';
+import phosphor_ChatText from './phosphor/ChatText';
+import phosphor_Chats from './phosphor/Chats';
+import phosphor_ChatsCircle from './phosphor/ChatsCircle';
+import phosphor_ChatsTeardrop from './phosphor/ChatsTeardrop';
+import phosphor_Check from './phosphor/Check';
+import phosphor_CheckCircle from './phosphor/CheckCircle';
+import phosphor_CheckFat from './phosphor/CheckFat';
+import phosphor_CheckSquare from './phosphor/CheckSquare';
+import phosphor_CheckSquareOffset from './phosphor/CheckSquareOffset';
+import phosphor_Checks from './phosphor/Checks';
+import phosphor_Church from './phosphor/Church';
+import phosphor_Circle from './phosphor/Circle';
+import phosphor_CircleDashed from './phosphor/CircleDashed';
+import phosphor_CircleHalf from './phosphor/CircleHalf';
+import phosphor_CircleHalfTilt from './phosphor/CircleHalfTilt';
+import phosphor_CircleNotch from './phosphor/CircleNotch';
+import phosphor_CirclesFour from './phosphor/CirclesFour';
+import phosphor_CirclesThree from './phosphor/CirclesThree';
+import phosphor_CirclesThreePlus from './phosphor/CirclesThreePlus';
+import phosphor_Circuitry from './phosphor/Circuitry';
+import phosphor_Clipboard from './phosphor/Clipboard';
+import phosphor_ClipboardText from './phosphor/ClipboardText';
+import phosphor_Clock from './phosphor/Clock';
+import phosphor_ClockAfternoon from './phosphor/ClockAfternoon';
+import phosphor_ClockClockwise from './phosphor/ClockClockwise';
+import phosphor_ClockCountdown from './phosphor/ClockCountdown';
+import phosphor_ClockCounterClockwise from './phosphor/ClockCounterClockwise';
+import phosphor_ClosedCaptioning from './phosphor/ClosedCaptioning';
+import phosphor_Cloud from './phosphor/Cloud';
+import phosphor_CloudArrowDown from './phosphor/CloudArrowDown';
+import phosphor_CloudArrowUp from './phosphor/CloudArrowUp';
+import phosphor_CloudCheck from './phosphor/CloudCheck';
+import phosphor_CloudFog from './phosphor/CloudFog';
+import phosphor_CloudLightning from './phosphor/CloudLightning';
+import phosphor_CloudMoon from './phosphor/CloudMoon';
+import phosphor_CloudRain from './phosphor/CloudRain';
+import phosphor_CloudSlash from './phosphor/CloudSlash';
+import phosphor_CloudSnow from './phosphor/CloudSnow';
+import phosphor_CloudSun from './phosphor/CloudSun';
+import phosphor_CloudWarning from './phosphor/CloudWarning';
+import phosphor_CloudX from './phosphor/CloudX';
+import phosphor_Club from './phosphor/Club';
+import phosphor_CoatHanger from './phosphor/CoatHanger';
+import phosphor_CodaLogo from './phosphor/CodaLogo';
+import phosphor_Code from './phosphor/Code';
+import phosphor_CodeBlock from './phosphor/CodeBlock';
+import phosphor_CodeSimple from './phosphor/CodeSimple';
+import phosphor_CodepenLogo from './phosphor/CodepenLogo';
+import phosphor_CodesandboxLogo from './phosphor/CodesandboxLogo';
+import phosphor_Coffee from './phosphor/Coffee';
+import phosphor_Coin from './phosphor/Coin';
+import phosphor_CoinVertical from './phosphor/CoinVertical';
+import phosphor_Coins from './phosphor/Coins';
+import phosphor_Columns from './phosphor/Columns';
+import phosphor_Command from './phosphor/Command';
+import phosphor_Compass from './phosphor/Compass';
+import phosphor_CompassOff from './phosphor/CompassOff';
+import phosphor_CompassTool from './phosphor/CompassTool';
+import phosphor_ComputerTower from './phosphor/ComputerTower';
+import phosphor_Confetti from './phosphor/Confetti';
+import phosphor_ContactlessPayment from './phosphor/ContactlessPayment';
+import phosphor_Control from './phosphor/Control';
+import phosphor_Cookie from './phosphor/Cookie';
+import phosphor_CookingPot from './phosphor/CookingPot';
+import phosphor_Copy from './phosphor/Copy';
+import phosphor_CopySimple from './phosphor/CopySimple';
+import phosphor_Copyleft from './phosphor/Copyleft';
+import phosphor_Copyright from './phosphor/Copyright';
+import phosphor_CornersIn from './phosphor/CornersIn';
+import phosphor_CornersOut from './phosphor/CornersOut';
+import phosphor_Couch from './phosphor/Couch';
+import phosphor_Cpu from './phosphor/Cpu';
+import phosphor_CreditCard from './phosphor/CreditCard';
+import phosphor_Crop from './phosphor/Crop';
+import phosphor_Cross from './phosphor/Cross';
+import phosphor_Crosshair from './phosphor/Crosshair';
+import phosphor_CrosshairSimple from './phosphor/CrosshairSimple';
+import phosphor_Crown from './phosphor/Crown';
+import phosphor_CrownSimple from './phosphor/CrownSimple';
+import phosphor_Cube from './phosphor/Cube';
+import phosphor_CubeFocus from './phosphor/CubeFocus';
+import phosphor_CubeTransparent from './phosphor/CubeTransparent';
+import phosphor_CurrencyBtc from './phosphor/CurrencyBtc';
+import phosphor_CurrencyCircleDollar from './phosphor/CurrencyCircleDollar';
+import phosphor_CurrencyCny from './phosphor/CurrencyCny';
+import phosphor_CurrencyDollar from './phosphor/CurrencyDollar';
+import phosphor_CurrencyDollarSimple from './phosphor/CurrencyDollarSimple';
+import phosphor_CurrencyEth from './phosphor/CurrencyEth';
+import phosphor_CurrencyEur from './phosphor/CurrencyEur';
+import phosphor_CurrencyGbp from './phosphor/CurrencyGbp';
+import phosphor_CurrencyInr from './phosphor/CurrencyInr';
+import phosphor_CurrencyJpy from './phosphor/CurrencyJpy';
+import phosphor_CurrencyKrw from './phosphor/CurrencyKrw';
+import phosphor_CurrencyKzt from './phosphor/CurrencyKzt';
+import phosphor_CurrencyNgn from './phosphor/CurrencyNgn';
+import phosphor_CurrencyRub from './phosphor/CurrencyRub';
+import phosphor_Cursor from './phosphor/Cursor';
+import phosphor_CursorClick from './phosphor/CursorClick';
+import phosphor_CursorText from './phosphor/CursorText';
+import phosphor_Cylinder from './phosphor/Cylinder';
+import phosphor_Database from './phosphor/Database';
+import phosphor_Desktop from './phosphor/Desktop';
+import phosphor_DesktopTower from './phosphor/DesktopTower';
+import phosphor_Detective from './phosphor/Detective';
+import phosphor_DevToLogo from './phosphor/DevToLogo';
+import phosphor_DeviceMobile from './phosphor/DeviceMobile';
+import phosphor_DeviceMobileCamera from './phosphor/DeviceMobileCamera';
+import phosphor_DeviceMobileSpeaker from './phosphor/DeviceMobileSpeaker';
+import phosphor_DeviceTablet from './phosphor/DeviceTablet';
+import phosphor_DeviceTabletCamera from './phosphor/DeviceTabletCamera';
+import phosphor_DeviceTabletSpeaker from './phosphor/DeviceTabletSpeaker';
+import phosphor_Devices from './phosphor/Devices';
+import phosphor_Diamond from './phosphor/Diamond';
+import phosphor_DiamondsFour from './phosphor/DiamondsFour';
+import phosphor_DiceFive from './phosphor/DiceFive';
+import phosphor_DiceFour from './phosphor/DiceFour';
+import phosphor_DiceOne from './phosphor/DiceOne';
+import phosphor_DiceSix from './phosphor/DiceSix';
+import phosphor_DiceThree from './phosphor/DiceThree';
+import phosphor_DiceTwo from './phosphor/DiceTwo';
+import phosphor_Disc from './phosphor/Disc';
+import phosphor_DiscordLogo from './phosphor/DiscordLogo';
+import phosphor_Divide from './phosphor/Divide';
+import phosphor_Dna from './phosphor/Dna';
+import phosphor_Dog from './phosphor/Dog';
+import phosphor_Door from './phosphor/Door';
+import phosphor_DoorOpen from './phosphor/DoorOpen';
+import phosphor_Dot from './phosphor/Dot';
+import phosphor_DotOutline from './phosphor/DotOutline';
+import phosphor_DotsNine from './phosphor/DotsNine';
+import phosphor_DotsSix from './phosphor/DotsSix';
+import phosphor_DotsSixVertical from './phosphor/DotsSixVertical';
+import phosphor_DotsThree from './phosphor/DotsThree';
+import phosphor_DotsThreeCircle from './phosphor/DotsThreeCircle';
+import phosphor_DotsThreeCircleVertical from './phosphor/DotsThreeCircleVertical';
+import phosphor_DotsThreeOutline from './phosphor/DotsThreeOutline';
+import phosphor_DotsThreeOutlineVertical from './phosphor/DotsThreeOutlineVertical';
+import phosphor_DotsThreeVertical from './phosphor/DotsThreeVertical';
+import phosphor_Download from './phosphor/Download';
+import phosphor_DownloadSimple from './phosphor/DownloadSimple';
+import phosphor_Dress from './phosphor/Dress';
+import phosphor_DribbbleLogo from './phosphor/DribbbleLogo';
+import phosphor_Drop from './phosphor/Drop';
+import phosphor_DropHalf from './phosphor/DropHalf';
+import phosphor_DropHalfBottom from './phosphor/DropHalfBottom';
+import phosphor_DropboxLogo from './phosphor/DropboxLogo';
+import phosphor_Ear from './phosphor/Ear';
+import phosphor_EarSlash from './phosphor/EarSlash';
+import phosphor_Egg from './phosphor/Egg';
+import phosphor_EggCrack from './phosphor/EggCrack';
+import phosphor_Eject from './phosphor/Eject';
+import phosphor_EjectSimple from './phosphor/EjectSimple';
+import phosphor_Elevator from './phosphor/Elevator';
+import phosphor_Engine from './phosphor/Engine';
+import phosphor_Envelope from './phosphor/Envelope';
+import phosphor_EnvelopeOpen from './phosphor/EnvelopeOpen';
+import phosphor_EnvelopeSimple from './phosphor/EnvelopeSimple';
+import phosphor_EnvelopeSimpleOpen from './phosphor/EnvelopeSimpleOpen';
+import phosphor_Equalizer from './phosphor/Equalizer';
+import phosphor_Equals from './phosphor/Equals';
+import phosphor_Eraser from './phosphor/Eraser';
+import phosphor_EscalatorDown from './phosphor/EscalatorDown';
+import phosphor_EscalatorUp from './phosphor/EscalatorUp';
+import phosphor_Exam from './phosphor/Exam';
+import phosphor_Exclude from './phosphor/Exclude';
+import phosphor_ExcludeSquare from './phosphor/ExcludeSquare';
+import phosphor_Export from './phosphor/Export';
+import phosphor_Eye from './phosphor/Eye';
+import phosphor_EyeClosed from './phosphor/EyeClosed';
+import phosphor_EyeSlash from './phosphor/EyeSlash';
+import phosphor_Eyedropper from './phosphor/Eyedropper';
+import phosphor_EyedropperSample from './phosphor/EyedropperSample';
+import phosphor_Eyeglasses from './phosphor/Eyeglasses';
+import phosphor_FaceMask from './phosphor/FaceMask';
+import phosphor_FacebookLogo from './phosphor/FacebookLogo';
+import phosphor_Factory from './phosphor/Factory';
+import phosphor_Faders from './phosphor/Faders';
+import phosphor_FadersHorizontal from './phosphor/FadersHorizontal';
+import phosphor_Fan from './phosphor/Fan';
+import phosphor_FastForward from './phosphor/FastForward';
+import phosphor_FastForwardCircle from './phosphor/FastForwardCircle';
+import phosphor_Feather from './phosphor/Feather';
+import phosphor_FigmaLogo from './phosphor/FigmaLogo';
+import phosphor_File from './phosphor/File';
+import phosphor_FileArchive from './phosphor/FileArchive';
+import phosphor_FileArrowDown from './phosphor/FileArrowDown';
+import phosphor_FileArrowUp from './phosphor/FileArrowUp';
+import phosphor_FileAudio from './phosphor/FileAudio';
+import phosphor_FileCloud from './phosphor/FileCloud';
+import phosphor_FileCode from './phosphor/FileCode';
+import phosphor_FileCss from './phosphor/FileCss';
+import phosphor_FileCsv from './phosphor/FileCsv';
+import phosphor_FileDashed from './phosphor/FileDashed';
+import phosphor_FileDoc from './phosphor/FileDoc';
+import phosphor_FileHtml from './phosphor/FileHtml';
+import phosphor_FileImage from './phosphor/FileImage';
+import phosphor_FileJpg from './phosphor/FileJpg';
+import phosphor_FileJs from './phosphor/FileJs';
+import phosphor_FileJsx from './phosphor/FileJsx';
+import phosphor_FileLock from './phosphor/FileLock';
+import phosphor_FileMinus from './phosphor/FileMinus';
+import phosphor_FilePdf from './phosphor/FilePdf';
+import phosphor_FilePlus from './phosphor/FilePlus';
+import phosphor_FilePng from './phosphor/FilePng';
+import phosphor_FilePpt from './phosphor/FilePpt';
+import phosphor_FileRs from './phosphor/FileRs';
+import phosphor_FileSearch from './phosphor/FileSearch';
+import phosphor_FileSql from './phosphor/FileSql';
+import phosphor_FileSvg from './phosphor/FileSvg';
+import phosphor_FileText from './phosphor/FileText';
+import phosphor_FileTs from './phosphor/FileTs';
+import phosphor_FileTsx from './phosphor/FileTsx';
+import phosphor_FileVideo from './phosphor/FileVideo';
+import phosphor_FileVue from './phosphor/FileVue';
+import phosphor_FileX from './phosphor/FileX';
+import phosphor_FileXls from './phosphor/FileXls';
+import phosphor_FileZip from './phosphor/FileZip';
+import phosphor_Files from './phosphor/Files';
+import phosphor_FilmReel from './phosphor/FilmReel';
+import phosphor_FilmScript from './phosphor/FilmScript';
+import phosphor_FilmSlate from './phosphor/FilmSlate';
+import phosphor_FilmStrip from './phosphor/FilmStrip';
+import phosphor_Fingerprint from './phosphor/Fingerprint';
+import phosphor_FingerprintSimple from './phosphor/FingerprintSimple';
+import phosphor_FinnTheHuman from './phosphor/FinnTheHuman';
+import phosphor_Fire from './phosphor/Fire';
+import phosphor_FireExtinguisher from './phosphor/FireExtinguisher';
+import phosphor_FireSimple from './phosphor/FireSimple';
+import phosphor_FirstAid from './phosphor/FirstAid';
+import phosphor_FirstAidKit from './phosphor/FirstAidKit';
+import phosphor_Fish from './phosphor/Fish';
+import phosphor_FishSimple from './phosphor/FishSimple';
+import phosphor_Flag from './phosphor/Flag';
+import phosphor_FlagBanner from './phosphor/FlagBanner';
+import phosphor_FlagCheckered from './phosphor/FlagCheckered';
+import phosphor_FlagPennant from './phosphor/FlagPennant';
+import phosphor_Flame from './phosphor/Flame';
+import phosphor_Flashlight from './phosphor/Flashlight';
+import phosphor_Flask from './phosphor/Flask';
+import phosphor_FloppyDisk from './phosphor/FloppyDisk';
+import phosphor_FloppyDiskBack from './phosphor/FloppyDiskBack';
+import phosphor_FlowArrow from './phosphor/FlowArrow';
+import phosphor_Flower from './phosphor/Flower';
+import phosphor_FlowerLotus from './phosphor/FlowerLotus';
+import phosphor_FlowerTulip from './phosphor/FlowerTulip';
+import phosphor_FlyingSaucer from './phosphor/FlyingSaucer';
+import phosphor_Folder from './phosphor/Folder';
+import phosphor_FolderDashed from './phosphor/FolderDashed';
+import phosphor_FolderLock from './phosphor/FolderLock';
+import phosphor_FolderMinus from './phosphor/FolderMinus';
+import phosphor_FolderNotch from './phosphor/FolderNotch';
+import phosphor_FolderNotchMinus from './phosphor/FolderNotchMinus';
+import phosphor_FolderNotchOpen from './phosphor/FolderNotchOpen';
+import phosphor_FolderNotchPlus from './phosphor/FolderNotchPlus';
+import phosphor_FolderOpen from './phosphor/FolderOpen';
+import phosphor_FolderPlus from './phosphor/FolderPlus';
+import phosphor_FolderSimple from './phosphor/FolderSimple';
+import phosphor_FolderSimpleDashed from './phosphor/FolderSimpleDashed';
+import phosphor_FolderSimpleLock from './phosphor/FolderSimpleLock';
+import phosphor_FolderSimpleMinus from './phosphor/FolderSimpleMinus';
+import phosphor_FolderSimplePlus from './phosphor/FolderSimplePlus';
+import phosphor_FolderSimpleStar from './phosphor/FolderSimpleStar';
+import phosphor_FolderSimpleUser from './phosphor/FolderSimpleUser';
+import phosphor_FolderStar from './phosphor/FolderStar';
+import phosphor_FolderUser from './phosphor/FolderUser';
+import phosphor_Folders from './phosphor/Folders';
+import phosphor_Football from './phosphor/Football';
+import phosphor_Footprints from './phosphor/Footprints';
+import phosphor_ForkKnife from './phosphor/ForkKnife';
+import phosphor_FrameCorners from './phosphor/FrameCorners';
+import phosphor_FramerLogo from './phosphor/FramerLogo';
+import phosphor_Function from './phosphor/Function';
+import phosphor_Funnel from './phosphor/Funnel';
+import phosphor_FunnelSimple from './phosphor/FunnelSimple';
+import phosphor_GameController from './phosphor/GameController';
+import phosphor_Garage from './phosphor/Garage';
+import phosphor_GasCan from './phosphor/GasCan';
+import phosphor_GasPump from './phosphor/GasPump';
+import phosphor_Gauge from './phosphor/Gauge';
+import phosphor_Gavel from './phosphor/Gavel';
+import phosphor_Gear from './phosphor/Gear';
+import phosphor_GearFine from './phosphor/GearFine';
+import phosphor_GearSix from './phosphor/GearSix';
+import phosphor_GenderFemale from './phosphor/GenderFemale';
+import phosphor_GenderIntersex from './phosphor/GenderIntersex';
+import phosphor_GenderMale from './phosphor/GenderMale';
+import phosphor_GenderNeuter from './phosphor/GenderNeuter';
+import phosphor_GenderNonbinary from './phosphor/GenderNonbinary';
+import phosphor_GenderTransgender from './phosphor/GenderTransgender';
+import phosphor_Ghost from './phosphor/Ghost';
+import phosphor_Gif from './phosphor/Gif';
+import phosphor_Gift from './phosphor/Gift';
+import phosphor_GitBranch from './phosphor/GitBranch';
+import phosphor_GitCommit from './phosphor/GitCommit';
+import phosphor_GitDiff from './phosphor/GitDiff';
+import phosphor_GitFork from './phosphor/GitFork';
+import phosphor_GitMerge from './phosphor/GitMerge';
+import phosphor_GitPullRequest from './phosphor/GitPullRequest';
+import phosphor_GithubLogo from './phosphor/GithubLogo';
+import phosphor_GitlabLogo from './phosphor/GitlabLogo';
+import phosphor_GitlabLogoSimple from './phosphor/GitlabLogoSimple';
+import phosphor_Globe from './phosphor/Globe';
+import phosphor_GlobeHemisphereEast from './phosphor/GlobeHemisphereEast';
+import phosphor_GlobeHemisphereWest from './phosphor/GlobeHemisphereWest';
+import phosphor_GlobeSimple from './phosphor/GlobeSimple';
+import phosphor_GlobeStand from './phosphor/GlobeStand';
+import phosphor_Goggles from './phosphor/Goggles';
+import phosphor_GoodreadsLogo from './phosphor/GoodreadsLogo';
+import phosphor_GoogleCardboardLogo from './phosphor/GoogleCardboardLogo';
+import phosphor_GoogleChromeLogo from './phosphor/GoogleChromeLogo';
+import phosphor_GoogleDriveLogo from './phosphor/GoogleDriveLogo';
+import phosphor_GoogleLogo from './phosphor/GoogleLogo';
+import phosphor_GooglePhotosLogo from './phosphor/GooglePhotosLogo';
+import phosphor_GooglePlayLogo from './phosphor/GooglePlayLogo';
+import phosphor_GooglePodcastsLogo from './phosphor/GooglePodcastsLogo';
+import phosphor_Gradient from './phosphor/Gradient';
+import phosphor_GraduationCap from './phosphor/GraduationCap';
+import phosphor_Grains from './phosphor/Grains';
+import phosphor_GrainsSlash from './phosphor/GrainsSlash';
+import phosphor_Graph from './phosphor/Graph';
+import phosphor_GridFour from './phosphor/GridFour';
+import phosphor_GridNine from './phosphor/GridNine';
+import phosphor_Guitar from './phosphor/Guitar';
+import phosphor_Hamburger from './phosphor/Hamburger';
+import phosphor_Hammer from './phosphor/Hammer';
+import phosphor_Hand from './phosphor/Hand';
+import phosphor_HandCoins from './phosphor/HandCoins';
+import phosphor_HandEye from './phosphor/HandEye';
+import phosphor_HandFist from './phosphor/HandFist';
+import phosphor_HandGrabbing from './phosphor/HandGrabbing';
+import phosphor_HandHeart from './phosphor/HandHeart';
+import phosphor_HandPalm from './phosphor/HandPalm';
+import phosphor_HandPointing from './phosphor/HandPointing';
+import phosphor_HandSoap from './phosphor/HandSoap';
+import phosphor_HandSwipeLeft from './phosphor/HandSwipeLeft';
+import phosphor_HandSwipeRight from './phosphor/HandSwipeRight';
+import phosphor_HandTap from './phosphor/HandTap';
+import phosphor_HandWaving from './phosphor/HandWaving';
+import phosphor_Handbag from './phosphor/Handbag';
+import phosphor_HandbagSimple from './phosphor/HandbagSimple';
+import phosphor_HandsClapping from './phosphor/HandsClapping';
+import phosphor_HandsPraying from './phosphor/HandsPraying';
+import phosphor_Handshake from './phosphor/Handshake';
+import phosphor_HardDrive from './phosphor/HardDrive';
+import phosphor_HardDrives from './phosphor/HardDrives';
+import phosphor_Hash from './phosphor/Hash';
+import phosphor_HashStraight from './phosphor/HashStraight';
+import phosphor_Headlights from './phosphor/Headlights';
+import phosphor_Headphones from './phosphor/Headphones';
+import phosphor_Headset from './phosphor/Headset';
+import phosphor_Heart from './phosphor/Heart';
+import phosphor_HeartBreak from './phosphor/HeartBreak';
+import phosphor_HeartHalf from './phosphor/HeartHalf';
+import phosphor_HeartStraight from './phosphor/HeartStraight';
+import phosphor_HeartStraightBreak from './phosphor/HeartStraightBreak';
+import phosphor_Heartbeat from './phosphor/Heartbeat';
+import phosphor_Hexagon from './phosphor/Hexagon';
+import phosphor_HighHeel from './phosphor/HighHeel';
+import phosphor_HighlighterCircle from './phosphor/HighlighterCircle';
+import phosphor_Hoodie from './phosphor/Hoodie';
+import phosphor_Horse from './phosphor/Horse';
+import phosphor_Hourglass from './phosphor/Hourglass';
+import phosphor_HourglassHigh from './phosphor/HourglassHigh';
+import phosphor_HourglassLow from './phosphor/HourglassLow';
+import phosphor_HourglassMedium from './phosphor/HourglassMedium';
+import phosphor_HourglassSimple from './phosphor/HourglassSimple';
+import phosphor_HourglassSimpleHigh from './phosphor/HourglassSimpleHigh';
+import phosphor_HourglassSimpleLow from './phosphor/HourglassSimpleLow';
+import phosphor_HourglassSimpleMedium from './phosphor/HourglassSimpleMedium';
+import phosphor_House from './phosphor/House';
+import phosphor_HouseLine from './phosphor/HouseLine';
+import phosphor_HouseSimple from './phosphor/HouseSimple';
+import phosphor_IceCream from './phosphor/IceCream';
+import phosphor_IdentificationBadge from './phosphor/IdentificationBadge';
+import phosphor_IdentificationCard from './phosphor/IdentificationCard';
+import phosphor_Image from './phosphor/Image';
+import phosphor_ImageSquare from './phosphor/ImageSquare';
+import phosphor_Images from './phosphor/Images';
+import phosphor_ImagesSquare from './phosphor/ImagesSquare';
+import phosphor_Infinity from './phosphor/Infinity';
+import phosphor_Info from './phosphor/Info';
+import phosphor_InstagramLogo from './phosphor/InstagramLogo';
+import phosphor_Intersect from './phosphor/Intersect';
+import phosphor_IntersectSquare from './phosphor/IntersectSquare';
+import phosphor_IntersectThree from './phosphor/IntersectThree';
+import phosphor_Jeep from './phosphor/Jeep';
+import phosphor_Kanban from './phosphor/Kanban';
+import phosphor_Key from './phosphor/Key';
+import phosphor_KeyReturn from './phosphor/KeyReturn';
+import phosphor_Keyboard from './phosphor/Keyboard';
+import phosphor_Keyhole from './phosphor/Keyhole';
+import phosphor_Knife from './phosphor/Knife';
+import phosphor_Ladder from './phosphor/Ladder';
+import phosphor_LadderSimple from './phosphor/LadderSimple';
+import phosphor_Lamp from './phosphor/Lamp';
+import phosphor_Laptop from './phosphor/Laptop';
+import phosphor_Layout from './phosphor/Layout';
+import phosphor_Leaf from './phosphor/Leaf';
+import phosphor_Lifebuoy from './phosphor/Lifebuoy';
+import phosphor_Lightbulb from './phosphor/Lightbulb';
+import phosphor_LightbulbFilament from './phosphor/LightbulbFilament';
+import phosphor_Lighthouse from './phosphor/Lighthouse';
+import phosphor_Lightning from './phosphor/Lightning';
+import phosphor_LightningA from './phosphor/LightningA';
+import phosphor_LightningSlash from './phosphor/LightningSlash';
+import phosphor_LineSegment from './phosphor/LineSegment';
+import phosphor_LineSegments from './phosphor/LineSegments';
+import phosphor_Link from './phosphor/Link';
+import phosphor_LinkBreak from './phosphor/LinkBreak';
+import phosphor_LinkSimple from './phosphor/LinkSimple';
+import phosphor_LinkSimpleBreak from './phosphor/LinkSimpleBreak';
+import phosphor_LinkSimpleHorizontal from './phosphor/LinkSimpleHorizontal';
+import phosphor_LinkSimpleHorizontalBreak from './phosphor/LinkSimpleHorizontalBreak';
+import phosphor_LinkedinLogo from './phosphor/LinkedinLogo';
+import phosphor_LinuxLogo from './phosphor/LinuxLogo';
+import phosphor_List from './phosphor/List';
+import phosphor_ListBullets from './phosphor/ListBullets';
+import phosphor_ListChecks from './phosphor/ListChecks';
+import phosphor_ListDashes from './phosphor/ListDashes';
+import phosphor_ListMagnifyingGlass from './phosphor/ListMagnifyingGlass';
+import phosphor_ListNumbers from './phosphor/ListNumbers';
+import phosphor_ListPlus from './phosphor/ListPlus';
+import phosphor_Lock from './phosphor/Lock';
+import phosphor_LockKey from './phosphor/LockKey';
+import phosphor_LockKeyOpen from './phosphor/LockKeyOpen';
+import phosphor_LockLaminated from './phosphor/LockLaminated';
+import phosphor_LockLaminatedOpen from './phosphor/LockLaminatedOpen';
+import phosphor_LockOpen from './phosphor/LockOpen';
+import phosphor_LockSimple from './phosphor/LockSimple';
+import phosphor_LockSimpleOpen from './phosphor/LockSimpleOpen';
+import phosphor_Lockers from './phosphor/Lockers';
+import phosphor_MagicWand from './phosphor/MagicWand';
+import phosphor_Magnet from './phosphor/Magnet';
+import phosphor_MagnetStraight from './phosphor/MagnetStraight';
+import phosphor_MagnifyingGlass from './phosphor/MagnifyingGlass';
+import phosphor_MagnifyingGlassMinus from './phosphor/MagnifyingGlassMinus';
+import phosphor_MagnifyingGlassPlus from './phosphor/MagnifyingGlassPlus';
+import phosphor_MapPin from './phosphor/MapPin';
+import phosphor_MapPinLine from './phosphor/MapPinLine';
+import phosphor_MapTrifold from './phosphor/MapTrifold';
+import phosphor_MarkerCircle from './phosphor/MarkerCircle';
+import phosphor_Martini from './phosphor/Martini';
+import phosphor_MaskHappy from './phosphor/MaskHappy';
+import phosphor_MaskSad from './phosphor/MaskSad';
+import phosphor_MathOperations from './phosphor/MathOperations';
+import phosphor_Medal from './phosphor/Medal';
+import phosphor_MedalMilitary from './phosphor/MedalMilitary';
+import phosphor_MediumLogo from './phosphor/MediumLogo';
+import phosphor_Megaphone from './phosphor/Megaphone';
+import phosphor_MegaphoneSimple from './phosphor/MegaphoneSimple';
+import phosphor_MessengerLogo from './phosphor/MessengerLogo';
+import phosphor_MetaLogo from './phosphor/MetaLogo';
+import phosphor_Metronome from './phosphor/Metronome';
+import phosphor_Microphone from './phosphor/Microphone';
+import phosphor_MicrophoneSlash from './phosphor/MicrophoneSlash';
+import phosphor_MicrophoneStage from './phosphor/MicrophoneStage';
+import phosphor_MicrosoftExcelLogo from './phosphor/MicrosoftExcelLogo';
+import phosphor_MicrosoftOutlookLogo from './phosphor/MicrosoftOutlookLogo';
+import phosphor_MicrosoftPowerpointLogo from './phosphor/MicrosoftPowerpointLogo';
+import phosphor_MicrosoftTeamsLogo from './phosphor/MicrosoftTeamsLogo';
+import phosphor_MicrosoftWordLogo from './phosphor/MicrosoftWordLogo';
+import phosphor_Minus from './phosphor/Minus';
+import phosphor_MinusCircle from './phosphor/MinusCircle';
+import phosphor_MinusSquare from './phosphor/MinusSquare';
+import phosphor_Money from './phosphor/Money';
+import phosphor_Monitor from './phosphor/Monitor';
+import phosphor_MonitorPlay from './phosphor/MonitorPlay';
+import phosphor_Moon from './phosphor/Moon';
+import phosphor_MoonStars from './phosphor/MoonStars';
+import phosphor_Moped from './phosphor/Moped';
+import phosphor_MopedFront from './phosphor/MopedFront';
+import phosphor_Mosque from './phosphor/Mosque';
+import phosphor_Motorcycle from './phosphor/Motorcycle';
+import phosphor_Mountains from './phosphor/Mountains';
+import phosphor_Mouse from './phosphor/Mouse';
+import phosphor_MouseSimple from './phosphor/MouseSimple';
+import phosphor_MusicNote from './phosphor/MusicNote';
+import phosphor_MusicNoteSimple from './phosphor/MusicNoteSimple';
+import phosphor_MusicNotes from './phosphor/MusicNotes';
+import phosphor_MusicNotesPlus from './phosphor/MusicNotesPlus';
+import phosphor_MusicNotesSimple from './phosphor/MusicNotesSimple';
+import phosphor_NavigationArrow from './phosphor/NavigationArrow';
+import phosphor_Needle from './phosphor/Needle';
+import phosphor_Newspaper from './phosphor/Newspaper';
+import phosphor_NewspaperClipping from './phosphor/NewspaperClipping';
+import phosphor_Notches from './phosphor/Notches';
+import phosphor_Note from './phosphor/Note';
+import phosphor_NoteBlank from './phosphor/NoteBlank';
+import phosphor_NotePencil from './phosphor/NotePencil';
+import phosphor_Notebook from './phosphor/Notebook';
+import phosphor_Notepad from './phosphor/Notepad';
+import phosphor_Notification from './phosphor/Notification';
+import phosphor_NotionLogo from './phosphor/NotionLogo';
+import phosphor_NumberCircleEight from './phosphor/NumberCircleEight';
+import phosphor_NumberCircleFive from './phosphor/NumberCircleFive';
+import phosphor_NumberCircleFour from './phosphor/NumberCircleFour';
+import phosphor_NumberCircleNine from './phosphor/NumberCircleNine';
+import phosphor_NumberCircleOne from './phosphor/NumberCircleOne';
+import phosphor_NumberCircleSeven from './phosphor/NumberCircleSeven';
+import phosphor_NumberCircleSix from './phosphor/NumberCircleSix';
+import phosphor_NumberCircleThree from './phosphor/NumberCircleThree';
+import phosphor_NumberCircleTwo from './phosphor/NumberCircleTwo';
+import phosphor_NumberCircleZero from './phosphor/NumberCircleZero';
+import phosphor_NumberEight from './phosphor/NumberEight';
+import phosphor_NumberFive from './phosphor/NumberFive';
+import phosphor_NumberFour from './phosphor/NumberFour';
+import phosphor_NumberNine from './phosphor/NumberNine';
+import phosphor_NumberOne from './phosphor/NumberOne';
+import phosphor_NumberSeven from './phosphor/NumberSeven';
+import phosphor_NumberSix from './phosphor/NumberSix';
+import phosphor_NumberSquareEight from './phosphor/NumberSquareEight';
+import phosphor_NumberSquareFive from './phosphor/NumberSquareFive';
+import phosphor_NumberSquareFour from './phosphor/NumberSquareFour';
+import phosphor_NumberSquareNine from './phosphor/NumberSquareNine';
+import phosphor_NumberSquareOne from './phosphor/NumberSquareOne';
+import phosphor_NumberSquareSeven from './phosphor/NumberSquareSeven';
+import phosphor_NumberSquareSix from './phosphor/NumberSquareSix';
+import phosphor_NumberSquareThree from './phosphor/NumberSquareThree';
+import phosphor_NumberSquareTwo from './phosphor/NumberSquareTwo';
+import phosphor_NumberSquareZero from './phosphor/NumberSquareZero';
+import phosphor_NumberThree from './phosphor/NumberThree';
+import phosphor_NumberTwo from './phosphor/NumberTwo';
+import phosphor_NumberZero from './phosphor/NumberZero';
+import phosphor_Nut from './phosphor/Nut';
+import phosphor_NyTimesLogo from './phosphor/NyTimesLogo';
+import phosphor_Octagon from './phosphor/Octagon';
+import phosphor_OfficeChair from './phosphor/OfficeChair';
+import phosphor_Option from './phosphor/Option';
+import phosphor_OrangeSlice from './phosphor/OrangeSlice';
+import phosphor_Package from './phosphor/Package';
+import phosphor_PaintBrush from './phosphor/PaintBrush';
+import phosphor_PaintBrushBroad from './phosphor/PaintBrushBroad';
+import phosphor_PaintBrushHousehold from './phosphor/PaintBrushHousehold';
+import phosphor_PaintBucket from './phosphor/PaintBucket';
+import phosphor_PaintRoller from './phosphor/PaintRoller';
+import phosphor_Palette from './phosphor/Palette';
+import phosphor_Pants from './phosphor/Pants';
+import phosphor_PaperPlane from './phosphor/PaperPlane';
+import phosphor_PaperPlaneRight from './phosphor/PaperPlaneRight';
+import phosphor_PaperPlaneTilt from './phosphor/PaperPlaneTilt';
+import phosphor_Paperclip from './phosphor/Paperclip';
+import phosphor_PaperclipHorizontal from './phosphor/PaperclipHorizontal';
+import phosphor_Parachute from './phosphor/Parachute';
+import phosphor_Paragraph from './phosphor/Paragraph';
+import phosphor_Parallelogram from './phosphor/Parallelogram';
+import phosphor_Park from './phosphor/Park';
+import phosphor_Password from './phosphor/Password';
+import phosphor_Path from './phosphor/Path';
+import phosphor_PatreonLogo from './phosphor/PatreonLogo';
+import phosphor_Pause from './phosphor/Pause';
+import phosphor_PauseCircle from './phosphor/PauseCircle';
+import phosphor_PawPrint from './phosphor/PawPrint';
+import phosphor_PaypalLogo from './phosphor/PaypalLogo';
+import phosphor_Peace from './phosphor/Peace';
+import phosphor_Pen from './phosphor/Pen';
+import phosphor_PenNib from './phosphor/PenNib';
+import phosphor_PenNibStraight from './phosphor/PenNibStraight';
+import phosphor_Pencil from './phosphor/Pencil';
+import phosphor_PencilCircle from './phosphor/PencilCircle';
+import phosphor_PencilLine from './phosphor/PencilLine';
+import phosphor_PencilSimple from './phosphor/PencilSimple';
+import phosphor_PencilSimpleLine from './phosphor/PencilSimpleLine';
+import phosphor_PencilSimpleSlash from './phosphor/PencilSimpleSlash';
+import phosphor_PencilSlash from './phosphor/PencilSlash';
+import phosphor_Pentagram from './phosphor/Pentagram';
+import phosphor_Pepper from './phosphor/Pepper';
+import phosphor_Percent from './phosphor/Percent';
+import phosphor_Person from './phosphor/Person';
+import phosphor_PersonArmsSpread from './phosphor/PersonArmsSpread';
+import phosphor_PersonSimple from './phosphor/PersonSimple';
+import phosphor_PersonSimpleBike from './phosphor/PersonSimpleBike';
+import phosphor_PersonSimpleRun from './phosphor/PersonSimpleRun';
+import phosphor_PersonSimpleThrow from './phosphor/PersonSimpleThrow';
+import phosphor_PersonSimpleWalk from './phosphor/PersonSimpleWalk';
+import phosphor_Perspective from './phosphor/Perspective';
+import phosphor_Phone from './phosphor/Phone';
+import phosphor_PhoneCall from './phosphor/PhoneCall';
+import phosphor_PhoneDisconnect from './phosphor/PhoneDisconnect';
+import phosphor_PhoneIncoming from './phosphor/PhoneIncoming';
+import phosphor_PhoneOutgoing from './phosphor/PhoneOutgoing';
+import phosphor_PhonePlus from './phosphor/PhonePlus';
+import phosphor_PhoneSlash from './phosphor/PhoneSlash';
+import phosphor_PhoneX from './phosphor/PhoneX';
+import phosphor_PhosphorLogo from './phosphor/PhosphorLogo';
+import phosphor_Pi from './phosphor/Pi';
+import phosphor_PianoKeys from './phosphor/PianoKeys';
+import phosphor_PictureInPicture from './phosphor/PictureInPicture';
+import phosphor_PiggyBank from './phosphor/PiggyBank';
+import phosphor_Pill from './phosphor/Pill';
+import phosphor_PinterestLogo from './phosphor/PinterestLogo';
+import phosphor_Pinwheel from './phosphor/Pinwheel';
+import phosphor_Pizza from './phosphor/Pizza';
+import phosphor_Placeholder from './phosphor/Placeholder';
+import phosphor_Planet from './phosphor/Planet';
+import phosphor_Plant from './phosphor/Plant';
+import phosphor_Play from './phosphor/Play';
+import phosphor_PlayCircle from './phosphor/PlayCircle';
+import phosphor_PlayPause from './phosphor/PlayPause';
+import phosphor_Playlist from './phosphor/Playlist';
+import phosphor_Plug from './phosphor/Plug';
+import phosphor_PlugCharging from './phosphor/PlugCharging';
+import phosphor_Plugs from './phosphor/Plugs';
+import phosphor_PlugsConnected from './phosphor/PlugsConnected';
+import phosphor_Plus from './phosphor/Plus';
+import phosphor_PlusCircle from './phosphor/PlusCircle';
+import phosphor_PlusMinus from './phosphor/PlusMinus';
+import phosphor_PlusSquare from './phosphor/PlusSquare';
+import phosphor_PokerChip from './phosphor/PokerChip';
+import phosphor_PoliceCar from './phosphor/PoliceCar';
+import phosphor_Polygon from './phosphor/Polygon';
+import phosphor_Popcorn from './phosphor/Popcorn';
+import phosphor_PottedPlant from './phosphor/PottedPlant';
+import phosphor_Power from './phosphor/Power';
+import phosphor_Prescription from './phosphor/Prescription';
+import phosphor_Presentation from './phosphor/Presentation';
+import phosphor_PresentationChart from './phosphor/PresentationChart';
+import phosphor_Printer from './phosphor/Printer';
+import phosphor_Prohibit from './phosphor/Prohibit';
+import phosphor_ProhibitInset from './phosphor/ProhibitInset';
+import phosphor_ProjectorScreen from './phosphor/ProjectorScreen';
+import phosphor_ProjectorScreenChart from './phosphor/ProjectorScreenChart';
+import phosphor_Pulse from './phosphor/Pulse';
+import phosphor_PushPin from './phosphor/PushPin';
+import phosphor_PushPinSimple from './phosphor/PushPinSimple';
+import phosphor_PushPinSimpleSlash from './phosphor/PushPinSimpleSlash';
+import phosphor_PushPinSlash from './phosphor/PushPinSlash';
+import phosphor_PuzzlePiece from './phosphor/PuzzlePiece';
+import phosphor_QrCode from './phosphor/QrCode';
+import phosphor_Question from './phosphor/Question';
+import phosphor_Queue from './phosphor/Queue';
+import phosphor_Quotes from './phosphor/Quotes';
+import phosphor_Radical from './phosphor/Radical';
+import phosphor_Radio from './phosphor/Radio';
+import phosphor_RadioButton from './phosphor/RadioButton';
+import phosphor_Radioactive from './phosphor/Radioactive';
+import phosphor_Rainbow from './phosphor/Rainbow';
+import phosphor_RainbowCloud from './phosphor/RainbowCloud';
+import phosphor_ReadCvLogo from './phosphor/ReadCvLogo';
+import phosphor_Receipt from './phosphor/Receipt';
+import phosphor_ReceiptX from './phosphor/ReceiptX';
+import phosphor_Record from './phosphor/Record';
+import phosphor_Rectangle from './phosphor/Rectangle';
+import phosphor_Recycle from './phosphor/Recycle';
+import phosphor_RedditLogo from './phosphor/RedditLogo';
+import phosphor_Repeat from './phosphor/Repeat';
+import phosphor_RepeatOnce from './phosphor/RepeatOnce';
+import phosphor_Rewind from './phosphor/Rewind';
+import phosphor_RewindCircle from './phosphor/RewindCircle';
+import phosphor_RoadHorizon from './phosphor/RoadHorizon';
+import phosphor_Robot from './phosphor/Robot';
+import phosphor_Rocket from './phosphor/Rocket';
+import phosphor_RocketLaunch from './phosphor/RocketLaunch';
+import phosphor_Rows from './phosphor/Rows';
+import phosphor_Rss from './phosphor/Rss';
+import phosphor_RssSimple from './phosphor/RssSimple';
+import phosphor_Rug from './phosphor/Rug';
+import phosphor_Ruler from './phosphor/Ruler';
+import phosphor_Scales from './phosphor/Scales';
+import phosphor_Scan from './phosphor/Scan';
+import phosphor_Scissors from './phosphor/Scissors';
+import phosphor_Scooter from './phosphor/Scooter';
+import phosphor_Screencast from './phosphor/Screencast';
+import phosphor_ScribbleLoop from './phosphor/ScribbleLoop';
+import phosphor_Scroll from './phosphor/Scroll';
+import phosphor_Seal from './phosphor/Seal';
+import phosphor_SealCheck from './phosphor/SealCheck';
+import phosphor_SealQuestion from './phosphor/SealQuestion';
+import phosphor_SealWarning from './phosphor/SealWarning';
+import phosphor_Selection from './phosphor/Selection';
+import phosphor_SelectionAll from './phosphor/SelectionAll';
+import phosphor_SelectionBackground from './phosphor/SelectionBackground';
+import phosphor_SelectionForeground from './phosphor/SelectionForeground';
+import phosphor_SelectionInverse from './phosphor/SelectionInverse';
+import phosphor_SelectionPlus from './phosphor/SelectionPlus';
+import phosphor_SelectionSlash from './phosphor/SelectionSlash';
+import phosphor_Shapes from './phosphor/Shapes';
+import phosphor_Share from './phosphor/Share';
+import phosphor_ShareFat from './phosphor/ShareFat';
+import phosphor_ShareNetwork from './phosphor/ShareNetwork';
+import phosphor_Shield from './phosphor/Shield';
+import phosphor_ShieldCheck from './phosphor/ShieldCheck';
+import phosphor_ShieldCheckered from './phosphor/ShieldCheckered';
+import phosphor_ShieldChevron from './phosphor/ShieldChevron';
+import phosphor_ShieldPlus from './phosphor/ShieldPlus';
+import phosphor_ShieldSlash from './phosphor/ShieldSlash';
+import phosphor_ShieldStar from './phosphor/ShieldStar';
+import phosphor_ShieldWarning from './phosphor/ShieldWarning';
+import phosphor_ShirtFolded from './phosphor/ShirtFolded';
+import phosphor_ShootingStar from './phosphor/ShootingStar';
+import phosphor_ShoppingBag from './phosphor/ShoppingBag';
+import phosphor_ShoppingBagOpen from './phosphor/ShoppingBagOpen';
+import phosphor_ShoppingCart from './phosphor/ShoppingCart';
+import phosphor_ShoppingCartSimple from './phosphor/ShoppingCartSimple';
+import phosphor_Shower from './phosphor/Shower';
+import phosphor_Shrimp from './phosphor/Shrimp';
+import phosphor_Shuffle from './phosphor/Shuffle';
+import phosphor_ShuffleAngular from './phosphor/ShuffleAngular';
+import phosphor_ShuffleSimple from './phosphor/ShuffleSimple';
+import phosphor_Sidebar from './phosphor/Sidebar';
+import phosphor_SidebarSimple from './phosphor/SidebarSimple';
+import phosphor_Sigma from './phosphor/Sigma';
+import phosphor_SignIn from './phosphor/SignIn';
+import phosphor_SignOut from './phosphor/SignOut';
+import phosphor_Signature from './phosphor/Signature';
+import phosphor_Signpost from './phosphor/Signpost';
+import phosphor_SimCard from './phosphor/SimCard';
+import phosphor_Siren from './phosphor/Siren';
+import phosphor_SketchLogo from './phosphor/SketchLogo';
+import phosphor_SkipBack from './phosphor/SkipBack';
+import phosphor_SkipBackCircle from './phosphor/SkipBackCircle';
+import phosphor_SkipForward from './phosphor/SkipForward';
+import phosphor_SkipForwardCircle from './phosphor/SkipForwardCircle';
+import phosphor_Skull from './phosphor/Skull';
+import phosphor_SlackLogo from './phosphor/SlackLogo';
+import phosphor_Sliders from './phosphor/Sliders';
+import phosphor_SlidersHorizontal from './phosphor/SlidersHorizontal';
+import phosphor_Slideshow from './phosphor/Slideshow';
+import phosphor_Smiley from './phosphor/Smiley';
+import phosphor_SmileyAngry from './phosphor/SmileyAngry';
+import phosphor_SmileyBlank from './phosphor/SmileyBlank';
+import phosphor_SmileyMeh from './phosphor/SmileyMeh';
+import phosphor_SmileyNervous from './phosphor/SmileyNervous';
+import phosphor_SmileySad from './phosphor/SmileySad';
+import phosphor_SmileySticker from './phosphor/SmileySticker';
+import phosphor_SmileyWink from './phosphor/SmileyWink';
+import phosphor_SmileyXEyes from './phosphor/SmileyXEyes';
+import phosphor_SnapchatLogo from './phosphor/SnapchatLogo';
+import phosphor_Sneaker from './phosphor/Sneaker';
+import phosphor_SneakerMove from './phosphor/SneakerMove';
+import phosphor_Snowflake from './phosphor/Snowflake';
+import phosphor_SoccerBall from './phosphor/SoccerBall';
+import phosphor_SortAscending from './phosphor/SortAscending';
+import phosphor_SortDescending from './phosphor/SortDescending';
+import phosphor_SoundcloudLogo from './phosphor/SoundcloudLogo';
+import phosphor_Spade from './phosphor/Spade';
+import phosphor_Sparkle from './phosphor/Sparkle';
+import phosphor_SpeakerHifi from './phosphor/SpeakerHifi';
+import phosphor_SpeakerHigh from './phosphor/SpeakerHigh';
+import phosphor_SpeakerLow from './phosphor/SpeakerLow';
+import phosphor_SpeakerNone from './phosphor/SpeakerNone';
+import phosphor_SpeakerSimpleHigh from './phosphor/SpeakerSimpleHigh';
+import phosphor_SpeakerSimpleLow from './phosphor/SpeakerSimpleLow';
+import phosphor_SpeakerSimpleNone from './phosphor/SpeakerSimpleNone';
+import phosphor_SpeakerSimpleSlash from './phosphor/SpeakerSimpleSlash';
+import phosphor_SpeakerSimpleX from './phosphor/SpeakerSimpleX';
+import phosphor_SpeakerSlash from './phosphor/SpeakerSlash';
+import phosphor_SpeakerX from './phosphor/SpeakerX';
+import phosphor_Spinner from './phosphor/Spinner';
+import phosphor_SpinnerGap from './phosphor/SpinnerGap';
+import phosphor_Spiral from './phosphor/Spiral';
+import phosphor_SplitHorizontal from './phosphor/SplitHorizontal';
+import phosphor_SplitVertical from './phosphor/SplitVertical';
+import phosphor_SpotifyLogo from './phosphor/SpotifyLogo';
+import phosphor_Square from './phosphor/Square';
+import phosphor_SquareHalf from './phosphor/SquareHalf';
+import phosphor_SquareHalfBottom from './phosphor/SquareHalfBottom';
+import phosphor_SquareLogo from './phosphor/SquareLogo';
+import phosphor_SquareSplitHorizontal from './phosphor/SquareSplitHorizontal';
+import phosphor_SquareSplitVertical from './phosphor/SquareSplitVertical';
+import phosphor_SquaresFour from './phosphor/SquaresFour';
+import phosphor_Stack from './phosphor/Stack';
+import phosphor_StackOverflowLogo from './phosphor/StackOverflowLogo';
+import phosphor_StackSimple from './phosphor/StackSimple';
+import phosphor_Stairs from './phosphor/Stairs';
+import phosphor_Stamp from './phosphor/Stamp';
+import phosphor_Star from './phosphor/Star';
+import phosphor_StarAndCrescent from './phosphor/StarAndCrescent';
+import phosphor_StarFour from './phosphor/StarFour';
+import phosphor_StarHalf from './phosphor/StarHalf';
+import phosphor_StarOfDavid from './phosphor/StarOfDavid';
+import phosphor_SteeringWheel from './phosphor/SteeringWheel';
+import phosphor_Steps from './phosphor/Steps';
+import phosphor_Stethoscope from './phosphor/Stethoscope';
+import phosphor_Sticker from './phosphor/Sticker';
+import phosphor_Stool from './phosphor/Stool';
+import phosphor_Stop from './phosphor/Stop';
+import phosphor_StopCircle from './phosphor/StopCircle';
+import phosphor_Storefront from './phosphor/Storefront';
+import phosphor_Strategy from './phosphor/Strategy';
+import phosphor_StripeLogo from './phosphor/StripeLogo';
+import phosphor_Student from './phosphor/Student';
+import phosphor_Subtitles from './phosphor/Subtitles';
+import phosphor_Subtract from './phosphor/Subtract';
+import phosphor_SubtractSquare from './phosphor/SubtractSquare';
+import phosphor_Suitcase from './phosphor/Suitcase';
+import phosphor_SuitcaseRolling from './phosphor/SuitcaseRolling';
+import phosphor_SuitcaseSimple from './phosphor/SuitcaseSimple';
+import phosphor_Sun from './phosphor/Sun';
+import phosphor_SunDim from './phosphor/SunDim';
+import phosphor_SunHorizon from './phosphor/SunHorizon';
+import phosphor_Sunglasses from './phosphor/Sunglasses';
+import phosphor_Swap from './phosphor/Swap';
+import phosphor_Swatches from './phosphor/Swatches';
+import phosphor_SwimmingPool from './phosphor/SwimmingPool';
+import phosphor_Sword from './phosphor/Sword';
+import phosphor_Synagogue from './phosphor/Synagogue';
+import phosphor_Syringe from './phosphor/Syringe';
+import phosphor_TShirt from './phosphor/TShirt';
+import phosphor_Table from './phosphor/Table';
+import phosphor_Tabs from './phosphor/Tabs';
+import phosphor_Tag from './phosphor/Tag';
+import phosphor_TagChevron from './phosphor/TagChevron';
+import phosphor_TagSimple from './phosphor/TagSimple';
+import phosphor_Target from './phosphor/Target';
+import phosphor_Taxi from './phosphor/Taxi';
+import phosphor_TelegramLogo from './phosphor/TelegramLogo';
+import phosphor_Television from './phosphor/Television';
+import phosphor_TelevisionSimple from './phosphor/TelevisionSimple';
+import phosphor_TennisBall from './phosphor/TennisBall';
+import phosphor_Tent from './phosphor/Tent';
+import phosphor_Terminal from './phosphor/Terminal';
+import phosphor_TerminalWindow from './phosphor/TerminalWindow';
+import phosphor_TestTube from './phosphor/TestTube';
+import phosphor_TextAUnderline from './phosphor/TextAUnderline';
+import phosphor_TextAa from './phosphor/TextAa';
+import phosphor_TextAlignCenter from './phosphor/TextAlignCenter';
+import phosphor_TextAlignJustify from './phosphor/TextAlignJustify';
+import phosphor_TextAlignLeft from './phosphor/TextAlignLeft';
+import phosphor_TextAlignRight from './phosphor/TextAlignRight';
+import phosphor_TextB from './phosphor/TextB';
+import phosphor_TextColumns from './phosphor/TextColumns';
+import phosphor_TextH from './phosphor/TextH';
+import phosphor_TextHFive from './phosphor/TextHFive';
+import phosphor_TextHFour from './phosphor/TextHFour';
+import phosphor_TextHOne from './phosphor/TextHOne';
+import phosphor_TextHSix from './phosphor/TextHSix';
+import phosphor_TextHThree from './phosphor/TextHThree';
+import phosphor_TextHTwo from './phosphor/TextHTwo';
+import phosphor_TextIndent from './phosphor/TextIndent';
+import phosphor_TextItalic from './phosphor/TextItalic';
+import phosphor_TextOutdent from './phosphor/TextOutdent';
+import phosphor_TextStrikethrough from './phosphor/TextStrikethrough';
+import phosphor_TextT from './phosphor/TextT';
+import phosphor_TextUnderline from './phosphor/TextUnderline';
+import phosphor_Textbox from './phosphor/Textbox';
+import phosphor_Thermometer from './phosphor/Thermometer';
+import phosphor_ThermometerCold from './phosphor/ThermometerCold';
+import phosphor_ThermometerHot from './phosphor/ThermometerHot';
+import phosphor_ThermometerSimple from './phosphor/ThermometerSimple';
+import phosphor_ThumbsDown from './phosphor/ThumbsDown';
+import phosphor_ThumbsUp from './phosphor/ThumbsUp';
+import phosphor_Ticket from './phosphor/Ticket';
+import phosphor_TidalLogo from './phosphor/TidalLogo';
+import phosphor_TiktokLogo from './phosphor/TiktokLogo';
+import phosphor_Timer from './phosphor/Timer';
+import phosphor_Tipi from './phosphor/Tipi';
+import phosphor_ToggleLeft from './phosphor/ToggleLeft';
+import phosphor_ToggleRight from './phosphor/ToggleRight';
+import phosphor_Toilet from './phosphor/Toilet';
+import phosphor_ToiletPaper from './phosphor/ToiletPaper';
+import phosphor_Toolbox from './phosphor/Toolbox';
+import phosphor_Tooth from './phosphor/Tooth';
+import phosphor_Tote from './phosphor/Tote';
+import phosphor_ToteSimple from './phosphor/ToteSimple';
+import phosphor_Trademark from './phosphor/Trademark';
+import phosphor_TrademarkRegistered from './phosphor/TrademarkRegistered';
+import phosphor_TrafficCone from './phosphor/TrafficCone';
+import phosphor_TrafficSign from './phosphor/TrafficSign';
+import phosphor_TrafficSignal from './phosphor/TrafficSignal';
+import phosphor_Train from './phosphor/Train';
+import phosphor_TrainRegional from './phosphor/TrainRegional';
+import phosphor_TrainSimple from './phosphor/TrainSimple';
+import phosphor_Tram from './phosphor/Tram';
+import phosphor_Translate from './phosphor/Translate';
+import phosphor_Trash from './phosphor/Trash';
+import phosphor_TrashSimple from './phosphor/TrashSimple';
+import phosphor_Tray from './phosphor/Tray';
+import phosphor_Tree from './phosphor/Tree';
+import phosphor_TreeEvergreen from './phosphor/TreeEvergreen';
+import phosphor_TreePalm from './phosphor/TreePalm';
+import phosphor_TreeStructure from './phosphor/TreeStructure';
+import phosphor_TrendDown from './phosphor/TrendDown';
+import phosphor_TrendUp from './phosphor/TrendUp';
+import phosphor_Triangle from './phosphor/Triangle';
+import phosphor_Trophy from './phosphor/Trophy';
+import phosphor_Truck from './phosphor/Truck';
+import phosphor_TwitchLogo from './phosphor/TwitchLogo';
+import phosphor_TwitterLogo from './phosphor/TwitterLogo';
+import phosphor_Umbrella from './phosphor/Umbrella';
+import phosphor_UmbrellaSimple from './phosphor/UmbrellaSimple';
+import phosphor_Unite from './phosphor/Unite';
+import phosphor_UniteSquare from './phosphor/UniteSquare';
+import phosphor_Upload from './phosphor/Upload';
+import phosphor_UploadSimple from './phosphor/UploadSimple';
+import phosphor_Usb from './phosphor/Usb';
+import phosphor_User from './phosphor/User';
+import phosphor_UserCircle from './phosphor/UserCircle';
+import phosphor_UserCircleGear from './phosphor/UserCircleGear';
+import phosphor_UserCircleMinus from './phosphor/UserCircleMinus';
+import phosphor_UserCirclePlus from './phosphor/UserCirclePlus';
+import phosphor_UserFocus from './phosphor/UserFocus';
+import phosphor_UserGear from './phosphor/UserGear';
+import phosphor_UserList from './phosphor/UserList';
+import phosphor_UserMinus from './phosphor/UserMinus';
+import phosphor_UserPlus from './phosphor/UserPlus';
+import phosphor_UserRectangle from './phosphor/UserRectangle';
+import phosphor_UserSquare from './phosphor/UserSquare';
+import phosphor_UserSwitch from './phosphor/UserSwitch';
+import phosphor_Users from './phosphor/Users';
+import phosphor_UsersFour from './phosphor/UsersFour';
+import phosphor_UsersThree from './phosphor/UsersThree';
+import phosphor_Van from './phosphor/Van';
+import phosphor_Vault from './phosphor/Vault';
+import phosphor_Vibrate from './phosphor/Vibrate';
+import phosphor_Video from './phosphor/Video';
+import phosphor_VideoCamera from './phosphor/VideoCamera';
+import phosphor_VideoCameraSlash from './phosphor/VideoCameraSlash';
+import phosphor_Vignette from './phosphor/Vignette';
+import phosphor_VinylRecord from './phosphor/VinylRecord';
+import phosphor_VirtualReality from './phosphor/VirtualReality';
+import phosphor_Virus from './phosphor/Virus';
+import phosphor_Voicemail from './phosphor/Voicemail';
+import phosphor_Volleyball from './phosphor/Volleyball';
+import phosphor_Wall from './phosphor/Wall';
+import phosphor_Wallet from './phosphor/Wallet';
+import phosphor_Warehouse from './phosphor/Warehouse';
+import phosphor_Warning from './phosphor/Warning';
+import phosphor_WarningCircle from './phosphor/WarningCircle';
+import phosphor_WarningDiamond from './phosphor/WarningDiamond';
+import phosphor_WarningOctagon from './phosphor/WarningOctagon';
+import phosphor_Watch from './phosphor/Watch';
+import phosphor_WaveSawtooth from './phosphor/WaveSawtooth';
+import phosphor_WaveSine from './phosphor/WaveSine';
+import phosphor_WaveSquare from './phosphor/WaveSquare';
+import phosphor_WaveTriangle from './phosphor/WaveTriangle';
+import phosphor_Waveform from './phosphor/Waveform';
+import phosphor_Waves from './phosphor/Waves';
+import phosphor_Webcam from './phosphor/Webcam';
+import phosphor_WebcamSlash from './phosphor/WebcamSlash';
+import phosphor_WebhooksLogo from './phosphor/WebhooksLogo';
+import phosphor_WechatLogo from './phosphor/WechatLogo';
+import phosphor_WhatsappLogo from './phosphor/WhatsappLogo';
+import phosphor_Wheelchair from './phosphor/Wheelchair';
+import phosphor_WheelchairMotion from './phosphor/WheelchairMotion';
+import phosphor_WifiHigh from './phosphor/WifiHigh';
+import phosphor_WifiLow from './phosphor/WifiLow';
+import phosphor_WifiMedium from './phosphor/WifiMedium';
+import phosphor_WifiNone from './phosphor/WifiNone';
+import phosphor_WifiSlash from './phosphor/WifiSlash';
+import phosphor_WifiX from './phosphor/WifiX';
+import phosphor_Wind from './phosphor/Wind';
+import phosphor_WindowsLogo from './phosphor/WindowsLogo';
+import phosphor_Wine from './phosphor/Wine';
+import phosphor_Wrench from './phosphor/Wrench';
+import phosphor_X from './phosphor/X';
+import phosphor_XCircle from './phosphor/XCircle';
+import phosphor_XSquare from './phosphor/XSquare';
+import phosphor_YinYang from './phosphor/YinYang';
+import phosphor_YoutubeLogo from './phosphor/YoutubeLogo';
+import snowui_Add from './snowui/Add';
+import snowui_Ai from './snowui/Ai';
+import snowui_ArrowFall from './snowui/ArrowFall';
+import snowui_ArrowLineDown from './snowui/ArrowLineDown';
+import snowui_ArrowLineLeft from './snowui/ArrowLineLeft';
+import snowui_ArrowLineRight from './snowui/ArrowLineRight';
+import snowui_ArrowLineUp from './snowui/ArrowLineUp';
+import snowui_ArrowLineUpDown from './snowui/ArrowLineUpDown';
+import snowui_ArrowRight from './snowui/ArrowRight';
+import snowui_ArrowRise from './snowui/ArrowRise';
+import snowui_ArrowsDown from './snowui/ArrowsDown';
+import snowui_ArrowsDownUp from './snowui/ArrowsDownUp';
+import snowui_ArrowsUp from './snowui/ArrowsUp';
+import snowui_Badge from './snowui/Badge';
+import snowui_ChatDashed from './snowui/ChatDashed';
+import snowui_CheckboxFalse from './snowui/CheckboxFalse';
+import snowui_CheckboxMultiple from './snowui/CheckboxMultiple';
+import snowui_CheckboxTrue from './snowui/CheckboxTrue';
+import snowui_Chip from './snowui/Chip';
+import snowui_Clipboard from './snowui/Clipboard';
+import snowui_Close from './snowui/Close';
+import snowui_Copy from './snowui/Copy';
+import snowui_DotCircle from './snowui/DotCircle';
+import snowui_DotSquare from './snowui/DotSquare';
+import snowui_Explain from './snowui/Explain';
+import snowui_FourLeafClover from './snowui/FourLeafClover';
+import snowui_FourPointedStar from './snowui/FourPointedStar';
+import snowui_Goto from './snowui/Goto';
+import snowui_Help from './snowui/Help';
+import snowui_HorizontalScreen from './snowui/HorizontalScreen';
+import snowui_IconSet from './snowui/IconSet';
+import snowui_IconSize16 from './snowui/IconSize16';
+import snowui_IconSize20 from './snowui/IconSize20';
+import snowui_IconSize24 from './snowui/IconSize24';
+import snowui_IconSize28 from './snowui/IconSize28';
+import snowui_IconSize32 from './snowui/IconSize32';
+import snowui_IconSize40 from './snowui/IconSize40';
+import snowui_IconSize48 from './snowui/IconSize48';
+import snowui_IconSize80 from './snowui/IconSize80';
+import snowui_ImageLoading from './snowui/ImageLoading';
+import snowui_Line from './snowui/Line';
+import snowui_Maximize from './snowui/Maximize';
+import snowui_Minimize from './snowui/Minimize';
+import snowui_PayWave from './snowui/PayWave';
+import snowui_RadioFalse from './snowui/RadioFalse';
+import snowui_RadioTrue from './snowui/RadioTrue';
+import snowui_RadioTrueAlt from './snowui/RadioTrueAlt';
+import snowui_Rating1 from './snowui/Rating1';
+import snowui_Rating2 from './snowui/Rating2';
+import snowui_Rating3 from './snowui/Rating3';
+import snowui_Rating4 from './snowui/Rating4';
+import snowui_Rating5 from './snowui/Rating5';
+import snowui_Repost from './snowui/Repost';
+import snowui_Rightbar from './snowui/Rightbar';
+import snowui_RightbarMode from './snowui/RightbarMode';
+import snowui_Round from './snowui/Round';
+import snowui_RoundedCorner from './snowui/RoundedCorner';
+import snowui_Search from './snowui/Search';
+import snowui_Selected from './snowui/Selected';
+import snowui_SnowIcon from './snowui/SnowIcon';
+import snowui_StarFour from './snowui/StarFour';
+import snowui_Stars from './snowui/Stars';
+import snowui_StopAlt from './snowui/StopAlt';
+import snowui_StopSecondary from './snowui/StopSecondary';
+import snowui_SwitchFalse from './snowui/SwitchFalse';
+import snowui_SwitchPoint from './snowui/SwitchPoint';
+import snowui_SwitchTrue from './snowui/SwitchTrue';
+import snowui_TextA from './snowui/TextA';
+import snowui_ThreeDots from './snowui/ThreeDots';
+import snowui_Variables from './snowui/Variables';
+import snowui_VerticalScreen from './snowui/VerticalScreen';
+import snowui_Windowed from './snowui/Windowed';
+import snowui_XCircle from './snowui/XCircle';
+import special_DefaultIcon from './special/DefaultIcon';
+import special_DocxIcon from './special/DocxIcon';
+import special_FormIcon from './special/FormIcon';
+import special_Notepad from './special/Notepad';
+import special_OnenoteIcon from './special/OnenoteIcon';
+import special_PptIcon from './special/PptIcon';
+import special_RoundAlt from './special/RoundAlt';
+import special_SearchIcon from './special/SearchIcon';
+import special_TxtIcon from './special/TxtIcon';
+import special_XlsxIcon from './special/XlsxIcon';
 
-export const iconsByName = {
-  'add': Add,
-  'address-book': AddressBook,
-  'ai': Ai,
-  'air-traffic-control': AirTrafficControl,
-  'airplane': Airplane,
-  'airplane-in-flight': AirplaneInFlight,
-  'airplane-landing': AirplaneLanding,
-  'airplane-takeoff': AirplaneTakeoff,
-  'airplane-tilt': AirplaneTilt,
-  'airplay': Airplay,
-  'alarm': Alarm,
-  'alien': Alien,
-  'align-bottom': AlignBottom,
-  'align-bottom-simple': AlignBottomSimple,
-  'align-center-horizontal': AlignCenterHorizontal,
-  'align-center-horizontal-simple': AlignCenterHorizontalSimple,
-  'align-center-vertical': AlignCenterVertical,
-  'align-center-vertical-simple': AlignCenterVerticalSimple,
-  'align-left': AlignLeft,
-  'align-left-simple': AlignLeftSimple,
-  'align-right': AlignRight,
-  'align-right-simple': AlignRightSimple,
-  'align-top': AlignTop,
-  'align-top-simple': AlignTopSimple,
-  'amazon-logo': AmazonLogo,
-  'anchor': Anchor,
-  'anchor-simple': AnchorSimple,
-  'android-logo': AndroidLogo,
-  'angular-logo': AngularLogo,
-  'aperture': Aperture,
-  'app-store-logo': AppStoreLogo,
-  'app-window': AppWindow,
-  'apple-logo': AppleLogo,
-  'apple-podcasts-logo': ApplePodcastsLogo,
-  'archive': Archive,
-  'archive-box': ArchiveBox,
-  'archive-tray': ArchiveTray,
-  'armchair': Armchair,
-  'arrow-arc-left': ArrowArcLeft,
-  'arrow-arc-right': ArrowArcRight,
-  'arrow-bend-double-up-left': ArrowBendDoubleUpLeft,
-  'arrow-bend-double-up-right': ArrowBendDoubleUpRight,
-  'arrow-bend-down-left': ArrowBendDownLeft,
-  'arrow-bend-down-right': ArrowBendDownRight,
-  'arrow-bend-left-down': ArrowBendLeftDown,
-  'arrow-bend-left-up': ArrowBendLeftUp,
-  'arrow-bend-right-down': ArrowBendRightDown,
-  'arrow-bend-right-up': ArrowBendRightUp,
-  'arrow-bend-up-left': ArrowBendUpLeft,
-  'arrow-bend-up-right': ArrowBendUpRight,
-  'arrow-circle-down': ArrowCircleDown,
-  'arrow-circle-down-left': ArrowCircleDownLeft,
-  'arrow-circle-down-right': ArrowCircleDownRight,
-  'arrow-circle-left': ArrowCircleLeft,
-  'arrow-circle-right': ArrowCircleRight,
-  'arrow-circle-up': ArrowCircleUp,
-  'arrow-circle-up-left': ArrowCircleUpLeft,
-  'arrow-circle-up-right': ArrowCircleUpRight,
-  'arrow-clockwise': ArrowClockwise,
-  'arrow-counter-clockwise': ArrowCounterClockwise,
-  'arrow-down': ArrowDown,
-  'arrow-down-left': ArrowDownLeft,
-  'arrow-down-right': ArrowDownRight,
-  'arrow-elbow-down-left': ArrowElbowDownLeft,
-  'arrow-elbow-down-right': ArrowElbowDownRight,
-  'arrow-elbow-left': ArrowElbowLeft,
-  'arrow-elbow-left-down': ArrowElbowLeftDown,
-  'arrow-elbow-left-up': ArrowElbowLeftUp,
-  'arrow-elbow-right': ArrowElbowRight,
-  'arrow-elbow-right-down': ArrowElbowRightDown,
-  'arrow-elbow-right-up': ArrowElbowRightUp,
-  'arrow-elbow-up-left': ArrowElbowUpLeft,
-  'arrow-elbow-up-right': ArrowElbowUpRight,
-  'arrow-fall': ArrowFall,
-  'arrow-fat-down': ArrowFatDown,
-  'arrow-fat-left': ArrowFatLeft,
-  'arrow-fat-line-down': ArrowFatLineDown,
-  'arrow-fat-line-left': ArrowFatLineLeft,
-  'arrow-fat-line-right': ArrowFatLineRight,
-  'arrow-fat-line-up': ArrowFatLineUp,
-  'arrow-fat-lines-down': ArrowFatLinesDown,
-  'arrow-fat-lines-left': ArrowFatLinesLeft,
-  'arrow-fat-lines-right': ArrowFatLinesRight,
-  'arrow-fat-lines-up': ArrowFatLinesUp,
-  'arrow-fat-right': ArrowFatRight,
-  'arrow-fat-up': ArrowFatUp,
-  'arrow-left': ArrowLeft,
-  'arrow-line-down': ArrowLineDown,
-  'arrow-line-down-2': ArrowLineDown2,
-  'arrow-line-down-left': ArrowLineDownLeft,
-  'arrow-line-down-right': ArrowLineDownRight,
-  'arrow-line-left': ArrowLineLeft,
-  'arrow-line-left-2': ArrowLineLeft2,
-  'arrow-line-right': ArrowLineRight,
-  'arrow-line-right-2': ArrowLineRight2,
-  'arrow-line-up': ArrowLineUp,
-  'arrow-line-up-2': ArrowLineUp2,
-  'arrow-line-up-down': ArrowLineUpDown,
-  'arrow-line-up-left': ArrowLineUpLeft,
-  'arrow-line-up-right': ArrowLineUpRight,
-  'arrow-right': ArrowRight,
-  'arrow-right-2': ArrowRight2,
-  'arrow-rise': ArrowRise,
-  'arrow-square-down': ArrowSquareDown,
-  'arrow-square-down-left': ArrowSquareDownLeft,
-  'arrow-square-down-right': ArrowSquareDownRight,
-  'arrow-square-in': ArrowSquareIn,
-  'arrow-square-left': ArrowSquareLeft,
-  'arrow-square-out': ArrowSquareOut,
-  'arrow-square-right': ArrowSquareRight,
-  'arrow-square-up': ArrowSquareUp,
-  'arrow-square-up-left': ArrowSquareUpLeft,
-  'arrow-square-up-right': ArrowSquareUpRight,
-  'arrow-udown-left': ArrowUdownLeft,
-  'arrow-udown-right': ArrowUdownRight,
-  'arrow-uleft-down': ArrowUleftDown,
-  'arrow-uleft-up': ArrowUleftUp,
-  'arrow-up': ArrowUp,
-  'arrow-up-left': ArrowUpLeft,
-  'arrow-up-right': ArrowUpRight,
-  'arrow-uright-down': ArrowUrightDown,
-  'arrow-uright-up': ArrowUrightUp,
-  'arrow-uup-left': ArrowUupLeft,
-  'arrow-uup-right': ArrowUupRight,
-  'arrows-clockwise': ArrowsClockwise,
-  'arrows-counter-clockwise': ArrowsCounterClockwise,
-  'arrows-down': ArrowsDown,
-  'arrows-down-up': ArrowsDownUp,
-  'arrows-down-up-2': ArrowsDownUp2,
-  'arrows-horizontal': ArrowsHorizontal,
-  'arrows-in': ArrowsIn,
-  'arrows-in-cardinal': ArrowsInCardinal,
-  'arrows-in-line-horizontal': ArrowsInLineHorizontal,
-  'arrows-in-line-vertical': ArrowsInLineVertical,
-  'arrows-in-simple': ArrowsInSimple,
-  'arrows-left-right': ArrowsLeftRight,
-  'arrows-merge': ArrowsMerge,
-  'arrows-out': ArrowsOut,
-  'arrows-out-cardinal': ArrowsOutCardinal,
-  'arrows-out-line-horizontal': ArrowsOutLineHorizontal,
-  'arrows-out-line-vertical': ArrowsOutLineVertical,
-  'arrows-out-simple': ArrowsOutSimple,
-  'arrows-split': ArrowsSplit,
-  'arrows-up': ArrowsUp,
-  'arrows-vertical': ArrowsVertical,
-  'article': Article,
-  'article-medium': ArticleMedium,
-  'article-ny-times': ArticleNyTimes,
-  'asterisk': Asterisk,
-  'asterisk-simple': AsteriskSimple,
-  'at': At,
-  'atom': Atom,
-  'baby': Baby,
-  'backpack': Backpack,
-  'backspace': Backspace,
-  'badge-icon': BadgeIcon,
-  'bag': Bag,
-  'bag-simple': BagSimple,
-  'balloon': Balloon,
-  'bandaids': Bandaids,
-  'bank': Bank,
-  'barbell': Barbell,
-  'barcode': Barcode,
-  'barricade': Barricade,
-  'baseball': Baseball,
-  'baseball-cap': BaseballCap,
-  'basket': Basket,
-  'basketball': Basketball,
-  'bathtub': Bathtub,
-  'battery-charging': BatteryCharging,
-  'battery-charging-vertical': BatteryChargingVertical,
-  'battery-empty': BatteryEmpty,
-  'battery-full': BatteryFull,
-  'battery-high': BatteryHigh,
-  'battery-low': BatteryLow,
-  'battery-medium': BatteryMedium,
-  'battery-plus': BatteryPlus,
-  'battery-plus-vertical': BatteryPlusVertical,
-  'battery-vertical-empty': BatteryVerticalEmpty,
-  'battery-vertical-full': BatteryVerticalFull,
-  'battery-vertical-high': BatteryVerticalHigh,
-  'battery-vertical-low': BatteryVerticalLow,
-  'battery-vertical-medium': BatteryVerticalMedium,
-  'battery-warning': BatteryWarning,
-  'battery-warning-vertical': BatteryWarningVertical,
-  'bed': Bed,
-  'beer-bottle': BeerBottle,
-  'beer-stein': BeerStein,
-  'behance-logo': BehanceLogo,
-  'bell': Bell,
-  'bell-ringing': BellRinging,
-  'bell-simple': BellSimple,
-  'bell-simple-ringing': BellSimpleRinging,
-  'bell-simple-slash': BellSimpleSlash,
-  'bell-simple-z': BellSimpleZ,
-  'bell-slash': BellSlash,
-  'bell-z': BellZ,
-  'bezier-curve': BezierCurve,
-  'bicycle': Bicycle,
-  'binoculars': Binoculars,
-  'bird': Bird,
-  'bluetooth': Bluetooth,
-  'bluetooth-connected': BluetoothConnected,
-  'bluetooth-slash': BluetoothSlash,
-  'bluetooth-x': BluetoothX,
-  'boat': Boat,
-  'bone': Bone,
-  'book': Book,
-  'book-bookmark': BookBookmark,
-  'book-open': BookOpen,
-  'book-open-text': BookOpenText,
-  'bookmark': Bookmark,
-  'bookmark-simple': BookmarkSimple,
-  'bookmarks': Bookmarks,
-  'bookmarks-simple': BookmarksSimple,
-  'books': Books,
-  'boot': Boot,
-  'bounding-box': BoundingBox,
-  'bowl-food': BowlFood,
-  'brackets-angle': BracketsAngle,
-  'brackets-curly': BracketsCurly,
-  'brackets-round': BracketsRound,
-  'brackets-square': BracketsSquare,
-  'brain': Brain,
-  'brandy': Brandy,
-  'bridge': Bridge,
-  'briefcase': Briefcase,
-  'briefcase-metal': BriefcaseMetal,
-  'broadcast': Broadcast,
-  'broom': Broom,
-  'browser': Browser,
-  'browsers': Browsers,
-  'bug': Bug,
-  'bug-beetle': BugBeetle,
-  'bug-droid': BugDroid,
-  'buildings': Buildings,
-  'bus': Bus,
-  'butterfly': Butterfly,
-  'cactus': Cactus,
-  'cake': Cake,
-  'calculator': Calculator,
-  'calendar': Calendar,
-  'calendar-blank': CalendarBlank,
-  'calendar-check': CalendarCheck,
-  'calendar-plus': CalendarPlus,
-  'calendar-x': CalendarX,
-  'call-bell': CallBell,
-  'camera': Camera,
-  'camera-plus': CameraPlus,
-  'camera-rotate': CameraRotate,
-  'camera-slash': CameraSlash,
-  'campfire': Campfire,
-  'car': Car,
-  'car-profile': CarProfile,
-  'car-simple': CarSimple,
-  'cardholder': Cardholder,
-  'cards': Cards,
-  'caret-circle-double-down': CaretCircleDoubleDown,
-  'caret-circle-double-left': CaretCircleDoubleLeft,
-  'caret-circle-double-right': CaretCircleDoubleRight,
-  'caret-circle-double-up': CaretCircleDoubleUp,
-  'caret-circle-down': CaretCircleDown,
-  'caret-circle-left': CaretCircleLeft,
-  'caret-circle-right': CaretCircleRight,
-  'caret-circle-up': CaretCircleUp,
-  'caret-circle-up-down': CaretCircleUpDown,
-  'caret-double-down': CaretDoubleDown,
-  'caret-double-left': CaretDoubleLeft,
-  'caret-double-right': CaretDoubleRight,
-  'caret-double-up': CaretDoubleUp,
-  'caret-down': CaretDown,
-  'caret-left': CaretLeft,
-  'caret-right': CaretRight,
-  'caret-up': CaretUp,
-  'caret-up-down': CaretUpDown,
-  'carrot': Carrot,
-  'cassette-tape': CassetteTape,
-  'castle-turret': CastleTurret,
-  'cat': Cat,
-  'cell-signal-full': CellSignalFull,
-  'cell-signal-high': CellSignalHigh,
-  'cell-signal-low': CellSignalLow,
-  'cell-signal-medium': CellSignalMedium,
-  'cell-signal-none': CellSignalNone,
-  'cell-signal-slash': CellSignalSlash,
-  'cell-signal-x': CellSignalX,
-  'certificate': Certificate,
-  'chair': Chair,
-  'chalkboard': Chalkboard,
-  'chalkboard-simple': ChalkboardSimple,
-  'chalkboard-teacher': ChalkboardTeacher,
-  'champagne': Champagne,
-  'charging-station': ChargingStation,
-  'chart-bar': ChartBar,
-  'chart-bar-horizontal': ChartBarHorizontal,
-  'chart-donut': ChartDonut,
-  'chart-line': ChartLine,
-  'chart-line-down': ChartLineDown,
-  'chart-line-up': ChartLineUp,
-  'chart-pie': ChartPie,
-  'chart-pie-slice': ChartPieSlice,
-  'chart-polar': ChartPolar,
-  'chart-scatter': ChartScatter,
-  'chat': Chat,
-  'chat-centered': ChatCentered,
-  'chat-centered-dots': ChatCenteredDots,
-  'chat-centered-text': ChatCenteredText,
-  'chat-circle': ChatCircle,
-  'chat-circle-dots': ChatCircleDots,
-  'chat-circle-text': ChatCircleText,
-  'chat-dashed': ChatDashed,
-  'chat-dots': ChatDots,
-  'chat-teardrop': ChatTeardrop,
-  'chat-teardrop-dots': ChatTeardropDots,
-  'chat-teardrop-text': ChatTeardropText,
-  'chat-text': ChatText,
-  'chats': Chats,
-  'chats-circle': ChatsCircle,
-  'chats-teardrop': ChatsTeardrop,
-  'check': Check,
-  'check-circle': CheckCircle,
-  'check-fat': CheckFat,
-  'check-square': CheckSquare,
-  'check-square-offset': CheckSquareOffset,
-  'checkbox-false': CheckboxFalse,
-  'checkbox-multiple': CheckboxMultiple,
-  'checkbox-true': CheckboxTrue,
-  'checks': Checks,
-  'chip': Chip,
-  'church': Church,
-  'circle': Circle,
-  'circle-dashed': CircleDashed,
-  'circle-half': CircleHalf,
-  'circle-half-tilt': CircleHalfTilt,
-  'circle-notch': CircleNotch,
-  'circles-four': CirclesFour,
-  'circles-three': CirclesThree,
-  'circles-three-plus': CirclesThreePlus,
-  'circuitry': Circuitry,
-  'clipboard': Clipboard,
-  'clipboard-2': Clipboard2,
-  'clipboard-text': ClipboardText,
-  'clock': Clock,
-  'clock-afternoon': ClockAfternoon,
-  'clock-clockwise': ClockClockwise,
-  'clock-countdown': ClockCountdown,
-  'clock-counter-clockwise': ClockCounterClockwise,
-  'close': Close,
-  'closed-captioning': ClosedCaptioning,
-  'cloud': Cloud,
-  'cloud-arrow-down': CloudArrowDown,
-  'cloud-arrow-up': CloudArrowUp,
-  'cloud-check': CloudCheck,
-  'cloud-fog': CloudFog,
-  'cloud-lightning': CloudLightning,
-  'cloud-moon': CloudMoon,
-  'cloud-rain': CloudRain,
-  'cloud-slash': CloudSlash,
-  'cloud-snow': CloudSnow,
-  'cloud-sun': CloudSun,
-  'cloud-warning': CloudWarning,
-  'cloud-x': CloudX,
-  'club': Club,
-  'coat-hanger': CoatHanger,
-  'coda-logo': CodaLogo,
-  'code': Code,
-  'code-block': CodeBlock,
-  'code-simple': CodeSimple,
-  'codepen-logo': CodepenLogo,
-  'codesandbox-logo': CodesandboxLogo,
-  'coffee': Coffee,
-  'coin': Coin,
-  'coin-vertical': CoinVertical,
-  'coins': Coins,
-  'columns': Columns,
-  'command': Command,
-  'compass': Compass,
-  'compass-off': CompassOff,
-  'compass-tool': CompassTool,
-  'computer-tower': ComputerTower,
-  'confetti': Confetti,
-  'contactless-payment': ContactlessPayment,
-  'control': Control,
-  'cookie': Cookie,
-  'cooking-pot': CookingPot,
-  'copy': Copy,
-  'copy-2': Copy2,
-  'copy-simple': CopySimple,
-  'copyleft': Copyleft,
-  'copyright': Copyright,
-  'corners-in': CornersIn,
-  'corners-out': CornersOut,
-  'couch': Couch,
-  'cpu': Cpu,
-  'credit-card': CreditCard,
-  'crop': Crop,
-  'cross': Cross,
-  'crosshair': Crosshair,
-  'crosshair-simple': CrosshairSimple,
-  'crown': Crown,
-  'crown-simple': CrownSimple,
-  'cube': Cube,
-  'cube-focus': CubeFocus,
-  'cube-transparent': CubeTransparent,
-  'currency-btc': CurrencyBtc,
-  'currency-circle-dollar': CurrencyCircleDollar,
-  'currency-cny': CurrencyCny,
-  'currency-dollar': CurrencyDollar,
-  'currency-dollar-simple': CurrencyDollarSimple,
-  'currency-eth': CurrencyEth,
-  'currency-eur': CurrencyEur,
-  'currency-gbp': CurrencyGbp,
-  'currency-inr': CurrencyInr,
-  'currency-jpy': CurrencyJpy,
-  'currency-krw': CurrencyKrw,
-  'currency-kzt': CurrencyKzt,
-  'currency-ngn': CurrencyNgn,
-  'currency-rub': CurrencyRub,
-  'cursor': Cursor,
-  'cursor-click': CursorClick,
-  'cursor-text': CursorText,
-  'cylinder': Cylinder,
-  'database': Database,
-  'default-icon': DefaultIcon,
-  'desktop': Desktop,
-  'desktop-tower': DesktopTower,
-  'detective': Detective,
-  'dev-to-logo': DevToLogo,
-  'device-mobile': DeviceMobile,
-  'device-mobile-camera': DeviceMobileCamera,
-  'device-mobile-speaker': DeviceMobileSpeaker,
-  'device-tablet': DeviceTablet,
-  'device-tablet-camera': DeviceTabletCamera,
-  'device-tablet-speaker': DeviceTabletSpeaker,
-  'devices': Devices,
-  'diamond': Diamond,
-  'diamonds-four': DiamondsFour,
-  'dice-five': DiceFive,
-  'dice-four': DiceFour,
-  'dice-one': DiceOne,
-  'dice-six': DiceSix,
-  'dice-three': DiceThree,
-  'dice-two': DiceTwo,
-  'disc': Disc,
-  'discord-logo': DiscordLogo,
-  'divide': Divide,
-  'dna': Dna,
-  'docx-icon': DocxIcon,
-  'dog': Dog,
-  'door': Door,
-  'door-open': DoorOpen,
-  'dot': Dot,
-  'dot-circle': DotCircle,
-  'dot-outline': DotOutline,
-  'dot-square': DotSquare,
-  'dots-nine': DotsNine,
-  'dots-six': DotsSix,
-  'dots-six-vertical': DotsSixVertical,
-  'dots-three': DotsThree,
-  'dots-three-circle': DotsThreeCircle,
-  'dots-three-circle-vertical': DotsThreeCircleVertical,
-  'dots-three-outline': DotsThreeOutline,
-  'dots-three-outline-vertical': DotsThreeOutlineVertical,
-  'dots-three-vertical': DotsThreeVertical,
-  'download': Download,
-  'download-simple': DownloadSimple,
-  'dress': Dress,
-  'dribbble-logo': DribbbleLogo,
-  'drop': Drop,
-  'drop-half': DropHalf,
-  'drop-half-bottom': DropHalfBottom,
-  'dropbox-logo': DropboxLogo,
-  'ear': Ear,
-  'ear-slash': EarSlash,
-  'egg': Egg,
-  'egg-crack': EggCrack,
-  'eject': Eject,
-  'eject-simple': EjectSimple,
-  'elevator': Elevator,
-  'engine': Engine,
-  'envelope': Envelope,
-  'envelope-open': EnvelopeOpen,
-  'envelope-simple': EnvelopeSimple,
-  'envelope-simple-open': EnvelopeSimpleOpen,
-  'equalizer': Equalizer,
-  'equals': Equals,
-  'eraser': Eraser,
-  'escalator-down': EscalatorDown,
-  'escalator-up': EscalatorUp,
-  'exam': Exam,
-  'exclude': Exclude,
-  'exclude-square': ExcludeSquare,
-  'explain': Explain,
-  'export': Export,
-  'eye': Eye,
-  'eye-closed': EyeClosed,
-  'eye-slash': EyeSlash,
-  'eyedropper': Eyedropper,
-  'eyedropper-sample': EyedropperSample,
-  'eyeglasses': Eyeglasses,
-  'face-mask': FaceMask,
-  'facebook-logo': FacebookLogo,
-  'factory': Factory,
-  'faders': Faders,
-  'faders-horizontal': FadersHorizontal,
-  'fan': Fan,
-  'fast-forward': FastForward,
-  'fast-forward-circle': FastForwardCircle,
-  'feather': Feather,
-  'figma-logo': FigmaLogo,
-  'file': File,
-  'file-archive': FileArchive,
-  'file-arrow-down': FileArrowDown,
-  'file-arrow-up': FileArrowUp,
-  'file-audio': FileAudio,
-  'file-cloud': FileCloud,
-  'file-code': FileCode,
-  'file-css': FileCss,
-  'file-csv': FileCsv,
-  'file-dashed': FileDashed,
-  'file-doc': FileDoc,
-  'file-html': FileHtml,
-  'file-image': FileImage,
-  'file-jpg': FileJpg,
-  'file-js': FileJs,
-  'file-jsx': FileJsx,
-  'file-lock': FileLock,
-  'file-minus': FileMinus,
-  'file-pdf': FilePdf,
-  'file-plus': FilePlus,
-  'file-png': FilePng,
-  'file-ppt': FilePpt,
-  'file-rs': FileRs,
-  'file-search': FileSearch,
-  'file-sql': FileSql,
-  'file-svg': FileSvg,
-  'file-text': FileText,
-  'file-ts': FileTs,
-  'file-tsx': FileTsx,
-  'file-video': FileVideo,
-  'file-vue': FileVue,
-  'file-x': FileX,
-  'file-xls': FileXls,
-  'file-zip': FileZip,
-  'files': Files,
-  'film-reel': FilmReel,
-  'film-script': FilmScript,
-  'film-slate': FilmSlate,
-  'film-strip': FilmStrip,
-  'fingerprint': Fingerprint,
-  'fingerprint-simple': FingerprintSimple,
-  'finn-the-human': FinnTheHuman,
-  'fire': Fire,
-  'fire-extinguisher': FireExtinguisher,
-  'fire-simple': FireSimple,
-  'first-aid': FirstAid,
-  'first-aid-kit': FirstAidKit,
-  'fish': Fish,
-  'fish-simple': FishSimple,
-  'flag': Flag,
-  'flag-banner': FlagBanner,
-  'flag-checkered': FlagCheckered,
-  'flag-pennant': FlagPennant,
-  'flame': Flame,
-  'flashlight': Flashlight,
-  'flask': Flask,
-  'floppy-disk': FloppyDisk,
-  'floppy-disk-back': FloppyDiskBack,
-  'flow-arrow': FlowArrow,
-  'flower': Flower,
-  'flower-lotus': FlowerLotus,
-  'flower-tulip': FlowerTulip,
-  'flying-saucer': FlyingSaucer,
-  'folder': Folder,
-  'folder-dashed': FolderDashed,
-  'folder-lock': FolderLock,
-  'folder-minus': FolderMinus,
-  'folder-notch': FolderNotch,
-  'folder-notch-minus': FolderNotchMinus,
-  'folder-notch-open': FolderNotchOpen,
-  'folder-notch-plus': FolderNotchPlus,
-  'folder-open': FolderOpen,
-  'folder-plus': FolderPlus,
-  'folder-simple': FolderSimple,
-  'folder-simple-dashed': FolderSimpleDashed,
-  'folder-simple-lock': FolderSimpleLock,
-  'folder-simple-minus': FolderSimpleMinus,
-  'folder-simple-plus': FolderSimplePlus,
-  'folder-simple-star': FolderSimpleStar,
-  'folder-simple-user': FolderSimpleUser,
-  'folder-star': FolderStar,
-  'folder-user': FolderUser,
-  'folders': Folders,
-  'football': Football,
-  'footprints': Footprints,
-  'fork-knife': ForkKnife,
-  'form-icon': FormIcon,
-  'four-leaf-clover': FourLeafClover,
-  'four-pointed-star': FourPointedStar,
-  'frame-corners': FrameCorners,
-  'framer-logo': FramerLogo,
-  'function': Function,
-  'funnel': Funnel,
-  'funnel-simple': FunnelSimple,
-  'game-controller': GameController,
-  'garage': Garage,
-  'gas-can': GasCan,
-  'gas-pump': GasPump,
-  'gauge': Gauge,
-  'gavel': Gavel,
-  'gear': Gear,
-  'gear-fine': GearFine,
-  'gear-six': GearSix,
-  'gender-female': GenderFemale,
-  'gender-intersex': GenderIntersex,
-  'gender-male': GenderMale,
-  'gender-neuter': GenderNeuter,
-  'gender-nonbinary': GenderNonbinary,
-  'gender-transgender': GenderTransgender,
-  'ghost': Ghost,
-  'gif': Gif,
-  'gift': Gift,
-  'git-branch': GitBranch,
-  'git-commit': GitCommit,
-  'git-diff': GitDiff,
-  'git-fork': GitFork,
-  'git-merge': GitMerge,
-  'git-pull-request': GitPullRequest,
-  'github-logo': GithubLogo,
-  'gitlab-logo': GitlabLogo,
-  'gitlab-logo-simple': GitlabLogoSimple,
-  'globe': Globe,
-  'globe-hemisphere-east': GlobeHemisphereEast,
-  'globe-hemisphere-west': GlobeHemisphereWest,
-  'globe-simple': GlobeSimple,
-  'globe-stand': GlobeStand,
-  'goggles': Goggles,
-  'goodreads-logo': GoodreadsLogo,
-  'google-cardboard-logo': GoogleCardboardLogo,
-  'google-chrome-logo': GoogleChromeLogo,
-  'google-drive-logo': GoogleDriveLogo,
-  'google-logo': GoogleLogo,
-  'google-photos-logo': GooglePhotosLogo,
-  'google-play-logo': GooglePlayLogo,
-  'google-podcasts-logo': GooglePodcastsLogo,
-  'goto': Goto,
-  'gradient': Gradient,
-  'graduation-cap': GraduationCap,
-  'grains': Grains,
-  'grains-slash': GrainsSlash,
-  'graph': Graph,
-  'grid-four': GridFour,
-  'grid-nine': GridNine,
-  'guitar': Guitar,
-  'hamburger': Hamburger,
-  'hammer': Hammer,
-  'hand': Hand,
-  'hand-coins': HandCoins,
-  'hand-eye': HandEye,
-  'hand-fist': HandFist,
-  'hand-grabbing': HandGrabbing,
-  'hand-heart': HandHeart,
-  'hand-palm': HandPalm,
-  'hand-pointing': HandPointing,
-  'hand-soap': HandSoap,
-  'hand-swipe-left': HandSwipeLeft,
-  'hand-swipe-right': HandSwipeRight,
-  'hand-tap': HandTap,
-  'hand-waving': HandWaving,
-  'handbag': Handbag,
-  'handbag-simple': HandbagSimple,
-  'hands-clapping': HandsClapping,
-  'hands-praying': HandsPraying,
-  'handshake': Handshake,
-  'hard-drive': HardDrive,
-  'hard-drives': HardDrives,
-  'hash': Hash,
-  'hash-straight': HashStraight,
-  'headlights': Headlights,
-  'headphones': Headphones,
-  'headset': Headset,
-  'heart': Heart,
-  'heart-break': HeartBreak,
-  'heart-half': HeartHalf,
-  'heart-straight': HeartStraight,
-  'heart-straight-break': HeartStraightBreak,
-  'heartbeat': Heartbeat,
-  'help': Help,
-  'hexagon': Hexagon,
-  'high-heel': HighHeel,
-  'highlighter-circle': HighlighterCircle,
-  'hoodie': Hoodie,
-  'horizontal-screen': HorizontalScreen,
-  'horse': Horse,
-  'hourglass': Hourglass,
-  'hourglass-high': HourglassHigh,
-  'hourglass-low': HourglassLow,
-  'hourglass-medium': HourglassMedium,
-  'hourglass-simple': HourglassSimple,
-  'hourglass-simple-high': HourglassSimpleHigh,
-  'hourglass-simple-low': HourglassSimpleLow,
-  'hourglass-simple-medium': HourglassSimpleMedium,
-  'house': House,
-  'house-line': HouseLine,
-  'house-simple': HouseSimple,
-  'ice-cream': IceCream,
-  'icon-set': IconSet,
-  'icon-size-16': IconSize16,
-  'icon-size-20': IconSize20,
-  'icon-size-24': IconSize24,
-  'icon-size-28': IconSize28,
-  'icon-size-32': IconSize32,
-  'icon-size-40': IconSize40,
-  'icon-size-48': IconSize48,
-  'icon-size-80': IconSize80,
-  'identification-badge': IdentificationBadge,
-  'identification-card': IdentificationCard,
-  'image': Image,
-  'image-loading': ImageLoading,
-  'image-square': ImageSquare,
-  'images': Images,
-  'images-square': ImagesSquare,
-  'infinity': Infinity,
-  'info': Info,
-  'instagram-logo': InstagramLogo,
-  'intersect': Intersect,
-  'intersect-square': IntersectSquare,
-  'intersect-three': IntersectThree,
-  'jeep': Jeep,
-  'kanban': Kanban,
-  'key': Key,
-  'key-return': KeyReturn,
-  'keyboard': Keyboard,
-  'keyhole': Keyhole,
-  'knife': Knife,
-  'ladder': Ladder,
-  'ladder-simple': LadderSimple,
-  'lamp': Lamp,
-  'laptop': Laptop,
-  'layout': Layout,
-  'leaf': Leaf,
-  'lifebuoy': Lifebuoy,
-  'lightbulb': Lightbulb,
-  'lightbulb-filament': LightbulbFilament,
-  'lighthouse': Lighthouse,
-  'lightning': Lightning,
-  'lightning-a': LightningA,
-  'lightning-slash': LightningSlash,
-  'line': Line,
-  'line-segment': LineSegment,
-  'line-segments': LineSegments,
-  'link': Link,
-  'link-break': LinkBreak,
-  'link-simple': LinkSimple,
-  'link-simple-break': LinkSimpleBreak,
-  'link-simple-horizontal': LinkSimpleHorizontal,
-  'link-simple-horizontal-break': LinkSimpleHorizontalBreak,
-  'linkedin-logo': LinkedinLogo,
-  'linux-logo': LinuxLogo,
-  'list': List,
-  'list-bullets': ListBullets,
-  'list-checks': ListChecks,
-  'list-dashes': ListDashes,
-  'list-magnifying-glass': ListMagnifyingGlass,
-  'list-numbers': ListNumbers,
-  'list-plus': ListPlus,
-  'lock': Lock,
-  'lock-key': LockKey,
-  'lock-key-open': LockKeyOpen,
-  'lock-laminated': LockLaminated,
-  'lock-laminated-open': LockLaminatedOpen,
-  'lock-open': LockOpen,
-  'lock-simple': LockSimple,
-  'lock-simple-open': LockSimpleOpen,
-  'lockers': Lockers,
-  'magic-wand': MagicWand,
-  'magnet': Magnet,
-  'magnet-straight': MagnetStraight,
-  'magnifying-glass': MagnifyingGlass,
-  'magnifying-glass-minus': MagnifyingGlassMinus,
-  'magnifying-glass-plus': MagnifyingGlassPlus,
-  'map-pin': MapPin,
-  'map-pin-line': MapPinLine,
-  'map-trifold': MapTrifold,
-  'marker-circle': MarkerCircle,
-  'martini': Martini,
-  'mask-happy': MaskHappy,
-  'mask-sad': MaskSad,
-  'math-operations': MathOperations,
-  'maximize': Maximize,
-  'medal': Medal,
-  'medal-military': MedalMilitary,
-  'medium-logo': MediumLogo,
-  'megaphone': Megaphone,
-  'megaphone-simple': MegaphoneSimple,
-  'messenger-logo': MessengerLogo,
-  'meta-logo': MetaLogo,
-  'metronome': Metronome,
-  'microphone': Microphone,
-  'microphone-slash': MicrophoneSlash,
-  'microphone-stage': MicrophoneStage,
-  'microsoft-excel-logo': MicrosoftExcelLogo,
-  'microsoft-outlook-logo': MicrosoftOutlookLogo,
-  'microsoft-powerpoint-logo': MicrosoftPowerpointLogo,
-  'microsoft-teams-logo': MicrosoftTeamsLogo,
-  'microsoft-word-logo': MicrosoftWordLogo,
-  'minimize': Minimize,
-  'minus': Minus,
-  'minus-circle': MinusCircle,
-  'minus-square': MinusSquare,
-  'money': Money,
-  'monitor': Monitor,
-  'monitor-play': MonitorPlay,
-  'moon': Moon,
-  'moon-stars': MoonStars,
-  'moped': Moped,
-  'moped-front': MopedFront,
-  'mosque': Mosque,
-  'motorcycle': Motorcycle,
-  'mountains': Mountains,
-  'mouse': Mouse,
-  'mouse-simple': MouseSimple,
-  'music-note': MusicNote,
-  'music-note-simple': MusicNoteSimple,
-  'music-notes': MusicNotes,
-  'music-notes-plus': MusicNotesPlus,
-  'music-notes-simple': MusicNotesSimple,
-  'navigation-arrow': NavigationArrow,
-  'needle': Needle,
-  'newspaper': Newspaper,
-  'newspaper-clipping': NewspaperClipping,
-  'notches': Notches,
-  'note': Note,
-  'note-blank': NoteBlank,
-  'note-pencil': NotePencil,
-  'notebook': Notebook,
-  'notepad': Notepad,
-  'notepad-2': Notepad2,
-  'notification': Notification,
-  'notion-logo': NotionLogo,
-  'number-circle-eight': NumberCircleEight,
-  'number-circle-five': NumberCircleFive,
-  'number-circle-four': NumberCircleFour,
-  'number-circle-nine': NumberCircleNine,
-  'number-circle-one': NumberCircleOne,
-  'number-circle-seven': NumberCircleSeven,
-  'number-circle-six': NumberCircleSix,
-  'number-circle-three': NumberCircleThree,
-  'number-circle-two': NumberCircleTwo,
-  'number-circle-zero': NumberCircleZero,
-  'number-eight': NumberEight,
-  'number-five': NumberFive,
-  'number-four': NumberFour,
-  'number-nine': NumberNine,
-  'number-one': NumberOne,
-  'number-seven': NumberSeven,
-  'number-six': NumberSix,
-  'number-square-eight': NumberSquareEight,
-  'number-square-five': NumberSquareFive,
-  'number-square-four': NumberSquareFour,
-  'number-square-nine': NumberSquareNine,
-  'number-square-one': NumberSquareOne,
-  'number-square-seven': NumberSquareSeven,
-  'number-square-six': NumberSquareSix,
-  'number-square-three': NumberSquareThree,
-  'number-square-two': NumberSquareTwo,
-  'number-square-zero': NumberSquareZero,
-  'number-three': NumberThree,
-  'number-two': NumberTwo,
-  'number-zero': NumberZero,
-  'nut': Nut,
-  'ny-times-logo': NyTimesLogo,
-  'octagon': Octagon,
-  'office-chair': OfficeChair,
-  'onenote-icon': OnenoteIcon,
-  'option': Option,
-  'orange-slice': OrangeSlice,
-  'package': Package,
-  'paint-brush': PaintBrush,
-  'paint-brush-broad': PaintBrushBroad,
-  'paint-brush-household': PaintBrushHousehold,
-  'paint-bucket': PaintBucket,
-  'paint-roller': PaintRoller,
-  'palette': Palette,
-  'pants': Pants,
-  'paper-plane': PaperPlane,
-  'paper-plane-right': PaperPlaneRight,
-  'paper-plane-tilt': PaperPlaneTilt,
-  'paperclip': Paperclip,
-  'paperclip-horizontal': PaperclipHorizontal,
-  'parachute': Parachute,
-  'paragraph': Paragraph,
-  'parallelogram': Parallelogram,
-  'park': Park,
-  'password': Password,
-  'path': Path,
-  'patreon-logo': PatreonLogo,
-  'pause': Pause,
-  'pause-circle': PauseCircle,
-  'paw-print': PawPrint,
-  'pay-wave': PayWave,
-  'paypal-logo': PaypalLogo,
-  'peace': Peace,
-  'pen': Pen,
-  'pen-nib': PenNib,
-  'pen-nib-straight': PenNibStraight,
-  'pencil': Pencil,
-  'pencil-circle': PencilCircle,
-  'pencil-line': PencilLine,
-  'pencil-simple': PencilSimple,
-  'pencil-simple-line': PencilSimpleLine,
-  'pencil-simple-slash': PencilSimpleSlash,
-  'pencil-slash': PencilSlash,
-  'pentagram': Pentagram,
-  'pepper': Pepper,
-  'percent': Percent,
-  'person': Person,
-  'person-arms-spread': PersonArmsSpread,
-  'person-simple': PersonSimple,
-  'person-simple-bike': PersonSimpleBike,
-  'person-simple-run': PersonSimpleRun,
-  'person-simple-throw': PersonSimpleThrow,
-  'person-simple-walk': PersonSimpleWalk,
-  'perspective': Perspective,
-  'phone': Phone,
-  'phone-call': PhoneCall,
-  'phone-disconnect': PhoneDisconnect,
-  'phone-incoming': PhoneIncoming,
-  'phone-outgoing': PhoneOutgoing,
-  'phone-plus': PhonePlus,
-  'phone-slash': PhoneSlash,
-  'phone-x': PhoneX,
-  'phosphor-logo': PhosphorLogo,
-  'pi': Pi,
-  'piano-keys': PianoKeys,
-  'picture-in-picture': PictureInPicture,
-  'piggy-bank': PiggyBank,
-  'pill': Pill,
-  'pinterest-logo': PinterestLogo,
-  'pinwheel': Pinwheel,
-  'pizza': Pizza,
-  'placeholder': Placeholder,
-  'planet': Planet,
-  'plant': Plant,
-  'play': Play,
-  'play-circle': PlayCircle,
-  'play-pause': PlayPause,
-  'playlist': Playlist,
-  'plug': Plug,
-  'plug-charging': PlugCharging,
-  'plugs': Plugs,
-  'plugs-connected': PlugsConnected,
-  'plus': Plus,
-  'plus-circle': PlusCircle,
-  'plus-minus': PlusMinus,
-  'plus-square': PlusSquare,
-  'poker-chip': PokerChip,
-  'police-car': PoliceCar,
-  'polygon': Polygon,
-  'popcorn': Popcorn,
-  'potted-plant': PottedPlant,
-  'power': Power,
-  'ppt-icon': PptIcon,
-  'prescription': Prescription,
-  'presentation': Presentation,
-  'presentation-chart': PresentationChart,
-  'printer': Printer,
-  'prohibit': Prohibit,
-  'prohibit-inset': ProhibitInset,
-  'projector-screen': ProjectorScreen,
-  'projector-screen-chart': ProjectorScreenChart,
-  'pulse': Pulse,
-  'push-pin': PushPin,
-  'push-pin-simple': PushPinSimple,
-  'push-pin-simple-slash': PushPinSimpleSlash,
-  'push-pin-slash': PushPinSlash,
-  'puzzle-piece': PuzzlePiece,
-  'qr-code': QrCode,
-  'question': Question,
-  'queue': Queue,
-  'quotes': Quotes,
-  'radical': Radical,
-  'radio': Radio,
-  'radio-2true': Radio2true,
-  'radio-button': RadioButton,
-  'radio-false': RadioFalse,
-  'radio-true': RadioTrue,
-  'radioactive': Radioactive,
-  'rainbow': Rainbow,
-  'rainbow-cloud': RainbowCloud,
-  'rating-1': Rating1,
-  'rating-2': Rating2,
-  'rating-3': Rating3,
-  'rating-4': Rating4,
-  'rating-5': Rating5,
-  'read-cv-logo': ReadCvLogo,
-  'receipt': Receipt,
-  'receipt-x': ReceiptX,
-  'record': Record,
-  'rectangle': Rectangle,
-  'recycle': Recycle,
-  'reddit-logo': RedditLogo,
-  'repeat': Repeat,
-  'repeat-once': RepeatOnce,
-  'repost': Repost,
-  'rewind': Rewind,
-  'rewind-circle': RewindCircle,
-  'rightbar-icon': RightbarIcon,
-  'rightbar-mode': RightbarMode,
-  'road-horizon': RoadHorizon,
-  'robot': Robot,
-  'rocket': Rocket,
-  'rocket-launch': RocketLaunch,
-  'round': Round,
-  'round-2': Round2,
-  'rounded-corner': RoundedCorner,
-  'rows': Rows,
-  'rss': Rss,
-  'rss-simple': RssSimple,
-  'rug': Rug,
-  'ruler': Ruler,
-  'scales': Scales,
-  'scan': Scan,
-  'scissors': Scissors,
-  'scooter': Scooter,
-  'screencast': Screencast,
-  'scribble-loop': ScribbleLoop,
-  'scroll': Scroll,
-  'seal': Seal,
-  'seal-check': SealCheck,
-  'seal-question': SealQuestion,
-  'seal-warning': SealWarning,
-  'search-icon': SearchIcon,
-  'search-icon-2': SearchIcon2,
-  'selected': Selected,
-  'selection': Selection,
-  'selection-all': SelectionAll,
-  'selection-background': SelectionBackground,
-  'selection-foreground': SelectionForeground,
-  'selection-inverse': SelectionInverse,
-  'selection-plus': SelectionPlus,
-  'selection-slash': SelectionSlash,
-  'shapes': Shapes,
-  'share': Share,
-  'share-fat': ShareFat,
-  'share-network': ShareNetwork,
-  'shield': Shield,
-  'shield-check': ShieldCheck,
-  'shield-checkered': ShieldCheckered,
-  'shield-chevron': ShieldChevron,
-  'shield-plus': ShieldPlus,
-  'shield-slash': ShieldSlash,
-  'shield-star': ShieldStar,
-  'shield-warning': ShieldWarning,
-  'shirt-folded': ShirtFolded,
-  'shooting-star': ShootingStar,
-  'shopping-bag': ShoppingBag,
-  'shopping-bag-open': ShoppingBagOpen,
-  'shopping-cart': ShoppingCart,
-  'shopping-cart-simple': ShoppingCartSimple,
-  'shower': Shower,
-  'shrimp': Shrimp,
-  'shuffle': Shuffle,
-  'shuffle-angular': ShuffleAngular,
-  'shuffle-simple': ShuffleSimple,
-  'sidebar': Sidebar,
-  'sidebar-simple': SidebarSimple,
-  'sigma': Sigma,
-  'sign-in': SignIn,
-  'sign-out': SignOut,
-  'signature': Signature,
-  'signpost': Signpost,
-  'sim-card': SimCard,
-  'siren': Siren,
-  'sketch-logo': SketchLogo,
-  'skip-back': SkipBack,
-  'skip-back-circle': SkipBackCircle,
-  'skip-forward': SkipForward,
-  'skip-forward-circle': SkipForwardCircle,
-  'skull': Skull,
-  'slack-logo': SlackLogo,
-  'sliders': Sliders,
-  'sliders-horizontal': SlidersHorizontal,
-  'slideshow': Slideshow,
-  'smiley': Smiley,
-  'smiley-angry': SmileyAngry,
-  'smiley-blank': SmileyBlank,
-  'smiley-meh': SmileyMeh,
-  'smiley-nervous': SmileyNervous,
-  'smiley-sad': SmileySad,
-  'smiley-sticker': SmileySticker,
-  'smiley-wink': SmileyWink,
-  'smiley-xeyes': SmileyXeyes,
-  'snapchat-logo': SnapchatLogo,
-  'sneaker': Sneaker,
-  'sneaker-move': SneakerMove,
-  'snow-icon': SnowIcon,
-  'snowflake': Snowflake,
-  'soccer-ball': SoccerBall,
-  'sort-ascending': SortAscending,
-  'sort-descending': SortDescending,
-  'soundcloud-logo': SoundcloudLogo,
-  'spade': Spade,
-  'sparkle': Sparkle,
-  'speaker-hifi': SpeakerHifi,
-  'speaker-high': SpeakerHigh,
-  'speaker-low': SpeakerLow,
-  'speaker-none': SpeakerNone,
-  'speaker-simple-high': SpeakerSimpleHigh,
-  'speaker-simple-low': SpeakerSimpleLow,
-  'speaker-simple-none': SpeakerSimpleNone,
-  'speaker-simple-slash': SpeakerSimpleSlash,
-  'speaker-simple-x': SpeakerSimpleX,
-  'speaker-slash': SpeakerSlash,
-  'speaker-x': SpeakerX,
-  'spinner': Spinner,
-  'spinner-gap': SpinnerGap,
-  'spiral': Spiral,
-  'split-horizontal': SplitHorizontal,
-  'split-vertical': SplitVertical,
-  'spotify-logo': SpotifyLogo,
-  'square': Square,
-  'square-half': SquareHalf,
-  'square-half-bottom': SquareHalfBottom,
-  'square-logo': SquareLogo,
-  'square-split-horizontal': SquareSplitHorizontal,
-  'square-split-vertical': SquareSplitVertical,
-  'squares-four': SquaresFour,
-  'stack': Stack,
-  'stack-overflow-logo': StackOverflowLogo,
-  'stack-simple': StackSimple,
-  'stairs': Stairs,
-  'stamp': Stamp,
-  'star': Star,
-  'star-and-crescent': StarAndCrescent,
-  'star-four': StarFour,
-  'star-four-2': StarFour2,
-  'star-half': StarHalf,
-  'star-of-david': StarOfDavid,
-  'stars': Stars,
-  'steering-wheel': SteeringWheel,
-  'steps': Steps,
-  'stethoscope': Stethoscope,
-  'sticker': Sticker,
-  'stool': Stool,
-  'stop': Stop,
-  'stop-2': Stop2,
-  'stop-3': Stop3,
-  'stop-circle': StopCircle,
-  'storefront': Storefront,
-  'strategy': Strategy,
-  'stripe-logo': StripeLogo,
-  'student': Student,
-  'subtitles': Subtitles,
-  'subtract': Subtract,
-  'subtract-square': SubtractSquare,
-  'suitcase': Suitcase,
-  'suitcase-rolling': SuitcaseRolling,
-  'suitcase-simple': SuitcaseSimple,
-  'sun': Sun,
-  'sun-dim': SunDim,
-  'sun-horizon': SunHorizon,
-  'sunglasses': Sunglasses,
-  'swap': Swap,
-  'swatches': Swatches,
-  'swimming-pool': SwimmingPool,
-  'switch-point': SwitchPoint,
-  'sword': Sword,
-  'synagogue': Synagogue,
-  'syringe': Syringe,
-  'table': Table,
-  'tabs': Tabs,
-  'tag': Tag,
-  'tag-chevron': TagChevron,
-  'tag-simple': TagSimple,
-  'target': Target,
-  'taxi': Taxi,
-  'telegram-logo': TelegramLogo,
-  'television': Television,
-  'television-simple': TelevisionSimple,
-  'tennis-ball': TennisBall,
-  'tent': Tent,
-  'terminal': Terminal,
-  'terminal-window': TerminalWindow,
-  'test-tube': TestTube,
-  'text-a': TextA,
-  'text-aa': TextAa,
-  'text-align-center': TextAlignCenter,
-  'text-align-justify': TextAlignJustify,
-  'text-align-left': TextAlignLeft,
-  'text-align-right': TextAlignRight,
-  'text-aunderline': TextAunderline,
-  'text-b': TextB,
-  'text-columns': TextColumns,
-  'text-h': TextH,
-  'text-hfive': TextHfive,
-  'text-hfour': TextHfour,
-  'text-hone': TextHone,
-  'text-hsix': TextHsix,
-  'text-hthree': TextHthree,
-  'text-htwo': TextHtwo,
-  'text-indent': TextIndent,
-  'text-italic': TextItalic,
-  'text-outdent': TextOutdent,
-  'text-strikethrough': TextStrikethrough,
-  'text-t': TextT,
-  'text-underline': TextUnderline,
-  'textbox': Textbox,
-  'thermometer': Thermometer,
-  'thermometer-cold': ThermometerCold,
-  'thermometer-hot': ThermometerHot,
-  'thermometer-simple': ThermometerSimple,
-  'three-dots': ThreeDots,
-  'thumbs-down': ThumbsDown,
-  'thumbs-up': ThumbsUp,
-  'ticket': Ticket,
-  'tidal-logo': TidalLogo,
-  'tiktok-logo': TiktokLogo,
-  'timer': Timer,
-  'tipi': Tipi,
-  'toggle-false': ToggleFalse,
-  'toggle-left': ToggleLeft,
-  'toggle-right': ToggleRight,
-  'toggle-true': ToggleTrue,
-  'toilet': Toilet,
-  'toilet-paper': ToiletPaper,
-  'toolbox': Toolbox,
-  'tooth': Tooth,
-  'tote': Tote,
-  'tote-simple': ToteSimple,
-  'trademark': Trademark,
-  'trademark-registered': TrademarkRegistered,
-  'traffic-cone': TrafficCone,
-  'traffic-sign': TrafficSign,
-  'traffic-signal': TrafficSignal,
-  'train': Train,
-  'train-regional': TrainRegional,
-  'train-simple': TrainSimple,
-  'tram': Tram,
-  'translate': Translate,
-  'trash': Trash,
-  'trash-simple': TrashSimple,
-  'tray': Tray,
-  'tree': Tree,
-  'tree-evergreen': TreeEvergreen,
-  'tree-palm': TreePalm,
-  'tree-structure': TreeStructure,
-  'trend-down': TrendDown,
-  'trend-up': TrendUp,
-  'triangle': Triangle,
-  'trophy': Trophy,
-  'truck': Truck,
-  'tshirt': Tshirt,
-  'twitch-logo': TwitchLogo,
-  'twitter-logo': TwitterLogo,
-  'txt-icon': TxtIcon,
-  'umbrella': Umbrella,
-  'umbrella-simple': UmbrellaSimple,
-  'unite': Unite,
-  'unite-square': UniteSquare,
-  'upload': Upload,
-  'upload-simple': UploadSimple,
-  'usb': Usb,
-  'user': User,
-  'user-circle': UserCircle,
-  'user-circle-gear': UserCircleGear,
-  'user-circle-minus': UserCircleMinus,
-  'user-circle-plus': UserCirclePlus,
-  'user-focus': UserFocus,
-  'user-gear': UserGear,
-  'user-list': UserList,
-  'user-minus': UserMinus,
-  'user-plus': UserPlus,
-  'user-rectangle': UserRectangle,
-  'user-square': UserSquare,
-  'user-switch': UserSwitch,
-  'users': Users,
-  'users-four': UsersFour,
-  'users-three': UsersThree,
-  'van': Van,
-  'variables': Variables,
-  'vault': Vault,
-  'vertical-screen': VerticalScreen,
-  'vibrate': Vibrate,
-  'video': Video,
-  'video-camera': VideoCamera,
-  'video-camera-slash': VideoCameraSlash,
-  'vignette': Vignette,
-  'vinyl-record': VinylRecord,
-  'virtual-reality': VirtualReality,
-  'virus': Virus,
-  'voicemail': Voicemail,
-  'volleyball': Volleyball,
-  'wall': Wall,
-  'wallet': Wallet,
-  'warehouse': Warehouse,
-  'warning': Warning,
-  'warning-circle': WarningCircle,
-  'warning-diamond': WarningDiamond,
-  'warning-octagon': WarningOctagon,
-  'watch': Watch,
-  'wave-sawtooth': WaveSawtooth,
-  'wave-sine': WaveSine,
-  'wave-square': WaveSquare,
-  'wave-triangle': WaveTriangle,
-  'waveform': Waveform,
-  'waves': Waves,
-  'webcam': Webcam,
-  'webcam-slash': WebcamSlash,
-  'webhooks-logo': WebhooksLogo,
-  'wechat-logo': WechatLogo,
-  'whatsapp-logo': WhatsappLogo,
-  'wheelchair': Wheelchair,
-  'wheelchair-motion': WheelchairMotion,
-  'wifi-high': WifiHigh,
-  'wifi-low': WifiLow,
-  'wifi-medium': WifiMedium,
-  'wifi-none': WifiNone,
-  'wifi-slash': WifiSlash,
-  'wifi-x': WifiX,
-  'wind': Wind,
-  'windowed': Windowed,
-  'windows-logo': WindowsLogo,
-  'wine': Wine,
-  'wrench': Wrench,
-  'x': X,
-  'xcircle': Xcircle,
-  'xcircle-2': Xcircle2,
-  'xlsx-icon': XlsxIcon,
-  'xsquare': Xsquare,
-  'yin-yang': YinYang,
-  'youtube-logo': YoutubeLogo,
-} as const;
+type Registry = Record<string, Record<string, any>>;
+type DefaultMap = Record<string, any>;
 
-export type IconName = keyof typeof iconsByName;
+let _byCol: Registry | null = null;
+let _byDef: DefaultMap | null = null;
+
+function _ensure() {
+  if (_byCol) return;
+  _byCol = {
+    snowui: {
+    'add': snowui_Add,
+    'ai': snowui_Ai,
+    'arrow-fall': snowui_ArrowFall,
+    'arrow-line-down': snowui_ArrowLineDown,
+    'arrow-line-left': snowui_ArrowLineLeft,
+    'arrow-line-right': snowui_ArrowLineRight,
+    'arrow-line-up': snowui_ArrowLineUp,
+    'arrow-line-up-down': snowui_ArrowLineUpDown,
+    'arrow-right': snowui_ArrowRight,
+    'arrow-rise': snowui_ArrowRise,
+    'arrows-down': snowui_ArrowsDown,
+    'arrows-down-up': snowui_ArrowsDownUp,
+    'arrows-up': snowui_ArrowsUp,
+    'badge': snowui_Badge,
+    'chat-dashed': snowui_ChatDashed,
+    'checkbox-false': snowui_CheckboxFalse,
+    'checkbox-multiple': snowui_CheckboxMultiple,
+    'checkbox-true': snowui_CheckboxTrue,
+    'chip': snowui_Chip,
+    'clipboard': snowui_Clipboard,
+    'close': snowui_Close,
+    'copy': snowui_Copy,
+    'dot-circle': snowui_DotCircle,
+    'dot-square': snowui_DotSquare,
+    'explain': snowui_Explain,
+    'four-leaf-clover': snowui_FourLeafClover,
+    'four-pointed-star': snowui_FourPointedStar,
+    'goto': snowui_Goto,
+    'help': snowui_Help,
+    'horizontal-screen': snowui_HorizontalScreen,
+    'icon-set': snowui_IconSet,
+    'icon-size-16': snowui_IconSize16,
+    'icon-size-20': snowui_IconSize20,
+    'icon-size-24': snowui_IconSize24,
+    'icon-size-28': snowui_IconSize28,
+    'icon-size-32': snowui_IconSize32,
+    'icon-size-40': snowui_IconSize40,
+    'icon-size-48': snowui_IconSize48,
+    'icon-size-80': snowui_IconSize80,
+    'image-loading': snowui_ImageLoading,
+    'line': snowui_Line,
+    'maximize': snowui_Maximize,
+    'minimize': snowui_Minimize,
+    'pay-wave': snowui_PayWave,
+    'radio-false': snowui_RadioFalse,
+    'radio-true': snowui_RadioTrue,
+    'radio-true-alt': snowui_RadioTrueAlt,
+    'rating-1': snowui_Rating1,
+    'rating-2': snowui_Rating2,
+    'rating-3': snowui_Rating3,
+    'rating-4': snowui_Rating4,
+    'rating-5': snowui_Rating5,
+    'repost': snowui_Repost,
+    'rightbar': snowui_Rightbar,
+    'rightbar-mode': snowui_RightbarMode,
+    'round': snowui_Round,
+    'rounded-corner': snowui_RoundedCorner,
+    'search': snowui_Search,
+    'selected': snowui_Selected,
+    'snow-icon': snowui_SnowIcon,
+    'star-four': snowui_StarFour,
+    'stars': snowui_Stars,
+    'stop-alt': snowui_StopAlt,
+    'stop-secondary': snowui_StopSecondary,
+    'switch-false': snowui_SwitchFalse,
+    'switch-point': snowui_SwitchPoint,
+    'switch-true': snowui_SwitchTrue,
+    'text-a': snowui_TextA,
+    'three-dots': snowui_ThreeDots,
+    'variables': snowui_Variables,
+    'vertical-screen': snowui_VerticalScreen,
+    'windowed': snowui_Windowed,
+    'x-circle': snowui_XCircle,
+  },
+    phosphor: {
+    'address-book': phosphor_AddressBook,
+    'airplane': phosphor_Airplane,
+    'airplane-in-flight': phosphor_AirplaneInFlight,
+    'airplane-landing': phosphor_AirplaneLanding,
+    'airplane-takeoff': phosphor_AirplaneTakeoff,
+    'airplane-tilt': phosphor_AirplaneTilt,
+    'airplay': phosphor_Airplay,
+    'air-traffic-control': phosphor_AirTrafficControl,
+    'alarm': phosphor_Alarm,
+    'alien': phosphor_Alien,
+    'align-bottom': phosphor_AlignBottom,
+    'align-bottom-simple': phosphor_AlignBottomSimple,
+    'align-center-horizontal': phosphor_AlignCenterHorizontal,
+    'align-center-horizontal-simple': phosphor_AlignCenterHorizontalSimple,
+    'align-center-vertical': phosphor_AlignCenterVertical,
+    'align-center-vertical-simple': phosphor_AlignCenterVerticalSimple,
+    'align-left': phosphor_AlignLeft,
+    'align-left-simple': phosphor_AlignLeftSimple,
+    'align-right': phosphor_AlignRight,
+    'align-right-simple': phosphor_AlignRightSimple,
+    'align-top': phosphor_AlignTop,
+    'align-top-simple': phosphor_AlignTopSimple,
+    'amazon-logo': phosphor_AmazonLogo,
+    'anchor': phosphor_Anchor,
+    'anchor-simple': phosphor_AnchorSimple,
+    'android-logo': phosphor_AndroidLogo,
+    'angular-logo': phosphor_AngularLogo,
+    'aperture': phosphor_Aperture,
+    'apple-logo': phosphor_AppleLogo,
+    'apple-podcasts-logo': phosphor_ApplePodcastsLogo,
+    'app-store-logo': phosphor_AppStoreLogo,
+    'app-window': phosphor_AppWindow,
+    'archive': phosphor_Archive,
+    'archive-box': phosphor_ArchiveBox,
+    'archive-tray': phosphor_ArchiveTray,
+    'armchair': phosphor_Armchair,
+    'arrow-arc-left': phosphor_ArrowArcLeft,
+    'arrow-arc-right': phosphor_ArrowArcRight,
+    'arrow-bend-double-up-left': phosphor_ArrowBendDoubleUpLeft,
+    'arrow-bend-double-up-right': phosphor_ArrowBendDoubleUpRight,
+    'arrow-bend-down-left': phosphor_ArrowBendDownLeft,
+    'arrow-bend-down-right': phosphor_ArrowBendDownRight,
+    'arrow-bend-left-down': phosphor_ArrowBendLeftDown,
+    'arrow-bend-left-up': phosphor_ArrowBendLeftUp,
+    'arrow-bend-right-down': phosphor_ArrowBendRightDown,
+    'arrow-bend-right-up': phosphor_ArrowBendRightUp,
+    'arrow-bend-up-left': phosphor_ArrowBendUpLeft,
+    'arrow-bend-up-right': phosphor_ArrowBendUpRight,
+    'arrow-circle-down': phosphor_ArrowCircleDown,
+    'arrow-circle-down-left': phosphor_ArrowCircleDownLeft,
+    'arrow-circle-down-right': phosphor_ArrowCircleDownRight,
+    'arrow-circle-left': phosphor_ArrowCircleLeft,
+    'arrow-circle-right': phosphor_ArrowCircleRight,
+    'arrow-circle-up': phosphor_ArrowCircleUp,
+    'arrow-circle-up-left': phosphor_ArrowCircleUpLeft,
+    'arrow-circle-up-right': phosphor_ArrowCircleUpRight,
+    'arrow-clockwise': phosphor_ArrowClockwise,
+    'arrow-counter-clockwise': phosphor_ArrowCounterClockwise,
+    'arrow-down': phosphor_ArrowDown,
+    'arrow-down-left': phosphor_ArrowDownLeft,
+    'arrow-down-right': phosphor_ArrowDownRight,
+    'arrow-elbow-down-left': phosphor_ArrowElbowDownLeft,
+    'arrow-elbow-down-right': phosphor_ArrowElbowDownRight,
+    'arrow-elbow-left': phosphor_ArrowElbowLeft,
+    'arrow-elbow-left-down': phosphor_ArrowElbowLeftDown,
+    'arrow-elbow-left-up': phosphor_ArrowElbowLeftUp,
+    'arrow-elbow-right': phosphor_ArrowElbowRight,
+    'arrow-elbow-right-down': phosphor_ArrowElbowRightDown,
+    'arrow-elbow-right-up': phosphor_ArrowElbowRightUp,
+    'arrow-elbow-up-left': phosphor_ArrowElbowUpLeft,
+    'arrow-elbow-up-right': phosphor_ArrowElbowUpRight,
+    'arrow-fat-down': phosphor_ArrowFatDown,
+    'arrow-fat-left': phosphor_ArrowFatLeft,
+    'arrow-fat-line-down': phosphor_ArrowFatLineDown,
+    'arrow-fat-line-left': phosphor_ArrowFatLineLeft,
+    'arrow-fat-line-right': phosphor_ArrowFatLineRight,
+    'arrow-fat-lines-down': phosphor_ArrowFatLinesDown,
+    'arrow-fat-lines-left': phosphor_ArrowFatLinesLeft,
+    'arrow-fat-lines-right': phosphor_ArrowFatLinesRight,
+    'arrow-fat-lines-up': phosphor_ArrowFatLinesUp,
+    'arrow-fat-line-up': phosphor_ArrowFatLineUp,
+    'arrow-fat-right': phosphor_ArrowFatRight,
+    'arrow-fat-up': phosphor_ArrowFatUp,
+    'arrow-left': phosphor_ArrowLeft,
+    'arrow-line-down': phosphor_ArrowLineDown,
+    'arrow-line-down-left': phosphor_ArrowLineDownLeft,
+    'arrow-line-down-right': phosphor_ArrowLineDownRight,
+    'arrow-line-left': phosphor_ArrowLineLeft,
+    'arrow-line-right': phosphor_ArrowLineRight,
+    'arrow-line-up': phosphor_ArrowLineUp,
+    'arrow-line-up-left': phosphor_ArrowLineUpLeft,
+    'arrow-line-up-right': phosphor_ArrowLineUpRight,
+    'arrow-right': phosphor_ArrowRight,
+    'arrows-clockwise': phosphor_ArrowsClockwise,
+    'arrows-counter-clockwise': phosphor_ArrowsCounterClockwise,
+    'arrows-down-up': phosphor_ArrowsDownUp,
+    'arrows-horizontal': phosphor_ArrowsHorizontal,
+    'arrows-in': phosphor_ArrowsIn,
+    'arrows-in-cardinal': phosphor_ArrowsInCardinal,
+    'arrows-in-line-horizontal': phosphor_ArrowsInLineHorizontal,
+    'arrows-in-line-vertical': phosphor_ArrowsInLineVertical,
+    'arrows-in-simple': phosphor_ArrowsInSimple,
+    'arrows-left-right': phosphor_ArrowsLeftRight,
+    'arrows-merge': phosphor_ArrowsMerge,
+    'arrows-out': phosphor_ArrowsOut,
+    'arrows-out-cardinal': phosphor_ArrowsOutCardinal,
+    'arrows-out-line-horizontal': phosphor_ArrowsOutLineHorizontal,
+    'arrows-out-line-vertical': phosphor_ArrowsOutLineVertical,
+    'arrows-out-simple': phosphor_ArrowsOutSimple,
+    'arrow-square-down': phosphor_ArrowSquareDown,
+    'arrow-square-down-left': phosphor_ArrowSquareDownLeft,
+    'arrow-square-down-right': phosphor_ArrowSquareDownRight,
+    'arrow-square-in': phosphor_ArrowSquareIn,
+    'arrow-square-left': phosphor_ArrowSquareLeft,
+    'arrow-square-out': phosphor_ArrowSquareOut,
+    'arrow-square-right': phosphor_ArrowSquareRight,
+    'arrow-square-up': phosphor_ArrowSquareUp,
+    'arrow-square-up-left': phosphor_ArrowSquareUpLeft,
+    'arrow-square-up-right': phosphor_ArrowSquareUpRight,
+    'arrows-split': phosphor_ArrowsSplit,
+    'arrows-vertical': phosphor_ArrowsVertical,
+    'arrow-u-down-left': phosphor_ArrowUDownLeft,
+    'arrow-u-down-right': phosphor_ArrowUDownRight,
+    'arrow-u-left-down': phosphor_ArrowULeftDown,
+    'arrow-u-left-up': phosphor_ArrowULeftUp,
+    'arrow-up': phosphor_ArrowUp,
+    'arrow-up-left': phosphor_ArrowUpLeft,
+    'arrow-up-right': phosphor_ArrowUpRight,
+    'arrow-u-right-down': phosphor_ArrowURightDown,
+    'arrow-u-right-up': phosphor_ArrowURightUp,
+    'arrow-u-up-left': phosphor_ArrowUUpLeft,
+    'arrow-u-up-right': phosphor_ArrowUUpRight,
+    'article': phosphor_Article,
+    'article-medium': phosphor_ArticleMedium,
+    'article-ny-times': phosphor_ArticleNyTimes,
+    'asterisk': phosphor_Asterisk,
+    'asterisk-simple': phosphor_AsteriskSimple,
+    'at': phosphor_At,
+    'atom': phosphor_Atom,
+    'baby': phosphor_Baby,
+    'backpack': phosphor_Backpack,
+    'backspace': phosphor_Backspace,
+    'bag': phosphor_Bag,
+    'bag-simple': phosphor_BagSimple,
+    'balloon': phosphor_Balloon,
+    'bandaids': phosphor_Bandaids,
+    'bank': phosphor_Bank,
+    'barbell': phosphor_Barbell,
+    'barcode': phosphor_Barcode,
+    'barricade': phosphor_Barricade,
+    'baseball': phosphor_Baseball,
+    'baseball-cap': phosphor_BaseballCap,
+    'basket': phosphor_Basket,
+    'basketball': phosphor_Basketball,
+    'bathtub': phosphor_Bathtub,
+    'battery-charging': phosphor_BatteryCharging,
+    'battery-charging-vertical': phosphor_BatteryChargingVertical,
+    'battery-empty': phosphor_BatteryEmpty,
+    'battery-full': phosphor_BatteryFull,
+    'battery-high': phosphor_BatteryHigh,
+    'battery-low': phosphor_BatteryLow,
+    'battery-medium': phosphor_BatteryMedium,
+    'battery-plus': phosphor_BatteryPlus,
+    'battery-plus-vertical': phosphor_BatteryPlusVertical,
+    'battery-vertical-empty': phosphor_BatteryVerticalEmpty,
+    'battery-vertical-full': phosphor_BatteryVerticalFull,
+    'battery-vertical-high': phosphor_BatteryVerticalHigh,
+    'battery-vertical-low': phosphor_BatteryVerticalLow,
+    'battery-vertical-medium': phosphor_BatteryVerticalMedium,
+    'battery-warning': phosphor_BatteryWarning,
+    'battery-warning-vertical': phosphor_BatteryWarningVertical,
+    'bed': phosphor_Bed,
+    'beer-bottle': phosphor_BeerBottle,
+    'beer-stein': phosphor_BeerStein,
+    'behance-logo': phosphor_BehanceLogo,
+    'bell': phosphor_Bell,
+    'bell-ringing': phosphor_BellRinging,
+    'bell-simple': phosphor_BellSimple,
+    'bell-simple-ringing': phosphor_BellSimpleRinging,
+    'bell-simple-slash': phosphor_BellSimpleSlash,
+    'bell-simple-z': phosphor_BellSimpleZ,
+    'bell-slash': phosphor_BellSlash,
+    'bell-z': phosphor_BellZ,
+    'bezier-curve': phosphor_BezierCurve,
+    'bicycle': phosphor_Bicycle,
+    'binoculars': phosphor_Binoculars,
+    'bird': phosphor_Bird,
+    'bluetooth': phosphor_Bluetooth,
+    'bluetooth-connected': phosphor_BluetoothConnected,
+    'bluetooth-slash': phosphor_BluetoothSlash,
+    'bluetooth-x': phosphor_BluetoothX,
+    'boat': phosphor_Boat,
+    'bone': phosphor_Bone,
+    'book': phosphor_Book,
+    'book-bookmark': phosphor_BookBookmark,
+    'bookmark': phosphor_Bookmark,
+    'bookmarks': phosphor_Bookmarks,
+    'bookmark-simple': phosphor_BookmarkSimple,
+    'bookmarks-simple': phosphor_BookmarksSimple,
+    'book-open': phosphor_BookOpen,
+    'book-open-text': phosphor_BookOpenText,
+    'books': phosphor_Books,
+    'boot': phosphor_Boot,
+    'bounding-box': phosphor_BoundingBox,
+    'bowl-food': phosphor_BowlFood,
+    'brackets-angle': phosphor_BracketsAngle,
+    'brackets-curly': phosphor_BracketsCurly,
+    'brackets-round': phosphor_BracketsRound,
+    'brackets-square': phosphor_BracketsSquare,
+    'brain': phosphor_Brain,
+    'brandy': phosphor_Brandy,
+    'bridge': phosphor_Bridge,
+    'briefcase': phosphor_Briefcase,
+    'briefcase-metal': phosphor_BriefcaseMetal,
+    'broadcast': phosphor_Broadcast,
+    'broom': phosphor_Broom,
+    'browser': phosphor_Browser,
+    'browsers': phosphor_Browsers,
+    'bug': phosphor_Bug,
+    'bug-beetle': phosphor_BugBeetle,
+    'bug-droid': phosphor_BugDroid,
+    'buildings': phosphor_Buildings,
+    'bus': phosphor_Bus,
+    'butterfly': phosphor_Butterfly,
+    'cactus': phosphor_Cactus,
+    'cake': phosphor_Cake,
+    'calculator': phosphor_Calculator,
+    'calendar': phosphor_Calendar,
+    'calendar-blank': phosphor_CalendarBlank,
+    'calendar-check': phosphor_CalendarCheck,
+    'calendar-plus': phosphor_CalendarPlus,
+    'calendar-x': phosphor_CalendarX,
+    'call-bell': phosphor_CallBell,
+    'camera': phosphor_Camera,
+    'camera-plus': phosphor_CameraPlus,
+    'camera-rotate': phosphor_CameraRotate,
+    'camera-slash': phosphor_CameraSlash,
+    'campfire': phosphor_Campfire,
+    'car': phosphor_Car,
+    'cardholder': phosphor_Cardholder,
+    'cards': phosphor_Cards,
+    'caret-circle-double-down': phosphor_CaretCircleDoubleDown,
+    'caret-circle-double-left': phosphor_CaretCircleDoubleLeft,
+    'caret-circle-double-right': phosphor_CaretCircleDoubleRight,
+    'caret-circle-double-up': phosphor_CaretCircleDoubleUp,
+    'caret-circle-down': phosphor_CaretCircleDown,
+    'caret-circle-left': phosphor_CaretCircleLeft,
+    'caret-circle-right': phosphor_CaretCircleRight,
+    'caret-circle-up': phosphor_CaretCircleUp,
+    'caret-circle-up-down': phosphor_CaretCircleUpDown,
+    'caret-double-down': phosphor_CaretDoubleDown,
+    'caret-double-left': phosphor_CaretDoubleLeft,
+    'caret-double-right': phosphor_CaretDoubleRight,
+    'caret-double-up': phosphor_CaretDoubleUp,
+    'caret-down': phosphor_CaretDown,
+    'caret-left': phosphor_CaretLeft,
+    'caret-right': phosphor_CaretRight,
+    'caret-up': phosphor_CaretUp,
+    'caret-up-down': phosphor_CaretUpDown,
+    'car-profile': phosphor_CarProfile,
+    'carrot': phosphor_Carrot,
+    'car-simple': phosphor_CarSimple,
+    'cassette-tape': phosphor_CassetteTape,
+    'castle-turret': phosphor_CastleTurret,
+    'cat': phosphor_Cat,
+    'cell-signal-full': phosphor_CellSignalFull,
+    'cell-signal-high': phosphor_CellSignalHigh,
+    'cell-signal-low': phosphor_CellSignalLow,
+    'cell-signal-medium': phosphor_CellSignalMedium,
+    'cell-signal-none': phosphor_CellSignalNone,
+    'cell-signal-slash': phosphor_CellSignalSlash,
+    'cell-signal-x': phosphor_CellSignalX,
+    'certificate': phosphor_Certificate,
+    'chair': phosphor_Chair,
+    'chalkboard': phosphor_Chalkboard,
+    'chalkboard-simple': phosphor_ChalkboardSimple,
+    'chalkboard-teacher': phosphor_ChalkboardTeacher,
+    'champagne': phosphor_Champagne,
+    'charging-station': phosphor_ChargingStation,
+    'chart-bar': phosphor_ChartBar,
+    'chart-bar-horizontal': phosphor_ChartBarHorizontal,
+    'chart-donut': phosphor_ChartDonut,
+    'chart-line': phosphor_ChartLine,
+    'chart-line-down': phosphor_ChartLineDown,
+    'chart-line-up': phosphor_ChartLineUp,
+    'chart-pie': phosphor_ChartPie,
+    'chart-pie-slice': phosphor_ChartPieSlice,
+    'chart-polar': phosphor_ChartPolar,
+    'chart-scatter': phosphor_ChartScatter,
+    'chat': phosphor_Chat,
+    'chat-centered': phosphor_ChatCentered,
+    'chat-centered-dots': phosphor_ChatCenteredDots,
+    'chat-centered-text': phosphor_ChatCenteredText,
+    'chat-circle': phosphor_ChatCircle,
+    'chat-circle-dots': phosphor_ChatCircleDots,
+    'chat-circle-text': phosphor_ChatCircleText,
+    'chat-dots': phosphor_ChatDots,
+    'chats': phosphor_Chats,
+    'chats-circle': phosphor_ChatsCircle,
+    'chats-teardrop': phosphor_ChatsTeardrop,
+    'chat-teardrop': phosphor_ChatTeardrop,
+    'chat-teardrop-dots': phosphor_ChatTeardropDots,
+    'chat-teardrop-text': phosphor_ChatTeardropText,
+    'chat-text': phosphor_ChatText,
+    'check': phosphor_Check,
+    'check-circle': phosphor_CheckCircle,
+    'check-fat': phosphor_CheckFat,
+    'checks': phosphor_Checks,
+    'check-square': phosphor_CheckSquare,
+    'check-square-offset': phosphor_CheckSquareOffset,
+    'church': phosphor_Church,
+    'circle': phosphor_Circle,
+    'circle-dashed': phosphor_CircleDashed,
+    'circle-half': phosphor_CircleHalf,
+    'circle-half-tilt': phosphor_CircleHalfTilt,
+    'circle-notch': phosphor_CircleNotch,
+    'circles-four': phosphor_CirclesFour,
+    'circles-three': phosphor_CirclesThree,
+    'circles-three-plus': phosphor_CirclesThreePlus,
+    'circuitry': phosphor_Circuitry,
+    'clipboard': phosphor_Clipboard,
+    'clipboard-text': phosphor_ClipboardText,
+    'clock': phosphor_Clock,
+    'clock-afternoon': phosphor_ClockAfternoon,
+    'clock-clockwise': phosphor_ClockClockwise,
+    'clock-countdown': phosphor_ClockCountdown,
+    'clock-counter-clockwise': phosphor_ClockCounterClockwise,
+    'closed-captioning': phosphor_ClosedCaptioning,
+    'cloud': phosphor_Cloud,
+    'cloud-arrow-down': phosphor_CloudArrowDown,
+    'cloud-arrow-up': phosphor_CloudArrowUp,
+    'cloud-check': phosphor_CloudCheck,
+    'cloud-fog': phosphor_CloudFog,
+    'cloud-lightning': phosphor_CloudLightning,
+    'cloud-moon': phosphor_CloudMoon,
+    'cloud-rain': phosphor_CloudRain,
+    'cloud-slash': phosphor_CloudSlash,
+    'cloud-snow': phosphor_CloudSnow,
+    'cloud-sun': phosphor_CloudSun,
+    'cloud-warning': phosphor_CloudWarning,
+    'cloud-x': phosphor_CloudX,
+    'club': phosphor_Club,
+    'coat-hanger': phosphor_CoatHanger,
+    'coda-logo': phosphor_CodaLogo,
+    'code': phosphor_Code,
+    'code-block': phosphor_CodeBlock,
+    'codepen-logo': phosphor_CodepenLogo,
+    'codesandbox-logo': phosphor_CodesandboxLogo,
+    'code-simple': phosphor_CodeSimple,
+    'coffee': phosphor_Coffee,
+    'coin': phosphor_Coin,
+    'coins': phosphor_Coins,
+    'coin-vertical': phosphor_CoinVertical,
+    'columns': phosphor_Columns,
+    'command': phosphor_Command,
+    'compass': phosphor_Compass,
+    'compass-off': phosphor_CompassOff,
+    'compass-tool': phosphor_CompassTool,
+    'computer-tower': phosphor_ComputerTower,
+    'confetti': phosphor_Confetti,
+    'contactless-payment': phosphor_ContactlessPayment,
+    'control': phosphor_Control,
+    'cookie': phosphor_Cookie,
+    'cooking-pot': phosphor_CookingPot,
+    'copy': phosphor_Copy,
+    'copyleft': phosphor_Copyleft,
+    'copyright': phosphor_Copyright,
+    'copy-simple': phosphor_CopySimple,
+    'corners-in': phosphor_CornersIn,
+    'corners-out': phosphor_CornersOut,
+    'couch': phosphor_Couch,
+    'cpu': phosphor_Cpu,
+    'credit-card': phosphor_CreditCard,
+    'crop': phosphor_Crop,
+    'cross': phosphor_Cross,
+    'crosshair': phosphor_Crosshair,
+    'crosshair-simple': phosphor_CrosshairSimple,
+    'crown': phosphor_Crown,
+    'crown-simple': phosphor_CrownSimple,
+    'cube': phosphor_Cube,
+    'cube-focus': phosphor_CubeFocus,
+    'cube-transparent': phosphor_CubeTransparent,
+    'currency-btc': phosphor_CurrencyBtc,
+    'currency-circle-dollar': phosphor_CurrencyCircleDollar,
+    'currency-cny': phosphor_CurrencyCny,
+    'currency-dollar': phosphor_CurrencyDollar,
+    'currency-dollar-simple': phosphor_CurrencyDollarSimple,
+    'currency-eth': phosphor_CurrencyEth,
+    'currency-eur': phosphor_CurrencyEur,
+    'currency-gbp': phosphor_CurrencyGbp,
+    'currency-inr': phosphor_CurrencyInr,
+    'currency-jpy': phosphor_CurrencyJpy,
+    'currency-krw': phosphor_CurrencyKrw,
+    'currency-kzt': phosphor_CurrencyKzt,
+    'currency-ngn': phosphor_CurrencyNgn,
+    'currency-rub': phosphor_CurrencyRub,
+    'cursor': phosphor_Cursor,
+    'cursor-click': phosphor_CursorClick,
+    'cursor-text': phosphor_CursorText,
+    'cylinder': phosphor_Cylinder,
+    'database': phosphor_Database,
+    'desktop': phosphor_Desktop,
+    'desktop-tower': phosphor_DesktopTower,
+    'detective': phosphor_Detective,
+    'device-mobile': phosphor_DeviceMobile,
+    'device-mobile-camera': phosphor_DeviceMobileCamera,
+    'device-mobile-speaker': phosphor_DeviceMobileSpeaker,
+    'devices': phosphor_Devices,
+    'device-tablet': phosphor_DeviceTablet,
+    'device-tablet-camera': phosphor_DeviceTabletCamera,
+    'device-tablet-speaker': phosphor_DeviceTabletSpeaker,
+    'dev-to-logo': phosphor_DevToLogo,
+    'diamond': phosphor_Diamond,
+    'diamonds-four': phosphor_DiamondsFour,
+    'dice-five': phosphor_DiceFive,
+    'dice-four': phosphor_DiceFour,
+    'dice-one': phosphor_DiceOne,
+    'dice-six': phosphor_DiceSix,
+    'dice-three': phosphor_DiceThree,
+    'dice-two': phosphor_DiceTwo,
+    'disc': phosphor_Disc,
+    'discord-logo': phosphor_DiscordLogo,
+    'divide': phosphor_Divide,
+    'dna': phosphor_Dna,
+    'dog': phosphor_Dog,
+    'door': phosphor_Door,
+    'door-open': phosphor_DoorOpen,
+    'dot': phosphor_Dot,
+    'dot-outline': phosphor_DotOutline,
+    'dots-nine': phosphor_DotsNine,
+    'dots-six': phosphor_DotsSix,
+    'dots-six-vertical': phosphor_DotsSixVertical,
+    'dots-three': phosphor_DotsThree,
+    'dots-three-circle': phosphor_DotsThreeCircle,
+    'dots-three-circle-vertical': phosphor_DotsThreeCircleVertical,
+    'dots-three-outline': phosphor_DotsThreeOutline,
+    'dots-three-outline-vertical': phosphor_DotsThreeOutlineVertical,
+    'dots-three-vertical': phosphor_DotsThreeVertical,
+    'download': phosphor_Download,
+    'download-simple': phosphor_DownloadSimple,
+    'dress': phosphor_Dress,
+    'dribbble-logo': phosphor_DribbbleLogo,
+    'drop': phosphor_Drop,
+    'dropbox-logo': phosphor_DropboxLogo,
+    'drop-half': phosphor_DropHalf,
+    'drop-half-bottom': phosphor_DropHalfBottom,
+    'ear': phosphor_Ear,
+    'ear-slash': phosphor_EarSlash,
+    'egg': phosphor_Egg,
+    'egg-crack': phosphor_EggCrack,
+    'eject': phosphor_Eject,
+    'eject-simple': phosphor_EjectSimple,
+    'elevator': phosphor_Elevator,
+    'engine': phosphor_Engine,
+    'envelope': phosphor_Envelope,
+    'envelope-open': phosphor_EnvelopeOpen,
+    'envelope-simple': phosphor_EnvelopeSimple,
+    'envelope-simple-open': phosphor_EnvelopeSimpleOpen,
+    'equalizer': phosphor_Equalizer,
+    'equals': phosphor_Equals,
+    'eraser': phosphor_Eraser,
+    'escalator-down': phosphor_EscalatorDown,
+    'escalator-up': phosphor_EscalatorUp,
+    'exam': phosphor_Exam,
+    'exclude': phosphor_Exclude,
+    'exclude-square': phosphor_ExcludeSquare,
+    'export': phosphor_Export,
+    'eye': phosphor_Eye,
+    'eye-closed': phosphor_EyeClosed,
+    'eyedropper': phosphor_Eyedropper,
+    'eyedropper-sample': phosphor_EyedropperSample,
+    'eyeglasses': phosphor_Eyeglasses,
+    'eye-slash': phosphor_EyeSlash,
+    'facebook-logo': phosphor_FacebookLogo,
+    'face-mask': phosphor_FaceMask,
+    'factory': phosphor_Factory,
+    'faders': phosphor_Faders,
+    'faders-horizontal': phosphor_FadersHorizontal,
+    'fan': phosphor_Fan,
+    'fast-forward': phosphor_FastForward,
+    'fast-forward-circle': phosphor_FastForwardCircle,
+    'feather': phosphor_Feather,
+    'figma-logo': phosphor_FigmaLogo,
+    'file': phosphor_File,
+    'file-archive': phosphor_FileArchive,
+    'file-arrow-down': phosphor_FileArrowDown,
+    'file-arrow-up': phosphor_FileArrowUp,
+    'file-audio': phosphor_FileAudio,
+    'file-cloud': phosphor_FileCloud,
+    'file-code': phosphor_FileCode,
+    'file-css': phosphor_FileCss,
+    'file-csv': phosphor_FileCsv,
+    'file-dashed': phosphor_FileDashed,
+    'file-doc': phosphor_FileDoc,
+    'file-html': phosphor_FileHtml,
+    'file-image': phosphor_FileImage,
+    'file-jpg': phosphor_FileJpg,
+    'file-js': phosphor_FileJs,
+    'file-jsx': phosphor_FileJsx,
+    'file-lock': phosphor_FileLock,
+    'file-minus': phosphor_FileMinus,
+    'file-pdf': phosphor_FilePdf,
+    'file-plus': phosphor_FilePlus,
+    'file-png': phosphor_FilePng,
+    'file-ppt': phosphor_FilePpt,
+    'file-rs': phosphor_FileRs,
+    'files': phosphor_Files,
+    'file-search': phosphor_FileSearch,
+    'file-sql': phosphor_FileSql,
+    'file-svg': phosphor_FileSvg,
+    'file-text': phosphor_FileText,
+    'file-ts': phosphor_FileTs,
+    'file-tsx': phosphor_FileTsx,
+    'file-video': phosphor_FileVideo,
+    'file-vue': phosphor_FileVue,
+    'file-x': phosphor_FileX,
+    'file-xls': phosphor_FileXls,
+    'file-zip': phosphor_FileZip,
+    'film-reel': phosphor_FilmReel,
+    'film-script': phosphor_FilmScript,
+    'film-slate': phosphor_FilmSlate,
+    'film-strip': phosphor_FilmStrip,
+    'fingerprint': phosphor_Fingerprint,
+    'fingerprint-simple': phosphor_FingerprintSimple,
+    'finn-the-human': phosphor_FinnTheHuman,
+    'fire': phosphor_Fire,
+    'fire-extinguisher': phosphor_FireExtinguisher,
+    'fire-simple': phosphor_FireSimple,
+    'first-aid': phosphor_FirstAid,
+    'first-aid-kit': phosphor_FirstAidKit,
+    'fish': phosphor_Fish,
+    'fish-simple': phosphor_FishSimple,
+    'flag': phosphor_Flag,
+    'flag-banner': phosphor_FlagBanner,
+    'flag-checkered': phosphor_FlagCheckered,
+    'flag-pennant': phosphor_FlagPennant,
+    'flame': phosphor_Flame,
+    'flashlight': phosphor_Flashlight,
+    'flask': phosphor_Flask,
+    'floppy-disk': phosphor_FloppyDisk,
+    'floppy-disk-back': phosphor_FloppyDiskBack,
+    'flow-arrow': phosphor_FlowArrow,
+    'flower': phosphor_Flower,
+    'flower-lotus': phosphor_FlowerLotus,
+    'flower-tulip': phosphor_FlowerTulip,
+    'flying-saucer': phosphor_FlyingSaucer,
+    'folder': phosphor_Folder,
+    'folder-dashed': phosphor_FolderDashed,
+    'folder-lock': phosphor_FolderLock,
+    'folder-minus': phosphor_FolderMinus,
+    'folder-notch': phosphor_FolderNotch,
+    'folder-notch-minus': phosphor_FolderNotchMinus,
+    'folder-notch-open': phosphor_FolderNotchOpen,
+    'folder-notch-plus': phosphor_FolderNotchPlus,
+    'folder-open': phosphor_FolderOpen,
+    'folder-plus': phosphor_FolderPlus,
+    'folders': phosphor_Folders,
+    'folder-simple': phosphor_FolderSimple,
+    'folder-simple-dashed': phosphor_FolderSimpleDashed,
+    'folder-simple-lock': phosphor_FolderSimpleLock,
+    'folder-simple-minus': phosphor_FolderSimpleMinus,
+    'folder-simple-plus': phosphor_FolderSimplePlus,
+    'folder-simple-star': phosphor_FolderSimpleStar,
+    'folder-simple-user': phosphor_FolderSimpleUser,
+    'folder-star': phosphor_FolderStar,
+    'folder-user': phosphor_FolderUser,
+    'football': phosphor_Football,
+    'footprints': phosphor_Footprints,
+    'fork-knife': phosphor_ForkKnife,
+    'frame-corners': phosphor_FrameCorners,
+    'framer-logo': phosphor_FramerLogo,
+    'function': phosphor_Function,
+    'funnel': phosphor_Funnel,
+    'funnel-simple': phosphor_FunnelSimple,
+    'game-controller': phosphor_GameController,
+    'garage': phosphor_Garage,
+    'gas-can': phosphor_GasCan,
+    'gas-pump': phosphor_GasPump,
+    'gauge': phosphor_Gauge,
+    'gavel': phosphor_Gavel,
+    'gear': phosphor_Gear,
+    'gear-fine': phosphor_GearFine,
+    'gear-six': phosphor_GearSix,
+    'gender-female': phosphor_GenderFemale,
+    'gender-intersex': phosphor_GenderIntersex,
+    'gender-male': phosphor_GenderMale,
+    'gender-neuter': phosphor_GenderNeuter,
+    'gender-nonbinary': phosphor_GenderNonbinary,
+    'gender-transgender': phosphor_GenderTransgender,
+    'ghost': phosphor_Ghost,
+    'gif': phosphor_Gif,
+    'gift': phosphor_Gift,
+    'git-branch': phosphor_GitBranch,
+    'git-commit': phosphor_GitCommit,
+    'git-diff': phosphor_GitDiff,
+    'git-fork': phosphor_GitFork,
+    'github-logo': phosphor_GithubLogo,
+    'gitlab-logo': phosphor_GitlabLogo,
+    'gitlab-logo-simple': phosphor_GitlabLogoSimple,
+    'git-merge': phosphor_GitMerge,
+    'git-pull-request': phosphor_GitPullRequest,
+    'globe': phosphor_Globe,
+    'globe-hemisphere-east': phosphor_GlobeHemisphereEast,
+    'globe-hemisphere-west': phosphor_GlobeHemisphereWest,
+    'globe-simple': phosphor_GlobeSimple,
+    'globe-stand': phosphor_GlobeStand,
+    'goggles': phosphor_Goggles,
+    'goodreads-logo': phosphor_GoodreadsLogo,
+    'google-cardboard-logo': phosphor_GoogleCardboardLogo,
+    'google-chrome-logo': phosphor_GoogleChromeLogo,
+    'google-drive-logo': phosphor_GoogleDriveLogo,
+    'google-logo': phosphor_GoogleLogo,
+    'google-photos-logo': phosphor_GooglePhotosLogo,
+    'google-play-logo': phosphor_GooglePlayLogo,
+    'google-podcasts-logo': phosphor_GooglePodcastsLogo,
+    'gradient': phosphor_Gradient,
+    'graduation-cap': phosphor_GraduationCap,
+    'grains': phosphor_Grains,
+    'grains-slash': phosphor_GrainsSlash,
+    'graph': phosphor_Graph,
+    'grid-four': phosphor_GridFour,
+    'grid-nine': phosphor_GridNine,
+    'guitar': phosphor_Guitar,
+    'hamburger': phosphor_Hamburger,
+    'hammer': phosphor_Hammer,
+    'hand': phosphor_Hand,
+    'handbag': phosphor_Handbag,
+    'handbag-simple': phosphor_HandbagSimple,
+    'hand-coins': phosphor_HandCoins,
+    'hand-eye': phosphor_HandEye,
+    'hand-fist': phosphor_HandFist,
+    'hand-grabbing': phosphor_HandGrabbing,
+    'hand-heart': phosphor_HandHeart,
+    'hand-palm': phosphor_HandPalm,
+    'hand-pointing': phosphor_HandPointing,
+    'hands-clapping': phosphor_HandsClapping,
+    'handshake': phosphor_Handshake,
+    'hand-soap': phosphor_HandSoap,
+    'hands-praying': phosphor_HandsPraying,
+    'hand-swipe-left': phosphor_HandSwipeLeft,
+    'hand-swipe-right': phosphor_HandSwipeRight,
+    'hand-tap': phosphor_HandTap,
+    'hand-waving': phosphor_HandWaving,
+    'hard-drive': phosphor_HardDrive,
+    'hard-drives': phosphor_HardDrives,
+    'hash': phosphor_Hash,
+    'hash-straight': phosphor_HashStraight,
+    'headlights': phosphor_Headlights,
+    'headphones': phosphor_Headphones,
+    'headset': phosphor_Headset,
+    'heart': phosphor_Heart,
+    'heartbeat': phosphor_Heartbeat,
+    'heart-break': phosphor_HeartBreak,
+    'heart-half': phosphor_HeartHalf,
+    'heart-straight': phosphor_HeartStraight,
+    'heart-straight-break': phosphor_HeartStraightBreak,
+    'hexagon': phosphor_Hexagon,
+    'high-heel': phosphor_HighHeel,
+    'highlighter-circle': phosphor_HighlighterCircle,
+    'hoodie': phosphor_Hoodie,
+    'horse': phosphor_Horse,
+    'hourglass': phosphor_Hourglass,
+    'hourglass-high': phosphor_HourglassHigh,
+    'hourglass-low': phosphor_HourglassLow,
+    'hourglass-medium': phosphor_HourglassMedium,
+    'hourglass-simple': phosphor_HourglassSimple,
+    'hourglass-simple-high': phosphor_HourglassSimpleHigh,
+    'hourglass-simple-low': phosphor_HourglassSimpleLow,
+    'hourglass-simple-medium': phosphor_HourglassSimpleMedium,
+    'house': phosphor_House,
+    'house-line': phosphor_HouseLine,
+    'house-simple': phosphor_HouseSimple,
+    'ice-cream': phosphor_IceCream,
+    'identification-badge': phosphor_IdentificationBadge,
+    'identification-card': phosphor_IdentificationCard,
+    'image': phosphor_Image,
+    'images': phosphor_Images,
+    'image-square': phosphor_ImageSquare,
+    'images-square': phosphor_ImagesSquare,
+    'infinity': phosphor_Infinity,
+    'info': phosphor_Info,
+    'instagram-logo': phosphor_InstagramLogo,
+    'intersect': phosphor_Intersect,
+    'intersect-square': phosphor_IntersectSquare,
+    'intersect-three': phosphor_IntersectThree,
+    'jeep': phosphor_Jeep,
+    'kanban': phosphor_Kanban,
+    'key': phosphor_Key,
+    'keyboard': phosphor_Keyboard,
+    'keyhole': phosphor_Keyhole,
+    'key-return': phosphor_KeyReturn,
+    'knife': phosphor_Knife,
+    'ladder': phosphor_Ladder,
+    'ladder-simple': phosphor_LadderSimple,
+    'lamp': phosphor_Lamp,
+    'laptop': phosphor_Laptop,
+    'layout': phosphor_Layout,
+    'leaf': phosphor_Leaf,
+    'lifebuoy': phosphor_Lifebuoy,
+    'lightbulb': phosphor_Lightbulb,
+    'lightbulb-filament': phosphor_LightbulbFilament,
+    'lighthouse': phosphor_Lighthouse,
+    'lightning': phosphor_Lightning,
+    'lightning-a': phosphor_LightningA,
+    'lightning-slash': phosphor_LightningSlash,
+    'line-segment': phosphor_LineSegment,
+    'line-segments': phosphor_LineSegments,
+    'link': phosphor_Link,
+    'link-break': phosphor_LinkBreak,
+    'linkedin-logo': phosphor_LinkedinLogo,
+    'link-simple': phosphor_LinkSimple,
+    'link-simple-break': phosphor_LinkSimpleBreak,
+    'link-simple-horizontal': phosphor_LinkSimpleHorizontal,
+    'link-simple-horizontal-break': phosphor_LinkSimpleHorizontalBreak,
+    'linux-logo': phosphor_LinuxLogo,
+    'list': phosphor_List,
+    'list-bullets': phosphor_ListBullets,
+    'list-checks': phosphor_ListChecks,
+    'list-dashes': phosphor_ListDashes,
+    'list-magnifying-glass': phosphor_ListMagnifyingGlass,
+    'list-numbers': phosphor_ListNumbers,
+    'list-plus': phosphor_ListPlus,
+    'lock': phosphor_Lock,
+    'lockers': phosphor_Lockers,
+    'lock-key': phosphor_LockKey,
+    'lock-key-open': phosphor_LockKeyOpen,
+    'lock-laminated': phosphor_LockLaminated,
+    'lock-laminated-open': phosphor_LockLaminatedOpen,
+    'lock-open': phosphor_LockOpen,
+    'lock-simple': phosphor_LockSimple,
+    'lock-simple-open': phosphor_LockSimpleOpen,
+    'magic-wand': phosphor_MagicWand,
+    'magnet': phosphor_Magnet,
+    'magnet-straight': phosphor_MagnetStraight,
+    'magnifying-glass': phosphor_MagnifyingGlass,
+    'magnifying-glass-minus': phosphor_MagnifyingGlassMinus,
+    'magnifying-glass-plus': phosphor_MagnifyingGlassPlus,
+    'map-pin': phosphor_MapPin,
+    'map-pin-line': phosphor_MapPinLine,
+    'map-trifold': phosphor_MapTrifold,
+    'marker-circle': phosphor_MarkerCircle,
+    'martini': phosphor_Martini,
+    'mask-happy': phosphor_MaskHappy,
+    'mask-sad': phosphor_MaskSad,
+    'math-operations': phosphor_MathOperations,
+    'medal': phosphor_Medal,
+    'medal-military': phosphor_MedalMilitary,
+    'medium-logo': phosphor_MediumLogo,
+    'megaphone': phosphor_Megaphone,
+    'megaphone-simple': phosphor_MegaphoneSimple,
+    'messenger-logo': phosphor_MessengerLogo,
+    'meta-logo': phosphor_MetaLogo,
+    'metronome': phosphor_Metronome,
+    'microphone': phosphor_Microphone,
+    'microphone-slash': phosphor_MicrophoneSlash,
+    'microphone-stage': phosphor_MicrophoneStage,
+    'microsoft-excel-logo': phosphor_MicrosoftExcelLogo,
+    'microsoft-outlook-logo': phosphor_MicrosoftOutlookLogo,
+    'microsoft-powerpoint-logo': phosphor_MicrosoftPowerpointLogo,
+    'microsoft-teams-logo': phosphor_MicrosoftTeamsLogo,
+    'microsoft-word-logo': phosphor_MicrosoftWordLogo,
+    'minus': phosphor_Minus,
+    'minus-circle': phosphor_MinusCircle,
+    'minus-square': phosphor_MinusSquare,
+    'money': phosphor_Money,
+    'monitor': phosphor_Monitor,
+    'monitor-play': phosphor_MonitorPlay,
+    'moon': phosphor_Moon,
+    'moon-stars': phosphor_MoonStars,
+    'moped': phosphor_Moped,
+    'moped-front': phosphor_MopedFront,
+    'mosque': phosphor_Mosque,
+    'motorcycle': phosphor_Motorcycle,
+    'mountains': phosphor_Mountains,
+    'mouse': phosphor_Mouse,
+    'mouse-simple': phosphor_MouseSimple,
+    'music-note': phosphor_MusicNote,
+    'music-notes': phosphor_MusicNotes,
+    'music-note-simple': phosphor_MusicNoteSimple,
+    'music-notes-plus': phosphor_MusicNotesPlus,
+    'music-notes-simple': phosphor_MusicNotesSimple,
+    'navigation-arrow': phosphor_NavigationArrow,
+    'needle': phosphor_Needle,
+    'newspaper': phosphor_Newspaper,
+    'newspaper-clipping': phosphor_NewspaperClipping,
+    'notches': phosphor_Notches,
+    'note': phosphor_Note,
+    'note-blank': phosphor_NoteBlank,
+    'notebook': phosphor_Notebook,
+    'notepad': phosphor_Notepad,
+    'note-pencil': phosphor_NotePencil,
+    'notification': phosphor_Notification,
+    'notion-logo': phosphor_NotionLogo,
+    'number-circle-eight': phosphor_NumberCircleEight,
+    'number-circle-five': phosphor_NumberCircleFive,
+    'number-circle-four': phosphor_NumberCircleFour,
+    'number-circle-nine': phosphor_NumberCircleNine,
+    'number-circle-one': phosphor_NumberCircleOne,
+    'number-circle-seven': phosphor_NumberCircleSeven,
+    'number-circle-six': phosphor_NumberCircleSix,
+    'number-circle-three': phosphor_NumberCircleThree,
+    'number-circle-two': phosphor_NumberCircleTwo,
+    'number-circle-zero': phosphor_NumberCircleZero,
+    'number-eight': phosphor_NumberEight,
+    'number-five': phosphor_NumberFive,
+    'number-four': phosphor_NumberFour,
+    'number-nine': phosphor_NumberNine,
+    'number-one': phosphor_NumberOne,
+    'number-seven': phosphor_NumberSeven,
+    'number-six': phosphor_NumberSix,
+    'number-square-eight': phosphor_NumberSquareEight,
+    'number-square-five': phosphor_NumberSquareFive,
+    'number-square-four': phosphor_NumberSquareFour,
+    'number-square-nine': phosphor_NumberSquareNine,
+    'number-square-one': phosphor_NumberSquareOne,
+    'number-square-seven': phosphor_NumberSquareSeven,
+    'number-square-six': phosphor_NumberSquareSix,
+    'number-square-three': phosphor_NumberSquareThree,
+    'number-square-two': phosphor_NumberSquareTwo,
+    'number-square-zero': phosphor_NumberSquareZero,
+    'number-three': phosphor_NumberThree,
+    'number-two': phosphor_NumberTwo,
+    'number-zero': phosphor_NumberZero,
+    'nut': phosphor_Nut,
+    'ny-times-logo': phosphor_NyTimesLogo,
+    'octagon': phosphor_Octagon,
+    'office-chair': phosphor_OfficeChair,
+    'option': phosphor_Option,
+    'orange-slice': phosphor_OrangeSlice,
+    'package': phosphor_Package,
+    'paint-brush': phosphor_PaintBrush,
+    'paint-brush-broad': phosphor_PaintBrushBroad,
+    'paint-brush-household': phosphor_PaintBrushHousehold,
+    'paint-bucket': phosphor_PaintBucket,
+    'paint-roller': phosphor_PaintRoller,
+    'palette': phosphor_Palette,
+    'pants': phosphor_Pants,
+    'paperclip': phosphor_Paperclip,
+    'paperclip-horizontal': phosphor_PaperclipHorizontal,
+    'paper-plane': phosphor_PaperPlane,
+    'paper-plane-right': phosphor_PaperPlaneRight,
+    'paper-plane-tilt': phosphor_PaperPlaneTilt,
+    'parachute': phosphor_Parachute,
+    'paragraph': phosphor_Paragraph,
+    'parallelogram': phosphor_Parallelogram,
+    'park': phosphor_Park,
+    'password': phosphor_Password,
+    'path': phosphor_Path,
+    'patreon-logo': phosphor_PatreonLogo,
+    'pause': phosphor_Pause,
+    'pause-circle': phosphor_PauseCircle,
+    'paw-print': phosphor_PawPrint,
+    'paypal-logo': phosphor_PaypalLogo,
+    'peace': phosphor_Peace,
+    'pen': phosphor_Pen,
+    'pencil': phosphor_Pencil,
+    'pencil-circle': phosphor_PencilCircle,
+    'pencil-line': phosphor_PencilLine,
+    'pencil-simple': phosphor_PencilSimple,
+    'pencil-simple-line': phosphor_PencilSimpleLine,
+    'pencil-simple-slash': phosphor_PencilSimpleSlash,
+    'pencil-slash': phosphor_PencilSlash,
+    'pen-nib': phosphor_PenNib,
+    'pen-nib-straight': phosphor_PenNibStraight,
+    'pentagram': phosphor_Pentagram,
+    'pepper': phosphor_Pepper,
+    'percent': phosphor_Percent,
+    'person': phosphor_Person,
+    'person-arms-spread': phosphor_PersonArmsSpread,
+    'person-simple': phosphor_PersonSimple,
+    'person-simple-bike': phosphor_PersonSimpleBike,
+    'person-simple-run': phosphor_PersonSimpleRun,
+    'person-simple-throw': phosphor_PersonSimpleThrow,
+    'person-simple-walk': phosphor_PersonSimpleWalk,
+    'perspective': phosphor_Perspective,
+    'phone': phosphor_Phone,
+    'phone-call': phosphor_PhoneCall,
+    'phone-disconnect': phosphor_PhoneDisconnect,
+    'phone-incoming': phosphor_PhoneIncoming,
+    'phone-outgoing': phosphor_PhoneOutgoing,
+    'phone-plus': phosphor_PhonePlus,
+    'phone-slash': phosphor_PhoneSlash,
+    'phone-x': phosphor_PhoneX,
+    'phosphor-logo': phosphor_PhosphorLogo,
+    'pi': phosphor_Pi,
+    'piano-keys': phosphor_PianoKeys,
+    'picture-in-picture': phosphor_PictureInPicture,
+    'piggy-bank': phosphor_PiggyBank,
+    'pill': phosphor_Pill,
+    'pinterest-logo': phosphor_PinterestLogo,
+    'pinwheel': phosphor_Pinwheel,
+    'pizza': phosphor_Pizza,
+    'placeholder': phosphor_Placeholder,
+    'planet': phosphor_Planet,
+    'plant': phosphor_Plant,
+    'play': phosphor_Play,
+    'play-circle': phosphor_PlayCircle,
+    'playlist': phosphor_Playlist,
+    'play-pause': phosphor_PlayPause,
+    'plug': phosphor_Plug,
+    'plug-charging': phosphor_PlugCharging,
+    'plugs': phosphor_Plugs,
+    'plugs-connected': phosphor_PlugsConnected,
+    'plus': phosphor_Plus,
+    'plus-circle': phosphor_PlusCircle,
+    'plus-minus': phosphor_PlusMinus,
+    'plus-square': phosphor_PlusSquare,
+    'poker-chip': phosphor_PokerChip,
+    'police-car': phosphor_PoliceCar,
+    'polygon': phosphor_Polygon,
+    'popcorn': phosphor_Popcorn,
+    'potted-plant': phosphor_PottedPlant,
+    'power': phosphor_Power,
+    'prescription': phosphor_Prescription,
+    'presentation': phosphor_Presentation,
+    'presentation-chart': phosphor_PresentationChart,
+    'printer': phosphor_Printer,
+    'prohibit': phosphor_Prohibit,
+    'prohibit-inset': phosphor_ProhibitInset,
+    'projector-screen': phosphor_ProjectorScreen,
+    'projector-screen-chart': phosphor_ProjectorScreenChart,
+    'pulse': phosphor_Pulse,
+    'push-pin': phosphor_PushPin,
+    'push-pin-simple': phosphor_PushPinSimple,
+    'push-pin-simple-slash': phosphor_PushPinSimpleSlash,
+    'push-pin-slash': phosphor_PushPinSlash,
+    'puzzle-piece': phosphor_PuzzlePiece,
+    'qr-code': phosphor_QrCode,
+    'question': phosphor_Question,
+    'queue': phosphor_Queue,
+    'quotes': phosphor_Quotes,
+    'radical': phosphor_Radical,
+    'radio': phosphor_Radio,
+    'radioactive': phosphor_Radioactive,
+    'radio-button': phosphor_RadioButton,
+    'rainbow': phosphor_Rainbow,
+    'rainbow-cloud': phosphor_RainbowCloud,
+    'read-cv-logo': phosphor_ReadCvLogo,
+    'receipt': phosphor_Receipt,
+    'receipt-x': phosphor_ReceiptX,
+    'record': phosphor_Record,
+    'rectangle': phosphor_Rectangle,
+    'recycle': phosphor_Recycle,
+    'reddit-logo': phosphor_RedditLogo,
+    'repeat': phosphor_Repeat,
+    'repeat-once': phosphor_RepeatOnce,
+    'rewind': phosphor_Rewind,
+    'rewind-circle': phosphor_RewindCircle,
+    'road-horizon': phosphor_RoadHorizon,
+    'robot': phosphor_Robot,
+    'rocket': phosphor_Rocket,
+    'rocket-launch': phosphor_RocketLaunch,
+    'rows': phosphor_Rows,
+    'rss': phosphor_Rss,
+    'rss-simple': phosphor_RssSimple,
+    'rug': phosphor_Rug,
+    'ruler': phosphor_Ruler,
+    'scales': phosphor_Scales,
+    'scan': phosphor_Scan,
+    'scissors': phosphor_Scissors,
+    'scooter': phosphor_Scooter,
+    'screencast': phosphor_Screencast,
+    'scribble-loop': phosphor_ScribbleLoop,
+    'scroll': phosphor_Scroll,
+    'seal': phosphor_Seal,
+    'seal-check': phosphor_SealCheck,
+    'seal-question': phosphor_SealQuestion,
+    'seal-warning': phosphor_SealWarning,
+    'selection': phosphor_Selection,
+    'selection-all': phosphor_SelectionAll,
+    'selection-background': phosphor_SelectionBackground,
+    'selection-foreground': phosphor_SelectionForeground,
+    'selection-inverse': phosphor_SelectionInverse,
+    'selection-plus': phosphor_SelectionPlus,
+    'selection-slash': phosphor_SelectionSlash,
+    'shapes': phosphor_Shapes,
+    'share': phosphor_Share,
+    'share-fat': phosphor_ShareFat,
+    'share-network': phosphor_ShareNetwork,
+    'shield': phosphor_Shield,
+    'shield-check': phosphor_ShieldCheck,
+    'shield-checkered': phosphor_ShieldCheckered,
+    'shield-chevron': phosphor_ShieldChevron,
+    'shield-plus': phosphor_ShieldPlus,
+    'shield-slash': phosphor_ShieldSlash,
+    'shield-star': phosphor_ShieldStar,
+    'shield-warning': phosphor_ShieldWarning,
+    'shirt-folded': phosphor_ShirtFolded,
+    'shooting-star': phosphor_ShootingStar,
+    'shopping-bag': phosphor_ShoppingBag,
+    'shopping-bag-open': phosphor_ShoppingBagOpen,
+    'shopping-cart': phosphor_ShoppingCart,
+    'shopping-cart-simple': phosphor_ShoppingCartSimple,
+    'shower': phosphor_Shower,
+    'shrimp': phosphor_Shrimp,
+    'shuffle': phosphor_Shuffle,
+    'shuffle-angular': phosphor_ShuffleAngular,
+    'shuffle-simple': phosphor_ShuffleSimple,
+    'sidebar': phosphor_Sidebar,
+    'sidebar-simple': phosphor_SidebarSimple,
+    'sigma': phosphor_Sigma,
+    'signature': phosphor_Signature,
+    'sign-in': phosphor_SignIn,
+    'sign-out': phosphor_SignOut,
+    'signpost': phosphor_Signpost,
+    'sim-card': phosphor_SimCard,
+    'siren': phosphor_Siren,
+    'sketch-logo': phosphor_SketchLogo,
+    'skip-back': phosphor_SkipBack,
+    'skip-back-circle': phosphor_SkipBackCircle,
+    'skip-forward': phosphor_SkipForward,
+    'skip-forward-circle': phosphor_SkipForwardCircle,
+    'skull': phosphor_Skull,
+    'slack-logo': phosphor_SlackLogo,
+    'sliders': phosphor_Sliders,
+    'sliders-horizontal': phosphor_SlidersHorizontal,
+    'slideshow': phosphor_Slideshow,
+    'smiley': phosphor_Smiley,
+    'smiley-angry': phosphor_SmileyAngry,
+    'smiley-blank': phosphor_SmileyBlank,
+    'smiley-meh': phosphor_SmileyMeh,
+    'smiley-nervous': phosphor_SmileyNervous,
+    'smiley-sad': phosphor_SmileySad,
+    'smiley-sticker': phosphor_SmileySticker,
+    'smiley-wink': phosphor_SmileyWink,
+    'smiley-x-eyes': phosphor_SmileyXEyes,
+    'snapchat-logo': phosphor_SnapchatLogo,
+    'sneaker': phosphor_Sneaker,
+    'sneaker-move': phosphor_SneakerMove,
+    'snowflake': phosphor_Snowflake,
+    'soccer-ball': phosphor_SoccerBall,
+    'sort-ascending': phosphor_SortAscending,
+    'sort-descending': phosphor_SortDescending,
+    'soundcloud-logo': phosphor_SoundcloudLogo,
+    'spade': phosphor_Spade,
+    'sparkle': phosphor_Sparkle,
+    'speaker-hifi': phosphor_SpeakerHifi,
+    'speaker-high': phosphor_SpeakerHigh,
+    'speaker-low': phosphor_SpeakerLow,
+    'speaker-none': phosphor_SpeakerNone,
+    'speaker-simple-high': phosphor_SpeakerSimpleHigh,
+    'speaker-simple-low': phosphor_SpeakerSimpleLow,
+    'speaker-simple-none': phosphor_SpeakerSimpleNone,
+    'speaker-simple-slash': phosphor_SpeakerSimpleSlash,
+    'speaker-simple-x': phosphor_SpeakerSimpleX,
+    'speaker-slash': phosphor_SpeakerSlash,
+    'speaker-x': phosphor_SpeakerX,
+    'spinner': phosphor_Spinner,
+    'spinner-gap': phosphor_SpinnerGap,
+    'spiral': phosphor_Spiral,
+    'split-horizontal': phosphor_SplitHorizontal,
+    'split-vertical': phosphor_SplitVertical,
+    'spotify-logo': phosphor_SpotifyLogo,
+    'square': phosphor_Square,
+    'square-half': phosphor_SquareHalf,
+    'square-half-bottom': phosphor_SquareHalfBottom,
+    'square-logo': phosphor_SquareLogo,
+    'squares-four': phosphor_SquaresFour,
+    'square-split-horizontal': phosphor_SquareSplitHorizontal,
+    'square-split-vertical': phosphor_SquareSplitVertical,
+    'stack': phosphor_Stack,
+    'stack-overflow-logo': phosphor_StackOverflowLogo,
+    'stack-simple': phosphor_StackSimple,
+    'stairs': phosphor_Stairs,
+    'stamp': phosphor_Stamp,
+    'star': phosphor_Star,
+    'star-and-crescent': phosphor_StarAndCrescent,
+    'star-four': phosphor_StarFour,
+    'star-half': phosphor_StarHalf,
+    'star-of-david': phosphor_StarOfDavid,
+    'steering-wheel': phosphor_SteeringWheel,
+    'steps': phosphor_Steps,
+    'stethoscope': phosphor_Stethoscope,
+    'sticker': phosphor_Sticker,
+    'stool': phosphor_Stool,
+    'stop': phosphor_Stop,
+    'stop-circle': phosphor_StopCircle,
+    'storefront': phosphor_Storefront,
+    'strategy': phosphor_Strategy,
+    'stripe-logo': phosphor_StripeLogo,
+    'student': phosphor_Student,
+    'subtitles': phosphor_Subtitles,
+    'subtract': phosphor_Subtract,
+    'subtract-square': phosphor_SubtractSquare,
+    'suitcase': phosphor_Suitcase,
+    'suitcase-rolling': phosphor_SuitcaseRolling,
+    'suitcase-simple': phosphor_SuitcaseSimple,
+    'sun': phosphor_Sun,
+    'sun-dim': phosphor_SunDim,
+    'sunglasses': phosphor_Sunglasses,
+    'sun-horizon': phosphor_SunHorizon,
+    'swap': phosphor_Swap,
+    'swatches': phosphor_Swatches,
+    'swimming-pool': phosphor_SwimmingPool,
+    'sword': phosphor_Sword,
+    'synagogue': phosphor_Synagogue,
+    'syringe': phosphor_Syringe,
+    'table': phosphor_Table,
+    'tabs': phosphor_Tabs,
+    'tag': phosphor_Tag,
+    'tag-chevron': phosphor_TagChevron,
+    'tag-simple': phosphor_TagSimple,
+    'target': phosphor_Target,
+    'taxi': phosphor_Taxi,
+    'telegram-logo': phosphor_TelegramLogo,
+    'television': phosphor_Television,
+    'television-simple': phosphor_TelevisionSimple,
+    'tennis-ball': phosphor_TennisBall,
+    'tent': phosphor_Tent,
+    'terminal': phosphor_Terminal,
+    'terminal-window': phosphor_TerminalWindow,
+    'test-tube': phosphor_TestTube,
+    'text-aa': phosphor_TextAa,
+    'text-align-center': phosphor_TextAlignCenter,
+    'text-align-justify': phosphor_TextAlignJustify,
+    'text-align-left': phosphor_TextAlignLeft,
+    'text-align-right': phosphor_TextAlignRight,
+    'text-a-underline': phosphor_TextAUnderline,
+    'text-b': phosphor_TextB,
+    'textbox': phosphor_Textbox,
+    'text-columns': phosphor_TextColumns,
+    'text-h': phosphor_TextH,
+    'text-h-five': phosphor_TextHFive,
+    'text-h-four': phosphor_TextHFour,
+    'text-h-one': phosphor_TextHOne,
+    'text-h-six': phosphor_TextHSix,
+    'text-h-three': phosphor_TextHThree,
+    'text-h-two': phosphor_TextHTwo,
+    'text-indent': phosphor_TextIndent,
+    'text-italic': phosphor_TextItalic,
+    'text-outdent': phosphor_TextOutdent,
+    'text-strikethrough': phosphor_TextStrikethrough,
+    'text-t': phosphor_TextT,
+    'text-underline': phosphor_TextUnderline,
+    'thermometer': phosphor_Thermometer,
+    'thermometer-cold': phosphor_ThermometerCold,
+    'thermometer-hot': phosphor_ThermometerHot,
+    'thermometer-simple': phosphor_ThermometerSimple,
+    'thumbs-down': phosphor_ThumbsDown,
+    'thumbs-up': phosphor_ThumbsUp,
+    'ticket': phosphor_Ticket,
+    'tidal-logo': phosphor_TidalLogo,
+    'tiktok-logo': phosphor_TiktokLogo,
+    'timer': phosphor_Timer,
+    'tipi': phosphor_Tipi,
+    'toggle-left': phosphor_ToggleLeft,
+    'toggle-right': phosphor_ToggleRight,
+    'toilet': phosphor_Toilet,
+    'toilet-paper': phosphor_ToiletPaper,
+    'toolbox': phosphor_Toolbox,
+    'tooth': phosphor_Tooth,
+    'tote': phosphor_Tote,
+    'tote-simple': phosphor_ToteSimple,
+    'trademark': phosphor_Trademark,
+    'trademark-registered': phosphor_TrademarkRegistered,
+    'traffic-cone': phosphor_TrafficCone,
+    'traffic-sign': phosphor_TrafficSign,
+    'traffic-signal': phosphor_TrafficSignal,
+    'train': phosphor_Train,
+    'train-regional': phosphor_TrainRegional,
+    'train-simple': phosphor_TrainSimple,
+    'tram': phosphor_Tram,
+    'translate': phosphor_Translate,
+    'trash': phosphor_Trash,
+    'trash-simple': phosphor_TrashSimple,
+    'tray': phosphor_Tray,
+    'tree': phosphor_Tree,
+    'tree-evergreen': phosphor_TreeEvergreen,
+    'tree-palm': phosphor_TreePalm,
+    'tree-structure': phosphor_TreeStructure,
+    'trend-down': phosphor_TrendDown,
+    'trend-up': phosphor_TrendUp,
+    'triangle': phosphor_Triangle,
+    'trophy': phosphor_Trophy,
+    'truck': phosphor_Truck,
+    't-shirt': phosphor_TShirt,
+    'twitch-logo': phosphor_TwitchLogo,
+    'twitter-logo': phosphor_TwitterLogo,
+    'umbrella': phosphor_Umbrella,
+    'umbrella-simple': phosphor_UmbrellaSimple,
+    'unite': phosphor_Unite,
+    'unite-square': phosphor_UniteSquare,
+    'upload': phosphor_Upload,
+    'upload-simple': phosphor_UploadSimple,
+    'usb': phosphor_Usb,
+    'user': phosphor_User,
+    'user-circle': phosphor_UserCircle,
+    'user-circle-gear': phosphor_UserCircleGear,
+    'user-circle-minus': phosphor_UserCircleMinus,
+    'user-circle-plus': phosphor_UserCirclePlus,
+    'user-focus': phosphor_UserFocus,
+    'user-gear': phosphor_UserGear,
+    'user-list': phosphor_UserList,
+    'user-minus': phosphor_UserMinus,
+    'user-plus': phosphor_UserPlus,
+    'user-rectangle': phosphor_UserRectangle,
+    'users': phosphor_Users,
+    'users-four': phosphor_UsersFour,
+    'user-square': phosphor_UserSquare,
+    'users-three': phosphor_UsersThree,
+    'user-switch': phosphor_UserSwitch,
+    'van': phosphor_Van,
+    'vault': phosphor_Vault,
+    'vibrate': phosphor_Vibrate,
+    'video': phosphor_Video,
+    'video-camera': phosphor_VideoCamera,
+    'video-camera-slash': phosphor_VideoCameraSlash,
+    'vignette': phosphor_Vignette,
+    'vinyl-record': phosphor_VinylRecord,
+    'virtual-reality': phosphor_VirtualReality,
+    'virus': phosphor_Virus,
+    'voicemail': phosphor_Voicemail,
+    'volleyball': phosphor_Volleyball,
+    'wall': phosphor_Wall,
+    'wallet': phosphor_Wallet,
+    'warehouse': phosphor_Warehouse,
+    'warning': phosphor_Warning,
+    'warning-circle': phosphor_WarningCircle,
+    'warning-diamond': phosphor_WarningDiamond,
+    'warning-octagon': phosphor_WarningOctagon,
+    'watch': phosphor_Watch,
+    'waveform': phosphor_Waveform,
+    'waves': phosphor_Waves,
+    'wave-sawtooth': phosphor_WaveSawtooth,
+    'wave-sine': phosphor_WaveSine,
+    'wave-square': phosphor_WaveSquare,
+    'wave-triangle': phosphor_WaveTriangle,
+    'webcam': phosphor_Webcam,
+    'webcam-slash': phosphor_WebcamSlash,
+    'webhooks-logo': phosphor_WebhooksLogo,
+    'wechat-logo': phosphor_WechatLogo,
+    'whatsapp-logo': phosphor_WhatsappLogo,
+    'wheelchair': phosphor_Wheelchair,
+    'wheelchair-motion': phosphor_WheelchairMotion,
+    'wifi-high': phosphor_WifiHigh,
+    'wifi-low': phosphor_WifiLow,
+    'wifi-medium': phosphor_WifiMedium,
+    'wifi-none': phosphor_WifiNone,
+    'wifi-slash': phosphor_WifiSlash,
+    'wifi-x': phosphor_WifiX,
+    'wind': phosphor_Wind,
+    'windows-logo': phosphor_WindowsLogo,
+    'wine': phosphor_Wine,
+    'wrench': phosphor_Wrench,
+    'x': phosphor_X,
+    'x-circle': phosphor_XCircle,
+    'x-square': phosphor_XSquare,
+    'yin-yang': phosphor_YinYang,
+    'youtube-logo': phosphor_YoutubeLogo,
+  },
+    special: {
+    'default-icon': special_DefaultIcon,
+    'docx-icon': special_DocxIcon,
+    'form-icon': special_FormIcon,
+    'notepad': special_Notepad,
+    'onenote-icon': special_OnenoteIcon,
+    'ppt-icon': special_PptIcon,
+    'round-alt': special_RoundAlt,
+    'search-icon': special_SearchIcon,
+    'txt-icon': special_TxtIcon,
+    'xlsx-icon': special_XlsxIcon,
+  },
+  };
+  _byDef = {
+    'add': snowui_Add,
+    'address-book': phosphor_AddressBook,
+    'ai': snowui_Ai,
+    'air-traffic-control': phosphor_AirTrafficControl,
+    'airplane': phosphor_Airplane,
+    'airplane-in-flight': phosphor_AirplaneInFlight,
+    'airplane-landing': phosphor_AirplaneLanding,
+    'airplane-takeoff': phosphor_AirplaneTakeoff,
+    'airplane-tilt': phosphor_AirplaneTilt,
+    'airplay': phosphor_Airplay,
+    'alarm': phosphor_Alarm,
+    'alien': phosphor_Alien,
+    'align-bottom': phosphor_AlignBottom,
+    'align-bottom-simple': phosphor_AlignBottomSimple,
+    'align-center-horizontal': phosphor_AlignCenterHorizontal,
+    'align-center-horizontal-simple': phosphor_AlignCenterHorizontalSimple,
+    'align-center-vertical': phosphor_AlignCenterVertical,
+    'align-center-vertical-simple': phosphor_AlignCenterVerticalSimple,
+    'align-left': phosphor_AlignLeft,
+    'align-left-simple': phosphor_AlignLeftSimple,
+    'align-right': phosphor_AlignRight,
+    'align-right-simple': phosphor_AlignRightSimple,
+    'align-top': phosphor_AlignTop,
+    'align-top-simple': phosphor_AlignTopSimple,
+    'amazon-logo': phosphor_AmazonLogo,
+    'anchor': phosphor_Anchor,
+    'anchor-simple': phosphor_AnchorSimple,
+    'android-logo': phosphor_AndroidLogo,
+    'angular-logo': phosphor_AngularLogo,
+    'aperture': phosphor_Aperture,
+    'app-store-logo': phosphor_AppStoreLogo,
+    'app-window': phosphor_AppWindow,
+    'apple-logo': phosphor_AppleLogo,
+    'apple-podcasts-logo': phosphor_ApplePodcastsLogo,
+    'archive': phosphor_Archive,
+    'archive-box': phosphor_ArchiveBox,
+    'archive-tray': phosphor_ArchiveTray,
+    'armchair': phosphor_Armchair,
+    'arrow-arc-left': phosphor_ArrowArcLeft,
+    'arrow-arc-right': phosphor_ArrowArcRight,
+    'arrow-bend-double-up-left': phosphor_ArrowBendDoubleUpLeft,
+    'arrow-bend-double-up-right': phosphor_ArrowBendDoubleUpRight,
+    'arrow-bend-down-left': phosphor_ArrowBendDownLeft,
+    'arrow-bend-down-right': phosphor_ArrowBendDownRight,
+    'arrow-bend-left-down': phosphor_ArrowBendLeftDown,
+    'arrow-bend-left-up': phosphor_ArrowBendLeftUp,
+    'arrow-bend-right-down': phosphor_ArrowBendRightDown,
+    'arrow-bend-right-up': phosphor_ArrowBendRightUp,
+    'arrow-bend-up-left': phosphor_ArrowBendUpLeft,
+    'arrow-bend-up-right': phosphor_ArrowBendUpRight,
+    'arrow-circle-down': phosphor_ArrowCircleDown,
+    'arrow-circle-down-left': phosphor_ArrowCircleDownLeft,
+    'arrow-circle-down-right': phosphor_ArrowCircleDownRight,
+    'arrow-circle-left': phosphor_ArrowCircleLeft,
+    'arrow-circle-right': phosphor_ArrowCircleRight,
+    'arrow-circle-up': phosphor_ArrowCircleUp,
+    'arrow-circle-up-left': phosphor_ArrowCircleUpLeft,
+    'arrow-circle-up-right': phosphor_ArrowCircleUpRight,
+    'arrow-clockwise': phosphor_ArrowClockwise,
+    'arrow-counter-clockwise': phosphor_ArrowCounterClockwise,
+    'arrow-down': phosphor_ArrowDown,
+    'arrow-down-left': phosphor_ArrowDownLeft,
+    'arrow-down-right': phosphor_ArrowDownRight,
+    'arrow-elbow-down-left': phosphor_ArrowElbowDownLeft,
+    'arrow-elbow-down-right': phosphor_ArrowElbowDownRight,
+    'arrow-elbow-left': phosphor_ArrowElbowLeft,
+    'arrow-elbow-left-down': phosphor_ArrowElbowLeftDown,
+    'arrow-elbow-left-up': phosphor_ArrowElbowLeftUp,
+    'arrow-elbow-right': phosphor_ArrowElbowRight,
+    'arrow-elbow-right-down': phosphor_ArrowElbowRightDown,
+    'arrow-elbow-right-up': phosphor_ArrowElbowRightUp,
+    'arrow-elbow-up-left': phosphor_ArrowElbowUpLeft,
+    'arrow-elbow-up-right': phosphor_ArrowElbowUpRight,
+    'arrow-fall': snowui_ArrowFall,
+    'arrow-fat-down': phosphor_ArrowFatDown,
+    'arrow-fat-left': phosphor_ArrowFatLeft,
+    'arrow-fat-line-down': phosphor_ArrowFatLineDown,
+    'arrow-fat-line-left': phosphor_ArrowFatLineLeft,
+    'arrow-fat-line-right': phosphor_ArrowFatLineRight,
+    'arrow-fat-line-up': phosphor_ArrowFatLineUp,
+    'arrow-fat-lines-down': phosphor_ArrowFatLinesDown,
+    'arrow-fat-lines-left': phosphor_ArrowFatLinesLeft,
+    'arrow-fat-lines-right': phosphor_ArrowFatLinesRight,
+    'arrow-fat-lines-up': phosphor_ArrowFatLinesUp,
+    'arrow-fat-right': phosphor_ArrowFatRight,
+    'arrow-fat-up': phosphor_ArrowFatUp,
+    'arrow-left': phosphor_ArrowLeft,
+    'arrow-line-down': snowui_ArrowLineDown,
+    'arrow-line-down-left': phosphor_ArrowLineDownLeft,
+    'arrow-line-down-right': phosphor_ArrowLineDownRight,
+    'arrow-line-left': snowui_ArrowLineLeft,
+    'arrow-line-right': snowui_ArrowLineRight,
+    'arrow-line-up': snowui_ArrowLineUp,
+    'arrow-line-up-down': snowui_ArrowLineUpDown,
+    'arrow-line-up-left': phosphor_ArrowLineUpLeft,
+    'arrow-line-up-right': phosphor_ArrowLineUpRight,
+    'arrow-right': snowui_ArrowRight,
+    'arrow-rise': snowui_ArrowRise,
+    'arrow-square-down': phosphor_ArrowSquareDown,
+    'arrow-square-down-left': phosphor_ArrowSquareDownLeft,
+    'arrow-square-down-right': phosphor_ArrowSquareDownRight,
+    'arrow-square-in': phosphor_ArrowSquareIn,
+    'arrow-square-left': phosphor_ArrowSquareLeft,
+    'arrow-square-out': phosphor_ArrowSquareOut,
+    'arrow-square-right': phosphor_ArrowSquareRight,
+    'arrow-square-up': phosphor_ArrowSquareUp,
+    'arrow-square-up-left': phosphor_ArrowSquareUpLeft,
+    'arrow-square-up-right': phosphor_ArrowSquareUpRight,
+    'arrow-u-down-left': phosphor_ArrowUDownLeft,
+    'arrow-u-down-right': phosphor_ArrowUDownRight,
+    'arrow-u-left-down': phosphor_ArrowULeftDown,
+    'arrow-u-left-up': phosphor_ArrowULeftUp,
+    'arrow-u-right-down': phosphor_ArrowURightDown,
+    'arrow-u-right-up': phosphor_ArrowURightUp,
+    'arrow-u-up-left': phosphor_ArrowUUpLeft,
+    'arrow-u-up-right': phosphor_ArrowUUpRight,
+    'arrow-up': phosphor_ArrowUp,
+    'arrow-up-left': phosphor_ArrowUpLeft,
+    'arrow-up-right': phosphor_ArrowUpRight,
+    'arrows-clockwise': phosphor_ArrowsClockwise,
+    'arrows-counter-clockwise': phosphor_ArrowsCounterClockwise,
+    'arrows-down': snowui_ArrowsDown,
+    'arrows-down-up': snowui_ArrowsDownUp,
+    'arrows-horizontal': phosphor_ArrowsHorizontal,
+    'arrows-in': phosphor_ArrowsIn,
+    'arrows-in-cardinal': phosphor_ArrowsInCardinal,
+    'arrows-in-line-horizontal': phosphor_ArrowsInLineHorizontal,
+    'arrows-in-line-vertical': phosphor_ArrowsInLineVertical,
+    'arrows-in-simple': phosphor_ArrowsInSimple,
+    'arrows-left-right': phosphor_ArrowsLeftRight,
+    'arrows-merge': phosphor_ArrowsMerge,
+    'arrows-out': phosphor_ArrowsOut,
+    'arrows-out-cardinal': phosphor_ArrowsOutCardinal,
+    'arrows-out-line-horizontal': phosphor_ArrowsOutLineHorizontal,
+    'arrows-out-line-vertical': phosphor_ArrowsOutLineVertical,
+    'arrows-out-simple': phosphor_ArrowsOutSimple,
+    'arrows-split': phosphor_ArrowsSplit,
+    'arrows-up': snowui_ArrowsUp,
+    'arrows-vertical': phosphor_ArrowsVertical,
+    'article': phosphor_Article,
+    'article-medium': phosphor_ArticleMedium,
+    'article-ny-times': phosphor_ArticleNyTimes,
+    'asterisk': phosphor_Asterisk,
+    'asterisk-simple': phosphor_AsteriskSimple,
+    'at': phosphor_At,
+    'atom': phosphor_Atom,
+    'baby': phosphor_Baby,
+    'backpack': phosphor_Backpack,
+    'backspace': phosphor_Backspace,
+    'badge': snowui_Badge,
+    'bag': phosphor_Bag,
+    'bag-simple': phosphor_BagSimple,
+    'balloon': phosphor_Balloon,
+    'bandaids': phosphor_Bandaids,
+    'bank': phosphor_Bank,
+    'barbell': phosphor_Barbell,
+    'barcode': phosphor_Barcode,
+    'barricade': phosphor_Barricade,
+    'baseball': phosphor_Baseball,
+    'baseball-cap': phosphor_BaseballCap,
+    'basket': phosphor_Basket,
+    'basketball': phosphor_Basketball,
+    'bathtub': phosphor_Bathtub,
+    'battery-charging': phosphor_BatteryCharging,
+    'battery-charging-vertical': phosphor_BatteryChargingVertical,
+    'battery-empty': phosphor_BatteryEmpty,
+    'battery-full': phosphor_BatteryFull,
+    'battery-high': phosphor_BatteryHigh,
+    'battery-low': phosphor_BatteryLow,
+    'battery-medium': phosphor_BatteryMedium,
+    'battery-plus': phosphor_BatteryPlus,
+    'battery-plus-vertical': phosphor_BatteryPlusVertical,
+    'battery-vertical-empty': phosphor_BatteryVerticalEmpty,
+    'battery-vertical-full': phosphor_BatteryVerticalFull,
+    'battery-vertical-high': phosphor_BatteryVerticalHigh,
+    'battery-vertical-low': phosphor_BatteryVerticalLow,
+    'battery-vertical-medium': phosphor_BatteryVerticalMedium,
+    'battery-warning': phosphor_BatteryWarning,
+    'battery-warning-vertical': phosphor_BatteryWarningVertical,
+    'bed': phosphor_Bed,
+    'beer-bottle': phosphor_BeerBottle,
+    'beer-stein': phosphor_BeerStein,
+    'behance-logo': phosphor_BehanceLogo,
+    'bell': phosphor_Bell,
+    'bell-ringing': phosphor_BellRinging,
+    'bell-simple': phosphor_BellSimple,
+    'bell-simple-ringing': phosphor_BellSimpleRinging,
+    'bell-simple-slash': phosphor_BellSimpleSlash,
+    'bell-simple-z': phosphor_BellSimpleZ,
+    'bell-slash': phosphor_BellSlash,
+    'bell-z': phosphor_BellZ,
+    'bezier-curve': phosphor_BezierCurve,
+    'bicycle': phosphor_Bicycle,
+    'binoculars': phosphor_Binoculars,
+    'bird': phosphor_Bird,
+    'bluetooth': phosphor_Bluetooth,
+    'bluetooth-connected': phosphor_BluetoothConnected,
+    'bluetooth-slash': phosphor_BluetoothSlash,
+    'bluetooth-x': phosphor_BluetoothX,
+    'boat': phosphor_Boat,
+    'bone': phosphor_Bone,
+    'book': phosphor_Book,
+    'book-bookmark': phosphor_BookBookmark,
+    'book-open': phosphor_BookOpen,
+    'book-open-text': phosphor_BookOpenText,
+    'bookmark': phosphor_Bookmark,
+    'bookmark-simple': phosphor_BookmarkSimple,
+    'bookmarks': phosphor_Bookmarks,
+    'bookmarks-simple': phosphor_BookmarksSimple,
+    'books': phosphor_Books,
+    'boot': phosphor_Boot,
+    'bounding-box': phosphor_BoundingBox,
+    'bowl-food': phosphor_BowlFood,
+    'brackets-angle': phosphor_BracketsAngle,
+    'brackets-curly': phosphor_BracketsCurly,
+    'brackets-round': phosphor_BracketsRound,
+    'brackets-square': phosphor_BracketsSquare,
+    'brain': phosphor_Brain,
+    'brandy': phosphor_Brandy,
+    'bridge': phosphor_Bridge,
+    'briefcase': phosphor_Briefcase,
+    'briefcase-metal': phosphor_BriefcaseMetal,
+    'broadcast': phosphor_Broadcast,
+    'broom': phosphor_Broom,
+    'browser': phosphor_Browser,
+    'browsers': phosphor_Browsers,
+    'bug': phosphor_Bug,
+    'bug-beetle': phosphor_BugBeetle,
+    'bug-droid': phosphor_BugDroid,
+    'buildings': phosphor_Buildings,
+    'bus': phosphor_Bus,
+    'butterfly': phosphor_Butterfly,
+    'cactus': phosphor_Cactus,
+    'cake': phosphor_Cake,
+    'calculator': phosphor_Calculator,
+    'calendar': phosphor_Calendar,
+    'calendar-blank': phosphor_CalendarBlank,
+    'calendar-check': phosphor_CalendarCheck,
+    'calendar-plus': phosphor_CalendarPlus,
+    'calendar-x': phosphor_CalendarX,
+    'call-bell': phosphor_CallBell,
+    'camera': phosphor_Camera,
+    'camera-plus': phosphor_CameraPlus,
+    'camera-rotate': phosphor_CameraRotate,
+    'camera-slash': phosphor_CameraSlash,
+    'campfire': phosphor_Campfire,
+    'car': phosphor_Car,
+    'car-profile': phosphor_CarProfile,
+    'car-simple': phosphor_CarSimple,
+    'cardholder': phosphor_Cardholder,
+    'cards': phosphor_Cards,
+    'caret-circle-double-down': phosphor_CaretCircleDoubleDown,
+    'caret-circle-double-left': phosphor_CaretCircleDoubleLeft,
+    'caret-circle-double-right': phosphor_CaretCircleDoubleRight,
+    'caret-circle-double-up': phosphor_CaretCircleDoubleUp,
+    'caret-circle-down': phosphor_CaretCircleDown,
+    'caret-circle-left': phosphor_CaretCircleLeft,
+    'caret-circle-right': phosphor_CaretCircleRight,
+    'caret-circle-up': phosphor_CaretCircleUp,
+    'caret-circle-up-down': phosphor_CaretCircleUpDown,
+    'caret-double-down': phosphor_CaretDoubleDown,
+    'caret-double-left': phosphor_CaretDoubleLeft,
+    'caret-double-right': phosphor_CaretDoubleRight,
+    'caret-double-up': phosphor_CaretDoubleUp,
+    'caret-down': phosphor_CaretDown,
+    'caret-left': phosphor_CaretLeft,
+    'caret-right': phosphor_CaretRight,
+    'caret-up': phosphor_CaretUp,
+    'caret-up-down': phosphor_CaretUpDown,
+    'carrot': phosphor_Carrot,
+    'cassette-tape': phosphor_CassetteTape,
+    'castle-turret': phosphor_CastleTurret,
+    'cat': phosphor_Cat,
+    'cell-signal-full': phosphor_CellSignalFull,
+    'cell-signal-high': phosphor_CellSignalHigh,
+    'cell-signal-low': phosphor_CellSignalLow,
+    'cell-signal-medium': phosphor_CellSignalMedium,
+    'cell-signal-none': phosphor_CellSignalNone,
+    'cell-signal-slash': phosphor_CellSignalSlash,
+    'cell-signal-x': phosphor_CellSignalX,
+    'certificate': phosphor_Certificate,
+    'chair': phosphor_Chair,
+    'chalkboard': phosphor_Chalkboard,
+    'chalkboard-simple': phosphor_ChalkboardSimple,
+    'chalkboard-teacher': phosphor_ChalkboardTeacher,
+    'champagne': phosphor_Champagne,
+    'charging-station': phosphor_ChargingStation,
+    'chart-bar': phosphor_ChartBar,
+    'chart-bar-horizontal': phosphor_ChartBarHorizontal,
+    'chart-donut': phosphor_ChartDonut,
+    'chart-line': phosphor_ChartLine,
+    'chart-line-down': phosphor_ChartLineDown,
+    'chart-line-up': phosphor_ChartLineUp,
+    'chart-pie': phosphor_ChartPie,
+    'chart-pie-slice': phosphor_ChartPieSlice,
+    'chart-polar': phosphor_ChartPolar,
+    'chart-scatter': phosphor_ChartScatter,
+    'chat': phosphor_Chat,
+    'chat-centered': phosphor_ChatCentered,
+    'chat-centered-dots': phosphor_ChatCenteredDots,
+    'chat-centered-text': phosphor_ChatCenteredText,
+    'chat-circle': phosphor_ChatCircle,
+    'chat-circle-dots': phosphor_ChatCircleDots,
+    'chat-circle-text': phosphor_ChatCircleText,
+    'chat-dashed': snowui_ChatDashed,
+    'chat-dots': phosphor_ChatDots,
+    'chat-teardrop': phosphor_ChatTeardrop,
+    'chat-teardrop-dots': phosphor_ChatTeardropDots,
+    'chat-teardrop-text': phosphor_ChatTeardropText,
+    'chat-text': phosphor_ChatText,
+    'chats': phosphor_Chats,
+    'chats-circle': phosphor_ChatsCircle,
+    'chats-teardrop': phosphor_ChatsTeardrop,
+    'check': phosphor_Check,
+    'check-circle': phosphor_CheckCircle,
+    'check-fat': phosphor_CheckFat,
+    'check-square': phosphor_CheckSquare,
+    'check-square-offset': phosphor_CheckSquareOffset,
+    'checkbox-false': snowui_CheckboxFalse,
+    'checkbox-multiple': snowui_CheckboxMultiple,
+    'checkbox-true': snowui_CheckboxTrue,
+    'checks': phosphor_Checks,
+    'chip': snowui_Chip,
+    'church': phosphor_Church,
+    'circle': phosphor_Circle,
+    'circle-dashed': phosphor_CircleDashed,
+    'circle-half': phosphor_CircleHalf,
+    'circle-half-tilt': phosphor_CircleHalfTilt,
+    'circle-notch': phosphor_CircleNotch,
+    'circles-four': phosphor_CirclesFour,
+    'circles-three': phosphor_CirclesThree,
+    'circles-three-plus': phosphor_CirclesThreePlus,
+    'circuitry': phosphor_Circuitry,
+    'clipboard': snowui_Clipboard,
+    'clipboard-text': phosphor_ClipboardText,
+    'clock': phosphor_Clock,
+    'clock-afternoon': phosphor_ClockAfternoon,
+    'clock-clockwise': phosphor_ClockClockwise,
+    'clock-countdown': phosphor_ClockCountdown,
+    'clock-counter-clockwise': phosphor_ClockCounterClockwise,
+    'close': snowui_Close,
+    'closed-captioning': phosphor_ClosedCaptioning,
+    'cloud': phosphor_Cloud,
+    'cloud-arrow-down': phosphor_CloudArrowDown,
+    'cloud-arrow-up': phosphor_CloudArrowUp,
+    'cloud-check': phosphor_CloudCheck,
+    'cloud-fog': phosphor_CloudFog,
+    'cloud-lightning': phosphor_CloudLightning,
+    'cloud-moon': phosphor_CloudMoon,
+    'cloud-rain': phosphor_CloudRain,
+    'cloud-slash': phosphor_CloudSlash,
+    'cloud-snow': phosphor_CloudSnow,
+    'cloud-sun': phosphor_CloudSun,
+    'cloud-warning': phosphor_CloudWarning,
+    'cloud-x': phosphor_CloudX,
+    'club': phosphor_Club,
+    'coat-hanger': phosphor_CoatHanger,
+    'coda-logo': phosphor_CodaLogo,
+    'code': phosphor_Code,
+    'code-block': phosphor_CodeBlock,
+    'code-simple': phosphor_CodeSimple,
+    'codepen-logo': phosphor_CodepenLogo,
+    'codesandbox-logo': phosphor_CodesandboxLogo,
+    'coffee': phosphor_Coffee,
+    'coin': phosphor_Coin,
+    'coin-vertical': phosphor_CoinVertical,
+    'coins': phosphor_Coins,
+    'columns': phosphor_Columns,
+    'command': phosphor_Command,
+    'compass': phosphor_Compass,
+    'compass-off': phosphor_CompassOff,
+    'compass-tool': phosphor_CompassTool,
+    'computer-tower': phosphor_ComputerTower,
+    'confetti': phosphor_Confetti,
+    'contactless-payment': phosphor_ContactlessPayment,
+    'control': phosphor_Control,
+    'cookie': phosphor_Cookie,
+    'cooking-pot': phosphor_CookingPot,
+    'copy': snowui_Copy,
+    'copy-simple': phosphor_CopySimple,
+    'copyleft': phosphor_Copyleft,
+    'copyright': phosphor_Copyright,
+    'corners-in': phosphor_CornersIn,
+    'corners-out': phosphor_CornersOut,
+    'couch': phosphor_Couch,
+    'cpu': phosphor_Cpu,
+    'credit-card': phosphor_CreditCard,
+    'crop': phosphor_Crop,
+    'cross': phosphor_Cross,
+    'crosshair': phosphor_Crosshair,
+    'crosshair-simple': phosphor_CrosshairSimple,
+    'crown': phosphor_Crown,
+    'crown-simple': phosphor_CrownSimple,
+    'cube': phosphor_Cube,
+    'cube-focus': phosphor_CubeFocus,
+    'cube-transparent': phosphor_CubeTransparent,
+    'currency-btc': phosphor_CurrencyBtc,
+    'currency-circle-dollar': phosphor_CurrencyCircleDollar,
+    'currency-cny': phosphor_CurrencyCny,
+    'currency-dollar': phosphor_CurrencyDollar,
+    'currency-dollar-simple': phosphor_CurrencyDollarSimple,
+    'currency-eth': phosphor_CurrencyEth,
+    'currency-eur': phosphor_CurrencyEur,
+    'currency-gbp': phosphor_CurrencyGbp,
+    'currency-inr': phosphor_CurrencyInr,
+    'currency-jpy': phosphor_CurrencyJpy,
+    'currency-krw': phosphor_CurrencyKrw,
+    'currency-kzt': phosphor_CurrencyKzt,
+    'currency-ngn': phosphor_CurrencyNgn,
+    'currency-rub': phosphor_CurrencyRub,
+    'cursor': phosphor_Cursor,
+    'cursor-click': phosphor_CursorClick,
+    'cursor-text': phosphor_CursorText,
+    'cylinder': phosphor_Cylinder,
+    'database': phosphor_Database,
+    'default-icon': special_DefaultIcon,
+    'desktop': phosphor_Desktop,
+    'desktop-tower': phosphor_DesktopTower,
+    'detective': phosphor_Detective,
+    'dev-to-logo': phosphor_DevToLogo,
+    'device-mobile': phosphor_DeviceMobile,
+    'device-mobile-camera': phosphor_DeviceMobileCamera,
+    'device-mobile-speaker': phosphor_DeviceMobileSpeaker,
+    'device-tablet': phosphor_DeviceTablet,
+    'device-tablet-camera': phosphor_DeviceTabletCamera,
+    'device-tablet-speaker': phosphor_DeviceTabletSpeaker,
+    'devices': phosphor_Devices,
+    'diamond': phosphor_Diamond,
+    'diamonds-four': phosphor_DiamondsFour,
+    'dice-five': phosphor_DiceFive,
+    'dice-four': phosphor_DiceFour,
+    'dice-one': phosphor_DiceOne,
+    'dice-six': phosphor_DiceSix,
+    'dice-three': phosphor_DiceThree,
+    'dice-two': phosphor_DiceTwo,
+    'disc': phosphor_Disc,
+    'discord-logo': phosphor_DiscordLogo,
+    'divide': phosphor_Divide,
+    'dna': phosphor_Dna,
+    'docx-icon': special_DocxIcon,
+    'dog': phosphor_Dog,
+    'door': phosphor_Door,
+    'door-open': phosphor_DoorOpen,
+    'dot': phosphor_Dot,
+    'dot-circle': snowui_DotCircle,
+    'dot-outline': phosphor_DotOutline,
+    'dot-square': snowui_DotSquare,
+    'dots-nine': phosphor_DotsNine,
+    'dots-six': phosphor_DotsSix,
+    'dots-six-vertical': phosphor_DotsSixVertical,
+    'dots-three': phosphor_DotsThree,
+    'dots-three-circle': phosphor_DotsThreeCircle,
+    'dots-three-circle-vertical': phosphor_DotsThreeCircleVertical,
+    'dots-three-outline': phosphor_DotsThreeOutline,
+    'dots-three-outline-vertical': phosphor_DotsThreeOutlineVertical,
+    'dots-three-vertical': phosphor_DotsThreeVertical,
+    'download': phosphor_Download,
+    'download-simple': phosphor_DownloadSimple,
+    'dress': phosphor_Dress,
+    'dribbble-logo': phosphor_DribbbleLogo,
+    'drop': phosphor_Drop,
+    'drop-half': phosphor_DropHalf,
+    'drop-half-bottom': phosphor_DropHalfBottom,
+    'dropbox-logo': phosphor_DropboxLogo,
+    'ear': phosphor_Ear,
+    'ear-slash': phosphor_EarSlash,
+    'egg': phosphor_Egg,
+    'egg-crack': phosphor_EggCrack,
+    'eject': phosphor_Eject,
+    'eject-simple': phosphor_EjectSimple,
+    'elevator': phosphor_Elevator,
+    'engine': phosphor_Engine,
+    'envelope': phosphor_Envelope,
+    'envelope-open': phosphor_EnvelopeOpen,
+    'envelope-simple': phosphor_EnvelopeSimple,
+    'envelope-simple-open': phosphor_EnvelopeSimpleOpen,
+    'equalizer': phosphor_Equalizer,
+    'equals': phosphor_Equals,
+    'eraser': phosphor_Eraser,
+    'escalator-down': phosphor_EscalatorDown,
+    'escalator-up': phosphor_EscalatorUp,
+    'exam': phosphor_Exam,
+    'exclude': phosphor_Exclude,
+    'exclude-square': phosphor_ExcludeSquare,
+    'explain': snowui_Explain,
+    'export': phosphor_Export,
+    'eye': phosphor_Eye,
+    'eye-closed': phosphor_EyeClosed,
+    'eye-slash': phosphor_EyeSlash,
+    'eyedropper': phosphor_Eyedropper,
+    'eyedropper-sample': phosphor_EyedropperSample,
+    'eyeglasses': phosphor_Eyeglasses,
+    'face-mask': phosphor_FaceMask,
+    'facebook-logo': phosphor_FacebookLogo,
+    'factory': phosphor_Factory,
+    'faders': phosphor_Faders,
+    'faders-horizontal': phosphor_FadersHorizontal,
+    'fan': phosphor_Fan,
+    'fast-forward': phosphor_FastForward,
+    'fast-forward-circle': phosphor_FastForwardCircle,
+    'feather': phosphor_Feather,
+    'figma-logo': phosphor_FigmaLogo,
+    'file': phosphor_File,
+    'file-archive': phosphor_FileArchive,
+    'file-arrow-down': phosphor_FileArrowDown,
+    'file-arrow-up': phosphor_FileArrowUp,
+    'file-audio': phosphor_FileAudio,
+    'file-cloud': phosphor_FileCloud,
+    'file-code': phosphor_FileCode,
+    'file-css': phosphor_FileCss,
+    'file-csv': phosphor_FileCsv,
+    'file-dashed': phosphor_FileDashed,
+    'file-doc': phosphor_FileDoc,
+    'file-html': phosphor_FileHtml,
+    'file-image': phosphor_FileImage,
+    'file-jpg': phosphor_FileJpg,
+    'file-js': phosphor_FileJs,
+    'file-jsx': phosphor_FileJsx,
+    'file-lock': phosphor_FileLock,
+    'file-minus': phosphor_FileMinus,
+    'file-pdf': phosphor_FilePdf,
+    'file-plus': phosphor_FilePlus,
+    'file-png': phosphor_FilePng,
+    'file-ppt': phosphor_FilePpt,
+    'file-rs': phosphor_FileRs,
+    'file-search': phosphor_FileSearch,
+    'file-sql': phosphor_FileSql,
+    'file-svg': phosphor_FileSvg,
+    'file-text': phosphor_FileText,
+    'file-ts': phosphor_FileTs,
+    'file-tsx': phosphor_FileTsx,
+    'file-video': phosphor_FileVideo,
+    'file-vue': phosphor_FileVue,
+    'file-x': phosphor_FileX,
+    'file-xls': phosphor_FileXls,
+    'file-zip': phosphor_FileZip,
+    'files': phosphor_Files,
+    'film-reel': phosphor_FilmReel,
+    'film-script': phosphor_FilmScript,
+    'film-slate': phosphor_FilmSlate,
+    'film-strip': phosphor_FilmStrip,
+    'fingerprint': phosphor_Fingerprint,
+    'fingerprint-simple': phosphor_FingerprintSimple,
+    'finn-the-human': phosphor_FinnTheHuman,
+    'fire': phosphor_Fire,
+    'fire-extinguisher': phosphor_FireExtinguisher,
+    'fire-simple': phosphor_FireSimple,
+    'first-aid': phosphor_FirstAid,
+    'first-aid-kit': phosphor_FirstAidKit,
+    'fish': phosphor_Fish,
+    'fish-simple': phosphor_FishSimple,
+    'flag': phosphor_Flag,
+    'flag-banner': phosphor_FlagBanner,
+    'flag-checkered': phosphor_FlagCheckered,
+    'flag-pennant': phosphor_FlagPennant,
+    'flame': phosphor_Flame,
+    'flashlight': phosphor_Flashlight,
+    'flask': phosphor_Flask,
+    'floppy-disk': phosphor_FloppyDisk,
+    'floppy-disk-back': phosphor_FloppyDiskBack,
+    'flow-arrow': phosphor_FlowArrow,
+    'flower': phosphor_Flower,
+    'flower-lotus': phosphor_FlowerLotus,
+    'flower-tulip': phosphor_FlowerTulip,
+    'flying-saucer': phosphor_FlyingSaucer,
+    'folder': phosphor_Folder,
+    'folder-dashed': phosphor_FolderDashed,
+    'folder-lock': phosphor_FolderLock,
+    'folder-minus': phosphor_FolderMinus,
+    'folder-notch': phosphor_FolderNotch,
+    'folder-notch-minus': phosphor_FolderNotchMinus,
+    'folder-notch-open': phosphor_FolderNotchOpen,
+    'folder-notch-plus': phosphor_FolderNotchPlus,
+    'folder-open': phosphor_FolderOpen,
+    'folder-plus': phosphor_FolderPlus,
+    'folder-simple': phosphor_FolderSimple,
+    'folder-simple-dashed': phosphor_FolderSimpleDashed,
+    'folder-simple-lock': phosphor_FolderSimpleLock,
+    'folder-simple-minus': phosphor_FolderSimpleMinus,
+    'folder-simple-plus': phosphor_FolderSimplePlus,
+    'folder-simple-star': phosphor_FolderSimpleStar,
+    'folder-simple-user': phosphor_FolderSimpleUser,
+    'folder-star': phosphor_FolderStar,
+    'folder-user': phosphor_FolderUser,
+    'folders': phosphor_Folders,
+    'football': phosphor_Football,
+    'footprints': phosphor_Footprints,
+    'fork-knife': phosphor_ForkKnife,
+    'form-icon': special_FormIcon,
+    'four-leaf-clover': snowui_FourLeafClover,
+    'four-pointed-star': snowui_FourPointedStar,
+    'frame-corners': phosphor_FrameCorners,
+    'framer-logo': phosphor_FramerLogo,
+    'function': phosphor_Function,
+    'funnel': phosphor_Funnel,
+    'funnel-simple': phosphor_FunnelSimple,
+    'game-controller': phosphor_GameController,
+    'garage': phosphor_Garage,
+    'gas-can': phosphor_GasCan,
+    'gas-pump': phosphor_GasPump,
+    'gauge': phosphor_Gauge,
+    'gavel': phosphor_Gavel,
+    'gear': phosphor_Gear,
+    'gear-fine': phosphor_GearFine,
+    'gear-six': phosphor_GearSix,
+    'gender-female': phosphor_GenderFemale,
+    'gender-intersex': phosphor_GenderIntersex,
+    'gender-male': phosphor_GenderMale,
+    'gender-neuter': phosphor_GenderNeuter,
+    'gender-nonbinary': phosphor_GenderNonbinary,
+    'gender-transgender': phosphor_GenderTransgender,
+    'ghost': phosphor_Ghost,
+    'gif': phosphor_Gif,
+    'gift': phosphor_Gift,
+    'git-branch': phosphor_GitBranch,
+    'git-commit': phosphor_GitCommit,
+    'git-diff': phosphor_GitDiff,
+    'git-fork': phosphor_GitFork,
+    'git-merge': phosphor_GitMerge,
+    'git-pull-request': phosphor_GitPullRequest,
+    'github-logo': phosphor_GithubLogo,
+    'gitlab-logo': phosphor_GitlabLogo,
+    'gitlab-logo-simple': phosphor_GitlabLogoSimple,
+    'globe': phosphor_Globe,
+    'globe-hemisphere-east': phosphor_GlobeHemisphereEast,
+    'globe-hemisphere-west': phosphor_GlobeHemisphereWest,
+    'globe-simple': phosphor_GlobeSimple,
+    'globe-stand': phosphor_GlobeStand,
+    'goggles': phosphor_Goggles,
+    'goodreads-logo': phosphor_GoodreadsLogo,
+    'google-cardboard-logo': phosphor_GoogleCardboardLogo,
+    'google-chrome-logo': phosphor_GoogleChromeLogo,
+    'google-drive-logo': phosphor_GoogleDriveLogo,
+    'google-logo': phosphor_GoogleLogo,
+    'google-photos-logo': phosphor_GooglePhotosLogo,
+    'google-play-logo': phosphor_GooglePlayLogo,
+    'google-podcasts-logo': phosphor_GooglePodcastsLogo,
+    'goto': snowui_Goto,
+    'gradient': phosphor_Gradient,
+    'graduation-cap': phosphor_GraduationCap,
+    'grains': phosphor_Grains,
+    'grains-slash': phosphor_GrainsSlash,
+    'graph': phosphor_Graph,
+    'grid-four': phosphor_GridFour,
+    'grid-nine': phosphor_GridNine,
+    'guitar': phosphor_Guitar,
+    'hamburger': phosphor_Hamburger,
+    'hammer': phosphor_Hammer,
+    'hand': phosphor_Hand,
+    'hand-coins': phosphor_HandCoins,
+    'hand-eye': phosphor_HandEye,
+    'hand-fist': phosphor_HandFist,
+    'hand-grabbing': phosphor_HandGrabbing,
+    'hand-heart': phosphor_HandHeart,
+    'hand-palm': phosphor_HandPalm,
+    'hand-pointing': phosphor_HandPointing,
+    'hand-soap': phosphor_HandSoap,
+    'hand-swipe-left': phosphor_HandSwipeLeft,
+    'hand-swipe-right': phosphor_HandSwipeRight,
+    'hand-tap': phosphor_HandTap,
+    'hand-waving': phosphor_HandWaving,
+    'handbag': phosphor_Handbag,
+    'handbag-simple': phosphor_HandbagSimple,
+    'hands-clapping': phosphor_HandsClapping,
+    'hands-praying': phosphor_HandsPraying,
+    'handshake': phosphor_Handshake,
+    'hard-drive': phosphor_HardDrive,
+    'hard-drives': phosphor_HardDrives,
+    'hash': phosphor_Hash,
+    'hash-straight': phosphor_HashStraight,
+    'headlights': phosphor_Headlights,
+    'headphones': phosphor_Headphones,
+    'headset': phosphor_Headset,
+    'heart': phosphor_Heart,
+    'heart-break': phosphor_HeartBreak,
+    'heart-half': phosphor_HeartHalf,
+    'heart-straight': phosphor_HeartStraight,
+    'heart-straight-break': phosphor_HeartStraightBreak,
+    'heartbeat': phosphor_Heartbeat,
+    'help': snowui_Help,
+    'hexagon': phosphor_Hexagon,
+    'high-heel': phosphor_HighHeel,
+    'highlighter-circle': phosphor_HighlighterCircle,
+    'hoodie': phosphor_Hoodie,
+    'horizontal-screen': snowui_HorizontalScreen,
+    'horse': phosphor_Horse,
+    'hourglass': phosphor_Hourglass,
+    'hourglass-high': phosphor_HourglassHigh,
+    'hourglass-low': phosphor_HourglassLow,
+    'hourglass-medium': phosphor_HourglassMedium,
+    'hourglass-simple': phosphor_HourglassSimple,
+    'hourglass-simple-high': phosphor_HourglassSimpleHigh,
+    'hourglass-simple-low': phosphor_HourglassSimpleLow,
+    'hourglass-simple-medium': phosphor_HourglassSimpleMedium,
+    'house': phosphor_House,
+    'house-line': phosphor_HouseLine,
+    'house-simple': phosphor_HouseSimple,
+    'ice-cream': phosphor_IceCream,
+    'icon-set': snowui_IconSet,
+    'icon-size-16': snowui_IconSize16,
+    'icon-size-20': snowui_IconSize20,
+    'icon-size-24': snowui_IconSize24,
+    'icon-size-28': snowui_IconSize28,
+    'icon-size-32': snowui_IconSize32,
+    'icon-size-40': snowui_IconSize40,
+    'icon-size-48': snowui_IconSize48,
+    'icon-size-80': snowui_IconSize80,
+    'identification-badge': phosphor_IdentificationBadge,
+    'identification-card': phosphor_IdentificationCard,
+    'image': phosphor_Image,
+    'image-loading': snowui_ImageLoading,
+    'image-square': phosphor_ImageSquare,
+    'images': phosphor_Images,
+    'images-square': phosphor_ImagesSquare,
+    'infinity': phosphor_Infinity,
+    'info': phosphor_Info,
+    'instagram-logo': phosphor_InstagramLogo,
+    'intersect': phosphor_Intersect,
+    'intersect-square': phosphor_IntersectSquare,
+    'intersect-three': phosphor_IntersectThree,
+    'jeep': phosphor_Jeep,
+    'kanban': phosphor_Kanban,
+    'key': phosphor_Key,
+    'key-return': phosphor_KeyReturn,
+    'keyboard': phosphor_Keyboard,
+    'keyhole': phosphor_Keyhole,
+    'knife': phosphor_Knife,
+    'ladder': phosphor_Ladder,
+    'ladder-simple': phosphor_LadderSimple,
+    'lamp': phosphor_Lamp,
+    'laptop': phosphor_Laptop,
+    'layout': phosphor_Layout,
+    'leaf': phosphor_Leaf,
+    'lifebuoy': phosphor_Lifebuoy,
+    'lightbulb': phosphor_Lightbulb,
+    'lightbulb-filament': phosphor_LightbulbFilament,
+    'lighthouse': phosphor_Lighthouse,
+    'lightning': phosphor_Lightning,
+    'lightning-a': phosphor_LightningA,
+    'lightning-slash': phosphor_LightningSlash,
+    'line': snowui_Line,
+    'line-segment': phosphor_LineSegment,
+    'line-segments': phosphor_LineSegments,
+    'link': phosphor_Link,
+    'link-break': phosphor_LinkBreak,
+    'link-simple': phosphor_LinkSimple,
+    'link-simple-break': phosphor_LinkSimpleBreak,
+    'link-simple-horizontal': phosphor_LinkSimpleHorizontal,
+    'link-simple-horizontal-break': phosphor_LinkSimpleHorizontalBreak,
+    'linkedin-logo': phosphor_LinkedinLogo,
+    'linux-logo': phosphor_LinuxLogo,
+    'list': phosphor_List,
+    'list-bullets': phosphor_ListBullets,
+    'list-checks': phosphor_ListChecks,
+    'list-dashes': phosphor_ListDashes,
+    'list-magnifying-glass': phosphor_ListMagnifyingGlass,
+    'list-numbers': phosphor_ListNumbers,
+    'list-plus': phosphor_ListPlus,
+    'lock': phosphor_Lock,
+    'lock-key': phosphor_LockKey,
+    'lock-key-open': phosphor_LockKeyOpen,
+    'lock-laminated': phosphor_LockLaminated,
+    'lock-laminated-open': phosphor_LockLaminatedOpen,
+    'lock-open': phosphor_LockOpen,
+    'lock-simple': phosphor_LockSimple,
+    'lock-simple-open': phosphor_LockSimpleOpen,
+    'lockers': phosphor_Lockers,
+    'magic-wand': phosphor_MagicWand,
+    'magnet': phosphor_Magnet,
+    'magnet-straight': phosphor_MagnetStraight,
+    'magnifying-glass': phosphor_MagnifyingGlass,
+    'magnifying-glass-minus': phosphor_MagnifyingGlassMinus,
+    'magnifying-glass-plus': phosphor_MagnifyingGlassPlus,
+    'map-pin': phosphor_MapPin,
+    'map-pin-line': phosphor_MapPinLine,
+    'map-trifold': phosphor_MapTrifold,
+    'marker-circle': phosphor_MarkerCircle,
+    'martini': phosphor_Martini,
+    'mask-happy': phosphor_MaskHappy,
+    'mask-sad': phosphor_MaskSad,
+    'math-operations': phosphor_MathOperations,
+    'maximize': snowui_Maximize,
+    'medal': phosphor_Medal,
+    'medal-military': phosphor_MedalMilitary,
+    'medium-logo': phosphor_MediumLogo,
+    'megaphone': phosphor_Megaphone,
+    'megaphone-simple': phosphor_MegaphoneSimple,
+    'messenger-logo': phosphor_MessengerLogo,
+    'meta-logo': phosphor_MetaLogo,
+    'metronome': phosphor_Metronome,
+    'microphone': phosphor_Microphone,
+    'microphone-slash': phosphor_MicrophoneSlash,
+    'microphone-stage': phosphor_MicrophoneStage,
+    'microsoft-excel-logo': phosphor_MicrosoftExcelLogo,
+    'microsoft-outlook-logo': phosphor_MicrosoftOutlookLogo,
+    'microsoft-powerpoint-logo': phosphor_MicrosoftPowerpointLogo,
+    'microsoft-teams-logo': phosphor_MicrosoftTeamsLogo,
+    'microsoft-word-logo': phosphor_MicrosoftWordLogo,
+    'minimize': snowui_Minimize,
+    'minus': phosphor_Minus,
+    'minus-circle': phosphor_MinusCircle,
+    'minus-square': phosphor_MinusSquare,
+    'money': phosphor_Money,
+    'monitor': phosphor_Monitor,
+    'monitor-play': phosphor_MonitorPlay,
+    'moon': phosphor_Moon,
+    'moon-stars': phosphor_MoonStars,
+    'moped': phosphor_Moped,
+    'moped-front': phosphor_MopedFront,
+    'mosque': phosphor_Mosque,
+    'motorcycle': phosphor_Motorcycle,
+    'mountains': phosphor_Mountains,
+    'mouse': phosphor_Mouse,
+    'mouse-simple': phosphor_MouseSimple,
+    'music-note': phosphor_MusicNote,
+    'music-note-simple': phosphor_MusicNoteSimple,
+    'music-notes': phosphor_MusicNotes,
+    'music-notes-plus': phosphor_MusicNotesPlus,
+    'music-notes-simple': phosphor_MusicNotesSimple,
+    'navigation-arrow': phosphor_NavigationArrow,
+    'needle': phosphor_Needle,
+    'newspaper': phosphor_Newspaper,
+    'newspaper-clipping': phosphor_NewspaperClipping,
+    'notches': phosphor_Notches,
+    'note': phosphor_Note,
+    'note-blank': phosphor_NoteBlank,
+    'note-pencil': phosphor_NotePencil,
+    'notebook': phosphor_Notebook,
+    'notepad': phosphor_Notepad,
+    'notification': phosphor_Notification,
+    'notion-logo': phosphor_NotionLogo,
+    'number-circle-eight': phosphor_NumberCircleEight,
+    'number-circle-five': phosphor_NumberCircleFive,
+    'number-circle-four': phosphor_NumberCircleFour,
+    'number-circle-nine': phosphor_NumberCircleNine,
+    'number-circle-one': phosphor_NumberCircleOne,
+    'number-circle-seven': phosphor_NumberCircleSeven,
+    'number-circle-six': phosphor_NumberCircleSix,
+    'number-circle-three': phosphor_NumberCircleThree,
+    'number-circle-two': phosphor_NumberCircleTwo,
+    'number-circle-zero': phosphor_NumberCircleZero,
+    'number-eight': phosphor_NumberEight,
+    'number-five': phosphor_NumberFive,
+    'number-four': phosphor_NumberFour,
+    'number-nine': phosphor_NumberNine,
+    'number-one': phosphor_NumberOne,
+    'number-seven': phosphor_NumberSeven,
+    'number-six': phosphor_NumberSix,
+    'number-square-eight': phosphor_NumberSquareEight,
+    'number-square-five': phosphor_NumberSquareFive,
+    'number-square-four': phosphor_NumberSquareFour,
+    'number-square-nine': phosphor_NumberSquareNine,
+    'number-square-one': phosphor_NumberSquareOne,
+    'number-square-seven': phosphor_NumberSquareSeven,
+    'number-square-six': phosphor_NumberSquareSix,
+    'number-square-three': phosphor_NumberSquareThree,
+    'number-square-two': phosphor_NumberSquareTwo,
+    'number-square-zero': phosphor_NumberSquareZero,
+    'number-three': phosphor_NumberThree,
+    'number-two': phosphor_NumberTwo,
+    'number-zero': phosphor_NumberZero,
+    'nut': phosphor_Nut,
+    'ny-times-logo': phosphor_NyTimesLogo,
+    'octagon': phosphor_Octagon,
+    'office-chair': phosphor_OfficeChair,
+    'onenote-icon': special_OnenoteIcon,
+    'option': phosphor_Option,
+    'orange-slice': phosphor_OrangeSlice,
+    'package': phosphor_Package,
+    'paint-brush': phosphor_PaintBrush,
+    'paint-brush-broad': phosphor_PaintBrushBroad,
+    'paint-brush-household': phosphor_PaintBrushHousehold,
+    'paint-bucket': phosphor_PaintBucket,
+    'paint-roller': phosphor_PaintRoller,
+    'palette': phosphor_Palette,
+    'pants': phosphor_Pants,
+    'paper-plane': phosphor_PaperPlane,
+    'paper-plane-right': phosphor_PaperPlaneRight,
+    'paper-plane-tilt': phosphor_PaperPlaneTilt,
+    'paperclip': phosphor_Paperclip,
+    'paperclip-horizontal': phosphor_PaperclipHorizontal,
+    'parachute': phosphor_Parachute,
+    'paragraph': phosphor_Paragraph,
+    'parallelogram': phosphor_Parallelogram,
+    'park': phosphor_Park,
+    'password': phosphor_Password,
+    'path': phosphor_Path,
+    'patreon-logo': phosphor_PatreonLogo,
+    'pause': phosphor_Pause,
+    'pause-circle': phosphor_PauseCircle,
+    'paw-print': phosphor_PawPrint,
+    'pay-wave': snowui_PayWave,
+    'paypal-logo': phosphor_PaypalLogo,
+    'peace': phosphor_Peace,
+    'pen': phosphor_Pen,
+    'pen-nib': phosphor_PenNib,
+    'pen-nib-straight': phosphor_PenNibStraight,
+    'pencil': phosphor_Pencil,
+    'pencil-circle': phosphor_PencilCircle,
+    'pencil-line': phosphor_PencilLine,
+    'pencil-simple': phosphor_PencilSimple,
+    'pencil-simple-line': phosphor_PencilSimpleLine,
+    'pencil-simple-slash': phosphor_PencilSimpleSlash,
+    'pencil-slash': phosphor_PencilSlash,
+    'pentagram': phosphor_Pentagram,
+    'pepper': phosphor_Pepper,
+    'percent': phosphor_Percent,
+    'person': phosphor_Person,
+    'person-arms-spread': phosphor_PersonArmsSpread,
+    'person-simple': phosphor_PersonSimple,
+    'person-simple-bike': phosphor_PersonSimpleBike,
+    'person-simple-run': phosphor_PersonSimpleRun,
+    'person-simple-throw': phosphor_PersonSimpleThrow,
+    'person-simple-walk': phosphor_PersonSimpleWalk,
+    'perspective': phosphor_Perspective,
+    'phone': phosphor_Phone,
+    'phone-call': phosphor_PhoneCall,
+    'phone-disconnect': phosphor_PhoneDisconnect,
+    'phone-incoming': phosphor_PhoneIncoming,
+    'phone-outgoing': phosphor_PhoneOutgoing,
+    'phone-plus': phosphor_PhonePlus,
+    'phone-slash': phosphor_PhoneSlash,
+    'phone-x': phosphor_PhoneX,
+    'phosphor-logo': phosphor_PhosphorLogo,
+    'pi': phosphor_Pi,
+    'piano-keys': phosphor_PianoKeys,
+    'picture-in-picture': phosphor_PictureInPicture,
+    'piggy-bank': phosphor_PiggyBank,
+    'pill': phosphor_Pill,
+    'pinterest-logo': phosphor_PinterestLogo,
+    'pinwheel': phosphor_Pinwheel,
+    'pizza': phosphor_Pizza,
+    'placeholder': phosphor_Placeholder,
+    'planet': phosphor_Planet,
+    'plant': phosphor_Plant,
+    'play': phosphor_Play,
+    'play-circle': phosphor_PlayCircle,
+    'play-pause': phosphor_PlayPause,
+    'playlist': phosphor_Playlist,
+    'plug': phosphor_Plug,
+    'plug-charging': phosphor_PlugCharging,
+    'plugs': phosphor_Plugs,
+    'plugs-connected': phosphor_PlugsConnected,
+    'plus': phosphor_Plus,
+    'plus-circle': phosphor_PlusCircle,
+    'plus-minus': phosphor_PlusMinus,
+    'plus-square': phosphor_PlusSquare,
+    'poker-chip': phosphor_PokerChip,
+    'police-car': phosphor_PoliceCar,
+    'polygon': phosphor_Polygon,
+    'popcorn': phosphor_Popcorn,
+    'potted-plant': phosphor_PottedPlant,
+    'power': phosphor_Power,
+    'ppt-icon': special_PptIcon,
+    'prescription': phosphor_Prescription,
+    'presentation': phosphor_Presentation,
+    'presentation-chart': phosphor_PresentationChart,
+    'printer': phosphor_Printer,
+    'prohibit': phosphor_Prohibit,
+    'prohibit-inset': phosphor_ProhibitInset,
+    'projector-screen': phosphor_ProjectorScreen,
+    'projector-screen-chart': phosphor_ProjectorScreenChart,
+    'pulse': phosphor_Pulse,
+    'push-pin': phosphor_PushPin,
+    'push-pin-simple': phosphor_PushPinSimple,
+    'push-pin-simple-slash': phosphor_PushPinSimpleSlash,
+    'push-pin-slash': phosphor_PushPinSlash,
+    'puzzle-piece': phosphor_PuzzlePiece,
+    'qr-code': phosphor_QrCode,
+    'question': phosphor_Question,
+    'queue': phosphor_Queue,
+    'quotes': phosphor_Quotes,
+    'radical': phosphor_Radical,
+    'radio': phosphor_Radio,
+    'radio-button': phosphor_RadioButton,
+    'radio-false': snowui_RadioFalse,
+    'radio-true': snowui_RadioTrue,
+    'radio-true-alt': snowui_RadioTrueAlt,
+    'radioactive': phosphor_Radioactive,
+    'rainbow': phosphor_Rainbow,
+    'rainbow-cloud': phosphor_RainbowCloud,
+    'rating-1': snowui_Rating1,
+    'rating-2': snowui_Rating2,
+    'rating-3': snowui_Rating3,
+    'rating-4': snowui_Rating4,
+    'rating-5': snowui_Rating5,
+    'read-cv-logo': phosphor_ReadCvLogo,
+    'receipt': phosphor_Receipt,
+    'receipt-x': phosphor_ReceiptX,
+    'record': phosphor_Record,
+    'rectangle': phosphor_Rectangle,
+    'recycle': phosphor_Recycle,
+    'reddit-logo': phosphor_RedditLogo,
+    'repeat': phosphor_Repeat,
+    'repeat-once': phosphor_RepeatOnce,
+    'repost': snowui_Repost,
+    'rewind': phosphor_Rewind,
+    'rewind-circle': phosphor_RewindCircle,
+    'rightbar': snowui_Rightbar,
+    'rightbar-mode': snowui_RightbarMode,
+    'road-horizon': phosphor_RoadHorizon,
+    'robot': phosphor_Robot,
+    'rocket': phosphor_Rocket,
+    'rocket-launch': phosphor_RocketLaunch,
+    'round': snowui_Round,
+    'round-alt': special_RoundAlt,
+    'rounded-corner': snowui_RoundedCorner,
+    'rows': phosphor_Rows,
+    'rss': phosphor_Rss,
+    'rss-simple': phosphor_RssSimple,
+    'rug': phosphor_Rug,
+    'ruler': phosphor_Ruler,
+    'scales': phosphor_Scales,
+    'scan': phosphor_Scan,
+    'scissors': phosphor_Scissors,
+    'scooter': phosphor_Scooter,
+    'screencast': phosphor_Screencast,
+    'scribble-loop': phosphor_ScribbleLoop,
+    'scroll': phosphor_Scroll,
+    'seal': phosphor_Seal,
+    'seal-check': phosphor_SealCheck,
+    'seal-question': phosphor_SealQuestion,
+    'seal-warning': phosphor_SealWarning,
+    'search': snowui_Search,
+    'search-icon': special_SearchIcon,
+    'selected': snowui_Selected,
+    'selection': phosphor_Selection,
+    'selection-all': phosphor_SelectionAll,
+    'selection-background': phosphor_SelectionBackground,
+    'selection-foreground': phosphor_SelectionForeground,
+    'selection-inverse': phosphor_SelectionInverse,
+    'selection-plus': phosphor_SelectionPlus,
+    'selection-slash': phosphor_SelectionSlash,
+    'shapes': phosphor_Shapes,
+    'share': phosphor_Share,
+    'share-fat': phosphor_ShareFat,
+    'share-network': phosphor_ShareNetwork,
+    'shield': phosphor_Shield,
+    'shield-check': phosphor_ShieldCheck,
+    'shield-checkered': phosphor_ShieldCheckered,
+    'shield-chevron': phosphor_ShieldChevron,
+    'shield-plus': phosphor_ShieldPlus,
+    'shield-slash': phosphor_ShieldSlash,
+    'shield-star': phosphor_ShieldStar,
+    'shield-warning': phosphor_ShieldWarning,
+    'shirt-folded': phosphor_ShirtFolded,
+    'shooting-star': phosphor_ShootingStar,
+    'shopping-bag': phosphor_ShoppingBag,
+    'shopping-bag-open': phosphor_ShoppingBagOpen,
+    'shopping-cart': phosphor_ShoppingCart,
+    'shopping-cart-simple': phosphor_ShoppingCartSimple,
+    'shower': phosphor_Shower,
+    'shrimp': phosphor_Shrimp,
+    'shuffle': phosphor_Shuffle,
+    'shuffle-angular': phosphor_ShuffleAngular,
+    'shuffle-simple': phosphor_ShuffleSimple,
+    'sidebar': phosphor_Sidebar,
+    'sidebar-simple': phosphor_SidebarSimple,
+    'sigma': phosphor_Sigma,
+    'sign-in': phosphor_SignIn,
+    'sign-out': phosphor_SignOut,
+    'signature': phosphor_Signature,
+    'signpost': phosphor_Signpost,
+    'sim-card': phosphor_SimCard,
+    'siren': phosphor_Siren,
+    'sketch-logo': phosphor_SketchLogo,
+    'skip-back': phosphor_SkipBack,
+    'skip-back-circle': phosphor_SkipBackCircle,
+    'skip-forward': phosphor_SkipForward,
+    'skip-forward-circle': phosphor_SkipForwardCircle,
+    'skull': phosphor_Skull,
+    'slack-logo': phosphor_SlackLogo,
+    'sliders': phosphor_Sliders,
+    'sliders-horizontal': phosphor_SlidersHorizontal,
+    'slideshow': phosphor_Slideshow,
+    'smiley': phosphor_Smiley,
+    'smiley-angry': phosphor_SmileyAngry,
+    'smiley-blank': phosphor_SmileyBlank,
+    'smiley-meh': phosphor_SmileyMeh,
+    'smiley-nervous': phosphor_SmileyNervous,
+    'smiley-sad': phosphor_SmileySad,
+    'smiley-sticker': phosphor_SmileySticker,
+    'smiley-wink': phosphor_SmileyWink,
+    'smiley-x-eyes': phosphor_SmileyXEyes,
+    'snapchat-logo': phosphor_SnapchatLogo,
+    'sneaker': phosphor_Sneaker,
+    'sneaker-move': phosphor_SneakerMove,
+    'snow-icon': snowui_SnowIcon,
+    'snowflake': phosphor_Snowflake,
+    'soccer-ball': phosphor_SoccerBall,
+    'sort-ascending': phosphor_SortAscending,
+    'sort-descending': phosphor_SortDescending,
+    'soundcloud-logo': phosphor_SoundcloudLogo,
+    'spade': phosphor_Spade,
+    'sparkle': phosphor_Sparkle,
+    'speaker-hifi': phosphor_SpeakerHifi,
+    'speaker-high': phosphor_SpeakerHigh,
+    'speaker-low': phosphor_SpeakerLow,
+    'speaker-none': phosphor_SpeakerNone,
+    'speaker-simple-high': phosphor_SpeakerSimpleHigh,
+    'speaker-simple-low': phosphor_SpeakerSimpleLow,
+    'speaker-simple-none': phosphor_SpeakerSimpleNone,
+    'speaker-simple-slash': phosphor_SpeakerSimpleSlash,
+    'speaker-simple-x': phosphor_SpeakerSimpleX,
+    'speaker-slash': phosphor_SpeakerSlash,
+    'speaker-x': phosphor_SpeakerX,
+    'spinner': phosphor_Spinner,
+    'spinner-gap': phosphor_SpinnerGap,
+    'spiral': phosphor_Spiral,
+    'split-horizontal': phosphor_SplitHorizontal,
+    'split-vertical': phosphor_SplitVertical,
+    'spotify-logo': phosphor_SpotifyLogo,
+    'square': phosphor_Square,
+    'square-half': phosphor_SquareHalf,
+    'square-half-bottom': phosphor_SquareHalfBottom,
+    'square-logo': phosphor_SquareLogo,
+    'square-split-horizontal': phosphor_SquareSplitHorizontal,
+    'square-split-vertical': phosphor_SquareSplitVertical,
+    'squares-four': phosphor_SquaresFour,
+    'stack': phosphor_Stack,
+    'stack-overflow-logo': phosphor_StackOverflowLogo,
+    'stack-simple': phosphor_StackSimple,
+    'stairs': phosphor_Stairs,
+    'stamp': phosphor_Stamp,
+    'star': phosphor_Star,
+    'star-and-crescent': phosphor_StarAndCrescent,
+    'star-four': snowui_StarFour,
+    'star-half': phosphor_StarHalf,
+    'star-of-david': phosphor_StarOfDavid,
+    'stars': snowui_Stars,
+    'steering-wheel': phosphor_SteeringWheel,
+    'steps': phosphor_Steps,
+    'stethoscope': phosphor_Stethoscope,
+    'sticker': phosphor_Sticker,
+    'stool': phosphor_Stool,
+    'stop': phosphor_Stop,
+    'stop-alt': snowui_StopAlt,
+    'stop-circle': phosphor_StopCircle,
+    'stop-secondary': snowui_StopSecondary,
+    'storefront': phosphor_Storefront,
+    'strategy': phosphor_Strategy,
+    'stripe-logo': phosphor_StripeLogo,
+    'student': phosphor_Student,
+    'subtitles': phosphor_Subtitles,
+    'subtract': phosphor_Subtract,
+    'subtract-square': phosphor_SubtractSquare,
+    'suitcase': phosphor_Suitcase,
+    'suitcase-rolling': phosphor_SuitcaseRolling,
+    'suitcase-simple': phosphor_SuitcaseSimple,
+    'sun': phosphor_Sun,
+    'sun-dim': phosphor_SunDim,
+    'sun-horizon': phosphor_SunHorizon,
+    'sunglasses': phosphor_Sunglasses,
+    'swap': phosphor_Swap,
+    'swatches': phosphor_Swatches,
+    'swimming-pool': phosphor_SwimmingPool,
+    'switch-false': snowui_SwitchFalse,
+    'switch-point': snowui_SwitchPoint,
+    'switch-true': snowui_SwitchTrue,
+    'sword': phosphor_Sword,
+    'synagogue': phosphor_Synagogue,
+    'syringe': phosphor_Syringe,
+    't-shirt': phosphor_TShirt,
+    'table': phosphor_Table,
+    'tabs': phosphor_Tabs,
+    'tag': phosphor_Tag,
+    'tag-chevron': phosphor_TagChevron,
+    'tag-simple': phosphor_TagSimple,
+    'target': phosphor_Target,
+    'taxi': phosphor_Taxi,
+    'telegram-logo': phosphor_TelegramLogo,
+    'television': phosphor_Television,
+    'television-simple': phosphor_TelevisionSimple,
+    'tennis-ball': phosphor_TennisBall,
+    'tent': phosphor_Tent,
+    'terminal': phosphor_Terminal,
+    'terminal-window': phosphor_TerminalWindow,
+    'test-tube': phosphor_TestTube,
+    'text-a': snowui_TextA,
+    'text-a-underline': phosphor_TextAUnderline,
+    'text-aa': phosphor_TextAa,
+    'text-align-center': phosphor_TextAlignCenter,
+    'text-align-justify': phosphor_TextAlignJustify,
+    'text-align-left': phosphor_TextAlignLeft,
+    'text-align-right': phosphor_TextAlignRight,
+    'text-b': phosphor_TextB,
+    'text-columns': phosphor_TextColumns,
+    'text-h': phosphor_TextH,
+    'text-h-five': phosphor_TextHFive,
+    'text-h-four': phosphor_TextHFour,
+    'text-h-one': phosphor_TextHOne,
+    'text-h-six': phosphor_TextHSix,
+    'text-h-three': phosphor_TextHThree,
+    'text-h-two': phosphor_TextHTwo,
+    'text-indent': phosphor_TextIndent,
+    'text-italic': phosphor_TextItalic,
+    'text-outdent': phosphor_TextOutdent,
+    'text-strikethrough': phosphor_TextStrikethrough,
+    'text-t': phosphor_TextT,
+    'text-underline': phosphor_TextUnderline,
+    'textbox': phosphor_Textbox,
+    'thermometer': phosphor_Thermometer,
+    'thermometer-cold': phosphor_ThermometerCold,
+    'thermometer-hot': phosphor_ThermometerHot,
+    'thermometer-simple': phosphor_ThermometerSimple,
+    'three-dots': snowui_ThreeDots,
+    'thumbs-down': phosphor_ThumbsDown,
+    'thumbs-up': phosphor_ThumbsUp,
+    'ticket': phosphor_Ticket,
+    'tidal-logo': phosphor_TidalLogo,
+    'tiktok-logo': phosphor_TiktokLogo,
+    'timer': phosphor_Timer,
+    'tipi': phosphor_Tipi,
+    'toggle-left': phosphor_ToggleLeft,
+    'toggle-right': phosphor_ToggleRight,
+    'toilet': phosphor_Toilet,
+    'toilet-paper': phosphor_ToiletPaper,
+    'toolbox': phosphor_Toolbox,
+    'tooth': phosphor_Tooth,
+    'tote': phosphor_Tote,
+    'tote-simple': phosphor_ToteSimple,
+    'trademark': phosphor_Trademark,
+    'trademark-registered': phosphor_TrademarkRegistered,
+    'traffic-cone': phosphor_TrafficCone,
+    'traffic-sign': phosphor_TrafficSign,
+    'traffic-signal': phosphor_TrafficSignal,
+    'train': phosphor_Train,
+    'train-regional': phosphor_TrainRegional,
+    'train-simple': phosphor_TrainSimple,
+    'tram': phosphor_Tram,
+    'translate': phosphor_Translate,
+    'trash': phosphor_Trash,
+    'trash-simple': phosphor_TrashSimple,
+    'tray': phosphor_Tray,
+    'tree': phosphor_Tree,
+    'tree-evergreen': phosphor_TreeEvergreen,
+    'tree-palm': phosphor_TreePalm,
+    'tree-structure': phosphor_TreeStructure,
+    'trend-down': phosphor_TrendDown,
+    'trend-up': phosphor_TrendUp,
+    'triangle': phosphor_Triangle,
+    'trophy': phosphor_Trophy,
+    'truck': phosphor_Truck,
+    'twitch-logo': phosphor_TwitchLogo,
+    'twitter-logo': phosphor_TwitterLogo,
+    'txt-icon': special_TxtIcon,
+    'umbrella': phosphor_Umbrella,
+    'umbrella-simple': phosphor_UmbrellaSimple,
+    'unite': phosphor_Unite,
+    'unite-square': phosphor_UniteSquare,
+    'upload': phosphor_Upload,
+    'upload-simple': phosphor_UploadSimple,
+    'usb': phosphor_Usb,
+    'user': phosphor_User,
+    'user-circle': phosphor_UserCircle,
+    'user-circle-gear': phosphor_UserCircleGear,
+    'user-circle-minus': phosphor_UserCircleMinus,
+    'user-circle-plus': phosphor_UserCirclePlus,
+    'user-focus': phosphor_UserFocus,
+    'user-gear': phosphor_UserGear,
+    'user-list': phosphor_UserList,
+    'user-minus': phosphor_UserMinus,
+    'user-plus': phosphor_UserPlus,
+    'user-rectangle': phosphor_UserRectangle,
+    'user-square': phosphor_UserSquare,
+    'user-switch': phosphor_UserSwitch,
+    'users': phosphor_Users,
+    'users-four': phosphor_UsersFour,
+    'users-three': phosphor_UsersThree,
+    'van': phosphor_Van,
+    'variables': snowui_Variables,
+    'vault': phosphor_Vault,
+    'vertical-screen': snowui_VerticalScreen,
+    'vibrate': phosphor_Vibrate,
+    'video': phosphor_Video,
+    'video-camera': phosphor_VideoCamera,
+    'video-camera-slash': phosphor_VideoCameraSlash,
+    'vignette': phosphor_Vignette,
+    'vinyl-record': phosphor_VinylRecord,
+    'virtual-reality': phosphor_VirtualReality,
+    'virus': phosphor_Virus,
+    'voicemail': phosphor_Voicemail,
+    'volleyball': phosphor_Volleyball,
+    'wall': phosphor_Wall,
+    'wallet': phosphor_Wallet,
+    'warehouse': phosphor_Warehouse,
+    'warning': phosphor_Warning,
+    'warning-circle': phosphor_WarningCircle,
+    'warning-diamond': phosphor_WarningDiamond,
+    'warning-octagon': phosphor_WarningOctagon,
+    'watch': phosphor_Watch,
+    'wave-sawtooth': phosphor_WaveSawtooth,
+    'wave-sine': phosphor_WaveSine,
+    'wave-square': phosphor_WaveSquare,
+    'wave-triangle': phosphor_WaveTriangle,
+    'waveform': phosphor_Waveform,
+    'waves': phosphor_Waves,
+    'webcam': phosphor_Webcam,
+    'webcam-slash': phosphor_WebcamSlash,
+    'webhooks-logo': phosphor_WebhooksLogo,
+    'wechat-logo': phosphor_WechatLogo,
+    'whatsapp-logo': phosphor_WhatsappLogo,
+    'wheelchair': phosphor_Wheelchair,
+    'wheelchair-motion': phosphor_WheelchairMotion,
+    'wifi-high': phosphor_WifiHigh,
+    'wifi-low': phosphor_WifiLow,
+    'wifi-medium': phosphor_WifiMedium,
+    'wifi-none': phosphor_WifiNone,
+    'wifi-slash': phosphor_WifiSlash,
+    'wifi-x': phosphor_WifiX,
+    'wind': phosphor_Wind,
+    'windowed': snowui_Windowed,
+    'windows-logo': phosphor_WindowsLogo,
+    'wine': phosphor_Wine,
+    'wrench': phosphor_Wrench,
+    'x': phosphor_X,
+    'x-circle': snowui_XCircle,
+    'x-square': phosphor_XSquare,
+    'xlsx-icon': special_XlsxIcon,
+    'yin-yang': phosphor_YinYang,
+    'youtube-logo': phosphor_YoutubeLogo,
+  };
+}
+
+export const iconsByCollection: Registry = new Proxy({} as Registry, {
+  get(_, prop) { _ensure(); return _byCol![prop as string]; },
+  has(_, prop) { _ensure(); return (prop as string) in _byCol!; },
+  ownKeys() { _ensure(); return Object.keys(_byCol!); },
+  getOwnPropertyDescriptor(_, prop) {
+    _ensure();
+    if (!((prop as string) in _byCol!)) return undefined;
+    return { enumerable: true, configurable: true, value: _byCol![prop as string] };
+  },
+});
+
+export const iconsByDefault: DefaultMap = new Proxy({} as DefaultMap, {
+  get(_, prop) { _ensure(); return _byDef![prop as string]; },
+  has(_, prop) { _ensure(); return (prop as string) in _byDef!; },
+  ownKeys() { _ensure(); return Object.keys(_byDef!); },
+});
+
+export type IconUsageName = string;
+export type IconCollectionName = string;

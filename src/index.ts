@@ -485,6 +485,7 @@ export { default as Slack } from './logos/Slack';
 export { default as Snapchat } from './logos/Snapchat';
 export { default as SnowLogo } from './logos/SnowLogo';
 export { default as Stripe } from './logos/Stripe';
+export { default as Svelte } from './logos/Svelte';
 export { default as Telegram } from './logos/Telegram';
 export { default as Threads } from './logos/Threads';
 export { default as TikTok } from './logos/TikTok';

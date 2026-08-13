@@ -6,7 +6,6 @@ import ArrowLineLeft from './ArrowLineLeft';
 import ArrowLineRight from './ArrowLineRight';
 import ArrowLineUp from './ArrowLineUp';
 import ArrowLineUpDown from './ArrowLineUpDown';
-import ArrowRight from './ArrowRight';
 import ArrowRise from './ArrowRise';
 import ArrowsDown from './ArrowsDown';
 import ArrowsDownUp from './ArrowsDownUp';
@@ -81,7 +80,6 @@ export const iconsByName = {
   'arrow-line-right': ArrowLineRight,
   'arrow-line-up': ArrowLineUp,
   'arrow-line-up-down': ArrowLineUpDown,
-  'arrow-right': ArrowRight,
   'arrow-rise': ArrowRise,
   'arrows-down': ArrowsDown,
   'arrows-down-up': ArrowsDownUp,

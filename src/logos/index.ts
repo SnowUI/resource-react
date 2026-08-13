@@ -50,6 +50,7 @@ export { default as Slack } from './Slack';
 export { default as Snapchat } from './Snapchat';
 export { default as SnowLogo } from './SnowLogo';
 export { default as Stripe } from './Stripe';
+export { default as Svelte } from './Svelte';
 export { default as Telegram } from './Telegram';
 export { default as Threads } from './Threads';
 export { default as TikTok } from './TikTok';

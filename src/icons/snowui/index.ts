@@ -6,7 +6,6 @@ export { default as ArrowLineLeft } from './ArrowLineLeft';
 export { default as ArrowLineRight } from './ArrowLineRight';
 export { default as ArrowLineUp } from './ArrowLineUp';
 export { default as ArrowLineUpDown } from './ArrowLineUpDown';
-export { default as ArrowRight } from './ArrowRight';
 export { default as ArrowRise } from './ArrowRise';
 export { default as ArrowsDown } from './ArrowsDown';
 export { default as ArrowsDownUp } from './ArrowsDownUp';

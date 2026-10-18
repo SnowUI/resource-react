@@ -2,11 +2,16 @@
     "name": "@snowui-design-system/resource-react",
     "version": "1.0.28",
     "description": "A lightweight React component package that automatically generates icon, avatar, background, and other components from processed assets in @snowui-design-system/resource-base.",
+    "license": "SEE LICENSE IN PACKAGE_LICENSE.md",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
-        "build": "tsup",
-        "generate": "tsx scripts/generate-react.ts"
+        "build": "pnpm license:manifest && pnpm license:check:structure && tsup",
+        "generate": "tsx scripts/generate-react.ts",
+        "license:manifest": "node scripts/resource-license-manifest.mjs",
+        "license:check:structure": "node scripts/resource-license-manifest.mjs --check",
+        "license:check": "node scripts/resource-license-manifest.mjs --check --publication",
+        "prepublishOnly": "pnpm build && pnpm license:check"
     },
     "dependencies": {
         "@snowui-design-system/resource-base": "^1.0.29"

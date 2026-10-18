@@ -1,6 +1,6 @@
 {
     "name": "@snowui-design-system/resource-react",
-    "version": "1.0.28",
+    "version": "1.0.29",
     "description": "A lightweight React component package that automatically generates icon, avatar, background, and other components from processed assets in @snowui-design-system/resource-base.",
     "license": "SEE LICENSE IN PACKAGE_LICENSE.md",
     "main": "./dist/index.js",

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@snowui-design-system/resource-base':
-        specifier: ^1.0.29
-        version: 1.0.29
+        specifier: ^1.0.30
+        version: 1.0.30
       react:
         specifier: '>=18 <21'
         version: 18.3.1
@@ -390,8 +390,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@snowui-design-system/resource-base@1.0.29':
-    resolution: {integrity: sha512-6msay37snnpftva1ym3+Jl7p4fanj61H1c2F4zoFu5na5ZIAikq08I2wCnSvPZz/CnPsE3lNXUR8mUVNcKXFMA==}
+  '@snowui-design-system/resource-base@1.0.30':
+    resolution: {integrity: sha512-u60fTr513yQ8rn/IdanUm62HMVt5jCVa77jCPuwNdiigeouSo0KHkpJXkSEPpU/5dW5Gp+Z+wczzvGXNuTSHnw==}
 
   '@svgr/babel-plugin-add-jsx-attribute@8.0.0':
     resolution: {integrity: sha512-b9MIk7yhdS1pMCZM8VeNfUlSKVRhsHZNMl5O9SfaX0l0t5wjdgu4IDzGB8bpnGBBOjGST3rRFVsaaEtI4W6f7g==}
@@ -1226,7 +1226,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.53.2':
     optional: true
 
-  '@snowui-design-system/resource-base@1.0.29': {}
+  '@snowui-design-system/resource-base@1.0.30': {}
 
   '@svgr/babel-plugin-add-jsx-attribute@8.0.0(@babel/core@7.28.5)':
     dependencies:

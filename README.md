@@ -1,20 +1,14 @@
-# @snowui-design-system/resource-react
+# SnowUI Resource React
 
-SnowUI 资源库的 React 组件包，从 `@snowui-design-system/resource-base` 生成图标、头像、背景、插画、图片、Logo 等组件，并提供统一 `<Icon />` / `<IconProvider />` 以支持图标库切换。
+A React package generated from SnowUI Resource Base, providing icons, avatars, illustrations, logos, and other assets.
 
-仓库：[SnowUI/resource-react](https://github.com/SnowUI/resource-react)
+## Install
 
-## 安装
-
-```bash
+```sh
 pnpm add @snowui-design-system/resource-react
 ```
 
-`resource-base` 会作为依赖自动安装。
-
-## 直接组件模式
-
-直接导出的组件保持兼容，适合明确绑定某个具体素材的场景：
+## Use
 
 ```tsx
 import { FourLeafClover, AvatarByewind, Gradient01 } from "@snowui-design-system/resource-react";
@@ -30,90 +24,14 @@ export function Demo() {
 }
 ```
 
-## 通用图标模式
+`Icon` and `IconProvider` also support selecting an icon collection by name.
 
-业务代码优先使用稳定的 `usageName`，由 Provider 决定使用哪个图标库：
+## Develop
 
-```tsx
-import { Icon, IconProvider } from "@snowui-design-system/resource-react";
-
-export function App() {
-  return (
-    <IconProvider collection="snowui" fallbackCollections={["phosphor"]}>
-      <Icon name="arrow-line-right" size={24} />
-      <Icon name="home" size={24} />
-    </IconProvider>
-  );
-}
-```
-
-切换图标库时不改页面中的 `name`：
-
-```tsx
-<IconProvider collection="phosphor" fallbackCollections={["snowui"]}>
-  <Icon name="arrow-line-right" />
-</IconProvider>
-```
-
-Provider 也支持替换策略：
-
-```tsx
-<IconProvider
-  targetCollection="phosphor"
-  preserve={["usage:docx-icon", "snowui:dot-circle"]}
-  priority={["snowui", "phosphor", "special"]}
->
-  <Icon name="arrow-line-right" />
-</IconProvider>
-```
-
-## Props
-
-```ts
-type IconWeight = "regular" | "thin" | "light" | "bold" | "fill" | "duotone";
-
-interface IconProps {
-  name: string;
-  collection?: string;
-  size?: number | string;
-  color?: string;
-  weight?: IconWeight;
-  className?: string;
-}
-```
-
-## 开发
-
-```bash
+```sh
+pnpm install
 pnpm generate
 pnpm build
 ```
 
-生成脚本会优先读取同级 monorepo 中的 `../resource-base`，独立仓库中则读取已安装的 `@snowui-design-system/resource-base`。
-
-## 许可映射门禁
-
-手写 React 适配代码和 SnowUI 自有素材采用 `PACKAGE_LICENSE.md` 中的 MIT；Phosphor 保留原 MIT 与版权声明，其他第三方素材保留 Owner 核实的原许可。随包 `OWNER_RESOURCE_LICENSE_CONFIRMATION.md` 对应 Base 当前原始素材集合的批准 SHA，后续新增或修改不自动继承本次确认。`RESOURCE_LICENSE_MANIFEST.json` 将生成组件映射到 Base 素材条目，并分别继承 Owner 确认、自动映射核验、来源版本、适用授权和品牌标记。
-
-```bash
-pnpm license:check:structure
-pnpm license:check
-```
-
-前者检查清单新鲜度及未匹配／重复映射，供本地构建使用；后者还会在任一条目为 `unresolved` 时失败，并由 `prepublishOnly` 强制执行。
-
-## 发布与同步
-
-本目录对应 GitHub 仓库：
-
-```txt
-https://github.com/SnowUI/resource-react
-```
-
-统一脚本：
-
-```bash
-/Users/yuan/Project/snowui/scripts/publish-and-sync.sh --target resource-react --version patch --message "chore: release resource-react" --yes
-```
-
-发布顺序中，必须先发布 `resource-base`，再发布 `resource-react`。
+Generation uses a sibling `resource-base` directory when available, or the installed package in a standalone checkout.

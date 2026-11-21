@@ -441,6 +441,7 @@ export { default as AppleIntelligenceA } from './logos/AppleIntelligenceA';
 export { default as AppleIntelligenceB } from './logos/AppleIntelligenceB';
 export { default as Apple } from './logos/Apple';
 export { default as Arc } from './logos/Arc';
+export { default as Authenticator } from './logos/Authenticator';
 export { default as Behance } from './logos/Behance';
 export { default as ChatGpt } from './logos/ChatGpt';
 export { default as Claude } from './logos/Claude';

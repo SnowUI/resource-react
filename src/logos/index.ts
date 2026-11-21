@@ -6,6 +6,7 @@ export { default as AppleIntelligenceA } from './AppleIntelligenceA';
 export { default as AppleIntelligenceB } from './AppleIntelligenceB';
 export { default as Apple } from './Apple';
 export { default as Arc } from './Arc';
+export { default as Authenticator } from './Authenticator';
 export { default as Behance } from './Behance';
 export { default as ChatGpt } from './ChatGpt';
 export { default as Claude } from './Claude';

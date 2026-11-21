@@ -35445,14 +35445,34 @@ var Arc = ({ size = 32, width, height, ...rest }) => {
 };
 var Arc_default = Arc;
 
+// src/logos/Authenticator.tsx
+import AuthenticatorSrc from "@snowui-design-system/resource-base/assets/logos/authenticator.svg";
+import { jsx as jsx1774 } from "react/jsx-runtime";
+var Authenticator = ({ size = 32, width, height, ...rest }) => {
+  const resolvedWidth = size ?? width ?? 32;
+  const resolvedHeight = size ?? height ?? 32;
+  const imageSrc = AuthenticatorSrc;
+  return /* @__PURE__ */ jsx1774(
+    "img",
+    {
+      src: AuthenticatorSrc,
+      alt: "Authenticator",
+      width: resolvedWidth,
+      height: resolvedHeight,
+      ...rest
+    }
+  );
+};
+var Authenticator_default = Authenticator;
+
 // src/logos/Behance.tsx
 import BehanceSrc from "@snowui-design-system/resource-base/assets/logos/behance.svg";
-import { jsx as jsx1774 } from "react/jsx-runtime";
+import { jsx as jsx1775 } from "react/jsx-runtime";
 var Behance = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = BehanceSrc;
-  return /* @__PURE__ */ jsx1774(
+  return /* @__PURE__ */ jsx1775(
     "img",
     {
       src: BehanceSrc,
@@ -35467,12 +35487,12 @@ var Behance_default = Behance;
 
 // src/logos/ChatGpt.tsx
 import ChatGptSrc from "@snowui-design-system/resource-base/assets/logos/chat-gpt.svg";
-import { jsx as jsx1775 } from "react/jsx-runtime";
+import { jsx as jsx1776 } from "react/jsx-runtime";
 var ChatGpt = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ChatGptSrc;
-  return /* @__PURE__ */ jsx1775(
+  return /* @__PURE__ */ jsx1776(
     "img",
     {
       src: ChatGptSrc,
@@ -35487,12 +35507,12 @@ var ChatGpt_default = ChatGpt;
 
 // src/logos/Claude.tsx
 import ClaudeSrc from "@snowui-design-system/resource-base/assets/logos/claude.svg";
-import { jsx as jsx1776 } from "react/jsx-runtime";
+import { jsx as jsx1777 } from "react/jsx-runtime";
 var Claude = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ClaudeSrc;
-  return /* @__PURE__ */ jsx1776(
+  return /* @__PURE__ */ jsx1777(
     "img",
     {
       src: ClaudeSrc,
@@ -35507,12 +35527,12 @@ var Claude_default = Claude;
 
 // src/logos/Copilot.tsx
 import CopilotSrc from "@snowui-design-system/resource-base/assets/logos/copilot.svg";
-import { jsx as jsx1777 } from "react/jsx-runtime";
+import { jsx as jsx1778 } from "react/jsx-runtime";
 var Copilot = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = CopilotSrc;
-  return /* @__PURE__ */ jsx1777(
+  return /* @__PURE__ */ jsx1778(
     "img",
     {
       src: CopilotSrc,
@@ -35527,12 +35547,12 @@ var Copilot_default = Copilot;
 
 // src/logos/Discord.tsx
 import DiscordSrc from "@snowui-design-system/resource-base/assets/logos/discord.svg";
-import { jsx as jsx1778 } from "react/jsx-runtime";
+import { jsx as jsx1779 } from "react/jsx-runtime";
 var Discord = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DiscordSrc;
-  return /* @__PURE__ */ jsx1778(
+  return /* @__PURE__ */ jsx1779(
     "img",
     {
       src: DiscordSrc,
@@ -35547,12 +35567,12 @@ var Discord_default = Discord;
 
 // src/logos/Dribbble.tsx
 import DribbbleSrc from "@snowui-design-system/resource-base/assets/logos/dribbble.svg";
-import { jsx as jsx1779 } from "react/jsx-runtime";
+import { jsx as jsx1780 } from "react/jsx-runtime";
 var Dribbble = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DribbbleSrc;
-  return /* @__PURE__ */ jsx1779(
+  return /* @__PURE__ */ jsx1780(
     "img",
     {
       src: DribbbleSrc,
@@ -35567,12 +35587,12 @@ var Dribbble_default = Dribbble;
 
 // src/logos/Dropbox.tsx
 import DropboxSrc from "@snowui-design-system/resource-base/assets/logos/dropbox.svg";
-import { jsx as jsx1780 } from "react/jsx-runtime";
+import { jsx as jsx1781 } from "react/jsx-runtime";
 var Dropbox = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = DropboxSrc;
-  return /* @__PURE__ */ jsx1780(
+  return /* @__PURE__ */ jsx1781(
     "img",
     {
       src: DropboxSrc,
@@ -35587,12 +35607,12 @@ var Dropbox_default = Dropbox;
 
 // src/logos/Excel.tsx
 import ExcelSrc from "@snowui-design-system/resource-base/assets/logos/excel.svg";
-import { jsx as jsx1781 } from "react/jsx-runtime";
+import { jsx as jsx1782 } from "react/jsx-runtime";
 var Excel = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ExcelSrc;
-  return /* @__PURE__ */ jsx1781(
+  return /* @__PURE__ */ jsx1782(
     "img",
     {
       src: ExcelSrc,
@@ -35607,12 +35627,12 @@ var Excel_default = Excel;
 
 // src/logos/Facebook.tsx
 import FacebookSrc from "@snowui-design-system/resource-base/assets/logos/facebook.svg";
-import { jsx as jsx1782 } from "react/jsx-runtime";
+import { jsx as jsx1783 } from "react/jsx-runtime";
 var Facebook = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FacebookSrc;
-  return /* @__PURE__ */ jsx1782(
+  return /* @__PURE__ */ jsx1783(
     "img",
     {
       src: FacebookSrc,
@@ -35627,12 +35647,12 @@ var Facebook_default = Facebook;
 
 // src/logos/FigmaA.tsx
 import FigmaASrc from "@snowui-design-system/resource-base/assets/logos/figma-a.svg";
-import { jsx as jsx1783 } from "react/jsx-runtime";
+import { jsx as jsx1784 } from "react/jsx-runtime";
 var FigmaA = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FigmaASrc;
-  return /* @__PURE__ */ jsx1783(
+  return /* @__PURE__ */ jsx1784(
     "img",
     {
       src: FigmaASrc,
@@ -35647,12 +35667,12 @@ var FigmaA_default = FigmaA;
 
 // src/logos/FigmaB.tsx
 import FigmaBSrc from "@snowui-design-system/resource-base/assets/logos/figma-b.svg";
-import { jsx as jsx1784 } from "react/jsx-runtime";
+import { jsx as jsx1785 } from "react/jsx-runtime";
 var FigmaB = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FigmaBSrc;
-  return /* @__PURE__ */ jsx1784(
+  return /* @__PURE__ */ jsx1785(
     "img",
     {
       src: FigmaBSrc,
@@ -35667,12 +35687,12 @@ var FigmaB_default = FigmaB;
 
 // src/logos/Framer.tsx
 import FramerSrc from "@snowui-design-system/resource-base/assets/logos/framer.svg";
-import { jsx as jsx1785 } from "react/jsx-runtime";
+import { jsx as jsx1786 } from "react/jsx-runtime";
 var Framer = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = FramerSrc;
-  return /* @__PURE__ */ jsx1785(
+  return /* @__PURE__ */ jsx1786(
     "img",
     {
       src: FramerSrc,
@@ -35687,12 +35707,12 @@ var Framer_default = Framer;
 
 // src/logos/Gemini.tsx
 import GeminiSrc from "@snowui-design-system/resource-base/assets/logos/gemini.svg";
-import { jsx as jsx1786 } from "react/jsx-runtime";
+import { jsx as jsx1787 } from "react/jsx-runtime";
 var Gemini = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GeminiSrc;
-  return /* @__PURE__ */ jsx1786(
+  return /* @__PURE__ */ jsx1787(
     "img",
     {
       src: GeminiSrc,
@@ -35707,12 +35727,12 @@ var Gemini_default = Gemini;
 
 // src/logos/Github.tsx
 import GithubSrc from "@snowui-design-system/resource-base/assets/logos/github.svg";
-import { jsx as jsx1787 } from "react/jsx-runtime";
+import { jsx as jsx1788 } from "react/jsx-runtime";
 var Github = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GithubSrc;
-  return /* @__PURE__ */ jsx1787(
+  return /* @__PURE__ */ jsx1788(
     "img",
     {
       src: GithubSrc,
@@ -35727,12 +35747,12 @@ var Github_default = Github;
 
 // src/logos/GoogleDrive.tsx
 import GoogleDriveSrc from "@snowui-design-system/resource-base/assets/logos/google-drive.svg";
-import { jsx as jsx1788 } from "react/jsx-runtime";
+import { jsx as jsx1789 } from "react/jsx-runtime";
 var GoogleDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GoogleDriveSrc;
-  return /* @__PURE__ */ jsx1788(
+  return /* @__PURE__ */ jsx1789(
     "img",
     {
       src: GoogleDriveSrc,
@@ -35747,12 +35767,12 @@ var GoogleDrive_default = GoogleDrive;
 
 // src/logos/GooglePlay.tsx
 import GooglePlaySrc from "@snowui-design-system/resource-base/assets/logos/google-play.svg";
-import { jsx as jsx1789 } from "react/jsx-runtime";
+import { jsx as jsx1790 } from "react/jsx-runtime";
 var GooglePlay = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GooglePlaySrc;
-  return /* @__PURE__ */ jsx1789(
+  return /* @__PURE__ */ jsx1790(
     "img",
     {
       src: GooglePlaySrc,
@@ -35767,12 +35787,12 @@ var GooglePlay_default = GooglePlay;
 
 // src/logos/Google.tsx
 import GoogleSrc from "@snowui-design-system/resource-base/assets/logos/google.svg";
-import { jsx as jsx1790 } from "react/jsx-runtime";
+import { jsx as jsx1791 } from "react/jsx-runtime";
 var Google = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GoogleSrc;
-  return /* @__PURE__ */ jsx1790(
+  return /* @__PURE__ */ jsx1791(
     "img",
     {
       src: GoogleSrc,
@@ -35787,12 +35807,12 @@ var Google_default = Google;
 
 // src/logos/Grok.tsx
 import GrokSrc from "@snowui-design-system/resource-base/assets/logos/grok.svg";
-import { jsx as jsx1791 } from "react/jsx-runtime";
+import { jsx as jsx1792 } from "react/jsx-runtime";
 var Grok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GrokSrc;
-  return /* @__PURE__ */ jsx1791(
+  return /* @__PURE__ */ jsx1792(
     "img",
     {
       src: GrokSrc,
@@ -35807,12 +35827,12 @@ var Grok_default = Grok;
 
 // src/logos/Gumroad.tsx
 import GumroadSrc from "@snowui-design-system/resource-base/assets/logos/gumroad.svg";
-import { jsx as jsx1792 } from "react/jsx-runtime";
+import { jsx as jsx1793 } from "react/jsx-runtime";
 var Gumroad = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = GumroadSrc;
-  return /* @__PURE__ */ jsx1792(
+  return /* @__PURE__ */ jsx1793(
     "img",
     {
       src: GumroadSrc,
@@ -35827,12 +35847,12 @@ var Gumroad_default = Gumroad;
 
 // src/logos/ICloud.tsx
 import ICloudSrc from "@snowui-design-system/resource-base/assets/logos/i-cloud.svg";
-import { jsx as jsx1793 } from "react/jsx-runtime";
+import { jsx as jsx1794 } from "react/jsx-runtime";
 var ICloud = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ICloudSrc;
-  return /* @__PURE__ */ jsx1793(
+  return /* @__PURE__ */ jsx1794(
     "img",
     {
       src: ICloudSrc,
@@ -35847,12 +35867,12 @@ var ICloud_default = ICloud;
 
 // src/logos/Instagram.tsx
 import InstagramSrc from "@snowui-design-system/resource-base/assets/logos/instagram.svg";
-import { jsx as jsx1794 } from "react/jsx-runtime";
+import { jsx as jsx1795 } from "react/jsx-runtime";
 var Instagram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = InstagramSrc;
-  return /* @__PURE__ */ jsx1794(
+  return /* @__PURE__ */ jsx1795(
     "img",
     {
       src: InstagramSrc,
@@ -35867,12 +35887,12 @@ var Instagram_default = Instagram;
 
 // src/logos/LemonSqueezy.tsx
 import LemonSqueezySrc from "@snowui-design-system/resource-base/assets/logos/lemon-squeezy.svg";
-import { jsx as jsx1795 } from "react/jsx-runtime";
+import { jsx as jsx1796 } from "react/jsx-runtime";
 var LemonSqueezy = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LemonSqueezySrc;
-  return /* @__PURE__ */ jsx1795(
+  return /* @__PURE__ */ jsx1796(
     "img",
     {
       src: LemonSqueezySrc,
@@ -35887,12 +35907,12 @@ var LemonSqueezy_default = LemonSqueezy;
 
 // src/logos/LinkedIn.tsx
 import LinkedInSrc from "@snowui-design-system/resource-base/assets/logos/linked-in.svg";
-import { jsx as jsx1796 } from "react/jsx-runtime";
+import { jsx as jsx1797 } from "react/jsx-runtime";
 var LinkedIn = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LinkedInSrc;
-  return /* @__PURE__ */ jsx1796(
+  return /* @__PURE__ */ jsx1797(
     "img",
     {
       src: LinkedInSrc,
@@ -35907,12 +35927,12 @@ var LinkedIn_default = LinkedIn;
 
 // src/logos/Loop.tsx
 import LoopSrc from "@snowui-design-system/resource-base/assets/logos/loop.svg";
-import { jsx as jsx1797 } from "react/jsx-runtime";
+import { jsx as jsx1798 } from "react/jsx-runtime";
 var Loop = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = LoopSrc;
-  return /* @__PURE__ */ jsx1797(
+  return /* @__PURE__ */ jsx1798(
     "img",
     {
       src: LoopSrc,
@@ -35927,12 +35947,12 @@ var Loop_default = Loop;
 
 // src/logos/Mastercard.tsx
 import MastercardSrc from "@snowui-design-system/resource-base/assets/logos/mastercard.svg";
-import { jsx as jsx1798 } from "react/jsx-runtime";
+import { jsx as jsx1799 } from "react/jsx-runtime";
 var Mastercard = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MastercardSrc;
-  return /* @__PURE__ */ jsx1798(
+  return /* @__PURE__ */ jsx1799(
     "img",
     {
       src: MastercardSrc,
@@ -35947,12 +35967,12 @@ var Mastercard_default = Mastercard;
 
 // src/logos/Medium.tsx
 import MediumSrc from "@snowui-design-system/resource-base/assets/logos/medium.svg";
-import { jsx as jsx1799 } from "react/jsx-runtime";
+import { jsx as jsx1800 } from "react/jsx-runtime";
 var Medium = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MediumSrc;
-  return /* @__PURE__ */ jsx1799(
+  return /* @__PURE__ */ jsx1800(
     "img",
     {
       src: MediumSrc,
@@ -35967,12 +35987,12 @@ var Medium_default = Medium;
 
 // src/logos/Messenger.tsx
 import MessengerSrc from "@snowui-design-system/resource-base/assets/logos/messenger.svg";
-import { jsx as jsx1800 } from "react/jsx-runtime";
+import { jsx as jsx1801 } from "react/jsx-runtime";
 var Messenger = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MessengerSrc;
-  return /* @__PURE__ */ jsx1800(
+  return /* @__PURE__ */ jsx1801(
     "img",
     {
       src: MessengerSrc,
@@ -35987,12 +36007,12 @@ var Messenger_default = Messenger;
 
 // src/logos/Meta.tsx
 import MetaSrc from "@snowui-design-system/resource-base/assets/logos/meta.svg";
-import { jsx as jsx1801 } from "react/jsx-runtime";
+import { jsx as jsx1802 } from "react/jsx-runtime";
 var Meta = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MetaSrc;
-  return /* @__PURE__ */ jsx1801(
+  return /* @__PURE__ */ jsx1802(
     "img",
     {
       src: MetaSrc,
@@ -36007,12 +36027,12 @@ var Meta_default = Meta;
 
 // src/logos/Microsoft.tsx
 import MicrosoftSrc from "@snowui-design-system/resource-base/assets/logos/microsoft.svg";
-import { jsx as jsx1802 } from "react/jsx-runtime";
+import { jsx as jsx1803 } from "react/jsx-runtime";
 var Microsoft = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MicrosoftSrc;
-  return /* @__PURE__ */ jsx1802(
+  return /* @__PURE__ */ jsx1803(
     "img",
     {
       src: MicrosoftSrc,
@@ -36027,12 +36047,12 @@ var Microsoft_default = Microsoft;
 
 // src/logos/Midjourney.tsx
 import MidjourneySrc from "@snowui-design-system/resource-base/assets/logos/midjourney.svg";
-import { jsx as jsx1803 } from "react/jsx-runtime";
+import { jsx as jsx1804 } from "react/jsx-runtime";
 var Midjourney = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = MidjourneySrc;
-  return /* @__PURE__ */ jsx1803(
+  return /* @__PURE__ */ jsx1804(
     "img",
     {
       src: MidjourneySrc,
@@ -36047,12 +36067,12 @@ var Midjourney_default = Midjourney;
 
 // src/logos/Nintendo.tsx
 import NintendoSrc from "@snowui-design-system/resource-base/assets/logos/nintendo.svg";
-import { jsx as jsx1804 } from "react/jsx-runtime";
+import { jsx as jsx1805 } from "react/jsx-runtime";
 var Nintendo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = NintendoSrc;
-  return /* @__PURE__ */ jsx1804(
+  return /* @__PURE__ */ jsx1805(
     "img",
     {
       src: NintendoSrc,
@@ -36067,12 +36087,12 @@ var Nintendo_default = Nintendo;
 
 // src/logos/Notion.tsx
 import NotionSrc from "@snowui-design-system/resource-base/assets/logos/notion.svg";
-import { jsx as jsx1805 } from "react/jsx-runtime";
+import { jsx as jsx1806 } from "react/jsx-runtime";
 var Notion = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = NotionSrc;
-  return /* @__PURE__ */ jsx1805(
+  return /* @__PURE__ */ jsx1806(
     "img",
     {
       src: NotionSrc,
@@ -36087,12 +36107,12 @@ var Notion_default = Notion;
 
 // src/logos/OneDrive.tsx
 import OneDriveSrc from "@snowui-design-system/resource-base/assets/logos/one-drive.svg";
-import { jsx as jsx1806 } from "react/jsx-runtime";
+import { jsx as jsx1807 } from "react/jsx-runtime";
 var OneDrive = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = OneDriveSrc;
-  return /* @__PURE__ */ jsx1806(
+  return /* @__PURE__ */ jsx1807(
     "img",
     {
       src: OneDriveSrc,
@@ -36107,12 +36127,12 @@ var OneDrive_default = OneDrive;
 
 // src/logos/OneNote.tsx
 import OneNoteSrc from "@snowui-design-system/resource-base/assets/logos/one-note.svg";
-import { jsx as jsx1807 } from "react/jsx-runtime";
+import { jsx as jsx1808 } from "react/jsx-runtime";
 var OneNote = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = OneNoteSrc;
-  return /* @__PURE__ */ jsx1807(
+  return /* @__PURE__ */ jsx1808(
     "img",
     {
       src: OneNoteSrc,
@@ -36127,12 +36147,12 @@ var OneNote_default = OneNote;
 
 // src/logos/PayPal.tsx
 import PayPalSrc from "@snowui-design-system/resource-base/assets/logos/pay-pal.svg";
-import { jsx as jsx1808 } from "react/jsx-runtime";
+import { jsx as jsx1809 } from "react/jsx-runtime";
 var PayPal = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PayPalSrc;
-  return /* @__PURE__ */ jsx1808(
+  return /* @__PURE__ */ jsx1809(
     "img",
     {
       src: PayPalSrc,
@@ -36147,12 +36167,12 @@ var PayPal_default = PayPal;
 
 // src/logos/Perplexity.tsx
 import PerplexitySrc from "@snowui-design-system/resource-base/assets/logos/perplexity.svg";
-import { jsx as jsx1809 } from "react/jsx-runtime";
+import { jsx as jsx1810 } from "react/jsx-runtime";
 var Perplexity = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PerplexitySrc;
-  return /* @__PURE__ */ jsx1809(
+  return /* @__PURE__ */ jsx1810(
     "img",
     {
       src: PerplexitySrc,
@@ -36167,12 +36187,12 @@ var Perplexity_default = Perplexity;
 
 // src/logos/Pinterest.tsx
 import PinterestSrc from "@snowui-design-system/resource-base/assets/logos/pinterest.svg";
-import { jsx as jsx1810 } from "react/jsx-runtime";
+import { jsx as jsx1811 } from "react/jsx-runtime";
 var Pinterest = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PinterestSrc;
-  return /* @__PURE__ */ jsx1810(
+  return /* @__PURE__ */ jsx1811(
     "img",
     {
       src: PinterestSrc,
@@ -36187,12 +36207,12 @@ var Pinterest_default = Pinterest;
 
 // src/logos/PowerPoint.tsx
 import PowerPointSrc from "@snowui-design-system/resource-base/assets/logos/power-point.svg";
-import { jsx as jsx1811 } from "react/jsx-runtime";
+import { jsx as jsx1812 } from "react/jsx-runtime";
 var PowerPoint = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = PowerPointSrc;
-  return /* @__PURE__ */ jsx1811(
+  return /* @__PURE__ */ jsx1812(
     "img",
     {
       src: PowerPointSrc,
@@ -36207,12 +36227,12 @@ var PowerPoint_default = PowerPoint;
 
 // src/logos/Reddit.tsx
 import RedditSrc from "@snowui-design-system/resource-base/assets/logos/reddit.svg";
-import { jsx as jsx1812 } from "react/jsx-runtime";
+import { jsx as jsx1813 } from "react/jsx-runtime";
 var Reddit = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = RedditSrc;
-  return /* @__PURE__ */ jsx1812(
+  return /* @__PURE__ */ jsx1813(
     "img",
     {
       src: RedditSrc,
@@ -36227,12 +36247,12 @@ var Reddit_default = Reddit;
 
 // src/logos/RssLogo.tsx
 import RssLogoSrc from "@snowui-design-system/resource-base/assets/logos/rss-logo.svg";
-import { jsx as jsx1813 } from "react/jsx-runtime";
+import { jsx as jsx1814 } from "react/jsx-runtime";
 var RssLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = RssLogoSrc;
-  return /* @__PURE__ */ jsx1813(
+  return /* @__PURE__ */ jsx1814(
     "img",
     {
       src: RssLogoSrc,
@@ -36247,12 +36267,12 @@ var RssLogo_default = RssLogo;
 
 // src/logos/Slack.tsx
 import SlackSrc from "@snowui-design-system/resource-base/assets/logos/slack.svg";
-import { jsx as jsx1814 } from "react/jsx-runtime";
+import { jsx as jsx1815 } from "react/jsx-runtime";
 var Slack = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SlackSrc;
-  return /* @__PURE__ */ jsx1814(
+  return /* @__PURE__ */ jsx1815(
     "img",
     {
       src: SlackSrc,
@@ -36267,12 +36287,12 @@ var Slack_default = Slack;
 
 // src/logos/Snapchat.tsx
 import SnapchatSrc from "@snowui-design-system/resource-base/assets/logos/snapchat.svg";
-import { jsx as jsx1815 } from "react/jsx-runtime";
+import { jsx as jsx1816 } from "react/jsx-runtime";
 var Snapchat = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SnapchatSrc;
-  return /* @__PURE__ */ jsx1815(
+  return /* @__PURE__ */ jsx1816(
     "img",
     {
       src: SnapchatSrc,
@@ -36287,12 +36307,12 @@ var Snapchat_default = Snapchat;
 
 // src/logos/SnowLogo.tsx
 import SnowLogoSrc from "@snowui-design-system/resource-base/assets/logos/snow-logo.svg";
-import { jsx as jsx1816 } from "react/jsx-runtime";
+import { jsx as jsx1817 } from "react/jsx-runtime";
 var SnowLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SnowLogoSrc;
-  return /* @__PURE__ */ jsx1816(
+  return /* @__PURE__ */ jsx1817(
     "img",
     {
       src: SnowLogoSrc,
@@ -36307,12 +36327,12 @@ var SnowLogo_default = SnowLogo;
 
 // src/logos/Stripe.tsx
 import StripeSrc from "@snowui-design-system/resource-base/assets/logos/stripe.svg";
-import { jsx as jsx1817 } from "react/jsx-runtime";
+import { jsx as jsx1818 } from "react/jsx-runtime";
 var Stripe = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = StripeSrc;
-  return /* @__PURE__ */ jsx1817(
+  return /* @__PURE__ */ jsx1818(
     "img",
     {
       src: StripeSrc,
@@ -36327,12 +36347,12 @@ var Stripe_default = Stripe;
 
 // src/logos/Svelte.tsx
 import SvelteSrc from "@snowui-design-system/resource-base/assets/logos/svelte.svg";
-import { jsx as jsx1818 } from "react/jsx-runtime";
+import { jsx as jsx1819 } from "react/jsx-runtime";
 var Svelte = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = SvelteSrc;
-  return /* @__PURE__ */ jsx1818(
+  return /* @__PURE__ */ jsx1819(
     "img",
     {
       src: SvelteSrc,
@@ -36347,12 +36367,12 @@ var Svelte_default = Svelte;
 
 // src/logos/Telegram.tsx
 import TelegramSrc from "@snowui-design-system/resource-base/assets/logos/telegram.svg";
-import { jsx as jsx1819 } from "react/jsx-runtime";
+import { jsx as jsx1820 } from "react/jsx-runtime";
 var Telegram = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TelegramSrc;
-  return /* @__PURE__ */ jsx1819(
+  return /* @__PURE__ */ jsx1820(
     "img",
     {
       src: TelegramSrc,
@@ -36367,12 +36387,12 @@ var Telegram_default = Telegram;
 
 // src/logos/Threads.tsx
 import ThreadsSrc from "@snowui-design-system/resource-base/assets/logos/threads.svg";
-import { jsx as jsx1820 } from "react/jsx-runtime";
+import { jsx as jsx1821 } from "react/jsx-runtime";
 var Threads = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = ThreadsSrc;
-  return /* @__PURE__ */ jsx1820(
+  return /* @__PURE__ */ jsx1821(
     "img",
     {
       src: ThreadsSrc,
@@ -36387,12 +36407,12 @@ var Threads_default = Threads;
 
 // src/logos/TikTok.tsx
 import TikTokSrc from "@snowui-design-system/resource-base/assets/logos/tik-tok.svg";
-import { jsx as jsx1821 } from "react/jsx-runtime";
+import { jsx as jsx1822 } from "react/jsx-runtime";
 var TikTok = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TikTokSrc;
-  return /* @__PURE__ */ jsx1821(
+  return /* @__PURE__ */ jsx1822(
     "img",
     {
       src: TikTokSrc,
@@ -36407,12 +36427,12 @@ var TikTok_default = TikTok;
 
 // src/logos/Twitch.tsx
 import TwitchSrc from "@snowui-design-system/resource-base/assets/logos/twitch.svg";
-import { jsx as jsx1822 } from "react/jsx-runtime";
+import { jsx as jsx1823 } from "react/jsx-runtime";
 var Twitch = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitchSrc;
-  return /* @__PURE__ */ jsx1822(
+  return /* @__PURE__ */ jsx1823(
     "img",
     {
       src: TwitchSrc,
@@ -36427,12 +36447,12 @@ var Twitch_default = Twitch;
 
 // src/logos/Twitter.tsx
 import TwitterSrc from "@snowui-design-system/resource-base/assets/logos/twitter.svg";
-import { jsx as jsx1823 } from "react/jsx-runtime";
+import { jsx as jsx1824 } from "react/jsx-runtime";
 var Twitter = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = TwitterSrc;
-  return /* @__PURE__ */ jsx1823(
+  return /* @__PURE__ */ jsx1824(
     "img",
     {
       src: TwitterSrc,
@@ -36447,12 +36467,12 @@ var Twitter_default = Twitter;
 
 // src/logos/Visa.tsx
 import VisaSrc from "@snowui-design-system/resource-base/assets/logos/visa.svg";
-import { jsx as jsx1824 } from "react/jsx-runtime";
+import { jsx as jsx1825 } from "react/jsx-runtime";
 var Visa = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = VisaSrc;
-  return /* @__PURE__ */ jsx1824(
+  return /* @__PURE__ */ jsx1825(
     "img",
     {
       src: VisaSrc,
@@ -36467,12 +36487,12 @@ var Visa_default = Visa;
 
 // src/logos/WhatsApp.tsx
 import WhatsAppSrc from "@snowui-design-system/resource-base/assets/logos/whats-app.svg";
-import { jsx as jsx1825 } from "react/jsx-runtime";
+import { jsx as jsx1826 } from "react/jsx-runtime";
 var WhatsApp = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WhatsAppSrc;
-  return /* @__PURE__ */ jsx1825(
+  return /* @__PURE__ */ jsx1826(
     "img",
     {
       src: WhatsAppSrc,
@@ -36487,12 +36507,12 @@ var WhatsApp_default = WhatsApp;
 
 // src/logos/Word.tsx
 import WordSrc from "@snowui-design-system/resource-base/assets/logos/word.svg";
-import { jsx as jsx1826 } from "react/jsx-runtime";
+import { jsx as jsx1827 } from "react/jsx-runtime";
 var Word = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = WordSrc;
-  return /* @__PURE__ */ jsx1826(
+  return /* @__PURE__ */ jsx1827(
     "img",
     {
       src: WordSrc,
@@ -36507,12 +36527,12 @@ var Word_default = Word;
 
 // src/logos/XLogo.tsx
 import XLogoSrc from "@snowui-design-system/resource-base/assets/logos/x-logo.svg";
-import { jsx as jsx1827 } from "react/jsx-runtime";
+import { jsx as jsx1828 } from "react/jsx-runtime";
 var XLogo = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = XLogoSrc;
-  return /* @__PURE__ */ jsx1827(
+  return /* @__PURE__ */ jsx1828(
     "img",
     {
       src: XLogoSrc,
@@ -36527,12 +36547,12 @@ var XLogo_default = XLogo;
 
 // src/logos/Youtube.tsx
 import YoutubeSrc from "@snowui-design-system/resource-base/assets/logos/youtube.svg";
-import { jsx as jsx1828 } from "react/jsx-runtime";
+import { jsx as jsx1829 } from "react/jsx-runtime";
 var Youtube = ({ size = 32, width, height, ...rest }) => {
   const resolvedWidth = size ?? width ?? 32;
   const resolvedHeight = size ?? height ?? 32;
   const imageSrc = YoutubeSrc;
-  return /* @__PURE__ */ jsx1828(
+  return /* @__PURE__ */ jsx1829(
     "img",
     {
       src: YoutubeSrc,
@@ -36553,11 +36573,11 @@ var componentNames = {
   emoji: ["BombEmoji", "FaceBlowingKiss", "FaceSteamFromNose", "FaceTearsJoy", "GrinningCat", "GrinningFaceSweat", "HeartArrow", "HundredPoints", "LoudlyCryingFace", "RedHeart", "RobotEmoji", "SeeMonkey", "SkullCrossbones", "SmilingFaceHearts", "SmilingFaceHorns", "SmilingFaceSunglasses", "SnowflakeEmoji", "Snowman", "UmbrellaEmoji", "WinkingFace", "WinkingFaceTongue"],
   illustrations: ["Humanoid", "Illustration", "Illustration01", "Illustration02", "Illustration03", "Illustration04", "Illustration05", "Illustration06", "Illustration07", "Illustration08", "Illustration09", "Illustration10", "Illustration11", "Illustration12", "Illustration13", "Illustration14", "Illustration15", "Illustration16", "Illustration17", "Illustration18", "Illustration19", "Illustration20", "Illustration21", "Illustration22", "Illustration23", "Illustration24", "Illustration25", "Illustration26", "Illustration27", "Illustration28", "LineDrawing01", "LineDrawing02", "LineDrawing03", "QrCodeBig", "Voice"],
   images: ["Image01"],
-  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "RssLogo", "Slack", "Snapchat", "SnowLogo", "Stripe", "Svelte", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "XLogo", "Youtube"]
+  logos: ["Android", "AppStore", "Apple", "AppleIntelligence2a", "AppleIntelligence2b", "AppleIntelligenceA", "AppleIntelligenceB", "Arc", "Authenticator", "Behance", "ChatGpt", "Claude", "Copilot", "Discord", "Dribbble", "Dropbox", "Excel", "Facebook", "FigmaA", "FigmaB", "Framer", "Gemini", "Github", "Google", "GoogleDrive", "GooglePlay", "Grok", "Gumroad", "ICloud", "Instagram", "LemonSqueezy", "LinkedIn", "Loop", "Mastercard", "Medium", "Messenger", "Meta", "Microsoft", "Midjourney", "Nintendo", "Notion", "OneDrive", "OneNote", "PayPal", "Perplexity", "Pinterest", "PowerPoint", "Reddit", "RssLogo", "Slack", "Snapchat", "SnowLogo", "Stripe", "Svelte", "Telegram", "Threads", "TikTok", "Twitch", "Twitter", "Visa", "WhatsApp", "Word", "XLogo", "Youtube"]
 };
 
 // src/lib/Icon.tsx
-import { jsx as jsx1829 } from "react/jsx-runtime";
+import { jsx as jsx1830 } from "react/jsx-runtime";
 function Icon({
   name,
   collection: explicitCollection,
@@ -36598,7 +36618,7 @@ function Icon({
     Component = iconsByDefault[name];
   }
   if (!Component) return null;
-  return /* @__PURE__ */ jsx1829(Component, { weight, size, color, className, ...rest });
+  return /* @__PURE__ */ jsx1830(Component, { weight, size, color, className, ...rest });
 }
 export {
   Add_default as Add,
@@ -36755,6 +36775,7 @@ export {
   AsteriskSimple_default as AsteriskSimple,
   At_default as At,
   Atom_default as Atom,
+  Authenticator_default as Authenticator,
   Avatar3d01_default as Avatar3d01,
   Avatar3d0112_default as Avatar3d0112,
   Avatar3d01120_default as Avatar3d01120,

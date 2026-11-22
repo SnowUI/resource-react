@@ -1,10 +1,10 @@
-# 第三方版权声明
+# Third-party notices
 
-本包包含由 Phosphor Icons 提供的图标及其衍生 React 组件。以下声明仅适用于这些 Phosphor 素材，不改变 SnowUI 自有代码、图标或其他素材的许可。
+Phosphor Icons in `src/icons/phosphor/` are distributed under the following license. This notice applies to those icons; it does not define the license for other SnowUI resources in this package.
 
-来源：https://github.com/phosphor-icons/core
-许可证原文：https://github.com/phosphor-icons/core/blob/main/LICENSE
+Source: https://github.com/phosphor-icons/core
 
+```text
 MIT License
 
 Copyright (c) 2023 Phosphor Icons
@@ -26,3 +26,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```

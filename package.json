@@ -3,6 +3,14 @@
     "version": "1.0.30",
     "description": "A lightweight React component package that automatically generates icon, avatar, background, and other components from processed assets in @snowui-design-system/resource-base.",
     "license": "SEE LICENSE IN PACKAGE_LICENSE.md",
+    "homepage": "https://snowui.dev",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SnowUI/resource-react.git"
+    },
+    "bugs": {
+        "url": "https://github.com/SnowUI/resource-react/issues"
+    },
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
